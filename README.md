@@ -28,6 +28,8 @@ El repositorio espera dos secretos de GitHub Actions:
 
 Los secretos se configuran en **Settings → Secrets and variables → Actions**. No deben guardarse en archivos, commits ni mensajes públicos. Las ejecuciones incrementales avisan únicamente de identificadores que aún no estaban archivados; una reconstrucción histórica no envía notificaciones.
 
+La ejecución manual del workflow permite activar `test_telegram` para comprobar de extremo a extremo que GitHub Actions puede entregar mensajes al chat configurado.
+
 ## Desarrollo local
 
 ```bash
