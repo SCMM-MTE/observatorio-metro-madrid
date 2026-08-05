@@ -23,6 +23,7 @@ const root = resolve(import.meta.dirname, '..')
 const dataPath = resolve(root, 'public/data/archive.json')
 const backfill = process.argv.includes('--backfill')
 const now = new Date().toISOString()
+const notificationOutput = process.env.NOTIFICATION_OUTPUT
 
 async function readArchive() {
   try {
@@ -87,6 +88,7 @@ async function collectEmployment() {
 }
 
 const archive = await readArchive()
+const existingIds = new Set((archive.items || []).map((item) => item.id))
 archive.version = 1
 archive.sources ||= {}
 archive.sources.empleo ||= { checkedAt: null, ok: false, message: 'Pendiente de primera consulta', recordsSeen: 0 }
@@ -132,6 +134,7 @@ archive.items = archive.items.map((item) => {
     tags: [...new Set([...(item.tags || []), 'empleo'])],
   }
 })
+const newItems = archive.items.filter((item) => !existingIds.has(item.id))
 archive.generatedAt = now
 archive.coverage = {
   bocm: formatCoverage(archive.items, 'bocm'),
@@ -142,3 +145,10 @@ archive.coverage = {
 await mkdir(dirname(dataPath), { recursive: true })
 await writeFile(dataPath, `${JSON.stringify(archive, null, 2)}\n`, 'utf8')
 console.log(`Archivo actualizado: ${archive.items.length} publicaciones en total`)
+console.log(`Novedades detectadas: ${newItems.length}`)
+
+if (notificationOutput) {
+  const outputPath = resolve(notificationOutput)
+  await mkdir(dirname(outputPath), { recursive: true })
+  await writeFile(outputPath, `${JSON.stringify({ generatedAt: now, items: newItems }, null, 2)}\n`, 'utf8')
+}

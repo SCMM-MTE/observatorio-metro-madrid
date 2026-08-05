@@ -12,6 +12,7 @@ import {
   parseEmploymentPage,
   parseSpanishDate,
 } from '../scripts/lib.mjs'
+import { buildTelegramMessages, escapeTelegramHtml } from '../scripts/telegram.mjs'
 
 test('detecta referencias concretas a Metro sin aceptar unidades métricas', () => {
   assert.equal(isMetroRelated('Metro de Madrid, S.A.'), true)
@@ -64,4 +65,25 @@ test('normaliza fechas españolas y conserva firstSeen al fusionar', () => {
   const merged = mergeItems(old, [{ ...old[0], title: 'Nuevo' }], 'new')
   assert.equal(merged[0].title, 'Nuevo')
   assert.equal(merged[0].firstSeenAt, 'old')
+})
+
+test('crea avisos de Telegram con enlaces seguros y plazas por puesto', () => {
+  const messages = buildTelegramMessages([{
+    id: 'empleo-1',
+    source: 'empleo',
+    title: 'Convocatoria <urgente>',
+    url: 'https://example.com/oferta?a=1&b=2',
+    publishedAt: '2026-08-05',
+    jobPositions: [
+      { position: 'Maquinista & operador/a', vacancies: 30 },
+      { position: 'Jefe/a de Sector', vacancies: 12 },
+    ],
+  }])
+
+  assert.equal(messages.length, 1)
+  assert.match(messages[0], /1 nueva publicación/)
+  assert.match(messages[0], /30 plazas · Maquinista &amp; operador\/a/)
+  assert.match(messages[0], /12 plazas · Jefe\/a de Sector/)
+  assert.match(messages[0], /Convocatoria &lt;urgente&gt;/)
+  assert.equal(escapeTelegramHtml('a&<b>"'), 'a&amp;&lt;b&gt;&quot;')
 })
