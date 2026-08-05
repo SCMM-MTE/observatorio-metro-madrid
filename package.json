@@ -10,6 +10,7 @@
     "test": "node --test",
     "ingest": "node scripts/ingest.mjs",
     "backfill": "node scripts/ingest.mjs --backfill",
+    "notify:telegram": "node scripts/notify-telegram.mjs",
     "check:data": "node scripts/validate-data.mjs"
   },
   "dependencies": {

@@ -1,0 +1,68 @@
+name: Recolectar publicaciones
+
+on:
+  schedule:
+    - cron: '*/30 * * * *'
+  workflow_dispatch:
+    inputs:
+      backfill:
+        description: 'Reconstruir el histórico completo'
+        required: false
+        type: boolean
+        default: false
+
+concurrency:
+  group: metro-data-collector
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - name: Descargar repositorio
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Preparar Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Instalar dependencias
+        run: npm ci
+
+      - name: Recolectar fuentes oficiales
+        run: ${{ inputs.backfill && 'npm run backfill' || 'npm run ingest' }}
+        env:
+          NOTIFICATION_OUTPUT: ${{ runner.temp }}/metro-new-items.json
+
+      - name: Validar archivo
+        run: npm run check:data
+
+      - name: Guardar cambios
+        run: |
+          if git diff --quiet -- public/data/archive.json; then
+            echo "No hay cambios que guardar"
+            exit 0
+          fi
+          git config user.name "observatorio-metro-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add public/data/archive.json
+          git commit -m "data: actualizar publicaciones oficiales"
+          git pull --rebase origin "${GITHUB_REF_NAME}"
+          git push origin "HEAD:${GITHUB_REF_NAME}"
+
+      - name: Avisar por Telegram
+        if: ${{ inputs.backfill != true }}
+        run: npm run notify:telegram
+        env:
+          NOTIFICATION_OUTPUT: ${{ runner.temp }}/metro-new-items.json
+          APP_URL: https://bocm.vercel.app
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}

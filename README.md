@@ -17,6 +17,17 @@ La recolección se ejecuta automáticamente cada 30 minutos mediante GitHub Acti
 5. Una publicación ya archivada nunca se elimina porque desaparezca de un feed reciente.
 6. Si una fuente falla, el archivo anterior se conserva y la incidencia queda visible en el estado de la fuente.
 
+## Avisos por Telegram
+
+Cuando hay publicaciones nuevas, el workflow puede enviar un resumen inmediato por Telegram. En las convocatorias de empleo incluye el número de plazas desglosado por puesto.
+
+El repositorio espera dos secretos de GitHub Actions:
+
+- `TELEGRAM_BOT_TOKEN`: token creado con `@BotFather`.
+- `TELEGRAM_CHAT_ID`: identificador del chat que ha iniciado una conversación con el bot.
+
+Los secretos se configuran en **Settings → Secrets and variables → Actions**. No deben guardarse en archivos, commits ni mensajes públicos. Las ejecuciones incrementales avisan únicamente de identificadores que aún no estaban archivados; una reconstrucción histórica no envía notificaciones.
+
 ## Desarrollo local
 
 ```bash
