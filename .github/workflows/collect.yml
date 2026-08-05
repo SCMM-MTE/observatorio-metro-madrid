@@ -15,6 +15,14 @@ on:
         required: false
         type: boolean
         default: false
+      bocm_from:
+        description: 'Fecha inicial BOCM para reparar un rango (AAAA-MM-DD)'
+        required: false
+        type: string
+      bocm_to:
+        description: 'Fecha final BOCM para reparar un rango (AAAA-MM-DD)'
+        required: false
+        type: string
 
 concurrency:
   group: metro-data-collector
@@ -46,6 +54,8 @@ jobs:
         run: ${{ inputs.backfill && 'npm run backfill' || 'npm run ingest' }}
         env:
           NOTIFICATION_OUTPUT: ${{ runner.temp }}/metro-new-items.json
+          BOCM_FROM: ${{ inputs.bocm_from }}
+          BOCM_TO: ${{ inputs.bocm_to }}
 
       - name: Validar archivo
         run: npm run check:data
@@ -64,7 +74,7 @@ jobs:
           git push origin "HEAD:${GITHUB_REF_NAME}"
 
       - name: Avisar por Telegram
-        if: ${{ inputs.backfill != true }}
+        if: ${{ inputs.backfill != true && inputs.bocm_from == '' }}
         run: npm run notify:telegram
         env:
           NOTIFICATION_OUTPUT: ${{ runner.temp }}/metro-new-items.json

@@ -65,6 +65,8 @@ npm run build
 
 - `npm run ingest`: consulta incremental para la ejecución de cada 30 minutos.
 - `npm run backfill`: recorre las páginas históricas disponibles en los buscadores oficiales.
+- `npm run backfill:bocm`: reconstruye únicamente el histórico completo del BOCM.
+- `BOCM_FROM=2026-01-01 BOCM_TO=2026-12-31 npm run ingest`: repara un rango concreto del BOCM mediante búsqueda de texto completo.
 - El workflow `Recolectar publicaciones` también puede ejecutarse manualmente desde GitHub con la opción de reconstrucción histórica.
 
 GitHub puede retrasar unos minutos las tareas programadas en momentos de alta carga. La expresión configurada es `*/30 * * * *`.

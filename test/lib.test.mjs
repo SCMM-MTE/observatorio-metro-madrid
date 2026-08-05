@@ -2,11 +2,13 @@ import test from 'node:test'
 import assert from 'node:assert/strict'
 import {
   isMetroRelated,
+  bocmDateRangeSearchUrl,
   extractPosition,
   extractJobPositions,
   extractVacancies,
   mergeItems,
   parseBocmSummaryXml,
+  parseBocmSearchPage,
   parseContractsFeed,
   parseContractsSearchPage,
   parseEmploymentPage,
@@ -59,6 +61,28 @@ test('extrae resultados del buscador de contratación', () => {
   const parsed = parseContractsSearchPage(html)
   assert.equal(parsed.count, 7119)
   assert.equal(parsed.records[0].publishedAt, '2026-08-05')
+})
+
+test('el buscador BOCM conserva resultados cuyo organismo es Metro y pagina con filtros', () => {
+  const html = `<div class="view-content">
+    <div class="views-row"><article class="node-orden" about="/bocm-20260727-25?language=es">
+      <div class="field-name-field-orden-organo-y-organismo-1"><div class="field-item">CONSEJERÍA DE VIVIENDA</div><div class="field-item">METRO DE MADRID, S. A.</div></div>
+      <div class="field-name-field-short-description">Convocatoria contrato – Revisión general de equipos de producción de aire</div>
+      <div class="field-name-field-pdf-file"><a href="/BOCM-20260727-25.PDF">PDF</a></div>
+      <div class="field-name-orden-xml"><a href="/BOCM-20260727-25.xml">XML</a></div>
+    </article></div>
+    <div class="views-row"><article class="node-orden" about="/bocm-20260727-36"><div class="field-name-field-orden-organo-y-organismo-1"><div class="field-item">OTRO ORGANISMO</div></div><div class="field-name-field-short-description">Parcela de veinte metros cuadrados</div></article></div>
+  </div><div class="view-footer">Mostrando 1 - 10 de 12</div>
+  <a href="/advanced-search/p/field_bulletin_field_date/date__27-07-2026/field_bulletin_field_date_1/date__27-07-2026/language/es/page/1/busqueda/Metro">2</a>`
+  const parsed = parseBocmSearchPage(html)
+  assert.equal(parsed.records.length, 1)
+  assert.equal(parsed.records[0].id, 'bocm:bocm-20260727-25')
+  assert.match(parsed.records[0].issuer, /METRO DE MADRID/)
+  assert.match(parsed.pageUrlTemplate, /page\/\{page\}\/busqueda\/Metro$/)
+
+  const rangeUrl = new URL(bocmDateRangeSearchUrl('2026-07-27', '2026-07-28'))
+  assert.equal(rangeUrl.searchParams.get('field_bulletin_field_date[date]'), '27-07-2026')
+  assert.equal(rangeUrl.searchParams.get('field_bulletin_field_date_1[date]'), '28-07-2026')
 })
 
 test('normaliza fechas españolas y conserva firstSeen al fusionar', () => {
