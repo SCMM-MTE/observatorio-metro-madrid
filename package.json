@@ -10,6 +10,7 @@
     "test": "node --test",
     "ingest": "node scripts/ingest.mjs",
     "backfill": "node scripts/ingest.mjs --backfill",
+    "backfill:bocm": "node scripts/ingest.mjs --bocm-backfill",
     "notify:telegram": "node scripts/notify-telegram.mjs",
     "telegram:webhook": "node scripts/configure-telegram-webhook.mjs",
     "check:data": "node scripts/validate-data.mjs"

@@ -3,6 +3,7 @@ import { dirname, resolve } from 'node:path'
 import {
   BOCM_RSS,
   METRO_EMPLOYMENT_URL,
+  bocmDateRangeSearchUrl,
   bocmSearchUrl,
   contractsFeedUrl,
   contractsSearchUrl,
@@ -21,9 +22,13 @@ import {
 
 const root = resolve(import.meta.dirname, '..')
 const dataPath = resolve(root, 'public/data/archive.json')
-const backfill = process.argv.includes('--backfill')
+const fullBackfill = process.argv.includes('--backfill')
+const bocmBackfillOnly = process.argv.includes('--bocm-backfill')
+const backfill = fullBackfill || bocmBackfillOnly
 const now = new Date().toISOString()
 const notificationOutput = process.env.NOTIFICATION_OUTPUT
+const bocmFrom = process.env.BOCM_FROM
+const bocmTo = process.env.BOCM_TO || bocmFrom
 
 async function readArchive() {
   try {
@@ -43,20 +48,34 @@ async function collectRecentBocm() {
   const rss = await fetchText(BOCM_RSS)
   const summaryUrls = parseBocmRss(rss)
   const pages = await mapConcurrent(summaryUrls, 5, async (url) => parseBocmSummaryXml(await fetchText(url)))
-  return pages.flat()
+  const end = now.slice(0, 10)
+  const startDate = new Date(`${end}T00:00:00Z`)
+  startDate.setUTCDate(startDate.getUTCDate() - Number(process.env.BOCM_RECENT_DAYS || 14))
+  const recentSearch = await collectBocmSearch(bocmDateRangeSearchUrl(startDate.toISOString().slice(0, 10), end), 'BOCM reciente')
+  return pages.flat().concat(recentSearch)
+}
+
+async function collectBocmSearch(firstUrl, label = 'BOCM', pageLimit) {
+  const firstHtml = await fetchText(firstUrl, { timeoutMs: 90_000 })
+  const first = parseBocmSearchPage(firstHtml)
+  const maxPages = Math.min(Number(pageLimit || Math.ceil(first.count / 10)), Math.ceil(first.count / 10))
+  const pages = Array.from({ length: Math.max(0, maxPages - 1) }, (_, index) => index + 1)
+  if (maxPages > 1 && !first.pageUrlTemplate) throw new Error('El BOCM no devolvió la URL de paginación esperada')
+  console.log(`${label}: ${first.count} resultados candidatos, consultando ${maxPages} páginas`)
+  const rest = await mapConcurrent(pages, 10, async (page) => {
+    if (page % 100 === 0) console.log(`${label}: página ${page}/${maxPages - 1}`)
+    const url = first.pageUrlTemplate.replace('{page}', String(page))
+    return parseBocmSearchPage(await fetchText(url, { timeoutMs: 90_000 })).records
+  })
+  return first.records.concat(rest.flat())
 }
 
 async function collectBocmBackfill() {
-  const firstHtml = await fetchText(bocmSearchUrl(0), { timeoutMs: 90_000 })
-  const first = parseBocmSearchPage(firstHtml)
-  const maxPages = Number(process.env.BOCM_BACKFILL_PAGES || Math.ceil(first.count / 10))
-  const pages = Array.from({ length: Math.max(0, maxPages - 1) }, (_, index) => index + 1)
-  console.log(`BOCM: ${first.count} resultados candidatos, consultando ${maxPages} páginas`)
-  const rest = await mapConcurrent(pages, 10, async (page) => {
-    if (page % 100 === 0) console.log(`BOCM: página ${page}/${maxPages - 1}`)
-    return parseBocmSearchPage(await fetchText(bocmSearchUrl(page), { timeoutMs: 90_000 })).records
-  })
-  return first.records.concat(rest.flat())
+  return collectBocmSearch(bocmSearchUrl(0), 'BOCM histórico', process.env.BOCM_BACKFILL_PAGES)
+}
+
+async function collectBocmDateRange() {
+  return collectBocmSearch(bocmDateRangeSearchUrl(bocmFrom, bocmTo), `BOCM ${bocmFrom} a ${bocmTo}`)
 }
 
 async function collectRecentContracts() {
@@ -94,11 +113,13 @@ archive.sources ||= {}
 archive.sources.empleo ||= { checkedAt: null, ok: false, message: 'Pendiente de primera consulta', recordsSeen: 0 }
 let incoming = []
 
-for (const [source, collect] of [
-  ['bocm', backfill ? collectBocmBackfill : collectRecentBocm],
-  ['contratos', backfill ? collectContractsBackfill : collectRecentContracts],
+const collectors = [
+  ['bocm', backfill ? collectBocmBackfill : bocmFrom ? collectBocmDateRange : collectRecentBocm],
+  ['contratos', fullBackfill ? collectContractsBackfill : collectRecentContracts],
   ['empleo', collectEmployment],
-]) {
+]
+
+for (const [source, collect] of bocmBackfillOnly ? collectors.slice(0, 1) : collectors) {
   try {
     const records = await collect()
     const uniqueRecords = [...new Map(records.map((record) => [record.id, record])).values()]

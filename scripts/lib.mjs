@@ -249,13 +249,31 @@ export function parseBocmSearchPage(html) {
   })
   const countText = cleanText($('.view-footer').text())
   const count = Number((countText.match(/de\s+([\d.]+)/i)?.[1] || '0').replaceAll('.', ''))
-  return { records, count }
+  const pageOnePath = $('a[href*="/page/1/"]').first().attr('href') || ''
+  const pageUrlTemplate = pageOnePath
+    ? new URL(pageOnePath, 'https://www.bocm.es').href.replace('/page/1/', '/page/{page}/')
+    : ''
+  return { records, count, pageUrlTemplate }
 }
 
 export function bocmSearchUrl(page = 0) {
   if (page) return `${BOCM_SEARCH}/page/${page}/busqueda/Metro`
   const url = new URL(BOCM_SEARCH)
   url.searchParams.set('search_api_views_fulltext_1', 'Metro')
+  return url.href
+}
+
+function formatBocmDate(value) {
+  const match = String(value || '').match(/^(\d{4})-(\d{2})-(\d{2})$/)
+  if (!match) throw new Error(`Fecha BOCM no válida: ${value}`)
+  return `${match[3]}-${match[2]}-${match[1]}`
+}
+
+export function bocmDateRangeSearchUrl(from, to = from) {
+  const url = new URL(BOCM_SEARCH)
+  url.searchParams.set('search_api_views_fulltext_1', 'Metro')
+  url.searchParams.set('field_bulletin_field_date[date]', formatBocmDate(from))
+  url.searchParams.set('field_bulletin_field_date_1[date]', formatBocmDate(to))
   return url.href
 }
 
