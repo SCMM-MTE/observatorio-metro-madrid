@@ -19,7 +19,9 @@ try {
   throw error
 }
 
-const messages = buildTelegramMessages(payload.items, process.env.APP_URL)
+const messages = process.env.TELEGRAM_TEST === 'true'
+  ? ['🚇 <b>Prueba correcta</b>\n\nGitHub Actions puede enviar avisos del Observatorio Metro a este chat.']
+  : buildTelegramMessages(payload.items, process.env.APP_URL)
 if (!messages.length) {
   console.log('Telegram: no hay publicaciones nuevas')
   process.exit(0)
