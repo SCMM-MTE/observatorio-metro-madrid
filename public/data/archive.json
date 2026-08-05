@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-05T10:15:42.452Z",
+  "generatedAt": "2026-08-05T11:18:43.405Z",
   "coverage": {
     "bocm": "2009-12-01 a 2026-08-05",
     "contratos": "2017-02-02 a 2026-08-05",
@@ -8,25 +8,39 @@
   },
   "sources": {
     "bocm": {
-      "checkedAt": "2026-08-05T10:15:42.452Z",
-      "ok": true,
-      "message": "3898 registros relevantes comprobados",
-      "recordsSeen": 3898
+      "checkedAt": "2026-08-05T11:18:43.405Z",
+      "ok": false,
+      "message": "Error de consulta: No se pudo consultar https://www.bocm.es/boletin/CM_Boletin_BOCM/2026/07/31/BOCM-20260731181.xml?language=es: fetch failed",
+      "recordsSeen": 0
     },
     "contratos": {
-      "checkedAt": "2026-08-05T10:14:22.549Z",
+      "checkedAt": "2026-08-05T11:18:43.405Z",
       "ok": true,
-      "message": "57 registros relevantes comprobados",
-      "recordsSeen": 57
+      "message": "56 registros relevantes comprobados",
+      "recordsSeen": 56
     },
     "empleo": {
-      "checkedAt": "2026-08-05T10:14:22.549Z",
+      "checkedAt": "2026-08-05T11:18:43.405Z",
       "ok": false,
       "message": "Error de consulta: El portal de Empleo Metro ha rechazado temporalmente la consulta automatizada",
       "recordsSeen": 0
     }
   },
   "items": [
+    {
+      "id": "contratos:servicio-transporte-autobus-viajeros-afectados-suspensiones-servicio-no-6",
+      "source": "contratos",
+      "title": "Servicio de transporte en autobús para los viajeros afectados por las suspensiones de servicio no programadas en las líneas 7B, 9B y 12 de Metro de Madrid",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Convocatoria anunciada a licitación",
+      "status": "En plazo",
+      "expediente": "6012600197",
+      "publishedAt": "2026-08-05",
+      "updatedAt": "2026-08-05T12:21:00+02:00",
+      "deadline": "2026-09-30",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-transporte-autobus-viajeros-afectados-suspensiones-servicio-no-6",
+      "firstSeenAt": "2026-08-05T08:03:18.389Z"
+    },
     {
       "id": "contratos:servicio-seis-puntos-servicio-biblioteca-metro-madrid-bibliometro-direccion",
       "source": "contratos",
@@ -1807,20 +1821,6 @@
       "updatedAt": "2026-07-16T11:51:00+02:00",
       "deadline": "2026-03-25",
       "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-mantenimiento-integral-824-equipos-instalaciones-climatizacion-ubicados",
-      "firstSeenAt": "2026-08-05T08:03:18.389Z"
-    },
-    {
-      "id": "contratos:servicio-transporte-autobus-viajeros-afectados-suspensiones-servicio-no-6",
-      "source": "contratos",
-      "title": "Servicio de transporte en autobús para los viajeros afectados por las suspensiones de servicio no programadas en las líneas 7B, 9B y 12 de Metro de Madrid",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Convocatoria anunciada a licitación",
-      "status": "En plazo",
-      "expediente": "6012600197",
-      "publishedAt": "2026-07-16",
-      "updatedAt": "2026-07-16T09:47:00+02:00",
-      "deadline": "2026-09-16",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-transporte-autobus-viajeros-afectados-suspensiones-servicio-no-6",
       "firstSeenAt": "2026-08-05T08:03:18.389Z"
     },
     {
