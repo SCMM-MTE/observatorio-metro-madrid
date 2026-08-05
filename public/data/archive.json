@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-05T08:34:07.594Z",
+  "generatedAt": "2026-08-05T09:08:19.537Z",
   "coverage": {
     "bocm": "2009-12-01 a 2026-08-05",
     "contratos": "2017-02-02 a 2026-08-05",
@@ -8,25 +8,42 @@
   },
   "sources": {
     "bocm": {
-      "checkedAt": "2026-08-05T08:34:07.594Z",
-      "ok": true,
-      "message": "20 registros relevantes comprobados",
-      "recordsSeen": 20
+      "checkedAt": "2026-08-05T09:08:19.537Z",
+      "ok": false,
+      "message": "Error de consulta: No se pudo consultar https://www.bocm.es/boletin/CM_Boletin_BOCM/2026/07/31/BOCM-20260731181.xml?language=es: fetch failed",
+      "recordsSeen": 0
     },
     "contratos": {
-      "checkedAt": "2026-08-05T08:34:07.594Z",
+      "checkedAt": "2026-08-05T09:08:19.537Z",
       "ok": true,
-      "message": "55 registros relevantes comprobados",
-      "recordsSeen": 55
+      "message": "56 registros relevantes comprobados",
+      "recordsSeen": 56
     },
     "empleo": {
-      "checkedAt": "2026-08-05T08:34:07.594Z",
+      "checkedAt": "2026-08-05T09:08:19.537Z",
       "ok": false,
       "message": "Error de consulta: El portal de Empleo Metro ha rechazado temporalmente la consulta automatizada",
       "recordsSeen": 0
     }
   },
   "items": [
+    {
+      "id": "contratos:suministro-instalacion-mantenimiento-preventivo-sistema-automatizado",
+      "source": "contratos",
+      "title": "Suministro, instalación y mantenimiento preventivo de un sistema automatizado de almacenamiento de repuestos paletizados y preparación de pedidos para Metro de Madrid",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Resuelta / Finalizada",
+      "status": "Resuelta / Finalizada",
+      "expediente": "6012600026",
+      "publishedAt": "2026-08-05",
+      "updatedAt": "2026-08-05T11:02:40+02:00",
+      "deadline": "2026-03-04",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/suministro-instalacion-mantenimiento-preventivo-sistema-automatizado",
+      "firstSeenAt": "2026-08-05T08:03:18.389Z",
+      "summary": "Id licitación: 6012600026;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 3840174.72 EUR;",
+      "amount": 3840174.72,
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-01/6012600026_ppt_signed.pdf"
+    },
     {
       "id": "contratos:servicio-trabajos-auxiliares-reparacion-mantenimiento-instalaciones-proteccion-0",
       "source": "contratos",
@@ -502,20 +519,6 @@
       "updatedAt": "2026-07-29T08:30:00+02:00",
       "deadline": "2026-05-22",
       "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/suministro-equipos-respiracion-motorizados-componentes-proteccion-trabajadores",
-      "firstSeenAt": "2026-08-05T08:03:18.389Z"
-    },
-    {
-      "id": "contratos:suministro-instalacion-mantenimiento-preventivo-sistema-automatizado",
-      "source": "contratos",
-      "title": "Suministro, instalación y mantenimiento preventivo de un sistema automatizado de almacenamiento de repuestos paletizados y preparación de pedidos para Metro de Madrid",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Convocatoria anunciada a licitación",
-      "status": "Resuelta / Finalizada",
-      "expediente": "6012600026",
-      "publishedAt": "2026-07-29",
-      "updatedAt": "2026-07-29T08:17:00+02:00",
-      "deadline": "2026-03-04",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/suministro-instalacion-mantenimiento-preventivo-sistema-automatizado",
       "firstSeenAt": "2026-08-05T08:03:18.389Z"
     },
     {
