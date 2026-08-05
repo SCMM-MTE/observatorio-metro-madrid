@@ -92,6 +92,18 @@ try {
     $chatId | gh secret set TELEGRAM_CHAT_ID --repo $repository
     if ($LASTEXITCODE -ne 0) { throw 'GitHub no pudo guardar TELEGRAM_CHAT_ID.' }
 
+    $webhookSecret = [Guid]::NewGuid().ToString('N')
+    $webhookSecret | gh secret set TELEGRAM_WEBHOOK_SECRET --repo $repository
+    if ($LASTEXITCODE -ne 0) { throw 'GitHub no pudo guardar TELEGRAM_WEBHOOK_SECRET.' }
+    $webhookSecret | npx.cmd --yes vercel@latest env add TELEGRAM_WEBHOOK_SECRET production --force --sensitive --yes
+    if ($LASTEXITCODE -ne 0) { throw 'Vercel no pudo guardar TELEGRAM_WEBHOOK_SECRET.' }
+
+    Write-Host 'Desplegando el webhook de consultas en Vercel...' -ForegroundColor Cyan
+    npx.cmd --yes vercel@latest --prod --yes
+    if ($LASTEXITCODE -ne 0) { throw 'Vercel no pudo desplegar el webhook.' }
+    gh workflow run configure-telegram.yml --repo $repository
+    if ($LASTEXITCODE -ne 0) { throw 'GitHub no pudo iniciar la configuracion del webhook.' }
+
     $test = Invoke-TelegramApi -Token $token -Method 'sendMessage' -Body @{
         chat_id = $chatId
         text = "Avisos activados`n`nEl Observatorio Metro te notificara cuando encuentre una nueva publicacion."
@@ -109,6 +121,7 @@ catch {
 }
 finally {
     $token = $null
+    $webhookSecret = $null
     [GC]::Collect()
     Read-Host 'Pulsa INTRO para cerrar'
 }

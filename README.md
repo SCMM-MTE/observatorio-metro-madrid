@@ -30,6 +30,21 @@ Los secretos se configuran en **Settings → Secrets and variables → Actions**
 
 La ejecución manual del workflow permite activar `test_telegram` para comprobar de extremo a extremo que GitHub Actions puede entregar mensajes al chat configurado.
 
+### Consultas desde el bot
+
+El endpoint `/api/telegram` recibe webhooks firmados de Telegram y consulta el mismo archivo público que utiliza la web. No almacena el token del bot en Vercel. Comandos disponibles:
+
+- `/ultimas`
+- `/buscar linea 11`
+- `/empleo`
+- `/plazas`
+- `/contratos`
+- `/bocm`
+- `/expediente 6012600026`
+- `/ayuda`
+
+Los mensajes que no comienzan por `/` se interpretan como búsquedas libres. El workflow manual `Configurar bot de Telegram` registra el webhook y el menú de comandos usando secretos de GitHub.
+
 ## Desarrollo local
 
 ```bash

@@ -13,6 +13,8 @@ import {
   parseSpanishDate,
 } from '../scripts/lib.mjs'
 import { buildTelegramMessages, escapeTelegramHtml } from '../scripts/telegram.mjs'
+import { buildBotReply, normalizeQuery } from '../scripts/bot-query.mjs'
+import telegramHandler from '../api/telegram.mjs'
 
 test('detecta referencias concretas a Metro sin aceptar unidades métricas', () => {
   assert.equal(isMetroRelated('Metro de Madrid, S.A.'), true)
@@ -86,4 +88,97 @@ test('crea avisos de Telegram con enlaces seguros y plazas por puesto', () => {
   assert.match(messages[0], /12 plazas · Jefe\/a de Sector/)
   assert.match(messages[0], /Convocatoria &lt;urgente&gt;/)
   assert.equal(escapeTelegramHtml('a&<b>"'), 'a&amp;&lt;b&gt;&quot;')
+})
+
+const botItems = [
+  {
+    id: 'contrato-1',
+    source: 'contratos',
+    title: 'Obras de ampliación de la línea 11',
+    expediente: '6012600026',
+    publishedAt: '2026-08-05',
+    updatedAt: '2026-08-05T12:00:00+02:00',
+    url: 'https://example.com/contrato',
+    amount: 2500000,
+  },
+  {
+    id: 'empleo-1',
+    source: 'bocm',
+    title: 'Proceso selectivo de Metro de Madrid',
+    publishedAt: '2026-08-04',
+    updatedAt: '2026-08-04T12:00:00+02:00',
+    url: 'https://example.com/empleo',
+    vacancies: 60,
+    tags: ['empleo'],
+    jobPositions: [
+      { position: 'Maquinista de Tracción Eléctrica', vacancies: 30 },
+      { position: 'Jefe/a de Sector', vacancies: 30 },
+    ],
+  },
+]
+
+test('el bot busca sin distinguir acentos y localiza expedientes', () => {
+  assert.equal(normalizeQuery('Línea 11'), 'linea 11')
+  const search = buildBotReply(botItems, '/buscar linea 11')
+  assert.match(search, /Obras de ampliación de la línea 11/)
+  assert.match(search, /2\.500\.000/)
+  assert.match(buildBotReply(botItems, '/expediente 6012600026'), /Exp\. 6012600026/)
+})
+
+test('el bot muestra las plazas desglosadas y ofrece ayuda', () => {
+  const jobs = buildBotReply(botItems, '/plazas')
+  assert.match(jobs, /30 plazas · Maquinista de Tracción Eléctrica/)
+  assert.match(jobs, /30 plazas · Jefe\/a de Sector/)
+  assert.match(buildBotReply(botItems, '/ayuda'), /\/buscar linea 11/)
+  assert.match(buildBotReply(botItems, 'ampliacion linea'), /Obras de ampliación/)
+})
+
+function mockResponse() {
+  return {
+    statusCode: 200,
+    body: null,
+    headers: {},
+    status(code) {
+      this.statusCode = code
+      return this
+    },
+    json(body) {
+      this.body = body
+      return this
+    },
+    setHeader(name, value) {
+      this.headers[name] = value
+    },
+  }
+}
+
+test('el webhook rechaza peticiones sin firma y responde consultas autorizadas', async () => {
+  const previousSecret = process.env.TELEGRAM_WEBHOOK_SECRET
+  const previousFetch = globalThis.fetch
+  process.env.TELEGRAM_WEBHOOK_SECRET = 'firma-segura-de-prueba'
+  globalThis.fetch = async () => ({
+    ok: true,
+    json: async () => ({ items: botItems }),
+  })
+
+  try {
+    const rejected = mockResponse()
+    await telegramHandler({ method: 'POST', headers: {}, body: {} }, rejected)
+    assert.equal(rejected.statusCode, 403)
+
+    const accepted = mockResponse()
+    await telegramHandler({
+      method: 'POST',
+      headers: { 'x-telegram-bot-api-secret-token': 'firma-segura-de-prueba' },
+      body: { message: { chat: { id: 12345 }, text: '/buscar linea 11' } },
+    }, accepted)
+    assert.equal(accepted.statusCode, 200)
+    assert.equal(accepted.body.method, 'sendMessage')
+    assert.equal(accepted.body.chat_id, 12345)
+    assert.match(accepted.body.text, /Obras de ampliación/)
+  } finally {
+    globalThis.fetch = previousFetch
+    if (previousSecret === undefined) delete process.env.TELEGRAM_WEBHOOK_SECRET
+    else process.env.TELEGRAM_WEBHOOK_SECRET = previousSecret
+  }
 })
