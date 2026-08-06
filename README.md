@@ -12,21 +12,21 @@ La recolección se ejecuta automáticamente cada 30 minutos mediante GitHub Acti
 
 1. El BOCM se consulta mediante su RSS de sumarios y los XML oficiales de cada boletín.
 2. Contratación se consulta mediante el feed ATOM/CODICE oficial y el buscador filtrado por `Metro de Madrid, S.A.`.
-3. Empleo Metro se monitoriza para archivar convocatorias y extraer el número de plazas por puesto.
+3. Empleo Metro se monitoriza para archivar convocatorias y extraer el número de plazas por puesto. Si su protección bloquea el acceso automatizado, la cobertura continúa mediante los anuncios oficiales del BOCM y el estado de la fuente lo indica expresamente.
 4. Los registros se normalizan y fusionan por URL/identificador estable.
 5. Una publicación ya archivada nunca se elimina porque desaparezca de un feed reciente.
-6. Si una fuente falla, el archivo anterior se conserva y la incidencia queda visible en el estado de la fuente.
+6. Si una fuente falla por completo, el archivo anterior se conserva, la incidencia queda visible, Telegram avisa del cambio de estado y el workflow termina con error. Un XML aislado del BOCM no invalida el resto del lote.
 
 ## Avisos por Telegram
 
-Cuando hay publicaciones nuevas, el workflow puede enviar un resumen inmediato por Telegram. En las convocatorias de empleo incluye el número de plazas desglosado por puesto.
+Cuando hay publicaciones nuevas o cambios materiales en registros existentes, el workflow envía un aviso inmediato por Telegram. Todos los registros se reparten en tantos mensajes como sean necesarios, sin omitir los que excedan un límite de resumen. En las convocatorias de empleo incluye el número de plazas desglosado por puesto.
 
 El repositorio espera dos secretos de GitHub Actions:
 
 - `TELEGRAM_BOT_TOKEN`: token creado con `@BotFather`.
 - `TELEGRAM_CHAT_ID`: identificador del chat que ha iniciado una conversación con el bot.
 
-Los secretos se configuran en **Settings → Secrets and variables → Actions**. No deben guardarse en archivos, commits ni mensajes públicos. Las ejecuciones incrementales avisan únicamente de identificadores que aún no estaban archivados; una reconstrucción histórica no envía notificaciones.
+Los secretos se configuran en **Settings → Secrets and variables → Actions**. No deben guardarse en archivos, commits ni mensajes públicos. Las ejecuciones incrementales avisan de identificadores nuevos y de cambios relevantes en fecha, estado, contenido, plazas o documentos asociados; una reconstrucción histórica no envía notificaciones.
 
 La ejecución manual del workflow permite activar `test_telegram` para comprobar de extremo a extremo que GitHub Actions puede entregar mensajes al chat configurado.
 
@@ -58,6 +58,7 @@ Comprobaciones:
 ```bash
 npm test
 npm run check:data
+npm run check:health
 npm run build
 ```
 
@@ -69,7 +70,7 @@ npm run build
 - `BOCM_FROM=2026-01-01 BOCM_TO=2026-12-31 npm run ingest`: repara un rango concreto del BOCM mediante búsqueda de texto completo.
 - El workflow `Recolectar publicaciones` también puede ejecutarse manualmente desde GitHub con la opción de reconstrucción histórica.
 
-GitHub puede retrasar unos minutos las tareas programadas en momentos de alta carga. La expresión configurada es `*/30 * * * *`.
+GitHub puede retrasar unos minutos las tareas programadas en momentos de alta carga. La expresión configurada es `7,37 * * * *`, cada 30 minutos y fuera de los minutos de mayor saturación.
 
 ## Alcance
 

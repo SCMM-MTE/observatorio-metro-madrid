@@ -6,6 +6,8 @@ import {
   extractPosition,
   extractJobPositions,
   extractVacancies,
+  findNotificationItems,
+  formatItemCoverage,
   mergeItems,
   parseBocmSummaryXml,
   parseBocmSearchPage,
@@ -91,6 +93,25 @@ test('normaliza fechas españolas y conserva firstSeen al fusionar', () => {
   const merged = mergeItems(old, [{ ...old[0], title: 'Nuevo' }], 'new')
   assert.equal(merged[0].title, 'Nuevo')
   assert.equal(merged[0].firstSeenAt, 'old')
+  assert.equal(formatItemCoverage(merged), '2026-01-01 a 2026-01-01')
+})
+
+test('avisa de IDs nuevas y de cambios materiales sin repetir registros idénticos', () => {
+  const existing = [
+    { id: 'igual', title: 'Sin cambios', source: 'contratos', publishedAt: '2026-08-05', updatedAt: '2026-08-05T10:00:00Z', url: 'https://example.com/igual' },
+    { id: 'actualizado', title: 'Contrato', source: 'contratos', status: 'En plazo', publishedAt: '2026-08-05', updatedAt: '2026-08-05T10:00:00Z', url: 'https://example.com/actualizado' },
+  ]
+  const incoming = [
+    existing[0],
+    { ...existing[1], status: 'Adjudicado', updatedAt: '2026-08-06T10:00:00Z' },
+    { id: 'nuevo', title: 'Nueva convocatoria', source: 'bocm', publishedAt: '2026-08-06', url: 'https://example.com/nuevo' },
+  ]
+  const merged = mergeItems(existing, incoming, 'now')
+  const notifications = findNotificationItems(existing, merged, incoming)
+  assert.deepEqual(notifications.map(({ id, notificationKind }) => [id, notificationKind]).sort(), [
+    ['actualizado', 'updated'],
+    ['nuevo', 'new'],
+  ])
 })
 
 test('crea avisos de Telegram con enlaces seguros y plazas por puesto', () => {
@@ -112,6 +133,31 @@ test('crea avisos de Telegram con enlaces seguros y plazas por puesto', () => {
   assert.match(messages[0], /12 plazas · Jefe\/a de Sector/)
   assert.match(messages[0], /Convocatoria &lt;urgente&gt;/)
   assert.equal(escapeTelegramHtml('a&<b>"'), 'a&amp;&lt;b&gt;&quot;')
+})
+
+test('Telegram incluye todos los registros, reparte mensajes largos y avisa de recuperaciones', () => {
+  const items = Array.from({ length: 40 }, (_, index) => ({
+    id: `registro-${index}`,
+    source: 'bocm',
+    title: `Registro completo ${index} ${'detalle '.repeat(12)}`,
+    url: `https://example.com/${index}`,
+    publishedAt: '2026-08-06',
+    notificationKind: index === 0 ? 'updated' : 'new',
+  }))
+  const messages = buildTelegramMessages(items, 'https://bocm.vercel.app', [{
+    source: 'bocm',
+    kind: 'recovered',
+    message: 'Consulta restablecida',
+  }])
+  const combined = messages.join('\n')
+  assert.ok(messages.length > 2)
+  assert.ok(messages.every((message) => message.length <= 4096))
+  assert.match(combined, /BOCM recuperada/)
+  assert.match(combined, /1 actualizadas/)
+  for (let index = 0; index < items.length; index += 1) {
+    assert.match(combined, new RegExp(`Registro completo ${index}\\b`))
+  }
+  assert.doesNotMatch(combined, /… y \d+ más/)
 })
 
 const botItems = [

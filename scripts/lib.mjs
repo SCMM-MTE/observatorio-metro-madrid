@@ -459,8 +459,36 @@ export function mergeItems(existing, incoming, seenAt) {
   return [...map.values()].sort((a, b) => String(b.updatedAt || b.publishedAt).localeCompare(String(a.updatedAt || a.publishedAt)))
 }
 
-export function formatCoverage(items, source) {
-  const dates = items.filter((item) => item.source === source).map((item) => item.publishedAt).filter(Boolean).sort()
+const notificationFields = [
+  'title', 'summary', 'issuer', 'publicationType', 'status', 'expediente', 'amount',
+  'vacancies', 'position', 'jobPositions', 'deadline', 'publishedAt', 'updatedAt',
+  'url', 'pdfUrl', 'xmlUrl', 'tags',
+]
+
+function notificationFingerprint(item) {
+  return JSON.stringify(Object.fromEntries(notificationFields.map((field) => [field, item?.[field] ?? null])))
+}
+
+export function findNotificationItems(existing, merged, incoming) {
+  const previousById = new Map(existing.map((item) => [item.id, item]))
+  const incomingIds = new Set(incoming.map((item) => item.id))
+  return merged.flatMap((item) => {
+    if (!incomingIds.has(item.id)) return []
+    const previous = previousById.get(item.id)
+    if (!previous) return [{ ...item, notificationKind: 'new' }]
+    if (notificationFingerprint(previous) !== notificationFingerprint(item)) {
+      return [{ ...item, notificationKind: 'updated' }]
+    }
+    return []
+  })
+}
+
+export function formatItemCoverage(items) {
+  const dates = items.map((item) => item.publishedAt).filter(Boolean).sort()
   if (!dates.length) return 'Sin publicaciones localizadas'
   return `${dates[0].slice(0, 10)} a ${dates.at(-1).slice(0, 10)}`
+}
+
+export function formatCoverage(items, source) {
+  return formatItemCoverage(items.filter((item) => item.source === source))
 }

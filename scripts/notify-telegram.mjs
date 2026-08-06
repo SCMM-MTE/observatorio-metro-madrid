@@ -21,7 +21,7 @@ try {
 
 const messages = process.env.TELEGRAM_TEST === 'true'
   ? ['🚇 <b>Prueba correcta</b>\n\nGitHub Actions puede enviar avisos del Observatorio Metro a este chat.']
-  : buildTelegramMessages(payload.items, process.env.APP_URL)
+  : buildTelegramMessages(payload.items, process.env.APP_URL, payload.healthEvents)
 if (!messages.length) {
   console.log('Telegram: no hay publicaciones nuevas')
   process.exit(0)
@@ -37,4 +37,4 @@ await sendTelegramMessages({
   chatId: process.env.TELEGRAM_CHAT_ID,
   messages,
 })
-console.log(`Telegram: ${messages.length} mensaje(s) enviado(s) con ${payload.items.length} novedades`)
+console.log(`Telegram: ${messages.length} mensaje(s) enviado(s) con ${payload.items.length} novedades y ${(payload.healthEvents || []).length} cambio(s) de salud`)

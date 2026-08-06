@@ -13,7 +13,8 @@
     "backfill:bocm": "node scripts/ingest.mjs --bocm-backfill",
     "notify:telegram": "node scripts/notify-telegram.mjs",
     "telegram:webhook": "node scripts/configure-telegram-webhook.mjs",
-    "check:data": "node scripts/validate-data.mjs"
+    "check:data": "node scripts/validate-data.mjs",
+    "check:health": "node scripts/check-source-health.mjs"
   },
   "dependencies": {
     "@vitejs/plugin-react": "latest",
