@@ -32,6 +32,7 @@ await telegram('setMyCommands', {
     { command: 'contratos', description: 'Contratación pública' },
     { command: 'bocm', description: 'Publicaciones del BOCM' },
     { command: 'expediente', description: 'Localizar un expediente' },
+    { command: 'actualizar', description: 'Forzar una nueva recolección' },
     { command: 'ayuda', description: 'Mostrar todos los comandos' },
   ],
 })

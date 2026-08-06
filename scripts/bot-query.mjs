@@ -103,6 +103,7 @@ export function helpMessage() {
     '/contratos — contratación pública',
     '/bocm — anuncios del BOCM',
     '/expediente 6012600026 — localizar un expediente',
+    '/actualizar — solicitar una nueva recolección',
     '',
     'También puedes escribir directamente lo que buscas.',
   ].join('\n')

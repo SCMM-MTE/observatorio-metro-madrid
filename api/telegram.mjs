@@ -1,5 +1,6 @@
 import { timingSafeEqual } from 'node:crypto'
 import { buildBotReply } from '../scripts/bot-query.mjs'
+import { buildRefreshReply, isRefreshCommand, requestCollection } from '../scripts/refresh-request.mjs'
 
 const ARCHIVE_URL = 'https://bocm.vercel.app/data/archive.json'
 const CACHE_MS = 5 * 60 * 1000
@@ -46,6 +47,23 @@ export default async function handler(request, response) {
     update = readBody(request)
     const message = update.message || update.edited_message
     if (!message?.chat?.id || !message.text) return response.status(200).json({ ok: true })
+
+    if (isRefreshCommand(message.text)) {
+      let refresh
+      try {
+        refresh = await requestCollection()
+      } catch (error) {
+        console.error(`Telegram refresh: ${error.message}`)
+        refresh = { status: 'error' }
+      }
+      return response.status(200).json({
+        method: 'sendMessage',
+        chat_id: message.chat.id,
+        text: buildRefreshReply(refresh),
+        parse_mode: 'HTML',
+        disable_web_page_preview: true,
+      })
+    }
 
     const items = await loadItems()
     const text = buildBotReply(items, message.text)

@@ -18,6 +18,8 @@ import {
 } from '../scripts/lib.mjs'
 import { buildTelegramMessages, escapeTelegramHtml } from '../scripts/telegram.mjs'
 import { buildBotReply, normalizeQuery } from '../scripts/bot-query.mjs'
+import { buildRefreshReply, isRefreshCommand, requestCollection } from '../scripts/refresh-request.mjs'
+import refreshHandler from '../api/refresh.mjs'
 import telegramHandler from '../api/telegram.mjs'
 
 test('detecta referencias concretas a Metro sin aceptar unidades métricas', () => {
@@ -200,7 +202,47 @@ test('el bot muestra las plazas desglosadas y ofrece ayuda', () => {
   assert.match(jobs, /30 plazas · Maquinista de Tracción Eléctrica/)
   assert.match(jobs, /30 plazas · Jefe\/a de Sector/)
   assert.match(buildBotReply(botItems, '/ayuda'), /\/buscar linea 11/)
+  assert.match(buildBotReply(botItems, '/ayuda'), /\/actualizar/)
   assert.match(buildBotReply(botItems, 'ampliacion linea'), /Obras de ampliación/)
+})
+
+test('solicita una recolección, respeta el enfriamiento y detecta el comando de Telegram', async () => {
+  const calls = []
+  const oldDate = '2026-08-06T10:00:00.000Z'
+  const fetchImpl = async (url, options = {}) => {
+    calls.push({ url: String(url), options })
+    if (String(url).includes('/data/archive.json')) return { ok: true, json: async () => ({ generatedAt: oldDate }) }
+    if (String(url).includes('/runs?')) return { ok: true, json: async () => ({ workflow_runs: [] }) }
+    return { ok: true, status: 204 }
+  }
+  const requested = await requestCollection({ fetchImpl, token: 'token-de-prueba', now: Date.parse('2026-08-06T11:00:00.000Z') })
+  assert.equal(requested.status, 'requested')
+  assert.equal(calls.at(-1).options.method, 'POST')
+  assert.equal(JSON.parse(calls.at(-1).options.body).ref, 'main')
+
+  const fresh = await requestCollection({ fetchImpl, token: 'token-de-prueba', now: Date.parse(oldDate) + 60_000 })
+  assert.equal(fresh.status, 'fresh')
+  assert.equal(isRefreshCommand('/actualizar@ObservatorioMetroBot'), true)
+  assert.match(buildRefreshReply(requested), /Actualización solicitada/)
+})
+
+test('ofrece el workflow manual sin guardar un token de GitHub en el cliente', async () => {
+  const manual = await requestCollection({
+    fetchImpl: async () => ({ ok: true, json: async () => ({ generatedAt: '2026-01-01T00:00:00.000Z' }) }),
+    token: '',
+    now: Date.parse('2026-08-06T11:00:00.000Z'),
+  })
+  assert.equal(manual.status, 'manual_required')
+  assert.match(buildRefreshReply(manual), /GitHub Actions/)
+
+  const getResponse = mockResponse()
+  await refreshHandler({ method: 'GET', headers: {} }, getResponse)
+  assert.equal(getResponse.statusCode, 200)
+  assert.match(getResponse.body.manualUrl, /actions\/workflows\/collect\.yml/)
+
+  const rejected = mockResponse()
+  await refreshHandler({ method: 'POST', headers: { origin: 'https://example.com', host: 'bocm.vercel.app' } }, rejected)
+  assert.equal(rejected.statusCode, 403)
 })
 
 function mockResponse() {
@@ -246,6 +288,15 @@ test('el webhook rechaza peticiones sin firma y responde consultas autorizadas',
     assert.equal(accepted.body.method, 'sendMessage')
     assert.equal(accepted.body.chat_id, 12345)
     assert.match(accepted.body.text, /Obras de ampliación/)
+
+    const refresh = mockResponse()
+    await telegramHandler({
+      method: 'POST',
+      headers: { 'x-telegram-bot-api-secret-token': 'firma-segura-de-prueba' },
+      body: { message: { chat: { id: 12345 }, text: '/actualizar' } },
+    }, refresh)
+    assert.equal(refresh.statusCode, 200)
+    assert.match(refresh.body.text, /GitHub Actions/)
   } finally {
     globalThis.fetch = previousFetch
     if (previousSecret === undefined) delete process.env.TELEGRAM_WEBHOOK_SECRET
