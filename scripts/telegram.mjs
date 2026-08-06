@@ -1,6 +1,5 @@
 const TELEGRAM_LIMIT = 4096
 const SAFE_MESSAGE_LIMIT = 3800
-const MAX_ITEMS = 15
 
 const sourceNames = {
   bocm: 'BOCM',
@@ -33,20 +32,37 @@ function formatItem(item) {
   const url = escapeTelegramHtml(item.url || '')
   const date = item.publishedAt ? ` · ${escapeTelegramHtml(String(item.publishedAt).slice(0, 10))}` : ''
   const heading = url ? `<a href="${url}">${title}</a>` : title
-  return `\n\n<b>${escapeTelegramHtml(source)}${date}</b>\n${heading}${employmentSummary(item)}`
+  const change = item.notificationKind === 'updated' ? '🔄 Actualizada · ' : ''
+  return `\n\n<b>${change}${escapeTelegramHtml(source)}${date}</b>\n${heading}${employmentSummary(item)}`
 }
 
-export function buildTelegramMessages(items, appUrl = 'https://bocm.vercel.app') {
-  if (!items?.length) return []
+function buildHealthMessage(events, appUrl) {
+  if (!events?.length) return null
+  const labels = { bocm: 'BOCM', contratos: 'Contratación pública', empleo: 'Empleo Metro' }
+  const lines = events.map((event) => {
+    const icon = event.kind === 'recovered' ? '✅' : '⚠️'
+    const state = event.kind === 'recovered' ? 'recuperada' : 'con errores'
+    return `${icon} <b>${escapeTelegramHtml(labels[event.source] || event.source)} ${state}</b>\n${escapeTelegramHtml(event.message)}`
+  })
+  return `🚇 <b>Estado del recolector</b>\n\n${lines.join('\n\n')}\n\n<a href="${escapeTelegramHtml(appUrl)}">Consultar el observatorio</a>`
+}
 
-  const visible = items.slice(0, MAX_ITEMS)
-  const hidden = items.length - visible.length
-  const header = `🚇 <b>${items.length} ${items.length === 1 ? 'nueva publicación' : 'nuevas publicaciones'} sobre Metro de Madrid</b>`
-  const footer = `${hidden > 0 ? `\n\n… y ${hidden} más.` : ''}\n\n<a href="${escapeTelegramHtml(appUrl)}">Consultar el observatorio</a>`
+export function buildTelegramMessages(items = [], appUrl = 'https://bocm.vercel.app', healthEvents = []) {
+  const messages = []
+  const healthMessage = buildHealthMessage(healthEvents, appUrl)
+  if (healthMessage) messages.push(healthMessage)
+  if (!items.length) return messages
+
+  const updated = items.filter((item) => item.notificationKind === 'updated').length
+  const added = items.length - updated
+  const header = updated
+    ? `🚇 <b>${items.length} novedades sobre Metro de Madrid</b>\n${added} nuevas · ${updated} actualizadas`
+    : `🚇 <b>${items.length} ${items.length === 1 ? 'nueva publicación' : 'nuevas publicaciones'} sobre Metro de Madrid</b>`
+  const footer = `\n\n<a href="${escapeTelegramHtml(appUrl)}">Consultar el observatorio</a>`
   const chunks = []
   let current = header
 
-  for (const item of visible) {
+  for (const item of items) {
     const block = formatItem(item)
     if (current.length + block.length + footer.length > SAFE_MESSAGE_LIMIT && current !== header) {
       chunks.push(`${current}\n\nContinúa en el siguiente mensaje…`)
@@ -55,7 +71,8 @@ export function buildTelegramMessages(items, appUrl = 'https://bocm.vercel.app')
     current += block
   }
   chunks.push(`${current}${footer}`)
-  return chunks.map((message) => message.slice(0, TELEGRAM_LIMIT))
+  messages.push(...chunks.map((message) => message.slice(0, TELEGRAM_LIMIT)))
+  return messages
 }
 
 const wait = (milliseconds) => new Promise((resolve) => setTimeout(resolve, milliseconds))

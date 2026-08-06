@@ -2,7 +2,8 @@ name: Recolectar publicaciones
 
 on:
   schedule:
-    - cron: '*/30 * * * *'
+    # Evita los minutos 00 y 30, cuando GitHub Actions concentra más carga.
+    - cron: '7,37 * * * *'
   workflow_dispatch:
     inputs:
       backfill:
@@ -82,3 +83,7 @@ jobs:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
           TELEGRAM_TEST: ${{ inputs.test_telegram }}
+
+      - name: Comprobar salud de las fuentes
+        if: ${{ always() && inputs.backfill != true && inputs.bocm_from == '' }}
+        run: npm run check:health
