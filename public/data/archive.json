@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-06T00:53:47.221Z",
+  "generatedAt": "2026-08-06T04:09:57.503Z",
   "coverage": {
     "bocm": "2009-12-01 a 2026-08-05",
     "contratos": "2017-02-02 a 2026-08-05",
@@ -8,19 +8,19 @@
   },
   "sources": {
     "bocm": {
-      "checkedAt": "2026-08-06T00:53:47.221Z",
-      "ok": false,
-      "message": "Error de consulta: No se pudo consultar https://www.bocm.es/boletin/CM_Boletin_BOCM/2026/07/31/BOCM-20260731181.xml?language=es: fetch failed",
-      "recordsSeen": 0
+      "checkedAt": "2026-08-06T04:09:57.503Z",
+      "ok": true,
+      "message": "26 registros relevantes comprobados",
+      "recordsSeen": 26
     },
     "contratos": {
-      "checkedAt": "2026-08-06T00:53:47.221Z",
+      "checkedAt": "2026-08-06T04:09:57.503Z",
       "ok": true,
       "message": "56 registros relevantes comprobados",
       "recordsSeen": 56
     },
     "empleo": {
-      "checkedAt": "2026-08-06T00:53:47.221Z",
+      "checkedAt": "2026-08-06T04:09:57.503Z",
       "ok": false,
       "message": "Error de consulta: El portal de Empleo Metro ha rechazado temporalmente la consulta automatizada",
       "recordsSeen": 0
@@ -1367,12 +1367,12 @@
     {
       "id": "bocm:bocm-20260722-31",
       "source": "bocm",
-      "title": "Formalización contrato– Anuncio de 13 de julio de 2026, de formalización del contrato titulado “Acuerdo marco para el suministro de repuestos informáticos, de imagen y sonido y consumibles informáticos de Metro de Madrid”. (Expediente 6012500367) - [contratos m00040-001(lote 1); m00040-003 (lote 3)]",
-      "summary": "Formalización contrato– Anuncio de 13 de julio de 2026, de formalización del contrato titulado “Acuerdo marco para el suministro de repuestos informáticos, de imagen y sonido y consumibles informáticos de Metro de Madrid”. (Expediente 6012500367) - [contratos m00040-001(lote 1); m00040-003 (lote 3)]",
-      "issuer": "CONSEJERÍA DE VIVIENDA, TRANSPORTES E INFRAESTRUCTURAS · METRO DE MADRID, S. A.",
-      "publicationType": "Formalización contrato",
+      "title": "Formalización contrato – Anuncio de 13 de julio de 2026, de formalización del contrato titulado “Acuerdo marco para el suministro de repuestos informáticos, de imagen y sonido y consumibles informáticos de Metro de Madrid”. (Expediente 6012500367) - [contratos m00040-001(lote 1); m00040-003 (lote 3)]",
+      "summary": "Formalización contrato – Anuncio de 13 de julio de 2026, de formalización del contrato titulado “Acuerdo marco para el suministro de repuestos informáticos, de imagen y sonido y consumibles informáticos de Metro de Madrid”. (Expediente 6012500367) - [contratos m00040-001(lote 1); m00040-003 (lote 3)]",
+      "issuer": "CONSEJERÍA DE VIVIENDA, TRANSPORTES E INFRAESTRUCTURAS",
+      "publicationType": "ANUNCIO",
       "publishedAt": "2026-07-22",
-      "url": "https://www.bocm.es/bocm-20260722-31",
+      "url": "https://www.bocm.es/bocm-20260722-31?language=es",
       "pdfUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/07/22/BOCM-20260722-31.PDF",
       "xmlUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/07/22/BOCM-20260722-31.xml?language=es",
       "tags": [
@@ -1383,12 +1383,12 @@
     {
       "id": "bocm:bocm-20260722-32",
       "source": "bocm",
-      "title": "Formalización contrato– Anuncio de 14 de julio de 2026, de formalización del contrato titulado “Servicio de revisiones normativa de equipos de protección individual, líneas de vida, equipos y accesorios de elevación de cargas y elementos de manutención para Metro de Madrid” (expediente 6012500383) - [contratos 7226000394 (lote 1) y 7226000395 (lote 2)]",
-      "summary": "Formalización contrato– Anuncio de 14 de julio de 2026, de formalización del contrato titulado “Servicio de revisiones normativa de equipos de protección individual, líneas de vida, equipos y accesorios de elevación de cargas y elementos de manutención para Metro de Madrid” (expediente 6012500383) - [contratos 7226000394 (lote 1) y 7226000395 (lote 2)]",
-      "issuer": "CONSEJERÍA DE VIVIENDA, TRANSPORTES E INFRAESTRUCTURAS · METRO DE MADRID, S. A.",
-      "publicationType": "Formalización contrato",
+      "title": "Formalización contrato – Anuncio de 14 de julio de 2026, de formalización del contrato titulado “Servicio de revisiones normativa de equipos de protección individual, líneas de vida, equipos y accesorios de elevación de cargas y elementos de manutención para Metro de Madrid” (expediente 6012500383) - [contratos 7226000394 (lote 1) y 7226000395 (lote 2)]",
+      "summary": "Formalización contrato – Anuncio de 14 de julio de 2026, de formalización del contrato titulado “Servicio de revisiones normativa de equipos de protección individual, líneas de vida, equipos y accesorios de elevación de cargas y elementos de manutención para Metro de Madrid” (expediente 6012500383) - [contratos 7226000394 (lote 1) y 7226000395 (lote 2)]",
+      "issuer": "CONSEJERÍA DE VIVIENDA, TRANSPORTES E INFRAESTRUCTURAS",
+      "publicationType": "ANUNCIO",
       "publishedAt": "2026-07-22",
-      "url": "https://www.bocm.es/bocm-20260722-32",
+      "url": "https://www.bocm.es/bocm-20260722-32?language=es",
       "pdfUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/07/22/BOCM-20260722-32.PDF",
       "xmlUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/07/22/BOCM-20260722-32.xml?language=es",
       "tags": [
