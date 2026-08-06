@@ -52,12 +52,12 @@ async function collectRecentBocm() {
   let successfulPaths = 0
 
   try {
-    const rss = await fetchText(BOCM_RSS, { attempts: 5, timeoutMs: 90_000 })
+    const rss = await fetchText(BOCM_RSS, { attempts: 3, timeoutMs: 30_000 })
     const summaryUrls = parseBocmRss(rss)
     let summariesRead = 0
     const pages = await mapConcurrent(summaryUrls, 5, async (url) => {
       try {
-        const page = parseBocmSummaryXml(await fetchText(url, { attempts: 5, timeoutMs: 90_000 }))
+        const page = parseBocmSummaryXml(await fetchText(url, { attempts: 2, timeoutMs: 20_000 }))
         summariesRead += 1
         return page
       } catch (error) {
@@ -78,7 +78,12 @@ async function collectRecentBocm() {
   const startDate = new Date(`${end}T00:00:00Z`)
   startDate.setUTCDate(startDate.getUTCDate() - Number(process.env.BOCM_RECENT_DAYS || 14))
   try {
-    records.push(...await collectBocmSearch(bocmDateRangeSearchUrl(startDate.toISOString().slice(0, 10), end), 'BOCM reciente'))
+    records.push(...await collectBocmSearch(
+      bocmDateRangeSearchUrl(startDate.toISOString().slice(0, 10), end),
+      'BOCM reciente',
+      undefined,
+      { attempts: 2, timeoutMs: 30_000 },
+    ))
     successfulPaths += 1
   } catch (error) {
     warnings.push(`buscador reciente: ${error.message}`)
@@ -89,8 +94,8 @@ async function collectRecentBocm() {
   return { records, warnings }
 }
 
-async function collectBocmSearch(firstUrl, label = 'BOCM', pageLimit) {
-  const firstHtml = await fetchText(firstUrl, { timeoutMs: 90_000 })
+async function collectBocmSearch(firstUrl, label = 'BOCM', pageLimit, requestOptions = { timeoutMs: 90_000 }) {
+  const firstHtml = await fetchText(firstUrl, requestOptions)
   const first = parseBocmSearchPage(firstHtml)
   const maxPages = Math.min(Number(pageLimit || Math.ceil(first.count / 10)), Math.ceil(first.count / 10))
   const pages = Array.from({ length: Math.max(0, maxPages - 1) }, (_, index) => index + 1)
@@ -99,7 +104,7 @@ async function collectBocmSearch(firstUrl, label = 'BOCM', pageLimit) {
   const rest = await mapConcurrent(pages, 10, async (page) => {
     if (page % 100 === 0) console.log(`${label}: página ${page}/${maxPages - 1}`)
     const url = first.pageUrlTemplate.replace('{page}', String(page))
-    return parseBocmSearchPage(await fetchText(url, { timeoutMs: 90_000 })).records
+    return parseBocmSearchPage(await fetchText(url, requestOptions)).records
   })
   return first.records.concat(rest.flat())
 }
@@ -113,14 +118,33 @@ async function collectBocmDateRange() {
 }
 
 async function collectRecentContracts() {
+  const warnings = []
+  let successfulPages = 0
   const feedPages = Number(process.env.CONTRACTS_FEED_PAGES || 4)
   const pages = await mapConcurrent(Array.from({ length: feedPages }, (_, index) => index), 4, async (page) => {
-    return parseContractsFeed(await fetchText(contractsFeedUrl(page), { timeoutMs: 90_000 }))
+    try {
+      const records = parseContractsFeed(await fetchText(contractsFeedUrl(page), { attempts: 2, timeoutMs: 30_000 }))
+      successfulPages += 1
+      return records
+    } catch (error) {
+      warnings.push(`feed página ${page}: ${error.message}`)
+      console.warn(`Contratos: se omite temporalmente el feed página ${page}: ${error.message}`)
+      return []
+    }
   })
   const searchPages = await mapConcurrent([0, 1, 2, 3, 4], 5, async (page) => {
-    return parseContractsSearchPage(await fetchText(contractsSearchUrl(page), { timeoutMs: 90_000 })).records
+    try {
+      const records = parseContractsSearchPage(await fetchText(contractsSearchUrl(page), { attempts: 2, timeoutMs: 30_000 })).records
+      successfulPages += 1
+      return records
+    } catch (error) {
+      warnings.push(`buscador página ${page}: ${error.message}`)
+      console.warn(`Contratos: se omite temporalmente el buscador página ${page}: ${error.message}`)
+      return []
+    }
   })
-  return pages.flat().concat(searchPages.flat())
+  if (!successfulPages) throw new Error(`fallaron feed y buscador: ${warnings.join(' | ')}`)
+  return { records: pages.flat().concat(searchPages.flat()), warnings }
 }
 
 async function collectContractsBackfill() {
