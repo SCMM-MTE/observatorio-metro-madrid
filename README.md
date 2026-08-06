@@ -21,10 +21,18 @@ La recolección se ejecuta automáticamente cada 30 minutos mediante GitHub Acti
 
 Cuando hay publicaciones nuevas o cambios materiales en registros existentes, el workflow envía un aviso inmediato por Telegram. Todos los registros se reparten en tantos mensajes como sean necesarios, sin omitir los que excedan un límite de resumen. En las convocatorias de empleo incluye el número de plazas desglosado por puesto.
 
+La web incorpora **Actualizar ahora** y Telegram ofrece `/actualizar`. Ambos recargan el archivo publicado y pueden solicitar una ejecución real del recolector. El servidor evita duplicados si ya hay un workflow en curso y aplica un enfriamiento de cinco minutos. Si no existe una credencial de servidor, muestran el acceso protegido al workflow manual de GitHub en lugar de exponer un token en el navegador.
+
 El repositorio espera dos secretos de GitHub Actions:
 
 - `TELEGRAM_BOT_TOKEN`: token creado con `@BotFather`.
 - `TELEGRAM_CHAT_ID`: identificador del chat que ha iniciado una conversación con el bot.
+
+Para que **Actualizar ahora** y `/actualizar` lancen GitHub Actions con un solo toque, Vercel admite esta variable sensible opcional:
+
+- `GITHUB_REFRESH_TOKEN`: token de acceso fino limitado exclusivamente a este repositorio, con permiso **Actions: Read and write**. Se guarda solo en Vercel; nunca debe incluirse en el código, GitHub Actions ni el navegador.
+
+Sin esa variable, ambas interfaces siguen permitiendo recargar los datos ya publicados y ofrecen el enlace manual autenticado a GitHub Actions.
 
 Los secretos se configuran en **Settings → Secrets and variables → Actions**. No deben guardarse en archivos, commits ni mensajes públicos. Las ejecuciones incrementales avisan de identificadores nuevos y de cambios relevantes en fecha, estado, contenido, plazas o documentos asociados; una reconstrucción histórica no envía notificaciones.
 
@@ -41,6 +49,7 @@ El endpoint `/api/telegram` recibe webhooks firmados de Telegram y consulta el m
 - `/contratos`
 - `/bocm`
 - `/expediente 6012600026`
+- `/actualizar`
 - `/ayuda`
 
 Los mensajes que no comienzan por `/` se interpretan como búsquedas libres. El workflow manual `Configurar bot de Telegram` registra el webhook y el menú de comandos usando secretos de GitHub.

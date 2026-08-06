@@ -75,6 +75,14 @@ function escapeCsv(value: string | number | undefined) {
   return `"${text.replaceAll('"', '""')}"`
 }
 
+async function fetchArchive(): Promise<ArchiveData> {
+  const response = await fetch(`/data/archive.json?t=${Date.now()}`, { cache: 'no-store' })
+  if (!response.ok) throw new Error(`HTTP ${response.status}`)
+  return response.json()
+}
+
+const wait = (milliseconds: number) => new Promise((resolve) => window.setTimeout(resolve, milliseconds))
+
 export function App() {
   const [archive, setArchive] = useState<ArchiveData>(emptyArchive)
   const [loading, setLoading] = useState(true)
@@ -85,13 +93,12 @@ export function App() {
   const [status, setStatus] = useState('all')
   const [sort, setSort] = useState<'recent' | 'oldest' | 'amount'>('recent')
   const [visible, setVisible] = useState(PAGE_SIZE)
+  const [refreshing, setRefreshing] = useState(false)
+  const [refreshMessage, setRefreshMessage] = useState('')
+  const [manualRefreshUrl, setManualRefreshUrl] = useState('')
 
   useEffect(() => {
-    fetch(`/data/archive.json?t=${Date.now()}`, { cache: 'no-store' })
-      .then((response) => {
-        if (!response.ok) throw new Error(`HTTP ${response.status}`)
-        return response.json()
-      })
+    fetchArchive()
       .then((data: ArchiveData) => setArchive(data))
       .catch(() => setLoadError('No se ha podido cargar el archivo. Inténtalo de nuevo en unos minutos.'))
       .finally(() => setLoading(false))
@@ -172,6 +179,48 @@ export function App() {
     URL.revokeObjectURL(url)
   }
 
+  async function forceRefresh() {
+    if (refreshing) return
+    setRefreshing(true)
+    setRefreshMessage('Comprobando la información publicada…')
+    setManualRefreshUrl('')
+
+    try {
+      const latest = await fetchArchive()
+      setArchive(latest)
+      const baseline = latest.generatedAt
+      const response = await fetch('/api/refresh', { method: 'POST' })
+      const result = await response.json()
+      if (!response.ok || !result.ok) throw new Error(result.message || `HTTP ${response.status}`)
+
+      if (result.status === 'manual_required') {
+        setRefreshMessage('Los datos visibles se han recargado. Para consultar ahora las fuentes, abre la actualización protegida de GitHub.')
+        setManualRefreshUrl(result.manualUrl)
+        return
+      }
+      if (result.status === 'fresh') {
+        setRefreshMessage(`La información ya estaba actualizada: ${formatDate(result.generatedAt, true)}.`)
+        return
+      }
+
+      setRefreshMessage(result.status === 'already_running' ? 'Ya hay una actualización en curso…' : 'Actualización solicitada; esperando los nuevos datos…')
+      for (let attempt = 0; attempt < 24; attempt += 1) {
+        await wait(5_000)
+        const refreshed = await fetchArchive()
+        setArchive(refreshed)
+        if (refreshed.generatedAt && refreshed.generatedAt !== baseline) {
+          setRefreshMessage(`Información actualizada: ${formatDate(refreshed.generatedAt, true)}.`)
+          return
+        }
+      }
+      setRefreshMessage('La actualización sigue ejecutándose. Puedes volver a comprobarla dentro de unos minutos.')
+    } catch {
+      setRefreshMessage('No se ha podido solicitar la actualización. Inténtalo de nuevo dentro de unos minutos.')
+    } finally {
+      setRefreshing(false)
+    }
+  }
+
   return (
     <div className="app-shell">
       <header className="topbar">
@@ -243,8 +292,13 @@ export function App() {
               <h2>Publicaciones encontradas</h2>
               <p>{loading ? 'Cargando el repositorio…' : `${filtered.length.toLocaleString('es-ES')} resultados con los filtros actuales`}</p>
             </div>
-            <button className="export-button" onClick={downloadCsv} disabled={!filtered.length}><Download size={17} /> Exportar CSV</button>
+            <div className="archive-actions">
+              <button className="refresh-button" onClick={forceRefresh} disabled={refreshing}><RefreshCw className={refreshing ? 'spinning' : ''} size={17} /> {refreshing ? 'Actualizando…' : 'Actualizar ahora'}</button>
+              <button className="export-button" onClick={downloadCsv} disabled={!filtered.length}><Download size={17} /> Exportar CSV</button>
+            </div>
           </div>
+
+          {refreshMessage && <div className="notice refresh"><RefreshCw size={17} /> <span>{refreshMessage}</span>{manualRefreshUrl && <a href={manualRefreshUrl} target="_blank" rel="noreferrer">Abrir actualización manual <ArrowUpRight size={14} /></a>}</div>}
 
           <div className="filter-panel">
             <label className="filter-search"><Search size={18} /><input value={query} onChange={(event) => setQuery(event.target.value)} placeholder="Filtrar resultados…" /></label>
