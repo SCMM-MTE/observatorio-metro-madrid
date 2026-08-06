@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-06T07:15:22.813Z",
+  "generatedAt": "2026-08-06T10:08:48.007Z",
   "coverage": {
     "bocm": "2009-12-01 a 2026-08-05",
     "contratos": "2017-02-02 a 2026-08-06",
@@ -8,25 +8,82 @@
   },
   "sources": {
     "bocm": {
-      "checkedAt": "2026-08-06T07:15:22.813Z",
+      "checkedAt": "2026-08-06T10:08:48.007Z",
       "ok": false,
       "message": "Error de consulta: No se pudo consultar https://www.bocm.es/boletin/CM_Boletin_BOCM/2026/08/01/BOCM-20260801182.xml?language=es: fetch failed",
       "recordsSeen": 0
     },
     "contratos": {
-      "checkedAt": "2026-08-06T07:15:22.813Z",
+      "checkedAt": "2026-08-06T10:08:48.007Z",
       "ok": true,
-      "message": "55 registros relevantes comprobados",
-      "recordsSeen": 55
+      "message": "54 registros relevantes comprobados",
+      "recordsSeen": 54
     },
     "empleo": {
-      "checkedAt": "2026-08-06T07:15:22.813Z",
+      "checkedAt": "2026-08-06T10:08:48.007Z",
       "ok": false,
       "message": "Error de consulta: El portal de Empleo Metro ha rechazado temporalmente la consulta automatizada",
       "recordsSeen": 0
     }
   },
   "items": [
+    {
+      "id": "contratos:servicio-pasarela-pago-gestion-pagos-realizados-puntos-recarga-instalados",
+      "source": "contratos",
+      "title": "Servicio de pasarela de pago para la gestión de los pagos realizados en los puntos de recarga instalados en las dependencias de Metro de Madrid",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Resuelta / Finalizada",
+      "status": "Resuelta / Finalizada",
+      "expediente": "6012300380",
+      "publishedAt": "2026-08-06",
+      "updatedAt": "2026-08-06T11:33:00+02:00",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-pasarela-pago-gestion-pagos-realizados-puntos-recarga-instalados",
+      "firstSeenAt": "2026-08-05T08:03:18.389Z",
+      "summary": "Id licitación: 6012300380;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 27000.00 EUR;",
+      "amount": 27000,
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2024-01/6012300380_ppt.pdf"
+    },
+    {
+      "id": "contratos:suministro-soporte-mantenimiento-herramienta-gestion-notificaciones-electronicas",
+      "source": "contratos",
+      "title": "Suministro, soporte y mantenimiento de la herramienta de gestión de notificaciones electrónicas en Metro de Madrid S.A.",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Contratos adjudicados por procedimientos sin publicidad",
+      "status": "Resuelta / Finalizada",
+      "expediente": "6012600142",
+      "publishedAt": "2026-08-06",
+      "updatedAt": "2026-08-06T10:03:00+02:00",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/suministro-soporte-mantenimiento-herramienta-gestion-notificaciones-electronicas",
+      "firstSeenAt": "2026-08-05T08:03:18.389Z"
+    },
+    {
+      "id": "contratos:servicio-poliza-seguro-responsabilidad-civil-administradores-directivos-rc-do-2027",
+      "source": "contratos",
+      "title": "Servicio de póliza del seguro de responsabilidad civil de administradores y directivos (RC D&O) 2027-2028",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Convocatoria anunciada a licitación",
+      "status": "En plazo",
+      "expediente": "6012600200",
+      "publishedAt": "2026-08-06",
+      "updatedAt": "2026-08-06T09:59:00+02:00",
+      "deadline": "2026-10-06",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-poliza-seguro-responsabilidad-civil-administradores-directivos-rc-do-2027",
+      "firstSeenAt": "2026-08-05T08:03:18.389Z"
+    },
+    {
+      "id": "contratos:servicio-mantenimiento-plataforma-efficient-ip-gestion-direccionamiento-ip-1",
+      "source": "contratos",
+      "title": "Servicio de mantenimiento de la plataforma Efficient-IP para gestión del direccionamiento IP y servicios de red en Metro de Madrid",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Convocatoria anunciada a licitación",
+      "status": "En plazo",
+      "expediente": "6012600199",
+      "publishedAt": "2026-08-06",
+      "updatedAt": "2026-08-06T09:55:00+02:00",
+      "deadline": "2026-09-22",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-mantenimiento-plataforma-efficient-ip-gestion-direccionamiento-ip-1",
+      "firstSeenAt": "2026-08-05T08:03:18.389Z"
+    },
     {
       "id": "contratos:servicio-apoyo-mantenimiento-soporte-tecnico-control-medida-proteccion-1",
       "source": "contratos",
@@ -1130,20 +1187,6 @@
       "firstSeenAt": "2026-08-05T10:14:22.549Z"
     },
     {
-      "id": "contratos:servicio-poliza-seguro-responsabilidad-civil-administradores-directivos-rc-do-2027",
-      "source": "contratos",
-      "title": "Servicio de póliza del seguro de responsabilidad civil de administradores y directivos (RC D&O) 2027-2028",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Convocatoria anunciada a licitación",
-      "status": "En plazo",
-      "expediente": "6012600200",
-      "publishedAt": "2026-07-23",
-      "updatedAt": "2026-07-23T15:09:00+02:00",
-      "deadline": "2026-09-25",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-poliza-seguro-responsabilidad-civil-administradores-directivos-rc-do-2027",
-      "firstSeenAt": "2026-08-05T08:03:18.389Z"
-    },
-    {
       "id": "contratos:suministro-nueve-mil-cincuenta-9050-barras-18-metros-carril-54e1-r260-x-b",
       "source": "contratos",
       "title": "Suministro de nueve mil cincuenta (9.050) barras de 18 metros de “carril 54E1-R260-X-B”",
@@ -1613,20 +1656,6 @@
       "updatedAt": "2026-07-20T10:29:00+02:00",
       "deadline": "2023-06-29",
       "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-calibracion-equipos-medida-estaciones-meteorologicas-metro-madrid",
-      "firstSeenAt": "2026-08-05T08:03:18.389Z"
-    },
-    {
-      "id": "contratos:servicio-mantenimiento-plataforma-efficient-ip-gestion-direccionamiento-ip-1",
-      "source": "contratos",
-      "title": "Servicio de mantenimiento de la plataforma Efficient-IP para gestión del direccionamiento IP y servicios de red en Metro de Madrid",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Convocatoria anunciada a licitación",
-      "status": "En plazo",
-      "expediente": "6012600199",
-      "publishedAt": "2026-07-20",
-      "updatedAt": "2026-07-20T09:18:00+02:00",
-      "deadline": "2026-09-09",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-mantenimiento-plataforma-efficient-ip-gestion-direccionamiento-ip-1",
       "firstSeenAt": "2026-08-05T08:03:18.389Z"
     },
     {
@@ -3864,19 +3893,6 @@
       "publishedAt": "2026-06-23",
       "updatedAt": "2026-06-23T11:02:00+02:00",
       "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/anuncio-periodico-indicativo-relativo-acuerdo-marco-suministro-repuestos-3",
-      "firstSeenAt": "2026-08-05T08:03:18.389Z"
-    },
-    {
-      "id": "contratos:suministro-soporte-mantenimiento-herramienta-gestion-notificaciones-electronicas",
-      "source": "contratos",
-      "title": "Suministro, soporte y mantenimiento de la herramienta de gestión de notificaciones electrónicas en Metro de Madrid S.A.",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Contratos adjudicados por procedimientos sin publicidad",
-      "status": "Adjudicada",
-      "expediente": "6012600142",
-      "publishedAt": "2026-06-23",
-      "updatedAt": "2026-06-23T09:50:00+02:00",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/suministro-soporte-mantenimiento-herramienta-gestion-notificaciones-electronicas",
       "firstSeenAt": "2026-08-05T08:03:18.389Z"
     },
     {
@@ -13976,19 +13992,6 @@
       "updatedAt": "2025-12-05T14:00:00+02:00",
       "deadline": "2019-11-20",
       "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/acuerdo-marco-obras-instalacion-modernizacion-legalizacion-sistemas-proteccion",
-      "firstSeenAt": "2026-08-05T08:03:18.389Z"
-    },
-    {
-      "id": "contratos:servicio-pasarela-pago-gestion-pagos-realizados-puntos-recarga-instalados",
-      "source": "contratos",
-      "title": "Servicio de pasarela de pago para la gestión de los pagos realizados en los puntos de recarga instalados en las dependencias de Metro de Madrid",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Contratos adjudicados por procedimientos sin publicidad",
-      "status": "Resuelta / Finalizada",
-      "expediente": "6012300380",
-      "publishedAt": "2025-12-05",
-      "updatedAt": "2025-12-05T10:51:00+02:00",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-pasarela-pago-gestion-pagos-realizados-puntos-recarga-instalados",
       "firstSeenAt": "2026-08-05T08:03:18.389Z"
     },
     {
