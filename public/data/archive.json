@@ -1,26 +1,26 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-06T04:09:57.503Z",
+  "generatedAt": "2026-08-06T07:15:22.813Z",
   "coverage": {
     "bocm": "2009-12-01 a 2026-08-05",
-    "contratos": "2017-02-02 a 2026-08-05",
+    "contratos": "2017-02-02 a 2026-08-06",
     "empleo": "Sin publicaciones localizadas"
   },
   "sources": {
     "bocm": {
-      "checkedAt": "2026-08-06T04:09:57.503Z",
-      "ok": true,
-      "message": "26 registros relevantes comprobados",
-      "recordsSeen": 26
+      "checkedAt": "2026-08-06T07:15:22.813Z",
+      "ok": false,
+      "message": "Error de consulta: No se pudo consultar https://www.bocm.es/boletin/CM_Boletin_BOCM/2026/08/01/BOCM-20260801182.xml?language=es: fetch failed",
+      "recordsSeen": 0
     },
     "contratos": {
-      "checkedAt": "2026-08-06T04:09:57.503Z",
+      "checkedAt": "2026-08-06T07:15:22.813Z",
       "ok": true,
-      "message": "56 registros relevantes comprobados",
-      "recordsSeen": 56
+      "message": "55 registros relevantes comprobados",
+      "recordsSeen": 55
     },
     "empleo": {
-      "checkedAt": "2026-08-06T04:09:57.503Z",
+      "checkedAt": "2026-08-06T07:15:22.813Z",
       "ok": false,
       "message": "Error de consulta: El portal de Empleo Metro ha rechazado temporalmente la consulta automatizada",
       "recordsSeen": 0
@@ -35,11 +35,42 @@
       "publicationType": "Convocatoria anunciada a licitación",
       "status": "En plazo",
       "expediente": "6012600188",
-      "publishedAt": "2026-08-05",
-      "updatedAt": "2026-08-05T13:28:00+02:00",
+      "publishedAt": "2026-08-06",
+      "updatedAt": "2026-08-06T07:59:00+02:00",
       "deadline": "2026-09-09",
       "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-apoyo-mantenimiento-soporte-tecnico-control-medida-proteccion-1",
       "firstSeenAt": "2026-08-05T08:03:18.389Z"
+    },
+    {
+      "id": "contratos:servicio-polizas-seguros-responsabilidad-civil-profesional-metro-madrid-2027-2028",
+      "source": "contratos",
+      "title": "Servicio de pólizas de seguros de Responsabilidad Civil Profesional de Metro de Madrid 2027-2028",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Convocatoria anunciada a licitación",
+      "status": "En plazo",
+      "expediente": "6012600185",
+      "publishedAt": "2026-08-06",
+      "updatedAt": "2026-08-06T07:23:00+02:00",
+      "deadline": "2026-09-25",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-polizas-seguros-responsabilidad-civil-profesional-metro-madrid-2027-2028",
+      "firstSeenAt": "2026-08-05T08:03:18.389Z"
+    },
+    {
+      "id": "contratos:servicio-relativo-poliza-seguro-asistencia-viaje-sav-0",
+      "source": "contratos",
+      "title": "Servicio relativo a la póliza del seguro de Asistencia en Viaje (SAV)",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Adjudicada",
+      "status": "Adjudicada",
+      "expediente": "6012600139",
+      "publishedAt": "2026-08-06",
+      "updatedAt": "2026-08-06T07:11:10+02:00",
+      "deadline": "2026-06-02",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-relativo-poliza-seguro-asistencia-viaje-sav-0",
+      "firstSeenAt": "2026-08-05T08:03:18.389Z",
+      "summary": "Id licitación: 6012600139;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 32250.00 EUR;",
+      "amount": 32250,
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-05/6012600139_pliego_de_prescripciones_tecnicas_signed.pdf"
     },
     {
       "id": "contratos:acuerdo-marco-servicios-mantenimiento-correctivo-segundo-nivel-equipos-1",
@@ -1554,20 +1585,6 @@
       "updatedAt": "2026-07-20T11:38:00+02:00",
       "deadline": "2026-05-07",
       "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/suministro-varios-grupos-bombeo-anodos-sacrificio-empleados-mantenimiento-pozos",
-      "firstSeenAt": "2026-08-05T08:03:18.389Z"
-    },
-    {
-      "id": "contratos:servicio-polizas-seguros-responsabilidad-civil-profesional-metro-madrid-2027-2028",
-      "source": "contratos",
-      "title": "Servicio de pólizas de seguros de Responsabilidad Civil Profesional de Metro de Madrid 2027-2028",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Convocatoria anunciada a licitación",
-      "status": "En plazo",
-      "expediente": "6012600185",
-      "publishedAt": "2026-07-20",
-      "updatedAt": "2026-07-20T11:27:00+02:00",
-      "deadline": "2026-09-15",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-polizas-seguros-responsabilidad-civil-profesional-metro-madrid-2027-2028",
       "firstSeenAt": "2026-08-05T08:03:18.389Z"
     },
     {
@@ -4462,20 +4479,6 @@
       "updatedAt": "2026-06-17T09:42:00+02:00",
       "deadline": "2023-02-27",
       "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-agencia-viajes-metro-madrid-0",
-      "firstSeenAt": "2026-08-05T08:03:18.389Z"
-    },
-    {
-      "id": "contratos:servicio-relativo-poliza-seguro-asistencia-viaje-sav-0",
-      "source": "contratos",
-      "title": "Servicio relativo a la póliza del seguro de Asistencia en Viaje (SAV)",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Convocatoria anunciada a licitación",
-      "status": "Pendiente de adjudicación",
-      "expediente": "6012600139",
-      "publishedAt": "2026-06-17",
-      "updatedAt": "2026-06-17T08:17:00+02:00",
-      "deadline": "2026-06-02",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-relativo-poliza-seguro-asistencia-viaje-sav-0",
       "firstSeenAt": "2026-08-05T08:03:18.389Z"
     },
     {
