@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-07T06:51:40.226Z",
+  "generatedAt": "2026-08-07T08:20:07.950Z",
   "coverage": {
     "bocm": "2009-12-01 a 2026-08-06",
     "contratos": "2017-02-02 a 2026-08-07",
@@ -8,25 +8,90 @@
   },
   "sources": {
     "bocm": {
-      "checkedAt": "2026-08-07T06:51:40.226Z",
+      "checkedAt": "2026-08-07T08:20:07.950Z",
       "ok": true,
-      "message": "23 registros relevantes comprobados; 11 documento(s) omitido(s) temporalmente",
-      "recordsSeen": 23
+      "message": "1 registros relevantes comprobados; 19 documento(s) omitido(s) temporalmente",
+      "recordsSeen": 1
     },
     "contratos": {
-      "checkedAt": "2026-08-07T06:51:40.226Z",
+      "checkedAt": "2026-08-07T08:20:07.950Z",
       "ok": true,
       "message": "53 registros relevantes comprobados",
       "recordsSeen": 53
     },
     "empleo": {
-      "checkedAt": "2026-08-07T06:51:40.226Z",
+      "checkedAt": "2026-08-07T08:20:07.950Z",
       "ok": true,
       "message": "Cobertura mediante BOCM: 0 convocatoria(s) reciente(s) revisada(s); el portal directo protege el acceso automatizado",
       "recordsSeen": 0
     }
   },
   "items": [
+    {
+      "id": "contratos:servicio-trabajos-auxiliares-reparacion-mantenimiento-instalaciones-proteccion-0",
+      "source": "contratos",
+      "title": "Servicio de trabajos auxiliares en la reparación y mantenimiento de instalaciones de protección contra incendios de Metro de Madrid",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Adjudicada",
+      "status": "Adjudicada",
+      "expediente": "6012600013",
+      "publishedAt": "2026-08-07",
+      "updatedAt": "2026-08-07T10:18:11+02:00",
+      "deadline": "2026-02-24",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-trabajos-auxiliares-reparacion-mantenimiento-instalaciones-proteccion-0",
+      "firstSeenAt": "2026-08-05T08:03:18.389Z",
+      "summary": "Id licitación: 6012600013;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 587235.18 EUR;",
+      "amount": 587235.18,
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-01/6012600013_ppt_signed.pdf"
+    },
+    {
+      "id": "contratos:servicio-apoyo-mantenimiento-soporte-tecnico-control-medida-proteccion-1",
+      "source": "contratos",
+      "title": "Servicio de apoyo al mantenimiento y soporte técnico al control, medida y protección de instalaciones de energía",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Convocatoria anunciada a licitación",
+      "status": "En plazo",
+      "expediente": "6012600188",
+      "publishedAt": "2026-08-07",
+      "updatedAt": "2026-08-07T09:22:00+02:00",
+      "deadline": "2026-09-09",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-apoyo-mantenimiento-soporte-tecnico-control-medida-proteccion-1",
+      "firstSeenAt": "2026-08-05T08:03:18.389Z"
+    },
+    {
+      "id": "contratos:acuerdo-marco-servicios-mantenimiento-correctivo-segundo-nivel-equipos-1",
+      "source": "contratos",
+      "title": "Acuerdo Marco para servicios de mantenimiento correctivo de segundo nivel de equipos con tecnología Sepsa",
+      "summary": "Id licitación: 6012600182;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 1400000.00 EUR;",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Convocatoria anunciada a licitación",
+      "status": "En plazo",
+      "expediente": "6012600182",
+      "amount": 1400000,
+      "deadline": "2026-09-11",
+      "publishedAt": "2026-08-07",
+      "updatedAt": "2026-08-07T09:20:00+02:00",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/acuerdo-marco-servicios-mantenimiento-correctivo-segundo-nivel-equipos-1",
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-06/6012600182_pliego_de_prescripciones_tecnicas_signed.pdf",
+      "firstSeenAt": "2026-08-05T07:48:11.952Z"
+    },
+    {
+      "id": "contratos:servicio-soporte-mantenimiento-entorno-almacenamiento-backup-dell-emc",
+      "source": "contratos",
+      "title": "Servicio de soporte y mantenimiento del entorno de almacenamiento y backup DELL EMC",
+      "summary": "Id licitación: 6012600187;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 5888853.00 EUR;",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Convocatoria anunciada a licitación",
+      "status": "En plazo",
+      "expediente": "6012600187",
+      "amount": 5888853,
+      "deadline": "2026-08-18",
+      "publishedAt": "2026-08-07",
+      "updatedAt": "2026-08-07T09:18:00+02:00",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-soporte-mantenimiento-entorno-almacenamiento-backup-dell-emc",
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-06/6012600187_referencia_al_pliego_de_prescripciones_tecnicas_signed.pdf",
+      "firstSeenAt": "2026-08-05T07:48:11.952Z"
+    },
     {
       "id": "contratos:servicio-traduccion-metro-madrid",
       "source": "contratos",
@@ -119,20 +184,6 @@
       "firstSeenAt": "2026-08-05T08:03:18.389Z"
     },
     {
-      "id": "contratos:servicio-apoyo-mantenimiento-soporte-tecnico-control-medida-proteccion-1",
-      "source": "contratos",
-      "title": "Servicio de apoyo al mantenimiento y soporte técnico al control, medida y protección de instalaciones de energía",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Convocatoria anunciada a licitación",
-      "status": "En plazo",
-      "expediente": "6012600188",
-      "publishedAt": "2026-08-06",
-      "updatedAt": "2026-08-06T07:59:00+02:00",
-      "deadline": "2026-09-09",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-apoyo-mantenimiento-soporte-tecnico-control-medida-proteccion-1",
-      "firstSeenAt": "2026-08-05T08:03:18.389Z"
-    },
-    {
       "id": "contratos:servicio-polizas-seguros-responsabilidad-civil-profesional-metro-madrid-2027-2028",
       "source": "contratos",
       "title": "Servicio de pólizas de seguros de Responsabilidad Civil Profesional de Metro de Madrid 2027-2028",
@@ -177,23 +228,6 @@
       "firstSeenAt": "2026-08-07T00:27:36.633Z"
     },
     {
-      "id": "contratos:acuerdo-marco-servicios-mantenimiento-correctivo-segundo-nivel-equipos-1",
-      "source": "contratos",
-      "title": "Acuerdo Marco para servicios de mantenimiento correctivo de segundo nivel de equipos con tecnología Sepsa",
-      "summary": "Id licitación: 6012600182;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 1400000.00 EUR;",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Convocatoria anunciada a licitación",
-      "status": "En plazo",
-      "expediente": "6012600182",
-      "amount": 1400000,
-      "deadline": "2026-09-11",
-      "publishedAt": "2026-08-05",
-      "updatedAt": "2026-08-05T13:27:00+02:00",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/acuerdo-marco-servicios-mantenimiento-correctivo-segundo-nivel-equipos-1",
-      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-06/6012600182_pliego_de_prescripciones_tecnicas_signed.pdf",
-      "firstSeenAt": "2026-08-05T07:48:11.952Z"
-    },
-    {
       "id": "contratos:servicio-revision-generalreparacion-conjuntos-amortiguadores-impactos-enganches",
       "source": "contratos",
       "title": "Servicio de revisión general/reparación de conjuntos amortiguadores de impactos de enganches de la serie 9000",
@@ -206,23 +240,6 @@
       "deadline": "2026-08-17",
       "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-revision-generalreparacion-conjuntos-amortiguadores-impactos-enganches",
       "firstSeenAt": "2026-08-05T08:03:18.389Z"
-    },
-    {
-      "id": "contratos:servicio-soporte-mantenimiento-entorno-almacenamiento-backup-dell-emc",
-      "source": "contratos",
-      "title": "Servicio de soporte y mantenimiento del entorno de almacenamiento y backup DELL EMC",
-      "summary": "Id licitación: 6012600187;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 5888853.00 EUR;",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Convocatoria anunciada a licitación",
-      "status": "En plazo",
-      "expediente": "6012600187",
-      "amount": 5888853,
-      "deadline": "2026-08-18",
-      "publishedAt": "2026-08-05",
-      "updatedAt": "2026-08-05T13:22:00+02:00",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-soporte-mantenimiento-entorno-almacenamiento-backup-dell-emc",
-      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-06/6012600187_referencia_al_pliego_de_prescripciones_tecnicas_signed.pdf",
-      "firstSeenAt": "2026-08-05T07:48:11.952Z"
     },
     {
       "id": "contratos:servicio-transporte-autobus-viajeros-afectados-suspensiones-servicio-no-6",
@@ -271,23 +288,6 @@
       "summary": "Id licitación: 6012600026;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 3840174.72 EUR;",
       "amount": 3840174.72,
       "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-01/6012600026_ppt_signed.pdf"
-    },
-    {
-      "id": "contratos:servicio-trabajos-auxiliares-reparacion-mantenimiento-instalaciones-proteccion-0",
-      "source": "contratos",
-      "title": "Servicio de trabajos auxiliares en la reparación y mantenimiento de instalaciones de protección contra incendios de Metro de Madrid",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Adjudicada",
-      "status": "Adjudicada",
-      "expediente": "6012600013",
-      "publishedAt": "2026-08-05",
-      "updatedAt": "2026-08-05T10:24:12+02:00",
-      "deadline": "2026-02-24",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-trabajos-auxiliares-reparacion-mantenimiento-instalaciones-proteccion-0",
-      "firstSeenAt": "2026-08-05T08:03:18.389Z",
-      "summary": "Id licitación: 6012600013;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 587235.18 EUR;",
-      "amount": 587235.18,
-      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-01/6012600013_ppt_signed.pdf"
     },
     {
       "id": "contratos:servicio-mantenimiento-integral-1468-pasos-canceladoras",
