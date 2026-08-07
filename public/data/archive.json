@@ -1,26 +1,26 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-07T11:27:52.741Z",
+  "generatedAt": "2026-08-07T12:25:52.506Z",
   "coverage": {
-    "bocm": "2009-12-01 a 2026-08-06",
+    "bocm": "2009-12-01 a 2026-08-07",
     "contratos": "2017-02-02 a 2026-08-07",
     "empleo": "2016-10-31 a 2026-05-07"
   },
   "sources": {
     "bocm": {
-      "checkedAt": "2026-08-07T11:27:52.741Z",
+      "checkedAt": "2026-08-07T12:25:52.506Z",
       "ok": true,
-      "message": "3 registros relevantes comprobados; 19 documento(s) omitido(s) temporalmente",
-      "recordsSeen": 3
+      "message": "32 registros relevantes comprobados; 14 documento(s) omitido(s) temporalmente",
+      "recordsSeen": 32
     },
     "contratos": {
-      "checkedAt": "2026-08-07T11:27:52.741Z",
+      "checkedAt": "2026-08-07T12:25:52.506Z",
       "ok": true,
       "message": "56 registros relevantes comprobados",
       "recordsSeen": 56
     },
     "empleo": {
-      "checkedAt": "2026-08-07T11:27:52.741Z",
+      "checkedAt": "2026-08-07T12:25:52.506Z",
       "ok": true,
       "message": "Cobertura mediante BOCM: 0 convocatoria(s) reciente(s) revisada(s); el portal directo protege el acceso automatizado",
       "recordsSeen": 0
@@ -232,6 +232,123 @@
       "summary": "Id licitación: 6012600147;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 45000.03 EUR;",
       "amount": 45000.03,
       "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-05/6012600147_pliego_de_prescripciones_tecnicas_signed.pdf"
+    },
+    {
+      "id": "bocm:bocm-20260807-24",
+      "source": "bocm",
+      "title": "Convocatoria contrato– Anuncio de 5 de agosto de 2026, de ampliación de plazo de presentación de ofertas de la licitación de un servicio de pólizas de Seguros de Responsabilidad Civil Profesional de Metro de Madrid 2027-2028. (Expediente 6012600185)",
+      "summary": "Convocatoria contrato– Anuncio de 5 de agosto de 2026, de ampliación de plazo de presentación de ofertas de la licitación de un servicio de pólizas de Seguros de Responsabilidad Civil Profesional de Metro de Madrid 2027-2028. (Expediente 6012600185)",
+      "issuer": "CONSEJERÍA DE VIVIENDA, TRANSPORTES E INFRAESTRUCTURAS · METRO DE MADRID, S. A.",
+      "publicationType": "Convocatoria contrato",
+      "publishedAt": "2026-08-07",
+      "url": "https://www.bocm.es/bocm-20260807-24",
+      "pdfUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/08/07/BOCM-20260807-24.PDF",
+      "xmlUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/08/07/BOCM-20260807-24.xml?language=es",
+      "firstSeenAt": "2026-08-07T12:25:52.506Z"
+    },
+    {
+      "id": "bocm:bocm-20260807-21",
+      "source": "bocm",
+      "title": "Adjudicación contrato– Anuncio de 4 de agosto de 2026, de adjudicación del contrato titulado “Servicio de trabajos auxiliares en la reparación y mantenimiento de instalaciones de protección contra incendios de Metro de Madrid” (Expediente 6012600013)",
+      "summary": "Adjudicación contrato– Anuncio de 4 de agosto de 2026, de adjudicación del contrato titulado “Servicio de trabajos auxiliares en la reparación y mantenimiento de instalaciones de protección contra incendios de Metro de Madrid” (Expediente 6012600013)",
+      "issuer": "CONSEJERÍA DE VIVIENDA, TRANSPORTES E INFRAESTRUCTURAS · METRO DE MADRID, S. A.",
+      "publicationType": "Adjudicación contrato",
+      "publishedAt": "2026-08-07",
+      "url": "https://www.bocm.es/bocm-20260807-21",
+      "pdfUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/08/07/BOCM-20260807-21.PDF",
+      "xmlUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/08/07/BOCM-20260807-21.xml?language=es",
+      "firstSeenAt": "2026-08-07T12:25:52.506Z"
+    },
+    {
+      "id": "bocm:bocm-20260807-5",
+      "source": "bocm",
+      "title": "Convocatoria proceso selectivo– Anuncio de 4 de agosto de 2026, por el que se hace pública la convocatoria de un proceso selectivo para cubrir treinta (30) plazas, quince (15) del colectivo de Maquinista de Tracción Eléctrica y quince (15) del colectivo de Jefe/a de Sector, en Metro de Madrid, S. A., mediante un contrato laboral indefinido y a jornada completa",
+      "summary": "Convocatoria proceso selectivo– Anuncio de 4 de agosto de 2026, por el que se hace pública la convocatoria de un proceso selectivo para cubrir treinta (30) plazas, quince (15) del colectivo de Maquinista de Tracción Eléctrica y quince (15) del colectivo de Jefe/a de Sector, en Metro de Madrid, S. A., mediante un contrato laboral indefinido y a jornada completa",
+      "issuer": "CONSEJERÍA DE VIVIENDA, TRANSPORTES E INFRAESTRUCTURAS · METRO DE MADRID, S. A.",
+      "publicationType": "Convocatoria proceso selectivo",
+      "publishedAt": "2026-08-07",
+      "url": "https://www.bocm.es/bocm-20260807-5",
+      "pdfUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/08/07/BOCM-20260807-5.PDF",
+      "xmlUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/08/07/BOCM-20260807-5.xml?language=es",
+      "firstSeenAt": "2026-08-07T12:25:52.506Z"
+    },
+    {
+      "id": "bocm:bocm-20260807-25",
+      "source": "bocm",
+      "title": "Convocatoria contrato– Anuncio de 5 de agosto de 2026, de ampliación de plazo de presentación de ofertas de la licitación de un servicio de mantenimiento de la plataforma EFFICIENT-IP para gestión del direccionamiento IP y servicios de red en Metro de Madrid (expediente 6012600199)",
+      "summary": "Convocatoria contrato– Anuncio de 5 de agosto de 2026, de ampliación de plazo de presentación de ofertas de la licitación de un servicio de mantenimiento de la plataforma EFFICIENT-IP para gestión del direccionamiento IP y servicios de red en Metro de Madrid (expediente 6012600199)",
+      "issuer": "CONSEJERÍA DE VIVIENDA, TRANSPORTES E INFRAESTRUCTURAS · METRO DE MADRID, S. A.",
+      "publicationType": "Convocatoria contrato",
+      "publishedAt": "2026-08-07",
+      "url": "https://www.bocm.es/bocm-20260807-25",
+      "pdfUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/08/07/BOCM-20260807-25.PDF",
+      "xmlUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/08/07/BOCM-20260807-25.xml?language=es",
+      "firstSeenAt": "2026-08-07T12:25:52.506Z"
+    },
+    {
+      "id": "bocm:bocm-20260807-19",
+      "source": "bocm",
+      "title": "Convocatoria contrato– Anuncio de 4 de agosto de 2026, de ampliación de plazo de presentación de ofertas de la licitación de un servicio de soporte y mantenimiento del entorno de almacenamiento y backup Dell EMC. (Expediente 6012600187)",
+      "summary": "Convocatoria contrato– Anuncio de 4 de agosto de 2026, de ampliación de plazo de presentación de ofertas de la licitación de un servicio de soporte y mantenimiento del entorno de almacenamiento y backup Dell EMC. (Expediente 6012600187)",
+      "issuer": "CONSEJERÍA DE VIVIENDA, TRANSPORTES E INFRAESTRUCTURAS · METRO DE MADRID, S. A.",
+      "publicationType": "Convocatoria contrato",
+      "publishedAt": "2026-08-07",
+      "url": "https://www.bocm.es/bocm-20260807-19",
+      "pdfUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/08/07/BOCM-20260807-19.PDF",
+      "xmlUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/08/07/BOCM-20260807-19.xml?language=es",
+      "firstSeenAt": "2026-08-07T12:25:52.506Z"
+    },
+    {
+      "id": "bocm:bocm-20260807-20",
+      "source": "bocm",
+      "title": "Convocatoria contrato– Anuncio de 4 de agosto de 2026, de ampliación de plazo de presentación de ofertas de la licitación de un acuerdo marco para servicios de mantenimiento correctivo de segundo nivel de equipos con tecnología SEPSA. (Expediente 6012600182)",
+      "summary": "Convocatoria contrato– Anuncio de 4 de agosto de 2026, de ampliación de plazo de presentación de ofertas de la licitación de un acuerdo marco para servicios de mantenimiento correctivo de segundo nivel de equipos con tecnología SEPSA. (Expediente 6012600182)",
+      "issuer": "CONSEJERÍA DE VIVIENDA, TRANSPORTES E INFRAESTRUCTURAS · METRO DE MADRID, S. A.",
+      "publicationType": "Convocatoria contrato",
+      "publishedAt": "2026-08-07",
+      "url": "https://www.bocm.es/bocm-20260807-20",
+      "pdfUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/08/07/BOCM-20260807-20.PDF",
+      "xmlUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/08/07/BOCM-20260807-20.xml?language=es",
+      "firstSeenAt": "2026-08-07T12:25:52.506Z"
+    },
+    {
+      "id": "bocm:bocm-20260807-22",
+      "source": "bocm",
+      "title": "Convocatoria contrato– Anuncio de 4 de agosto de 2026, de revocación de la declaración de nulidad de pleno derecho de la adjudicación del lote 3 (23 de abril de 2026) y retroacción de las actuaciones de la licitación al momento previo a la formalización, para la contratación de un “Servicio de mantenimiento integral de 1.468 pasos y canceladoras”. (Expediente 6012500294)",
+      "summary": "Convocatoria contrato– Anuncio de 4 de agosto de 2026, de revocación de la declaración de nulidad de pleno derecho de la adjudicación del lote 3 (23 de abril de 2026) y retroacción de las actuaciones de la licitación al momento previo a la formalización, para la contratación de un “Servicio de mantenimiento integral de 1.468 pasos y canceladoras”. (Expediente 6012500294)",
+      "issuer": "CONSEJERÍA DE VIVIENDA, TRANSPORTES E INFRAESTRUCTURAS · METRO DE MADRID, S. A.",
+      "publicationType": "Convocatoria contrato",
+      "publishedAt": "2026-08-07",
+      "url": "https://www.bocm.es/bocm-20260807-22",
+      "pdfUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/08/07/BOCM-20260807-22.PDF",
+      "xmlUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/08/07/BOCM-20260807-22.xml?language=es",
+      "firstSeenAt": "2026-08-07T12:25:52.506Z"
+    },
+    {
+      "id": "bocm:bocm-20260807-23",
+      "source": "bocm",
+      "title": "Convocatoria contrato– Anuncio de 5 de agosto de 2026, de ampliación de plazo de presentación de ofertas de la licitación de un servicio de apoyo al mantenimiento y soporte técnico al control, medida y protección de instalaciones de energía. (Expediente 6012600188)",
+      "summary": "Convocatoria contrato– Anuncio de 5 de agosto de 2026, de ampliación de plazo de presentación de ofertas de la licitación de un servicio de apoyo al mantenimiento y soporte técnico al control, medida y protección de instalaciones de energía. (Expediente 6012600188)",
+      "issuer": "CONSEJERÍA DE VIVIENDA, TRANSPORTES E INFRAESTRUCTURAS · METRO DE MADRID, S. A.",
+      "publicationType": "Convocatoria contrato",
+      "publishedAt": "2026-08-07",
+      "url": "https://www.bocm.es/bocm-20260807-23",
+      "pdfUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/08/07/BOCM-20260807-23.PDF",
+      "xmlUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/08/07/BOCM-20260807-23.xml?language=es",
+      "firstSeenAt": "2026-08-07T12:25:52.506Z"
+    },
+    {
+      "id": "bocm:bocm-20260807-26",
+      "source": "bocm",
+      "title": "Convocatoria contrato– Anuncio de 5 de agosto de 2026, de ampliación de plazo de presentación de ofertas de la licitación de un servicio de póliza del seguro de responsabilidad civil de administradores y directivos (RC D&O) 2027-2028 (Expediente 6012600200)",
+      "summary": "Convocatoria contrato– Anuncio de 5 de agosto de 2026, de ampliación de plazo de presentación de ofertas de la licitación de un servicio de póliza del seguro de responsabilidad civil de administradores y directivos (RC D&O) 2027-2028 (Expediente 6012600200)",
+      "issuer": "CONSEJERÍA DE VIVIENDA, TRANSPORTES E INFRAESTRUCTURAS · METRO DE MADRID, S. A.",
+      "publicationType": "Convocatoria contrato",
+      "publishedAt": "2026-08-07",
+      "url": "https://www.bocm.es/bocm-20260807-26",
+      "pdfUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/08/07/BOCM-20260807-26.PDF",
+      "xmlUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/08/07/BOCM-20260807-26.xml?language=es",
+      "firstSeenAt": "2026-08-07T12:25:52.506Z"
     },
     {
       "id": "contratos:suministro-soporte-mantenimiento-cancelas-sistemas-apertura-asistida-puertas",
