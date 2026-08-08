@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-07T23:10:10.083Z",
+  "generatedAt": "2026-08-08T00:03:50.832Z",
   "coverage": {
     "bocm": "2009-12-01 a 2026-08-07",
     "contratos": "2017-02-02 a 2026-08-07",
@@ -8,19 +8,19 @@
   },
   "sources": {
     "bocm": {
-      "checkedAt": "2026-08-07T23:10:10.083Z",
+      "checkedAt": "2026-08-08T00:03:50.832Z",
       "ok": true,
-      "message": "33 registros relevantes comprobados",
-      "recordsSeen": 33
+      "message": "5 registros relevantes comprobados; 18 documento(s) omitido(s) temporalmente",
+      "recordsSeen": 5
     },
     "contratos": {
-      "checkedAt": "2026-08-07T23:10:10.083Z",
+      "checkedAt": "2026-08-08T00:03:50.832Z",
       "ok": true,
       "message": "56 registros relevantes comprobados",
       "recordsSeen": 56
     },
     "empleo": {
-      "checkedAt": "2026-08-07T23:10:10.083Z",
+      "checkedAt": "2026-08-08T00:03:50.832Z",
       "ok": true,
       "message": "Cobertura mediante BOCM: 0 convocatoria(s) reciente(s) revisada(s); el portal directo protege el acceso automatizado",
       "recordsSeen": 0
@@ -1368,12 +1368,12 @@
     {
       "id": "bocm:bocm-20260724-31",
       "source": "bocm",
-      "title": "Formalización contrato– Anuncio de 16 de julio de 2026, de formalización del contrato titulado “Acuerdo marco para el suministro de los repuestos exclusivos del fabricante Schunk Ibérica, S. A., para el mantenimiento de los trenes del material móvil de Metro de Madrid” (expediente 6012600109) - (contrato M00047-001)",
-      "summary": "Formalización contrato– Anuncio de 16 de julio de 2026, de formalización del contrato titulado “Acuerdo marco para el suministro de los repuestos exclusivos del fabricante Schunk Ibérica, S. A., para el mantenimiento de los trenes del material móvil de Metro de Madrid” (expediente 6012600109) - (contrato M00047-001)",
-      "issuer": "CONSEJERÍA DE VIVIENDA, TRANSPORTES E INFRAESTRUCTURAS · METRO DE MADRID, S. A.",
-      "publicationType": "Formalización contrato",
+      "title": "Formalización contrato – Anuncio de 16 de julio de 2026, de formalización del contrato titulado “Acuerdo marco para el suministro de los repuestos exclusivos del fabricante Schunk Ibérica, S. A., para el mantenimiento de los trenes del material móvil de Metro de Madrid” (expediente 6012600109) - (contrato M00047-001)",
+      "summary": "Formalización contrato – Anuncio de 16 de julio de 2026, de formalización del contrato titulado “Acuerdo marco para el suministro de los repuestos exclusivos del fabricante Schunk Ibérica, S. A., para el mantenimiento de los trenes del material móvil de Metro de Madrid” (expediente 6012600109) - (contrato M00047-001)",
+      "issuer": "CONSEJERÍA DE VIVIENDA, TRANSPORTES E INFRAESTRUCTURAS",
+      "publicationType": "ANUNCIO",
       "publishedAt": "2026-07-24",
-      "url": "https://www.bocm.es/bocm-20260724-31",
+      "url": "https://www.bocm.es/bocm-20260724-31?language=es",
       "pdfUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/07/24/BOCM-20260724-31.PDF",
       "xmlUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/07/24/BOCM-20260724-31.xml?language=es",
       "tags": [
@@ -1384,12 +1384,12 @@
     {
       "id": "bocm:bocm-20260724-49",
       "source": "bocm",
-      "title": "Información previa contratación– Resolución de 15 de julio de 2026, de la Consejería de Cultura, Turismo y Deporte, por la que se hace público el anuncio de información previa del contrato titulado “Gestión del servicio de seis puntos de servicio de biblioteca en el Metro de Madrid (Bibliometro)”",
-      "summary": "Información previa contratación– Resolución de 15 de julio de 2026, de la Consejería de Cultura, Turismo y Deporte, por la que se hace público el anuncio de información previa del contrato titulado “Gestión del servicio de seis puntos de servicio de biblioteca en el Metro de Madrid (Bibliometro)”",
+      "title": "Información previa contratación – Resolución de 15 de julio de 2026, de la Consejería de Cultura, Turismo y Deporte, por la que se hace público el anuncio de información previa del contrato titulado “Gestión del servicio de seis puntos de servicio de biblioteca en el Metro de Madrid (Bibliometro)”",
+      "summary": "Información previa contratación – Resolución de 15 de julio de 2026, de la Consejería de Cultura, Turismo y Deporte, por la que se hace público el anuncio de información previa del contrato titulado “Gestión del servicio de seis puntos de servicio de biblioteca en el Metro de Madrid (Bibliometro)”",
       "issuer": "CONSEJERÍA DE CULTURA, TURISMO Y DEPORTE",
-      "publicationType": "Información previa contratación",
+      "publicationType": "RESOLUCIÓN",
       "publishedAt": "2026-07-24",
-      "url": "https://www.bocm.es/bocm-20260724-49",
+      "url": "https://www.bocm.es/bocm-20260724-49?language=es",
       "pdfUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/07/24/BOCM-20260724-49.PDF",
       "xmlUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/07/24/BOCM-20260724-49.xml?language=es",
       "tags": [
