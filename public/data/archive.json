@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-10T07:59:51.887Z",
+  "generatedAt": "2026-08-10T09:44:19.103Z",
   "coverage": {
     "bocm": "2009-12-01 a 2026-08-10",
     "contratos": "2017-02-02 a 2026-08-10",
@@ -8,25 +8,42 @@
   },
   "sources": {
     "bocm": {
-      "checkedAt": "2026-08-10T07:59:51.887Z",
+      "checkedAt": "2026-08-10T09:44:19.103Z",
       "ok": true,
-      "message": "30 registros relevantes comprobados",
-      "recordsSeen": 30
+      "message": "9 registros relevantes comprobados; 13 documento(s) omitido(s) temporalmente",
+      "recordsSeen": 9
     },
     "contratos": {
-      "checkedAt": "2026-08-10T07:59:51.887Z",
+      "checkedAt": "2026-08-10T09:44:19.103Z",
       "ok": true,
-      "message": "57 registros relevantes comprobados",
-      "recordsSeen": 57
+      "message": "55 registros relevantes comprobados",
+      "recordsSeen": 55
     },
     "empleo": {
-      "checkedAt": "2026-08-10T07:59:51.887Z",
+      "checkedAt": "2026-08-10T09:44:19.103Z",
       "ok": true,
       "message": "Cobertura mediante BOCM: 0 convocatoria(s) reciente(s) revisada(s); el portal directo protege el acceso automatizado",
       "recordsSeen": 0
     }
   },
   "items": [
+    {
+      "id": "contratos:servicio-telematica-vehiculos-automoviles-metro-madrid",
+      "source": "contratos",
+      "title": "Servicio de telemática de vehículos automóviles de Metro de Madrid",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Resuelta / Finalizada",
+      "status": "Resuelta / Finalizada",
+      "expediente": "6012100352",
+      "publishedAt": "2026-08-10",
+      "updatedAt": "2026-08-10T11:07:16+02:00",
+      "deadline": "2022-02-01",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-telematica-vehiculos-automoviles-metro-madrid",
+      "firstSeenAt": "2026-08-05T08:03:18.389Z",
+      "summary": "Id licitación: 6012100352;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 361324.80 EUR;Estado: 3Cerrada",
+      "amount": 361324.8,
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2021-12/6012100352_ppt_signed_1.pdf"
+    },
     {
       "id": "contratos:suministro-gasoleo-clase-b-c-recintos-metro-madrid-1",
       "source": "contratos",
@@ -77,15 +94,18 @@
     {
       "id": "bocm:bocm-20260810-20",
       "source": "bocm",
-      "title": "Formalización contrato– Anuncio de 31 de julio de 2026, de formalización del contrato titulado “Suministro de gasóleo clase A, B y C en recintos de Metro de Madrid”. (Expediente 6012600112)-(Contrato 7226000434)",
-      "summary": "Formalización contrato– Anuncio de 31 de julio de 2026, de formalización del contrato titulado “Suministro de gasóleo clase A, B y C en recintos de Metro de Madrid”. (Expediente 6012600112)-(Contrato 7226000434)",
-      "issuer": "CONSEJERÍA DE VIVIENDA, TRANSPORTES E INFRAESTRUCTURAS · METRO DE MADRID, S. A.",
-      "publicationType": "Formalización contrato",
+      "title": "Formalización contrato – Anuncio de 31 de julio de 2026, de formalización del contrato titulado “Suministro de gasóleo clase A, B y C en recintos de Metro de Madrid”. (Expediente 6012600112)-(Contrato 7226000434)",
+      "summary": "Formalización contrato – Anuncio de 31 de julio de 2026, de formalización del contrato titulado “Suministro de gasóleo clase A, B y C en recintos de Metro de Madrid”. (Expediente 6012600112)-(Contrato 7226000434)",
+      "issuer": "CONSEJERÍA DE VIVIENDA, TRANSPORTES E INFRAESTRUCTURAS",
+      "publicationType": "ANUNCIO",
       "publishedAt": "2026-08-10",
-      "url": "https://www.bocm.es/bocm-20260810-20",
+      "url": "https://www.bocm.es/bocm-20260810-20?language=es",
       "pdfUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/08/10/BOCM-20260810-20.PDF",
       "xmlUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/08/10/BOCM-20260810-20.xml?language=es",
-      "firstSeenAt": "2026-08-10T07:59:51.887Z"
+      "firstSeenAt": "2026-08-10T07:59:51.887Z",
+      "tags": [
+        "I. COMUNIDAD DE MADRID · D) Anuncios"
+      ]
     },
     {
       "id": "contratos:servicio-polizas-seguros-responsabilidad-civil-profesional-metro-madrid-2027-2028",
@@ -581,12 +601,12 @@
     {
       "id": "bocm:bocm-20260805-19",
       "source": "bocm",
-      "title": "Formalización contrato– Anuncio de 28 de julio de 2026, de formalización del contrato titulado “Suministro, instalación y mantenimiento preventivo de un sistema automatizado de almacenamiento de repuestos paletizados y preparación de pedidos para Metro de Madrid” (Expediente 6012600026)-(Contrato 7726000108-7226000381)",
-      "summary": "Formalización contrato– Anuncio de 28 de julio de 2026, de formalización del contrato titulado “Suministro, instalación y mantenimiento preventivo de un sistema automatizado de almacenamiento de repuestos paletizados y preparación de pedidos para Metro de Madrid” (Expediente 6012600026)-(Contrato 7726000108-7226000381)",
-      "issuer": "CONSEJERÍA DE VIVIENDA, TRANSPORTES E INFRAESTRUCTURAS · METRO DE MADRID, S. A.",
-      "publicationType": "Formalización contrato",
+      "title": "Formalización contrato – Anuncio de 28 de julio de 2026, de formalización del contrato titulado “Suministro, instalación y mantenimiento preventivo de un sistema automatizado de almacenamiento de repuestos paletizados y preparación de pedidos para Metro de Madrid” (Expediente 6012600026)-(Contrato 7726000108-7226000381)",
+      "summary": "Formalización contrato – Anuncio de 28 de julio de 2026, de formalización del contrato titulado “Suministro, instalación y mantenimiento preventivo de un sistema automatizado de almacenamiento de repuestos paletizados y preparación de pedidos para Metro de Madrid” (Expediente 6012600026)-(Contrato 7726000108-7226000381)",
+      "issuer": "CONSEJERÍA DE VIVIENDA, TRANSPORTES E INFRAESTRUCTURAS",
+      "publicationType": "ANUNCIO",
       "publishedAt": "2026-08-05",
-      "url": "https://www.bocm.es/bocm-20260805-19",
+      "url": "https://www.bocm.es/bocm-20260805-19?language=es",
       "pdfUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/08/05/BOCM-20260805-19.PDF",
       "xmlUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/08/05/BOCM-20260805-19.xml?language=es",
       "tags": [
@@ -2022,20 +2042,6 @@
       "pdfUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/07/20/BOCM-20260720-34.PDF",
       "xmlUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/07/20/BOCM-20260720-34.xml?language=es",
       "firstSeenAt": "2026-08-05T10:14:22.549Z"
-    },
-    {
-      "id": "contratos:servicio-telematica-vehiculos-automoviles-metro-madrid",
-      "source": "contratos",
-      "title": "Servicio de telemática de vehículos automóviles de Metro de Madrid",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Convocatoria anunciada a licitación",
-      "status": "Resuelta / Finalizada",
-      "expediente": "6012100352",
-      "publishedAt": "2026-07-17",
-      "updatedAt": "2026-07-17T13:17:00+02:00",
-      "deadline": "2022-02-01",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-telematica-vehiculos-automoviles-metro-madrid",
-      "firstSeenAt": "2026-08-05T08:03:18.389Z"
     },
     {
       "id": "contratos:servicio-sustitucion-conectores-fibra-optica-equipos-senalizacion-cbtc-linea-1",
