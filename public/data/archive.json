@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-10T17:31:41.785Z",
+  "generatedAt": "2026-08-10T18:29:05.169Z",
   "coverage": {
     "bocm": "2009-12-01 a 2026-08-10",
     "contratos": "2017-02-02 a 2026-08-10",
@@ -8,19 +8,19 @@
   },
   "sources": {
     "bocm": {
-      "checkedAt": "2026-08-10T17:31:41.785Z",
+      "checkedAt": "2026-08-10T18:29:05.169Z",
       "ok": true,
-      "message": "5 registros relevantes comprobados; 16 documento(s) omitido(s) temporalmente",
-      "recordsSeen": 5
+      "message": "12 registros relevantes comprobados; 11 documento(s) omitido(s) temporalmente",
+      "recordsSeen": 12
     },
     "contratos": {
-      "checkedAt": "2026-08-10T17:31:41.785Z",
+      "checkedAt": "2026-08-10T18:29:05.169Z",
       "ok": true,
       "message": "55 registros relevantes comprobados",
       "recordsSeen": 55
     },
     "empleo": {
-      "checkedAt": "2026-08-10T17:31:41.785Z",
+      "checkedAt": "2026-08-10T18:29:05.169Z",
       "ok": true,
       "message": "Cobertura mediante BOCM: 0 convocatoria(s) reciente(s) revisada(s); el portal directo protege el acceso automatizado",
       "recordsSeen": 0
@@ -1394,12 +1394,12 @@
     {
       "id": "bocm:bocm-20260727-26",
       "source": "bocm",
-      "title": "Adjudicación contrato– Anuncio de 23 de julio de 2026, de adjudicación del contrato titulado “Servicio de mantenimiento de ciclo largo en material móvil de la serie 9000 que circulan por Metro de Madrid, S. A.” (Expediente 6012600102)",
-      "summary": "Adjudicación contrato– Anuncio de 23 de julio de 2026, de adjudicación del contrato titulado “Servicio de mantenimiento de ciclo largo en material móvil de la serie 9000 que circulan por Metro de Madrid, S. A.” (Expediente 6012600102)",
-      "issuer": "CONSEJERÍA DE VIVIENDA, TRANSPORTES E INFRAESTRUCTURAS · METRO DE MADRID, S. A.",
-      "publicationType": "Adjudicación contrato",
+      "title": "Adjudicación contrato – Anuncio de 23 de julio de 2026, de adjudicación del contrato titulado “Servicio de mantenimiento de ciclo largo en material móvil de la serie 9000 que circulan por Metro de Madrid, S. A.” (Expediente 6012600102)",
+      "summary": "Adjudicación contrato – Anuncio de 23 de julio de 2026, de adjudicación del contrato titulado “Servicio de mantenimiento de ciclo largo en material móvil de la serie 9000 que circulan por Metro de Madrid, S. A.” (Expediente 6012600102)",
+      "issuer": "CONSEJERÍA DE VIVIENDA, TRANSPORTES E INFRAESTRUCTURAS",
+      "publicationType": "ANUNCIO",
       "publishedAt": "2026-07-27",
-      "url": "https://www.bocm.es/bocm-20260727-26",
+      "url": "https://www.bocm.es/bocm-20260727-26?language=es",
       "pdfUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/07/27/BOCM-20260727-26.PDF",
       "xmlUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/07/27/BOCM-20260727-26.xml?language=es",
       "tags": [
@@ -1410,12 +1410,12 @@
     {
       "id": "bocm:bocm-20260727-27",
       "source": "bocm",
-      "title": "Adjudicación contrato– Anuncio de 23 de julio de 2026, de adjudicación del contrato titulado “Obras de proyecto de ejecución de un nuevo acceso en la estación de estadio metropolitano de la línea 7 de Metro de Madrid” (Expediente 6012600103)",
-      "summary": "Adjudicación contrato– Anuncio de 23 de julio de 2026, de adjudicación del contrato titulado “Obras de proyecto de ejecución de un nuevo acceso en la estación de estadio metropolitano de la línea 7 de Metro de Madrid” (Expediente 6012600103)",
-      "issuer": "CONSEJERÍA DE VIVIENDA, TRANSPORTES E INFRAESTRUCTURAS · METRO DE MADRID, S. A.",
-      "publicationType": "Adjudicación contrato",
+      "title": "Adjudicación contrato – Anuncio de 23 de julio de 2026, de adjudicación del contrato titulado “Obras de proyecto de ejecución de un nuevo acceso en la estación de estadio metropolitano de la línea 7 de Metro de Madrid” (Expediente 6012600103)",
+      "summary": "Adjudicación contrato – Anuncio de 23 de julio de 2026, de adjudicación del contrato titulado “Obras de proyecto de ejecución de un nuevo acceso en la estación de estadio metropolitano de la línea 7 de Metro de Madrid” (Expediente 6012600103)",
+      "issuer": "CONSEJERÍA DE VIVIENDA, TRANSPORTES E INFRAESTRUCTURAS",
+      "publicationType": "ANUNCIO",
       "publishedAt": "2026-07-27",
-      "url": "https://www.bocm.es/bocm-20260727-27",
+      "url": "https://www.bocm.es/bocm-20260727-27?language=es",
       "pdfUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/07/27/BOCM-20260727-27.PDF",
       "xmlUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/07/27/BOCM-20260727-27.xml?language=es",
       "tags": [
