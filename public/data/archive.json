@@ -1,32 +1,46 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-10T21:53:57.682Z",
+  "generatedAt": "2026-08-10T22:52:51.909Z",
   "coverage": {
     "bocm": "2009-12-01 a 2026-08-10",
-    "contratos": "2017-02-02 a 2026-08-10",
+    "contratos": "2017-02-02 a 2026-08-11",
     "empleo": "2016-10-31 a 2026-05-07"
   },
   "sources": {
     "bocm": {
-      "checkedAt": "2026-08-10T21:53:57.682Z",
+      "checkedAt": "2026-08-10T22:52:51.909Z",
       "ok": true,
       "message": "30 registros relevantes comprobados; 11 documento(s) omitido(s) temporalmente",
       "recordsSeen": 30
     },
     "contratos": {
-      "checkedAt": "2026-08-10T21:53:57.682Z",
+      "checkedAt": "2026-08-10T22:52:51.909Z",
       "ok": true,
       "message": "55 registros relevantes comprobados",
       "recordsSeen": 55
     },
     "empleo": {
-      "checkedAt": "2026-08-10T21:53:57.682Z",
+      "checkedAt": "2026-08-10T22:52:51.909Z",
       "ok": true,
       "message": "Cobertura mediante BOCM: 0 convocatoria(s) reciente(s) revisada(s); el portal directo protege el acceso automatizado",
       "recordsSeen": 0
     }
   },
   "items": [
+    {
+      "id": "contratos:obras-intervencion-grafica-artistica-digital-estacion-duque-pastrana-metro-madrid",
+      "source": "contratos",
+      "title": "Obras de de intervención gráfica, artística y digital en la estación Duque de Pastrana de Metro de Madrid",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Convocatoria anunciada a licitación",
+      "status": "Pendiente de adjudicación",
+      "expediente": "6012600196",
+      "publishedAt": "2026-08-11",
+      "updatedAt": "2026-08-11T00:10:00+02:00",
+      "deadline": "2026-08-10",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/obras-intervencion-grafica-artistica-digital-estacion-duque-pastrana-metro-madrid",
+      "firstSeenAt": "2026-08-05T08:03:18.389Z"
+    },
     {
       "id": "contratos:suministro-sistemas-alimentacion-electrica-mantenimiento-instalaciones",
       "source": "contratos",
@@ -845,20 +859,6 @@
       "updatedAt": "2026-07-31T10:52:00+02:00",
       "deadline": "2026-05-05",
       "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/soporte-mantenimiento-software-red-hat",
-      "firstSeenAt": "2026-08-05T08:03:18.389Z"
-    },
-    {
-      "id": "contratos:obras-intervencion-grafica-artistica-digital-estacion-duque-pastrana-metro-madrid",
-      "source": "contratos",
-      "title": "Obras de de intervención gráfica, artística y digital en la estación Duque de Pastrana de Metro de Madrid",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Convocatoria anunciada a licitación",
-      "status": "En plazo",
-      "expediente": "6012600196",
-      "publishedAt": "2026-07-31",
-      "updatedAt": "2026-07-31T10:51:00+02:00",
-      "deadline": "2026-08-10",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/obras-intervencion-grafica-artistica-digital-estacion-duque-pastrana-metro-madrid",
       "firstSeenAt": "2026-08-05T08:03:18.389Z"
     },
     {
