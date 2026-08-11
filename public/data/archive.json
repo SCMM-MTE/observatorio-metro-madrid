@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-11T16:29:41.718Z",
+  "generatedAt": "2026-08-11T17:34:58.266Z",
   "coverage": {
     "bocm": "2009-12-01 a 2026-08-11",
     "contratos": "2017-02-02 a 2026-08-11",
@@ -8,25 +8,42 @@
   },
   "sources": {
     "bocm": {
-      "checkedAt": "2026-08-11T16:29:41.718Z",
+      "checkedAt": "2026-08-11T17:34:58.266Z",
       "ok": true,
-      "message": "30 registros relevantes comprobados; 11 documento(s) omitido(s) temporalmente",
+      "message": "30 registros relevantes comprobados",
       "recordsSeen": 30
     },
     "contratos": {
-      "checkedAt": "2026-08-11T16:29:41.718Z",
+      "checkedAt": "2026-08-11T17:34:58.266Z",
       "ok": true,
-      "message": "53 registros relevantes comprobados",
-      "recordsSeen": 53
+      "message": "54 registros relevantes comprobados",
+      "recordsSeen": 54
     },
     "empleo": {
-      "checkedAt": "2026-08-11T16:29:41.718Z",
+      "checkedAt": "2026-08-11T17:34:58.266Z",
       "ok": true,
       "message": "Cobertura mediante BOCM: 0 convocatoria(s) reciente(s) revisada(s); el portal directo protege el acceso automatizado",
       "recordsSeen": 0
     }
   },
   "items": [
+    {
+      "id": "contratos:servicio-redaccion-proyecto-construccion-nueva-estacion-linea-9-metro-desarrollos",
+      "source": "contratos",
+      "title": "Servicio de redacción del proyecto de construcción de una nueva estación en la línea 9 de Metro en los desarrollos de Los Ahijones y Los Berrocales. Término municipal de Madrid.",
+      "summary": "Id licitación: A/SER-016502/2025;Órgano de Contratación: Consejería de Vivienda, Transportes e Infraestructuras;Importe: 819047.75 EUR;",
+      "issuer": "Consejería de Vivienda, Transportes e Infraestructuras",
+      "publicationType": "Pendiente de adjudicación",
+      "status": "Pendiente de adjudicación",
+      "expediente": "A/SER-016502/2025",
+      "amount": 819047.75,
+      "deadline": "2026-02-24",
+      "publishedAt": "2026-08-11",
+      "updatedAt": "2026-08-11T19:03:22+02:00",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-redaccion-proyecto-construccion-nueva-estacion-linea-9-metro-desarrollos",
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-01/ser.16502.2025_ppt_17.06.2025.an.pdf",
+      "firstSeenAt": "2026-08-05T07:48:11.952Z"
+    },
     {
       "id": "contratos:servicio-reparacion-equipos-megafonia-fabricante-optimus",
       "source": "contratos",
@@ -812,23 +829,6 @@
       "updatedAt": "2026-08-04T10:04:00+02:00",
       "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/suministro-lamparas-multiuso-linternas-casco-led",
       "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-06/6012600172_ppt_signed.pdf",
-      "firstSeenAt": "2026-08-05T07:48:11.952Z"
-    },
-    {
-      "id": "contratos:servicio-redaccion-proyecto-construccion-nueva-estacion-linea-9-metro-desarrollos",
-      "source": "contratos",
-      "title": "Servicio de redacción del proyecto de construcción de una nueva estación en la línea 9 de Metro en los desarrollos de Los Ahijones y Los Berrocales. Término municipal de Madrid.",
-      "summary": "Id licitación: A/SER-016502/2025;Órgano de Contratación: Consejería de Vivienda, Transportes e Infraestructuras;Importe: 819047.75 EUR;",
-      "issuer": "Consejería de Vivienda, Transportes e Infraestructuras",
-      "publicationType": "Pendiente de adjudicación",
-      "status": "Pendiente de adjudicación",
-      "expediente": "A/SER-016502/2025",
-      "amount": 819047.75,
-      "deadline": "2026-02-24",
-      "publishedAt": "2026-08-04",
-      "updatedAt": "2026-08-04T09:40:43+02:00",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-redaccion-proyecto-construccion-nueva-estacion-linea-9-metro-desarrollos",
-      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-01/ser.16502.2025_ppt_17.06.2025.an.pdf",
       "firstSeenAt": "2026-08-05T07:48:11.952Z"
     },
     {
