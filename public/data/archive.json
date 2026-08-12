@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-12T13:38:58.816Z",
+  "generatedAt": "2026-08-12T15:10:02.878Z",
   "coverage": {
     "bocm": "2009-12-01 a 2026-08-12",
     "contratos": "2017-02-02 a 2026-08-12",
@@ -8,19 +8,19 @@
   },
   "sources": {
     "bocm": {
-      "checkedAt": "2026-08-12T13:38:58.816Z",
+      "checkedAt": "2026-08-12T15:10:02.878Z",
       "ok": true,
-      "message": "30 registros relevantes comprobados",
-      "recordsSeen": 30
+      "message": "2 registros relevantes comprobados; 19 documento(s) omitido(s) temporalmente",
+      "recordsSeen": 2
     },
     "contratos": {
-      "checkedAt": "2026-08-12T13:38:58.816Z",
+      "checkedAt": "2026-08-12T15:10:02.878Z",
       "ok": true,
       "message": "58 registros relevantes comprobados",
       "recordsSeen": 58
     },
     "empleo": {
-      "checkedAt": "2026-08-12T13:38:58.816Z",
+      "checkedAt": "2026-08-12T15:10:02.878Z",
       "ok": true,
       "message": "Cobertura mediante BOCM: 0 convocatoria(s) reciente(s) revisada(s); el portal directo protege el acceso automatizado",
       "recordsSeen": 0
@@ -238,12 +238,12 @@
     {
       "id": "bocm:bocm-20260811-14",
       "source": "bocm",
-      "title": "Adjudicación contrato– Anuncio de 6 de agosto de 2026, de adjudicación del contrato titulado “Acuerdo Marco para trabajos de inspección, revisión de control y desamiantado de equipos/instalaciones de MCA en equipamiento de Metro de Madrid”. (Expediente 6012600024)",
-      "summary": "Adjudicación contrato– Anuncio de 6 de agosto de 2026, de adjudicación del contrato titulado “Acuerdo Marco para trabajos de inspección, revisión de control y desamiantado de equipos/instalaciones de MCA en equipamiento de Metro de Madrid”. (Expediente 6012600024)",
-      "issuer": "CONSEJERÍA DE VIVIENDA, TRANSPORTES E INFRAESTRUCTURAS · METRO DE MADRID, S. A.",
-      "publicationType": "Adjudicación contrato",
+      "title": "Adjudicación contrato – Anuncio de 6 de agosto de 2026, de adjudicación del contrato titulado “Acuerdo Marco para trabajos de inspección, revisión de control y desamiantado de equipos/instalaciones de MCA en equipamiento de Metro de Madrid”. (Expediente 6012600024)",
+      "summary": "Adjudicación contrato – Anuncio de 6 de agosto de 2026, de adjudicación del contrato titulado “Acuerdo Marco para trabajos de inspección, revisión de control y desamiantado de equipos/instalaciones de MCA en equipamiento de Metro de Madrid”. (Expediente 6012600024)",
+      "issuer": "CONSEJERÍA DE VIVIENDA, TRANSPORTES E INFRAESTRUCTURAS",
+      "publicationType": "ANUNCIO",
       "publishedAt": "2026-08-11",
-      "url": "https://www.bocm.es/bocm-20260811-14",
+      "url": "https://www.bocm.es/bocm-20260811-14?language=es",
       "pdfUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/08/11/BOCM-20260811-14.PDF",
       "xmlUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/08/11/BOCM-20260811-14.xml?language=es",
       "firstSeenAt": "2026-08-11T09:11:19.667Z",
@@ -254,12 +254,12 @@
     {
       "id": "bocm:bocm-20260811-15",
       "source": "bocm",
-      "title": "Adjudicación contrato– Anuncio de 6 de agosto de 2026, de adjudicación del contrato titulado “Suministro para la renovación integral de los sistemas de seguridad del recinto de Cuatro Vientos de Metro de Madrid”. (Expediente 6012500378)",
-      "summary": "Adjudicación contrato– Anuncio de 6 de agosto de 2026, de adjudicación del contrato titulado “Suministro para la renovación integral de los sistemas de seguridad del recinto de Cuatro Vientos de Metro de Madrid”. (Expediente 6012500378)",
-      "issuer": "CONSEJERÍA DE VIVIENDA, TRANSPORTES E INFRAESTRUCTURAS · METRO DE MADRID, S. A.",
-      "publicationType": "Adjudicación contrato",
+      "title": "Adjudicación contrato – Anuncio de 6 de agosto de 2026, de adjudicación del contrato titulado “Suministro para la renovación integral de los sistemas de seguridad del recinto de Cuatro Vientos de Metro de Madrid”. (Expediente 6012500378)",
+      "summary": "Adjudicación contrato – Anuncio de 6 de agosto de 2026, de adjudicación del contrato titulado “Suministro para la renovación integral de los sistemas de seguridad del recinto de Cuatro Vientos de Metro de Madrid”. (Expediente 6012500378)",
+      "issuer": "CONSEJERÍA DE VIVIENDA, TRANSPORTES E INFRAESTRUCTURAS",
+      "publicationType": "ANUNCIO",
       "publishedAt": "2026-08-11",
-      "url": "https://www.bocm.es/bocm-20260811-15",
+      "url": "https://www.bocm.es/bocm-20260811-15?language=es",
       "pdfUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/08/11/BOCM-20260811-15.PDF",
       "xmlUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/08/11/BOCM-20260811-15.xml?language=es",
       "firstSeenAt": "2026-08-11T09:11:19.667Z",
