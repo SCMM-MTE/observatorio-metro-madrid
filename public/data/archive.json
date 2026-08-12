@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-12T10:40:07.203Z",
+  "generatedAt": "2026-08-12T11:55:17.677Z",
   "coverage": {
     "bocm": "2009-12-01 a 2026-08-12",
     "contratos": "2017-02-02 a 2026-08-12",
@@ -8,25 +8,42 @@
   },
   "sources": {
     "bocm": {
-      "checkedAt": "2026-08-12T10:40:07.203Z",
+      "checkedAt": "2026-08-12T11:55:17.677Z",
       "ok": true,
-      "message": "2 registros relevantes comprobados; 17 documento(s) omitido(s) temporalmente",
+      "message": "2 registros relevantes comprobados; 19 documento(s) omitido(s) temporalmente",
       "recordsSeen": 2
     },
     "contratos": {
-      "checkedAt": "2026-08-12T10:40:07.203Z",
+      "checkedAt": "2026-08-12T11:55:17.677Z",
       "ok": true,
-      "message": "57 registros relevantes comprobados",
-      "recordsSeen": 57
+      "message": "58 registros relevantes comprobados",
+      "recordsSeen": 58
     },
     "empleo": {
-      "checkedAt": "2026-08-12T10:40:07.203Z",
+      "checkedAt": "2026-08-12T11:55:17.677Z",
       "ok": true,
       "message": "Cobertura mediante BOCM: 0 convocatoria(s) reciente(s) revisada(s); el portal directo protege el acceso automatizado",
       "recordsSeen": 0
     }
   },
   "items": [
+    {
+      "id": "contratos:direccion-obras-coordinacion-seguridad-salud-asistencia-tecnica-obras-ejecucion",
+      "source": "contratos",
+      "title": "Dirección de las obras, coordinación de seguridad y salud y asistencia técnica de las obras de ejecución de instalaciones, y de las obras de ejecución de la señalización, para la ampliación de la línea 11 de metro de Madrid. Tramo Plaza Elíptica-Conde de Casal",
+      "summary": "Id licitación: A/SER-031843/2025;Órgano de Contratación: Consejería de Vivienda, Transportes e Infraestructuras;Importe: 12286984.15 EUR;",
+      "issuer": "Consejería de Vivienda, Transportes e Infraestructuras",
+      "publicationType": "Pendiente de adjudicación",
+      "status": "Pendiente de adjudicación",
+      "expediente": "A/SER-031843/2025",
+      "amount": 12286984.15,
+      "deadline": "2026-03-02",
+      "publishedAt": "2026-08-12",
+      "updatedAt": "2026-08-12T13:53:51+02:00",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/direccion-obras-coordinacion-seguridad-salud-asistencia-tecnica-obras-ejecucion",
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2025-12/ser.31843.2025_ppt.an.pdf",
+      "firstSeenAt": "2026-08-12T11:55:17.677Z"
+    },
     {
       "id": "contratos:suministro-sustitucion-plantas-energia-centros-administrativos-1",
       "source": "contratos",
@@ -43,6 +60,20 @@
       "summary": "Id licitación: 6012400361;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 2805911.92 EUR;",
       "amount": 2805911.92,
       "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2024-10/6012400361_pliego_de_prescripciones_tecnicas_signed.pdf"
+    },
+    {
+      "id": "contratos:servicio-resolucion-incidencias-detectadas-inspeccion-tecnica-estanterias-metro",
+      "source": "contratos",
+      "title": "Servicio de resolución de incidencias detectadas en la inspección técnica de estanterías para Metro de Madrid",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Convocatoria anunciada a licitación",
+      "status": "Pendiente de adjudicación",
+      "expediente": "6012600189",
+      "publishedAt": "2026-08-12",
+      "updatedAt": "2026-08-12T12:32:00+02:00",
+      "deadline": "2026-07-14",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-resolucion-incidencias-detectadas-inspeccion-tecnica-estanterias-metro",
+      "firstSeenAt": "2026-08-05T08:03:18.389Z"
     },
     {
       "id": "contratos:acuerdo-marco-servicios-consultoria-servicio-superestructura-via-metro-madrid",
@@ -2330,20 +2361,6 @@
       "pdfUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/07/16/BOCM-20260716-20.PDF",
       "xmlUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/07/16/BOCM-20260716-20.xml?language=es",
       "firstSeenAt": "2026-08-05T10:14:22.549Z"
-    },
-    {
-      "id": "contratos:servicio-resolucion-incidencias-detectadas-inspeccion-tecnica-estanterias-metro",
-      "source": "contratos",
-      "title": "Servicio de resolución de incidencias detectadas en la inspección técnica de estanterías para Metro de Madrid",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Convocatoria anunciada a licitación",
-      "status": "Pendiente de adjudicación",
-      "expediente": "6012600189",
-      "publishedAt": "2026-07-15",
-      "updatedAt": "2026-07-15T13:03:00+02:00",
-      "deadline": "2026-07-14",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-resolucion-incidencias-detectadas-inspeccion-tecnica-estanterias-metro",
-      "firstSeenAt": "2026-08-05T08:03:18.389Z"
     },
     {
       "id": "contratos:acuerdo-marco-suministro-repuestos-fabricante-indra-sistemas-sa-mantenimiento",
