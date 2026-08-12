@@ -1,32 +1,48 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-12T06:24:20.093Z",
+  "generatedAt": "2026-08-12T08:02:15.917Z",
   "coverage": {
-    "bocm": "2009-12-01 a 2026-08-11",
+    "bocm": "2009-12-01 a 2026-08-12",
     "contratos": "2017-02-02 a 2026-08-11",
     "empleo": "2016-10-31 a 2026-05-07"
   },
   "sources": {
     "bocm": {
-      "checkedAt": "2026-08-12T06:24:20.093Z",
+      "checkedAt": "2026-08-12T08:02:15.917Z",
       "ok": true,
-      "message": "Consulta parcial sin registros; 20 documento(s) omitido(s) temporalmente",
-      "recordsSeen": 0
+      "message": "3 registros relevantes comprobados; 18 documento(s) omitido(s) temporalmente",
+      "recordsSeen": 3
     },
     "contratos": {
-      "checkedAt": "2026-08-12T06:24:20.093Z",
+      "checkedAt": "2026-08-12T08:02:15.917Z",
       "ok": true,
-      "message": "53 registros relevantes comprobados; 1 documento(s) omitido(s) temporalmente",
-      "recordsSeen": 53
+      "message": "54 registros relevantes comprobados",
+      "recordsSeen": 54
     },
     "empleo": {
-      "checkedAt": "2026-08-12T06:24:20.093Z",
+      "checkedAt": "2026-08-12T08:02:15.917Z",
       "ok": true,
       "message": "Cobertura mediante BOCM: 0 convocatoria(s) reciente(s) revisada(s); el portal directo protege el acceso automatizado",
       "recordsSeen": 0
     }
   },
   "items": [
+    {
+      "id": "bocm:bocm-20260812-11",
+      "source": "bocm",
+      "title": "Formalización contrato – Anuncio de 4 de agosto de 2026, de formalización del contrato titulado “Acuerdo marco para servicios de consultoría en el servicio de superestructura de vía de Metro de Madrid” (Expediente 6012500262)-(Contrato G00092-001)",
+      "summary": "Formalización contrato – Anuncio de 4 de agosto de 2026, de formalización del contrato titulado “Acuerdo marco para servicios de consultoría en el servicio de superestructura de vía de Metro de Madrid” (Expediente 6012500262)-(Contrato G00092-001)",
+      "issuer": "CONSEJERÍA DE VIVIENDA, TRANSPORTES E INFRAESTRUCTURAS",
+      "publicationType": "ANUNCIO",
+      "publishedAt": "2026-08-12",
+      "url": "https://www.bocm.es/bocm-20260812-11?language=es",
+      "pdfUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/08/12/BOCM-20260812-11.PDF",
+      "xmlUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/08/12/BOCM-20260812-11.xml?language=es",
+      "tags": [
+        "I. COMUNIDAD DE MADRID · D) Anuncios"
+      ],
+      "firstSeenAt": "2026-08-12T08:02:15.917Z"
+    },
     {
       "id": "contratos:servicio-redaccion-proyecto-construccion-nueva-estacion-linea-9-metro-desarrollos",
       "source": "contratos",
