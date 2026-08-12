@@ -1,32 +1,83 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-12T09:21:22.402Z",
+  "generatedAt": "2026-08-12T10:40:07.203Z",
   "coverage": {
     "bocm": "2009-12-01 a 2026-08-12",
-    "contratos": "2017-02-02 a 2026-08-11",
+    "contratos": "2017-02-02 a 2026-08-12",
     "empleo": "2016-10-31 a 2026-05-07"
   },
   "sources": {
     "bocm": {
-      "checkedAt": "2026-08-12T09:21:22.402Z",
+      "checkedAt": "2026-08-12T10:40:07.203Z",
       "ok": true,
-      "message": "21 registros relevantes comprobados; 1 documento(s) omitido(s) temporalmente",
-      "recordsSeen": 21
+      "message": "2 registros relevantes comprobados; 17 documento(s) omitido(s) temporalmente",
+      "recordsSeen": 2
     },
     "contratos": {
-      "checkedAt": "2026-08-12T09:21:22.402Z",
+      "checkedAt": "2026-08-12T10:40:07.203Z",
       "ok": true,
-      "message": "54 registros relevantes comprobados",
-      "recordsSeen": 54
+      "message": "57 registros relevantes comprobados",
+      "recordsSeen": 57
     },
     "empleo": {
-      "checkedAt": "2026-08-12T09:21:22.402Z",
+      "checkedAt": "2026-08-12T10:40:07.203Z",
       "ok": true,
       "message": "Cobertura mediante BOCM: 0 convocatoria(s) reciente(s) revisada(s); el portal directo protege el acceso automatizado",
       "recordsSeen": 0
     }
   },
   "items": [
+    {
+      "id": "contratos:suministro-sustitucion-plantas-energia-centros-administrativos-1",
+      "source": "contratos",
+      "title": "Suministro para la sustitución de las plantas de energía de los Centros Administrativos de Telecomunicaciones (CAT) de Metro de Madrid",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Resuelta / Finalizada",
+      "status": "Resuelta / Finalizada",
+      "expediente": "6012400361",
+      "publishedAt": "2026-08-12",
+      "updatedAt": "2026-08-12T12:41:26+02:00",
+      "deadline": "2024-11-14",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/suministro-sustitucion-plantas-energia-centros-administrativos-1",
+      "firstSeenAt": "2026-08-05T08:03:18.389Z",
+      "summary": "Id licitación: 6012400361;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 2805911.92 EUR;",
+      "amount": 2805911.92,
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2024-10/6012400361_pliego_de_prescripciones_tecnicas_signed.pdf"
+    },
+    {
+      "id": "contratos:acuerdo-marco-servicios-consultoria-servicio-superestructura-via-metro-madrid",
+      "source": "contratos",
+      "title": "Acuerdo Marco para servicios de consultoría en el Servicio de Superestructura de Vía de Metro de Madrid.",
+      "summary": "Id licitación: 6012500262;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 2000000.00 EUR;",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Resuelta / Finalizada",
+      "status": "Resuelta / Finalizada",
+      "expediente": "6012500262",
+      "amount": 2000000,
+      "deadline": "2025-10-01",
+      "publishedAt": "2026-08-12",
+      "updatedAt": "2026-08-12T12:28:37+02:00",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/acuerdo-marco-servicios-consultoria-servicio-superestructura-via-metro-madrid",
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2025-08/6012500262_ppt_signed.pdf",
+      "firstSeenAt": "2026-08-05T07:48:11.952Z"
+    },
+    {
+      "id": "contratos:servicio-calibracion-equipos-medida-estaciones-meteorologicas-metro-madrid",
+      "source": "contratos",
+      "title": "Servicio de calibración de equipos de medida y estaciones meteorológicas de Metro de Madrid",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Resuelta / Finalizada",
+      "status": "Resuelta / Finalizada",
+      "expediente": "6012300178",
+      "publishedAt": "2026-08-12",
+      "updatedAt": "2026-08-12T12:26:27+02:00",
+      "deadline": "2023-06-29",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-calibracion-equipos-medida-estaciones-meteorologicas-metro-madrid",
+      "firstSeenAt": "2026-08-05T08:03:18.389Z",
+      "summary": "Id licitación: 6012300178;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 204450.00 EUR;",
+      "amount": 204450,
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2023-06/6012300178_documento_ref._confidencialidad_signed.pdf"
+    },
     {
       "id": "bocm:bocm-20260812-11",
       "source": "bocm",
@@ -704,23 +755,6 @@
       "summary": "Id licitación: 6012600026;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 3840174.72 EUR;",
       "amount": 3840174.72,
       "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-01/6012600026_ppt_signed.pdf"
-    },
-    {
-      "id": "contratos:acuerdo-marco-servicios-consultoria-servicio-superestructura-via-metro-madrid",
-      "source": "contratos",
-      "title": "Acuerdo Marco para servicios de consultoría en el Servicio de Superestructura de Vía de Metro de Madrid.",
-      "summary": "Id licitación: 6012500262;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 2000000.00 EUR;",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Resuelta / Finalizada",
-      "status": "Resuelta / Finalizada",
-      "expediente": "6012500262",
-      "amount": 2000000,
-      "deadline": "2025-10-01",
-      "publishedAt": "2026-08-05",
-      "updatedAt": "2026-08-05T08:12:11+02:00",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/acuerdo-marco-servicios-consultoria-servicio-superestructura-via-metro-madrid",
-      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2025-08/6012500262_ppt_signed.pdf",
-      "firstSeenAt": "2026-08-05T07:48:11.952Z"
     },
     {
       "id": "contratos:suministro-instalacion-sistemas-seguridad-acceso-vehicular-accesos-peatonales-0",
@@ -2012,20 +2046,6 @@
       "updatedAt": "2026-07-20T11:19:00+02:00",
       "deadline": "2026-07-03",
       "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-reparacion-tarjetas-control-equipos-climatizacion-series-3000-9000",
-      "firstSeenAt": "2026-08-05T08:03:18.389Z"
-    },
-    {
-      "id": "contratos:servicio-calibracion-equipos-medida-estaciones-meteorologicas-metro-madrid",
-      "source": "contratos",
-      "title": "Servicio de calibración de equipos de medida y estaciones meteorológicas de Metro de Madrid",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Convocatoria anunciada a licitación",
-      "status": "Resuelta / Finalizada",
-      "expediente": "6012300178",
-      "publishedAt": "2026-07-20",
-      "updatedAt": "2026-07-20T10:29:00+02:00",
-      "deadline": "2023-06-29",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-calibracion-equipos-medida-estaciones-meteorologicas-metro-madrid",
       "firstSeenAt": "2026-08-05T08:03:18.389Z"
     },
     {
@@ -21566,20 +21586,6 @@
       "updatedAt": "2025-05-07T13:13:00+02:00",
       "deadline": "2022-01-10",
       "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-informacion-atencion-cliente-centros-atencion-cliente-metro-madrid",
-      "firstSeenAt": "2026-08-05T08:03:18.389Z"
-    },
-    {
-      "id": "contratos:suministro-sustitucion-plantas-energia-centros-administrativos-1",
-      "source": "contratos",
-      "title": "Suministro para la sustitución de las plantas de energía de los Centros Administrativos de Telecomunicaciones (CAT) de Metro de Madrid",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Convocatoria anunciada a licitación",
-      "status": "Resuelta / Finalizada",
-      "expediente": "6012400361",
-      "publishedAt": "2025-05-07",
-      "updatedAt": "2025-05-07T09:25:00+02:00",
-      "deadline": "2024-11-14",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/suministro-sustitucion-plantas-energia-centros-administrativos-1",
       "firstSeenAt": "2026-08-05T08:03:18.389Z"
     },
     {
