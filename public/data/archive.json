@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-13T08:40:11.488Z",
+  "generatedAt": "2026-08-13T10:19:06.398Z",
   "coverage": {
     "bocm": "2009-12-01 a 2026-08-13",
     "contratos": "2017-02-02 a 2026-08-13",
@@ -8,25 +8,39 @@
   },
   "sources": {
     "bocm": {
-      "checkedAt": "2026-08-13T08:40:11.488Z",
+      "checkedAt": "2026-08-13T10:19:06.398Z",
       "ok": true,
-      "message": "28 registros relevantes comprobados",
-      "recordsSeen": 28
+      "message": "5 registros relevantes comprobados; 15 documento(s) omitido(s) temporalmente",
+      "recordsSeen": 5
     },
     "contratos": {
-      "checkedAt": "2026-08-13T08:40:11.488Z",
+      "checkedAt": "2026-08-13T10:19:06.398Z",
       "ok": true,
-      "message": "57 registros relevantes comprobados",
-      "recordsSeen": 57
+      "message": "56 registros relevantes comprobados",
+      "recordsSeen": 56
     },
     "empleo": {
-      "checkedAt": "2026-08-13T08:40:11.488Z",
+      "checkedAt": "2026-08-13T10:19:06.398Z",
       "ok": true,
       "message": "Cobertura mediante BOCM: 0 convocatoria(s) reciente(s) revisada(s); el portal directo protege el acceso automatizado",
       "recordsSeen": 0
     }
   },
   "items": [
+    {
+      "id": "contratos:servicio-resolucion-incidencias-detectadas-inspeccion-tecnica-estanterias-metro",
+      "source": "contratos",
+      "title": "Servicio de resolución de incidencias detectadas en la inspección técnica de estanterías para Metro de Madrid",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Convocatoria anunciada a licitación",
+      "status": "Pendiente de adjudicación",
+      "expediente": "6012600189",
+      "publishedAt": "2026-08-13",
+      "updatedAt": "2026-08-13T10:34:00+02:00",
+      "deadline": "2026-07-14",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-resolucion-incidencias-detectadas-inspeccion-tecnica-estanterias-metro",
+      "firstSeenAt": "2026-08-05T08:03:18.389Z"
+    },
     {
       "id": "contratos:suministro-equipos-respiracion-motorizados-componentes-proteccion-trabajadores",
       "source": "contratos",
@@ -178,20 +192,6 @@
       "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2024-10/6012400361_pliego_de_prescripciones_tecnicas_signed.pdf"
     },
     {
-      "id": "contratos:servicio-resolucion-incidencias-detectadas-inspeccion-tecnica-estanterias-metro",
-      "source": "contratos",
-      "title": "Servicio de resolución de incidencias detectadas en la inspección técnica de estanterías para Metro de Madrid",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Convocatoria anunciada a licitación",
-      "status": "Pendiente de adjudicación",
-      "expediente": "6012600189",
-      "publishedAt": "2026-08-12",
-      "updatedAt": "2026-08-12T12:32:00+02:00",
-      "deadline": "2026-07-14",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-resolucion-incidencias-detectadas-inspeccion-tecnica-estanterias-metro",
-      "firstSeenAt": "2026-08-05T08:03:18.389Z"
-    },
-    {
       "id": "contratos:acuerdo-marco-servicios-consultoria-servicio-superestructura-via-metro-madrid",
       "source": "contratos",
       "title": "Acuerdo Marco para servicios de consultoría en el Servicio de Superestructura de Vía de Metro de Madrid.",
@@ -228,12 +228,12 @@
     {
       "id": "bocm:bocm-20260812-11",
       "source": "bocm",
-      "title": "Formalización contrato– Anuncio de 4 de agosto de 2026, de formalización del contrato titulado “Acuerdo marco para servicios de consultoría en el servicio de superestructura de vía de Metro de Madrid” (Expediente 6012500262)-(Contrato G00092-001)",
-      "summary": "Formalización contrato– Anuncio de 4 de agosto de 2026, de formalización del contrato titulado “Acuerdo marco para servicios de consultoría en el servicio de superestructura de vía de Metro de Madrid” (Expediente 6012500262)-(Contrato G00092-001)",
-      "issuer": "CONSEJERÍA DE VIVIENDA, TRANSPORTES E INFRAESTRUCTURAS · METRO DE MADRID, S. A.",
-      "publicationType": "Formalización contrato",
+      "title": "Formalización contrato – Anuncio de 4 de agosto de 2026, de formalización del contrato titulado “Acuerdo marco para servicios de consultoría en el servicio de superestructura de vía de Metro de Madrid” (Expediente 6012500262)-(Contrato G00092-001)",
+      "summary": "Formalización contrato – Anuncio de 4 de agosto de 2026, de formalización del contrato titulado “Acuerdo marco para servicios de consultoría en el servicio de superestructura de vía de Metro de Madrid” (Expediente 6012500262)-(Contrato G00092-001)",
+      "issuer": "CONSEJERÍA DE VIVIENDA, TRANSPORTES E INFRAESTRUCTURAS",
+      "publicationType": "ANUNCIO",
       "publishedAt": "2026-08-12",
-      "url": "https://www.bocm.es/bocm-20260812-11",
+      "url": "https://www.bocm.es/bocm-20260812-11?language=es",
       "pdfUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/08/12/BOCM-20260812-11.PDF",
       "xmlUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/08/12/BOCM-20260812-11.xml?language=es",
       "tags": [
@@ -439,12 +439,12 @@
     {
       "id": "bocm:bocm-20260810-20",
       "source": "bocm",
-      "title": "Formalización contrato– Anuncio de 31 de julio de 2026, de formalización del contrato titulado “Suministro de gasóleo clase A, B y C en recintos de Metro de Madrid”. (Expediente 6012600112)-(Contrato 7226000434)",
-      "summary": "Formalización contrato– Anuncio de 31 de julio de 2026, de formalización del contrato titulado “Suministro de gasóleo clase A, B y C en recintos de Metro de Madrid”. (Expediente 6012600112)-(Contrato 7226000434)",
-      "issuer": "CONSEJERÍA DE VIVIENDA, TRANSPORTES E INFRAESTRUCTURAS · METRO DE MADRID, S. A.",
-      "publicationType": "Formalización contrato",
+      "title": "Formalización contrato – Anuncio de 31 de julio de 2026, de formalización del contrato titulado “Suministro de gasóleo clase A, B y C en recintos de Metro de Madrid”. (Expediente 6012600112)-(Contrato 7226000434)",
+      "summary": "Formalización contrato – Anuncio de 31 de julio de 2026, de formalización del contrato titulado “Suministro de gasóleo clase A, B y C en recintos de Metro de Madrid”. (Expediente 6012600112)-(Contrato 7226000434)",
+      "issuer": "CONSEJERÍA DE VIVIENDA, TRANSPORTES E INFRAESTRUCTURAS",
+      "publicationType": "ANUNCIO",
       "publishedAt": "2026-08-10",
-      "url": "https://www.bocm.es/bocm-20260810-20",
+      "url": "https://www.bocm.es/bocm-20260810-20?language=es",
       "pdfUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/08/10/BOCM-20260810-20.PDF",
       "xmlUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/08/10/BOCM-20260810-20.xml?language=es",
       "firstSeenAt": "2026-08-10T07:59:51.887Z",
