@@ -1,32 +1,148 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-13T06:40:25.373Z",
+  "generatedAt": "2026-08-13T08:40:11.488Z",
   "coverage": {
-    "bocm": "2009-12-01 a 2026-08-12",
-    "contratos": "2017-02-02 a 2026-08-12",
+    "bocm": "2009-12-01 a 2026-08-13",
+    "contratos": "2017-02-02 a 2026-08-13",
     "empleo": "2016-10-31 a 2026-05-07"
   },
   "sources": {
     "bocm": {
-      "checkedAt": "2026-08-13T06:40:25.373Z",
+      "checkedAt": "2026-08-13T08:40:11.488Z",
       "ok": true,
-      "message": "30 registros relevantes comprobados; 12 documento(s) omitido(s) temporalmente",
-      "recordsSeen": 30
+      "message": "28 registros relevantes comprobados",
+      "recordsSeen": 28
     },
     "contratos": {
-      "checkedAt": "2026-08-13T06:40:25.373Z",
+      "checkedAt": "2026-08-13T08:40:11.488Z",
       "ok": true,
-      "message": "55 registros relevantes comprobados",
-      "recordsSeen": 55
+      "message": "57 registros relevantes comprobados",
+      "recordsSeen": 57
     },
     "empleo": {
-      "checkedAt": "2026-08-13T06:40:25.373Z",
+      "checkedAt": "2026-08-13T08:40:11.488Z",
       "ok": true,
       "message": "Cobertura mediante BOCM: 0 convocatoria(s) reciente(s) revisada(s); el portal directo protege el acceso automatizado",
       "recordsSeen": 0
     }
   },
   "items": [
+    {
+      "id": "contratos:suministro-equipos-respiracion-motorizados-componentes-proteccion-trabajadores",
+      "source": "contratos",
+      "title": "Suministro de equipos de respiración motorizados y sus componentes para la protección de los trabajadores de Metro de Madrid empleados durante las operaciones de mantenimiento",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Resuelta / Finalizada",
+      "status": "Resuelta / Finalizada",
+      "expediente": "6012600129",
+      "publishedAt": "2026-08-13",
+      "updatedAt": "2026-08-13T10:06:28+02:00",
+      "deadline": "2026-05-22",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/suministro-equipos-respiracion-motorizados-componentes-proteccion-trabajadores",
+      "firstSeenAt": "2026-08-05T08:03:18.389Z",
+      "summary": "Id licitación: 6012600129;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 34997.00 EUR;",
+      "amount": 34997,
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-05/6012600129_ppt_signed.pdf"
+    },
+    {
+      "id": "contratos:servicio-sustitucion-conectores-fibra-optica-equipos-senalizacion-cbtc-linea-1",
+      "source": "contratos",
+      "title": "Servicio de sustitución de conectores de fibra óptica de los equipos de señalización CBTC de Línea 1 de Metro de Madrid",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Adjudicada",
+      "status": "Adjudicada",
+      "expediente": "6012600008",
+      "publishedAt": "2026-08-13",
+      "updatedAt": "2026-08-13T10:01:51+02:00",
+      "deadline": "2026-02-03",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-sustitucion-conectores-fibra-optica-equipos-senalizacion-cbtc-linea-1",
+      "firstSeenAt": "2026-08-05T08:03:18.389Z",
+      "summary": "Id licitación: 6012600008;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 97914.90 EUR;",
+      "amount": 97914.9,
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-01/6012600008_ppt_signed.pdf"
+    },
+    {
+      "id": "contratos:servicio-imparticion-sesiones-divulgativas-basicas-reanimacion-cardiopulmonar-uso",
+      "source": "contratos",
+      "title": "Servicio de impartición de sesiones divulgativas básicas sobre reanimación cardiopulmonar y uso de desfibrilador en estaciones de Metro de Madrid",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Convocatoria anunciada a licitación",
+      "status": "En plazo",
+      "expediente": "6012600225",
+      "publishedAt": "2026-08-13",
+      "updatedAt": "2026-08-13T09:56:00+02:00",
+      "deadline": "2026-09-15",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-imparticion-sesiones-divulgativas-basicas-reanimacion-cardiopulmonar-uso",
+      "firstSeenAt": "2026-08-13T08:40:11.488Z"
+    },
+    {
+      "id": "contratos:servicio-proyecto-despliegue-asistente-operativo-lar-fase-1",
+      "source": "contratos",
+      "title": "Servicio de proyecto para el despliegue del asistente operativo Lar – fase 1",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Convocatoria anunciada a licitación",
+      "status": "En plazo",
+      "expediente": "6012600217",
+      "publishedAt": "2026-08-13",
+      "updatedAt": "2026-08-13T09:46:00+02:00",
+      "deadline": "2026-09-21",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-proyecto-despliegue-asistente-operativo-lar-fase-1",
+      "firstSeenAt": "2026-08-11T10:29:06.918Z"
+    },
+    {
+      "id": "contratos:servicio-mantenimiento-integral-sistemas-seguridad-sacos-recintos-1",
+      "source": "contratos",
+      "title": "Servicio de mantenimiento integral de sistemas de seguridad en sacos y recintos",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Convocatoria anunciada a licitación",
+      "status": "En plazo",
+      "expediente": "6012600216",
+      "publishedAt": "2026-08-13",
+      "updatedAt": "2026-08-13T09:45:00+02:00",
+      "deadline": "2026-09-17",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-mantenimiento-integral-sistemas-seguridad-sacos-recintos-1",
+      "firstSeenAt": "2026-08-10T07:59:51.887Z"
+    },
+    {
+      "id": "contratos:suministro-suspension-primaria-7000-9000-mantenimiento-vehiculos-material-movil",
+      "source": "contratos",
+      "title": "Suministro de “Suspensión primaria 7000 9000” para el mantenimiento de los vehículos de material móvil de Metro de Madrid, S.A.",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Convocatoria anunciada a licitación",
+      "status": "En plazo",
+      "expediente": "6012600224",
+      "publishedAt": "2026-08-13",
+      "updatedAt": "2026-08-13T09:43:00+02:00",
+      "deadline": "2026-09-15",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/suministro-suspension-primaria-7000-9000-mantenimiento-vehiculos-material-movil",
+      "firstSeenAt": "2026-08-13T08:40:11.488Z"
+    },
+    {
+      "id": "bocm:bocm-20260813-21",
+      "source": "bocm",
+      "title": "Convocatoria contrato– Anuncio de 7 de agosto de 2026, por el que se convoca la licitación para la contratación de un servicio de mantenimiento integral de sistemas de seguridad en sacos y recintos (Expediente 6012600216)",
+      "summary": "Convocatoria contrato– Anuncio de 7 de agosto de 2026, por el que se convoca la licitación para la contratación de un servicio de mantenimiento integral de sistemas de seguridad en sacos y recintos (Expediente 6012600216)",
+      "issuer": "CONSEJERÍA DE VIVIENDA, TRANSPORTES E INFRAESTRUCTURAS · METRO DE MADRID, S. A.",
+      "publicationType": "Convocatoria contrato",
+      "publishedAt": "2026-08-13",
+      "url": "https://www.bocm.es/bocm-20260813-21",
+      "pdfUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/08/13/BOCM-20260813-21.PDF",
+      "xmlUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/08/13/BOCM-20260813-21.xml?language=es",
+      "firstSeenAt": "2026-08-13T08:40:11.488Z"
+    },
+    {
+      "id": "bocm:bocm-20260813-22",
+      "source": "bocm",
+      "title": "Convocatoria contrato– Anuncio de 7 de agosto de 2026, por el que se convoca la licitación para la contratación de un servicio de proyecto para el despliegue del asistente operativo LAR – fase 1. (Expediente 6012600217)",
+      "summary": "Convocatoria contrato– Anuncio de 7 de agosto de 2026, por el que se convoca la licitación para la contratación de un servicio de proyecto para el despliegue del asistente operativo LAR – fase 1. (Expediente 6012600217)",
+      "issuer": "CONSEJERÍA DE VIVIENDA, TRANSPORTES E INFRAESTRUCTURAS · METRO DE MADRID, S. A.",
+      "publicationType": "Convocatoria contrato",
+      "publishedAt": "2026-08-13",
+      "url": "https://www.bocm.es/bocm-20260813-22",
+      "pdfUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/08/13/BOCM-20260813-22.PDF",
+      "xmlUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/08/13/BOCM-20260813-22.xml?language=es",
+      "firstSeenAt": "2026-08-13T08:40:11.488Z"
+    },
     {
       "id": "contratos:direccion-obras-coordinacion-seguridad-salud-asistencia-tecnica-obras-ejecucion",
       "source": "contratos",
@@ -208,20 +324,6 @@
       "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-05/6012600138_ppt_signed.pdf"
     },
     {
-      "id": "contratos:servicio-proyecto-despliegue-asistente-operativo-lar-fase-1",
-      "source": "contratos",
-      "title": "Servicio de proyecto para el despliegue del asistente operativo Lar – fase 1",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Convocatoria anunciada a licitación",
-      "status": "En plazo",
-      "expediente": "6012600217",
-      "publishedAt": "2026-08-11",
-      "updatedAt": "2026-08-11T11:30:00+02:00",
-      "deadline": "2026-09-21",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-proyecto-despliegue-asistente-operativo-lar-fase-1",
-      "firstSeenAt": "2026-08-11T10:29:06.918Z"
-    },
-    {
       "id": "contratos:obras-intervencion-grafica-artistica-digital-estacion-duque-pastrana-metro-madrid",
       "source": "contratos",
       "title": "Obras de de intervención gráfica, artística y digital en la estación Duque de Pastrana de Metro de Madrid",
@@ -317,20 +419,6 @@
       "summary": "Id licitación: 6012600112;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 720105.94 EUR;",
       "amount": 720105.94,
       "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-04/6012600112_ppt_signed.pdf"
-    },
-    {
-      "id": "contratos:servicio-mantenimiento-integral-sistemas-seguridad-sacos-recintos-1",
-      "source": "contratos",
-      "title": "Servicio de mantenimiento integral de sistemas de seguridad en sacos y recintos",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Convocatoria anunciada a licitación",
-      "status": "En plazo",
-      "expediente": "6012600216",
-      "publishedAt": "2026-08-10",
-      "updatedAt": "2026-08-10T09:31:00+02:00",
-      "deadline": "2026-09-17",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-mantenimiento-integral-sistemas-seguridad-sacos-recintos-1",
-      "firstSeenAt": "2026-08-10T07:59:51.887Z"
     },
     {
       "id": "contratos:servicio-pasarela-pago-gestion-pagos-realizados-puntos-recarga-instalados",
@@ -1126,20 +1214,6 @@
       "updatedAt": "2026-07-29T13:31:00+02:00",
       "deadline": "2026-06-18",
       "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-soporte-especializado-apoyo-gestion-administracion-plataforma-gestion-6",
-      "firstSeenAt": "2026-08-05T08:03:18.389Z"
-    },
-    {
-      "id": "contratos:suministro-equipos-respiracion-motorizados-componentes-proteccion-trabajadores",
-      "source": "contratos",
-      "title": "Suministro de equipos de respiración motorizados y sus componentes para la protección de los trabajadores de Metro de Madrid empleados durante las operaciones de mantenimiento",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Convocatoria anunciada a licitación",
-      "status": "Adjudicada",
-      "expediente": "6012600129",
-      "publishedAt": "2026-07-29",
-      "updatedAt": "2026-07-29T08:30:00+02:00",
-      "deadline": "2026-05-22",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/suministro-equipos-respiracion-motorizados-componentes-proteccion-trabajadores",
       "firstSeenAt": "2026-08-05T08:03:18.389Z"
     },
     {
@@ -2203,20 +2277,6 @@
       "pdfUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/07/20/BOCM-20260720-34.PDF",
       "xmlUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/07/20/BOCM-20260720-34.xml?language=es",
       "firstSeenAt": "2026-08-05T10:14:22.549Z"
-    },
-    {
-      "id": "contratos:servicio-sustitucion-conectores-fibra-optica-equipos-senalizacion-cbtc-linea-1",
-      "source": "contratos",
-      "title": "Servicio de sustitución de conectores de fibra óptica de los equipos de señalización CBTC de Línea 1 de Metro de Madrid",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Convocatoria anunciada a licitación",
-      "status": "Pendiente de adjudicación",
-      "expediente": "6012600008",
-      "publishedAt": "2026-07-17",
-      "updatedAt": "2026-07-17T10:57:00+02:00",
-      "deadline": "2026-02-03",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-sustitucion-conectores-fibra-optica-equipos-senalizacion-cbtc-linea-1",
-      "firstSeenAt": "2026-08-05T08:03:18.389Z"
     },
     {
       "id": "contratos:renting-mantenimiento-fuentes-agua-refrigeradas-suministro-garrafas-agua-metro",
