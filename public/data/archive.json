@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-14T06:24:16.350Z",
+  "generatedAt": "2026-08-14T07:59:21.661Z",
   "coverage": {
     "bocm": "2009-12-01 a 2026-08-13",
     "contratos": "2017-02-02 a 2026-08-13",
@@ -8,21 +8,21 @@
   },
   "sources": {
     "bocm": {
-      "checkedAt": "2026-08-14T06:24:16.350Z",
-      "ok": false,
-      "message": "Error de consulta: fallaron RSS y buscador reciente: BOCM-20260808188.xml: No se pudo consultar https://www.bocm.es/boletin/CM_Boletin_BOCM/2026/08/08/BOCM-20260808188.xml?language=es: fetch failed | BOCM-20260813192.xml",
-      "recordsSeen": 0
+      "checkedAt": "2026-08-14T07:59:21.661Z",
+      "ok": true,
+      "message": "4 registros relevantes comprobados; 17 documento(s) omitido(s) temporalmente",
+      "recordsSeen": 4
     },
     "contratos": {
-      "checkedAt": "2026-08-14T06:24:16.350Z",
+      "checkedAt": "2026-08-14T07:59:21.661Z",
       "ok": true,
       "message": "53 registros relevantes comprobados",
       "recordsSeen": 53
     },
     "empleo": {
-      "checkedAt": "2026-08-14T06:24:16.350Z",
-      "ok": false,
-      "message": "Error de consulta: El portal de Empleo Metro ha rechazado temporalmente la consulta automatizada",
+      "checkedAt": "2026-08-14T07:59:21.661Z",
+      "ok": true,
+      "message": "Cobertura mediante BOCM: 0 convocatoria(s) reciente(s) revisada(s); el portal directo protege el acceso automatizado",
       "recordsSeen": 0
     }
   },
@@ -245,12 +245,12 @@
     {
       "id": "bocm:bocm-20260812-11",
       "source": "bocm",
-      "title": "Formalización contrato– Anuncio de 4 de agosto de 2026, de formalización del contrato titulado “Acuerdo marco para servicios de consultoría en el servicio de superestructura de vía de Metro de Madrid” (Expediente 6012500262)-(Contrato G00092-001)",
-      "summary": "Formalización contrato– Anuncio de 4 de agosto de 2026, de formalización del contrato titulado “Acuerdo marco para servicios de consultoría en el servicio de superestructura de vía de Metro de Madrid” (Expediente 6012500262)-(Contrato G00092-001)",
-      "issuer": "CONSEJERÍA DE VIVIENDA, TRANSPORTES E INFRAESTRUCTURAS · METRO DE MADRID, S. A.",
-      "publicationType": "Formalización contrato",
+      "title": "Formalización contrato – Anuncio de 4 de agosto de 2026, de formalización del contrato titulado “Acuerdo marco para servicios de consultoría en el servicio de superestructura de vía de Metro de Madrid” (Expediente 6012500262)-(Contrato G00092-001)",
+      "summary": "Formalización contrato – Anuncio de 4 de agosto de 2026, de formalización del contrato titulado “Acuerdo marco para servicios de consultoría en el servicio de superestructura de vía de Metro de Madrid” (Expediente 6012500262)-(Contrato G00092-001)",
+      "issuer": "CONSEJERÍA DE VIVIENDA, TRANSPORTES E INFRAESTRUCTURAS",
+      "publicationType": "ANUNCIO",
       "publishedAt": "2026-08-12",
-      "url": "https://www.bocm.es/bocm-20260812-11",
+      "url": "https://www.bocm.es/bocm-20260812-11?language=es",
       "pdfUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/08/12/BOCM-20260812-11.PDF",
       "xmlUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/08/12/BOCM-20260812-11.xml?language=es",
       "tags": [
@@ -357,12 +357,12 @@
     {
       "id": "bocm:bocm-20260811-14",
       "source": "bocm",
-      "title": "Adjudicación contrato– Anuncio de 6 de agosto de 2026, de adjudicación del contrato titulado “Acuerdo Marco para trabajos de inspección, revisión de control y desamiantado de equipos/instalaciones de MCA en equipamiento de Metro de Madrid”. (Expediente 6012600024)",
-      "summary": "Adjudicación contrato– Anuncio de 6 de agosto de 2026, de adjudicación del contrato titulado “Acuerdo Marco para trabajos de inspección, revisión de control y desamiantado de equipos/instalaciones de MCA en equipamiento de Metro de Madrid”. (Expediente 6012600024)",
-      "issuer": "CONSEJERÍA DE VIVIENDA, TRANSPORTES E INFRAESTRUCTURAS · METRO DE MADRID, S. A.",
-      "publicationType": "Adjudicación contrato",
+      "title": "Adjudicación contrato – Anuncio de 6 de agosto de 2026, de adjudicación del contrato titulado “Acuerdo Marco para trabajos de inspección, revisión de control y desamiantado de equipos/instalaciones de MCA en equipamiento de Metro de Madrid”. (Expediente 6012600024)",
+      "summary": "Adjudicación contrato – Anuncio de 6 de agosto de 2026, de adjudicación del contrato titulado “Acuerdo Marco para trabajos de inspección, revisión de control y desamiantado de equipos/instalaciones de MCA en equipamiento de Metro de Madrid”. (Expediente 6012600024)",
+      "issuer": "CONSEJERÍA DE VIVIENDA, TRANSPORTES E INFRAESTRUCTURAS",
+      "publicationType": "ANUNCIO",
       "publishedAt": "2026-08-11",
-      "url": "https://www.bocm.es/bocm-20260811-14",
+      "url": "https://www.bocm.es/bocm-20260811-14?language=es",
       "pdfUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/08/11/BOCM-20260811-14.PDF",
       "xmlUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/08/11/BOCM-20260811-14.xml?language=es",
       "firstSeenAt": "2026-08-11T09:11:19.667Z",
@@ -373,12 +373,12 @@
     {
       "id": "bocm:bocm-20260811-15",
       "source": "bocm",
-      "title": "Adjudicación contrato– Anuncio de 6 de agosto de 2026, de adjudicación del contrato titulado “Suministro para la renovación integral de los sistemas de seguridad del recinto de Cuatro Vientos de Metro de Madrid”. (Expediente 6012500378)",
-      "summary": "Adjudicación contrato– Anuncio de 6 de agosto de 2026, de adjudicación del contrato titulado “Suministro para la renovación integral de los sistemas de seguridad del recinto de Cuatro Vientos de Metro de Madrid”. (Expediente 6012500378)",
-      "issuer": "CONSEJERÍA DE VIVIENDA, TRANSPORTES E INFRAESTRUCTURAS · METRO DE MADRID, S. A.",
-      "publicationType": "Adjudicación contrato",
+      "title": "Adjudicación contrato – Anuncio de 6 de agosto de 2026, de adjudicación del contrato titulado “Suministro para la renovación integral de los sistemas de seguridad del recinto de Cuatro Vientos de Metro de Madrid”. (Expediente 6012500378)",
+      "summary": "Adjudicación contrato – Anuncio de 6 de agosto de 2026, de adjudicación del contrato titulado “Suministro para la renovación integral de los sistemas de seguridad del recinto de Cuatro Vientos de Metro de Madrid”. (Expediente 6012500378)",
+      "issuer": "CONSEJERÍA DE VIVIENDA, TRANSPORTES E INFRAESTRUCTURAS",
+      "publicationType": "ANUNCIO",
       "publishedAt": "2026-08-11",
-      "url": "https://www.bocm.es/bocm-20260811-15",
+      "url": "https://www.bocm.es/bocm-20260811-15?language=es",
       "pdfUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/08/11/BOCM-20260811-15.PDF",
       "xmlUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/08/11/BOCM-20260811-15.xml?language=es",
       "firstSeenAt": "2026-08-11T09:11:19.667Z",
@@ -456,12 +456,12 @@
     {
       "id": "bocm:bocm-20260810-20",
       "source": "bocm",
-      "title": "Formalización contrato– Anuncio de 31 de julio de 2026, de formalización del contrato titulado “Suministro de gasóleo clase A, B y C en recintos de Metro de Madrid”. (Expediente 6012600112)-(Contrato 7226000434)",
-      "summary": "Formalización contrato– Anuncio de 31 de julio de 2026, de formalización del contrato titulado “Suministro de gasóleo clase A, B y C en recintos de Metro de Madrid”. (Expediente 6012600112)-(Contrato 7226000434)",
-      "issuer": "CONSEJERÍA DE VIVIENDA, TRANSPORTES E INFRAESTRUCTURAS · METRO DE MADRID, S. A.",
-      "publicationType": "Formalización contrato",
+      "title": "Formalización contrato – Anuncio de 31 de julio de 2026, de formalización del contrato titulado “Suministro de gasóleo clase A, B y C en recintos de Metro de Madrid”. (Expediente 6012600112)-(Contrato 7226000434)",
+      "summary": "Formalización contrato – Anuncio de 31 de julio de 2026, de formalización del contrato titulado “Suministro de gasóleo clase A, B y C en recintos de Metro de Madrid”. (Expediente 6012600112)-(Contrato 7226000434)",
+      "issuer": "CONSEJERÍA DE VIVIENDA, TRANSPORTES E INFRAESTRUCTURAS",
+      "publicationType": "ANUNCIO",
       "publishedAt": "2026-08-10",
-      "url": "https://www.bocm.es/bocm-20260810-20",
+      "url": "https://www.bocm.es/bocm-20260810-20?language=es",
       "pdfUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/08/10/BOCM-20260810-20.PDF",
       "xmlUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/08/10/BOCM-20260810-20.xml?language=es",
       "firstSeenAt": "2026-08-10T07:59:51.887Z",
