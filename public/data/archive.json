@@ -1,32 +1,46 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-17T21:58:00.599Z",
+  "generatedAt": "2026-08-17T22:36:16.515Z",
   "coverage": {
     "bocm": "2009-12-01 a 2026-08-17",
-    "contratos": "2017-02-02 a 2026-08-17",
+    "contratos": "2017-02-02 a 2026-08-18",
     "empleo": "2016-10-31 a 2026-05-07"
   },
   "sources": {
     "bocm": {
-      "checkedAt": "2026-08-17T21:58:00.599Z",
+      "checkedAt": "2026-08-17T22:36:16.515Z",
       "ok": true,
-      "message": "23 registros relevantes comprobados",
-      "recordsSeen": 23
+      "message": "Consulta parcial sin registros; 18 documento(s) omitido(s) temporalmente",
+      "recordsSeen": 0
     },
     "contratos": {
-      "checkedAt": "2026-08-17T21:58:00.599Z",
+      "checkedAt": "2026-08-17T22:36:16.515Z",
       "ok": true,
       "message": "52 registros relevantes comprobados",
       "recordsSeen": 52
     },
     "empleo": {
-      "checkedAt": "2026-08-17T21:58:00.599Z",
+      "checkedAt": "2026-08-17T22:36:16.515Z",
       "ok": true,
       "message": "Cobertura mediante BOCM: 0 convocatoria(s) reciente(s) revisada(s); el portal directo protege el acceso automatizado",
       "recordsSeen": 0
     }
   },
   "items": [
+    {
+      "id": "contratos:servicio-revision-generalreparacion-conjuntos-amortiguadores-impactos-enganches",
+      "source": "contratos",
+      "title": "Servicio de revisión general/reparación de conjuntos amortiguadores de impactos de enganches de la serie 9000",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Convocatoria anunciada a licitación",
+      "status": "Pendiente de adjudicación",
+      "expediente": "6012600192",
+      "publishedAt": "2026-08-18",
+      "updatedAt": "2026-08-18T00:10:00+02:00",
+      "deadline": "2026-08-17",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-revision-generalreparacion-conjuntos-amortiguadores-impactos-enganches",
+      "firstSeenAt": "2026-08-05T08:03:18.389Z"
+    },
     {
       "id": "contratos:suministro-mantenimiento-licencias-base-datos-oracle-productos-sap",
       "source": "contratos",
@@ -923,20 +937,6 @@
       "pdfUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/08/06/BOCM-20260806-21.PDF",
       "xmlUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/08/06/BOCM-20260806-21.xml?language=es",
       "firstSeenAt": "2026-08-07T00:27:36.633Z"
-    },
-    {
-      "id": "contratos:servicio-revision-generalreparacion-conjuntos-amortiguadores-impactos-enganches",
-      "source": "contratos",
-      "title": "Servicio de revisión general/reparación de conjuntos amortiguadores de impactos de enganches de la serie 9000",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Convocatoria anunciada a licitación",
-      "status": "En plazo",
-      "expediente": "6012600192",
-      "publishedAt": "2026-08-05",
-      "updatedAt": "2026-08-05T13:26:00+02:00",
-      "deadline": "2026-08-17",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-revision-generalreparacion-conjuntos-amortiguadores-impactos-enganches",
-      "firstSeenAt": "2026-08-05T08:03:18.389Z"
     },
     {
       "id": "contratos:servicio-transporte-autobus-viajeros-afectados-suspensiones-servicio-no-6",
