@@ -1,32 +1,46 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-17T07:13:16.330Z",
+  "generatedAt": "2026-08-17T08:21:01.459Z",
   "coverage": {
     "bocm": "2009-12-01 a 2026-08-17",
-    "contratos": "2017-02-02 a 2026-08-14",
+    "contratos": "2017-02-02 a 2026-08-17",
     "empleo": "2016-10-31 a 2026-05-07"
   },
   "sources": {
     "bocm": {
-      "checkedAt": "2026-08-17T07:13:16.330Z",
-      "ok": true,
-      "message": "22 registros relevantes comprobados; 10 documento(s) omitido(s) temporalmente",
-      "recordsSeen": 22
+      "checkedAt": "2026-08-17T08:21:01.459Z",
+      "ok": false,
+      "message": "Error de consulta: fallaron RSS y buscador reciente: BOCM-20260812191.xml: No se pudo consultar https://www.bocm.es/boletin/CM_Boletin_BOCM/2026/08/12/BOCM-20260812191.xml?language=es: fetch failed | BOCM-20260817195.xml",
+      "recordsSeen": 0
     },
     "contratos": {
-      "checkedAt": "2026-08-17T07:13:16.330Z",
+      "checkedAt": "2026-08-17T08:21:01.459Z",
       "ok": true,
       "message": "52 registros relevantes comprobados",
       "recordsSeen": 52
     },
     "empleo": {
-      "checkedAt": "2026-08-17T07:13:16.330Z",
-      "ok": true,
-      "message": "Cobertura mediante BOCM: 0 convocatoria(s) reciente(s) revisada(s); el portal directo protege el acceso automatizado",
+      "checkedAt": "2026-08-17T08:21:01.459Z",
+      "ok": false,
+      "message": "Error de consulta: El portal de Empleo Metro ha rechazado temporalmente la consulta automatizada",
       "recordsSeen": 0
     }
   },
   "items": [
+    {
+      "id": "contratos:servicio-calibracion-equipos-medida-estaciones-meteorologicas",
+      "source": "contratos",
+      "title": "Servicio de calibración de equipos de medida y estaciones meteorológicas",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Convocatoria anunciada a licitación",
+      "status": "Pendiente de adjudicación",
+      "expediente": "6012600184",
+      "publishedAt": "2026-08-17",
+      "updatedAt": "2026-08-17T10:09:00+02:00",
+      "deadline": "2026-07-14",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-calibracion-equipos-medida-estaciones-meteorologicas",
+      "firstSeenAt": "2026-08-05T08:03:18.389Z"
+    },
     {
       "id": "bocm:bocm-20260817-17",
       "source": "bocm",
@@ -1541,20 +1555,6 @@
       "updatedAt": "2026-07-28T07:08:00+02:00",
       "deadline": "2026-05-14",
       "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/suministro-renovacion-equipos-trabajo-vulcanizacion-sustitucion-pasamanos",
-      "firstSeenAt": "2026-08-05T08:03:18.389Z"
-    },
-    {
-      "id": "contratos:servicio-calibracion-equipos-medida-estaciones-meteorologicas",
-      "source": "contratos",
-      "title": "Servicio de calibración de equipos de medida y estaciones meteorológicas",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Convocatoria anunciada a licitación",
-      "status": "Pendiente de adjudicación",
-      "expediente": "6012600184",
-      "publishedAt": "2026-07-27",
-      "updatedAt": "2026-07-27T12:16:00+02:00",
-      "deadline": "2026-07-14",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-calibracion-equipos-medida-estaciones-meteorologicas",
       "firstSeenAt": "2026-08-05T08:03:18.389Z"
     },
     {
