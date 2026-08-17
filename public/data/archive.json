@@ -1,32 +1,58 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-17T06:03:33.130Z",
+  "generatedAt": "2026-08-17T07:13:16.330Z",
   "coverage": {
-    "bocm": "2009-12-01 a 2026-08-13",
+    "bocm": "2009-12-01 a 2026-08-17",
     "contratos": "2017-02-02 a 2026-08-14",
     "empleo": "2016-10-31 a 2026-05-07"
   },
   "sources": {
     "bocm": {
-      "checkedAt": "2026-08-17T06:03:33.130Z",
+      "checkedAt": "2026-08-17T07:13:16.330Z",
       "ok": true,
-      "message": "18 registros relevantes comprobados; 13 documento(s) omitido(s) temporalmente",
-      "recordsSeen": 18
+      "message": "22 registros relevantes comprobados; 10 documento(s) omitido(s) temporalmente",
+      "recordsSeen": 22
     },
     "contratos": {
-      "checkedAt": "2026-08-17T06:03:33.130Z",
+      "checkedAt": "2026-08-17T07:13:16.330Z",
       "ok": true,
-      "message": "53 registros relevantes comprobados",
-      "recordsSeen": 53
+      "message": "52 registros relevantes comprobados",
+      "recordsSeen": 52
     },
     "empleo": {
-      "checkedAt": "2026-08-17T06:03:33.130Z",
+      "checkedAt": "2026-08-17T07:13:16.330Z",
       "ok": true,
       "message": "Cobertura mediante BOCM: 0 convocatoria(s) reciente(s) revisada(s); el portal directo protege el acceso automatizado",
       "recordsSeen": 0
     }
   },
   "items": [
+    {
+      "id": "bocm:bocm-20260817-17",
+      "source": "bocm",
+      "title": "Convocatoria contrato– Resolución de 29 de julio de 2026, de la Secretaría General Técnica de la Consejería de Vivienda, Transportes e Infraestructuras, por la que se dispone la publicación en los boletines oficiales y en el “perfil del contratante” en Internet de la convocatoria del contrato de servicios de “Dirección de obra, coordinación de seguridad y salud y Asistencia Técnica de las obras de construcción de la ampliación de la red de Metro de Madrid al barrio de Valdebebas. Tramos 1 y 2 (cuatro lotes)”",
+      "summary": "Convocatoria contrato– Resolución de 29 de julio de 2026, de la Secretaría General Técnica de la Consejería de Vivienda, Transportes e Infraestructuras, por la que se dispone la publicación en los boletines oficiales y en el “perfil del contratante” en Internet de la convocatoria del contrato de servicios de “Dirección de obra, coordinación de seguridad y salud y Asistencia Técnica de las obras de construcción de la ampliación de la red de Metro de Madrid al barrio de Valdebebas. Tramos 1 y 2 (cuatro lotes)”",
+      "issuer": "CONSEJERÍA DE VIVIENDA, TRANSPORTES E INFRAESTRUCTURAS",
+      "publicationType": "Convocatoria contrato",
+      "publishedAt": "2026-08-17",
+      "url": "https://www.bocm.es/bocm-20260817-17",
+      "pdfUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/08/17/BOCM-20260817-17.PDF",
+      "xmlUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/08/17/BOCM-20260817-17.xml?language=es",
+      "firstSeenAt": "2026-08-17T07:13:16.330Z"
+    },
+    {
+      "id": "bocm:bocm-20260817-21",
+      "source": "bocm",
+      "title": "Convocatoria contrato– Anuncio de 11 de agosto de 2026, por el que se convoca la licitación para la contratación del suministro de “Suspensión primaria 7000 9000” para el mantenimiento de los vehículos de material móvil de Metro de Madrid, S. A. (Expediente 6012600224)",
+      "summary": "Convocatoria contrato– Anuncio de 11 de agosto de 2026, por el que se convoca la licitación para la contratación del suministro de “Suspensión primaria 7000 9000” para el mantenimiento de los vehículos de material móvil de Metro de Madrid, S. A. (Expediente 6012600224)",
+      "issuer": "CONSEJERÍA DE VIVIENDA, TRANSPORTES E INFRAESTRUCTURAS · METRO DE MADRID, S. A.",
+      "publicationType": "Convocatoria contrato",
+      "publishedAt": "2026-08-17",
+      "url": "https://www.bocm.es/bocm-20260817-21",
+      "pdfUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/08/17/BOCM-20260817-21.PDF",
+      "xmlUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/08/17/BOCM-20260817-21.xml?language=es",
+      "firstSeenAt": "2026-08-17T07:13:16.330Z"
+    },
     {
       "id": "contratos:obras-construccion-ampliacion-red-metro-madrid-barrio-valdebebas-tramos-1-2",
       "source": "contratos",
