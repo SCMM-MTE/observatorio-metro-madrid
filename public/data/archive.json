@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-18T10:41:43.259Z",
+  "generatedAt": "2026-08-18T11:35:27.135Z",
   "coverage": {
     "bocm": "2009-12-01 a 2026-08-17",
     "contratos": "2017-02-02 a 2026-08-18",
@@ -8,25 +8,42 @@
   },
   "sources": {
     "bocm": {
-      "checkedAt": "2026-08-18T10:41:43.259Z",
+      "checkedAt": "2026-08-18T11:35:27.135Z",
       "ok": true,
-      "message": "Consulta parcial sin registros; 20 documento(s) omitido(s) temporalmente",
-      "recordsSeen": 0
+      "message": "23 registros relevantes comprobados",
+      "recordsSeen": 23
     },
     "contratos": {
-      "checkedAt": "2026-08-18T10:41:43.259Z",
+      "checkedAt": "2026-08-18T11:35:27.135Z",
       "ok": true,
-      "message": "54 registros relevantes comprobados",
-      "recordsSeen": 54
+      "message": "55 registros relevantes comprobados",
+      "recordsSeen": 55
     },
     "empleo": {
-      "checkedAt": "2026-08-18T10:41:43.259Z",
+      "checkedAt": "2026-08-18T11:35:27.135Z",
       "ok": true,
       "message": "Cobertura mediante BOCM: 0 convocatoria(s) reciente(s) revisada(s); el portal directo protege el acceso automatizado",
       "recordsSeen": 0
     }
   },
   "items": [
+    {
+      "id": "contratos:servicio-evaluacion-personas-candidatas-proceso-seleccion-maquinista-traccion",
+      "source": "contratos",
+      "title": "Servicio de evaluación de personas candidatas para el proceso de selección de maquinista de tracción eléctrica y jefe/a de sector",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Resuelta / Finalizada",
+      "status": "Resuelta / Finalizada",
+      "expediente": "6012600166",
+      "publishedAt": "2026-08-18",
+      "updatedAt": "2026-08-18T13:18:26+02:00",
+      "deadline": "2026-06-22",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-evaluacion-personas-candidatas-proceso-seleccion-maquinista-traccion",
+      "firstSeenAt": "2026-08-05T08:03:18.389Z",
+      "summary": "Id licitación: 6012600166;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 720000.00 EUR;",
+      "amount": 720000,
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-06/6012600166_ppt_signed.pdf"
+    },
     {
       "id": "contratos:acuerdo-marco-suministro-medios-produccion-plan-renove-0",
       "source": "contratos",
@@ -1420,20 +1437,6 @@
       "publishedAt": "2026-07-29",
       "updatedAt": "2026-07-29T07:59:00+02:00",
       "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/suministro-mecanismo-puertas-pasos-flap-indra-mantenimiento-equipos-peaje-metro",
-      "firstSeenAt": "2026-08-05T08:03:18.389Z"
-    },
-    {
-      "id": "contratos:servicio-evaluacion-personas-candidatas-proceso-seleccion-maquinista-traccion",
-      "source": "contratos",
-      "title": "Servicio de evaluación de personas candidatas para el proceso de selección de maquinista de tracción eléctrica y jefe/a de sector",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Convocatoria anunciada a licitación",
-      "status": "Adjudicada",
-      "expediente": "6012600166",
-      "publishedAt": "2026-07-28",
-      "updatedAt": "2026-07-28T13:48:00+02:00",
-      "deadline": "2026-06-22",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-evaluacion-personas-candidatas-proceso-seleccion-maquinista-traccion",
       "firstSeenAt": "2026-08-05T08:03:18.389Z"
     },
     {
