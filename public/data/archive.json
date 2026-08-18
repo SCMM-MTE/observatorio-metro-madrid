@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-18T05:40:18.296Z",
+  "generatedAt": "2026-08-18T07:00:16.017Z",
   "coverage": {
     "bocm": "2009-12-01 a 2026-08-17",
     "contratos": "2017-02-02 a 2026-08-18",
@@ -8,25 +8,90 @@
   },
   "sources": {
     "bocm": {
-      "checkedAt": "2026-08-18T05:40:18.296Z",
+      "checkedAt": "2026-08-18T07:00:16.017Z",
       "ok": true,
-      "message": "Consulta parcial sin registros; 20 documento(s) omitido(s) temporalmente",
-      "recordsSeen": 0
+      "message": "23 registros relevantes comprobados; 7 documento(s) omitido(s) temporalmente",
+      "recordsSeen": 23
     },
     "contratos": {
-      "checkedAt": "2026-08-18T05:40:18.296Z",
+      "checkedAt": "2026-08-18T07:00:16.017Z",
       "ok": true,
-      "message": "52 registros relevantes comprobados",
-      "recordsSeen": 52
+      "message": "55 registros relevantes comprobados",
+      "recordsSeen": 55
     },
     "empleo": {
-      "checkedAt": "2026-08-18T05:40:18.296Z",
+      "checkedAt": "2026-08-18T07:00:16.017Z",
       "ok": true,
       "message": "Cobertura mediante BOCM: 0 convocatoria(s) reciente(s) revisada(s); el portal directo protege el acceso automatizado",
       "recordsSeen": 0
     }
   },
   "items": [
+    {
+      "id": "contratos:suministro-suspension-primaria-7000-9000-mantenimiento-vehiculos-material-movil",
+      "source": "contratos",
+      "title": "Suministro de “Suspensión primaria 7000 9000” para el mantenimiento de los vehículos de material móvil de Metro de Madrid, S.A.",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Convocatoria anunciada a licitación",
+      "status": "En plazo",
+      "expediente": "6012600224",
+      "publishedAt": "2026-08-18",
+      "updatedAt": "2026-08-18T08:38:00+02:00",
+      "deadline": "2026-09-15",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/suministro-suspension-primaria-7000-9000-mantenimiento-vehiculos-material-movil",
+      "firstSeenAt": "2026-08-13T08:40:11.488Z"
+    },
+    {
+      "id": "contratos:obras-proyecto-ejecucion-nuevo-acceso-estacion-estadio-metropolitano-linea-7-metro",
+      "source": "contratos",
+      "title": "Obras de proyecto de ejecución de un nuevo acceso en la estación de Estadio Metropolitano de la Línea 7 de Metro de Madrid",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Resuelta / Finalizada",
+      "status": "Resuelta / Finalizada",
+      "expediente": "6012600103",
+      "publishedAt": "2026-08-18",
+      "updatedAt": "2026-08-18T08:14:14+02:00",
+      "deadline": "2026-05-12",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/obras-proyecto-ejecucion-nuevo-acceso-estacion-estadio-metropolitano-linea-7-metro",
+      "firstSeenAt": "2026-08-05T08:03:18.389Z",
+      "summary": "Id licitación: 6012600103;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 8953364.89 EUR;",
+      "amount": 8953364.89,
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-04/6012600103_referencia_ppt_signed.pdf"
+    },
+    {
+      "id": "contratos:obras-instalaciones-asociadas-sistemas-ayuda-explotacion-burbuja-operativa-linea",
+      "source": "contratos",
+      "title": "Obras de las instalaciones asociadas a los sistemas de ayuda a la explotación y burbuja operativa de la línea de alta regularidad LAR-6 de Metro de Madrid",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Resuelta / Finalizada",
+      "status": "Resuelta / Finalizada",
+      "expediente": "6012600089",
+      "publishedAt": "2026-08-18",
+      "updatedAt": "2026-08-18T08:13:34+02:00",
+      "deadline": "2026-04-16",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/obras-instalaciones-asociadas-sistemas-ayuda-explotacion-burbuja-operativa-linea",
+      "firstSeenAt": "2026-08-05T08:03:18.389Z",
+      "summary": "Id licitación: 6012600089;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 4015073.07 EUR;",
+      "amount": 4015073.07,
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-03/6012600089_ppt_signed.pdf"
+    },
+    {
+      "id": "contratos:servicio-mantenimiento-ciclo-largo-material-movil-serie-9000-circulan-metro-madrid",
+      "source": "contratos",
+      "title": "Servicio de mantenimiento de ciclo largo en material móvil de la serie 9000 que circulan por Metro de Madrid, S.A.",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Resuelta / Finalizada",
+      "status": "Resuelta / Finalizada",
+      "expediente": "6012600102",
+      "publishedAt": "2026-08-18",
+      "updatedAt": "2026-08-18T08:11:31+02:00",
+      "deadline": "2026-05-12",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-mantenimiento-ciclo-largo-material-movil-serie-9000-circulan-metro-madrid",
+      "firstSeenAt": "2026-08-05T08:03:18.389Z",
+      "summary": "Id licitación: 6012600102;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 16368000.00 EUR;",
+      "amount": 16368000,
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-04/6012600102_referencia_al_pliego_de_prescripciones_tecnicas_signed.pdf"
+    },
     {
       "id": "contratos:servicio-revision-generalreparacion-conjuntos-amortiguadores-impactos-enganches",
       "source": "contratos",
@@ -241,20 +306,6 @@
       "deadline": "2026-09-17",
       "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-mantenimiento-integral-sistemas-seguridad-sacos-recintos-1",
       "firstSeenAt": "2026-08-10T07:59:51.887Z"
-    },
-    {
-      "id": "contratos:suministro-suspension-primaria-7000-9000-mantenimiento-vehiculos-material-movil",
-      "source": "contratos",
-      "title": "Suministro de “Suspensión primaria 7000 9000” para el mantenimiento de los vehículos de material móvil de Metro de Madrid, S.A.",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Convocatoria anunciada a licitación",
-      "status": "En plazo",
-      "expediente": "6012600224",
-      "publishedAt": "2026-08-13",
-      "updatedAt": "2026-08-13T09:43:00+02:00",
-      "deadline": "2026-09-15",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/suministro-suspension-primaria-7000-9000-mantenimiento-vehiculos-material-movil",
-      "firstSeenAt": "2026-08-13T08:40:11.488Z"
     },
     {
       "id": "bocm:bocm-20260813-21",
@@ -1606,34 +1657,6 @@
       "firstSeenAt": "2026-08-05T08:03:18.389Z"
     },
     {
-      "id": "contratos:obras-proyecto-ejecucion-nuevo-acceso-estacion-estadio-metropolitano-linea-7-metro",
-      "source": "contratos",
-      "title": "Obras de proyecto de ejecución de un nuevo acceso en la estación de Estadio Metropolitano de la Línea 7 de Metro de Madrid",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Convocatoria anunciada a licitación",
-      "status": "Adjudicada",
-      "expediente": "6012600103",
-      "publishedAt": "2026-07-27",
-      "updatedAt": "2026-07-27T10:28:00+02:00",
-      "deadline": "2026-05-12",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/obras-proyecto-ejecucion-nuevo-acceso-estacion-estadio-metropolitano-linea-7-metro",
-      "firstSeenAt": "2026-08-05T08:03:18.389Z"
-    },
-    {
-      "id": "contratos:servicio-mantenimiento-ciclo-largo-material-movil-serie-9000-circulan-metro-madrid",
-      "source": "contratos",
-      "title": "Servicio de mantenimiento de ciclo largo en material móvil de la serie 9000 que circulan por Metro de Madrid, S.A.",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Convocatoria anunciada a licitación",
-      "status": "Adjudicada",
-      "expediente": "6012600102",
-      "publishedAt": "2026-07-27",
-      "updatedAt": "2026-07-27T10:27:00+02:00",
-      "deadline": "2026-05-12",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-mantenimiento-ciclo-largo-material-movil-serie-9000-circulan-metro-madrid",
-      "firstSeenAt": "2026-08-05T08:03:18.389Z"
-    },
-    {
       "id": "contratos:suministro-mantenimiento-soporte-tecnico-especializado-plataforma-backup-commvault",
       "source": "contratos",
       "title": "Suministro de mantenimiento y soporte técnico especializado de la plataforma de backup COMMVAULT de los sistemas de explotación",
@@ -1845,20 +1868,6 @@
       "publishedAt": "2026-07-23",
       "updatedAt": "2026-07-23T14:35:00+02:00",
       "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-revision-generalreparacion-grupos-produccion-aire-series-8000-2a-3000-2a",
-      "firstSeenAt": "2026-08-05T08:03:18.389Z"
-    },
-    {
-      "id": "contratos:obras-instalaciones-asociadas-sistemas-ayuda-explotacion-burbuja-operativa-linea",
-      "source": "contratos",
-      "title": "Obras de las instalaciones asociadas a los sistemas de ayuda a la explotación y burbuja operativa de la línea de alta regularidad LAR-6 de Metro de Madrid",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Convocatoria anunciada a licitación",
-      "status": "Adjudicada",
-      "expediente": "6012600089",
-      "publishedAt": "2026-07-23",
-      "updatedAt": "2026-07-23T14:22:00+02:00",
-      "deadline": "2026-04-16",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/obras-instalaciones-asociadas-sistemas-ayuda-explotacion-burbuja-operativa-linea",
       "firstSeenAt": "2026-08-05T08:03:18.389Z"
     },
     {
