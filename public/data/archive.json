@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-18T15:41:57.739Z",
+  "generatedAt": "2026-08-18T16:45:17.577Z",
   "coverage": {
     "bocm": "2009-12-01 a 2026-08-17",
     "contratos": "2017-02-02 a 2026-08-18",
@@ -8,19 +8,19 @@
   },
   "sources": {
     "bocm": {
-      "checkedAt": "2026-08-18T15:41:57.739Z",
+      "checkedAt": "2026-08-18T16:45:17.577Z",
       "ok": true,
-      "message": "2 registros relevantes comprobados; 18 documento(s) omitido(s) temporalmente",
-      "recordsSeen": 2
+      "message": "23 registros relevantes comprobados; 11 documento(s) omitido(s) temporalmente",
+      "recordsSeen": 23
     },
     "contratos": {
-      "checkedAt": "2026-08-18T15:41:57.739Z",
+      "checkedAt": "2026-08-18T16:45:17.577Z",
       "ok": true,
       "message": "56 registros relevantes comprobados",
       "recordsSeen": 56
     },
     "empleo": {
-      "checkedAt": "2026-08-18T15:41:57.739Z",
+      "checkedAt": "2026-08-18T16:45:17.577Z",
       "ok": true,
       "message": "Cobertura mediante BOCM: 0 convocatoria(s) reciente(s) revisada(s); el portal directo protege el acceso automatizado",
       "recordsSeen": 0
@@ -188,12 +188,12 @@
     {
       "id": "bocm:bocm-20260817-17",
       "source": "bocm",
-      "title": "Convocatoria contrato – Resolución de 29 de julio de 2026, de la Secretaría General Técnica de la Consejería de Vivienda, Transportes e Infraestructuras, por la que se dispone la publicación en los boletines oficiales y en el “perfil del contratante” en Internet de la convocatoria del contrato de servicios de “Dirección de obra, coordinación de seguridad y salud y Asistencia Técnica de las obras de construcción de la ampliación de la red de Metro de Madrid al barrio de Valdebebas. Tramos 1 y 2 (cuatro lotes)”",
-      "summary": "Convocatoria contrato – Resolución de 29 de julio de 2026, de la Secretaría General Técnica de la Consejería de Vivienda, Transportes e Infraestructuras, por la que se dispone la publicación en los boletines oficiales y en el “perfil del contratante” en Internet de la convocatoria del contrato de servicios de “Dirección de obra, coordinación de seguridad y salud y Asistencia Técnica de las obras de construcción de la ampliación de la red de Metro de Madrid al barrio de Valdebebas. Tramos 1 y 2 (cuatro lotes)”",
+      "title": "Convocatoria contrato– Resolución de 29 de julio de 2026, de la Secretaría General Técnica de la Consejería de Vivienda, Transportes e Infraestructuras, por la que se dispone la publicación en los boletines oficiales y en el “perfil del contratante” en Internet de la convocatoria del contrato de servicios de “Dirección de obra, coordinación de seguridad y salud y Asistencia Técnica de las obras de construcción de la ampliación de la red de Metro de Madrid al barrio de Valdebebas. Tramos 1 y 2 (cuatro lotes)”",
+      "summary": "Convocatoria contrato– Resolución de 29 de julio de 2026, de la Secretaría General Técnica de la Consejería de Vivienda, Transportes e Infraestructuras, por la que se dispone la publicación en los boletines oficiales y en el “perfil del contratante” en Internet de la convocatoria del contrato de servicios de “Dirección de obra, coordinación de seguridad y salud y Asistencia Técnica de las obras de construcción de la ampliación de la red de Metro de Madrid al barrio de Valdebebas. Tramos 1 y 2 (cuatro lotes)”",
       "issuer": "CONSEJERÍA DE VIVIENDA, TRANSPORTES E INFRAESTRUCTURAS",
-      "publicationType": "RESOLUCIÓN",
+      "publicationType": "Convocatoria contrato",
       "publishedAt": "2026-08-17",
-      "url": "https://www.bocm.es/bocm-20260817-17?language=es",
+      "url": "https://www.bocm.es/bocm-20260817-17",
       "pdfUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/08/17/BOCM-20260817-17.PDF",
       "xmlUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/08/17/BOCM-20260817-17.xml?language=es",
       "firstSeenAt": "2026-08-17T07:13:16.330Z",
@@ -204,12 +204,12 @@
     {
       "id": "bocm:bocm-20260817-21",
       "source": "bocm",
-      "title": "Convocatoria contrato – Anuncio de 11 de agosto de 2026, por el que se convoca la licitación para la contratación del suministro de “Suspensión primaria 7000 9000” para el mantenimiento de los vehículos de material móvil de Metro de Madrid, S. A. (Expediente 6012600224)",
-      "summary": "Convocatoria contrato – Anuncio de 11 de agosto de 2026, por el que se convoca la licitación para la contratación del suministro de “Suspensión primaria 7000 9000” para el mantenimiento de los vehículos de material móvil de Metro de Madrid, S. A. (Expediente 6012600224)",
-      "issuer": "CONSEJERÍA DE VIVIENDA, TRANSPORTES E INFRAESTRUCTURAS",
-      "publicationType": "ANUNCIO",
+      "title": "Convocatoria contrato– Anuncio de 11 de agosto de 2026, por el que se convoca la licitación para la contratación del suministro de “Suspensión primaria 7000 9000” para el mantenimiento de los vehículos de material móvil de Metro de Madrid, S. A. (Expediente 6012600224)",
+      "summary": "Convocatoria contrato– Anuncio de 11 de agosto de 2026, por el que se convoca la licitación para la contratación del suministro de “Suspensión primaria 7000 9000” para el mantenimiento de los vehículos de material móvil de Metro de Madrid, S. A. (Expediente 6012600224)",
+      "issuer": "CONSEJERÍA DE VIVIENDA, TRANSPORTES E INFRAESTRUCTURAS · METRO DE MADRID, S. A.",
+      "publicationType": "Convocatoria contrato",
       "publishedAt": "2026-08-17",
-      "url": "https://www.bocm.es/bocm-20260817-21?language=es",
+      "url": "https://www.bocm.es/bocm-20260817-21",
       "pdfUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/08/17/BOCM-20260817-21.PDF",
       "xmlUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/08/17/BOCM-20260817-21.xml?language=es",
       "firstSeenAt": "2026-08-17T07:13:16.330Z",
