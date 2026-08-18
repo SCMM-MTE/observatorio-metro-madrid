@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-18T09:45:05.800Z",
+  "generatedAt": "2026-08-18T10:41:43.259Z",
   "coverage": {
     "bocm": "2009-12-01 a 2026-08-17",
     "contratos": "2017-02-02 a 2026-08-18",
@@ -8,25 +8,42 @@
   },
   "sources": {
     "bocm": {
-      "checkedAt": "2026-08-18T09:45:05.800Z",
+      "checkedAt": "2026-08-18T10:41:43.259Z",
       "ok": true,
-      "message": "Consulta parcial sin registros; 18 documento(s) omitido(s) temporalmente",
+      "message": "Consulta parcial sin registros; 20 documento(s) omitido(s) temporalmente",
       "recordsSeen": 0
     },
     "contratos": {
-      "checkedAt": "2026-08-18T09:45:05.800Z",
+      "checkedAt": "2026-08-18T10:41:43.259Z",
       "ok": true,
-      "message": "53 registros relevantes comprobados",
-      "recordsSeen": 53
+      "message": "54 registros relevantes comprobados",
+      "recordsSeen": 54
     },
     "empleo": {
-      "checkedAt": "2026-08-18T09:45:05.800Z",
+      "checkedAt": "2026-08-18T10:41:43.259Z",
       "ok": true,
       "message": "Cobertura mediante BOCM: 0 convocatoria(s) reciente(s) revisada(s); el portal directo protege el acceso automatizado",
       "recordsSeen": 0
     }
   },
   "items": [
+    {
+      "id": "contratos:acuerdo-marco-suministro-medios-produccion-plan-renove-0",
+      "source": "contratos",
+      "title": "Acuerdo Marco para el suministro de medios de producción (Plan Renove)",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Pendiente de adjudicación",
+      "status": "Pendiente de adjudicación",
+      "expediente": "6012600021",
+      "publishedAt": "2026-08-18",
+      "updatedAt": "2026-08-18T12:24:29+02:00",
+      "deadline": "2026-02-26",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/acuerdo-marco-suministro-medios-produccion-plan-renove-0",
+      "firstSeenAt": "2026-08-05T08:03:18.389Z",
+      "summary": "Id licitación: 6012600021;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 600000.00 EUR;",
+      "amount": 600000,
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-01/6012600021_pliego_de_prescripciones_tecnicas_signed.pdf"
+    },
     {
       "id": "contratos:suministro-suspension-primaria-7000-9000-mantenimiento-vehiculos-material-movil",
       "source": "contratos",
@@ -1626,20 +1643,6 @@
       "updatedAt": "2026-07-28T07:08:00+02:00",
       "deadline": "2026-05-14",
       "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/suministro-renovacion-equipos-trabajo-vulcanizacion-sustitucion-pasamanos",
-      "firstSeenAt": "2026-08-05T08:03:18.389Z"
-    },
-    {
-      "id": "contratos:acuerdo-marco-suministro-medios-produccion-plan-renove-0",
-      "source": "contratos",
-      "title": "Acuerdo Marco para el suministro de medios de producción (Plan Renove)",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Convocatoria anunciada a licitación",
-      "status": "Pendiente de adjudicación",
-      "expediente": "6012600021",
-      "publishedAt": "2026-07-27",
-      "updatedAt": "2026-07-27T11:13:00+02:00",
-      "deadline": "2026-02-26",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/acuerdo-marco-suministro-medios-produccion-plan-renove-0",
       "firstSeenAt": "2026-08-05T08:03:18.389Z"
     },
     {
