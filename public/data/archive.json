@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-19T11:35:29.532Z",
+  "generatedAt": "2026-08-19T11:58:40.136Z",
   "coverage": {
     "bocm": "2009-12-01 a 2026-08-17",
     "contratos": "2017-02-02 a 2026-08-19",
@@ -8,25 +8,39 @@
   },
   "sources": {
     "bocm": {
-      "checkedAt": "2026-08-19T11:35:29.532Z",
+      "checkedAt": "2026-08-19T11:58:40.136Z",
       "ok": true,
-      "message": "21 registros relevantes comprobados",
+      "message": "21 registros relevantes comprobados; 10 documento(s) omitido(s) temporalmente",
       "recordsSeen": 21
     },
     "contratos": {
-      "checkedAt": "2026-08-19T11:35:29.532Z",
+      "checkedAt": "2026-08-19T11:58:40.136Z",
       "ok": true,
       "message": "55 registros relevantes comprobados",
       "recordsSeen": 55
     },
     "empleo": {
-      "checkedAt": "2026-08-19T11:35:29.532Z",
+      "checkedAt": "2026-08-19T11:58:40.136Z",
       "ok": true,
       "message": "Cobertura mediante BOCM: 0 convocatoria(s) reciente(s) revisada(s); el portal directo protege el acceso automatizado",
       "recordsSeen": 0
     }
   },
   "items": [
+    {
+      "id": "contratos:suministro-suscripcion-licencias-solucion-gestion-dispositivos-moviles-mobile",
+      "source": "contratos",
+      "title": "Suministro mediante suscripción de las licencias de la solución de gestión de dispositivos móviles (Mobile Device Management)",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Convocatoria anunciada a licitación",
+      "status": "En plazo",
+      "expediente": "6012600213",
+      "publishedAt": "2026-08-19",
+      "updatedAt": "2026-08-19T13:37:00+02:00",
+      "deadline": "2026-09-08",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/suministro-suscripcion-licencias-solucion-gestion-dispositivos-moviles-mobile",
+      "firstSeenAt": "2026-08-05T08:03:18.389Z"
+    },
     {
       "id": "contratos:obras-implantacion-ascensores-modernizacion-estacion-ventas-metro-madrid",
       "source": "contratos",
@@ -1435,20 +1449,6 @@
       "updatedAt": "2026-07-30T09:27:00+02:00",
       "deadline": "2026-05-27",
       "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-mantenimiento-preventivo-anual-correctivo-equipos-aire-acondicionado",
-      "firstSeenAt": "2026-08-05T08:03:18.389Z"
-    },
-    {
-      "id": "contratos:suministro-suscripcion-licencias-solucion-gestion-dispositivos-moviles-mobile",
-      "source": "contratos",
-      "title": "Suministro mediante suscripción de las licencias de la solución de gestión de dispositivos móviles (Mobile Device Management)",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Convocatoria anunciada a licitación",
-      "status": "En plazo",
-      "expediente": "6012600213",
-      "publishedAt": "2026-07-30",
-      "updatedAt": "2026-07-30T09:24:00+02:00",
-      "deadline": "2026-09-08",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/suministro-suscripcion-licencias-solucion-gestion-dispositivos-moviles-mobile",
       "firstSeenAt": "2026-08-05T08:03:18.389Z"
     },
     {
