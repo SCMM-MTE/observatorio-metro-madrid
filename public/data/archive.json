@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-19T05:44:40.158Z",
+  "generatedAt": "2026-08-19T07:01:42.210Z",
   "coverage": {
     "bocm": "2009-12-01 a 2026-08-17",
     "contratos": "2017-02-02 a 2026-08-19",
@@ -8,25 +8,89 @@
   },
   "sources": {
     "bocm": {
-      "checkedAt": "2026-08-19T05:44:40.158Z",
+      "checkedAt": "2026-08-19T07:01:42.210Z",
       "ok": true,
-      "message": "23 registros relevantes comprobados",
-      "recordsSeen": 23
+      "message": "21 registros relevantes comprobados; 12 documento(s) omitido(s) temporalmente",
+      "recordsSeen": 21
     },
     "contratos": {
-      "checkedAt": "2026-08-19T05:44:40.158Z",
+      "checkedAt": "2026-08-19T07:01:42.210Z",
       "ok": true,
-      "message": "56 registros relevantes comprobados",
-      "recordsSeen": 56
+      "message": "57 registros relevantes comprobados",
+      "recordsSeen": 57
     },
     "empleo": {
-      "checkedAt": "2026-08-19T05:44:40.158Z",
+      "checkedAt": "2026-08-19T07:01:42.210Z",
       "ok": true,
       "message": "Cobertura mediante BOCM: 0 convocatoria(s) reciente(s) revisada(s); el portal directo protege el acceso automatizado",
       "recordsSeen": 0
     }
   },
   "items": [
+    {
+      "id": "contratos:servicio-reparacion-equipos-senalizacion-tecnologia-siemens-rail-material-movil",
+      "source": "contratos",
+      "title": "Servicio de reparación de equipos de señalización de tecnología Siemens Rail en material móvil de Metro de Madrid",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Contratos adjudicados por procedimientos sin publicidad",
+      "status": "Resuelta / Finalizada",
+      "expediente": "6012600019",
+      "publishedAt": "2026-08-19",
+      "updatedAt": "2026-08-19T08:21:00+02:00",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-reparacion-equipos-senalizacion-tecnologia-siemens-rail-material-movil",
+      "firstSeenAt": "2026-08-05T08:03:18.389Z"
+    },
+    {
+      "id": "contratos:servicio-mantenimiento-integral-pozos-bombas-fecales-secundarios",
+      "source": "contratos",
+      "title": "Servicio de mantenimiento integral de pozos de bombas fecales y secundarios",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Resuelta / Finalizada",
+      "status": "Resuelta / Finalizada",
+      "expediente": "6012600059",
+      "publishedAt": "2026-08-19",
+      "updatedAt": "2026-08-19T08:20:07+02:00",
+      "deadline": "2026-03-18",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-mantenimiento-integral-pozos-bombas-fecales-secundarios",
+      "firstSeenAt": "2026-08-05T08:03:18.389Z",
+      "summary": "Id licitación: 6012600059;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 294962.55 EUR;",
+      "amount": 294962.55,
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-02/6012600059_ppt_signed_0.pdf"
+    },
+    {
+      "id": "contratos:servicio-psicologia-valoracion-trabajadores-intervencion-circulacion-ferroviaria",
+      "source": "contratos",
+      "title": "Servicio de psicología para valoración de trabajadores con intervención en circulación ferroviaria",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Resuelta / Finalizada",
+      "status": "Resuelta / Finalizada",
+      "expediente": "6012600094",
+      "publishedAt": "2026-08-19",
+      "updatedAt": "2026-08-19T08:19:00+02:00",
+      "deadline": "2026-04-10",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-psicologia-valoracion-trabajadores-intervencion-circulacion-ferroviaria",
+      "firstSeenAt": "2026-08-05T08:03:18.389Z",
+      "summary": "Id licitación: 6012600094;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 390000.00 EUR;",
+      "amount": 390000,
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-03/6012600094_ppt_signed.pdf"
+    },
+    {
+      "id": "contratos:acuerdo-marco-suministro-mangas-neumaticas-destinadas-mantenimiento-trenes",
+      "source": "contratos",
+      "title": "Acuerdo marco para el suministro de mangas neumáticas destinadas al mantenimiento de los trenes del material móvil e instalaciones de Metro Madrid",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Resuelta / Finalizada",
+      "status": "Resuelta / Finalizada",
+      "expediente": "6012600061",
+      "publishedAt": "2026-08-19",
+      "updatedAt": "2026-08-19T08:17:53+02:00",
+      "deadline": "2026-03-20",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/acuerdo-marco-suministro-mangas-neumaticas-destinadas-mantenimiento-trenes",
+      "firstSeenAt": "2026-08-05T08:03:18.389Z",
+      "summary": "Id licitación: 6012600061;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 430000.00 EUR;",
+      "amount": 430000,
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-02/6012600061_ppt_signed.pdf"
+    },
     {
       "id": "contratos:servicio-soporte-mantenimiento-entorno-almacenamiento-backup-dell-emc",
       "source": "contratos",
@@ -2736,33 +2800,6 @@
       "firstSeenAt": "2026-08-05T08:03:18.389Z"
     },
     {
-      "id": "contratos:servicio-mantenimiento-integral-pozos-bombas-fecales-secundarios",
-      "source": "contratos",
-      "title": "Servicio de mantenimiento integral de pozos de bombas fecales y secundarios",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Convocatoria anunciada a licitación",
-      "status": "Adjudicada",
-      "expediente": "6012600059",
-      "publishedAt": "2026-07-13",
-      "updatedAt": "2026-07-13T10:07:00+02:00",
-      "deadline": "2026-03-18",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-mantenimiento-integral-pozos-bombas-fecales-secundarios",
-      "firstSeenAt": "2026-08-05T08:03:18.389Z"
-    },
-    {
-      "id": "contratos:servicio-reparacion-equipos-senalizacion-tecnologia-siemens-rail-material-movil",
-      "source": "contratos",
-      "title": "Servicio de reparación de equipos de señalización de tecnología Siemens Rail en material móvil de Metro de Madrid",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Contratos adjudicados por procedimientos sin publicidad",
-      "status": "Adjudicada",
-      "expediente": "6012600019",
-      "publishedAt": "2026-07-13",
-      "updatedAt": "2026-07-13T10:05:00+02:00",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-reparacion-equipos-senalizacion-tecnologia-siemens-rail-material-movil",
-      "firstSeenAt": "2026-08-05T08:03:18.389Z"
-    },
-    {
       "id": "contratos:servicio-mantenimiento-integral-800-equipos-climatizacion-cuartos-tecnicos-metro",
       "source": "contratos",
       "title": "Servicio de mantenimiento integral de 800 equipos de climatización de cuartos técnicos de Metro de Madrid",
@@ -2883,34 +2920,6 @@
       "updatedAt": "2026-07-10T11:34:00+02:00",
       "deadline": "2026-06-03",
       "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/soporte-mantenimiento-suscripciones-productos-knime",
-      "firstSeenAt": "2026-08-05T08:03:18.389Z"
-    },
-    {
-      "id": "contratos:acuerdo-marco-suministro-mangas-neumaticas-destinadas-mantenimiento-trenes",
-      "source": "contratos",
-      "title": "Acuerdo marco para el suministro de mangas neumáticas destinadas al mantenimiento de los trenes del material móvil e instalaciones de Metro Madrid",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Convocatoria anunciada a licitación",
-      "status": "Adjudicada",
-      "expediente": "6012600061",
-      "publishedAt": "2026-07-10",
-      "updatedAt": "2026-07-10T08:38:00+02:00",
-      "deadline": "2026-03-20",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/acuerdo-marco-suministro-mangas-neumaticas-destinadas-mantenimiento-trenes",
-      "firstSeenAt": "2026-08-05T08:03:18.389Z"
-    },
-    {
-      "id": "contratos:servicio-psicologia-valoracion-trabajadores-intervencion-circulacion-ferroviaria",
-      "source": "contratos",
-      "title": "Servicio de psicología para valoración de trabajadores con intervención en circulación ferroviaria",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Convocatoria anunciada a licitación",
-      "status": "Adjudicada",
-      "expediente": "6012600094",
-      "publishedAt": "2026-07-10",
-      "updatedAt": "2026-07-10T08:30:00+02:00",
-      "deadline": "2026-04-10",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-psicologia-valoracion-trabajadores-intervencion-circulacion-ferroviaria",
       "firstSeenAt": "2026-08-05T08:03:18.389Z"
     },
     {
