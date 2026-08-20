@@ -1,32 +1,96 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-20T04:48:44.856Z",
+  "generatedAt": "2026-08-20T05:42:03.193Z",
   "coverage": {
     "bocm": "2009-12-01 a 2026-08-17",
-    "contratos": "2017-02-02 a 2026-08-19",
+    "contratos": "2017-02-02 a 2026-08-20",
     "empleo": "2016-10-31 a 2026-05-07"
   },
   "sources": {
     "bocm": {
-      "checkedAt": "2026-08-20T04:48:44.856Z",
+      "checkedAt": "2026-08-20T05:42:03.193Z",
       "ok": true,
-      "message": "20 registros relevantes comprobados",
+      "message": "20 registros relevantes comprobados; 11 documento(s) omitido(s) temporalmente",
       "recordsSeen": 20
     },
     "contratos": {
-      "checkedAt": "2026-08-20T04:48:44.856Z",
+      "checkedAt": "2026-08-20T05:42:03.193Z",
       "ok": true,
-      "message": "54 registros relevantes comprobados",
-      "recordsSeen": 54
+      "message": "57 registros relevantes comprobados",
+      "recordsSeen": 57
     },
     "empleo": {
-      "checkedAt": "2026-08-20T04:48:44.856Z",
+      "checkedAt": "2026-08-20T05:42:03.193Z",
       "ok": true,
       "message": "Cobertura mediante BOCM: 0 convocatoria(s) reciente(s) revisada(s); el portal directo protege el acceso automatizado",
       "recordsSeen": 0
     }
   },
   "items": [
+    {
+      "id": "contratos:suministro-soporte-mantenimiento-sistemas-seguridad-informatica-orientados",
+      "source": "contratos",
+      "title": "Suministro para soporte y mantenimiento de los sistemas de seguridad informática orientados a la protección de equipos informáticos",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Resuelta / Finalizada",
+      "status": "Resuelta / Finalizada",
+      "expediente": "6012600131",
+      "publishedAt": "2026-08-20",
+      "updatedAt": "2026-08-20T07:23:09+02:00",
+      "deadline": "2026-05-26",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/suministro-soporte-mantenimiento-sistemas-seguridad-informatica-orientados",
+      "firstSeenAt": "2026-08-05T08:03:18.389Z",
+      "summary": "Id licitación: 6012600131;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 247890.80 EUR;",
+      "amount": 247890.8,
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-05/6012600131_referencia_al_pliego_de_prescripciones_tecnicas_y_anexos_signed.pdf"
+    },
+    {
+      "id": "contratos:soporte-mantenimiento-licencias-documentum-metro-madrid",
+      "source": "contratos",
+      "title": "Soporte y mantenimiento de licencias Documentum para Metro de Madrid",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Resuelta / Finalizada",
+      "status": "Resuelta / Finalizada",
+      "expediente": "6012600134",
+      "publishedAt": "2026-08-20",
+      "updatedAt": "2026-08-20T07:22:02+02:00",
+      "deadline": "2026-06-09",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/soporte-mantenimiento-licencias-documentum-metro-madrid",
+      "firstSeenAt": "2026-08-05T08:03:18.389Z",
+      "summary": "Id licitación: 6012600134;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 474779.74 EUR;",
+      "amount": 474779.74,
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-05/6012600134_pliego_de_prescripciones_tecnicas_signed_0.pdf"
+    },
+    {
+      "id": "contratos:servicio-soporte-reposicion-hardware-equipamiento-cisco-metro-madrid",
+      "source": "contratos",
+      "title": "Servicio de soporte de reposición de hardware de equipamiento CISCO para Metro de Madrid",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Resuelta / Finalizada",
+      "status": "Resuelta / Finalizada",
+      "expediente": "6012600083",
+      "publishedAt": "2026-08-20",
+      "updatedAt": "2026-08-20T07:21:33+02:00",
+      "deadline": "2026-04-30",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-soporte-reposicion-hardware-equipamiento-cisco-metro-madrid",
+      "firstSeenAt": "2026-08-05T08:03:18.389Z",
+      "summary": "Id licitación: 6012600083;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 1124700.00 EUR;",
+      "amount": 1124700,
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-03/6012600083_referencia_al_ppt_signed.pdf"
+    },
+    {
+      "id": "contratos:acuerdo-marco-suministro-repuestos-fabricante-indra-sistemas-sa-mantenimiento",
+      "source": "contratos",
+      "title": "Acuerdo marco para el suministro de repuestos del fabricante Indra Sistemas, S.A. para el mantenimiento de los equipos de venta y peaje instalados en las estaciones de la red de Metro de Madrid",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Contratos adjudicados por procedimientos sin publicidad",
+      "status": "Resuelta / Finalizada",
+      "expediente": "6012600125",
+      "publishedAt": "2026-08-20",
+      "updatedAt": "2026-08-20T07:19:00+02:00",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/acuerdo-marco-suministro-repuestos-fabricante-indra-sistemas-sa-mantenimiento",
+      "firstSeenAt": "2026-08-05T08:03:18.389Z"
+    },
     {
       "id": "contratos:suministro-suscripcion-licencias-solucion-gestion-dispositivos-moviles-mobile",
       "source": "contratos",
@@ -2588,19 +2652,6 @@
       "firstSeenAt": "2026-08-05T10:14:22.549Z"
     },
     {
-      "id": "contratos:acuerdo-marco-suministro-repuestos-fabricante-indra-sistemas-sa-mantenimiento",
-      "source": "contratos",
-      "title": "Acuerdo marco para el suministro de repuestos del fabricante Indra Sistemas, S.A. para el mantenimiento de los equipos de venta y peaje instalados en las estaciones de la red de Metro de Madrid",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Contratos adjudicados por procedimientos sin publicidad",
-      "status": "Adjudicada",
-      "expediente": "6012600125",
-      "publishedAt": "2026-07-15",
-      "updatedAt": "2026-07-15T09:06:00+02:00",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/acuerdo-marco-suministro-repuestos-fabricante-indra-sistemas-sa-mantenimiento",
-      "firstSeenAt": "2026-08-05T08:03:18.389Z"
-    },
-    {
       "id": "bocm:bocm-20260715-62",
       "source": "bocm",
       "title": "Adjudicación contrato – Anuncio de 10 de julio de 2026, de adjudicación del contrato titulado “Acuerdo marco para el suministro de repuestos del fabricante Indra Sistemas, S. A., para el mantenimiento de los equipos de venta y peaje instalados en las estaciones de la red de Metro de Madrid” (expediente 6012600125)",
@@ -2615,34 +2666,6 @@
         "I. COMUNIDAD DE MADRID · D) Anuncios"
       ],
       "firstSeenAt": "2026-08-05T07:48:11.952Z"
-    },
-    {
-      "id": "contratos:soporte-mantenimiento-licencias-documentum-metro-madrid",
-      "source": "contratos",
-      "title": "Soporte y mantenimiento de licencias Documentum para Metro de Madrid",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Convocatoria anunciada a licitación",
-      "status": "Adjudicada",
-      "expediente": "6012600134",
-      "publishedAt": "2026-07-14",
-      "updatedAt": "2026-07-14T12:52:00+02:00",
-      "deadline": "2026-06-09",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/soporte-mantenimiento-licencias-documentum-metro-madrid",
-      "firstSeenAt": "2026-08-05T08:03:18.389Z"
-    },
-    {
-      "id": "contratos:servicio-soporte-reposicion-hardware-equipamiento-cisco-metro-madrid",
-      "source": "contratos",
-      "title": "Servicio de soporte de reposición de hardware de equipamiento CISCO para Metro de Madrid",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Convocatoria anunciada a licitación",
-      "status": "Adjudicada",
-      "expediente": "6012600083",
-      "publishedAt": "2026-07-14",
-      "updatedAt": "2026-07-14T09:38:00+02:00",
-      "deadline": "2026-04-30",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-soporte-reposicion-hardware-equipamiento-cisco-metro-madrid",
-      "firstSeenAt": "2026-08-05T08:03:18.389Z"
     },
     {
       "id": "contratos:servicio-reparacion-equipos-sistema-control-estaciones-fabricante-schneider-1",
@@ -2841,20 +2864,6 @@
       "publishedAt": "2026-07-13",
       "updatedAt": "2026-07-13T08:24:00+02:00",
       "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/suministro-repuestos-inmovilizado-fabricante-indra-sistemas-sa-mantenimiento",
-      "firstSeenAt": "2026-08-05T08:03:18.389Z"
-    },
-    {
-      "id": "contratos:suministro-soporte-mantenimiento-sistemas-seguridad-informatica-orientados",
-      "source": "contratos",
-      "title": "Suministro para soporte y mantenimiento de los sistemas de seguridad informática orientados a la protección de equipos informáticos",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Convocatoria anunciada a licitación",
-      "status": "Adjudicada",
-      "expediente": "6012600131",
-      "publishedAt": "2026-07-13",
-      "updatedAt": "2026-07-13T08:23:00+02:00",
-      "deadline": "2026-05-26",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/suministro-soporte-mantenimiento-sistemas-seguridad-informatica-orientados",
       "firstSeenAt": "2026-08-05T08:03:18.389Z"
     },
     {
