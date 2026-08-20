@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-19T23:54:43.986Z",
+  "generatedAt": "2026-08-20T01:48:10.136Z",
   "coverage": {
     "bocm": "2009-12-01 a 2026-08-17",
     "contratos": "2017-02-02 a 2026-08-19",
@@ -8,19 +8,19 @@
   },
   "sources": {
     "bocm": {
-      "checkedAt": "2026-08-19T23:54:43.986Z",
+      "checkedAt": "2026-08-20T01:48:10.136Z",
       "ok": true,
-      "message": "21 registros relevantes comprobados",
-      "recordsSeen": 21
+      "message": "20 registros relevantes comprobados; 10 documento(s) omitido(s) temporalmente",
+      "recordsSeen": 20
     },
     "contratos": {
-      "checkedAt": "2026-08-19T23:54:43.986Z",
+      "checkedAt": "2026-08-20T01:48:10.136Z",
       "ok": true,
       "message": "54 registros relevantes comprobados",
       "recordsSeen": 54
     },
     "empleo": {
-      "checkedAt": "2026-08-19T23:54:43.986Z",
+      "checkedAt": "2026-08-20T01:48:10.136Z",
       "ok": true,
       "message": "Cobertura mediante BOCM: 0 convocatoria(s) reciente(s) revisada(s); el portal directo protege el acceso automatizado",
       "recordsSeen": 0
@@ -1237,12 +1237,12 @@
     {
       "id": "bocm:bocm-20260805-19",
       "source": "bocm",
-      "title": "Formalización contrato– Anuncio de 28 de julio de 2026, de formalización del contrato titulado “Suministro, instalación y mantenimiento preventivo de un sistema automatizado de almacenamiento de repuestos paletizados y preparación de pedidos para Metro de Madrid” (Expediente 6012600026)-(Contrato 7726000108-7226000381)",
-      "summary": "Formalización contrato– Anuncio de 28 de julio de 2026, de formalización del contrato titulado “Suministro, instalación y mantenimiento preventivo de un sistema automatizado de almacenamiento de repuestos paletizados y preparación de pedidos para Metro de Madrid” (Expediente 6012600026)-(Contrato 7726000108-7226000381)",
-      "issuer": "CONSEJERÍA DE VIVIENDA, TRANSPORTES E INFRAESTRUCTURAS · METRO DE MADRID, S. A.",
-      "publicationType": "Formalización contrato",
+      "title": "Formalización contrato – Anuncio de 28 de julio de 2026, de formalización del contrato titulado “Suministro, instalación y mantenimiento preventivo de un sistema automatizado de almacenamiento de repuestos paletizados y preparación de pedidos para Metro de Madrid” (Expediente 6012600026)-(Contrato 7726000108-7226000381)",
+      "summary": "Formalización contrato – Anuncio de 28 de julio de 2026, de formalización del contrato titulado “Suministro, instalación y mantenimiento preventivo de un sistema automatizado de almacenamiento de repuestos paletizados y preparación de pedidos para Metro de Madrid” (Expediente 6012600026)-(Contrato 7726000108-7226000381)",
+      "issuer": "CONSEJERÍA DE VIVIENDA, TRANSPORTES E INFRAESTRUCTURAS",
+      "publicationType": "ANUNCIO",
       "publishedAt": "2026-08-05",
-      "url": "https://www.bocm.es/bocm-20260805-19",
+      "url": "https://www.bocm.es/bocm-20260805-19?language=es",
       "pdfUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/08/05/BOCM-20260805-19.PDF",
       "xmlUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/08/05/BOCM-20260805-19.xml?language=es",
       "tags": [
