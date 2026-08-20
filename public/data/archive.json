@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-20T10:42:38.725Z",
+  "generatedAt": "2026-08-20T11:37:30.673Z",
   "coverage": {
     "bocm": "2009-12-01 a 2026-08-17",
     "contratos": "2017-02-02 a 2026-08-20",
@@ -8,25 +8,59 @@
   },
   "sources": {
     "bocm": {
-      "checkedAt": "2026-08-20T10:42:38.725Z",
+      "checkedAt": "2026-08-20T11:37:30.673Z",
       "ok": true,
-      "message": "19 registros relevantes comprobados; 10 documento(s) omitido(s) temporalmente",
-      "recordsSeen": 19
+      "message": "18 registros relevantes comprobados; 11 documento(s) omitido(s) temporalmente",
+      "recordsSeen": 18
     },
     "contratos": {
-      "checkedAt": "2026-08-20T10:42:38.725Z",
+      "checkedAt": "2026-08-20T11:37:30.673Z",
       "ok": true,
-      "message": "54 registros relevantes comprobados",
-      "recordsSeen": 54
+      "message": "56 registros relevantes comprobados",
+      "recordsSeen": 56
     },
     "empleo": {
-      "checkedAt": "2026-08-20T10:42:38.725Z",
+      "checkedAt": "2026-08-20T11:37:30.673Z",
       "ok": true,
       "message": "Cobertura mediante BOCM: 0 convocatoria(s) reciente(s) revisada(s); el portal directo protege el acceso automatizado",
       "recordsSeen": 0
     }
   },
   "items": [
+    {
+      "id": "contratos:diseno-fabricacion-suministro-puesta-marcha-programa-optimizacion-ciclo-vida-nuevo",
+      "source": "contratos",
+      "title": "Diseño, fabricación, suministro, puesta en marcha y programa de optimización del ciclo de vida de nuevo material móvil de gálibo ancho de la red de Metro de Madrid",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Resuelta / Finalizada",
+      "status": "Resuelta / Finalizada",
+      "expediente": "6012300308",
+      "publishedAt": "2026-08-20",
+      "updatedAt": "2026-08-20T13:07:03+02:00",
+      "deadline": "2024-02-06",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/diseno-fabricacion-suministro-puesta-marcha-programa-optimizacion-ciclo-vida-nuevo",
+      "firstSeenAt": "2026-08-05T08:03:18.389Z",
+      "summary": "Id licitación: 6012300308;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 576000000.00 EUR;",
+      "amount": 576000000,
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2023-10/6012300308_referencia_al_ppt_signed.pdf"
+    },
+    {
+      "id": "contratos:servicio-inspeccion-vigilancia-control-gestion-medio-ambiental-control-calidad",
+      "source": "contratos",
+      "title": "Servicio de inspección, vigilancia, control de la gestión medio ambiental y control de calidad para las obras de renovación integral de superestructura de vía en Línea 6.",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Resuelta / Finalizada",
+      "status": "Resuelta / Finalizada",
+      "expediente": "6012400277",
+      "publishedAt": "2026-08-20",
+      "updatedAt": "2026-08-20T13:05:38+02:00",
+      "deadline": "2024-08-20",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-inspeccion-vigilancia-control-gestion-medio-ambiental-control-calidad",
+      "firstSeenAt": "2026-08-05T08:03:18.389Z",
+      "summary": "Id licitación: 6012400277;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 5271598.02 EUR;",
+      "amount": 5271598.02,
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2024-07/6012400277_pliego_de_prescripciones_tecnicas_signed.pdf"
+    },
     {
       "id": "contratos:suministro-soporte-mantenimiento-sistemas-seguridad-informatica-orientados",
       "source": "contratos",
@@ -1667,20 +1701,6 @@
       "firstSeenAt": "2026-08-05T08:03:18.389Z"
     },
     {
-      "id": "contratos:servicio-inspeccion-vigilancia-control-gestion-medio-ambiental-control-calidad",
-      "source": "contratos",
-      "title": "Servicio de inspección, vigilancia, control de la gestión medio ambiental y control de calidad para las obras de renovación integral de superestructura de vía en Línea 6.",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Convocatoria anunciada a licitación",
-      "status": "Resuelta / Finalizada",
-      "expediente": "6012400277",
-      "publishedAt": "2026-07-28",
-      "updatedAt": "2026-07-28T09:23:00+02:00",
-      "deadline": "2024-08-20",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-inspeccion-vigilancia-control-gestion-medio-ambiental-control-calidad",
-      "firstSeenAt": "2026-08-05T08:03:18.389Z"
-    },
-    {
       "id": "contratos:servicio-mantenimiento-integral-1222-equipos-instalaciones-climatizacion-ubicados",
       "source": "contratos",
       "title": "Servicio de mantenimiento integral de 1.222 equipos de instalaciones de climatización ubicados en estaciones, recintos y depósitos de Metro de Madrid.",
@@ -1692,20 +1712,6 @@
       "updatedAt": "2026-07-28T09:21:00+02:00",
       "deadline": "2024-04-23",
       "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-mantenimiento-integral-1222-equipos-instalaciones-climatizacion-ubicados",
-      "firstSeenAt": "2026-08-05T08:03:18.389Z"
-    },
-    {
-      "id": "contratos:diseno-fabricacion-suministro-puesta-marcha-programa-optimizacion-ciclo-vida-nuevo",
-      "source": "contratos",
-      "title": "Diseño, fabricación, suministro, puesta en marcha y programa de optimización del ciclo de vida de nuevo material móvil de gálibo ancho de la red de Metro de Madrid",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Convocatoria anunciada a licitación",
-      "status": "Resuelta / Finalizada",
-      "expediente": "6012300308",
-      "publishedAt": "2026-07-28",
-      "updatedAt": "2026-07-28T09:19:00+02:00",
-      "deadline": "2024-02-06",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/diseno-fabricacion-suministro-puesta-marcha-programa-optimizacion-ciclo-vida-nuevo",
       "firstSeenAt": "2026-08-05T08:03:18.389Z"
     },
     {
