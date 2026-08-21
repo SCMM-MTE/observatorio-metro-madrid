@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-21T10:42:01.300Z",
+  "generatedAt": "2026-08-21T11:36:12.741Z",
   "coverage": {
     "bocm": "2009-12-01 a 2026-08-17",
     "contratos": "2017-02-02 a 2026-08-21",
@@ -8,25 +8,39 @@
   },
   "sources": {
     "bocm": {
-      "checkedAt": "2026-08-21T10:42:01.300Z",
+      "checkedAt": "2026-08-21T11:36:12.741Z",
       "ok": true,
       "message": "19 registros relevantes comprobados",
       "recordsSeen": 19
     },
     "contratos": {
-      "checkedAt": "2026-08-21T10:42:01.300Z",
+      "checkedAt": "2026-08-21T11:36:12.741Z",
       "ok": true,
       "message": "53 registros relevantes comprobados",
       "recordsSeen": 53
     },
     "empleo": {
-      "checkedAt": "2026-08-21T10:42:01.300Z",
+      "checkedAt": "2026-08-21T11:36:12.741Z",
       "ok": true,
       "message": "Cobertura mediante BOCM: 0 convocatoria(s) reciente(s) revisada(s); el portal directo protege el acceso automatizado",
       "recordsSeen": 0
     }
   },
   "items": [
+    {
+      "id": "contratos:servicio-imparticion-sesiones-divulgativas-basicas-reanimacion-cardiopulmonar-uso",
+      "source": "contratos",
+      "title": "Servicio de impartición de sesiones divulgativas básicas sobre reanimación cardiopulmonar y uso de desfibrilador en estaciones de Metro de Madrid",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Convocatoria anunciada a licitación",
+      "status": "En plazo",
+      "expediente": "6012600225",
+      "publishedAt": "2026-08-21",
+      "updatedAt": "2026-08-21T13:15:00+02:00",
+      "deadline": "2026-09-15",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-imparticion-sesiones-divulgativas-basicas-reanimacion-cardiopulmonar-uso",
+      "firstSeenAt": "2026-08-13T08:40:11.488Z"
+    },
     {
       "id": "contratos:servicio-vigilancia-seguridad-red-metro",
       "source": "contratos",
@@ -671,20 +685,6 @@
       "summary": "Id licitación: 6012600008;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 97914.90 EUR;",
       "amount": 97914.9,
       "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-01/6012600008_ppt_signed.pdf"
-    },
-    {
-      "id": "contratos:servicio-imparticion-sesiones-divulgativas-basicas-reanimacion-cardiopulmonar-uso",
-      "source": "contratos",
-      "title": "Servicio de impartición de sesiones divulgativas básicas sobre reanimación cardiopulmonar y uso de desfibrilador en estaciones de Metro de Madrid",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Convocatoria anunciada a licitación",
-      "status": "En plazo",
-      "expediente": "6012600225",
-      "publishedAt": "2026-08-13",
-      "updatedAt": "2026-08-13T09:56:00+02:00",
-      "deadline": "2026-09-15",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-imparticion-sesiones-divulgativas-basicas-reanimacion-cardiopulmonar-uso",
-      "firstSeenAt": "2026-08-13T08:40:11.488Z"
     },
     {
       "id": "contratos:servicio-proyecto-despliegue-asistente-operativo-lar-fase-1",
