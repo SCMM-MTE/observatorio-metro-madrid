@@ -1,32 +1,66 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-21T04:20:21.985Z",
+  "generatedAt": "2026-08-21T05:08:16.465Z",
   "coverage": {
     "bocm": "2009-12-01 a 2026-08-17",
-    "contratos": "2017-02-02 a 2026-08-20",
+    "contratos": "2017-02-02 a 2026-08-21",
     "empleo": "2016-10-31 a 2026-05-07"
   },
   "sources": {
     "bocm": {
-      "checkedAt": "2026-08-21T04:20:21.985Z",
+      "checkedAt": "2026-08-21T05:08:16.465Z",
       "ok": true,
       "message": "19 registros relevantes comprobados",
       "recordsSeen": 19
     },
     "contratos": {
-      "checkedAt": "2026-08-21T04:20:21.985Z",
+      "checkedAt": "2026-08-21T05:08:16.465Z",
       "ok": true,
-      "message": "56 registros relevantes comprobados",
-      "recordsSeen": 56
+      "message": "57 registros relevantes comprobados",
+      "recordsSeen": 57
     },
     "empleo": {
-      "checkedAt": "2026-08-21T04:20:21.985Z",
+      "checkedAt": "2026-08-21T05:08:16.465Z",
       "ok": true,
       "message": "Cobertura mediante BOCM: 0 convocatoria(s) reciente(s) revisada(s); el portal directo protege el acceso automatizado",
       "recordsSeen": 0
     }
   },
   "items": [
+    {
+      "id": "contratos:suministro-frotadores-cola-milano-mantenimiento-pantografos-montados-serie-2000-0",
+      "source": "contratos",
+      "title": "Suministro de frotadores cola de milano para el mantenimiento de los pantógrafos montados en la serie 2000 del parque de material móvil de Metro de Madrid, S.A.",
+      "summary": "Id licitación: 6012600230;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 244110.00 EUR;",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "En plazo",
+      "status": "En plazo",
+      "expediente": "6012600230",
+      "amount": 244110,
+      "deadline": "2026-09-24",
+      "publishedAt": "2026-08-21",
+      "updatedAt": "2026-08-21T07:02:24+02:00",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/suministro-frotadores-cola-milano-mantenimiento-pantografos-montados-serie-2000-0",
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-08/6012600230_ppt_signed.pdf",
+      "firstSeenAt": "2026-08-21T05:08:16.465Z"
+    },
+    {
+      "id": "contratos:suministro-valvulas-aspiracion-e-impulsion-compresores-aire-comprimido-material",
+      "source": "contratos",
+      "title": "Suministro de válvulas de aspiración e impulsión para los compresores de aire comprimido del material móvil de Metro de Madrid",
+      "summary": "Id licitación: 6012600229;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 140000.00 EUR;",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "En plazo",
+      "status": "En plazo",
+      "expediente": "6012600229",
+      "amount": 140000,
+      "deadline": "2026-09-24",
+      "publishedAt": "2026-08-21",
+      "updatedAt": "2026-08-21T07:01:41+02:00",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/suministro-valvulas-aspiracion-e-impulsion-compresores-aire-comprimido-material",
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-08/6012600229_ppt_signed.pdf",
+      "firstSeenAt": "2026-08-21T05:08:16.465Z"
+    },
     {
       "id": "contratos:servicio-mantenimiento-integral-sistemas-seguridad-sacos-recintos-1",
       "source": "contratos",
