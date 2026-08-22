@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-22T16:58:44.826Z",
+  "generatedAt": "2026-08-22T17:31:57.193Z",
   "coverage": {
     "bocm": "2009-12-01 a 2026-08-17",
     "contratos": "2017-02-02 a 2026-08-21",
@@ -8,21 +8,21 @@
   },
   "sources": {
     "bocm": {
-      "checkedAt": "2026-08-22T16:58:44.826Z",
-      "ok": true,
-      "message": "10 registros relevantes comprobados; 10 documento(s) omitido(s) temporalmente",
-      "recordsSeen": 10
+      "checkedAt": "2026-08-22T17:31:57.193Z",
+      "ok": false,
+      "message": "Error de consulta: fallaron RSS y buscador reciente: BOCM-20260820198.xml: No se pudo consultar https://www.bocm.es/boletin/CM_Boletin_BOCM/2026/08/20/BOCM-20260820198.xml?language=es: fetch failed | BOCM-20260819197.xml",
+      "recordsSeen": 0
     },
     "contratos": {
-      "checkedAt": "2026-08-22T16:58:44.826Z",
+      "checkedAt": "2026-08-22T17:31:57.193Z",
       "ok": true,
       "message": "53 registros relevantes comprobados",
       "recordsSeen": 53
     },
     "empleo": {
-      "checkedAt": "2026-08-22T16:58:44.826Z",
-      "ok": true,
-      "message": "Cobertura mediante BOCM: 0 convocatoria(s) reciente(s) revisada(s); el portal directo protege el acceso automatizado",
+      "checkedAt": "2026-08-22T17:31:57.193Z",
+      "ok": false,
+      "message": "Error de consulta: El portal de Empleo Metro ha rechazado temporalmente la consulta automatizada",
       "recordsSeen": 0
     }
   },
