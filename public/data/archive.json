@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-22T21:54:05.965Z",
+  "generatedAt": "2026-08-22T22:34:29.492Z",
   "coverage": {
     "bocm": "2009-12-01 a 2026-08-17",
     "contratos": "2017-02-02 a 2026-08-21",
@@ -8,19 +8,19 @@
   },
   "sources": {
     "bocm": {
-      "checkedAt": "2026-08-22T21:54:05.965Z",
+      "checkedAt": "2026-08-22T22:34:29.492Z",
       "ok": true,
       "message": "14 registros relevantes comprobados",
       "recordsSeen": 14
     },
     "contratos": {
-      "checkedAt": "2026-08-22T21:54:05.965Z",
+      "checkedAt": "2026-08-22T22:34:29.492Z",
       "ok": true,
       "message": "53 registros relevantes comprobados",
       "recordsSeen": 53
     },
     "empleo": {
-      "checkedAt": "2026-08-22T21:54:05.965Z",
+      "checkedAt": "2026-08-22T22:34:29.492Z",
       "ok": true,
       "message": "Cobertura mediante BOCM: 0 convocatoria(s) reciente(s) revisada(s); el portal directo protege el acceso automatizado",
       "recordsSeen": 0
