@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-23T06:57:18.138Z",
+  "generatedAt": "2026-08-23T07:43:11.177Z",
   "coverage": {
     "bocm": "2009-12-01 a 2026-08-17",
     "contratos": "2017-02-02 a 2026-08-21",
@@ -8,19 +8,19 @@
   },
   "sources": {
     "bocm": {
-      "checkedAt": "2026-08-23T06:57:18.138Z",
+      "checkedAt": "2026-08-23T07:43:11.177Z",
       "ok": true,
-      "message": "9 registros relevantes comprobados; 10 documento(s) omitido(s) temporalmente",
-      "recordsSeen": 9
+      "message": "1 registros relevantes comprobados; 16 documento(s) omitido(s) temporalmente",
+      "recordsSeen": 1
     },
     "contratos": {
-      "checkedAt": "2026-08-23T06:57:18.138Z",
+      "checkedAt": "2026-08-23T07:43:11.177Z",
       "ok": true,
       "message": "53 registros relevantes comprobados",
       "recordsSeen": 53
     },
     "empleo": {
-      "checkedAt": "2026-08-23T06:57:18.138Z",
+      "checkedAt": "2026-08-23T07:43:11.177Z",
       "ok": true,
       "message": "Cobertura mediante BOCM: 0 convocatoria(s) reciente(s) revisada(s); el portal directo protege el acceso automatizado",
       "recordsSeen": 0
@@ -991,12 +991,12 @@
     {
       "id": "bocm:bocm-20260810-20",
       "source": "bocm",
-      "title": "Formalización contrato– Anuncio de 31 de julio de 2026, de formalización del contrato titulado “Suministro de gasóleo clase A, B y C en recintos de Metro de Madrid”. (Expediente 6012600112)-(Contrato 7226000434)",
-      "summary": "Formalización contrato– Anuncio de 31 de julio de 2026, de formalización del contrato titulado “Suministro de gasóleo clase A, B y C en recintos de Metro de Madrid”. (Expediente 6012600112)-(Contrato 7226000434)",
-      "issuer": "CONSEJERÍA DE VIVIENDA, TRANSPORTES E INFRAESTRUCTURAS · METRO DE MADRID, S. A.",
-      "publicationType": "Formalización contrato",
+      "title": "Formalización contrato – Anuncio de 31 de julio de 2026, de formalización del contrato titulado “Suministro de gasóleo clase A, B y C en recintos de Metro de Madrid”. (Expediente 6012600112)-(Contrato 7226000434)",
+      "summary": "Formalización contrato – Anuncio de 31 de julio de 2026, de formalización del contrato titulado “Suministro de gasóleo clase A, B y C en recintos de Metro de Madrid”. (Expediente 6012600112)-(Contrato 7226000434)",
+      "issuer": "CONSEJERÍA DE VIVIENDA, TRANSPORTES E INFRAESTRUCTURAS",
+      "publicationType": "ANUNCIO",
       "publishedAt": "2026-08-10",
-      "url": "https://www.bocm.es/bocm-20260810-20",
+      "url": "https://www.bocm.es/bocm-20260810-20?language=es",
       "pdfUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/08/10/BOCM-20260810-20.PDF",
       "xmlUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/08/10/BOCM-20260810-20.xml?language=es",
       "firstSeenAt": "2026-08-10T07:59:51.887Z",
