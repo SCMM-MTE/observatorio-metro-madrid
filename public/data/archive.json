@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-24T11:41:11.893Z",
+  "generatedAt": "2026-08-24T13:09:16.299Z",
   "coverage": {
     "bocm": "2009-12-01 a 2026-08-17",
     "contratos": "2017-02-02 a 2026-08-24",
@@ -8,25 +8,42 @@
   },
   "sources": {
     "bocm": {
-      "checkedAt": "2026-08-24T11:41:11.893Z",
+      "checkedAt": "2026-08-24T13:09:16.299Z",
       "ok": true,
-      "message": "13 registros relevantes comprobados",
-      "recordsSeen": 13
+      "message": "Consulta parcial sin registros; 20 documento(s) omitido(s) temporalmente",
+      "recordsSeen": 0
     },
     "contratos": {
-      "checkedAt": "2026-08-24T11:41:11.893Z",
+      "checkedAt": "2026-08-24T13:09:16.299Z",
       "ok": true,
-      "message": "50 registros relevantes comprobados",
-      "recordsSeen": 50
+      "message": "51 registros relevantes comprobados",
+      "recordsSeen": 51
     },
     "empleo": {
-      "checkedAt": "2026-08-24T11:41:11.893Z",
+      "checkedAt": "2026-08-24T13:09:16.299Z",
       "ok": true,
       "message": "Cobertura mediante BOCM: 0 convocatoria(s) reciente(s) revisada(s); el portal directo protege el acceso automatizado",
       "recordsSeen": 0
     }
   },
   "items": [
+    {
+      "id": "contratos:suministro-sustitucion-plantas-energia-centros-administrativos-1",
+      "source": "contratos",
+      "title": "Suministro para la sustitución de las plantas de energía de los Centros Administrativos de Telecomunicaciones (CAT) de Metro de Madrid",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Resuelta / Finalizada",
+      "status": "Resuelta / Finalizada",
+      "expediente": "6012400361",
+      "publishedAt": "2026-08-24",
+      "updatedAt": "2026-08-24T14:27:46+02:00",
+      "deadline": "2024-11-14",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/suministro-sustitucion-plantas-energia-centros-administrativos-1",
+      "firstSeenAt": "2026-08-05T08:03:18.389Z",
+      "summary": "Id licitación: 6012400361;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 2805911.92 EUR;",
+      "amount": 2805911.92,
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2024-10/6012400361_pliego_de_prescripciones_tecnicas_signed.pdf"
+    },
     {
       "id": "contratos:obras-intervencion-grafica-artistica-digital-estacion-duque-pastrana-metro-madrid",
       "source": "contratos",
@@ -770,23 +787,6 @@
       "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/direccion-obras-coordinacion-seguridad-salud-asistencia-tecnica-obras-ejecucion",
       "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2025-12/ser.31843.2025_ppt.an.pdf",
       "firstSeenAt": "2026-08-12T11:55:17.677Z"
-    },
-    {
-      "id": "contratos:suministro-sustitucion-plantas-energia-centros-administrativos-1",
-      "source": "contratos",
-      "title": "Suministro para la sustitución de las plantas de energía de los Centros Administrativos de Telecomunicaciones (CAT) de Metro de Madrid",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Resuelta / Finalizada",
-      "status": "Resuelta / Finalizada",
-      "expediente": "6012400361",
-      "publishedAt": "2026-08-12",
-      "updatedAt": "2026-08-12T12:41:26+02:00",
-      "deadline": "2024-11-14",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/suministro-sustitucion-plantas-energia-centros-administrativos-1",
-      "firstSeenAt": "2026-08-05T08:03:18.389Z",
-      "summary": "Id licitación: 6012400361;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 2805911.92 EUR;",
-      "amount": 2805911.92,
-      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2024-10/6012400361_pliego_de_prescripciones_tecnicas_signed.pdf"
     },
     {
       "id": "contratos:acuerdo-marco-servicios-consultoria-servicio-superestructura-via-metro-madrid",
