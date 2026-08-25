@@ -1,32 +1,83 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-25T06:01:45.192Z",
+  "generatedAt": "2026-08-25T07:04:25.299Z",
   "coverage": {
     "bocm": "2009-12-01 a 2026-08-17",
-    "contratos": "2017-02-02 a 2026-08-24",
+    "contratos": "2017-02-02 a 2026-08-25",
     "empleo": "2016-10-31 a 2026-05-07"
   },
   "sources": {
     "bocm": {
-      "checkedAt": "2026-08-25T06:01:45.192Z",
+      "checkedAt": "2026-08-25T07:04:25.299Z",
       "ok": true,
-      "message": "8 registros relevantes comprobados; 10 documento(s) omitido(s) temporalmente",
-      "recordsSeen": 8
+      "message": "7 registros relevantes comprobados; 10 documento(s) omitido(s) temporalmente",
+      "recordsSeen": 7
     },
     "contratos": {
-      "checkedAt": "2026-08-25T06:01:45.192Z",
+      "checkedAt": "2026-08-25T07:04:25.299Z",
       "ok": true,
-      "message": "51 registros relevantes comprobados",
-      "recordsSeen": 51
+      "message": "54 registros relevantes comprobados",
+      "recordsSeen": 54
     },
     "empleo": {
-      "checkedAt": "2026-08-25T06:01:45.192Z",
+      "checkedAt": "2026-08-25T07:04:25.299Z",
       "ok": true,
       "message": "Cobertura mediante BOCM: 0 convocatoria(s) reciente(s) revisada(s); el portal directo protege el acceso automatizado",
       "recordsSeen": 0
     }
   },
   "items": [
+    {
+      "id": "contratos:soporte-mantenimiento-licencias-trustedx-metro-madrid-0",
+      "source": "contratos",
+      "title": "Soporte y mantenimiento de licencias de Trustedx para Metro de Madrid.",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Adjudicada",
+      "status": "Adjudicada",
+      "expediente": "6012600167",
+      "publishedAt": "2026-08-25",
+      "updatedAt": "2026-08-25T08:57:03+02:00",
+      "deadline": "2026-06-26",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/soporte-mantenimiento-licencias-trustedx-metro-madrid-0",
+      "firstSeenAt": "2026-08-05T08:03:18.389Z",
+      "summary": "Id licitación: 6012600167;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 62546.67 EUR;",
+      "amount": 62546.67,
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-06/6012600167_ppt_signed.pdf"
+    },
+    {
+      "id": "contratos:servicio-soporte-mantenimiento-entorno-almacenamiento-backup-0",
+      "source": "contratos",
+      "title": "Servicio de soporte y mantenimiento de un entorno de almacenamiento y Backup",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Resuelta / Finalizada",
+      "status": "Resuelta / Finalizada",
+      "expediente": "6012400101",
+      "publishedAt": "2026-08-25",
+      "updatedAt": "2026-08-25T08:46:35+02:00",
+      "deadline": "2024-05-10",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-soporte-mantenimiento-entorno-almacenamiento-backup-0",
+      "firstSeenAt": "2026-08-05T08:03:18.389Z",
+      "summary": "Id licitación: 6012400101;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 2471273.90 EUR;",
+      "amount": 2471273.9,
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2024-03/6012400101_pcp_signed.pdf"
+    },
+    {
+      "id": "contratos:servicio-polizas-seguros-responsabilidad-civil-profesional-metro-madrid-rcp-rcp",
+      "source": "contratos",
+      "title": "Servicio de pólizas de seguros de responsabilidad civil profesional de Metro de Madrid: RCP y RCP-Lima",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Resuelta / Finalizada",
+      "status": "Resuelta / Finalizada",
+      "expediente": "6012500219",
+      "publishedAt": "2026-08-25",
+      "updatedAt": "2026-08-25T08:37:21+02:00",
+      "deadline": "2025-09-18",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-polizas-seguros-responsabilidad-civil-profesional-metro-madrid-rcp-rcp",
+      "firstSeenAt": "2026-08-05T08:03:18.389Z",
+      "summary": "Id licitación: 6012500219;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 266515.73 EUR;",
+      "amount": 266515.73,
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2025-07/6012500219_ppt_signed.pdf"
+    },
     {
       "id": "contratos:suministro-sustitucion-plantas-energia-centros-administrativos-1",
       "source": "contratos",
@@ -1805,20 +1856,6 @@
       "updatedAt": "2026-07-28T09:13:00+02:00",
       "deadline": "2026-07-03",
       "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-catering-restauracion-metro-madrid-1",
-      "firstSeenAt": "2026-08-05T08:03:18.389Z"
-    },
-    {
-      "id": "contratos:soporte-mantenimiento-licencias-trustedx-metro-madrid-0",
-      "source": "contratos",
-      "title": "Soporte y mantenimiento de licencias de Trustedx para Metro de Madrid.",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Convocatoria anunciada a licitación",
-      "status": "Pendiente de adjudicación",
-      "expediente": "6012600167",
-      "publishedAt": "2026-07-28",
-      "updatedAt": "2026-07-28T09:10:00+02:00",
-      "deadline": "2026-06-26",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/soporte-mantenimiento-licencias-trustedx-metro-madrid-0",
       "firstSeenAt": "2026-08-05T08:03:18.389Z"
     },
     {
@@ -6952,20 +6989,6 @@
       "updatedAt": "2026-05-14T14:15:00+02:00",
       "deadline": "2023-06-26",
       "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-mantenimiento-integral-565-ascensores",
-      "firstSeenAt": "2026-08-05T08:03:18.389Z"
-    },
-    {
-      "id": "contratos:servicio-soporte-mantenimiento-entorno-almacenamiento-backup-0",
-      "source": "contratos",
-      "title": "Servicio de soporte y mantenimiento de un entorno de almacenamiento y Backup",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Convocatoria anunciada a licitación",
-      "status": "Resuelta / Finalizada",
-      "expediente": "6012400101",
-      "publishedAt": "2026-05-14",
-      "updatedAt": "2026-05-14T10:09:00+02:00",
-      "deadline": "2024-05-10",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-soporte-mantenimiento-entorno-almacenamiento-backup-0",
       "firstSeenAt": "2026-08-05T08:03:18.389Z"
     },
     {
@@ -14444,20 +14467,6 @@
       "updatedAt": "2025-12-11T09:34:00+02:00",
       "deadline": "2025-11-14",
       "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/acuerdo-marco-suministro-medios-produccion-plan-renove",
-      "firstSeenAt": "2026-08-05T08:03:18.389Z"
-    },
-    {
-      "id": "contratos:servicio-polizas-seguros-responsabilidad-civil-profesional-metro-madrid-rcp-rcp",
-      "source": "contratos",
-      "title": "Servicio de pólizas de seguros de responsabilidad civil profesional de Metro de Madrid: RCP y RCP-Lima",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Convocatoria anunciada a licitación",
-      "status": "Resuelta / Finalizada",
-      "expediente": "6012500219",
-      "publishedAt": "2025-12-11",
-      "updatedAt": "2025-12-11T09:08:00+02:00",
-      "deadline": "2025-09-18",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-polizas-seguros-responsabilidad-civil-profesional-metro-madrid-rcp-rcp",
       "firstSeenAt": "2026-08-05T08:03:18.389Z"
     },
     {
