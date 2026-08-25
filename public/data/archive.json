@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-25T07:55:23.084Z",
+  "generatedAt": "2026-08-25T08:55:09.810Z",
   "coverage": {
     "bocm": "2009-12-01 a 2026-08-17",
     "contratos": "2017-02-02 a 2026-08-25",
@@ -8,25 +8,42 @@
   },
   "sources": {
     "bocm": {
-      "checkedAt": "2026-08-25T07:55:23.084Z",
+      "checkedAt": "2026-08-25T08:55:09.810Z",
       "ok": true,
-      "message": "12 registros relevantes comprobados; 10 documento(s) omitido(s) temporalmente",
-      "recordsSeen": 12
+      "message": "8 registros relevantes comprobados; 10 documento(s) omitido(s) temporalmente",
+      "recordsSeen": 8
     },
     "contratos": {
-      "checkedAt": "2026-08-25T07:55:23.084Z",
+      "checkedAt": "2026-08-25T08:55:09.810Z",
       "ok": true,
-      "message": "54 registros relevantes comprobados",
-      "recordsSeen": 54
+      "message": "55 registros relevantes comprobados",
+      "recordsSeen": 55
     },
     "empleo": {
-      "checkedAt": "2026-08-25T07:55:23.084Z",
+      "checkedAt": "2026-08-25T08:55:09.810Z",
       "ok": true,
       "message": "Cobertura mediante BOCM: 0 convocatoria(s) reciente(s) revisada(s); el portal directo protege el acceso automatizado",
       "recordsSeen": 0
     }
   },
   "items": [
+    {
+      "id": "contratos:servicio-importacion-datos-sistema-informacion-geografica-gis-metro-madrid",
+      "source": "contratos",
+      "title": "Servicio para la importación de datos en el Sistema de Información Geográfica (GIS) de Metro de Madrid",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Resuelta / Finalizada",
+      "status": "Resuelta / Finalizada",
+      "expediente": "6012500105",
+      "publishedAt": "2026-08-25",
+      "updatedAt": "2026-08-25T10:04:53+02:00",
+      "deadline": "2025-05-06",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-importacion-datos-sistema-informacion-geografica-gis-metro-madrid",
+      "firstSeenAt": "2026-08-05T08:03:18.389Z",
+      "summary": "Id licitación: 6012500105;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 117000.00 EUR;",
+      "amount": 117000,
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2025-04/6012500105_ppt_signed.pdf"
+    },
     {
       "id": "contratos:soporte-mantenimiento-licencias-trustedx-metro-madrid-0",
       "source": "contratos",
@@ -17863,20 +17880,6 @@
       "updatedAt": "2025-08-11T14:16:00+02:00",
       "deadline": "2024-03-07",
       "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/obras-implantacion-via-recepcion-nuevos-trenes-achatarramiento-antiguos-deposito",
-      "firstSeenAt": "2026-08-05T08:03:18.389Z"
-    },
-    {
-      "id": "contratos:servicio-importacion-datos-sistema-informacion-geografica-gis-metro-madrid",
-      "source": "contratos",
-      "title": "Servicio para la importación de datos en el Sistema de Información Geográfica (GIS) de Metro de Madrid",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Convocatoria anunciada a licitación",
-      "status": "Resuelta / Finalizada",
-      "expediente": "6012500105",
-      "publishedAt": "2025-08-11",
-      "updatedAt": "2025-08-11T12:59:00+02:00",
-      "deadline": "2025-05-06",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-importacion-datos-sistema-informacion-geografica-gis-metro-madrid",
       "firstSeenAt": "2026-08-05T08:03:18.389Z"
     },
     {
