@@ -1,26 +1,26 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-26T07:05:09.161Z",
+  "generatedAt": "2026-08-26T07:56:28.946Z",
   "coverage": {
-    "bocm": "2009-12-01 a 2026-08-17",
+    "bocm": "2009-12-01 a 2026-08-26",
     "contratos": "2017-02-02 a 2026-08-26",
     "empleo": "2016-10-31 a 2026-05-07"
   },
   "sources": {
     "bocm": {
-      "checkedAt": "2026-08-26T07:05:09.161Z",
+      "checkedAt": "2026-08-26T07:56:28.946Z",
       "ok": true,
-      "message": "Consulta parcial sin registros; 19 documento(s) omitido(s) temporalmente",
-      "recordsSeen": 0
+      "message": "16 registros relevantes comprobados; 10 documento(s) omitido(s) temporalmente",
+      "recordsSeen": 16
     },
     "contratos": {
-      "checkedAt": "2026-08-26T07:05:09.161Z",
+      "checkedAt": "2026-08-26T07:56:28.946Z",
       "ok": true,
-      "message": "61 registros relevantes comprobados",
-      "recordsSeen": 61
+      "message": "56 registros relevantes comprobados",
+      "recordsSeen": 56
     },
     "empleo": {
-      "checkedAt": "2026-08-26T07:05:09.161Z",
+      "checkedAt": "2026-08-26T07:56:28.946Z",
       "ok": true,
       "message": "Cobertura mediante BOCM: 0 convocatoria(s) reciente(s) revisada(s); el portal directo protege el acceso automatizado",
       "recordsSeen": 0
@@ -101,12 +101,12 @@
       "title": "Suministro de repuestos exclusivos del fabricante ZF para el mantenimiento de los trenes de las series 7000 y 9000 del parque de material móvil de Metro de Madrid",
       "summary": "Id licitación: 6012600171;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 340258.50 EUR;",
       "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Adjudicada",
+      "publicationType": "Contratos adjudicados por procedimientos sin publicidad",
       "status": "Adjudicada",
       "expediente": "6012600171",
       "amount": 340258.5,
       "publishedAt": "2026-08-26",
-      "updatedAt": "2026-08-26T08:47:30+02:00",
+      "updatedAt": "2026-08-26T08:47:00+02:00",
       "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/suministro-repuestos-exclusivos-fabricante-zf-mantenimiento-trenes-series-7000-0",
       "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-08/6012600171_ppt.pdf",
       "firstSeenAt": "2026-08-26T07:05:09.161Z"
@@ -117,13 +117,13 @@
       "title": "Servicio de verificación de compresores auxiliares LP-1555 para Metro de Madrid",
       "summary": "Id licitación: 6012600235;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 19200.00 EUR;",
       "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "En plazo",
+      "publicationType": "Convocatoria anunciada a licitación",
       "status": "En plazo",
       "expediente": "6012600235",
       "amount": 19200,
       "deadline": "2026-09-25",
       "publishedAt": "2026-08-26",
-      "updatedAt": "2026-08-26T08:46:55+02:00",
+      "updatedAt": "2026-08-26T08:46:00+02:00",
       "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-verificacion-compresores-auxiliares-lp-1555-metro-madrid",
       "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-08/6012600235_ppt_signed.pdf",
       "firstSeenAt": "2026-08-26T07:05:09.161Z"
@@ -134,13 +134,13 @@
       "title": "Servicio de soporte técnico para el desarrollo de recopilación y tratamiento de datos en la plantilla de Metro de Madrid",
       "summary": "Id licitación: 6012600234;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 140000.00 EUR;",
       "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "En plazo",
+      "publicationType": "Convocatoria anunciada a licitación",
       "status": "En plazo",
       "expediente": "6012600234",
       "amount": 140000,
       "deadline": "2026-09-15",
       "publishedAt": "2026-08-26",
-      "updatedAt": "2026-08-26T08:46:25+02:00",
+      "updatedAt": "2026-08-26T08:46:00+02:00",
       "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-soporte-tecnico-desarrollo-recopilacion-tratamiento-datos-plantilla-metro",
       "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-08/6012600234_ppt_signed.pdf",
       "firstSeenAt": "2026-08-26T07:05:09.161Z"
@@ -161,6 +161,45 @@
       "summary": "Id licitación: 6012400101;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 2471273.90 EUR;",
       "amount": 2471273.9,
       "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2024-03/6012400101_pcp_signed.pdf"
+    },
+    {
+      "id": "bocm:bocm-20260826-10",
+      "source": "bocm",
+      "title": "Formalización contrato– Anuncio de 17 de agosto de 2026, de formalización del contrato titulado “Obras de proyecto de ejecución de un nuevo acceso en la estación de Estadio Metropolitano de la Línea 7 de Metro de Madrid” (Expediente 6012600103) (Contrato 7726000136)",
+      "summary": "Formalización contrato– Anuncio de 17 de agosto de 2026, de formalización del contrato titulado “Obras de proyecto de ejecución de un nuevo acceso en la estación de Estadio Metropolitano de la Línea 7 de Metro de Madrid” (Expediente 6012600103) (Contrato 7726000136)",
+      "issuer": "CONSEJERÍA DE VIVIENDA, TRANSPORTES E INFRAESTRUCTURAS · METRO DE MADRID, S. A.",
+      "publicationType": "Formalización contrato",
+      "publishedAt": "2026-08-26",
+      "url": "https://www.bocm.es/bocm-20260826-10",
+      "pdfUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/08/26/BOCM-20260826-10.PDF",
+      "xmlUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/08/26/BOCM-20260826-10.xml?language=es",
+      "firstSeenAt": "2026-08-26T07:56:28.946Z"
+    },
+    {
+      "id": "bocm:bocm-20260826-9",
+      "source": "bocm",
+      "title": "Formalización contrato– Anuncio de 17 de agosto de 2026, de formalización del contrato titulado “Servicio de mantenimiento de ciclo largo en material móvil de la serie 9000 que circulan por Metro de Madrid, S. A.” (Expediente 6012600102) (Contratos: lote 1 – 7226000464 y lote 2 – 7226000465)",
+      "summary": "Formalización contrato– Anuncio de 17 de agosto de 2026, de formalización del contrato titulado “Servicio de mantenimiento de ciclo largo en material móvil de la serie 9000 que circulan por Metro de Madrid, S. A.” (Expediente 6012600102) (Contratos: lote 1 – 7226000464 y lote 2 – 7226000465)",
+      "issuer": "CONSEJERÍA DE VIVIENDA, TRANSPORTES E INFRAESTRUCTURAS · METRO DE MADRID, S. A.",
+      "publicationType": "Formalización contrato",
+      "publishedAt": "2026-08-26",
+      "url": "https://www.bocm.es/bocm-20260826-9",
+      "pdfUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/08/26/BOCM-20260826-9.PDF",
+      "xmlUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/08/26/BOCM-20260826-9.xml?language=es",
+      "firstSeenAt": "2026-08-26T07:56:28.946Z"
+    },
+    {
+      "id": "bocm:bocm-20260826-11",
+      "source": "bocm",
+      "title": "Formalización contrato– Anuncio de 17 de agosto de 2026, de formalización del contrato titulado “Servicio de evaluación de personas candidatas para el proceso de selección de Maquinista de Tracción Eléctrica y Jefe/a de Sector”. (Expediente 6012600166) (Contrato 7226000470)",
+      "summary": "Formalización contrato– Anuncio de 17 de agosto de 2026, de formalización del contrato titulado “Servicio de evaluación de personas candidatas para el proceso de selección de Maquinista de Tracción Eléctrica y Jefe/a de Sector”. (Expediente 6012600166) (Contrato 7226000470)",
+      "issuer": "CONSEJERÍA DE VIVIENDA, TRANSPORTES E INFRAESTRUCTURAS · METRO DE MADRID, S. A.",
+      "publicationType": "Formalización contrato",
+      "publishedAt": "2026-08-26",
+      "url": "https://www.bocm.es/bocm-20260826-11",
+      "pdfUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/08/26/BOCM-20260826-11.PDF",
+      "xmlUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/08/26/BOCM-20260826-11.xml?language=es",
+      "firstSeenAt": "2026-08-26T07:56:28.946Z"
     },
     {
       "id": "contratos:servicio-calibracion-equipos-medida-estaciones-meteorologicas",
