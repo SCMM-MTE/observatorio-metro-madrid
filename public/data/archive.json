@@ -1,32 +1,167 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-26T06:03:48.574Z",
+  "generatedAt": "2026-08-26T07:05:09.161Z",
   "coverage": {
     "bocm": "2009-12-01 a 2026-08-17",
-    "contratos": "2017-02-02 a 2026-08-25",
+    "contratos": "2017-02-02 a 2026-08-26",
     "empleo": "2016-10-31 a 2026-05-07"
   },
   "sources": {
     "bocm": {
-      "checkedAt": "2026-08-26T06:03:48.574Z",
+      "checkedAt": "2026-08-26T07:05:09.161Z",
       "ok": true,
-      "message": "13 registros relevantes comprobados",
-      "recordsSeen": 13
+      "message": "Consulta parcial sin registros; 19 documento(s) omitido(s) temporalmente",
+      "recordsSeen": 0
     },
     "contratos": {
-      "checkedAt": "2026-08-26T06:03:48.574Z",
+      "checkedAt": "2026-08-26T07:05:09.161Z",
       "ok": true,
-      "message": "54 registros relevantes comprobados",
-      "recordsSeen": 54
+      "message": "61 registros relevantes comprobados",
+      "recordsSeen": 61
     },
     "empleo": {
-      "checkedAt": "2026-08-26T06:03:48.574Z",
+      "checkedAt": "2026-08-26T07:05:09.161Z",
       "ok": true,
       "message": "Cobertura mediante BOCM: 0 convocatoria(s) reciente(s) revisada(s); el portal directo protege el acceso automatizado",
       "recordsSeen": 0
     }
   },
   "items": [
+    {
+      "id": "contratos:suministro-baterias-nicd-mantenimiento-trenes-serie-3000-metro-madrid",
+      "source": "contratos",
+      "title": "Suministro de baterías de NiCd para el mantenimiento de los trenes de la serie 3000 de Metro de Madrid",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Adjudicada",
+      "status": "Adjudicada",
+      "expediente": "6012600160",
+      "publishedAt": "2026-08-26",
+      "updatedAt": "2026-08-26T09:03:09+02:00",
+      "deadline": "2026-06-26",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/suministro-baterias-nicd-mantenimiento-trenes-serie-3000-metro-madrid",
+      "firstSeenAt": "2026-08-05T08:03:18.389Z",
+      "summary": "Id licitación: 6012600160;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 682000.00 EUR;",
+      "amount": 682000,
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-05/6012600160_pliego_de_prescripciones_tecnicas_signed.pdf"
+    },
+    {
+      "id": "contratos:suministro-plataformas-elevadoras-moviles-tijera-articuladas-metro-madrid",
+      "source": "contratos",
+      "title": "Suministro de plataformas elevadoras móviles de tijera y articuladas para Metro de Madrid",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Adjudicada",
+      "status": "Adjudicada",
+      "expediente": "6012500119",
+      "publishedAt": "2026-08-26",
+      "updatedAt": "2026-08-26T08:53:45+02:00",
+      "deadline": "2025-06-04",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/suministro-plataformas-elevadoras-moviles-tijera-articuladas-metro-madrid",
+      "firstSeenAt": "2026-08-05T08:03:18.389Z",
+      "summary": "Id licitación: 6012500119;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 550000.00 EUR;",
+      "amount": 550000,
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2025-04/6012500119_ppt_signed.pdf"
+    },
+    {
+      "id": "contratos:suministro-nueve-mil-cincuenta-9050-barras-18-metros-carril-54e1-r260-x-b",
+      "source": "contratos",
+      "title": "Suministro de nueve mil cincuenta (9.050) barras de 18 metros de “carril 54E1-R260-X-B”",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Resuelta / Finalizada",
+      "status": "Resuelta / Finalizada",
+      "expediente": "6012600111",
+      "publishedAt": "2026-08-26",
+      "updatedAt": "2026-08-26T08:50:59+02:00",
+      "deadline": "2026-05-26",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/suministro-nueve-mil-cincuenta-9050-barras-18-metros-carril-54e1-r260-x-b",
+      "firstSeenAt": "2026-08-05T08:03:18.389Z",
+      "summary": "Id licitación: 6012600111;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 9502500.00 EUR;",
+      "amount": 9502500,
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-04/6012600111_ppt_signed.pdf"
+    },
+    {
+      "id": "contratos:servicio-mantenimiento-preventivo-anual-correctivo-equipos-aire-acondicionado",
+      "source": "contratos",
+      "title": "Servicio de mantenimiento preventivo anual y correctivo de equipos de aire acondicionado instalados en 35 vehículos auxiliares",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Resuelta / Finalizada",
+      "status": "Resuelta / Finalizada",
+      "expediente": "6012600123",
+      "publishedAt": "2026-08-26",
+      "updatedAt": "2026-08-26T08:50:19+02:00",
+      "deadline": "2026-05-27",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-mantenimiento-preventivo-anual-correctivo-equipos-aire-acondicionado",
+      "firstSeenAt": "2026-08-05T08:03:18.389Z",
+      "summary": "Id licitación: 6012600123;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 242500.00 EUR;",
+      "amount": 242500,
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-05/6012600123_ppt_signed.pdf"
+    },
+    {
+      "id": "contratos:suministro-repuestos-exclusivos-fabricante-zf-mantenimiento-trenes-series-7000-0",
+      "source": "contratos",
+      "title": "Suministro de repuestos exclusivos del fabricante ZF para el mantenimiento de los trenes de las series 7000 y 9000 del parque de material móvil de Metro de Madrid",
+      "summary": "Id licitación: 6012600171;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 340258.50 EUR;",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Adjudicada",
+      "status": "Adjudicada",
+      "expediente": "6012600171",
+      "amount": 340258.5,
+      "publishedAt": "2026-08-26",
+      "updatedAt": "2026-08-26T08:47:30+02:00",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/suministro-repuestos-exclusivos-fabricante-zf-mantenimiento-trenes-series-7000-0",
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-08/6012600171_ppt.pdf",
+      "firstSeenAt": "2026-08-26T07:05:09.161Z"
+    },
+    {
+      "id": "contratos:servicio-verificacion-compresores-auxiliares-lp-1555-metro-madrid",
+      "source": "contratos",
+      "title": "Servicio de verificación de compresores auxiliares LP-1555 para Metro de Madrid",
+      "summary": "Id licitación: 6012600235;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 19200.00 EUR;",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "En plazo",
+      "status": "En plazo",
+      "expediente": "6012600235",
+      "amount": 19200,
+      "deadline": "2026-09-25",
+      "publishedAt": "2026-08-26",
+      "updatedAt": "2026-08-26T08:46:55+02:00",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-verificacion-compresores-auxiliares-lp-1555-metro-madrid",
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-08/6012600235_ppt_signed.pdf",
+      "firstSeenAt": "2026-08-26T07:05:09.161Z"
+    },
+    {
+      "id": "contratos:servicio-soporte-tecnico-desarrollo-recopilacion-tratamiento-datos-plantilla-metro",
+      "source": "contratos",
+      "title": "Servicio de soporte técnico para el desarrollo de recopilación y tratamiento de datos en la plantilla de Metro de Madrid",
+      "summary": "Id licitación: 6012600234;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 140000.00 EUR;",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "En plazo",
+      "status": "En plazo",
+      "expediente": "6012600234",
+      "amount": 140000,
+      "deadline": "2026-09-15",
+      "publishedAt": "2026-08-26",
+      "updatedAt": "2026-08-26T08:46:25+02:00",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-soporte-tecnico-desarrollo-recopilacion-tratamiento-datos-plantilla-metro",
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-08/6012600234_ppt_signed.pdf",
+      "firstSeenAt": "2026-08-26T07:05:09.161Z"
+    },
+    {
+      "id": "contratos:servicio-soporte-mantenimiento-entorno-almacenamiento-backup-0",
+      "source": "contratos",
+      "title": "Servicio de soporte y mantenimiento de un entorno de almacenamiento y Backup",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Resuelta / Finalizada",
+      "status": "Resuelta / Finalizada",
+      "expediente": "6012400101",
+      "publishedAt": "2026-08-26",
+      "updatedAt": "2026-08-26T08:17:56+02:00",
+      "deadline": "2024-05-10",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-soporte-mantenimiento-entorno-almacenamiento-backup-0",
+      "firstSeenAt": "2026-08-05T08:03:18.389Z",
+      "summary": "Id licitación: 6012400101;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 2471273.90 EUR;",
+      "amount": 2471273.9,
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2024-03/6012400101_pcp_signed.pdf"
+    },
     {
       "id": "contratos:servicio-calibracion-equipos-medida-estaciones-meteorologicas",
       "source": "contratos",
@@ -74,23 +209,6 @@
       "summary": "Id licitación: 6012600167;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 62546.67 EUR;",
       "amount": 62546.67,
       "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-06/6012600167_ppt_signed.pdf"
-    },
-    {
-      "id": "contratos:servicio-soporte-mantenimiento-entorno-almacenamiento-backup-0",
-      "source": "contratos",
-      "title": "Servicio de soporte y mantenimiento de un entorno de almacenamiento y Backup",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Resuelta / Finalizada",
-      "status": "Resuelta / Finalizada",
-      "expediente": "6012400101",
-      "publishedAt": "2026-08-25",
-      "updatedAt": "2026-08-25T08:46:35+02:00",
-      "deadline": "2024-05-10",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-soporte-mantenimiento-entorno-almacenamiento-backup-0",
-      "firstSeenAt": "2026-08-05T08:03:18.389Z",
-      "summary": "Id licitación: 6012400101;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 2471273.90 EUR;",
-      "amount": 2471273.9,
-      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2024-03/6012400101_pcp_signed.pdf"
     },
     {
       "id": "contratos:servicio-polizas-seguros-responsabilidad-civil-profesional-metro-madrid-rcp-rcp",
@@ -1682,20 +1800,6 @@
       "firstSeenAt": "2026-08-05T08:03:18.389Z"
     },
     {
-      "id": "contratos:servicio-mantenimiento-preventivo-anual-correctivo-equipos-aire-acondicionado",
-      "source": "contratos",
-      "title": "Servicio de mantenimiento preventivo anual y correctivo de equipos de aire acondicionado instalados en 35 vehículos auxiliares",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Convocatoria anunciada a licitación",
-      "status": "Adjudicada",
-      "expediente": "6012600123",
-      "publishedAt": "2026-07-30",
-      "updatedAt": "2026-07-30T09:27:00+02:00",
-      "deadline": "2026-05-27",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-mantenimiento-preventivo-anual-correctivo-equipos-aire-acondicionado",
-      "firstSeenAt": "2026-08-05T08:03:18.389Z"
-    },
-    {
       "id": "contratos:suministro-sistemas-fijacion-via-placa-fijacion-directa-tecnologia-adherizada-alta",
       "source": "contratos",
       "title": "Suministro de sistemas de fijación de vía en placa con fijación directa de tecnología adherizada de alta atenuación para Metro de Madrid",
@@ -2103,20 +2207,6 @@
       "pdfUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/07/24/BOCM-20260724-30.PDF",
       "xmlUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/07/24/BOCM-20260724-30.xml?language=es",
       "firstSeenAt": "2026-08-05T10:14:22.549Z"
-    },
-    {
-      "id": "contratos:suministro-nueve-mil-cincuenta-9050-barras-18-metros-carril-54e1-r260-x-b",
-      "source": "contratos",
-      "title": "Suministro de nueve mil cincuenta (9.050) barras de 18 metros de “carril 54E1-R260-X-B”",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Convocatoria anunciada a licitación",
-      "status": "Adjudicada",
-      "expediente": "6012600111",
-      "publishedAt": "2026-07-23",
-      "updatedAt": "2026-07-23T15:09:00+02:00",
-      "deadline": "2026-05-26",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/suministro-nueve-mil-cincuenta-9050-barras-18-metros-carril-54e1-r260-x-b",
-      "firstSeenAt": "2026-08-05T08:03:18.389Z"
     },
     {
       "id": "contratos:suministro-repuestos-industriales-mantenimiento-instalaciones-material-movil-metro",
@@ -3220,20 +3310,6 @@
       "pdfUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/07/09/BOCM-20260709-31.PDF",
       "xmlUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/07/09/BOCM-20260709-31.xml?language=es",
       "firstSeenAt": "2026-08-05T10:14:22.549Z"
-    },
-    {
-      "id": "contratos:suministro-baterias-nicd-mantenimiento-trenes-serie-3000-metro-madrid",
-      "source": "contratos",
-      "title": "Suministro de baterías de NiCd para el mantenimiento de los trenes de la serie 3000 de Metro de Madrid",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Convocatoria anunciada a licitación",
-      "status": "Pendiente de adjudicación",
-      "expediente": "6012600160",
-      "publishedAt": "2026-07-08",
-      "updatedAt": "2026-07-08T12:48:00+02:00",
-      "deadline": "2026-06-26",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/suministro-baterias-nicd-mantenimiento-trenes-serie-3000-metro-madrid",
-      "firstSeenAt": "2026-08-05T08:03:18.389Z"
     },
     {
       "id": "contratos:suministro-equipos-tren-digital-std-7000-sistema-transmision-datos",
@@ -7297,20 +7373,6 @@
       "updatedAt": "2026-05-11T13:01:00+02:00",
       "deadline": "2021-05-24",
       "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-gestion-residuos-industriales-metro-madrid-sa-0",
-      "firstSeenAt": "2026-08-05T08:03:18.389Z"
-    },
-    {
-      "id": "contratos:suministro-plataformas-elevadoras-moviles-tijera-articuladas-metro-madrid",
-      "source": "contratos",
-      "title": "Suministro de plataformas elevadoras móviles de tijera y articuladas para Metro de Madrid",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Convocatoria anunciada a licitación",
-      "status": "Pendiente de adjudicación",
-      "expediente": "6012500119",
-      "publishedAt": "2026-05-11",
-      "updatedAt": "2026-05-11T12:53:00+02:00",
-      "deadline": "2025-06-04",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/suministro-plataformas-elevadoras-moviles-tijera-articuladas-metro-madrid",
       "firstSeenAt": "2026-08-05T08:03:18.389Z"
     },
     {
