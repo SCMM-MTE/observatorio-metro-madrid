@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-26T11:39:17.111Z",
+  "generatedAt": "2026-08-26T13:11:59.692Z",
   "coverage": {
     "bocm": "2009-12-01 a 2026-08-26",
     "contratos": "2017-02-02 a 2026-08-26",
@@ -8,25 +8,59 @@
   },
   "sources": {
     "bocm": {
-      "checkedAt": "2026-08-26T11:39:17.111Z",
-      "ok": true,
-      "message": "2 registros relevantes comprobados; 18 documento(s) omitido(s) temporalmente",
-      "recordsSeen": 2
+      "checkedAt": "2026-08-26T13:11:59.692Z",
+      "ok": false,
+      "message": "Error de consulta: fallaron RSS y buscador reciente: BOCM-20260821199.xml: No se pudo consultar https://www.bocm.es/boletin/CM_Boletin_BOCM/2026/08/21/BOCM-20260821199.xml?language=es: fetch failed | BOCM-20260824201.xml",
+      "recordsSeen": 0
     },
     "contratos": {
-      "checkedAt": "2026-08-26T11:39:17.111Z",
+      "checkedAt": "2026-08-26T13:11:59.692Z",
       "ok": true,
       "message": "55 registros relevantes comprobados",
       "recordsSeen": 55
     },
     "empleo": {
-      "checkedAt": "2026-08-26T11:39:17.111Z",
-      "ok": true,
-      "message": "Cobertura mediante BOCM: 0 convocatoria(s) reciente(s) revisada(s); el portal directo protege el acceso automatizado",
+      "checkedAt": "2026-08-26T13:11:59.692Z",
+      "ok": false,
+      "message": "Error de consulta: El portal de Empleo Metro ha rechazado temporalmente la consulta automatizada",
       "recordsSeen": 0
     }
   },
   "items": [
+    {
+      "id": "contratos:acuerdo-marco-servicios-mantenimiento-correctivo-segundo-nivel-equipos-1",
+      "source": "contratos",
+      "title": "Acuerdo Marco para servicios de mantenimiento correctivo de segundo nivel de equipos con tecnología Sepsa",
+      "summary": "Id licitación: 6012600182;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 1400000.00 EUR;",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Convocatoria anunciada a licitación",
+      "status": "En plazo",
+      "expediente": "6012600182",
+      "amount": 1400000,
+      "deadline": "2026-09-11",
+      "publishedAt": "2026-08-26",
+      "updatedAt": "2026-08-26T13:53:00+02:00",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/acuerdo-marco-servicios-mantenimiento-correctivo-segundo-nivel-equipos-1",
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-06/6012600182_pliego_de_prescripciones_tecnicas_signed.pdf",
+      "firstSeenAt": "2026-08-05T07:48:11.952Z"
+    },
+    {
+      "id": "contratos:servicio-verificacion-compresores-auxiliares-lp-1555-metro-madrid",
+      "source": "contratos",
+      "title": "Servicio de verificación de compresores auxiliares LP-1555 para Metro de Madrid",
+      "summary": "Id licitación: 6012600235;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 19200.00 EUR;",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Convocatoria anunciada a licitación",
+      "status": "En plazo",
+      "expediente": "6012600235",
+      "amount": 19200,
+      "deadline": "2026-09-25",
+      "publishedAt": "2026-08-26",
+      "updatedAt": "2026-08-26T13:33:00+02:00",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-verificacion-compresores-auxiliares-lp-1555-metro-madrid",
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-08/6012600235_ppt_signed.pdf",
+      "firstSeenAt": "2026-08-26T07:05:09.161Z"
+    },
     {
       "id": "contratos:suministro-baterias-nicd-mantenimiento-trenes-serie-3000-metro-madrid",
       "source": "contratos",
@@ -109,23 +143,6 @@
       "updatedAt": "2026-08-26T08:47:00+02:00",
       "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/suministro-repuestos-exclusivos-fabricante-zf-mantenimiento-trenes-series-7000-0",
       "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-08/6012600171_ppt.pdf",
-      "firstSeenAt": "2026-08-26T07:05:09.161Z"
-    },
-    {
-      "id": "contratos:servicio-verificacion-compresores-auxiliares-lp-1555-metro-madrid",
-      "source": "contratos",
-      "title": "Servicio de verificación de compresores auxiliares LP-1555 para Metro de Madrid",
-      "summary": "Id licitación: 6012600235;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 19200.00 EUR;",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Convocatoria anunciada a licitación",
-      "status": "En plazo",
-      "expediente": "6012600235",
-      "amount": 19200,
-      "deadline": "2026-09-25",
-      "publishedAt": "2026-08-26",
-      "updatedAt": "2026-08-26T08:46:00+02:00",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-verificacion-compresores-auxiliares-lp-1555-metro-madrid",
-      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-08/6012600235_ppt_signed.pdf",
       "firstSeenAt": "2026-08-26T07:05:09.161Z"
     },
     {
@@ -1369,23 +1386,6 @@
       "deadline": "2026-09-09",
       "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-apoyo-mantenimiento-soporte-tecnico-control-medida-proteccion-1",
       "firstSeenAt": "2026-08-05T08:03:18.389Z"
-    },
-    {
-      "id": "contratos:acuerdo-marco-servicios-mantenimiento-correctivo-segundo-nivel-equipos-1",
-      "source": "contratos",
-      "title": "Acuerdo Marco para servicios de mantenimiento correctivo de segundo nivel de equipos con tecnología Sepsa",
-      "summary": "Id licitación: 6012600182;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 1400000.00 EUR;",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Convocatoria anunciada a licitación",
-      "status": "En plazo",
-      "expediente": "6012600182",
-      "amount": 1400000,
-      "deadline": "2026-09-11",
-      "publishedAt": "2026-08-07",
-      "updatedAt": "2026-08-07T09:20:00+02:00",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/acuerdo-marco-servicios-mantenimiento-correctivo-segundo-nivel-equipos-1",
-      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-06/6012600182_pliego_de_prescripciones_tecnicas_signed.pdf",
-      "firstSeenAt": "2026-08-05T07:48:11.952Z"
     },
     {
       "id": "contratos:servicio-traduccion-metro-madrid",
