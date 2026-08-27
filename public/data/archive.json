@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-26T22:28:24.606Z",
+  "generatedAt": "2026-08-27T03:32:20.488Z",
   "coverage": {
     "bocm": "2009-12-01 a 2026-08-26",
     "contratos": "2017-02-02 a 2026-08-26",
@@ -8,19 +8,19 @@
   },
   "sources": {
     "bocm": {
-      "checkedAt": "2026-08-26T22:28:24.606Z",
+      "checkedAt": "2026-08-27T03:32:20.488Z",
       "ok": true,
-      "message": "8 registros relevantes comprobados; 10 documento(s) omitido(s) temporalmente",
-      "recordsSeen": 8
+      "message": "16 registros relevantes comprobados",
+      "recordsSeen": 16
     },
     "contratos": {
-      "checkedAt": "2026-08-26T22:28:24.606Z",
+      "checkedAt": "2026-08-27T03:32:20.488Z",
       "ok": true,
       "message": "55 registros relevantes comprobados",
       "recordsSeen": 55
     },
     "empleo": {
-      "checkedAt": "2026-08-26T22:28:24.606Z",
+      "checkedAt": "2026-08-27T03:32:20.488Z",
       "ok": true,
       "message": "Cobertura mediante BOCM: 0 convocatoria(s) reciente(s) revisada(s); el portal directo protege el acceso automatizado",
       "recordsSeen": 0
@@ -1073,12 +1073,12 @@
     {
       "id": "bocm:bocm-20260812-11",
       "source": "bocm",
-      "title": "Formalización contrato– Anuncio de 4 de agosto de 2026, de formalización del contrato titulado “Acuerdo marco para servicios de consultoría en el servicio de superestructura de vía de Metro de Madrid” (Expediente 6012500262)-(Contrato G00092-001)",
-      "summary": "Formalización contrato– Anuncio de 4 de agosto de 2026, de formalización del contrato titulado “Acuerdo marco para servicios de consultoría en el servicio de superestructura de vía de Metro de Madrid” (Expediente 6012500262)-(Contrato G00092-001)",
-      "issuer": "CONSEJERÍA DE VIVIENDA, TRANSPORTES E INFRAESTRUCTURAS · METRO DE MADRID, S. A.",
-      "publicationType": "Formalización contrato",
+      "title": "Formalización contrato – Anuncio de 4 de agosto de 2026, de formalización del contrato titulado “Acuerdo marco para servicios de consultoría en el servicio de superestructura de vía de Metro de Madrid” (Expediente 6012500262)-(Contrato G00092-001)",
+      "summary": "Formalización contrato – Anuncio de 4 de agosto de 2026, de formalización del contrato titulado “Acuerdo marco para servicios de consultoría en el servicio de superestructura de vía de Metro de Madrid” (Expediente 6012500262)-(Contrato G00092-001)",
+      "issuer": "CONSEJERÍA DE VIVIENDA, TRANSPORTES E INFRAESTRUCTURAS",
+      "publicationType": "ANUNCIO",
       "publishedAt": "2026-08-12",
-      "url": "https://www.bocm.es/bocm-20260812-11",
+      "url": "https://www.bocm.es/bocm-20260812-11?language=es",
       "pdfUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/08/12/BOCM-20260812-11.PDF",
       "xmlUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/08/12/BOCM-20260812-11.xml?language=es",
       "tags": [
