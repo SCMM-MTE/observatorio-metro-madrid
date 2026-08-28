@@ -1,32 +1,160 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-27T23:59:09.448Z",
+  "generatedAt": "2026-08-28T11:16:56.265Z",
   "coverage": {
-    "bocm": "2009-12-01 a 2026-08-26",
-    "contratos": "2017-02-02 a 2026-08-27",
+    "bocm": "2009-12-01 a 2026-08-28",
+    "contratos": "2017-02-02 a 2026-08-28",
     "empleo": "2016-10-31 a 2026-05-07"
   },
   "sources": {
     "bocm": {
-      "checkedAt": "2026-08-27T23:59:09.448Z",
+      "checkedAt": "2026-08-28T11:16:56.265Z",
       "ok": true,
-      "message": "9 registros relevantes comprobados; 11 documento(s) omitido(s) temporalmente",
-      "recordsSeen": 9
+      "message": "19 registros relevantes comprobados",
+      "recordsSeen": 19
     },
     "contratos": {
-      "checkedAt": "2026-08-27T23:59:09.448Z",
+      "checkedAt": "2026-08-28T11:16:56.265Z",
       "ok": true,
-      "message": "60 registros relevantes comprobados",
-      "recordsSeen": 60
+      "message": "57 registros relevantes comprobados",
+      "recordsSeen": 57
     },
     "empleo": {
-      "checkedAt": "2026-08-27T23:59:09.448Z",
+      "checkedAt": "2026-08-28T11:16:56.265Z",
       "ok": true,
       "message": "Consulta correcta, sin novedades relevantes",
       "recordsSeen": 0
     }
   },
   "items": [
+    {
+      "id": "contratos:obras-reforma-instalacion-climatizacion-puesto-control-central-pcc-metro-madrid",
+      "source": "contratos",
+      "title": "Obras de reforma de la instalación de climatización del Puesto de Control Central (PCC), para Metro de Madrid",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Resuelta / Finalizada",
+      "status": "Resuelta / Finalizada",
+      "expediente": "6012500039",
+      "publishedAt": "2026-08-28",
+      "updatedAt": "2026-08-28T13:06:36+02:00",
+      "deadline": "2025-02-28",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/obras-reforma-instalacion-climatizacion-puesto-control-central-pcc-metro-madrid",
+      "firstSeenAt": "2026-08-05T08:03:18.389Z",
+      "summary": "Id licitación: 6012500039;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 55212.26 EUR;",
+      "amount": 55212.26,
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2025-01/6012500039_pliego_de_prescripciones_tecnicas_signed.pdf"
+    },
+    {
+      "id": "contratos:suministro-repuestos-mantenimiento-equipos-venta-peaje-fabricante-thales-espana",
+      "source": "contratos",
+      "title": "Suministro de repuestos para el mantenimiento de los equipos de venta y peaje del fabricante Thales España instalados a lo largo de la red de Metro de Madrid",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Resuelta / Finalizada",
+      "status": "Resuelta / Finalizada",
+      "expediente": "6012300285",
+      "publishedAt": "2026-08-28",
+      "updatedAt": "2026-08-28T11:36:56+02:00",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/suministro-repuestos-mantenimiento-equipos-venta-peaje-fabricante-thales-espana",
+      "firstSeenAt": "2026-08-05T08:03:18.389Z",
+      "summary": "Id licitación: 6012300285;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 112750.00 EUR;",
+      "amount": 112750,
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2023-11/6012300285_pliego_de_prescripciones_tecnicas.pdf"
+    },
+    {
+      "id": "contratos:suministro-andamios-regimen-alquiler",
+      "source": "contratos",
+      "title": "Suministro de andamios en régimen de alquiler",
+      "summary": "Id licitación: 6012600190;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 136060.00 EUR;",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Convocatoria anunciada a licitación",
+      "status": "Pendiente de adjudicación",
+      "expediente": "6012600190",
+      "amount": 136060,
+      "deadline": "2026-08-18",
+      "publishedAt": "2026-08-28",
+      "updatedAt": "2026-08-28T09:00:00+02:00",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/suministro-andamios-regimen-alquiler",
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-06/6012600190_ppt_signed.pdf",
+      "firstSeenAt": "2026-08-05T07:48:11.952Z"
+    },
+    {
+      "id": "bocm:bocm-20260828-10",
+      "source": "bocm",
+      "title": "Formalización contrato– Anuncio de 19 de agosto de 2026, de formalización del contrato titulado “Soporte y mantenimiento de licencias Documentum para Metro de Madrid”. (Expediente 6012600134)-(Contrato 7226000442)",
+      "summary": "Formalización contrato– Anuncio de 19 de agosto de 2026, de formalización del contrato titulado “Soporte y mantenimiento de licencias Documentum para Metro de Madrid”. (Expediente 6012600134)-(Contrato 7226000442)",
+      "issuer": "CONSEJERÍA DE VIVIENDA, TRANSPORTES E INFRAESTRUCTURAS · METRO DE MADRID, S. A.",
+      "publicationType": "Formalización contrato",
+      "publishedAt": "2026-08-28",
+      "url": "https://www.bocm.es/bocm-20260828-10",
+      "pdfUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/08/28/BOCM-20260828-10.PDF",
+      "xmlUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/08/28/BOCM-20260828-10.xml?language=es",
+      "firstSeenAt": "2026-08-28T11:16:56.265Z"
+    },
+    {
+      "id": "bocm:bocm-20260828-11",
+      "source": "bocm",
+      "title": "Formalización contrato– Anuncio de 19 de agosto de 2026, de formalización del contrato titulado “Servicio de soporte de reposición de hardware de equipamiento Cisco para Metro de Madrid” (Expediente 6012600083)-(Contrato 7226000432)",
+      "summary": "Formalización contrato– Anuncio de 19 de agosto de 2026, de formalización del contrato titulado “Servicio de soporte de reposición de hardware de equipamiento Cisco para Metro de Madrid” (Expediente 6012600083)-(Contrato 7226000432)",
+      "issuer": "CONSEJERÍA DE VIVIENDA, TRANSPORTES E INFRAESTRUCTURAS · METRO DE MADRID, S. A.",
+      "publicationType": "Formalización contrato",
+      "publishedAt": "2026-08-28",
+      "url": "https://www.bocm.es/bocm-20260828-11",
+      "pdfUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/08/28/BOCM-20260828-11.PDF",
+      "xmlUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/08/28/BOCM-20260828-11.xml?language=es",
+      "firstSeenAt": "2026-08-28T11:16:56.265Z"
+    },
+    {
+      "id": "bocm:bocm-20260828-12",
+      "source": "bocm",
+      "title": "Formalización contrato– Anuncio de 19 de agosto de 2026, de formalización del contrato titulado “Acuerdo marco para el suministro de repuestos del fabricante Indra Sistemas, S. A., para el mantenimiento de los equipos de venta y peaje instalados en las estaciones de la red de Metro de Madrid” (Expediente 6012600125)-(Contrato: M00050-001)",
+      "summary": "Formalización contrato– Anuncio de 19 de agosto de 2026, de formalización del contrato titulado “Acuerdo marco para el suministro de repuestos del fabricante Indra Sistemas, S. A., para el mantenimiento de los equipos de venta y peaje instalados en las estaciones de la red de Metro de Madrid” (Expediente 6012600125)-(Contrato: M00050-001)",
+      "issuer": "CONSEJERÍA DE VIVIENDA, TRANSPORTES E INFRAESTRUCTURAS · METRO DE MADRID, S. A.",
+      "publicationType": "Formalización contrato",
+      "publishedAt": "2026-08-28",
+      "url": "https://www.bocm.es/bocm-20260828-12",
+      "pdfUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/08/28/BOCM-20260828-12.PDF",
+      "xmlUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/08/28/BOCM-20260828-12.xml?language=es",
+      "firstSeenAt": "2026-08-28T11:16:56.265Z"
+    },
+    {
+      "id": "bocm:bocm-20260828-13",
+      "source": "bocm",
+      "title": "Adjudicación contrato– Anuncio de 25 de agosto de 2026, de adjudicación del contrato titulado “Suministro de baterías de NiCd para el mantenimiento de los trenes de la serie 3000 de Metro de Madrid” (Expediente 6012600160)",
+      "summary": "Adjudicación contrato– Anuncio de 25 de agosto de 2026, de adjudicación del contrato titulado “Suministro de baterías de NiCd para el mantenimiento de los trenes de la serie 3000 de Metro de Madrid” (Expediente 6012600160)",
+      "issuer": "CONSEJERÍA DE VIVIENDA, TRANSPORTES E INFRAESTRUCTURAS · METRO DE MADRID, S. A.",
+      "publicationType": "Adjudicación contrato",
+      "publishedAt": "2026-08-28",
+      "url": "https://www.bocm.es/bocm-20260828-13",
+      "pdfUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/08/28/BOCM-20260828-13.PDF",
+      "xmlUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/08/28/BOCM-20260828-13.xml?language=es",
+      "firstSeenAt": "2026-08-28T11:16:56.265Z"
+    },
+    {
+      "id": "bocm:bocm-20260828-14",
+      "source": "bocm",
+      "title": "Adjudicación contrato– Anuncio de 25 de agosto de 2026, de adjudicación del contrato titulado “suministro de plataformas elevadoras móviles de tijera y articuladas para Metro de Madrid” (Expediente 6012500119)",
+      "summary": "Adjudicación contrato– Anuncio de 25 de agosto de 2026, de adjudicación del contrato titulado “suministro de plataformas elevadoras móviles de tijera y articuladas para Metro de Madrid” (Expediente 6012500119)",
+      "issuer": "CONSEJERÍA DE VIVIENDA, TRANSPORTES E INFRAESTRUCTURAS · METRO DE MADRID, S. A.",
+      "publicationType": "Adjudicación contrato",
+      "publishedAt": "2026-08-28",
+      "url": "https://www.bocm.es/bocm-20260828-14",
+      "pdfUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/08/28/BOCM-20260828-14.PDF",
+      "xmlUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/08/28/BOCM-20260828-14.xml?language=es",
+      "firstSeenAt": "2026-08-28T11:16:56.265Z"
+    },
+    {
+      "id": "bocm:bocm-20260828-15",
+      "source": "bocm",
+      "title": "Adjudicación contrato– Anuncio de 26 de agosto de 2026, de corrección de errores del anuncio de adjudicación del contrato titulado “Renting y mantenimiento de fuentes de agua refrigeradas y suministro de garrafas de agua, para Metro de Madrid” (Expediente 6012600085)",
+      "summary": "Adjudicación contrato– Anuncio de 26 de agosto de 2026, de corrección de errores del anuncio de adjudicación del contrato titulado “Renting y mantenimiento de fuentes de agua refrigeradas y suministro de garrafas de agua, para Metro de Madrid” (Expediente 6012600085)",
+      "issuer": "CONSEJERÍA DE VIVIENDA, TRANSPORTES E INFRAESTRUCTURAS · METRO DE MADRID, S. A.",
+      "publicationType": "Adjudicación contrato",
+      "publishedAt": "2026-08-28",
+      "url": "https://www.bocm.es/bocm-20260828-15",
+      "pdfUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/08/28/BOCM-20260828-15.PDF",
+      "xmlUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/08/28/BOCM-20260828-15.xml?language=es",
+      "firstSeenAt": "2026-08-28T11:16:56.265Z"
+    },
     {
       "id": "contratos:servicio-vigilancia-seguridad-red-metro",
       "source": "contratos",
@@ -865,23 +993,6 @@
       "updatedAt": "2026-08-19T00:10:00+02:00",
       "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/suministro-renovacion-tecnologia-transporte-3-enlaces-e1-pseudowire-tdma-ip",
       "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-06/6012600193_referencia_al_ppt_y_anexo_signed.pdf",
-      "firstSeenAt": "2026-08-05T07:48:11.952Z"
-    },
-    {
-      "id": "contratos:suministro-andamios-regimen-alquiler",
-      "source": "contratos",
-      "title": "Suministro de andamios en régimen de alquiler",
-      "summary": "Id licitación: 6012600190;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 136060.00 EUR;",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Convocatoria anunciada a licitación",
-      "status": "Pendiente de adjudicación",
-      "expediente": "6012600190",
-      "amount": 136060,
-      "deadline": "2026-08-18",
-      "publishedAt": "2026-08-19",
-      "updatedAt": "2026-08-19T00:10:00+02:00",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/suministro-andamios-regimen-alquiler",
-      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-06/6012600190_ppt_signed.pdf",
       "firstSeenAt": "2026-08-05T07:48:11.952Z"
     },
     {
@@ -2407,20 +2518,6 @@
       "updatedAt": "2026-07-23T12:14:00+02:00",
       "deadline": "2025-11-18",
       "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/obras-rehabilitacion-musealizacion-vestibulo-desuso-estacion-ventas-linea-2-metro",
-      "firstSeenAt": "2026-08-05T08:03:18.389Z"
-    },
-    {
-      "id": "contratos:obras-reforma-instalacion-climatizacion-puesto-control-central-pcc-metro-madrid",
-      "source": "contratos",
-      "title": "Obras de reforma de la instalación de climatización del Puesto de Control Central (PCC), para Metro de Madrid",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Convocatoria anunciada a licitación",
-      "status": "Resuelta / Finalizada",
-      "expediente": "6012500039",
-      "publishedAt": "2026-07-23",
-      "updatedAt": "2026-07-23T10:22:00+02:00",
-      "deadline": "2025-02-28",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/obras-reforma-instalacion-climatizacion-puesto-control-central-pcc-metro-madrid",
       "firstSeenAt": "2026-08-05T08:03:18.389Z"
     },
     {
@@ -36415,19 +36512,6 @@
       "updatedAt": "2024-03-15T10:03:00+02:00",
       "deadline": "2024-01-17",
       "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/suministro-diversos-repuestos-empleados-mantenimiento-puertas-acceso-vestibulos",
-      "firstSeenAt": "2026-08-05T08:03:18.389Z"
-    },
-    {
-      "id": "contratos:suministro-repuestos-mantenimiento-equipos-venta-peaje-fabricante-thales-espana",
-      "source": "contratos",
-      "title": "Suministro de repuestos para el mantenimiento de los equipos de venta y peaje del fabricante Thales España instalados a lo largo de la red de Metro de Madrid",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Contratos adjudicados por procedimientos sin publicidad",
-      "status": "Resuelta / Finalizada",
-      "expediente": "6012300285",
-      "publishedAt": "2024-03-15",
-      "updatedAt": "2024-03-15T09:52:00+02:00",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/suministro-repuestos-mantenimiento-equipos-venta-peaje-fabricante-thales-espana",
       "firstSeenAt": "2026-08-05T08:03:18.389Z"
     },
     {
