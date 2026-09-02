@@ -1,32 +1,79 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-02T01:21:36.741Z",
+  "generatedAt": "2026-09-02T06:23:34.954Z",
   "coverage": {
     "bocm": "2009-12-01 a 2026-08-28",
-    "contratos": "2017-02-02 a 2026-09-01",
+    "contratos": "2017-02-02 a 2026-09-02",
     "empleo": "2016-10-31 a 2026-05-07"
   },
   "sources": {
     "bocm": {
-      "checkedAt": "2026-09-02T01:21:36.741Z",
+      "checkedAt": "2026-09-02T06:23:34.954Z",
       "ok": true,
-      "message": "15 registros relevantes comprobados; 11 documento(s) omitido(s) temporalmente",
+      "message": "15 registros relevantes comprobados; 10 documento(s) omitido(s) temporalmente",
       "recordsSeen": 15
     },
     "contratos": {
-      "checkedAt": "2026-09-02T01:21:36.741Z",
+      "checkedAt": "2026-09-02T06:23:34.954Z",
       "ok": true,
-      "message": "60 registros relevantes comprobados",
-      "recordsSeen": 60
+      "message": "61 registros relevantes comprobados",
+      "recordsSeen": 61
     },
     "empleo": {
-      "checkedAt": "2026-09-02T01:21:36.741Z",
+      "checkedAt": "2026-09-02T06:23:34.954Z",
       "ok": true,
       "message": "Consulta correcta, sin novedades relevantes",
       "recordsSeen": 0
     }
   },
   "items": [
+    {
+      "id": "contratos:servicio-soporte-mantenimiento-instalaciones-fijas-senalizacion-ferroviaria-0",
+      "source": "contratos",
+      "title": "Servicio de soporte al mantenimiento de las instalaciones fijas de señalización ferroviaria de tecnología Siemens – Dimetronic",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Resuelta / Finalizada",
+      "status": "Resuelta / Finalizada",
+      "expediente": "6012400164",
+      "publishedAt": "2026-09-02",
+      "updatedAt": "2026-09-02T08:24:28+02:00",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-soporte-mantenimiento-instalaciones-fijas-senalizacion-ferroviaria-0",
+      "firstSeenAt": "2026-08-05T08:03:18.389Z",
+      "summary": "Id licitación: 6012400164;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 2700000.00 EUR;",
+      "amount": 2700000,
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2024-10/6012400164_ppt.pdf"
+    },
+    {
+      "id": "contratos:suministro-medidores-perfil-rueda-ferroviaria-medidores-diametros-rueda",
+      "source": "contratos",
+      "title": "Suministro de medidores de perfil de rueda ferroviaria y medidores de diámetros de rueda ferroviaria para Metro de Madrid",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Convocatoria anunciada a licitación",
+      "status": "En plazo",
+      "expediente": "6012600239",
+      "publishedAt": "2026-09-02",
+      "updatedAt": "2026-09-02T07:58:00+02:00",
+      "deadline": "2026-09-23",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/suministro-medidores-perfil-rueda-ferroviaria-medidores-diametros-rueda",
+      "firstSeenAt": "2026-09-02T06:23:34.954Z"
+    },
+    {
+      "id": "contratos:suministro-renovacion-equipos-trabajo-vulcanizacion-sustitucion-pasamanos",
+      "source": "contratos",
+      "title": "Suministro para la renovación de equipos de trabajo para vulcanización y sustitución de pasamanos",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Resuelta / Finalizada",
+      "status": "Resuelta / Finalizada",
+      "expediente": "6012600115",
+      "publishedAt": "2026-09-02",
+      "updatedAt": "2026-09-02T07:53:09+02:00",
+      "deadline": "2026-05-14",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/suministro-renovacion-equipos-trabajo-vulcanizacion-sustitucion-pasamanos",
+      "firstSeenAt": "2026-08-05T08:03:18.389Z",
+      "summary": "Id licitación: 6012600115;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 103556.24 EUR;",
+      "amount": 103556.24,
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-04/6012600115_pliego_de_prescripciones_tecnicas_signed.pdf"
+    },
     {
       "id": "contratos:soporte-mantenimiento-suscripciones-productos-knime",
       "source": "contratos",
@@ -2444,20 +2491,6 @@
       "updatedAt": "2026-07-28T07:13:00+02:00",
       "deadline": "2026-06-16",
       "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/suministro-material-cancelas-acceso-metro-madrid",
-      "firstSeenAt": "2026-08-05T08:03:18.389Z"
-    },
-    {
-      "id": "contratos:suministro-renovacion-equipos-trabajo-vulcanizacion-sustitucion-pasamanos",
-      "source": "contratos",
-      "title": "Suministro para la renovación de equipos de trabajo para vulcanización y sustitución de pasamanos",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Convocatoria anunciada a licitación",
-      "status": "Adjudicada",
-      "expediente": "6012600115",
-      "publishedAt": "2026-07-28",
-      "updatedAt": "2026-07-28T07:08:00+02:00",
-      "deadline": "2026-05-14",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/suministro-renovacion-equipos-trabajo-vulcanizacion-sustitucion-pasamanos",
       "firstSeenAt": "2026-08-05T08:03:18.389Z"
     },
     {
@@ -13463,19 +13496,6 @@
       "updatedAt": "2026-01-20T08:10:00+02:00",
       "deadline": "2025-11-27",
       "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/suministro-asientos-conductor-trenes-material-movil-metro-madrid-0",
-      "firstSeenAt": "2026-08-05T08:03:18.389Z"
-    },
-    {
-      "id": "contratos:servicio-soporte-mantenimiento-instalaciones-fijas-senalizacion-ferroviaria-0",
-      "source": "contratos",
-      "title": "Servicio de soporte al mantenimiento de las instalaciones fijas de señalización ferroviaria de tecnología Siemens – Dimetronic",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Contratos adjudicados por procedimientos sin publicidad",
-      "status": "Resuelta / Finalizada",
-      "expediente": "6012400164",
-      "publishedAt": "2026-01-20",
-      "updatedAt": "2026-01-20T07:32:00+02:00",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-soporte-mantenimiento-instalaciones-fijas-senalizacion-ferroviaria-0",
       "firstSeenAt": "2026-08-05T08:03:18.389Z"
     },
     {
