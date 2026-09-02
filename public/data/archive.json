@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-02T06:23:34.954Z",
+  "generatedAt": "2026-09-02T11:41:04.507Z",
   "coverage": {
     "bocm": "2009-12-01 a 2026-08-28",
     "contratos": "2017-02-02 a 2026-09-02",
@@ -8,25 +8,127 @@
   },
   "sources": {
     "bocm": {
-      "checkedAt": "2026-09-02T06:23:34.954Z",
+      "checkedAt": "2026-09-02T11:41:04.507Z",
       "ok": true,
-      "message": "15 registros relevantes comprobados; 10 documento(s) omitido(s) temporalmente",
-      "recordsSeen": 15
+      "message": "2 registros relevantes comprobados; 16 documento(s) omitido(s) temporalmente",
+      "recordsSeen": 2
     },
     "contratos": {
-      "checkedAt": "2026-09-02T06:23:34.954Z",
+      "checkedAt": "2026-09-02T11:41:04.507Z",
       "ok": true,
-      "message": "61 registros relevantes comprobados",
-      "recordsSeen": 61
+      "message": "59 registros relevantes comprobados",
+      "recordsSeen": 59
     },
     "empleo": {
-      "checkedAt": "2026-09-02T06:23:34.954Z",
+      "checkedAt": "2026-09-02T11:41:04.507Z",
       "ok": true,
       "message": "Consulta correcta, sin novedades relevantes",
       "recordsSeen": 0
     }
   },
   "items": [
+    {
+      "id": "contratos:servicio-mantenimiento-integral-1222-equipos-instalaciones-climatizacion-ubicados",
+      "source": "contratos",
+      "title": "Servicio de mantenimiento integral de 1.222 equipos de instalaciones de climatización ubicados en estaciones, recintos y depósitos de Metro de Madrid.",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Resuelta / Finalizada",
+      "status": "Resuelta / Finalizada",
+      "expediente": "6012400104",
+      "publishedAt": "2026-09-02",
+      "updatedAt": "2026-09-02T12:47:26+02:00",
+      "deadline": "2024-04-23",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-mantenimiento-integral-1222-equipos-instalaciones-climatizacion-ubicados",
+      "firstSeenAt": "2026-08-05T08:03:18.389Z",
+      "summary": "Id licitación: 6012400104;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 4236343.71 EUR;",
+      "amount": 4236343.71,
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2024-03/6012400104_referencia_ppt_signed.pdf"
+    },
+    {
+      "id": "contratos:acuerdo-marco-suministro-e-instalacion-equipamiento-sistema-megafonia-recintos-0",
+      "source": "contratos",
+      "title": "Acuerdo Marco para el suministro e instalación de equipamiento del sistema de megafonía en recintos de Metro de Madrid",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Pendiente de adjudicación",
+      "status": "Pendiente de adjudicación",
+      "expediente": "6012500340",
+      "publishedAt": "2026-09-02",
+      "updatedAt": "2026-09-02T10:13:55+02:00",
+      "deadline": "2025-12-12",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/acuerdo-marco-suministro-e-instalacion-equipamiento-sistema-megafonia-recintos-0",
+      "firstSeenAt": "2026-08-05T08:03:18.389Z",
+      "summary": "Id licitación: 6012500340;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 1700000.00 EUR;",
+      "amount": 1700000,
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2025-11/6012500340_pliego_de_prescripciones_tecnicas_signed.pdf"
+    },
+    {
+      "id": "contratos:servicio-relativo-poliza-seguro-obligatorio-viajeros-sov",
+      "source": "contratos",
+      "title": "Servicio relativo a la póliza del Seguro Obligatorio de Viajeros (SOV)",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Pendiente de adjudicación",
+      "status": "Pendiente de adjudicación",
+      "expediente": "6012600163",
+      "publishedAt": "2026-09-02",
+      "updatedAt": "2026-09-02T09:27:23+02:00",
+      "deadline": "2026-06-30",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-relativo-poliza-seguro-obligatorio-viajeros-sov",
+      "firstSeenAt": "2026-08-05T08:03:18.389Z",
+      "summary": "Id licitación: 6012600163;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 357082.58 EUR;",
+      "amount": 357082.58,
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-05/6012600163_pliego_de_prescripciones_tecnicas_signed.pdf"
+    },
+    {
+      "id": "contratos:servicios-postales-metro-madrid-sa",
+      "source": "contratos",
+      "title": "Servicios postales para Metro de Madrid, S.A.",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Pendiente de adjudicación",
+      "status": "Pendiente de adjudicación",
+      "expediente": "6012600178",
+      "publishedAt": "2026-09-02",
+      "updatedAt": "2026-09-02T08:58:12+02:00",
+      "deadline": "2026-07-08",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicios-postales-metro-madrid-sa",
+      "firstSeenAt": "2026-08-05T08:03:18.389Z",
+      "summary": "Id licitación: 6012600178;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 126922.34 EUR;",
+      "amount": 126922.34,
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-06/6012600178_ppt_signed.pdf"
+    },
+    {
+      "id": "contratos:suministro-soporte-mantenimiento-cancelas-sistemas-apertura-asistida-puertas",
+      "source": "contratos",
+      "title": "Suministro para el soporte al mantenimiento de cancelas y sistemas de apertura asistida de puertas",
+      "summary": "Id licitación: 6012600180;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 590056.38 EUR;",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Convocatoria anunciada a licitación",
+      "status": "Pendiente de adjudicación",
+      "expediente": "6012600180",
+      "amount": 590056.38,
+      "deadline": "2026-08-18",
+      "publishedAt": "2026-09-02",
+      "updatedAt": "2026-09-02T08:54:00+02:00",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/suministro-soporte-mantenimiento-cancelas-sistemas-apertura-asistida-puertas",
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-06/6012600180_pliego_de_prescripciones_tecnicas_signed.pdf",
+      "firstSeenAt": "2026-08-05T07:48:11.952Z"
+    },
+    {
+      "id": "contratos:servicio-bancario-verificacion-titulares-cuentas-bancarias",
+      "source": "contratos",
+      "title": "Servicio bancario de verificación de titulares de cuentas bancarias",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Pendiente de adjudicación",
+      "status": "Pendiente de adjudicación",
+      "expediente": "6012600169",
+      "publishedAt": "2026-09-02",
+      "updatedAt": "2026-09-02T08:40:43+02:00",
+      "deadline": "2026-06-25",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-bancario-verificacion-titulares-cuentas-bancarias",
+      "firstSeenAt": "2026-08-05T08:03:18.389Z",
+      "summary": "Id licitación: 6012600169;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 21262.50 EUR;",
+      "amount": 21262.5,
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-06/6012600169_referencia_al_ppt_y_anexos_signed.pdf"
+    },
     {
       "id": "contratos:servicio-soporte-mantenimiento-instalaciones-fijas-senalizacion-ferroviaria-0",
       "source": "contratos",
@@ -138,23 +240,6 @@
       "summary": "Id licitación: 6012500181;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 429454.46 EUR;",
       "amount": 429454.46,
       "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2025-07/6012500181_ppt_signed.pdf"
-    },
-    {
-      "id": "contratos:servicio-bancario-verificacion-titulares-cuentas-bancarias",
-      "source": "contratos",
-      "title": "Servicio bancario de verificación de titulares de cuentas bancarias",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Pendiente de adjudicación",
-      "status": "Pendiente de adjudicación",
-      "expediente": "6012600169",
-      "publishedAt": "2026-09-01",
-      "updatedAt": "2026-09-01T12:10:54+02:00",
-      "deadline": "2026-06-25",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-bancario-verificacion-titulares-cuentas-bancarias",
-      "firstSeenAt": "2026-08-05T08:03:18.389Z",
-      "summary": "Id licitación: 6012600169;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 21262.50 EUR;",
-      "amount": 21262.5,
-      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-06/6012600169_referencia_al_ppt_y_anexos_signed.pdf"
     },
     {
       "id": "contratos:servicio-reparacion-defectos-inspeccionrevision-reglamentaria-instalaciones-baja-0",
@@ -332,23 +417,6 @@
       "deadline": "2026-09-18",
       "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/suministro-varios-repuestos-conexion-electrica-mantenimiento-material-movil-metro",
       "firstSeenAt": "2026-09-01T10:00:16.000Z"
-    },
-    {
-      "id": "contratos:acuerdo-marco-suministro-e-instalacion-equipamiento-sistema-megafonia-recintos-0",
-      "source": "contratos",
-      "title": "Acuerdo Marco para el suministro e instalación de equipamiento del sistema de megafonía en recintos de Metro de Madrid",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Pendiente de adjudicación",
-      "status": "Pendiente de adjudicación",
-      "expediente": "6012500340",
-      "publishedAt": "2026-08-31",
-      "updatedAt": "2026-08-31T13:31:06+02:00",
-      "deadline": "2025-12-12",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/acuerdo-marco-suministro-e-instalacion-equipamiento-sistema-megafonia-recintos-0",
-      "firstSeenAt": "2026-08-05T08:03:18.389Z",
-      "summary": "Id licitación: 6012500340;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 1700000.00 EUR;",
-      "amount": 1700000,
-      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2025-11/6012500340_pliego_de_prescripciones_tecnicas_signed.pdf"
     },
     {
       "id": "contratos:servicio-mantenimiento-integral-679-equipos-instalaciones-climatizacion-ubicados",
@@ -1283,23 +1351,6 @@
       "updatedAt": "2026-08-19T00:10:00+02:00",
       "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-soporte-mantenimiento-entorno-almacenamiento-backup-dell-emc",
       "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-06/6012600187_referencia_al_pliego_de_prescripciones_tecnicas_signed.pdf",
-      "firstSeenAt": "2026-08-05T07:48:11.952Z"
-    },
-    {
-      "id": "contratos:suministro-soporte-mantenimiento-cancelas-sistemas-apertura-asistida-puertas",
-      "source": "contratos",
-      "title": "Suministro para el soporte al mantenimiento de cancelas y sistemas de apertura asistida de puertas",
-      "summary": "Id licitación: 6012600180;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 590056.38 EUR;",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Convocatoria anunciada a licitación",
-      "status": "Pendiente de adjudicación",
-      "expediente": "6012600180",
-      "amount": 590056.38,
-      "deadline": "2026-08-18",
-      "publishedAt": "2026-08-19",
-      "updatedAt": "2026-08-19T00:10:00+02:00",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/suministro-soporte-mantenimiento-cancelas-sistemas-apertura-asistida-puertas",
-      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-06/6012600180_pliego_de_prescripciones_tecnicas_signed.pdf",
       "firstSeenAt": "2026-08-05T07:48:11.952Z"
     },
     {
@@ -2396,20 +2447,6 @@
       "firstSeenAt": "2026-08-05T08:03:18.389Z"
     },
     {
-      "id": "contratos:servicios-postales-metro-madrid-sa",
-      "source": "contratos",
-      "title": "Servicios postales para Metro de Madrid, S.A.",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Convocatoria anunciada a licitación",
-      "status": "Pendiente de adjudicación",
-      "expediente": "6012600178",
-      "publishedAt": "2026-07-28",
-      "updatedAt": "2026-07-28T11:19:00+02:00",
-      "deadline": "2026-07-08",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicios-postales-metro-madrid-sa",
-      "firstSeenAt": "2026-08-05T08:03:18.389Z"
-    },
-    {
       "id": "contratos:suministro-instalacion-puesta-servicio-mantenimiento-puertas-anden-linea-6-metro",
       "source": "contratos",
       "title": "Suministro, instalación, puesta en servicio y mantenimiento de puertas de andén en la Línea 6 de Metro de Madrid",
@@ -2421,20 +2458,6 @@
       "updatedAt": "2026-07-28T09:23:00+02:00",
       "deadline": "2024-10-01",
       "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/suministro-instalacion-puesta-servicio-mantenimiento-puertas-anden-linea-6-metro",
-      "firstSeenAt": "2026-08-05T08:03:18.389Z"
-    },
-    {
-      "id": "contratos:servicio-mantenimiento-integral-1222-equipos-instalaciones-climatizacion-ubicados",
-      "source": "contratos",
-      "title": "Servicio de mantenimiento integral de 1.222 equipos de instalaciones de climatización ubicados en estaciones, recintos y depósitos de Metro de Madrid.",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Convocatoria anunciada a licitación",
-      "status": "Resuelta / Finalizada",
-      "expediente": "6012400104",
-      "publishedAt": "2026-07-28",
-      "updatedAt": "2026-07-28T09:21:00+02:00",
-      "deadline": "2024-04-23",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-mantenimiento-integral-1222-equipos-instalaciones-climatizacion-ubicados",
       "firstSeenAt": "2026-08-05T08:03:18.389Z"
     },
     {
@@ -2846,20 +2869,6 @@
       "updatedAt": "2026-07-22T11:02:00+02:00",
       "deadline": "2026-02-11",
       "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-renovacion-sistema-integrador-audio-sia-puesto-control-central-metro",
-      "firstSeenAt": "2026-08-05T08:03:18.389Z"
-    },
-    {
-      "id": "contratos:servicio-relativo-poliza-seguro-obligatorio-viajeros-sov",
-      "source": "contratos",
-      "title": "Servicio relativo a la póliza del Seguro Obligatorio de Viajeros (SOV)",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Convocatoria anunciada a licitación",
-      "status": "Pendiente de adjudicación",
-      "expediente": "6012600163",
-      "publishedAt": "2026-07-22",
-      "updatedAt": "2026-07-22T11:00:00+02:00",
-      "deadline": "2026-06-30",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-relativo-poliza-seguro-obligatorio-viajeros-sov",
       "firstSeenAt": "2026-08-05T08:03:18.389Z"
     },
     {
