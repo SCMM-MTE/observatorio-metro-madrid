@@ -1,32 +1,46 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-02T21:57:58.288Z",
+  "generatedAt": "2026-09-03T00:08:11.928Z",
   "coverage": {
     "bocm": "2009-12-01 a 2026-08-28",
-    "contratos": "2017-02-02 a 2026-09-02",
+    "contratos": "2017-02-02 a 2026-09-03",
     "empleo": "2016-10-31 a 2026-05-07"
   },
   "sources": {
     "bocm": {
-      "checkedAt": "2026-09-02T21:57:58.288Z",
+      "checkedAt": "2026-09-03T00:08:11.928Z",
       "ok": true,
-      "message": "12 registros relevantes comprobados; 11 documento(s) omitido(s) temporalmente",
-      "recordsSeen": 12
+      "message": "14 registros relevantes comprobados; 13 documento(s) omitido(s) temporalmente",
+      "recordsSeen": 14
     },
     "contratos": {
-      "checkedAt": "2026-09-02T21:57:58.288Z",
+      "checkedAt": "2026-09-03T00:08:11.928Z",
       "ok": true,
       "message": "57 registros relevantes comprobados",
       "recordsSeen": 57
     },
     "empleo": {
-      "checkedAt": "2026-09-02T21:57:58.288Z",
+      "checkedAt": "2026-09-03T00:08:11.928Z",
       "ok": true,
       "message": "Consulta correcta, sin novedades relevantes",
       "recordsSeen": 0
     }
   },
   "items": [
+    {
+      "id": "contratos:suministro-mantenimiento-licencias-base-datos-oracle-productos-sap",
+      "source": "contratos",
+      "title": "Suministro para el mantenimiento de licencias de base de datos Oracle para productos SAP",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Convocatoria anunciada a licitación",
+      "status": "Pendiente de adjudicación",
+      "expediente": "6012600215",
+      "publishedAt": "2026-09-03",
+      "updatedAt": "2026-09-03T00:14:00+02:00",
+      "deadline": "2026-09-02",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/suministro-mantenimiento-licencias-base-datos-oracle-productos-sap",
+      "firstSeenAt": "2026-08-17T11:00:02.754Z"
+    },
     {
       "id": "contratos:servicio-mantenimiento-integral-1222-equipos-instalaciones-climatizacion-ubicados",
       "source": "contratos",
@@ -308,20 +322,6 @@
       "summary": "Id licitación: 6012600138;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 88780.00 EUR;",
       "amount": 88780,
       "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-05/6012600138_ppt_signed.pdf"
-    },
-    {
-      "id": "contratos:suministro-mantenimiento-licencias-base-datos-oracle-productos-sap",
-      "source": "contratos",
-      "title": "Suministro para el mantenimiento de licencias de base de datos Oracle para productos SAP",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Convocatoria anunciada a licitación",
-      "status": "En plazo",
-      "expediente": "6012600215",
-      "publishedAt": "2026-09-01",
-      "updatedAt": "2026-09-01T09:29:00+02:00",
-      "deadline": "2026-09-02",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/suministro-mantenimiento-licencias-base-datos-oracle-productos-sap",
-      "firstSeenAt": "2026-08-17T11:00:02.754Z"
     },
     {
       "id": "contratos:servicio-telematica-vehiculos-automoviles-metro-madrid",
