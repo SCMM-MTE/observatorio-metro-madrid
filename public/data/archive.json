@@ -1,32 +1,46 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-03T20:57:05.843Z",
+  "generatedAt": "2026-09-03T23:21:23.694Z",
   "coverage": {
     "bocm": "2009-12-01 a 2026-09-03",
-    "contratos": "2017-02-02 a 2026-09-03",
+    "contratos": "2017-02-02 a 2026-09-04",
     "empleo": "2016-10-31 a 2026-05-07"
   },
   "sources": {
     "bocm": {
-      "checkedAt": "2026-09-03T20:57:05.843Z",
+      "checkedAt": "2026-09-03T23:21:23.694Z",
       "ok": true,
-      "message": "Consulta parcial sin registros; 20 documento(s) omitido(s) temporalmente",
-      "recordsSeen": 0
+      "message": "14 registros relevantes comprobados; 12 documento(s) omitido(s) temporalmente",
+      "recordsSeen": 14
     },
     "contratos": {
-      "checkedAt": "2026-09-03T20:57:05.843Z",
+      "checkedAt": "2026-09-03T23:21:23.694Z",
       "ok": true,
       "message": "54 registros relevantes comprobados",
       "recordsSeen": 54
     },
     "empleo": {
-      "checkedAt": "2026-09-03T20:57:05.843Z",
+      "checkedAt": "2026-09-03T23:21:23.694Z",
       "ok": true,
       "message": "Consulta correcta, sin novedades relevantes",
       "recordsSeen": 0
     }
   },
   "items": [
+    {
+      "id": "contratos:servicio-revision-lineas-vida-horizontales-verticales-escaleras-verticales-linea-1",
+      "source": "contratos",
+      "title": "Servicio de revisión de las líneas de vida horizontales, verticales y escaleras verticales con línea de vida para acceso a fosos de elevadores instaladas en las naves de mantenimiento y talleres de Metro de Madrid",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Convocatoria anunciada a licitación",
+      "status": "Pendiente de adjudicación",
+      "expediente": "6012600206",
+      "publishedAt": "2026-09-04",
+      "updatedAt": "2026-09-04T00:06:00+02:00",
+      "deadline": "2026-09-03",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-revision-lineas-vida-horizontales-verticales-escaleras-verticales-linea-1",
+      "firstSeenAt": "2026-08-05T08:03:18.389Z"
+    },
     {
       "id": "contratos:servicio-mantenimiento-integral-sistemas-seguridad-sacos-recintos-1",
       "source": "contratos",
@@ -2844,20 +2858,6 @@
       "updatedAt": "2026-07-23T09:22:00+02:00",
       "deadline": "2025-09-10",
       "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-gestionado-soporte-mantenimiento-aplicaciones-corporativas-metro-madrid",
-      "firstSeenAt": "2026-08-05T08:03:18.389Z"
-    },
-    {
-      "id": "contratos:servicio-revision-lineas-vida-horizontales-verticales-escaleras-verticales-linea-1",
-      "source": "contratos",
-      "title": "Servicio de revisión de las líneas de vida horizontales, verticales y escaleras verticales con línea de vida para acceso a fosos de elevadores instaladas en las naves de mantenimiento y talleres de Metro de Madrid",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Convocatoria anunciada a licitación",
-      "status": "En plazo",
-      "expediente": "6012600206",
-      "publishedAt": "2026-07-23",
-      "updatedAt": "2026-07-23T08:03:00+02:00",
-      "deadline": "2026-09-03",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-revision-lineas-vida-horizontales-verticales-escaleras-verticales-linea-1",
       "firstSeenAt": "2026-08-05T08:03:18.389Z"
     },
     {
