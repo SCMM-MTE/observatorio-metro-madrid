@@ -1,32 +1,46 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-03T04:59:33.907Z",
+  "generatedAt": "2026-09-03T09:40:54.691Z",
   "coverage": {
-    "bocm": "2009-12-01 a 2026-08-28",
+    "bocm": "2009-12-01 a 2026-09-03",
     "contratos": "2017-02-02 a 2026-09-03",
     "empleo": "2016-10-31 a 2026-05-07"
   },
   "sources": {
     "bocm": {
-      "checkedAt": "2026-09-03T04:59:33.907Z",
+      "checkedAt": "2026-09-03T09:40:54.691Z",
       "ok": true,
-      "message": "14 registros relevantes comprobados; 12 documento(s) omitido(s) temporalmente",
-      "recordsSeen": 14
+      "message": "1 registros relevantes comprobados; 18 documento(s) omitido(s) temporalmente",
+      "recordsSeen": 1
     },
     "contratos": {
-      "checkedAt": "2026-09-03T04:59:33.907Z",
+      "checkedAt": "2026-09-03T09:40:54.691Z",
       "ok": true,
-      "message": "57 registros relevantes comprobados",
-      "recordsSeen": 57
+      "message": "55 registros relevantes comprobados",
+      "recordsSeen": 55
     },
     "empleo": {
-      "checkedAt": "2026-09-03T04:59:33.907Z",
+      "checkedAt": "2026-09-03T09:40:54.691Z",
       "ok": true,
       "message": "Consulta correcta, sin novedades relevantes",
       "recordsSeen": 0
     }
   },
   "items": [
+    {
+      "id": "contratos:obras-intervencion-grafica-artistica-digital-estacion-duque-pastrana-metro-madrid",
+      "source": "contratos",
+      "title": "Obras de de intervención gráfica, artística y digital en la estación Duque de Pastrana de Metro de Madrid",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Convocatoria anunciada a licitación",
+      "status": "Pendiente de adjudicación",
+      "expediente": "6012600196",
+      "publishedAt": "2026-09-03",
+      "updatedAt": "2026-09-03T11:26:00+02:00",
+      "deadline": "2026-08-10",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/obras-intervencion-grafica-artistica-digital-estacion-duque-pastrana-metro-madrid",
+      "firstSeenAt": "2026-08-05T08:03:18.389Z"
+    },
     {
       "id": "contratos:suministro-mantenimiento-licencias-base-datos-oracle-productos-sap",
       "source": "contratos",
@@ -36,10 +50,105 @@
       "status": "Pendiente de adjudicación",
       "expediente": "6012600215",
       "publishedAt": "2026-09-03",
-      "updatedAt": "2026-09-03T00:14:00+02:00",
+      "updatedAt": "2026-09-03T10:27:00+02:00",
       "deadline": "2026-09-02",
       "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/suministro-mantenimiento-licencias-base-datos-oracle-productos-sap",
       "firstSeenAt": "2026-08-17T11:00:02.754Z"
+    },
+    {
+      "id": "contratos:servicio-revisiones-normativa-equipos-accesorios-elevacion-cargas-metro-madrid",
+      "source": "contratos",
+      "title": "Servicio de revisiones normativa de equipos y accesorios de elevación de cargas para Metro de Madrid",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Convocatoria anunciada a licitación",
+      "status": "En plazo",
+      "expediente": "6012600240",
+      "publishedAt": "2026-09-03",
+      "updatedAt": "2026-09-03T09:22:00+02:00",
+      "deadline": "2026-10-02",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-revisiones-normativa-equipos-accesorios-elevacion-cargas-metro-madrid",
+      "firstSeenAt": "2026-09-03T09:40:54.691Z"
+    },
+    {
+      "id": "contratos:suministro-renovacion-equipamiento-seguridad-energia-linea-aerea-metro-madrid",
+      "source": "contratos",
+      "title": "Suministro para la renovación de equipamiento de seguridad para energía y línea aérea, para Metro de Madrid",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Adjudicada",
+      "status": "Adjudicada",
+      "expediente": "6012600079",
+      "publishedAt": "2026-09-03",
+      "updatedAt": "2026-09-03T08:27:36+02:00",
+      "deadline": "2026-04-14",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/suministro-renovacion-equipamiento-seguridad-energia-linea-aerea-metro-madrid",
+      "firstSeenAt": "2026-08-05T08:03:18.389Z",
+      "summary": "Id licitación: 6012600079;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 432380.00 EUR;",
+      "amount": 432380,
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-03/6012600079_ppt_signed.pdf"
+    },
+    {
+      "id": "contratos:acuerdo-marco-suministro-suscripcion-mantenimiento-licencias-aplicaciones-1",
+      "source": "contratos",
+      "title": "Acuerdo marco para el suministro para la suscripción y mantenimiento de licencias de aplicaciones informáticas comerciales de puesto cliente para Metro de Madrid.",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Convocatoria anunciada a licitación",
+      "status": "En plazo",
+      "expediente": "6012600241",
+      "publishedAt": "2026-09-03",
+      "updatedAt": "2026-09-03T08:22:00+02:00",
+      "deadline": "2026-11-03",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/acuerdo-marco-suministro-suscripcion-mantenimiento-licencias-aplicaciones-1",
+      "firstSeenAt": "2026-09-03T09:40:54.691Z"
+    },
+    {
+      "id": "contratos:acuerdo-marco-trabajos-inspeccion-revision-control-desamiantado-0",
+      "source": "contratos",
+      "title": "Acuerdo marco para trabajos de inspección, revisión de control y desamiantado de equipos/instalaciones de MCA en equipamiento de Metro de Madrid",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Resuelta / Finalizada",
+      "status": "Resuelta / Finalizada",
+      "expediente": "6012600024",
+      "publishedAt": "2026-09-03",
+      "updatedAt": "2026-09-03T07:47:05+02:00",
+      "deadline": "2026-03-03",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/acuerdo-marco-trabajos-inspeccion-revision-control-desamiantado-0",
+      "firstSeenAt": "2026-08-05T08:03:18.389Z",
+      "summary": "Id licitación: 6012600024;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 600000.00 EUR;",
+      "amount": 600000,
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-01/6012600024_referencia_al_ppt_signed.pdf"
+    },
+    {
+      "id": "contratos:suministro-repuestos-mantenimiento-asientos-conductor-instalados-trenes-material",
+      "source": "contratos",
+      "title": "Suministro de repuestos para el mantenimiento de los asientos de conductor instalados en los trenes del material móvil",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Adjudicada",
+      "status": "Adjudicada",
+      "expediente": "6012600106",
+      "publishedAt": "2026-09-03",
+      "updatedAt": "2026-09-03T07:43:17+02:00",
+      "deadline": "2026-05-08",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/suministro-repuestos-mantenimiento-asientos-conductor-instalados-trenes-material",
+      "firstSeenAt": "2026-08-05T08:03:18.389Z",
+      "summary": "Id licitación: 6012600106;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 405150.00 EUR;",
+      "amount": 405150,
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-04/6012600106_ppt_signed.pdf"
+    },
+    {
+      "id": "bocm:bocm-20260903-21",
+      "source": "bocm",
+      "title": "Convocatoria contrato – Anuncio de 1 de septiembre de 2026, por el que se convoca la licitación para la contratación del servicio de revisiones normativa de equipos y accesorios de elevación de cargas para Metro de Madrid (Expediente 6012600240)",
+      "summary": "Convocatoria contrato – Anuncio de 1 de septiembre de 2026, por el que se convoca la licitación para la contratación del servicio de revisiones normativa de equipos y accesorios de elevación de cargas para Metro de Madrid (Expediente 6012600240)",
+      "issuer": "CONSEJERÍA DE VIVIENDA, TRANSPORTES E INFRAESTRUCTURAS",
+      "publicationType": "ANUNCIO",
+      "publishedAt": "2026-09-03",
+      "url": "https://www.bocm.es/bocm-20260903-21?language=es",
+      "pdfUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/09/03/BOCM-20260903-21.PDF",
+      "xmlUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/09/03/BOCM-20260903-21.xml?language=es",
+      "tags": [
+        "I. COMUNIDAD DE MADRID · D) Anuncios"
+      ],
+      "firstSeenAt": "2026-09-03T09:40:54.691Z"
     },
     {
       "id": "contratos:servicio-mantenimiento-integral-1222-equipos-instalaciones-climatizacion-ubicados",
@@ -1074,20 +1183,6 @@
       "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2024-10/6012400361_pliego_de_prescripciones_tecnicas_signed.pdf"
     },
     {
-      "id": "contratos:obras-intervencion-grafica-artistica-digital-estacion-duque-pastrana-metro-madrid",
-      "source": "contratos",
-      "title": "Obras de de intervención gráfica, artística y digital en la estación Duque de Pastrana de Metro de Madrid",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Convocatoria anunciada a licitación",
-      "status": "Pendiente de adjudicación",
-      "expediente": "6012600196",
-      "publishedAt": "2026-08-24",
-      "updatedAt": "2026-08-24T08:57:00+02:00",
-      "deadline": "2026-08-10",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/obras-intervencion-grafica-artistica-digital-estacion-duque-pastrana-metro-madrid",
-      "firstSeenAt": "2026-08-05T08:03:18.389Z"
-    },
-    {
       "id": "contratos:servicio-inspecciones-periodicas-reglamentarias-ascensores-metro-madrid",
       "source": "contratos",
       "title": "Servicio de inspecciones periódicas reglamentarias para ascensores de Metro de Madrid",
@@ -1688,23 +1783,6 @@
       "firstSeenAt": "2026-08-11T11:25:39.213Z"
     },
     {
-      "id": "contratos:acuerdo-marco-trabajos-inspeccion-revision-control-desamiantado-0",
-      "source": "contratos",
-      "title": "Acuerdo marco para trabajos de inspección, revisión de control y desamiantado de equipos/instalaciones de MCA en equipamiento de Metro de Madrid",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Adjudicada",
-      "status": "Adjudicada",
-      "expediente": "6012600024",
-      "publishedAt": "2026-08-11",
-      "updatedAt": "2026-08-11T11:35:36+02:00",
-      "deadline": "2026-03-03",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/acuerdo-marco-trabajos-inspeccion-revision-control-desamiantado-0",
-      "firstSeenAt": "2026-08-05T08:03:18.389Z",
-      "summary": "Id licitación: 6012600024;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 600000.00 EUR;",
-      "amount": 600000,
-      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-01/6012600024_referencia_al_ppt_signed.pdf"
-    },
-    {
       "id": "contratos:suministro-renovacion-integral-sistemas-seguridad-recinto-cuatro-vientos-metro",
       "source": "contratos",
       "title": "Suministro para la renovación integral de los sistemas de seguridad del recinto de Cuatro Vientos de Metro de Madrid",
@@ -1752,23 +1830,6 @@
       "tags": [
         "I. COMUNIDAD DE MADRID · D) Anuncios"
       ]
-    },
-    {
-      "id": "contratos:suministro-repuestos-mantenimiento-asientos-conductor-instalados-trenes-material",
-      "source": "contratos",
-      "title": "Suministro de repuestos para el mantenimiento de los asientos de conductor instalados en los trenes del material móvil",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Pendiente de adjudicación",
-      "status": "Pendiente de adjudicación",
-      "expediente": "6012600106",
-      "publishedAt": "2026-08-10",
-      "updatedAt": "2026-08-10T12:44:24+02:00",
-      "deadline": "2026-05-08",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/suministro-repuestos-mantenimiento-asientos-conductor-instalados-trenes-material",
-      "firstSeenAt": "2026-08-05T08:03:18.389Z",
-      "summary": "Id licitación: 6012600106;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 405150.00 EUR;",
-      "amount": 405150,
-      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-04/6012600106_ppt_signed.pdf"
     },
     {
       "id": "contratos:suministro-gasoleo-clase-b-c-recintos-metro-madrid-1",
@@ -4965,20 +5026,6 @@
       "pdfUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/06/23/BOCM-20260623-22.PDF",
       "xmlUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/06/23/BOCM-20260623-22.xml?language=es",
       "firstSeenAt": "2026-08-05T10:14:22.549Z"
-    },
-    {
-      "id": "contratos:suministro-renovacion-equipamiento-seguridad-energia-linea-aerea-metro-madrid",
-      "source": "contratos",
-      "title": "Suministro para la renovación de equipamiento de seguridad para energía y línea aérea, para Metro de Madrid",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Convocatoria anunciada a licitación",
-      "status": "Pendiente de adjudicación",
-      "expediente": "6012600079",
-      "publishedAt": "2026-06-22",
-      "updatedAt": "2026-06-22T12:03:00+02:00",
-      "deadline": "2026-04-14",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/suministro-renovacion-equipamiento-seguridad-energia-linea-aerea-metro-madrid",
-      "firstSeenAt": "2026-08-05T08:03:18.389Z"
     },
     {
       "id": "contratos:suministro-instalacion-mantenimiento-grupo-electrogeno-estacion-hospital-henares-0",
