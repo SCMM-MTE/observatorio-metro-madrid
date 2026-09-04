@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-04T01:21:22.618Z",
+  "generatedAt": "2026-09-04T06:35:54.717Z",
   "coverage": {
     "bocm": "2009-12-01 a 2026-09-03",
     "contratos": "2017-02-02 a 2026-09-04",
@@ -8,25 +8,39 @@
   },
   "sources": {
     "bocm": {
-      "checkedAt": "2026-09-04T01:21:22.618Z",
+      "checkedAt": "2026-09-04T06:35:54.717Z",
       "ok": true,
-      "message": "14 registros relevantes comprobados; 13 documento(s) omitido(s) temporalmente",
-      "recordsSeen": 14
+      "message": "12 registros relevantes comprobados; 14 documento(s) omitido(s) temporalmente",
+      "recordsSeen": 12
     },
     "contratos": {
-      "checkedAt": "2026-09-04T01:21:22.618Z",
+      "checkedAt": "2026-09-04T06:35:54.717Z",
       "ok": true,
       "message": "54 registros relevantes comprobados",
       "recordsSeen": 54
     },
     "empleo": {
-      "checkedAt": "2026-09-04T01:21:22.618Z",
+      "checkedAt": "2026-09-04T06:35:54.717Z",
       "ok": true,
       "message": "Consulta correcta, sin novedades relevantes",
       "recordsSeen": 0
     }
   },
   "items": [
+    {
+      "id": "contratos:acuerdo-marco-suministro-suscripcion-mantenimiento-licencias-aplicaciones-1",
+      "source": "contratos",
+      "title": "Acuerdo marco para el suministro para la suscripción y mantenimiento de licencias de aplicaciones informáticas comerciales de puesto cliente para Metro de Madrid.",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Convocatoria anunciada a licitación",
+      "status": "En plazo",
+      "expediente": "6012600241",
+      "publishedAt": "2026-09-04",
+      "updatedAt": "2026-09-04T07:37:00+02:00",
+      "deadline": "2026-11-03",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/acuerdo-marco-suministro-suscripcion-mantenimiento-licencias-aplicaciones-1",
+      "firstSeenAt": "2026-09-03T09:40:54.691Z"
+    },
     {
       "id": "contratos:servicio-revision-lineas-vida-horizontales-verticales-escaleras-verticales-linea-1",
       "source": "contratos",
@@ -130,20 +144,6 @@
       "summary": "Id licitación: 6012600079;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 432380.00 EUR;",
       "amount": 432380,
       "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-03/6012600079_ppt_signed.pdf"
-    },
-    {
-      "id": "contratos:acuerdo-marco-suministro-suscripcion-mantenimiento-licencias-aplicaciones-1",
-      "source": "contratos",
-      "title": "Acuerdo marco para el suministro para la suscripción y mantenimiento de licencias de aplicaciones informáticas comerciales de puesto cliente para Metro de Madrid.",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Convocatoria anunciada a licitación",
-      "status": "En plazo",
-      "expediente": "6012600241",
-      "publishedAt": "2026-09-03",
-      "updatedAt": "2026-09-03T08:22:00+02:00",
-      "deadline": "2026-11-03",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/acuerdo-marco-suministro-suscripcion-mantenimiento-licencias-aplicaciones-1",
-      "firstSeenAt": "2026-09-03T09:40:54.691Z"
     },
     {
       "id": "contratos:acuerdo-marco-trabajos-inspeccion-revision-control-desamiantado-0",
