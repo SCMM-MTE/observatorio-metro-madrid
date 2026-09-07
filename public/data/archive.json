@@ -1,32 +1,83 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-07T04:28:37.006Z",
+  "generatedAt": "2026-09-07T09:40:08.024Z",
   "coverage": {
     "bocm": "2009-12-01 a 2026-09-04",
-    "contratos": "2017-02-02 a 2026-09-05",
+    "contratos": "2017-02-02 a 2026-09-07",
     "empleo": "2016-10-31 a 2026-05-07"
   },
   "sources": {
     "bocm": {
-      "checkedAt": "2026-09-07T04:28:37.006Z",
+      "checkedAt": "2026-09-07T09:40:08.024Z",
       "ok": true,
       "message": "2 registros relevantes comprobados; 14 documento(s) omitido(s) temporalmente",
       "recordsSeen": 2
     },
     "contratos": {
-      "checkedAt": "2026-09-07T04:28:37.006Z",
+      "checkedAt": "2026-09-07T09:40:08.024Z",
       "ok": true,
-      "message": "51 registros relevantes comprobados",
-      "recordsSeen": 51
+      "message": "53 registros relevantes comprobados; 2 documento(s) omitido(s) temporalmente",
+      "recordsSeen": 53
     },
     "empleo": {
-      "checkedAt": "2026-09-07T04:28:37.006Z",
+      "checkedAt": "2026-09-07T09:40:08.024Z",
       "ok": true,
       "message": "Consulta correcta, sin novedades relevantes",
       "recordsSeen": 0
     }
   },
   "items": [
+    {
+      "id": "contratos:acuerdo-marco-suministro-productos-iluminacion-cables-electricos-mantenimiento",
+      "source": "contratos",
+      "title": "Acuerdo Marco para el suministro de productos de iluminación y cables eléctricos para el mantenimiento de las instalaciones fijas y del material móvil de Metro Madrid",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Pendiente de adjudicación",
+      "status": "Pendiente de adjudicación",
+      "expediente": "6012600170",
+      "publishedAt": "2026-09-07",
+      "updatedAt": "2026-09-07T11:04:38+02:00",
+      "deadline": "2026-07-14",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/acuerdo-marco-suministro-productos-iluminacion-cables-electricos-mantenimiento",
+      "firstSeenAt": "2026-08-05T08:03:18.389Z",
+      "summary": "Id licitación: 6012600170;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 2000000.00 EUR;",
+      "amount": 2000000,
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-06/6012600170_pliego_de_prescripciones_tecnicas_signed.pdf"
+    },
+    {
+      "id": "contratos:suministro-renovacion-tecnologia-transporte-3-enlaces-e1-pseudowire-tdma-ip",
+      "source": "contratos",
+      "title": "Suministro de renovación de la tecnología de transporte de 3 enlaces E1 a Pseudowire TDMA sobre IP",
+      "summary": "Id licitación: 6012600193;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 24495.00 EUR;",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Convocatoria anunciada a licitación",
+      "status": "Pendiente de adjudicación",
+      "expediente": "6012600193",
+      "amount": 24495,
+      "deadline": "2026-08-18",
+      "publishedAt": "2026-09-07",
+      "updatedAt": "2026-09-07T10:52:00+02:00",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/suministro-renovacion-tecnologia-transporte-3-enlaces-e1-pseudowire-tdma-ip",
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-06/6012600193_referencia_al_ppt_y_anexo_signed.pdf",
+      "firstSeenAt": "2026-08-05T07:48:11.952Z"
+    },
+    {
+      "id": "contratos:servicios-direccion-obras-coordinacion-seguridad-salud-asistencia-tecnica-obras-0",
+      "source": "contratos",
+      "title": "Servicios de dirección de las obras, coordinación de seguridad y salud y asistencia técnica de las obras de construcción de ampliación de la línea 11 de Metro de Madrid. Tramo: Plaza Elíptica - Conde de Casal.",
+      "summary": "Id licitación: A/SER-001735/2022;Órgano de Contratación: Consejería de Vivienda, Transportes e Infraestructuras;Importe: 27148498.73 EUR;Estado: 2Entransicion",
+      "issuer": "Consejería de Vivienda, Transportes e Infraestructuras",
+      "publicationType": "Resuelta / Finalizada",
+      "status": "Resuelta / Finalizada",
+      "expediente": "A/SER-001735/2022",
+      "amount": 27148498.73,
+      "deadline": "2022-06-15",
+      "publishedAt": "2026-09-07",
+      "updatedAt": "2026-09-07T10:17:55+02:00",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicios-direccion-obras-coordinacion-seguridad-salud-asistencia-tecnica-obras-0",
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2022-05/ser.1735.2022_ppt_21.04.2022_an_4.pdf",
+      "firstSeenAt": "2026-09-07T09:40:08.024Z"
+    },
     {
       "id": "contratos:soporte-mantenimiento-licencias-auraquantic",
       "source": "contratos",
@@ -35,11 +86,70 @@
       "publicationType": "Convocatoria anunciada a licitación",
       "status": "Pendiente de adjudicación",
       "expediente": "6012600209",
-      "publishedAt": "2026-09-05",
-      "updatedAt": "2026-09-05T00:05:00+02:00",
+      "publishedAt": "2026-09-07",
+      "updatedAt": "2026-09-07T09:59:00+02:00",
       "deadline": "2026-09-04",
       "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/soporte-mantenimiento-licencias-auraquantic",
       "firstSeenAt": "2026-08-05T08:03:18.389Z"
+    },
+    {
+      "id": "contratos:suministro-renovacion-equipamiento-seguridad-energia-linea-aerea-metro-madrid",
+      "source": "contratos",
+      "title": "Suministro para la renovación de equipamiento de seguridad para energía y línea aérea, para Metro de Madrid",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Adjudicada",
+      "status": "Adjudicada",
+      "expediente": "6012600079",
+      "publishedAt": "2026-09-07",
+      "updatedAt": "2026-09-07T09:46:04+02:00",
+      "deadline": "2026-04-14",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/suministro-renovacion-equipamiento-seguridad-energia-linea-aerea-metro-madrid",
+      "firstSeenAt": "2026-08-05T08:03:18.389Z",
+      "summary": "Id licitación: 6012600079;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 432380.00 EUR;",
+      "amount": 432380,
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-03/6012600079_ppt_signed.pdf"
+    },
+    {
+      "id": "contratos:acuerdo-marco-suministro-suscripcion-mantenimiento-licencias-aplicaciones-1",
+      "source": "contratos",
+      "title": "Acuerdo marco para el suministro para la suscripción y mantenimiento de licencias de aplicaciones informáticas comerciales de puesto cliente para Metro de Madrid.",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Convocatoria anunciada a licitación",
+      "status": "En plazo",
+      "expediente": "6012600241",
+      "publishedAt": "2026-09-07",
+      "updatedAt": "2026-09-07T08:53:00+02:00",
+      "deadline": "2026-11-03",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/acuerdo-marco-suministro-suscripcion-mantenimiento-licencias-aplicaciones-1",
+      "firstSeenAt": "2026-09-03T09:40:54.691Z"
+    },
+    {
+      "id": "contratos:servicio-revision-lineas-vida-horizontales-verticales-escaleras-verticales-linea-1",
+      "source": "contratos",
+      "title": "Servicio de revisión de las líneas de vida horizontales, verticales y escaleras verticales con línea de vida para acceso a fosos de elevadores instaladas en las naves de mantenimiento y talleres de Metro de Madrid",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Convocatoria anunciada a licitación",
+      "status": "Pendiente de adjudicación",
+      "expediente": "6012600206",
+      "publishedAt": "2026-09-07",
+      "updatedAt": "2026-09-07T08:24:00+02:00",
+      "deadline": "2026-09-03",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-revision-lineas-vida-horizontales-verticales-escaleras-verticales-linea-1",
+      "firstSeenAt": "2026-08-05T08:03:18.389Z"
+    },
+    {
+      "id": "contratos:acuerdo-marco-obras-instalaciones-electricas-baja-tension-proyectos-operativos",
+      "source": "contratos",
+      "title": "Acuerdo marco para obras de instalaciones eléctricas de baja tensión para proyectos operativos y logísticos de Metro de Madrid.",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Convocatoria anunciada a licitación",
+      "status": "En plazo",
+      "expediente": "6012600243",
+      "publishedAt": "2026-09-07",
+      "updatedAt": "2026-09-07T07:34:00+02:00",
+      "deadline": "2026-10-13",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/acuerdo-marco-obras-instalaciones-electricas-baja-tension-proyectos-operativos",
+      "firstSeenAt": "2026-09-07T09:40:08.024Z"
     },
     {
       "id": "contratos:servicio-provision-apoyo-desarrollo-programa-entrenamiento-personalizado-uso-3",
@@ -85,34 +195,6 @@
       "deadline": "2026-09-22",
       "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/plataforma-formacion-desarrollo-habilidades-transversales-metro-madrid",
       "firstSeenAt": "2026-09-04T16:16:55.097Z"
-    },
-    {
-      "id": "contratos:acuerdo-marco-suministro-suscripcion-mantenimiento-licencias-aplicaciones-1",
-      "source": "contratos",
-      "title": "Acuerdo marco para el suministro para la suscripción y mantenimiento de licencias de aplicaciones informáticas comerciales de puesto cliente para Metro de Madrid.",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Convocatoria anunciada a licitación",
-      "status": "En plazo",
-      "expediente": "6012600241",
-      "publishedAt": "2026-09-04",
-      "updatedAt": "2026-09-04T07:37:00+02:00",
-      "deadline": "2026-11-03",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/acuerdo-marco-suministro-suscripcion-mantenimiento-licencias-aplicaciones-1",
-      "firstSeenAt": "2026-09-03T09:40:54.691Z"
-    },
-    {
-      "id": "contratos:servicio-revision-lineas-vida-horizontales-verticales-escaleras-verticales-linea-1",
-      "source": "contratos",
-      "title": "Servicio de revisión de las líneas de vida horizontales, verticales y escaleras verticales con línea de vida para acceso a fosos de elevadores instaladas en las naves de mantenimiento y talleres de Metro de Madrid",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Convocatoria anunciada a licitación",
-      "status": "Pendiente de adjudicación",
-      "expediente": "6012600206",
-      "publishedAt": "2026-09-04",
-      "updatedAt": "2026-09-04T00:06:00+02:00",
-      "deadline": "2026-09-03",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-revision-lineas-vida-horizontales-verticales-escaleras-verticales-linea-1",
-      "firstSeenAt": "2026-08-05T08:03:18.389Z"
     },
     {
       "id": "bocm:bocm-20260904-35",
@@ -218,23 +300,6 @@
       "deadline": "2026-10-02",
       "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-revisiones-normativa-equipos-accesorios-elevacion-cargas-metro-madrid",
       "firstSeenAt": "2026-09-03T09:40:54.691Z"
-    },
-    {
-      "id": "contratos:suministro-renovacion-equipamiento-seguridad-energia-linea-aerea-metro-madrid",
-      "source": "contratos",
-      "title": "Suministro para la renovación de equipamiento de seguridad para energía y línea aérea, para Metro de Madrid",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Adjudicada",
-      "status": "Adjudicada",
-      "expediente": "6012600079",
-      "publishedAt": "2026-09-03",
-      "updatedAt": "2026-09-03T08:27:36+02:00",
-      "deadline": "2026-04-14",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/suministro-renovacion-equipamiento-seguridad-energia-linea-aerea-metro-madrid",
-      "firstSeenAt": "2026-08-05T08:03:18.389Z",
-      "summary": "Id licitación: 6012600079;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 432380.00 EUR;",
-      "amount": 432380,
-      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-03/6012600079_ppt_signed.pdf"
     },
     {
       "id": "contratos:acuerdo-marco-trabajos-inspeccion-revision-control-desamiantado-0",
@@ -1584,23 +1649,6 @@
       "firstSeenAt": "2026-08-05T07:48:11.952Z"
     },
     {
-      "id": "contratos:suministro-renovacion-tecnologia-transporte-3-enlaces-e1-pseudowire-tdma-ip",
-      "source": "contratos",
-      "title": "Suministro de renovación de la tecnología de transporte de 3 enlaces E1 a Pseudowire TDMA sobre IP",
-      "summary": "Id licitación: 6012600193;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 24495.00 EUR;",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Convocatoria anunciada a licitación",
-      "status": "Pendiente de adjudicación",
-      "expediente": "6012600193",
-      "amount": 24495,
-      "deadline": "2026-08-18",
-      "publishedAt": "2026-08-19",
-      "updatedAt": "2026-08-19T00:10:00+02:00",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/suministro-renovacion-tecnologia-transporte-3-enlaces-e1-pseudowire-tdma-ip",
-      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-06/6012600193_referencia_al_ppt_y_anexo_signed.pdf",
-      "firstSeenAt": "2026-08-05T07:48:11.952Z"
-    },
-    {
       "id": "contratos:acuerdo-marco-suministro-medios-produccion-plan-renove-0",
       "source": "contratos",
       "title": "Acuerdo Marco para el suministro de medios de producción (Plan Renove)",
@@ -2595,20 +2643,6 @@
       "publishedAt": "2026-07-28",
       "updatedAt": "2026-07-28T13:47:00+02:00",
       "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/acuerdo-marco-suministro-repuestos-exclusivos-fabricante-schunk-iberica-sa-0",
-      "firstSeenAt": "2026-08-05T08:03:18.389Z"
-    },
-    {
-      "id": "contratos:acuerdo-marco-suministro-productos-iluminacion-cables-electricos-mantenimiento",
-      "source": "contratos",
-      "title": "Acuerdo Marco para el suministro de productos de iluminación y cables eléctricos para el mantenimiento de las instalaciones fijas y del material móvil de Metro Madrid",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Convocatoria anunciada a licitación",
-      "status": "Pendiente de adjudicación",
-      "expediente": "6012600170",
-      "publishedAt": "2026-07-28",
-      "updatedAt": "2026-07-28T12:45:00+02:00",
-      "deadline": "2026-07-14",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/acuerdo-marco-suministro-productos-iluminacion-cables-electricos-mantenimiento",
       "firstSeenAt": "2026-08-05T08:03:18.389Z"
     },
     {
