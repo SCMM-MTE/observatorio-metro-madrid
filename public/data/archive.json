@@ -1,32 +1,60 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-07T09:40:08.024Z",
+  "generatedAt": "2026-09-07T15:47:20.516Z",
   "coverage": {
-    "bocm": "2009-12-01 a 2026-09-04",
+    "bocm": "2009-12-01 a 2026-09-07",
     "contratos": "2017-02-02 a 2026-09-07",
     "empleo": "2016-10-31 a 2026-05-07"
   },
   "sources": {
     "bocm": {
-      "checkedAt": "2026-09-07T09:40:08.024Z",
+      "checkedAt": "2026-09-07T15:47:20.516Z",
       "ok": true,
-      "message": "2 registros relevantes comprobados; 14 documento(s) omitido(s) temporalmente",
+      "message": "2 registros relevantes comprobados; 13 documento(s) omitido(s) temporalmente",
       "recordsSeen": 2
     },
     "contratos": {
-      "checkedAt": "2026-09-07T09:40:08.024Z",
+      "checkedAt": "2026-09-07T15:47:20.516Z",
       "ok": true,
-      "message": "53 registros relevantes comprobados; 2 documento(s) omitido(s) temporalmente",
-      "recordsSeen": 53
+      "message": "58 registros relevantes comprobados",
+      "recordsSeen": 58
     },
     "empleo": {
-      "checkedAt": "2026-09-07T09:40:08.024Z",
+      "checkedAt": "2026-09-07T15:47:20.516Z",
       "ok": true,
       "message": "Consulta correcta, sin novedades relevantes",
       "recordsSeen": 0
     }
   },
   "items": [
+    {
+      "id": "contratos:acuerdo-marco-suministro-suscripcion-mantenimiento-licencias-aplicaciones-1",
+      "source": "contratos",
+      "title": "Acuerdo marco para el suministro para la suscripción y mantenimiento de licencias de aplicaciones informáticas comerciales de puesto cliente para Metro de Madrid.",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Convocatoria anunciada a licitación",
+      "status": "En plazo",
+      "expediente": "6012600241",
+      "publishedAt": "2026-09-07",
+      "updatedAt": "2026-09-07T14:47:00+02:00",
+      "deadline": "2026-11-03",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/acuerdo-marco-suministro-suscripcion-mantenimiento-licencias-aplicaciones-1",
+      "firstSeenAt": "2026-09-03T09:40:54.691Z"
+    },
+    {
+      "id": "contratos:servicio-inspecciones-periodicas-reglamentarias-ascensores-metro-madrid",
+      "source": "contratos",
+      "title": "Servicio de inspecciones periódicas reglamentarias para ascensores de Metro de Madrid",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Convocatoria anunciada a licitación",
+      "status": "En plazo",
+      "expediente": "6012600231",
+      "publishedAt": "2026-09-07",
+      "updatedAt": "2026-09-07T13:41:00+02:00",
+      "deadline": "2026-09-30",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-inspecciones-periodicas-reglamentarias-ascensores-metro-madrid",
+      "firstSeenAt": "2026-08-24T07:18:57.908Z"
+    },
     {
       "id": "contratos:acuerdo-marco-suministro-productos-iluminacion-cables-electricos-mantenimiento",
       "source": "contratos",
@@ -110,18 +138,21 @@
       "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-03/6012600079_ppt_signed.pdf"
     },
     {
-      "id": "contratos:acuerdo-marco-suministro-suscripcion-mantenimiento-licencias-aplicaciones-1",
+      "id": "contratos:servicio-revision-periodica-equipos-medicion-gases-multiples-metro-madrid",
       "source": "contratos",
-      "title": "Acuerdo marco para el suministro para la suscripción y mantenimiento de licencias de aplicaciones informáticas comerciales de puesto cliente para Metro de Madrid.",
+      "title": "Servicio de revisión periódica de los equipos de medición de gases múltiples para Metro de Madrid",
       "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Convocatoria anunciada a licitación",
-      "status": "En plazo",
-      "expediente": "6012600241",
+      "publicationType": "Pendiente de adjudicación",
+      "status": "Pendiente de adjudicación",
+      "expediente": "6012600183",
       "publishedAt": "2026-09-07",
-      "updatedAt": "2026-09-07T08:53:00+02:00",
-      "deadline": "2026-11-03",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/acuerdo-marco-suministro-suscripcion-mantenimiento-licencias-aplicaciones-1",
-      "firstSeenAt": "2026-09-03T09:40:54.691Z"
+      "updatedAt": "2026-09-07T08:34:54+02:00",
+      "deadline": "2026-07-20",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-revision-periodica-equipos-medicion-gases-multiples-metro-madrid",
+      "firstSeenAt": "2026-08-05T08:03:18.389Z",
+      "summary": "Id licitación: 6012600183;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 4600.00 EUR;",
+      "amount": 4600,
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-06/6012600183_ppt_signed.pdf"
     },
     {
       "id": "contratos:servicio-revision-lineas-vida-horizontales-verticales-escaleras-verticales-linea-1",
@@ -138,6 +169,74 @@
       "firstSeenAt": "2026-08-05T08:03:18.389Z"
     },
     {
+      "id": "contratos:soporte-mantenimiento-licencias-trustedx-metro-madrid-0",
+      "source": "contratos",
+      "title": "Soporte y mantenimiento de licencias de Trustedx para Metro de Madrid.",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Resuelta / Finalizada",
+      "status": "Resuelta / Finalizada",
+      "expediente": "6012600167",
+      "publishedAt": "2026-09-07",
+      "updatedAt": "2026-09-07T08:09:50+02:00",
+      "deadline": "2026-06-26",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/soporte-mantenimiento-licencias-trustedx-metro-madrid-0",
+      "firstSeenAt": "2026-08-05T08:03:18.389Z",
+      "summary": "Id licitación: 6012600167;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 62546.67 EUR;",
+      "amount": 62546.67,
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-06/6012600167_ppt_signed.pdf"
+    },
+    {
+      "id": "contratos:suministro-acoplamientos-elasticos-necesarios-mantenimiento-material-movil-metro",
+      "source": "contratos",
+      "title": "Suministro de acoplamientos elásticos necesarios para el mantenimiento del material móvil de Metro de Madrid",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Resuelta / Finalizada",
+      "status": "Resuelta / Finalizada",
+      "expediente": "6012400370",
+      "publishedAt": "2026-09-07",
+      "updatedAt": "2026-09-07T08:03:06+02:00",
+      "deadline": "2024-11-07",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/suministro-acoplamientos-elasticos-necesarios-mantenimiento-material-movil-metro",
+      "firstSeenAt": "2026-08-05T08:03:18.389Z",
+      "summary": "Id licitación: 6012400370;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 34650.00 EUR;",
+      "amount": 34650,
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2024-10/6012400370_pliego_de_prescripciones_tecnicas_signed.pdf"
+    },
+    {
+      "id": "contratos:renting-mantenimiento-fuentes-agua-refrigeradas-suministro-garrafas-agua-metro",
+      "source": "contratos",
+      "title": "Renting y mantenimiento de fuentes de agua refrigeradas y suministro de garrafas de agua, para Metro de Madrid",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Resuelta / Finalizada",
+      "status": "Resuelta / Finalizada",
+      "expediente": "6012600085",
+      "publishedAt": "2026-09-07",
+      "updatedAt": "2026-09-07T07:51:49+02:00",
+      "deadline": "2026-04-28",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/renting-mantenimiento-fuentes-agua-refrigeradas-suministro-garrafas-agua-metro",
+      "firstSeenAt": "2026-08-05T08:03:18.389Z",
+      "summary": "Id licitación: 6012600085;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 490080.69 EUR;",
+      "amount": 490080.69,
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-03/6012600085_pliego_de_prescripciones_tecnicas_signed.pdf"
+    },
+    {
+      "id": "contratos:obras-adaptacion-estructuras-metalicas-deposito-laguna-d08",
+      "source": "contratos",
+      "title": "Obras de adaptación de estructuras metálicas en depósito de Laguna-D08",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Resuelta / Finalizada",
+      "status": "Resuelta / Finalizada",
+      "expediente": "6012600087",
+      "publishedAt": "2026-09-07",
+      "updatedAt": "2026-09-07T07:50:33+02:00",
+      "deadline": "2026-04-09",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/obras-adaptacion-estructuras-metalicas-deposito-laguna-d08",
+      "firstSeenAt": "2026-08-05T08:03:18.389Z",
+      "summary": "Id licitación: 6012600087;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 950128.18 EUR;",
+      "amount": 950128.18,
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-03/6012600087_documento_ref._confidencialidad_signed.pdf"
+    },
+    {
       "id": "contratos:acuerdo-marco-obras-instalaciones-electricas-baja-tension-proyectos-operativos",
       "source": "contratos",
       "title": "Acuerdo marco para obras de instalaciones eléctricas de baja tensión para proyectos operativos y logísticos de Metro de Madrid.",
@@ -150,6 +249,22 @@
       "deadline": "2026-10-13",
       "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/acuerdo-marco-obras-instalaciones-electricas-baja-tension-proyectos-operativos",
       "firstSeenAt": "2026-09-07T09:40:08.024Z"
+    },
+    {
+      "id": "bocm:bocm-20260907-19",
+      "source": "bocm",
+      "title": "Adjudicación contrato – Anuncio de 2 de septiembre de 2026, de adjudicación del contrato titulado “Suministro para la renovación de equipamiento de seguridad para Energía y Línea Aérea, para Metro de Madrid” (Expediente 6012600079)",
+      "summary": "Adjudicación contrato – Anuncio de 2 de septiembre de 2026, de adjudicación del contrato titulado “Suministro para la renovación de equipamiento de seguridad para Energía y Línea Aérea, para Metro de Madrid” (Expediente 6012600079)",
+      "issuer": "CONSEJERÍA DE VIVIENDA, TRANSPORTES E INFRAESTRUCTURAS",
+      "publicationType": "ANUNCIO",
+      "publishedAt": "2026-09-07",
+      "url": "https://www.bocm.es/bocm-20260907-19?language=es",
+      "pdfUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/09/07/BOCM-20260907-19.PDF",
+      "xmlUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/09/07/BOCM-20260907-19.xml?language=es",
+      "tags": [
+        "I. COMUNIDAD DE MADRID · D) Anuncios"
+      ],
+      "firstSeenAt": "2026-09-07T15:47:20.516Z"
     },
     {
       "id": "contratos:servicio-provision-apoyo-desarrollo-programa-entrenamiento-personalizado-uso-3",
@@ -338,12 +453,12 @@
     {
       "id": "bocm:bocm-20260903-21",
       "source": "bocm",
-      "title": "Convocatoria contrato– Anuncio de 1 de septiembre de 2026, por el que se convoca la licitación para la contratación del servicio de revisiones normativa de equipos y accesorios de elevación de cargas para Metro de Madrid (Expediente 6012600240)",
-      "summary": "Convocatoria contrato– Anuncio de 1 de septiembre de 2026, por el que se convoca la licitación para la contratación del servicio de revisiones normativa de equipos y accesorios de elevación de cargas para Metro de Madrid (Expediente 6012600240)",
-      "issuer": "CONSEJERÍA DE VIVIENDA, TRANSPORTES E INFRAESTRUCTURAS · METRO DE MADRID, S. A.",
-      "publicationType": "Convocatoria contrato",
+      "title": "Convocatoria contrato – Anuncio de 1 de septiembre de 2026, por el que se convoca la licitación para la contratación del servicio de revisiones normativa de equipos y accesorios de elevación de cargas para Metro de Madrid (Expediente 6012600240)",
+      "summary": "Convocatoria contrato – Anuncio de 1 de septiembre de 2026, por el que se convoca la licitación para la contratación del servicio de revisiones normativa de equipos y accesorios de elevación de cargas para Metro de Madrid (Expediente 6012600240)",
+      "issuer": "CONSEJERÍA DE VIVIENDA, TRANSPORTES E INFRAESTRUCTURAS",
+      "publicationType": "ANUNCIO",
       "publishedAt": "2026-09-03",
-      "url": "https://www.bocm.es/bocm-20260903-21",
+      "url": "https://www.bocm.es/bocm-20260903-21?language=es",
       "pdfUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/09/03/BOCM-20260903-21.PDF",
       "xmlUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/09/03/BOCM-20260903-21.xml?language=es",
       "tags": [
@@ -546,20 +661,6 @@
       "summary": "Id licitación: 6012600120;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 8783586.54 EUR;",
       "amount": 8783586.54,
       "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-04/6012600120_ppt_signed.pdf"
-    },
-    {
-      "id": "contratos:servicio-revision-periodica-equipos-medicion-gases-multiples-metro-madrid",
-      "source": "contratos",
-      "title": "Servicio de revisión periódica de los equipos de medición de gases múltiples para Metro de Madrid",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Convocatoria anunciada a licitación",
-      "status": "Pendiente de adjudicación",
-      "expediente": "6012600183",
-      "publishedAt": "2026-09-01",
-      "updatedAt": "2026-09-01T12:53:00+02:00",
-      "deadline": "2026-07-20",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-revision-periodica-equipos-medicion-gases-multiples-metro-madrid",
-      "firstSeenAt": "2026-08-05T08:03:18.389Z"
     },
     {
       "id": "contratos:suministro-e-instalacion-canceladoras-apertura-portones-e-incremento-flujo",
@@ -774,23 +875,6 @@
       "summary": "Id licitación: 6012500119;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 550000.00 EUR;",
       "amount": 550000,
       "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2025-04/6012500119_ppt_signed.pdf"
-    },
-    {
-      "id": "contratos:renting-mantenimiento-fuentes-agua-refrigeradas-suministro-garrafas-agua-metro",
-      "source": "contratos",
-      "title": "Renting y mantenimiento de fuentes de agua refrigeradas y suministro de garrafas de agua, para Metro de Madrid",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Resuelta / Finalizada",
-      "status": "Resuelta / Finalizada",
-      "expediente": "6012600085",
-      "publishedAt": "2026-08-31",
-      "updatedAt": "2026-08-31T10:48:09+02:00",
-      "deadline": "2026-04-28",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/renting-mantenimiento-fuentes-agua-refrigeradas-suministro-garrafas-agua-metro",
-      "firstSeenAt": "2026-08-05T08:03:18.389Z",
-      "summary": "Id licitación: 6012600085;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 490080.69 EUR;",
-      "amount": 490080.69,
-      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-03/6012600085_pliego_de_prescripciones_tecnicas_signed.pdf"
     },
     {
       "id": "contratos:suministro-baterias-nicd-mantenimiento-trenes-serie-3000-metro-madrid",
@@ -1329,23 +1413,6 @@
       "firstSeenAt": "2026-08-05T08:03:18.389Z"
     },
     {
-      "id": "contratos:soporte-mantenimiento-licencias-trustedx-metro-madrid-0",
-      "source": "contratos",
-      "title": "Soporte y mantenimiento de licencias de Trustedx para Metro de Madrid.",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Adjudicada",
-      "status": "Adjudicada",
-      "expediente": "6012600167",
-      "publishedAt": "2026-08-25",
-      "updatedAt": "2026-08-25T08:57:03+02:00",
-      "deadline": "2026-06-26",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/soporte-mantenimiento-licencias-trustedx-metro-madrid-0",
-      "firstSeenAt": "2026-08-05T08:03:18.389Z",
-      "summary": "Id licitación: 6012600167;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 62546.67 EUR;",
-      "amount": 62546.67,
-      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-06/6012600167_ppt_signed.pdf"
-    },
-    {
       "id": "contratos:servicio-polizas-seguros-responsabilidad-civil-profesional-metro-madrid-rcp-rcp",
       "source": "contratos",
       "title": "Servicio de pólizas de seguros de responsabilidad civil profesional de Metro de Madrid: RCP y RCP-Lima",
@@ -1378,20 +1445,6 @@
       "summary": "Id licitación: 6012400361;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 2805911.92 EUR;",
       "amount": 2805911.92,
       "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2024-10/6012400361_pliego_de_prescripciones_tecnicas_signed.pdf"
-    },
-    {
-      "id": "contratos:servicio-inspecciones-periodicas-reglamentarias-ascensores-metro-madrid",
-      "source": "contratos",
-      "title": "Servicio de inspecciones periódicas reglamentarias para ascensores de Metro de Madrid",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Convocatoria anunciada a licitación",
-      "status": "En plazo",
-      "expediente": "6012600231",
-      "publishedAt": "2026-08-24",
-      "updatedAt": "2026-08-24T08:55:00+02:00",
-      "deadline": "2026-09-30",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-inspecciones-periodicas-reglamentarias-ascensores-metro-madrid",
-      "firstSeenAt": "2026-08-24T07:18:57.908Z"
     },
     {
       "id": "contratos:servicio-imparticion-sesiones-divulgativas-basicas-reanimacion-cardiopulmonar-uso",
@@ -2616,20 +2669,6 @@
       "updatedAt": "2026-07-29T13:31:00+02:00",
       "deadline": "2026-06-18",
       "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-soporte-especializado-apoyo-gestion-administracion-plataforma-gestion-6",
-      "firstSeenAt": "2026-08-05T08:03:18.389Z"
-    },
-    {
-      "id": "contratos:obras-adaptacion-estructuras-metalicas-deposito-laguna-d08",
-      "source": "contratos",
-      "title": "Obras de adaptación de estructuras metálicas en depósito de Laguna-D08",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Convocatoria anunciada a licitación",
-      "status": "Adjudicada",
-      "expediente": "6012600087",
-      "publishedAt": "2026-07-29",
-      "updatedAt": "2026-07-29T08:14:00+02:00",
-      "deadline": "2026-04-09",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/obras-adaptacion-estructuras-metalicas-deposito-laguna-d08",
       "firstSeenAt": "2026-08-05T08:03:18.389Z"
     },
     {
@@ -26341,20 +26380,6 @@
       "updatedAt": "2024-12-27T13:37:00+02:00",
       "deadline": "2024-10-01",
       "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-mantenimiento-reparacion-sustitucion-eslingas-utiles-elevacion-metro",
-      "firstSeenAt": "2026-08-05T08:03:18.389Z"
-    },
-    {
-      "id": "contratos:suministro-acoplamientos-elasticos-necesarios-mantenimiento-material-movil-metro",
-      "source": "contratos",
-      "title": "Suministro de acoplamientos elásticos necesarios para el mantenimiento del material móvil de Metro de Madrid",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Convocatoria anunciada a licitación",
-      "status": "Resuelta / Finalizada",
-      "expediente": "6012400370",
-      "publishedAt": "2024-12-27",
-      "updatedAt": "2024-12-27T13:36:00+02:00",
-      "deadline": "2024-11-07",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/suministro-acoplamientos-elasticos-necesarios-mantenimiento-material-movil-metro",
       "firstSeenAt": "2026-08-05T08:03:18.389Z"
     },
     {
