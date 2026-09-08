@@ -1,32 +1,134 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-08T06:30:56.620Z",
+  "generatedAt": "2026-09-08T11:42:44.971Z",
   "coverage": {
     "bocm": "2009-12-01 a 2026-09-07",
-    "contratos": "2017-02-02 a 2026-09-07",
+    "contratos": "2017-02-02 a 2026-09-08",
     "empleo": "2016-10-31 a 2026-05-07"
   },
   "sources": {
     "bocm": {
-      "checkedAt": "2026-09-08T06:30:56.620Z",
+      "checkedAt": "2026-09-08T11:42:44.971Z",
       "ok": true,
-      "message": "2 registros relevantes comprobados; 15 documento(s) omitido(s) temporalmente",
-      "recordsSeen": 2
+      "message": "16 registros relevantes comprobados",
+      "recordsSeen": 16
     },
     "contratos": {
-      "checkedAt": "2026-09-08T06:30:56.620Z",
+      "checkedAt": "2026-09-08T11:42:44.971Z",
       "ok": true,
-      "message": "53 registros relevantes comprobados",
-      "recordsSeen": 53
+      "message": "56 registros relevantes comprobados",
+      "recordsSeen": 56
     },
     "empleo": {
-      "checkedAt": "2026-09-08T06:30:56.620Z",
+      "checkedAt": "2026-09-08T11:42:44.971Z",
       "ok": true,
       "message": "Consulta correcta, sin novedades relevantes",
       "recordsSeen": 0
     }
   },
   "items": [
+    {
+      "id": "contratos:servicio-reparacion-tarjetas-control-equipos-climatizacion-series-3000-9000",
+      "source": "contratos",
+      "title": "Servicio de reparación de las tarjetas de control de los equipos de climatización de las series 3000 y 9000",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Resuelta / Finalizada",
+      "status": "Resuelta / Finalizada",
+      "expediente": "6012600168",
+      "publishedAt": "2026-09-08",
+      "updatedAt": "2026-09-08T11:40:23+02:00",
+      "deadline": "2026-07-03",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-reparacion-tarjetas-control-equipos-climatizacion-series-3000-9000",
+      "firstSeenAt": "2026-08-05T08:03:18.389Z",
+      "summary": "Id licitación: 6012600168;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 116250.00 EUR;",
+      "amount": 116250,
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-06/6012600168_referencia_al_pliego_de_prescripciones_tecnicas_y_anexos_del_ppt_signed.pdf"
+    },
+    {
+      "id": "contratos:acuerdo-marco-suministro-medios-produccion-plan-renove-0",
+      "source": "contratos",
+      "title": "Acuerdo Marco para el suministro de medios de producción (Plan Renove)",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Pendiente de adjudicación",
+      "status": "Pendiente de adjudicación",
+      "expediente": "6012600021",
+      "publishedAt": "2026-09-08",
+      "updatedAt": "2026-09-08T11:08:46+02:00",
+      "deadline": "2026-02-26",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/acuerdo-marco-suministro-medios-produccion-plan-renove-0",
+      "firstSeenAt": "2026-08-05T08:03:18.389Z",
+      "summary": "Id licitación: 6012600021;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 600000.00 EUR;",
+      "amount": 600000,
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-01/6012600021_pliego_de_prescripciones_tecnicas_signed.pdf"
+    },
+    {
+      "id": "contratos:servicio-reparacion-defectos-inspeccionrevision-reglamentaria-instalaciones-baja-0",
+      "source": "contratos",
+      "title": "Servicio de reparación defectos tras inspección/revisión reglamentaria en instalaciones de baja tensión para Metro de Madrid",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Pendiente de adjudicación",
+      "status": "Pendiente de adjudicación",
+      "expediente": "6012600096",
+      "publishedAt": "2026-09-08",
+      "updatedAt": "2026-09-08T10:27:02+02:00",
+      "deadline": "2026-05-05",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-reparacion-defectos-inspeccionrevision-reglamentaria-instalaciones-baja-0",
+      "firstSeenAt": "2026-08-05T08:03:18.389Z",
+      "summary": "Id licitación: 6012600096;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 1914995.92 EUR;",
+      "amount": 1914995.92,
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-03/6012600096_ppt_signed.pdf"
+    },
+    {
+      "id": "contratos:acuerdo-marco-servicios-asistencia-tecnica-control-gestion-medioambiental-servicio",
+      "source": "contratos",
+      "title": "Acuerdo marco para servicios de asistencia técnica y control de la gestión medioambiental del servicio de superestructura de vía de Metro de Madrid S.A.",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Pendiente de adjudicación",
+      "status": "Pendiente de adjudicación",
+      "expediente": "6012600181",
+      "publishedAt": "2026-09-08",
+      "updatedAt": "2026-09-08T10:13:59+02:00",
+      "deadline": "2026-07-21",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/acuerdo-marco-servicios-asistencia-tecnica-control-gestion-medioambiental-servicio",
+      "firstSeenAt": "2026-08-05T08:03:18.389Z",
+      "summary": "Id licitación: 6012600181;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 2800000.00 EUR;",
+      "amount": 2800000,
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-06/6012600181_ppt_signed.pdf"
+    },
+    {
+      "id": "contratos:acuerdo-marco-suministro-equipos-proteccion-individual-epis-proteccion-colectiva",
+      "source": "contratos",
+      "title": "Acuerdo marco para el suministro de Equipos de Protección Individual (EPIS), protección colectiva y señalización de personal, empleados durante las operaciones de mantenimiento de las instalaciones y del material móvil y tareas diarias del personal de Metro Madrid",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Pendiente de adjudicación",
+      "status": "Pendiente de adjudicación",
+      "expediente": "6012600179",
+      "publishedAt": "2026-09-08",
+      "updatedAt": "2026-09-08T09:43:13+02:00",
+      "deadline": "2026-07-17",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/acuerdo-marco-suministro-equipos-proteccion-individual-epis-proteccion-colectiva",
+      "firstSeenAt": "2026-08-05T08:03:18.389Z",
+      "summary": "Id licitación: 6012600179;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 1000000.00 EUR;",
+      "amount": 1000000,
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-06/6012600179_ppt_signed.pdf"
+    },
+    {
+      "id": "contratos:direccion-obras-coordinacion-seguridad-salud-asistencia-tecnica-obras-ejecucion",
+      "source": "contratos",
+      "title": "Dirección de las obras, coordinación de seguridad y salud y asistencia técnica de las obras de ejecución de instalaciones, y de las obras de ejecución de la señalización, para la ampliación de la línea 11 de metro de Madrid. Tramo Plaza Elíptica-Conde de Casal",
+      "summary": "Id licitación: A/SER-031843/2025;Órgano de Contratación: Consejería de Vivienda, Transportes e Infraestructuras;Importe: 12286984.15 EUR;",
+      "issuer": "Consejería de Vivienda, Transportes e Infraestructuras",
+      "publicationType": "Adjudicada",
+      "status": "Adjudicada",
+      "expediente": "A/SER-031843/2025",
+      "amount": 12286984.15,
+      "deadline": "2026-03-02",
+      "publishedAt": "2026-09-08",
+      "updatedAt": "2026-09-08T08:52:08+02:00",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/direccion-obras-coordinacion-seguridad-salud-asistencia-tecnica-obras-ejecucion",
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2025-12/ser.31843.2025_ppt.an.pdf",
+      "firstSeenAt": "2026-08-12T11:55:17.677Z"
+    },
     {
       "id": "contratos:acuerdo-marco-suministro-suscripcion-mantenimiento-licencias-aplicaciones-1",
       "source": "contratos",
@@ -678,23 +780,6 @@
       "summary": "Id licitación: 6012500181;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 429454.46 EUR;",
       "amount": 429454.46,
       "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2025-07/6012500181_ppt_signed.pdf"
-    },
-    {
-      "id": "contratos:servicio-reparacion-defectos-inspeccionrevision-reglamentaria-instalaciones-baja-0",
-      "source": "contratos",
-      "title": "Servicio de reparación defectos tras inspección/revisión reglamentaria en instalaciones de baja tensión para Metro de Madrid",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Pendiente de adjudicación",
-      "status": "Pendiente de adjudicación",
-      "expediente": "6012600096",
-      "publishedAt": "2026-09-01",
-      "updatedAt": "2026-09-01T11:30:25+02:00",
-      "deadline": "2026-05-05",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-reparacion-defectos-inspeccionrevision-reglamentaria-instalaciones-baja-0",
-      "firstSeenAt": "2026-08-05T08:03:18.389Z",
-      "summary": "Id licitación: 6012600096;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 1914995.92 EUR;",
-      "amount": 1914995.92,
-      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-03/6012600096_ppt_signed.pdf"
     },
     {
       "id": "contratos:servicio-redaccion-proyecto-construccion-nueva-estacion-linea-9-metro-desarrollos",
@@ -1702,23 +1787,6 @@
       "firstSeenAt": "2026-08-05T07:48:11.952Z"
     },
     {
-      "id": "contratos:acuerdo-marco-suministro-medios-produccion-plan-renove-0",
-      "source": "contratos",
-      "title": "Acuerdo Marco para el suministro de medios de producción (Plan Renove)",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Pendiente de adjudicación",
-      "status": "Pendiente de adjudicación",
-      "expediente": "6012600021",
-      "publishedAt": "2026-08-18",
-      "updatedAt": "2026-08-18T12:24:29+02:00",
-      "deadline": "2026-02-26",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/acuerdo-marco-suministro-medios-produccion-plan-renove-0",
-      "firstSeenAt": "2026-08-05T08:03:18.389Z",
-      "summary": "Id licitación: 6012600021;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 600000.00 EUR;",
-      "amount": 600000,
-      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-01/6012600021_pliego_de_prescripciones_tecnicas_signed.pdf"
-    },
-    {
       "id": "contratos:suministro-suspension-primaria-7000-9000-mantenimiento-vehiculos-material-movil",
       "source": "contratos",
       "title": "Suministro de “Suspensión primaria 7000 9000” para el mantenimiento de los vehículos de material móvil de Metro de Madrid, S.A.",
@@ -1919,23 +1987,6 @@
       "pdfUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/08/13/BOCM-20260813-22.PDF",
       "xmlUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/08/13/BOCM-20260813-22.xml?language=es",
       "firstSeenAt": "2026-08-13T08:40:11.488Z"
-    },
-    {
-      "id": "contratos:direccion-obras-coordinacion-seguridad-salud-asistencia-tecnica-obras-ejecucion",
-      "source": "contratos",
-      "title": "Dirección de las obras, coordinación de seguridad y salud y asistencia técnica de las obras de ejecución de instalaciones, y de las obras de ejecución de la señalización, para la ampliación de la línea 11 de metro de Madrid. Tramo Plaza Elíptica-Conde de Casal",
-      "summary": "Id licitación: A/SER-031843/2025;Órgano de Contratación: Consejería de Vivienda, Transportes e Infraestructuras;Importe: 12286984.15 EUR;",
-      "issuer": "Consejería de Vivienda, Transportes e Infraestructuras",
-      "publicationType": "Pendiente de adjudicación",
-      "status": "Pendiente de adjudicación",
-      "expediente": "A/SER-031843/2025",
-      "amount": 12286984.15,
-      "deadline": "2026-03-02",
-      "publishedAt": "2026-08-12",
-      "updatedAt": "2026-08-12T13:53:51+02:00",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/direccion-obras-coordinacion-seguridad-salud-asistencia-tecnica-obras-ejecucion",
-      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2025-12/ser.31843.2025_ppt.an.pdf",
-      "firstSeenAt": "2026-08-12T11:55:17.677Z"
     },
     {
       "id": "contratos:acuerdo-marco-servicios-consultoria-servicio-superestructura-via-metro-madrid",
@@ -2685,20 +2736,6 @@
       "firstSeenAt": "2026-08-05T08:03:18.389Z"
     },
     {
-      "id": "contratos:acuerdo-marco-suministro-equipos-proteccion-individual-epis-proteccion-colectiva",
-      "source": "contratos",
-      "title": "Acuerdo marco para el suministro de Equipos de Protección Individual (EPIS), protección colectiva y señalización de personal, empleados durante las operaciones de mantenimiento de las instalaciones y del material móvil y tareas diarias del personal de Metro Madrid",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Convocatoria anunciada a licitación",
-      "status": "Pendiente de adjudicación",
-      "expediente": "6012600179",
-      "publishedAt": "2026-07-28",
-      "updatedAt": "2026-07-28T11:35:00+02:00",
-      "deadline": "2026-07-17",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/acuerdo-marco-suministro-equipos-proteccion-individual-epis-proteccion-colectiva",
-      "firstSeenAt": "2026-08-05T08:03:18.389Z"
-    },
-    {
       "id": "contratos:suministro-instalacion-puesta-servicio-mantenimiento-puertas-anden-linea-6-metro",
       "source": "contratos",
       "title": "Suministro, instalación, puesta en servicio y mantenimiento de puertas de andén en la Línea 6 de Metro de Madrid",
@@ -2710,20 +2747,6 @@
       "updatedAt": "2026-07-28T09:23:00+02:00",
       "deadline": "2024-10-01",
       "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/suministro-instalacion-puesta-servicio-mantenimiento-puertas-anden-linea-6-metro",
-      "firstSeenAt": "2026-08-05T08:03:18.389Z"
-    },
-    {
-      "id": "contratos:acuerdo-marco-servicios-asistencia-tecnica-control-gestion-medioambiental-servicio",
-      "source": "contratos",
-      "title": "Acuerdo marco para servicios de asistencia técnica y control de la gestión medioambiental del servicio de superestructura de vía de Metro de Madrid S.A.",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Convocatoria anunciada a licitación",
-      "status": "Pendiente de adjudicación",
-      "expediente": "6012600181",
-      "publishedAt": "2026-07-28",
-      "updatedAt": "2026-07-28T09:18:00+02:00",
-      "deadline": "2026-07-21",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/acuerdo-marco-servicios-asistencia-tecnica-control-gestion-medioambiental-servicio",
       "firstSeenAt": "2026-08-05T08:03:18.389Z"
     },
     {
@@ -3229,20 +3252,6 @@
       "updatedAt": "2026-07-20T12:31:00+02:00",
       "deadline": "2026-06-16",
       "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/suministro-e-instalacion-soluciones-comunicacion-satelital",
-      "firstSeenAt": "2026-08-05T08:03:18.389Z"
-    },
-    {
-      "id": "contratos:servicio-reparacion-tarjetas-control-equipos-climatizacion-series-3000-9000",
-      "source": "contratos",
-      "title": "Servicio de reparación de las tarjetas de control de los equipos de climatización de las series 3000 y 9000",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Convocatoria anunciada a licitación",
-      "status": "Pendiente de adjudicación",
-      "expediente": "6012600168",
-      "publishedAt": "2026-07-20",
-      "updatedAt": "2026-07-20T11:19:00+02:00",
-      "deadline": "2026-07-03",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-reparacion-tarjetas-control-equipos-climatizacion-series-3000-9000",
       "firstSeenAt": "2026-08-05T08:03:18.389Z"
     },
     {
