@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-09T10:04:46.739Z",
+  "generatedAt": "2026-09-09T14:31:50.663Z",
   "coverage": {
     "bocm": "2009-12-01 a 2026-09-09",
     "contratos": "2017-02-02 a 2026-09-09",
@@ -8,25 +8,154 @@
   },
   "sources": {
     "bocm": {
-      "checkedAt": "2026-09-09T10:04:46.739Z",
+      "checkedAt": "2026-09-09T14:31:50.663Z",
       "ok": true,
-      "message": "15 registros relevantes comprobados; 11 documento(s) omitido(s) temporalmente",
+      "message": "15 registros relevantes comprobados",
       "recordsSeen": 15
     },
     "contratos": {
-      "checkedAt": "2026-09-09T10:04:46.739Z",
+      "checkedAt": "2026-09-09T14:31:50.663Z",
       "ok": true,
-      "message": "53 registros relevantes comprobados",
-      "recordsSeen": 53
+      "message": "58 registros relevantes comprobados",
+      "recordsSeen": 58
     },
     "empleo": {
-      "checkedAt": "2026-09-09T10:04:46.739Z",
+      "checkedAt": "2026-09-09T14:31:50.663Z",
       "ok": true,
       "message": "Consulta correcta, sin novedades relevantes",
       "recordsSeen": 0
     }
   },
   "items": [
+    {
+      "id": "contratos:suministro-acoplamientos-elasticos-necesarios-mantenimiento-material-movil-metro",
+      "source": "contratos",
+      "title": "Suministro de acoplamientos elásticos necesarios para el mantenimiento del material móvil de Metro de Madrid",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Resuelta / Finalizada",
+      "status": "Resuelta / Finalizada",
+      "expediente": "6012400370",
+      "publishedAt": "2026-09-09",
+      "updatedAt": "2026-09-09T13:28:23+02:00",
+      "deadline": "2024-11-07",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/suministro-acoplamientos-elasticos-necesarios-mantenimiento-material-movil-metro",
+      "firstSeenAt": "2026-08-05T08:03:18.389Z",
+      "summary": "Id licitación: 6012400370;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 34650.00 EUR;",
+      "amount": 34650,
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2024-10/6012400370_pliego_de_prescripciones_tecnicas_signed.pdf"
+    },
+    {
+      "id": "contratos:suministro-repuestos-mantenimiento-equipos-venta-peaje-fabricante-thales-espana",
+      "source": "contratos",
+      "title": "Suministro de repuestos para el mantenimiento de los equipos de venta y peaje del fabricante Thales España instalados a lo largo de la red de Metro de Madrid",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Resuelta / Finalizada",
+      "status": "Resuelta / Finalizada",
+      "expediente": "6012300285",
+      "publishedAt": "2026-09-09",
+      "updatedAt": "2026-09-09T13:19:34+02:00",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/suministro-repuestos-mantenimiento-equipos-venta-peaje-fabricante-thales-espana",
+      "firstSeenAt": "2026-08-05T08:03:18.389Z",
+      "summary": "Id licitación: 6012300285;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 112750.00 EUR;",
+      "amount": 112750,
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2023-11/6012300285_pliego_de_prescripciones_tecnicas.pdf"
+    },
+    {
+      "id": "contratos:soporte-tecnico-avanzado-gestion-administracion-plataforma-big-data-servicios-0",
+      "source": "contratos",
+      "title": "Soporte técnico avanzado para la gestión y administración de la plataforma Big Data y servicios integrados",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Convocatoria anunciada a licitación",
+      "status": "Pendiente de adjudicación",
+      "expediente": "6012600210",
+      "publishedAt": "2026-09-09",
+      "updatedAt": "2026-09-09T13:15:00+02:00",
+      "deadline": "2026-09-08",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/soporte-tecnico-avanzado-gestion-administracion-plataforma-big-data-servicios-0",
+      "firstSeenAt": "2026-08-05T08:03:18.389Z"
+    },
+    {
+      "id": "contratos:obras-construccion-ampliacion-red-metro-madrid-barrio-valdebebas-tramos-1-2",
+      "source": "contratos",
+      "title": "Obras de construcción de la ampliación de la red de Metro de Madrid al barrio de Valdebebas. Tramos 1 y 2.",
+      "summary": "Id licitación: A/OBR-013816/2026;Órgano de Contratación: Consejería de Vivienda, Transportes e Infraestructuras;Importe: 873292499.72 EUR;",
+      "issuer": "Consejería de Vivienda, Transportes e Infraestructuras",
+      "publicationType": "En plazo",
+      "status": "En plazo",
+      "expediente": "A/OBR-013816/2026",
+      "amount": 873292499.72,
+      "deadline": "2026-10-05",
+      "publishedAt": "2026-09-09",
+      "updatedAt": "2026-09-09T12:48:52+02:00",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/obras-construccion-ampliacion-red-metro-madrid-barrio-valdebebas-tramos-1-2",
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-07/obr.13816.2026_pcap_18.06.2026.pdf",
+      "firstSeenAt": "2026-08-14T13:59:16.760Z"
+    },
+    {
+      "id": "contratos:suministro-suscripcion-licencias-solucion-gestion-dispositivos-moviles-mobile",
+      "source": "contratos",
+      "title": "Suministro mediante suscripción de las licencias de la solución de gestión de dispositivos móviles (Mobile Device Management)",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Convocatoria anunciada a licitación",
+      "status": "Pendiente de adjudicación",
+      "expediente": "6012600213",
+      "publishedAt": "2026-09-09",
+      "updatedAt": "2026-09-09T12:45:00+02:00",
+      "deadline": "2026-09-08",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/suministro-suscripcion-licencias-solucion-gestion-dispositivos-moviles-mobile",
+      "firstSeenAt": "2026-08-05T08:03:18.389Z"
+    },
+    {
+      "id": "contratos:contrato-direccion-obra-coordinacion-seguridad-salud-asistencia-tecnica-obras",
+      "source": "contratos",
+      "title": "Contrato de dirección de obra, coordinación de seguridad y salud y asistencia técnica de las obras de construcción de la ampliación de la red de metro de madrid al barrio de Valdebebas. Tramos 1 y 2 (cuatro lotes)",
+      "summary": "Id licitación: A/SER-014572/2026;Órgano de Contratación: Consejería de Vivienda, Transportes e Infraestructuras;Importe: 52158125.73 EUR;",
+      "issuer": "Consejería de Vivienda, Transportes e Infraestructuras",
+      "publicationType": "En plazo",
+      "status": "En plazo",
+      "expediente": "A/SER-014572/2026",
+      "amount": 52158125.73,
+      "deadline": "2026-10-15",
+      "publishedAt": "2026-09-09",
+      "updatedAt": "2026-09-09T12:31:04+02:00",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/contrato-direccion-obra-coordinacion-seguridad-salud-asistencia-tecnica-obras",
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-07/ser.14572.2026_ppt_an.pdf",
+      "firstSeenAt": "2026-08-14T13:59:16.760Z"
+    },
+    {
+      "id": "contratos:servicio-mantenimiento-integral-maquinas-automaticas-venta-titulos-transporte-0",
+      "source": "contratos",
+      "title": "Servicio de mantenimiento integral de máquinas automáticas de venta de títulos de transporte",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Pendiente de adjudicación",
+      "status": "Pendiente de adjudicación",
+      "expediente": "6012600120",
+      "publishedAt": "2026-09-09",
+      "updatedAt": "2026-09-09T12:25:41+02:00",
+      "deadline": "2026-06-03",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-mantenimiento-integral-maquinas-automaticas-venta-titulos-transporte-0",
+      "firstSeenAt": "2026-08-05T08:03:18.389Z",
+      "summary": "Id licitación: 6012600120;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 8783586.54 EUR;",
+      "amount": 8783586.54,
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-04/6012600120_ppt_signed.pdf"
+    },
+    {
+      "id": "contratos:obras-equipos-senalizacion-derivados-actuaciones-plataforma-via-metro-madrid",
+      "source": "contratos",
+      "title": "Obras en los equipos de señalización derivados de actuaciones en plataforma de vía de Metro de Madrid",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Resuelta / Finalizada",
+      "status": "Resuelta / Finalizada",
+      "expediente": "6012000027",
+      "publishedAt": "2026-09-09",
+      "updatedAt": "2026-09-09T12:14:53+02:00",
+      "deadline": "2020-02-19",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/obras-equipos-senalizacion-derivados-actuaciones-plataforma-via-metro-madrid",
+      "firstSeenAt": "2026-08-05T08:03:18.389Z",
+      "summary": "Id licitación: 6012000027;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 515392.13 EUR;Estado: 3Cerrada",
+      "amount": 515392.13,
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2020-01/6012000027_pliego_de_prescripciones_tecnicas_signed.pdf"
+    },
     {
       "id": "contratos:servicio-reparacion-defectos-inspeccionrevision-reglamentaria-instalaciones-baja-0",
       "source": "contratos",
@@ -107,20 +236,6 @@
       "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-06/6012600174_pliego_de_prescripciones_tecnicas_signed.pdf"
     },
     {
-      "id": "contratos:suministro-suscripcion-licencias-solucion-gestion-dispositivos-moviles-mobile",
-      "source": "contratos",
-      "title": "Suministro mediante suscripción de las licencias de la solución de gestión de dispositivos móviles (Mobile Device Management)",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Convocatoria anunciada a licitación",
-      "status": "Pendiente de adjudicación",
-      "expediente": "6012600213",
-      "publishedAt": "2026-09-09",
-      "updatedAt": "2026-09-09T00:01:00+02:00",
-      "deadline": "2026-09-08",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/suministro-suscripcion-licencias-solucion-gestion-dispositivos-moviles-mobile",
-      "firstSeenAt": "2026-08-05T08:03:18.389Z"
-    },
-    {
       "id": "contratos:suministro-licencia-uso-cartografia-comunidad-madrid-0",
       "source": "contratos",
       "title": "Suministro de licencia de uso de la cartografía de la Comunidad de Madrid",
@@ -132,20 +247,6 @@
       "updatedAt": "2026-09-09T00:01:00+02:00",
       "deadline": "2026-09-08",
       "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/suministro-licencia-uso-cartografia-comunidad-madrid-0",
-      "firstSeenAt": "2026-08-05T08:03:18.389Z"
-    },
-    {
-      "id": "contratos:soporte-tecnico-avanzado-gestion-administracion-plataforma-big-data-servicios-0",
-      "source": "contratos",
-      "title": "Soporte técnico avanzado para la gestión y administración de la plataforma Big Data y servicios integrados",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Convocatoria anunciada a licitación",
-      "status": "Pendiente de adjudicación",
-      "expediente": "6012600210",
-      "publishedAt": "2026-09-09",
-      "updatedAt": "2026-09-09T00:01:00+02:00",
-      "deadline": "2026-09-08",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/soporte-tecnico-avanzado-gestion-administracion-plataforma-big-data-servicios-0",
       "firstSeenAt": "2026-08-05T08:03:18.389Z"
     },
     {
@@ -417,23 +518,6 @@
       "summary": "Id licitación: 6012600167;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 62546.67 EUR;",
       "amount": 62546.67,
       "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-06/6012600167_ppt_signed.pdf"
-    },
-    {
-      "id": "contratos:suministro-acoplamientos-elasticos-necesarios-mantenimiento-material-movil-metro",
-      "source": "contratos",
-      "title": "Suministro de acoplamientos elásticos necesarios para el mantenimiento del material móvil de Metro de Madrid",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Resuelta / Finalizada",
-      "status": "Resuelta / Finalizada",
-      "expediente": "6012400370",
-      "publishedAt": "2026-09-07",
-      "updatedAt": "2026-09-07T08:03:06+02:00",
-      "deadline": "2024-11-07",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/suministro-acoplamientos-elasticos-necesarios-mantenimiento-material-movil-metro",
-      "firstSeenAt": "2026-08-05T08:03:18.389Z",
-      "summary": "Id licitación: 6012400370;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 34650.00 EUR;",
-      "amount": 34650,
-      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2024-10/6012400370_pliego_de_prescripciones_tecnicas_signed.pdf"
     },
     {
       "id": "contratos:renting-mantenimiento-fuentes-agua-refrigeradas-suministro-garrafas-agua-metro",
@@ -879,23 +963,6 @@
       "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-05/6012600143_pliego_de_prescripciones_tecnicas_signed.pdf"
     },
     {
-      "id": "contratos:servicio-mantenimiento-integral-maquinas-automaticas-venta-titulos-transporte-0",
-      "source": "contratos",
-      "title": "Servicio de mantenimiento integral de máquinas automáticas de venta de títulos de transporte",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Pendiente de adjudicación",
-      "status": "Pendiente de adjudicación",
-      "expediente": "6012600120",
-      "publishedAt": "2026-09-01",
-      "updatedAt": "2026-09-01T13:11:43+02:00",
-      "deadline": "2026-06-03",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-mantenimiento-integral-maquinas-automaticas-venta-titulos-transporte-0",
-      "firstSeenAt": "2026-08-05T08:03:18.389Z",
-      "summary": "Id licitación: 6012600120;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 8783586.54 EUR;",
-      "amount": 8783586.54,
-      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-04/6012600120_ppt_signed.pdf"
-    },
-    {
       "id": "contratos:suministro-e-instalacion-canceladoras-apertura-portones-e-incremento-flujo",
       "source": "contratos",
       "title": "Suministro e instalación de canceladoras para la apertura de portones e incremento del flujo de viajeros para Metro de Madrid",
@@ -1172,22 +1239,6 @@
       "summary": "Id licitación: 6012500039;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 55212.26 EUR;",
       "amount": 55212.26,
       "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2025-01/6012500039_pliego_de_prescripciones_tecnicas_signed.pdf"
-    },
-    {
-      "id": "contratos:suministro-repuestos-mantenimiento-equipos-venta-peaje-fabricante-thales-espana",
-      "source": "contratos",
-      "title": "Suministro de repuestos para el mantenimiento de los equipos de venta y peaje del fabricante Thales España instalados a lo largo de la red de Metro de Madrid",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Resuelta / Finalizada",
-      "status": "Resuelta / Finalizada",
-      "expediente": "6012300285",
-      "publishedAt": "2026-08-28",
-      "updatedAt": "2026-08-28T11:36:56+02:00",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/suministro-repuestos-mantenimiento-equipos-venta-peaje-fabricante-thales-espana",
-      "firstSeenAt": "2026-08-05T08:03:18.389Z",
-      "summary": "Id licitación: 6012300285;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 112750.00 EUR;",
-      "amount": 112750,
-      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2023-11/6012300285_pliego_de_prescripciones_tecnicas.pdf"
     },
     {
       "id": "contratos:suministro-andamios-regimen-alquiler",
@@ -1948,40 +1999,6 @@
       "tags": [
         "I. COMUNIDAD DE MADRID · D) Anuncios"
       ]
-    },
-    {
-      "id": "contratos:obras-construccion-ampliacion-red-metro-madrid-barrio-valdebebas-tramos-1-2",
-      "source": "contratos",
-      "title": "Obras de construcción de la ampliación de la red de Metro de Madrid al barrio de Valdebebas. Tramos 1 y 2.",
-      "summary": "Id licitación: A/OBR-013816/2026;Órgano de Contratación: Consejería de Vivienda, Transportes e Infraestructuras;Importe: 873292499.72 EUR;",
-      "issuer": "Consejería de Vivienda, Transportes e Infraestructuras",
-      "publicationType": "En plazo",
-      "status": "En plazo",
-      "expediente": "A/OBR-013816/2026",
-      "amount": 873292499.72,
-      "deadline": "2026-09-21",
-      "publishedAt": "2026-08-14",
-      "updatedAt": "2026-08-14T14:45:31+02:00",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/obras-construccion-ampliacion-red-metro-madrid-barrio-valdebebas-tramos-1-2",
-      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-07/obr.13816.2026_pcap_18.06.2026.pdf",
-      "firstSeenAt": "2026-08-14T13:59:16.760Z"
-    },
-    {
-      "id": "contratos:contrato-direccion-obra-coordinacion-seguridad-salud-asistencia-tecnica-obras",
-      "source": "contratos",
-      "title": "Contrato de dirección de obra, coordinación de seguridad y salud y asistencia técnica de las obras de construcción de la ampliación de la red de metro de madrid al barrio de Valdebebas. Tramos 1 y 2 (cuatro lotes)",
-      "summary": "Id licitación: A/SER-014572/2026;Órgano de Contratación: Consejería de Vivienda, Transportes e Infraestructuras;Importe: 52158125.73 EUR;",
-      "issuer": "Consejería de Vivienda, Transportes e Infraestructuras",
-      "publicationType": "En plazo",
-      "status": "En plazo",
-      "expediente": "A/SER-014572/2026",
-      "amount": 52158125.73,
-      "deadline": "2026-09-30",
-      "publishedAt": "2026-08-14",
-      "updatedAt": "2026-08-14T14:40:00+02:00",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/contrato-direccion-obra-coordinacion-seguridad-salud-asistencia-tecnica-obras",
-      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-07/ser.14572.2026_ppt_an.pdf",
-      "firstSeenAt": "2026-08-14T13:59:16.760Z"
     },
     {
       "id": "contratos:servicio-mantenimiento-integral-415-pupitres-peaje",
@@ -77529,20 +77546,6 @@
       "url": "https://www.bocm.es/bocm-20200703-36",
       "pdfUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2020/07/03/BOCM-20200703-36.PDF",
       "xmlUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2020/07/03/BOCM-20200703-36.xml?language=es",
-      "firstSeenAt": "2026-08-05T08:03:18.389Z"
-    },
-    {
-      "id": "contratos:obras-equipos-senalizacion-derivados-actuaciones-plataforma-via-metro-madrid",
-      "source": "contratos",
-      "title": "Obras en los equipos de señalización derivados de actuaciones en plataforma de vía de Metro de Madrid",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Convocatoria anunciada a licitación",
-      "status": "Resuelta / Finalizada",
-      "expediente": "6012000027",
-      "publishedAt": "2020-07-02",
-      "updatedAt": "2020-07-02T06:12:00+02:00",
-      "deadline": "2020-02-19",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/obras-equipos-senalizacion-derivados-actuaciones-plataforma-via-metro-madrid",
       "firstSeenAt": "2026-08-05T08:03:18.389Z"
     },
     {
