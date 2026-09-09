@@ -1,32 +1,102 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-08T22:00:59.486Z",
+  "generatedAt": "2026-09-09T00:07:52.241Z",
   "coverage": {
     "bocm": "2009-12-01 a 2026-09-07",
-    "contratos": "2017-02-02 a 2026-09-08",
+    "contratos": "2017-02-02 a 2026-09-09",
     "empleo": "2016-10-31 a 2026-05-07"
   },
   "sources": {
     "bocm": {
-      "checkedAt": "2026-09-08T22:00:59.486Z",
+      "checkedAt": "2026-09-09T00:07:52.241Z",
       "ok": true,
-      "message": "Consulta parcial sin registros; 19 documento(s) omitido(s) temporalmente",
-      "recordsSeen": 0
+      "message": "3 registros relevantes comprobados; 13 documento(s) omitido(s) temporalmente",
+      "recordsSeen": 3
     },
     "contratos": {
-      "checkedAt": "2026-09-08T22:00:59.486Z",
+      "checkedAt": "2026-09-09T00:07:52.241Z",
       "ok": true,
-      "message": "56 registros relevantes comprobados",
-      "recordsSeen": 56
+      "message": "55 registros relevantes comprobados",
+      "recordsSeen": 55
     },
     "empleo": {
-      "checkedAt": "2026-09-08T22:00:59.486Z",
+      "checkedAt": "2026-09-09T00:07:52.241Z",
       "ok": true,
       "message": "Consulta correcta, sin novedades relevantes",
       "recordsSeen": 0
     }
   },
   "items": [
+    {
+      "id": "contratos:suministro-suscripcion-licencias-solucion-gestion-dispositivos-moviles-mobile",
+      "source": "contratos",
+      "title": "Suministro mediante suscripción de las licencias de la solución de gestión de dispositivos móviles (Mobile Device Management)",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Convocatoria anunciada a licitación",
+      "status": "Pendiente de adjudicación",
+      "expediente": "6012600213",
+      "publishedAt": "2026-09-09",
+      "updatedAt": "2026-09-09T00:01:00+02:00",
+      "deadline": "2026-09-08",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/suministro-suscripcion-licencias-solucion-gestion-dispositivos-moviles-mobile",
+      "firstSeenAt": "2026-08-05T08:03:18.389Z"
+    },
+    {
+      "id": "contratos:servicio-soporte-mantenimiento-servidores-oracle-t5",
+      "source": "contratos",
+      "title": "Servicio de soporte y mantenimiento de servidores Oracle T5",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Convocatoria anunciada a licitación",
+      "status": "Pendiente de adjudicación",
+      "expediente": "6012600198",
+      "publishedAt": "2026-09-09",
+      "updatedAt": "2026-09-09T00:01:00+02:00",
+      "deadline": "2026-09-08",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-soporte-mantenimiento-servidores-oracle-t5",
+      "firstSeenAt": "2026-08-05T08:03:18.389Z"
+    },
+    {
+      "id": "contratos:suministro-licencia-uso-cartografia-comunidad-madrid-0",
+      "source": "contratos",
+      "title": "Suministro de licencia de uso de la cartografía de la Comunidad de Madrid",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Convocatoria anunciada a licitación",
+      "status": "Pendiente de adjudicación",
+      "expediente": "6012600211",
+      "publishedAt": "2026-09-09",
+      "updatedAt": "2026-09-09T00:01:00+02:00",
+      "deadline": "2026-09-08",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/suministro-licencia-uso-cartografia-comunidad-madrid-0",
+      "firstSeenAt": "2026-08-05T08:03:18.389Z"
+    },
+    {
+      "id": "contratos:soporte-tecnico-avanzado-gestion-administracion-plataforma-big-data-servicios-0",
+      "source": "contratos",
+      "title": "Soporte técnico avanzado para la gestión y administración de la plataforma Big Data y servicios integrados",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Convocatoria anunciada a licitación",
+      "status": "Pendiente de adjudicación",
+      "expediente": "6012600210",
+      "publishedAt": "2026-09-09",
+      "updatedAt": "2026-09-09T00:01:00+02:00",
+      "deadline": "2026-09-08",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/soporte-tecnico-avanzado-gestion-administracion-plataforma-big-data-servicios-0",
+      "firstSeenAt": "2026-08-05T08:03:18.389Z"
+    },
+    {
+      "id": "contratos:suministro-cajas-billeteros-instalaciones-venta-peaje-metro-madrid",
+      "source": "contratos",
+      "title": "Suministro de cajas de los billeteros para las instalaciones de venta y peaje de Metro de Madrid",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Convocatoria anunciada a licitación",
+      "status": "Pendiente de adjudicación",
+      "expediente": "6012600212",
+      "publishedAt": "2026-09-09",
+      "updatedAt": "2026-09-09T00:01:00+02:00",
+      "deadline": "2026-09-08",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/suministro-cajas-billeteros-instalaciones-venta-peaje-metro-madrid",
+      "firstSeenAt": "2026-08-05T08:03:18.389Z"
+    },
     {
       "id": "contratos:servicio-reparacion-tarjetas-control-equipos-climatizacion-series-3000-9000",
       "source": "contratos",
@@ -355,12 +425,12 @@
     {
       "id": "bocm:bocm-20260907-19",
       "source": "bocm",
-      "title": "Adjudicación contrato– Anuncio de 2 de septiembre de 2026, de adjudicación del contrato titulado “Suministro para la renovación de equipamiento de seguridad para Energía y Línea Aérea, para Metro de Madrid” (Expediente 6012600079)",
-      "summary": "Adjudicación contrato– Anuncio de 2 de septiembre de 2026, de adjudicación del contrato titulado “Suministro para la renovación de equipamiento de seguridad para Energía y Línea Aérea, para Metro de Madrid” (Expediente 6012600079)",
-      "issuer": "CONSEJERÍA DE VIVIENDA, TRANSPORTES E INFRAESTRUCTURAS · METRO DE MADRID, S. A.",
-      "publicationType": "Adjudicación contrato",
+      "title": "Adjudicación contrato – Anuncio de 2 de septiembre de 2026, de adjudicación del contrato titulado “Suministro para la renovación de equipamiento de seguridad para Energía y Línea Aérea, para Metro de Madrid” (Expediente 6012600079)",
+      "summary": "Adjudicación contrato – Anuncio de 2 de septiembre de 2026, de adjudicación del contrato titulado “Suministro para la renovación de equipamiento de seguridad para Energía y Línea Aérea, para Metro de Madrid” (Expediente 6012600079)",
+      "issuer": "CONSEJERÍA DE VIVIENDA, TRANSPORTES E INFRAESTRUCTURAS",
+      "publicationType": "ANUNCIO",
       "publishedAt": "2026-09-07",
-      "url": "https://www.bocm.es/bocm-20260907-19",
+      "url": "https://www.bocm.es/bocm-20260907-19?language=es",
       "pdfUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/09/07/BOCM-20260907-19.PDF",
       "xmlUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/09/07/BOCM-20260907-19.xml?language=es",
       "tags": [
@@ -1658,20 +1728,6 @@
       "firstSeenAt": "2026-08-05T08:03:18.389Z"
     },
     {
-      "id": "contratos:suministro-suscripcion-licencias-solucion-gestion-dispositivos-moviles-mobile",
-      "source": "contratos",
-      "title": "Suministro mediante suscripción de las licencias de la solución de gestión de dispositivos móviles (Mobile Device Management)",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Convocatoria anunciada a licitación",
-      "status": "En plazo",
-      "expediente": "6012600213",
-      "publishedAt": "2026-08-19",
-      "updatedAt": "2026-08-19T13:37:00+02:00",
-      "deadline": "2026-09-08",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/suministro-suscripcion-licencias-solucion-gestion-dispositivos-moviles-mobile",
-      "firstSeenAt": "2026-08-05T08:03:18.389Z"
-    },
-    {
       "id": "contratos:obras-implantacion-ascensores-modernizacion-estacion-ventas-metro-madrid",
       "source": "contratos",
       "title": "Obras de implantación de ascensores y modernización de la estación de Ventas de Metro de Madrid",
@@ -2555,20 +2611,6 @@
       "firstSeenAt": "2026-08-05T10:14:22.549Z"
     },
     {
-      "id": "contratos:servicio-soporte-mantenimiento-servidores-oracle-t5",
-      "source": "contratos",
-      "title": "Servicio de soporte y mantenimiento de servidores Oracle T5",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Convocatoria anunciada a licitación",
-      "status": "En plazo",
-      "expediente": "6012600198",
-      "publishedAt": "2026-08-03",
-      "updatedAt": "2026-08-03T13:40:00+02:00",
-      "deadline": "2026-09-08",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-soporte-mantenimiento-servidores-oracle-t5",
-      "firstSeenAt": "2026-08-05T08:03:18.389Z"
-    },
-    {
       "id": "contratos:cesion-temporal-uso-espacios-instalacion-explotacion-sistemas-led-publicidad",
       "source": "contratos",
       "title": "Cesión temporal de uso de espacios para la instalación y explotación de sistemas led de publicidad dinámica en túneles en la red de Metro de Madrid, S.A.",
@@ -2764,20 +2806,6 @@
       "firstSeenAt": "2026-08-05T08:03:18.389Z"
     },
     {
-      "id": "contratos:suministro-licencia-uso-cartografia-comunidad-madrid-0",
-      "source": "contratos",
-      "title": "Suministro de licencia de uso de la cartografía de la Comunidad de Madrid",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Convocatoria anunciada a licitación",
-      "status": "En plazo",
-      "expediente": "6012600211",
-      "publishedAt": "2026-07-28",
-      "updatedAt": "2026-07-28T07:30:00+02:00",
-      "deadline": "2026-09-08",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/suministro-licencia-uso-cartografia-comunidad-madrid-0",
-      "firstSeenAt": "2026-08-05T08:03:18.389Z"
-    },
-    {
       "id": "contratos:suministro-material-cancelas-acceso-metro-madrid",
       "source": "contratos",
       "title": "Suministro de material para cancelas de acceso de Metro de Madrid",
@@ -2820,20 +2848,6 @@
       "firstSeenAt": "2026-08-05T08:03:18.389Z"
     },
     {
-      "id": "contratos:soporte-tecnico-avanzado-gestion-administracion-plataforma-big-data-servicios-0",
-      "source": "contratos",
-      "title": "Soporte técnico avanzado para la gestión y administración de la plataforma Big Data y servicios integrados",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Convocatoria anunciada a licitación",
-      "status": "En plazo",
-      "expediente": "6012600210",
-      "publishedAt": "2026-07-27",
-      "updatedAt": "2026-07-27T10:20:00+02:00",
-      "deadline": "2026-09-08",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/soporte-tecnico-avanzado-gestion-administracion-plataforma-big-data-servicios-0",
-      "firstSeenAt": "2026-08-05T08:03:18.389Z"
-    },
-    {
       "id": "contratos:servicio-revision-general-reparacion-equipos-produccion-aire-series-3000-9000",
       "source": "contratos",
       "title": "Servicio de revisión general/ reparación de equipos de producción de aire de las series 3000 y 9000",
@@ -2845,20 +2859,6 @@
       "updatedAt": "2026-07-27T10:17:00+02:00",
       "deadline": "2026-09-11",
       "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-revision-general-reparacion-equipos-produccion-aire-series-3000-9000",
-      "firstSeenAt": "2026-08-05T08:03:18.389Z"
-    },
-    {
-      "id": "contratos:suministro-cajas-billeteros-instalaciones-venta-peaje-metro-madrid",
-      "source": "contratos",
-      "title": "Suministro de cajas de los billeteros para las instalaciones de venta y peaje de Metro de Madrid",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Convocatoria anunciada a licitación",
-      "status": "En plazo",
-      "expediente": "6012600212",
-      "publishedAt": "2026-07-27",
-      "updatedAt": "2026-07-27T08:19:00+02:00",
-      "deadline": "2026-09-08",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/suministro-cajas-billeteros-instalaciones-venta-peaje-metro-madrid",
       "firstSeenAt": "2026-08-05T08:03:18.389Z"
     },
     {
