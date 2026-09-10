@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-09T23:10:13.661Z",
+  "generatedAt": "2026-09-10T01:25:15.011Z",
   "coverage": {
     "bocm": "2009-12-01 a 2026-09-09",
     "contratos": "2017-02-02 a 2026-09-10",
@@ -8,19 +8,19 @@
   },
   "sources": {
     "bocm": {
-      "checkedAt": "2026-09-09T23:10:13.661Z",
+      "checkedAt": "2026-09-10T01:25:15.011Z",
       "ok": true,
-      "message": "15 registros relevantes comprobados",
-      "recordsSeen": 15
+      "message": "14 registros relevantes comprobados",
+      "recordsSeen": 14
     },
     "contratos": {
-      "checkedAt": "2026-09-09T23:10:13.661Z",
+      "checkedAt": "2026-09-10T01:25:15.011Z",
       "ok": true,
       "message": "58 registros relevantes comprobados",
       "recordsSeen": 58
     },
     "empleo": {
-      "checkedAt": "2026-09-09T23:10:13.661Z",
+      "checkedAt": "2026-09-10T01:25:15.011Z",
       "ok": true,
       "message": "Consulta correcta, sin novedades relevantes",
       "recordsSeen": 0
@@ -1620,12 +1620,12 @@
     {
       "id": "bocm:bocm-20260826-10",
       "source": "bocm",
-      "title": "Formalización contrato– Anuncio de 17 de agosto de 2026, de formalización del contrato titulado “Obras de proyecto de ejecución de un nuevo acceso en la estación de Estadio Metropolitano de la Línea 7 de Metro de Madrid” (Expediente 6012600103) (Contrato 7726000136)",
-      "summary": "Formalización contrato– Anuncio de 17 de agosto de 2026, de formalización del contrato titulado “Obras de proyecto de ejecución de un nuevo acceso en la estación de Estadio Metropolitano de la Línea 7 de Metro de Madrid” (Expediente 6012600103) (Contrato 7726000136)",
-      "issuer": "CONSEJERÍA DE VIVIENDA, TRANSPORTES E INFRAESTRUCTURAS · METRO DE MADRID, S. A.",
-      "publicationType": "Formalización contrato",
+      "title": "Formalización contrato – Anuncio de 17 de agosto de 2026, de formalización del contrato titulado “Obras de proyecto de ejecución de un nuevo acceso en la estación de Estadio Metropolitano de la Línea 7 de Metro de Madrid” (Expediente 6012600103) (Contrato 7726000136)",
+      "summary": "Formalización contrato – Anuncio de 17 de agosto de 2026, de formalización del contrato titulado “Obras de proyecto de ejecución de un nuevo acceso en la estación de Estadio Metropolitano de la Línea 7 de Metro de Madrid” (Expediente 6012600103) (Contrato 7726000136)",
+      "issuer": "CONSEJERÍA DE VIVIENDA, TRANSPORTES E INFRAESTRUCTURAS",
+      "publicationType": "ANUNCIO",
       "publishedAt": "2026-08-26",
-      "url": "https://www.bocm.es/bocm-20260826-10",
+      "url": "https://www.bocm.es/bocm-20260826-10?language=es",
       "pdfUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/08/26/BOCM-20260826-10.PDF",
       "xmlUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/08/26/BOCM-20260826-10.xml?language=es",
       "firstSeenAt": "2026-08-26T07:56:28.946Z",
@@ -1636,12 +1636,12 @@
     {
       "id": "bocm:bocm-20260826-9",
       "source": "bocm",
-      "title": "Formalización contrato– Anuncio de 17 de agosto de 2026, de formalización del contrato titulado “Servicio de mantenimiento de ciclo largo en material móvil de la serie 9000 que circulan por Metro de Madrid, S. A.” (Expediente 6012600102) (Contratos: lote 1 – 7226000464 y lote 2 – 7226000465)",
-      "summary": "Formalización contrato– Anuncio de 17 de agosto de 2026, de formalización del contrato titulado “Servicio de mantenimiento de ciclo largo en material móvil de la serie 9000 que circulan por Metro de Madrid, S. A.” (Expediente 6012600102) (Contratos: lote 1 – 7226000464 y lote 2 – 7226000465)",
-      "issuer": "CONSEJERÍA DE VIVIENDA, TRANSPORTES E INFRAESTRUCTURAS · METRO DE MADRID, S. A.",
-      "publicationType": "Formalización contrato",
+      "title": "Formalización contrato – Anuncio de 17 de agosto de 2026, de formalización del contrato titulado “Servicio de mantenimiento de ciclo largo en material móvil de la serie 9000 que circulan por Metro de Madrid, S. A.” (Expediente 6012600102) (Contratos: lote 1 – 7226000464 y lote 2 – 7226000465)",
+      "summary": "Formalización contrato – Anuncio de 17 de agosto de 2026, de formalización del contrato titulado “Servicio de mantenimiento de ciclo largo en material móvil de la serie 9000 que circulan por Metro de Madrid, S. A.” (Expediente 6012600102) (Contratos: lote 1 – 7226000464 y lote 2 – 7226000465)",
+      "issuer": "CONSEJERÍA DE VIVIENDA, TRANSPORTES E INFRAESTRUCTURAS",
+      "publicationType": "ANUNCIO",
       "publishedAt": "2026-08-26",
-      "url": "https://www.bocm.es/bocm-20260826-9",
+      "url": "https://www.bocm.es/bocm-20260826-9?language=es",
       "pdfUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/08/26/BOCM-20260826-9.PDF",
       "xmlUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/08/26/BOCM-20260826-9.xml?language=es",
       "firstSeenAt": "2026-08-26T07:56:28.946Z",
