@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-10T06:37:08.311Z",
+  "generatedAt": "2026-09-10T11:49:28.077Z",
   "coverage": {
     "bocm": "2009-12-01 a 2026-09-09",
     "contratos": "2017-02-02 a 2026-09-10",
@@ -8,25 +8,155 @@
   },
   "sources": {
     "bocm": {
-      "checkedAt": "2026-09-10T06:37:08.311Z",
+      "checkedAt": "2026-09-10T11:49:28.077Z",
       "ok": true,
-      "message": "12 registros relevantes comprobados; 10 documento(s) omitido(s) temporalmente",
-      "recordsSeen": 12
+      "message": "14 registros relevantes comprobados; 12 documento(s) omitido(s) temporalmente",
+      "recordsSeen": 14
     },
     "contratos": {
-      "checkedAt": "2026-09-10T06:37:08.311Z",
+      "checkedAt": "2026-09-10T11:49:28.077Z",
       "ok": true,
-      "message": "58 registros relevantes comprobados",
-      "recordsSeen": 58
+      "message": "54 registros relevantes comprobados",
+      "recordsSeen": 54
     },
     "empleo": {
-      "checkedAt": "2026-09-10T06:37:08.311Z",
+      "checkedAt": "2026-09-10T11:49:28.077Z",
       "ok": true,
       "message": "Consulta correcta, sin novedades relevantes",
       "recordsSeen": 0
     }
   },
   "items": [
+    {
+      "id": "contratos:suministro-acoplamientos-lado-reductor-mantenimiento-trenes-material-movil-metro",
+      "source": "contratos",
+      "title": "Suministro de acoplamientos lado reductor para el mantenimiento de los trenes del material móvil de Metro de Madrid",
+      "summary": "Id licitación: 6012600195;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 34500.00 EUR;",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Convocatoria anunciada a licitación",
+      "status": "Pendiente de adjudicación",
+      "expediente": "6012600195",
+      "amount": 34500,
+      "deadline": "2026-08-18",
+      "publishedAt": "2026-09-10",
+      "updatedAt": "2026-09-10T12:52:00+02:00",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/suministro-acoplamientos-lado-reductor-mantenimiento-trenes-material-movil-metro",
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-07/6012600195_pliego_de_prescripciones_tecnicas_signed.pdf",
+      "firstSeenAt": "2026-08-05T07:48:11.952Z"
+    },
+    {
+      "id": "contratos:servicio-traduccion-metro-madrid",
+      "source": "contratos",
+      "title": "Servicio de traducción de Metro de Madrid",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Pendiente de adjudicación",
+      "status": "Pendiente de adjudicación",
+      "expediente": "6012600147",
+      "publishedAt": "2026-09-10",
+      "updatedAt": "2026-09-10T12:45:21+02:00",
+      "deadline": "2026-06-04",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-traduccion-metro-madrid",
+      "firstSeenAt": "2026-08-05T08:03:18.389Z",
+      "summary": "Id licitación: 6012600147;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 45000.03 EUR;",
+      "amount": 45000.03,
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-05/6012600147_pliego_de_prescripciones_tecnicas_signed.pdf"
+    },
+    {
+      "id": "contratos:servicio-soporte-tecnico-desarrollo-recopilacion-tratamiento-datos-plantilla-metro",
+      "source": "contratos",
+      "title": "Servicio de soporte técnico para el desarrollo de recopilación y tratamiento de datos en la plantilla de Metro de Madrid",
+      "summary": "Id licitación: 6012600234;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 140000.00 EUR;",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Convocatoria anunciada a licitación",
+      "status": "En plazo",
+      "expediente": "6012600234",
+      "amount": 140000,
+      "deadline": "2026-09-17",
+      "publishedAt": "2026-09-10",
+      "updatedAt": "2026-09-10T12:15:00+02:00",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-soporte-tecnico-desarrollo-recopilacion-tratamiento-datos-plantilla-metro",
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-08/6012600234_ppt_signed.pdf",
+      "firstSeenAt": "2026-08-26T07:05:09.161Z"
+    },
+    {
+      "id": "contratos:suministro-cajas-billeteros-instalaciones-venta-peaje-metro-madrid",
+      "source": "contratos",
+      "title": "Suministro de cajas de los billeteros para las instalaciones de venta y peaje de Metro de Madrid",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Convocatoria anunciada a licitación",
+      "status": "Pendiente de adjudicación",
+      "expediente": "6012600212",
+      "publishedAt": "2026-09-10",
+      "updatedAt": "2026-09-10T11:32:00+02:00",
+      "deadline": "2026-09-08",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/suministro-cajas-billeteros-instalaciones-venta-peaje-metro-madrid",
+      "firstSeenAt": "2026-08-05T08:03:18.389Z"
+    },
+    {
+      "id": "contratos:suministro-equipos-tren-digital-std-7000-sistema-transmision-datos",
+      "source": "contratos",
+      "title": "Suministro de equipos para tren digital STD 7000 (Sistema de Transmisión de Datos)",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Pendiente de adjudicación",
+      "status": "Pendiente de adjudicación",
+      "expediente": "6012600136",
+      "publishedAt": "2026-09-10",
+      "updatedAt": "2026-09-10T11:18:12+02:00",
+      "deadline": "2026-06-11",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/suministro-equipos-tren-digital-std-7000-sistema-transmision-datos",
+      "firstSeenAt": "2026-08-05T08:03:18.389Z",
+      "summary": "Id licitación: 6012600136;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 130000.00 EUR;",
+      "amount": 130000,
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-05/6012600136_pliego_de_prescripciones_tecnicas_signed.pdf"
+    },
+    {
+      "id": "contratos:servicio-asistencia-tecnica-analisis-adecuacion-puesta-conformidad-equipamiento",
+      "source": "contratos",
+      "title": "Servicio de asistencia técnica para el análisis de la adecuación y puesta en conformidad del equipamiento de taller, equipos de mano y utillaje del Área de Mantenimiento de Material Móvil de Metro de Madrid",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Pendiente de adjudicación",
+      "status": "Pendiente de adjudicación",
+      "expediente": "6012600149",
+      "publishedAt": "2026-09-10",
+      "updatedAt": "2026-09-10T11:16:43+02:00",
+      "deadline": "2026-06-23",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-asistencia-tecnica-analisis-adecuacion-puesta-conformidad-equipamiento",
+      "firstSeenAt": "2026-08-05T08:03:18.389Z",
+      "summary": "Id licitación: 6012600149;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 2760061.33 EUR;",
+      "amount": 2760061.33,
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-05/6012600149_ppt_signed.pdf"
+    },
+    {
+      "id": "contratos:suministro-licencia-uso-cartografia-comunidad-madrid-0",
+      "source": "contratos",
+      "title": "Suministro de licencia de uso de la cartografía de la Comunidad de Madrid",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Convocatoria anunciada a licitación",
+      "status": "Pendiente de adjudicación",
+      "expediente": "6012600211",
+      "publishedAt": "2026-09-10",
+      "updatedAt": "2026-09-10T11:01:00+02:00",
+      "deadline": "2026-09-08",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/suministro-licencia-uso-cartografia-comunidad-madrid-0",
+      "firstSeenAt": "2026-08-05T08:03:18.389Z"
+    },
+    {
+      "id": "contratos:servicio-revision-periodica-equipos-medicion-gases-multiples-metro-madrid",
+      "source": "contratos",
+      "title": "Servicio de revisión periódica de los equipos de medición de gases múltiples para Metro de Madrid",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Pendiente de adjudicación",
+      "status": "Pendiente de adjudicación",
+      "expediente": "6012600183",
+      "publishedAt": "2026-09-10",
+      "updatedAt": "2026-09-10T10:12:07+02:00",
+      "deadline": "2026-07-20",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-revision-periodica-equipos-medicion-gases-multiples-metro-madrid",
+      "firstSeenAt": "2026-08-05T08:03:18.389Z",
+      "summary": "Id licitación: 6012600183;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 4600.00 EUR;",
+      "amount": 4600,
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-06/6012600183_ppt_signed.pdf"
+    },
     {
       "id": "contratos:servicio-apoyo-mantenimiento-soporte-tecnico-control-medida-proteccion-1",
       "source": "contratos",
@@ -250,34 +380,6 @@
       "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-06/6012600174_pliego_de_prescripciones_tecnicas_signed.pdf"
     },
     {
-      "id": "contratos:suministro-licencia-uso-cartografia-comunidad-madrid-0",
-      "source": "contratos",
-      "title": "Suministro de licencia de uso de la cartografía de la Comunidad de Madrid",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Convocatoria anunciada a licitación",
-      "status": "Pendiente de adjudicación",
-      "expediente": "6012600211",
-      "publishedAt": "2026-09-09",
-      "updatedAt": "2026-09-09T00:01:00+02:00",
-      "deadline": "2026-09-08",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/suministro-licencia-uso-cartografia-comunidad-madrid-0",
-      "firstSeenAt": "2026-08-05T08:03:18.389Z"
-    },
-    {
-      "id": "contratos:suministro-cajas-billeteros-instalaciones-venta-peaje-metro-madrid",
-      "source": "contratos",
-      "title": "Suministro de cajas de los billeteros para las instalaciones de venta y peaje de Metro de Madrid",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Convocatoria anunciada a licitación",
-      "status": "Pendiente de adjudicación",
-      "expediente": "6012600212",
-      "publishedAt": "2026-09-09",
-      "updatedAt": "2026-09-09T00:01:00+02:00",
-      "deadline": "2026-09-08",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/suministro-cajas-billeteros-instalaciones-venta-peaje-metro-madrid",
-      "firstSeenAt": "2026-08-05T08:03:18.389Z"
-    },
-    {
       "id": "bocm:bocm-20260909-11",
       "source": "bocm",
       "title": "Formalización contrato– Anuncio de 31 de agosto de 2026, de formalización del contrato titulado “Servicio para la mejora eléctrica de la alimentación de respaldo en centros con centro de procesamiento de datos (CPDs)”. (Expediente 6012400146). [Contratos: 7726000139 (lote 1); 7726000140 (lote 2) y 7726000141 (lote 3)]",
@@ -484,23 +586,6 @@
       "summary": "Id licitación: 6012600079;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 432380.00 EUR;",
       "amount": 432380,
       "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-03/6012600079_ppt_signed.pdf"
-    },
-    {
-      "id": "contratos:servicio-revision-periodica-equipos-medicion-gases-multiples-metro-madrid",
-      "source": "contratos",
-      "title": "Servicio de revisión periódica de los equipos de medición de gases múltiples para Metro de Madrid",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Pendiente de adjudicación",
-      "status": "Pendiente de adjudicación",
-      "expediente": "6012600183",
-      "publishedAt": "2026-09-07",
-      "updatedAt": "2026-09-07T08:34:54+02:00",
-      "deadline": "2026-07-20",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-revision-periodica-equipos-medicion-gases-multiples-metro-madrid",
-      "firstSeenAt": "2026-08-05T08:03:18.389Z",
-      "summary": "Id licitación: 6012600183;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 4600.00 EUR;",
-      "amount": 4600,
-      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-06/6012600183_ppt_signed.pdf"
     },
     {
       "id": "contratos:servicio-revision-lineas-vida-horizontales-verticales-escaleras-verticales-linea-1",
@@ -1584,23 +1669,6 @@
       "firstSeenAt": "2026-08-26T07:05:09.161Z"
     },
     {
-      "id": "contratos:servicio-soporte-tecnico-desarrollo-recopilacion-tratamiento-datos-plantilla-metro",
-      "source": "contratos",
-      "title": "Servicio de soporte técnico para el desarrollo de recopilación y tratamiento de datos en la plantilla de Metro de Madrid",
-      "summary": "Id licitación: 6012600234;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 140000.00 EUR;",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Convocatoria anunciada a licitación",
-      "status": "En plazo",
-      "expediente": "6012600234",
-      "amount": 140000,
-      "deadline": "2026-09-15",
-      "publishedAt": "2026-08-26",
-      "updatedAt": "2026-08-26T08:46:00+02:00",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-soporte-tecnico-desarrollo-recopilacion-tratamiento-datos-plantilla-metro",
-      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-08/6012600234_ppt_signed.pdf",
-      "firstSeenAt": "2026-08-26T07:05:09.161Z"
-    },
-    {
       "id": "contratos:servicio-soporte-mantenimiento-entorno-almacenamiento-backup-0",
       "source": "contratos",
       "title": "Servicio de soporte y mantenimiento de un entorno de almacenamiento y Backup",
@@ -1932,23 +2000,6 @@
       "updatedAt": "2026-08-19T00:10:00+02:00",
       "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-soporte-mantenimiento-entorno-almacenamiento-backup-dell-emc",
       "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-06/6012600187_referencia_al_pliego_de_prescripciones_tecnicas_signed.pdf",
-      "firstSeenAt": "2026-08-05T07:48:11.952Z"
-    },
-    {
-      "id": "contratos:suministro-acoplamientos-lado-reductor-mantenimiento-trenes-material-movil-metro",
-      "source": "contratos",
-      "title": "Suministro de acoplamientos lado reductor para el mantenimiento de los trenes del material móvil de Metro de Madrid",
-      "summary": "Id licitación: 6012600195;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 34500.00 EUR;",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Convocatoria anunciada a licitación",
-      "status": "Pendiente de adjudicación",
-      "expediente": "6012600195",
-      "amount": 34500,
-      "deadline": "2026-08-18",
-      "publishedAt": "2026-08-19",
-      "updatedAt": "2026-08-19T00:10:00+02:00",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/suministro-acoplamientos-lado-reductor-mantenimiento-trenes-material-movil-metro",
-      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-07/6012600195_pliego_de_prescripciones_tecnicas_signed.pdf",
       "firstSeenAt": "2026-08-05T07:48:11.952Z"
     },
     {
@@ -2387,23 +2438,6 @@
       "summary": "Id licitación: 6012600013;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 587235.18 EUR;",
       "amount": 587235.18,
       "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-01/6012600013_ppt_signed.pdf"
-    },
-    {
-      "id": "contratos:servicio-traduccion-metro-madrid",
-      "source": "contratos",
-      "title": "Servicio de traducción de Metro de Madrid",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Pendiente de adjudicación",
-      "status": "Pendiente de adjudicación",
-      "expediente": "6012600147",
-      "publishedAt": "2026-08-07",
-      "updatedAt": "2026-08-07T07:18:28+02:00",
-      "deadline": "2026-06-04",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-traduccion-metro-madrid",
-      "firstSeenAt": "2026-08-05T08:03:18.389Z",
-      "summary": "Id licitación: 6012600147;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 45000.03 EUR;",
-      "amount": 45000.03,
-      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-05/6012600147_pliego_de_prescripciones_tecnicas_signed.pdf"
     },
     {
       "id": "bocm:bocm-20260807-24",
@@ -3906,20 +3940,6 @@
       "firstSeenAt": "2026-08-05T10:14:22.549Z"
     },
     {
-      "id": "contratos:suministro-equipos-tren-digital-std-7000-sistema-transmision-datos",
-      "source": "contratos",
-      "title": "Suministro de equipos para tren digital STD 7000 (Sistema de Transmisión de Datos)",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Convocatoria anunciada a licitación",
-      "status": "Pendiente de adjudicación",
-      "expediente": "6012600136",
-      "publishedAt": "2026-07-08",
-      "updatedAt": "2026-07-08T12:46:00+02:00",
-      "deadline": "2026-06-11",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/suministro-equipos-tren-digital-std-7000-sistema-transmision-datos",
-      "firstSeenAt": "2026-08-05T08:03:18.389Z"
-    },
-    {
       "id": "contratos:suministro-e-instalacion-conversores-ratp-ipu-instalaciones-senalizacion",
       "source": "contratos",
       "title": "Suministro e instalación de conversores RATP-IPU de las instalaciones de señalización ferroviaria para Metro de Madrid",
@@ -5176,20 +5196,6 @@
       "publishedAt": "2026-06-24",
       "updatedAt": "2026-06-24T11:20:00+02:00",
       "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/obras-renovacion-sistema-senalizacion-linea-7a-metro-madrid-actuaciones-incluidas",
-      "firstSeenAt": "2026-08-05T08:03:18.389Z"
-    },
-    {
-      "id": "contratos:servicio-asistencia-tecnica-analisis-adecuacion-puesta-conformidad-equipamiento",
-      "source": "contratos",
-      "title": "Servicio de asistencia técnica para el análisis de la adecuación y puesta en conformidad del equipamiento de taller, equipos de mano y utillaje del Área de Mantenimiento de Material Móvil de Metro de Madrid",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Convocatoria anunciada a licitación",
-      "status": "Pendiente de adjudicación",
-      "expediente": "6012600149",
-      "publishedAt": "2026-06-24",
-      "updatedAt": "2026-06-24T00:10:00+02:00",
-      "deadline": "2026-06-23",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-asistencia-tecnica-analisis-adecuacion-puesta-conformidad-equipamiento",
       "firstSeenAt": "2026-08-05T08:03:18.389Z"
     },
     {
