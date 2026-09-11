@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-11T00:04:21.132Z",
+  "generatedAt": "2026-09-11T04:31:58.991Z",
   "coverage": {
     "bocm": "2009-12-01 a 2026-09-09",
     "contratos": "2017-02-02 a 2026-09-10",
@@ -8,19 +8,19 @@
   },
   "sources": {
     "bocm": {
-      "checkedAt": "2026-09-11T00:04:21.132Z",
+      "checkedAt": "2026-09-11T04:31:58.991Z",
       "ok": true,
-      "message": "14 registros relevantes comprobados",
-      "recordsSeen": 14
+      "message": "1 registros relevantes comprobados; 16 documento(s) omitido(s) temporalmente",
+      "recordsSeen": 1
     },
     "contratos": {
-      "checkedAt": "2026-09-11T00:04:21.132Z",
+      "checkedAt": "2026-09-11T04:31:58.991Z",
       "ok": true,
       "message": "55 registros relevantes comprobados",
       "recordsSeen": 55
     },
     "empleo": {
-      "checkedAt": "2026-09-11T00:04:21.132Z",
+      "checkedAt": "2026-09-11T04:31:58.991Z",
       "ok": true,
       "message": "Consulta correcta, sin novedades relevantes",
       "recordsSeen": 0
@@ -883,12 +883,12 @@
     {
       "id": "bocm:bocm-20260903-21",
       "source": "bocm",
-      "title": "Convocatoria contrato– Anuncio de 1 de septiembre de 2026, por el que se convoca la licitación para la contratación del servicio de revisiones normativa de equipos y accesorios de elevación de cargas para Metro de Madrid (Expediente 6012600240)",
-      "summary": "Convocatoria contrato– Anuncio de 1 de septiembre de 2026, por el que se convoca la licitación para la contratación del servicio de revisiones normativa de equipos y accesorios de elevación de cargas para Metro de Madrid (Expediente 6012600240)",
-      "issuer": "CONSEJERÍA DE VIVIENDA, TRANSPORTES E INFRAESTRUCTURAS · METRO DE MADRID, S. A.",
-      "publicationType": "Convocatoria contrato",
+      "title": "Convocatoria contrato – Anuncio de 1 de septiembre de 2026, por el que se convoca la licitación para la contratación del servicio de revisiones normativa de equipos y accesorios de elevación de cargas para Metro de Madrid (Expediente 6012600240)",
+      "summary": "Convocatoria contrato – Anuncio de 1 de septiembre de 2026, por el que se convoca la licitación para la contratación del servicio de revisiones normativa de equipos y accesorios de elevación de cargas para Metro de Madrid (Expediente 6012600240)",
+      "issuer": "CONSEJERÍA DE VIVIENDA, TRANSPORTES E INFRAESTRUCTURAS",
+      "publicationType": "ANUNCIO",
       "publishedAt": "2026-09-03",
-      "url": "https://www.bocm.es/bocm-20260903-21",
+      "url": "https://www.bocm.es/bocm-20260903-21?language=es",
       "pdfUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/09/03/BOCM-20260903-21.PDF",
       "xmlUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/09/03/BOCM-20260903-21.xml?language=es",
       "tags": [
