@@ -1,32 +1,77 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-11T19:59:56.743Z",
+  "generatedAt": "2026-09-11T22:30:49.316Z",
   "coverage": {
     "bocm": "2009-12-01 a 2026-09-11",
-    "contratos": "2017-02-02 a 2026-09-11",
+    "contratos": "2017-02-02 a 2026-09-12",
     "empleo": "2016-10-31 a 2026-05-07"
   },
   "sources": {
     "bocm": {
-      "checkedAt": "2026-09-11T19:59:56.743Z",
+      "checkedAt": "2026-09-11T22:30:49.316Z",
       "ok": true,
       "message": "13 registros relevantes comprobados; 10 documento(s) omitido(s) temporalmente",
       "recordsSeen": 13
     },
     "contratos": {
-      "checkedAt": "2026-09-11T19:59:56.743Z",
+      "checkedAt": "2026-09-11T22:30:49.316Z",
       "ok": true,
-      "message": "54 registros relevantes comprobados",
-      "recordsSeen": 54
+      "message": "53 registros relevantes comprobados",
+      "recordsSeen": 53
     },
     "empleo": {
-      "checkedAt": "2026-09-11T19:59:56.743Z",
+      "checkedAt": "2026-09-11T22:30:49.316Z",
       "ok": true,
       "message": "Consulta correcta, sin novedades relevantes",
       "recordsSeen": 0
     }
   },
   "items": [
+    {
+      "id": "contratos:acuerdo-marco-servicios-mantenimiento-correctivo-segundo-nivel-equipos-1",
+      "source": "contratos",
+      "title": "Acuerdo Marco para servicios de mantenimiento correctivo de segundo nivel de equipos con tecnología Sepsa",
+      "summary": "Id licitación: 6012600182;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 1400000.00 EUR;",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Convocatoria anunciada a licitación",
+      "status": "Pendiente de adjudicación",
+      "expediente": "6012600182",
+      "amount": 1400000,
+      "deadline": "2026-09-11",
+      "publishedAt": "2026-09-12",
+      "updatedAt": "2026-09-12T00:16:00+02:00",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/acuerdo-marco-servicios-mantenimiento-correctivo-segundo-nivel-equipos-1",
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-06/6012600182_pliego_de_prescripciones_tecnicas_signed.pdf",
+      "firstSeenAt": "2026-08-05T07:48:11.952Z"
+    },
+    {
+      "id": "contratos:suministro-mantenimiento-plataforma-tecnologica-ciac-centro-interactivo-atencion-0",
+      "source": "contratos",
+      "title": "Suministro y mantenimiento de la plataforma tecnológica del CIAC (Centro Interactivo de Atención al Cliente)",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Convocatoria anunciada a licitación",
+      "status": "Pendiente de adjudicación",
+      "expediente": "6012600214",
+      "publishedAt": "2026-09-12",
+      "updatedAt": "2026-09-12T00:16:00+02:00",
+      "deadline": "2026-09-11",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/suministro-mantenimiento-plataforma-tecnologica-ciac-centro-interactivo-atencion-0",
+      "firstSeenAt": "2026-08-07T09:36:46.485Z"
+    },
+    {
+      "id": "contratos:servicio-revision-general-reparacion-equipos-produccion-aire-series-3000-9000",
+      "source": "contratos",
+      "title": "Servicio de revisión general/ reparación de equipos de producción de aire de las series 3000 y 9000",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Convocatoria anunciada a licitación",
+      "status": "Pendiente de adjudicación",
+      "expediente": "6012600207",
+      "publishedAt": "2026-09-12",
+      "updatedAt": "2026-09-12T00:16:00+02:00",
+      "deadline": "2026-09-11",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-revision-general-reparacion-equipos-produccion-aire-series-3000-9000",
+      "firstSeenAt": "2026-08-05T08:03:18.389Z"
+    },
     {
       "id": "contratos:acuerdo-marco-trabajos-inspeccion-revision-control-desamiantado-0",
       "source": "contratos",
@@ -1663,23 +1708,6 @@
       "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-06/6012600165_ppt_signed.pdf"
     },
     {
-      "id": "contratos:acuerdo-marco-servicios-mantenimiento-correctivo-segundo-nivel-equipos-1",
-      "source": "contratos",
-      "title": "Acuerdo Marco para servicios de mantenimiento correctivo de segundo nivel de equipos con tecnología Sepsa",
-      "summary": "Id licitación: 6012600182;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 1400000.00 EUR;",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Convocatoria anunciada a licitación",
-      "status": "En plazo",
-      "expediente": "6012600182",
-      "amount": 1400000,
-      "deadline": "2026-09-11",
-      "publishedAt": "2026-08-26",
-      "updatedAt": "2026-08-26T13:53:00+02:00",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/acuerdo-marco-servicios-mantenimiento-correctivo-segundo-nivel-equipos-1",
-      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-06/6012600182_pliego_de_prescripciones_tecnicas_signed.pdf",
-      "firstSeenAt": "2026-08-05T07:48:11.952Z"
-    },
-    {
       "id": "contratos:servicio-verificacion-compresores-auxiliares-lp-1555-metro-madrid",
       "source": "contratos",
       "title": "Servicio de verificación de compresores auxiliares LP-1555 para Metro de Madrid",
@@ -2425,20 +2453,6 @@
       "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-03/6012600082_ppt_signed.pdf"
     },
     {
-      "id": "contratos:suministro-mantenimiento-plataforma-tecnologica-ciac-centro-interactivo-atencion-0",
-      "source": "contratos",
-      "title": "Suministro y mantenimiento de la plataforma tecnológica del CIAC (Centro Interactivo de Atención al Cliente)",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Convocatoria anunciada a licitación",
-      "status": "En plazo",
-      "expediente": "6012600214",
-      "publishedAt": "2026-08-07",
-      "updatedAt": "2026-08-07T10:36:00+02:00",
-      "deadline": "2026-09-11",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/suministro-mantenimiento-plataforma-tecnologica-ciac-centro-interactivo-atencion-0",
-      "firstSeenAt": "2026-08-07T09:36:46.485Z"
-    },
-    {
       "id": "contratos:servicio-poliza-seguro-responsabilidad-civil-administradores-directivos-rc-do-2027",
       "source": "contratos",
       "title": "Servicio de póliza del seguro de responsabilidad civil de administradores y directivos (RC D&O) 2027-2028",
@@ -2970,20 +2984,6 @@
       "updatedAt": "2026-07-27T10:22:00+02:00",
       "deadline": "2026-04-14",
       "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/suministro-mantenimiento-soporte-tecnico-especializado-plataforma-backup-commvault",
-      "firstSeenAt": "2026-08-05T08:03:18.389Z"
-    },
-    {
-      "id": "contratos:servicio-revision-general-reparacion-equipos-produccion-aire-series-3000-9000",
-      "source": "contratos",
-      "title": "Servicio de revisión general/ reparación de equipos de producción de aire de las series 3000 y 9000",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Convocatoria anunciada a licitación",
-      "status": "En plazo",
-      "expediente": "6012600207",
-      "publishedAt": "2026-07-27",
-      "updatedAt": "2026-07-27T10:17:00+02:00",
-      "deadline": "2026-09-11",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-revision-general-reparacion-equipos-produccion-aire-series-3000-9000",
       "firstSeenAt": "2026-08-05T08:03:18.389Z"
     },
     {
