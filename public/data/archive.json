@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-11T09:06:06.038Z",
+  "generatedAt": "2026-09-11T13:32:26.334Z",
   "coverage": {
     "bocm": "2009-12-01 a 2026-09-11",
     "contratos": "2017-02-02 a 2026-09-11",
@@ -8,25 +8,76 @@
   },
   "sources": {
     "bocm": {
-      "checkedAt": "2026-09-11T09:06:06.038Z",
+      "checkedAt": "2026-09-11T13:32:26.334Z",
       "ok": true,
-      "message": "15 registros relevantes comprobados",
-      "recordsSeen": 15
+      "message": "2 registros relevantes comprobados; 19 documento(s) omitido(s) temporalmente",
+      "recordsSeen": 2
     },
     "contratos": {
-      "checkedAt": "2026-09-11T09:06:06.038Z",
+      "checkedAt": "2026-09-11T13:32:26.334Z",
       "ok": true,
-      "message": "55 registros relevantes comprobados",
-      "recordsSeen": 55
+      "message": "54 registros relevantes comprobados",
+      "recordsSeen": 54
     },
     "empleo": {
-      "checkedAt": "2026-09-11T09:06:06.038Z",
+      "checkedAt": "2026-09-11T13:32:26.334Z",
       "ok": true,
       "message": "Consulta correcta, sin novedades relevantes",
       "recordsSeen": 0
     }
   },
   "items": [
+    {
+      "id": "contratos:acuerdo-marco-trabajos-inspeccion-revision-control-desamiantado-0",
+      "source": "contratos",
+      "title": "Acuerdo marco para trabajos de inspección, revisión de control y desamiantado de equipos/instalaciones de MCA en equipamiento de Metro de Madrid",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Resuelta / Finalizada",
+      "status": "Resuelta / Finalizada",
+      "expediente": "6012600024",
+      "publishedAt": "2026-09-11",
+      "updatedAt": "2026-09-11T12:09:46+02:00",
+      "deadline": "2026-03-03",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/acuerdo-marco-trabajos-inspeccion-revision-control-desamiantado-0",
+      "firstSeenAt": "2026-08-05T08:03:18.389Z",
+      "summary": "Id licitación: 6012600024;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 600000.00 EUR;",
+      "amount": 600000,
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-01/6012600024_referencia_al_ppt_signed.pdf"
+    },
+    {
+      "id": "contratos:suministro-gasoleo-clase-b-c-recintos-metro-madrid-1",
+      "source": "contratos",
+      "title": "Suministro de gasóleo clase A, B y C en recintos de Metro de Madrid",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Resuelta / Finalizada",
+      "status": "Resuelta / Finalizada",
+      "expediente": "6012600112",
+      "publishedAt": "2026-09-11",
+      "updatedAt": "2026-09-11T12:09:07+02:00",
+      "deadline": "2026-06-02",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/suministro-gasoleo-clase-b-c-recintos-metro-madrid-1",
+      "firstSeenAt": "2026-08-05T08:03:18.389Z",
+      "summary": "Id licitación: 6012600112;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 720105.94 EUR;",
+      "amount": 720105.94,
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-04/6012600112_ppt_signed.pdf"
+    },
+    {
+      "id": "contratos:cesion-temporal-uso-espacios-instalacion-explotacion-sistemas-led-publicidad",
+      "source": "contratos",
+      "title": "Cesión temporal de uso de espacios para la instalación y explotación de sistemas led de publicidad dinámica en túneles en la red de Metro de Madrid, S.A.",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Adjudicada",
+      "status": "Adjudicada",
+      "expediente": "6012600186",
+      "publishedAt": "2026-09-11",
+      "updatedAt": "2026-09-11T11:20:28+02:00",
+      "deadline": "2026-07-10",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/cesion-temporal-uso-espacios-instalacion-explotacion-sistemas-led-publicidad",
+      "firstSeenAt": "2026-08-05T08:03:18.389Z",
+      "summary": "Id licitación: 6012600186;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 2992000.00 EUR;",
+      "amount": 2992000,
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-06/6012600186_ppt_signed.pdf"
+    },
     {
       "id": "contratos:servicio-provision-apoyo-desarrollo-programa-entrenamiento-personalizado-uso-3",
       "source": "contratos",
@@ -858,23 +909,6 @@
       "deadline": "2026-10-02",
       "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-revisiones-normativa-equipos-accesorios-elevacion-cargas-metro-madrid",
       "firstSeenAt": "2026-09-03T09:40:54.691Z"
-    },
-    {
-      "id": "contratos:acuerdo-marco-trabajos-inspeccion-revision-control-desamiantado-0",
-      "source": "contratos",
-      "title": "Acuerdo marco para trabajos de inspección, revisión de control y desamiantado de equipos/instalaciones de MCA en equipamiento de Metro de Madrid",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Resuelta / Finalizada",
-      "status": "Resuelta / Finalizada",
-      "expediente": "6012600024",
-      "publishedAt": "2026-09-03",
-      "updatedAt": "2026-09-03T07:47:05+02:00",
-      "deadline": "2026-03-03",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/acuerdo-marco-trabajos-inspeccion-revision-control-desamiantado-0",
-      "firstSeenAt": "2026-08-05T08:03:18.389Z",
-      "summary": "Id licitación: 6012600024;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 600000.00 EUR;",
-      "amount": 600000,
-      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-01/6012600024_referencia_al_ppt_signed.pdf"
     },
     {
       "id": "contratos:suministro-repuestos-mantenimiento-asientos-conductor-instalados-trenes-material",
@@ -2311,23 +2345,6 @@
       ]
     },
     {
-      "id": "contratos:suministro-gasoleo-clase-b-c-recintos-metro-madrid-1",
-      "source": "contratos",
-      "title": "Suministro de gasóleo clase A, B y C en recintos de Metro de Madrid",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Resuelta / Finalizada",
-      "status": "Resuelta / Finalizada",
-      "expediente": "6012600112",
-      "publishedAt": "2026-08-10",
-      "updatedAt": "2026-08-10T09:33:58+02:00",
-      "deadline": "2026-06-02",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/suministro-gasoleo-clase-b-c-recintos-metro-madrid-1",
-      "firstSeenAt": "2026-08-05T08:03:18.389Z",
-      "summary": "Id licitación: 6012600112;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 720105.94 EUR;",
-      "amount": 720105.94,
-      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-04/6012600112_ppt_signed.pdf"
-    },
-    {
       "id": "contratos:servicio-pasarela-pago-gestion-pagos-realizados-puntos-recarga-instalados",
       "source": "contratos",
       "title": "Servicio de pasarela de pago para la gestión de los pagos realizados en los puntos de recarga instalados en las dependencias de Metro de Madrid",
@@ -2731,20 +2748,6 @@
       "pdfUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/08/05/BOCM-20260805-20.PDF",
       "xmlUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/08/05/BOCM-20260805-20.xml?language=es",
       "firstSeenAt": "2026-08-05T10:14:22.549Z"
-    },
-    {
-      "id": "contratos:cesion-temporal-uso-espacios-instalacion-explotacion-sistemas-led-publicidad",
-      "source": "contratos",
-      "title": "Cesión temporal de uso de espacios para la instalación y explotación de sistemas led de publicidad dinámica en túneles en la red de Metro de Madrid, S.A.",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Convocatoria anunciada a licitación",
-      "status": "Pendiente de adjudicación",
-      "expediente": "6012600186",
-      "publishedAt": "2026-08-03",
-      "updatedAt": "2026-08-03T12:59:00+02:00",
-      "deadline": "2026-07-10",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/cesion-temporal-uso-espacios-instalacion-explotacion-sistemas-led-publicidad",
-      "firstSeenAt": "2026-08-05T08:03:18.389Z"
     },
     {
       "id": "contratos:suministro-reacondicionamiento-escaleras-mecanicas",
