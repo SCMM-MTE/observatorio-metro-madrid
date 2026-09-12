@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-12T00:35:32.233Z",
+  "generatedAt": "2026-09-12T05:00:21.354Z",
   "coverage": {
     "bocm": "2009-12-01 a 2026-09-11",
     "contratos": "2017-02-02 a 2026-09-12",
@@ -8,19 +8,19 @@
   },
   "sources": {
     "bocm": {
-      "checkedAt": "2026-09-12T00:35:32.233Z",
-      "ok": false,
-      "message": "Error de consulta: fallaron RSS y buscador reciente: BOCM-20260908214.xml: No se pudo consultar https://www.bocm.es/boletin/CM_Boletin_BOCM/2026/09/08/BOCM-20260908214.xml?language=es: fetch failed | BOCM-20260907213.xml",
-      "recordsSeen": 0
+      "checkedAt": "2026-09-12T05:00:21.354Z",
+      "ok": true,
+      "message": "2 registros relevantes comprobados; 17 documento(s) omitido(s) temporalmente",
+      "recordsSeen": 2
     },
     "contratos": {
-      "checkedAt": "2026-09-12T00:35:32.233Z",
+      "checkedAt": "2026-09-12T05:00:21.354Z",
       "ok": true,
       "message": "53 registros relevantes comprobados",
       "recordsSeen": 53
     },
     "empleo": {
-      "checkedAt": "2026-09-12T00:35:32.233Z",
+      "checkedAt": "2026-09-12T05:00:21.354Z",
       "ok": true,
       "message": "Consulta correcta, sin novedades relevantes",
       "recordsSeen": 0
@@ -157,15 +157,18 @@
     {
       "id": "bocm:bocm-20260911-19",
       "source": "bocm",
-      "title": "Formalización contrato– Anuncio de 2 de septiembre de 2026, de formalización del contrato titulado “Acuerdo marco para trabajos de inspección, revisión de control y desamiantado de equipos/instalaciones de MCA en equipamiento de Metro de Madrid” (expediente 6012600024) (contrato G00110-001)",
-      "summary": "Formalización contrato– Anuncio de 2 de septiembre de 2026, de formalización del contrato titulado “Acuerdo marco para trabajos de inspección, revisión de control y desamiantado de equipos/instalaciones de MCA en equipamiento de Metro de Madrid” (expediente 6012600024) (contrato G00110-001)",
-      "issuer": "CONSEJERÍA DE VIVIENDA, TRANSPORTES E INFRAESTRUCTURAS · METRO DE MADRID, S. A.",
-      "publicationType": "Formalización contrato",
+      "title": "Formalización contrato – Anuncio de 2 de septiembre de 2026, de formalización del contrato titulado “Acuerdo marco para trabajos de inspección, revisión de control y desamiantado de equipos/instalaciones de MCA en equipamiento de Metro de Madrid” (expediente 6012600024) (contrato G00110-001)",
+      "summary": "Formalización contrato – Anuncio de 2 de septiembre de 2026, de formalización del contrato titulado “Acuerdo marco para trabajos de inspección, revisión de control y desamiantado de equipos/instalaciones de MCA en equipamiento de Metro de Madrid” (expediente 6012600024) (contrato G00110-001)",
+      "issuer": "CONSEJERÍA DE VIVIENDA, TRANSPORTES E INFRAESTRUCTURAS",
+      "publicationType": "ANUNCIO",
       "publishedAt": "2026-09-11",
-      "url": "https://www.bocm.es/bocm-20260911-19",
+      "url": "https://www.bocm.es/bocm-20260911-19?language=es",
       "pdfUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/09/11/BOCM-20260911-19.PDF",
       "xmlUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/09/11/BOCM-20260911-19.xml?language=es",
-      "firstSeenAt": "2026-09-11T09:06:06.038Z"
+      "firstSeenAt": "2026-09-11T09:06:06.038Z",
+      "tags": [
+        "I. COMUNIDAD DE MADRID · D) Anuncios"
+      ]
     },
     {
       "id": "contratos:contrato-direccion-obra-coordinacion-seguridad-salud-asistencia-tecnica-obras",
@@ -806,12 +809,12 @@
     {
       "id": "bocm:bocm-20260907-19",
       "source": "bocm",
-      "title": "Adjudicación contrato– Anuncio de 2 de septiembre de 2026, de adjudicación del contrato titulado “Suministro para la renovación de equipamiento de seguridad para Energía y Línea Aérea, para Metro de Madrid” (Expediente 6012600079)",
-      "summary": "Adjudicación contrato– Anuncio de 2 de septiembre de 2026, de adjudicación del contrato titulado “Suministro para la renovación de equipamiento de seguridad para Energía y Línea Aérea, para Metro de Madrid” (Expediente 6012600079)",
-      "issuer": "CONSEJERÍA DE VIVIENDA, TRANSPORTES E INFRAESTRUCTURAS · METRO DE MADRID, S. A.",
-      "publicationType": "Adjudicación contrato",
+      "title": "Adjudicación contrato – Anuncio de 2 de septiembre de 2026, de adjudicación del contrato titulado “Suministro para la renovación de equipamiento de seguridad para Energía y Línea Aérea, para Metro de Madrid” (Expediente 6012600079)",
+      "summary": "Adjudicación contrato – Anuncio de 2 de septiembre de 2026, de adjudicación del contrato titulado “Suministro para la renovación de equipamiento de seguridad para Energía y Línea Aérea, para Metro de Madrid” (Expediente 6012600079)",
+      "issuer": "CONSEJERÍA DE VIVIENDA, TRANSPORTES E INFRAESTRUCTURAS",
+      "publicationType": "ANUNCIO",
       "publishedAt": "2026-09-07",
-      "url": "https://www.bocm.es/bocm-20260907-19",
+      "url": "https://www.bocm.es/bocm-20260907-19?language=es",
       "pdfUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/09/07/BOCM-20260907-19.PDF",
       "xmlUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/09/07/BOCM-20260907-19.xml?language=es",
       "tags": [
