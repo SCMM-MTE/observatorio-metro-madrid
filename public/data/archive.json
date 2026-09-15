@@ -1,32 +1,80 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-15T10:00:15.562Z",
+  "generatedAt": "2026-09-15T14:56:00.448Z",
   "coverage": {
-    "bocm": "2009-12-01 a 2026-09-11",
+    "bocm": "2009-12-01 a 2026-09-15",
     "contratos": "2017-02-02 a 2026-09-15",
     "empleo": "2016-10-31 a 2026-05-07"
   },
   "sources": {
     "bocm": {
-      "checkedAt": "2026-09-15T10:00:15.562Z",
+      "checkedAt": "2026-09-15T14:56:00.448Z",
       "ok": true,
-      "message": "8 registros relevantes comprobados; 13 documento(s) omitido(s) temporalmente",
-      "recordsSeen": 8
+      "message": "16 registros relevantes comprobados; 10 documento(s) omitido(s) temporalmente",
+      "recordsSeen": 16
     },
     "contratos": {
-      "checkedAt": "2026-09-15T10:00:15.562Z",
+      "checkedAt": "2026-09-15T14:56:00.448Z",
       "ok": true,
-      "message": "54 registros relevantes comprobados",
-      "recordsSeen": 54
+      "message": "53 registros relevantes comprobados",
+      "recordsSeen": 53
     },
     "empleo": {
-      "checkedAt": "2026-09-15T10:00:15.562Z",
+      "checkedAt": "2026-09-15T14:56:00.448Z",
       "ok": true,
       "message": "Consulta correcta, sin novedades relevantes",
       "recordsSeen": 0
     }
   },
   "items": [
+    {
+      "id": "contratos:direccion-obras-coordinacion-seguridad-salud-asistencia-tecnica-obras-ejecucion",
+      "source": "contratos",
+      "title": "Dirección de las obras, coordinación de seguridad y salud y asistencia técnica de las obras de ejecución de instalaciones, y de las obras de ejecución de la señalización, para la ampliación de la línea 11 de metro de Madrid. Tramo Plaza Elíptica-Conde de Casal",
+      "summary": "Id licitación: A/SER-031843/2025;Órgano de Contratación: Consejería de Vivienda, Transportes e Infraestructuras;Importe: 12286984.15 EUR;",
+      "issuer": "Consejería de Vivienda, Transportes e Infraestructuras",
+      "publicationType": "Adjudicada",
+      "status": "Adjudicada",
+      "expediente": "A/SER-031843/2025",
+      "amount": 12286984.15,
+      "deadline": "2026-03-02",
+      "publishedAt": "2026-09-15",
+      "updatedAt": "2026-09-15T13:29:35+02:00",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/direccion-obras-coordinacion-seguridad-salud-asistencia-tecnica-obras-ejecucion",
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2025-12/ser.31843.2025_ppt.an.pdf",
+      "firstSeenAt": "2026-08-12T11:55:17.677Z"
+    },
+    {
+      "id": "contratos:servicio-proyecto-despliegue-asistente-operativo-lar-fase-1",
+      "source": "contratos",
+      "title": "Servicio de proyecto para el despliegue del asistente operativo Lar – fase 1",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Convocatoria anunciada a licitación",
+      "status": "En plazo",
+      "expediente": "6012600217",
+      "publishedAt": "2026-09-15",
+      "updatedAt": "2026-09-15T12:52:00+02:00",
+      "deadline": "2026-09-21",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-proyecto-despliegue-asistente-operativo-lar-fase-1",
+      "firstSeenAt": "2026-08-11T10:29:06.918Z"
+    },
+    {
+      "id": "contratos:acuerdo-marco-servicios-mantenimiento-correctivo-segundo-nivel-equipos-1",
+      "source": "contratos",
+      "title": "Acuerdo Marco para servicios de mantenimiento correctivo de segundo nivel de equipos con tecnología Sepsa",
+      "summary": "Id licitación: 6012600182;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 1400000.00 EUR;",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Convocatoria anunciada a licitación",
+      "status": "Pendiente de adjudicación",
+      "expediente": "6012600182",
+      "amount": 1400000,
+      "deadline": "2026-09-11",
+      "publishedAt": "2026-09-15",
+      "updatedAt": "2026-09-15T12:15:00+02:00",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/acuerdo-marco-servicios-mantenimiento-correctivo-segundo-nivel-equipos-1",
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-06/6012600182_pliego_de_prescripciones_tecnicas_signed.pdf",
+      "firstSeenAt": "2026-08-05T07:48:11.952Z"
+    },
     {
       "id": "contratos:acuerdo-marco-suministro-medios-produccion-plan-renove-0",
       "source": "contratos",
@@ -127,18 +175,17 @@
       "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-04/6012600112_ppt_signed.pdf"
     },
     {
-      "id": "contratos:servicio-proyecto-despliegue-asistente-operativo-lar-fase-1",
-      "source": "contratos",
-      "title": "Servicio de proyecto para el despliegue del asistente operativo Lar – fase 1",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Convocatoria anunciada a licitación",
-      "status": "En plazo",
-      "expediente": "6012600217",
-      "publishedAt": "2026-09-14",
-      "updatedAt": "2026-09-14T13:49:00+02:00",
-      "deadline": "2026-09-21",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-proyecto-despliegue-asistente-operativo-lar-fase-1",
-      "firstSeenAt": "2026-08-11T10:29:06.918Z"
+      "id": "bocm:bocm-20260915-57",
+      "source": "bocm",
+      "title": "Adjudicación contrato– Anuncio de 10 de septiembre de 2026, de adjudicación del contrato titulado “Acuerdo Marco para el suministro de medios de producción (Plan Renove)” (Expediente 6012600021)",
+      "summary": "Adjudicación contrato– Anuncio de 10 de septiembre de 2026, de adjudicación del contrato titulado “Acuerdo Marco para el suministro de medios de producción (Plan Renove)” (Expediente 6012600021)",
+      "issuer": "CONSEJERÍA DE VIVIENDA, TRANSPORTES E INFRAESTRUCTURAS · METRO DE MADRID, S. A.",
+      "publicationType": "Adjudicación contrato",
+      "publishedAt": "2026-09-15",
+      "url": "https://www.bocm.es/bocm-20260915-57",
+      "pdfUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/09/15/BOCM-20260915-57.PDF",
+      "xmlUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/09/15/BOCM-20260915-57.xml?language=es",
+      "firstSeenAt": "2026-09-15T14:56:00.448Z"
     },
     {
       "id": "contratos:suministro-acoplamientos-lado-reductor-mantenimiento-trenes-material-movil-metro",
@@ -187,23 +234,6 @@
       "deadline": "2026-09-11",
       "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/suministro-mantenimiento-plataforma-tecnologica-ciac-centro-interactivo-atencion-0",
       "firstSeenAt": "2026-08-07T09:36:46.485Z"
-    },
-    {
-      "id": "contratos:acuerdo-marco-servicios-mantenimiento-correctivo-segundo-nivel-equipos-1",
-      "source": "contratos",
-      "title": "Acuerdo Marco para servicios de mantenimiento correctivo de segundo nivel de equipos con tecnología Sepsa",
-      "summary": "Id licitación: 6012600182;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 1400000.00 EUR;",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Convocatoria anunciada a licitación",
-      "status": "Pendiente de adjudicación",
-      "expediente": "6012600182",
-      "amount": 1400000,
-      "deadline": "2026-09-11",
-      "publishedAt": "2026-09-12",
-      "updatedAt": "2026-09-12T00:16:00+02:00",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/acuerdo-marco-servicios-mantenimiento-correctivo-segundo-nivel-equipos-1",
-      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-06/6012600182_pliego_de_prescripciones_tecnicas_signed.pdf",
-      "firstSeenAt": "2026-08-05T07:48:11.952Z"
     },
     {
       "id": "contratos:servicio-revision-general-reparacion-equipos-produccion-aire-series-3000-9000",
@@ -695,23 +725,6 @@
       "summary": "Id licitación: 6012600179;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 1000000.00 EUR;",
       "amount": 1000000,
       "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-06/6012600179_ppt_signed.pdf"
-    },
-    {
-      "id": "contratos:direccion-obras-coordinacion-seguridad-salud-asistencia-tecnica-obras-ejecucion",
-      "source": "contratos",
-      "title": "Dirección de las obras, coordinación de seguridad y salud y asistencia técnica de las obras de ejecución de instalaciones, y de las obras de ejecución de la señalización, para la ampliación de la línea 11 de metro de Madrid. Tramo Plaza Elíptica-Conde de Casal",
-      "summary": "Id licitación: A/SER-031843/2025;Órgano de Contratación: Consejería de Vivienda, Transportes e Infraestructuras;Importe: 12286984.15 EUR;",
-      "issuer": "Consejería de Vivienda, Transportes e Infraestructuras",
-      "publicationType": "Adjudicada",
-      "status": "Adjudicada",
-      "expediente": "A/SER-031843/2025",
-      "amount": 12286984.15,
-      "deadline": "2026-03-02",
-      "publishedAt": "2026-09-08",
-      "updatedAt": "2026-09-08T08:52:08+02:00",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/direccion-obras-coordinacion-seguridad-salud-asistencia-tecnica-obras-ejecucion",
-      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2025-12/ser.31843.2025_ppt.an.pdf",
-      "firstSeenAt": "2026-08-12T11:55:17.677Z"
     },
     {
       "id": "contratos:acuerdo-marco-suministro-suscripcion-mantenimiento-licencias-aplicaciones-1",
