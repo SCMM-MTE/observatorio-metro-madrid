@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-16T15:31:13.043Z",
+  "generatedAt": "2026-09-16T19:03:14.791Z",
   "coverage": {
     "bocm": "2009-12-01 a 2026-09-16",
     "contratos": "2017-02-02 a 2026-09-16",
@@ -8,19 +8,19 @@
   },
   "sources": {
     "bocm": {
-      "checkedAt": "2026-09-16T15:31:13.043Z",
-      "ok": true,
-      "message": "17 registros relevantes comprobados; 13 documento(s) omitido(s) temporalmente",
-      "recordsSeen": 17
+      "checkedAt": "2026-09-16T19:03:14.791Z",
+      "ok": false,
+      "message": "Error de consulta: fallaron RSS y buscador reciente: BOCM-20260912218.xml: No se pudo consultar https://www.bocm.es/boletin/CM_Boletin_BOCM/2026/09/12/BOCM-20260912218.xml?language=es: This operation was aborted | BOCM-2",
+      "recordsSeen": 0
     },
     "contratos": {
-      "checkedAt": "2026-09-16T15:31:13.043Z",
+      "checkedAt": "2026-09-16T19:03:14.791Z",
       "ok": true,
-      "message": "52 registros relevantes comprobados",
-      "recordsSeen": 52
+      "message": "50 registros relevantes comprobados",
+      "recordsSeen": 50
     },
     "empleo": {
-      "checkedAt": "2026-09-16T15:31:13.043Z",
+      "checkedAt": "2026-09-16T19:03:14.791Z",
       "ok": true,
       "message": "Consulta correcta, sin novedades relevantes",
       "recordsSeen": 0
