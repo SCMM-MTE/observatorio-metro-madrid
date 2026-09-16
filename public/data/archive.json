@@ -1,32 +1,49 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-16T11:24:53.050Z",
+  "generatedAt": "2026-09-16T15:31:13.043Z",
   "coverage": {
-    "bocm": "2009-12-01 a 2026-09-15",
+    "bocm": "2009-12-01 a 2026-09-16",
     "contratos": "2017-02-02 a 2026-09-16",
     "empleo": "2016-10-31 a 2026-05-07"
   },
   "sources": {
     "bocm": {
-      "checkedAt": "2026-09-16T11:24:53.050Z",
-      "ok": false,
-      "message": "Error de consulta: fallaron RSS y buscador reciente: BOCM-20260914219.xml: No se pudo consultar https://www.bocm.es/boletin/CM_Boletin_BOCM/2026/09/14/BOCM-20260914219.xml?language=es: fetch failed | BOCM-20260912218.xml",
-      "recordsSeen": 0
+      "checkedAt": "2026-09-16T15:31:13.043Z",
+      "ok": true,
+      "message": "17 registros relevantes comprobados; 13 documento(s) omitido(s) temporalmente",
+      "recordsSeen": 17
     },
     "contratos": {
-      "checkedAt": "2026-09-16T11:24:53.050Z",
+      "checkedAt": "2026-09-16T15:31:13.043Z",
       "ok": true,
       "message": "52 registros relevantes comprobados",
       "recordsSeen": 52
     },
     "empleo": {
-      "checkedAt": "2026-09-16T11:24:53.050Z",
+      "checkedAt": "2026-09-16T15:31:13.043Z",
       "ok": true,
       "message": "Consulta correcta, sin novedades relevantes",
       "recordsSeen": 0
     }
   },
   "items": [
+    {
+      "id": "contratos:suministro-renovacion-tecnologia-transporte-3-enlaces-e1-pseudowire-tdma-ip",
+      "source": "contratos",
+      "title": "Suministro de renovación de la tecnología de transporte de 3 enlaces E1 a Pseudowire TDMA sobre IP",
+      "summary": "Id licitación: 6012600193;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 24495.00 EUR;",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Convocatoria anunciada a licitación",
+      "status": "Pendiente de adjudicación",
+      "expediente": "6012600193",
+      "amount": 24495,
+      "deadline": "2026-08-18",
+      "publishedAt": "2026-09-16",
+      "updatedAt": "2026-09-16T13:16:00+02:00",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/suministro-renovacion-tecnologia-transporte-3-enlaces-e1-pseudowire-tdma-ip",
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-06/6012600193_referencia_al_ppt_y_anexo_signed.pdf",
+      "firstSeenAt": "2026-08-05T07:48:11.952Z"
+    },
     {
       "id": "contratos:servicio-proyecto-despliegue-asistente-operativo-lar-fase-1",
       "source": "contratos",
@@ -116,6 +133,19 @@
       "deadline": "2026-09-15",
       "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-reparacion-equipos-megafonia-fabricante-optimus",
       "firstSeenAt": "2026-08-11T11:25:39.213Z"
+    },
+    {
+      "id": "bocm:bocm-20260916-57",
+      "source": "bocm",
+      "title": "Bien de interés cultural– Resolución de 2 de septiembre de 2026, por la que se incoa expediente para la declaración como Bien de Interés Cultural de la Comunidad de Madrid, en la categoría de Colección de bienes muebles, de la Colección de Trenes Históricos de Metro de Madrid",
+      "summary": "Bien de interés cultural– Resolución de 2 de septiembre de 2026, por la que se incoa expediente para la declaración como Bien de Interés Cultural de la Comunidad de Madrid, en la categoría de Colección de bienes muebles, de la Colección de Trenes Históricos de Metro de Madrid",
+      "issuer": "CONSEJERÍA DE CULTURA, TURISMO Y DEPORTE",
+      "publicationType": "Bien de interés cultural",
+      "publishedAt": "2026-09-16",
+      "url": "https://www.bocm.es/bocm-20260916-57",
+      "pdfUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/09/16/BOCM-20260916-57.PDF",
+      "xmlUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/09/16/BOCM-20260916-57.xml?language=es",
+      "firstSeenAt": "2026-09-16T15:31:13.043Z"
     },
     {
       "id": "contratos:acuerdo-marco-servicios-mantenimiento-correctivo-segundo-nivel-equipos-1",
@@ -812,23 +842,6 @@
       "summary": "Id licitación: 6012600170;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 2000000.00 EUR;",
       "amount": 2000000,
       "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-06/6012600170_pliego_de_prescripciones_tecnicas_signed.pdf"
-    },
-    {
-      "id": "contratos:suministro-renovacion-tecnologia-transporte-3-enlaces-e1-pseudowire-tdma-ip",
-      "source": "contratos",
-      "title": "Suministro de renovación de la tecnología de transporte de 3 enlaces E1 a Pseudowire TDMA sobre IP",
-      "summary": "Id licitación: 6012600193;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 24495.00 EUR;",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Convocatoria anunciada a licitación",
-      "status": "Pendiente de adjudicación",
-      "expediente": "6012600193",
-      "amount": 24495,
-      "deadline": "2026-08-18",
-      "publishedAt": "2026-09-07",
-      "updatedAt": "2026-09-07T10:52:00+02:00",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/suministro-renovacion-tecnologia-transporte-3-enlaces-e1-pseudowire-tdma-ip",
-      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-06/6012600193_referencia_al_ppt_y_anexo_signed.pdf",
-      "firstSeenAt": "2026-08-05T07:48:11.952Z"
     },
     {
       "id": "contratos:servicios-direccion-obras-coordinacion-seguridad-salud-asistencia-tecnica-obras-0",
