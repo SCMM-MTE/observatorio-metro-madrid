@@ -1,32 +1,74 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-15T22:09:23.885Z",
+  "generatedAt": "2026-09-16T00:45:47.296Z",
   "coverage": {
     "bocm": "2009-12-01 a 2026-09-15",
-    "contratos": "2017-02-02 a 2026-09-15",
+    "contratos": "2017-02-02 a 2026-09-16",
     "empleo": "2016-10-31 a 2026-05-07"
   },
   "sources": {
     "bocm": {
-      "checkedAt": "2026-09-15T22:09:23.885Z",
+      "checkedAt": "2026-09-16T00:45:47.296Z",
       "ok": true,
       "message": "16 registros relevantes comprobados; 12 documento(s) omitido(s) temporalmente",
       "recordsSeen": 16
     },
     "contratos": {
-      "checkedAt": "2026-09-15T22:09:23.885Z",
+      "checkedAt": "2026-09-16T00:45:47.296Z",
       "ok": true,
       "message": "52 registros relevantes comprobados",
       "recordsSeen": 52
     },
     "empleo": {
-      "checkedAt": "2026-09-15T22:09:23.885Z",
+      "checkedAt": "2026-09-16T00:45:47.296Z",
       "ok": true,
       "message": "Consulta correcta, sin novedades relevantes",
       "recordsSeen": 0
     }
   },
   "items": [
+    {
+      "id": "contratos:servicio-imparticion-sesiones-divulgativas-basicas-reanimacion-cardiopulmonar-uso",
+      "source": "contratos",
+      "title": "Servicio de impartición de sesiones divulgativas básicas sobre reanimación cardiopulmonar y uso de desfibrilador en estaciones de Metro de Madrid",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Convocatoria anunciada a licitación",
+      "status": "Pendiente de adjudicación",
+      "expediente": "6012600225",
+      "publishedAt": "2026-09-16",
+      "updatedAt": "2026-09-16T00:01:00+02:00",
+      "deadline": "2026-09-15",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-imparticion-sesiones-divulgativas-basicas-reanimacion-cardiopulmonar-uso",
+      "firstSeenAt": "2026-08-13T08:40:11.488Z"
+    },
+    {
+      "id": "contratos:suministro-suspension-primaria-7000-9000-mantenimiento-vehiculos-material-movil",
+      "source": "contratos",
+      "title": "Suministro de “Suspensión primaria 7000 9000” para el mantenimiento de los vehículos de material móvil de Metro de Madrid, S.A.",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Convocatoria anunciada a licitación",
+      "status": "Pendiente de adjudicación",
+      "expediente": "6012600224",
+      "publishedAt": "2026-09-16",
+      "updatedAt": "2026-09-16T00:01:00+02:00",
+      "deadline": "2026-09-15",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/suministro-suspension-primaria-7000-9000-mantenimiento-vehiculos-material-movil",
+      "firstSeenAt": "2026-08-13T08:40:11.488Z"
+    },
+    {
+      "id": "contratos:servicio-reparacion-equipos-megafonia-fabricante-optimus",
+      "source": "contratos",
+      "title": "Servicio de reparación de equipos de megafonía del fabricante OPTIMUS",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Convocatoria anunciada a licitación",
+      "status": "Pendiente de adjudicación",
+      "expediente": "6012600222",
+      "publishedAt": "2026-09-16",
+      "updatedAt": "2026-09-16T00:01:00+02:00",
+      "deadline": "2026-09-15",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-reparacion-equipos-megafonia-fabricante-optimus",
+      "firstSeenAt": "2026-08-11T11:25:39.213Z"
+    },
     {
       "id": "contratos:direccion-obras-coordinacion-seguridad-salud-asistencia-tecnica-obras-ejecucion",
       "source": "contratos",
@@ -1932,20 +1974,6 @@
       "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2024-10/6012400361_pliego_de_prescripciones_tecnicas_signed.pdf"
     },
     {
-      "id": "contratos:servicio-imparticion-sesiones-divulgativas-basicas-reanimacion-cardiopulmonar-uso",
-      "source": "contratos",
-      "title": "Servicio de impartición de sesiones divulgativas básicas sobre reanimación cardiopulmonar y uso de desfibrilador en estaciones de Metro de Madrid",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Convocatoria anunciada a licitación",
-      "status": "En plazo",
-      "expediente": "6012600225",
-      "publishedAt": "2026-08-21",
-      "updatedAt": "2026-08-21T13:15:00+02:00",
-      "deadline": "2026-09-15",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-imparticion-sesiones-divulgativas-basicas-reanimacion-cardiopulmonar-uso",
-      "firstSeenAt": "2026-08-13T08:40:11.488Z"
-    },
-    {
       "id": "contratos:servicio-revision-generalreparacion-conjuntos-amortiguadores-impactos-enganches",
       "source": "contratos",
       "title": "Servicio de revisión general/reparación de conjuntos amortiguadores de impactos de enganches de la serie 9000",
@@ -2139,20 +2167,6 @@
       "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-02/6012600061_ppt_signed.pdf"
     },
     {
-      "id": "contratos:suministro-suspension-primaria-7000-9000-mantenimiento-vehiculos-material-movil",
-      "source": "contratos",
-      "title": "Suministro de “Suspensión primaria 7000 9000” para el mantenimiento de los vehículos de material móvil de Metro de Madrid, S.A.",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Convocatoria anunciada a licitación",
-      "status": "En plazo",
-      "expediente": "6012600224",
-      "publishedAt": "2026-08-18",
-      "updatedAt": "2026-08-18T08:38:00+02:00",
-      "deadline": "2026-09-15",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/suministro-suspension-primaria-7000-9000-mantenimiento-vehiculos-material-movil",
-      "firstSeenAt": "2026-08-13T08:40:11.488Z"
-    },
-    {
       "id": "contratos:obras-instalaciones-asociadas-sistemas-ayuda-explotacion-burbuja-operativa-linea",
       "source": "contratos",
       "title": "Obras de las instalaciones asociadas a los sistemas de ayuda a la explotación y burbuja operativa de la línea de alta regularidad LAR-6 de Metro de Madrid",
@@ -2341,20 +2355,6 @@
         "I. COMUNIDAD DE MADRID · D) Anuncios"
       ],
       "firstSeenAt": "2026-08-12T08:02:15.917Z"
-    },
-    {
-      "id": "contratos:servicio-reparacion-equipos-megafonia-fabricante-optimus",
-      "source": "contratos",
-      "title": "Servicio de reparación de equipos de megafonía del fabricante OPTIMUS",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Convocatoria anunciada a licitación",
-      "status": "En plazo",
-      "expediente": "6012600222",
-      "publishedAt": "2026-08-11",
-      "updatedAt": "2026-08-11T13:02:00+02:00",
-      "deadline": "2026-09-15",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-reparacion-equipos-megafonia-fabricante-optimus",
-      "firstSeenAt": "2026-08-11T11:25:39.213Z"
     },
     {
       "id": "contratos:suministro-renovacion-integral-sistemas-seguridad-recinto-cuatro-vientos-metro",
