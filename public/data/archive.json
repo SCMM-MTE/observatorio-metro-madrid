@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-16T19:03:14.791Z",
+  "generatedAt": "2026-09-16T22:05:51.846Z",
   "coverage": {
     "bocm": "2009-12-01 a 2026-09-16",
     "contratos": "2017-02-02 a 2026-09-16",
@@ -8,19 +8,19 @@
   },
   "sources": {
     "bocm": {
-      "checkedAt": "2026-09-16T19:03:14.791Z",
-      "ok": false,
-      "message": "Error de consulta: fallaron RSS y buscador reciente: BOCM-20260912218.xml: No se pudo consultar https://www.bocm.es/boletin/CM_Boletin_BOCM/2026/09/12/BOCM-20260912218.xml?language=es: This operation was aborted | BOCM-2",
-      "recordsSeen": 0
+      "checkedAt": "2026-09-16T22:05:51.846Z",
+      "ok": true,
+      "message": "9 registros relevantes comprobados; 12 documento(s) omitido(s) temporalmente",
+      "recordsSeen": 9
     },
     "contratos": {
-      "checkedAt": "2026-09-16T19:03:14.791Z",
+      "checkedAt": "2026-09-16T22:05:51.846Z",
       "ok": true,
       "message": "50 registros relevantes comprobados",
       "recordsSeen": 50
     },
     "empleo": {
-      "checkedAt": "2026-09-16T19:03:14.791Z",
+      "checkedAt": "2026-09-16T22:05:51.846Z",
       "ok": true,
       "message": "Consulta correcta, sin novedades relevantes",
       "recordsSeen": 0
@@ -137,15 +137,18 @@
     {
       "id": "bocm:bocm-20260916-57",
       "source": "bocm",
-      "title": "Bien de interés cultural– Resolución de 2 de septiembre de 2026, por la que se incoa expediente para la declaración como Bien de Interés Cultural de la Comunidad de Madrid, en la categoría de Colección de bienes muebles, de la Colección de Trenes Históricos de Metro de Madrid",
-      "summary": "Bien de interés cultural– Resolución de 2 de septiembre de 2026, por la que se incoa expediente para la declaración como Bien de Interés Cultural de la Comunidad de Madrid, en la categoría de Colección de bienes muebles, de la Colección de Trenes Históricos de Metro de Madrid",
+      "title": "Bien de interés cultural – Resolución de 2 de septiembre de 2026, por la que se incoa expediente para la declaración como Bien de Interés Cultural de la Comunidad de Madrid, en la categoría de Colección de bienes muebles, de la Colección de Trenes Históricos de Metro de Madrid",
+      "summary": "Bien de interés cultural – Resolución de 2 de septiembre de 2026, por la que se incoa expediente para la declaración como Bien de Interés Cultural de la Comunidad de Madrid, en la categoría de Colección de bienes muebles, de la Colección de Trenes Históricos de Metro de Madrid",
       "issuer": "CONSEJERÍA DE CULTURA, TURISMO Y DEPORTE",
-      "publicationType": "Bien de interés cultural",
+      "publicationType": "RESOLUCIÓN",
       "publishedAt": "2026-09-16",
-      "url": "https://www.bocm.es/bocm-20260916-57",
+      "url": "https://www.bocm.es/bocm-20260916-57?language=es",
       "pdfUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/09/16/BOCM-20260916-57.PDF",
       "xmlUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/09/16/BOCM-20260916-57.xml?language=es",
-      "firstSeenAt": "2026-09-16T15:31:13.043Z"
+      "firstSeenAt": "2026-09-16T15:31:13.043Z",
+      "tags": [
+        "I. COMUNIDAD DE MADRID · D) Anuncios"
+      ]
     },
     {
       "id": "contratos:acuerdo-marco-servicios-mantenimiento-correctivo-segundo-nivel-equipos-1",
