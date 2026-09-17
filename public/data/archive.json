@@ -1,32 +1,159 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-17T05:17:49.236Z",
+  "generatedAt": "2026-09-17T10:23:38.092Z",
   "coverage": {
     "bocm": "2009-12-01 a 2026-09-16",
-    "contratos": "2017-02-02 a 2026-09-16",
+    "contratos": "2017-02-02 a 2026-09-17",
     "empleo": "2016-10-31 a 2026-05-07"
   },
   "sources": {
     "bocm": {
-      "checkedAt": "2026-09-17T05:17:49.236Z",
+      "checkedAt": "2026-09-17T10:23:38.092Z",
       "ok": true,
-      "message": "Consulta parcial sin registros; 19 documento(s) omitido(s) temporalmente",
-      "recordsSeen": 0
+      "message": "17 registros relevantes comprobados; 14 documento(s) omitido(s) temporalmente",
+      "recordsSeen": 17
     },
     "contratos": {
-      "checkedAt": "2026-09-17T05:17:49.236Z",
+      "checkedAt": "2026-09-17T10:23:38.092Z",
       "ok": true,
-      "message": "50 registros relevantes comprobados",
-      "recordsSeen": 50
+      "message": "55 registros relevantes comprobados",
+      "recordsSeen": 55
     },
     "empleo": {
-      "checkedAt": "2026-09-17T05:17:49.236Z",
+      "checkedAt": "2026-09-17T10:23:38.092Z",
       "ok": true,
       "message": "Consulta correcta, sin novedades relevantes",
       "recordsSeen": 0
     }
   },
   "items": [
+    {
+      "id": "contratos:servicio-transporte-distribucion-correspondencia-materiales-diversa-indole-0",
+      "source": "contratos",
+      "title": "Servicio de transporte y distribución de correspondencia y materiales de diversa índole entre las estaciones, depósitos y dependencias",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Resuelta / Finalizada",
+      "status": "Resuelta / Finalizada",
+      "expediente": "6012300143",
+      "publishedAt": "2026-09-17",
+      "updatedAt": "2026-09-17T11:13:57+02:00",
+      "deadline": "2023-06-23",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-transporte-distribucion-correspondencia-materiales-diversa-indole-0",
+      "firstSeenAt": "2026-08-05T08:03:18.389Z",
+      "summary": "Id licitación: 6012300143;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 1320000.00 EUR;",
+      "amount": 1320000,
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2023-05/6012300143_ppt_signed_0.pdf"
+    },
+    {
+      "id": "contratos:obras-intervencion-grafica-artistica-digital-estacion-duque-pastrana-metro-madrid",
+      "source": "contratos",
+      "title": "Obras de de intervención gráfica, artística y digital en la estación Duque de Pastrana de Metro de Madrid",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Convocatoria anunciada a licitación",
+      "status": "Adjudicada",
+      "expediente": "6012600196",
+      "publishedAt": "2026-09-17",
+      "updatedAt": "2026-09-17T10:09:00+02:00",
+      "deadline": "2026-08-10",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/obras-intervencion-grafica-artistica-digital-estacion-duque-pastrana-metro-madrid",
+      "firstSeenAt": "2026-08-05T08:03:18.389Z"
+    },
+    {
+      "id": "contratos:servicio-imparticion-sesiones-divulgativas-basicas-reanimacion-cardiopulmonar-uso",
+      "source": "contratos",
+      "title": "Servicio de impartición de sesiones divulgativas básicas sobre reanimación cardiopulmonar y uso de desfibrilador en estaciones de Metro de Madrid",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Convocatoria anunciada a licitación",
+      "status": "Pendiente de adjudicación",
+      "expediente": "6012600225",
+      "publishedAt": "2026-09-17",
+      "updatedAt": "2026-09-17T10:03:00+02:00",
+      "deadline": "2026-09-15",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-imparticion-sesiones-divulgativas-basicas-reanimacion-cardiopulmonar-uso",
+      "firstSeenAt": "2026-08-13T08:40:11.488Z"
+    },
+    {
+      "id": "contratos:suministro-ruedas-monoblock-mantenimiento-vehiculos-material-movil-metro-madrid-2",
+      "source": "contratos",
+      "title": "Suministro de ruedas monoblock para el mantenimiento de los vehículos de material móvil de Metro de Madrid",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Adjudicada",
+      "status": "Adjudicada",
+      "expediente": "6012500363",
+      "publishedAt": "2026-09-17",
+      "updatedAt": "2026-09-17T10:01:46+02:00",
+      "deadline": "2026-01-16",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/suministro-ruedas-monoblock-mantenimiento-vehiculos-material-movil-metro-madrid-2",
+      "firstSeenAt": "2026-08-05T08:03:18.389Z",
+      "summary": "Id licitación: 6012500363;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 2867568.00 EUR;",
+      "amount": 2867568,
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2025-12/6012500363_documento_ref._confidencialidad_signed.pdf"
+    },
+    {
+      "id": "contratos:servicio-mantenimiento-preventivo-correctivo-vehiculos-industriales-propiedad-0",
+      "source": "contratos",
+      "title": "Servicio de mantenimiento preventivo y correctivo de los vehículos industriales propiedad de Metro de Madrid S.A",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Convocatoria anunciada a licitación",
+      "status": "En plazo",
+      "expediente": "6012600244",
+      "publishedAt": "2026-09-17",
+      "updatedAt": "2026-09-17T09:36:00+02:00",
+      "deadline": "2026-10-09",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-mantenimiento-preventivo-correctivo-vehiculos-industriales-propiedad-0",
+      "firstSeenAt": "2026-09-17T10:23:38.092Z"
+    },
+    {
+      "id": "contratos:servicio-bancario-verificacion-titulares-cuentas-bancarias",
+      "source": "contratos",
+      "title": "Servicio bancario de verificación de titulares de cuentas bancarias",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Adjudicada",
+      "status": "Adjudicada",
+      "expediente": "6012600169",
+      "publishedAt": "2026-09-17",
+      "updatedAt": "2026-09-17T09:34:12+02:00",
+      "deadline": "2026-06-25",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-bancario-verificacion-titulares-cuentas-bancarias",
+      "firstSeenAt": "2026-08-05T08:03:18.389Z",
+      "summary": "Id licitación: 6012600169;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 21262.50 EUR;",
+      "amount": 21262.5,
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-06/6012600169_referencia_al_ppt_y_anexos_signed.pdf"
+    },
+    {
+      "id": "contratos:servicio-relativo-poliza-seguro-asistencia-viaje-sav-0",
+      "source": "contratos",
+      "title": "Servicio relativo a la póliza del seguro de Asistencia en Viaje (SAV)",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Resuelta / Finalizada",
+      "status": "Resuelta / Finalizada",
+      "expediente": "6012600139",
+      "publishedAt": "2026-09-17",
+      "updatedAt": "2026-09-17T09:32:01+02:00",
+      "deadline": "2026-06-02",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-relativo-poliza-seguro-asistencia-viaje-sav-0",
+      "firstSeenAt": "2026-08-05T08:03:18.389Z",
+      "summary": "Id licitación: 6012600139;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 32250.00 EUR;",
+      "amount": 32250,
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-05/6012600139_pliego_de_prescripciones_tecnicas_signed.pdf"
+    },
+    {
+      "id": "contratos:obras-renovacion-integral-superestructura-via-linea-6-actuaciones-incluidas",
+      "source": "contratos",
+      "title": "Obras de renovación integral de la superestructura de vía en Línea 6. las actuaciones incluidas en este contrato podrán ser cofinanciadas al 40% con cargo al programa FEDER 2021-2027 de la Comunidad de Madrid dentro del objetivo político 2. una Europa más verde, hipocarbónica y en transición hacia una economía con cero emisiones netas de carbono, y resiliente, promoviendo una transición energética limpia y equitativa, la inversión verde y azul, la economía circular, la mitigación del cambio climático y la adaptación a él, la prevención y gestión de riesgos y la movilidad urbana sostenible y el objetivo específico RSO2.1. fomentar la eficiencia energética y la reducción de las emisiones de gases de efecto invernadero",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Resuelta / Finalizada",
+      "status": "Resuelta / Finalizada",
+      "expediente": "6012400271",
+      "publishedAt": "2026-09-17",
+      "updatedAt": "2026-09-17T08:36:02+02:00",
+      "deadline": "2024-08-08",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/obras-renovacion-integral-superestructura-via-linea-6-actuaciones-incluidas",
+      "firstSeenAt": "2026-08-05T08:03:18.389Z",
+      "summary": "Id licitación: 6012400271;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 128233025.11 EUR;",
+      "amount": 128233025.11,
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2024-07/6012400271_pcp_signed_0.pdf"
+    },
     {
       "id": "contratos:suministro-renovacion-tecnologia-transporte-3-enlaces-e1-pseudowire-tdma-ip",
       "source": "contratos",
@@ -93,20 +220,6 @@
       "firstSeenAt": "2026-08-12T11:55:17.677Z"
     },
     {
-      "id": "contratos:servicio-imparticion-sesiones-divulgativas-basicas-reanimacion-cardiopulmonar-uso",
-      "source": "contratos",
-      "title": "Servicio de impartición de sesiones divulgativas básicas sobre reanimación cardiopulmonar y uso de desfibrilador en estaciones de Metro de Madrid",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Convocatoria anunciada a licitación",
-      "status": "Pendiente de adjudicación",
-      "expediente": "6012600225",
-      "publishedAt": "2026-09-16",
-      "updatedAt": "2026-09-16T00:01:00+02:00",
-      "deadline": "2026-09-15",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-imparticion-sesiones-divulgativas-basicas-reanimacion-cardiopulmonar-uso",
-      "firstSeenAt": "2026-08-13T08:40:11.488Z"
-    },
-    {
       "id": "contratos:suministro-suspension-primaria-7000-9000-mantenimiento-vehiculos-material-movil",
       "source": "contratos",
       "title": "Suministro de “Suspensión primaria 7000 9000” para el mantenimiento de los vehículos de material móvil de Metro de Madrid, S.A.",
@@ -137,12 +250,12 @@
     {
       "id": "bocm:bocm-20260916-57",
       "source": "bocm",
-      "title": "Bien de interés cultural – Resolución de 2 de septiembre de 2026, por la que se incoa expediente para la declaración como Bien de Interés Cultural de la Comunidad de Madrid, en la categoría de Colección de bienes muebles, de la Colección de Trenes Históricos de Metro de Madrid",
-      "summary": "Bien de interés cultural – Resolución de 2 de septiembre de 2026, por la que se incoa expediente para la declaración como Bien de Interés Cultural de la Comunidad de Madrid, en la categoría de Colección de bienes muebles, de la Colección de Trenes Históricos de Metro de Madrid",
+      "title": "Bien de interés cultural– Resolución de 2 de septiembre de 2026, por la que se incoa expediente para la declaración como Bien de Interés Cultural de la Comunidad de Madrid, en la categoría de Colección de bienes muebles, de la Colección de Trenes Históricos de Metro de Madrid",
+      "summary": "Bien de interés cultural– Resolución de 2 de septiembre de 2026, por la que se incoa expediente para la declaración como Bien de Interés Cultural de la Comunidad de Madrid, en la categoría de Colección de bienes muebles, de la Colección de Trenes Históricos de Metro de Madrid",
       "issuer": "CONSEJERÍA DE CULTURA, TURISMO Y DEPORTE",
-      "publicationType": "RESOLUCIÓN",
+      "publicationType": "Bien de interés cultural",
       "publishedAt": "2026-09-16",
-      "url": "https://www.bocm.es/bocm-20260916-57?language=es",
+      "url": "https://www.bocm.es/bocm-20260916-57",
       "pdfUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/09/16/BOCM-20260916-57.PDF",
       "xmlUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/09/16/BOCM-20260916-57.xml?language=es",
       "firstSeenAt": "2026-09-16T15:31:13.043Z",
@@ -1084,20 +1197,6 @@
       "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-04/6012600111_ppt_signed.pdf"
     },
     {
-      "id": "contratos:obras-intervencion-grafica-artistica-digital-estacion-duque-pastrana-metro-madrid",
-      "source": "contratos",
-      "title": "Obras de de intervención gráfica, artística y digital en la estación Duque de Pastrana de Metro de Madrid",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Convocatoria anunciada a licitación",
-      "status": "Pendiente de adjudicación",
-      "expediente": "6012600196",
-      "publishedAt": "2026-09-03",
-      "updatedAt": "2026-09-03T11:26:00+02:00",
-      "deadline": "2026-08-10",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/obras-intervencion-grafica-artistica-digital-estacion-duque-pastrana-metro-madrid",
-      "firstSeenAt": "2026-08-05T08:03:18.389Z"
-    },
-    {
       "id": "contratos:servicio-revisiones-normativa-equipos-accesorios-elevacion-cargas-metro-madrid",
       "source": "contratos",
       "title": "Servicio de revisiones normativa de equipos y accesorios de elevación de cargas para Metro de Madrid",
@@ -1241,23 +1340,6 @@
       "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/suministro-soporte-mantenimiento-cancelas-sistemas-apertura-asistida-puertas",
       "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-06/6012600180_pliego_de_prescripciones_tecnicas_signed.pdf",
       "firstSeenAt": "2026-08-05T07:48:11.952Z"
-    },
-    {
-      "id": "contratos:servicio-bancario-verificacion-titulares-cuentas-bancarias",
-      "source": "contratos",
-      "title": "Servicio bancario de verificación de titulares de cuentas bancarias",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Pendiente de adjudicación",
-      "status": "Pendiente de adjudicación",
-      "expediente": "6012600169",
-      "publishedAt": "2026-09-02",
-      "updatedAt": "2026-09-02T08:40:43+02:00",
-      "deadline": "2026-06-25",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-bancario-verificacion-titulares-cuentas-bancarias",
-      "firstSeenAt": "2026-08-05T08:03:18.389Z",
-      "summary": "Id licitación: 6012600169;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 21262.50 EUR;",
-      "amount": 21262.5,
-      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-06/6012600169_referencia_al_ppt_y_anexos_signed.pdf"
     },
     {
       "id": "contratos:servicio-soporte-mantenimiento-instalaciones-fijas-senalizacion-ferroviaria-0",
@@ -2687,23 +2769,6 @@
       "updatedAt": "2026-08-06T10:03:00+02:00",
       "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/suministro-soporte-mantenimiento-herramienta-gestion-notificaciones-electronicas",
       "firstSeenAt": "2026-08-05T08:03:18.389Z"
-    },
-    {
-      "id": "contratos:servicio-relativo-poliza-seguro-asistencia-viaje-sav-0",
-      "source": "contratos",
-      "title": "Servicio relativo a la póliza del seguro de Asistencia en Viaje (SAV)",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Adjudicada",
-      "status": "Adjudicada",
-      "expediente": "6012600139",
-      "publishedAt": "2026-08-06",
-      "updatedAt": "2026-08-06T07:11:10+02:00",
-      "deadline": "2026-06-02",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-relativo-poliza-seguro-asistencia-viaje-sav-0",
-      "firstSeenAt": "2026-08-05T08:03:18.389Z",
-      "summary": "Id licitación: 6012600139;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 32250.00 EUR;",
-      "amount": 32250,
-      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-05/6012600139_pliego_de_prescripciones_tecnicas_signed.pdf"
     },
     {
       "id": "bocm:bocm-20260806-21",
@@ -7914,20 +7979,6 @@
       "firstSeenAt": "2026-08-05T08:03:18.389Z"
     },
     {
-      "id": "contratos:suministro-ruedas-monoblock-mantenimiento-vehiculos-material-movil-metro-madrid-2",
-      "source": "contratos",
-      "title": "Suministro de ruedas monoblock para el mantenimiento de los vehículos de material móvil de Metro de Madrid",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Convocatoria anunciada a licitación",
-      "status": "Pendiente de adjudicación",
-      "expediente": "6012500363",
-      "publishedAt": "2026-05-12",
-      "updatedAt": "2026-05-12T12:52:00+02:00",
-      "deadline": "2026-01-16",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/suministro-ruedas-monoblock-mantenimiento-vehiculos-material-movil-metro-madrid-2",
-      "firstSeenAt": "2026-08-05T08:03:18.389Z"
-    },
-    {
       "id": "bocm:bocm-20260512-28",
       "source": "bocm",
       "title": "Adjudicación contrato– Anuncio de 7 de mayo de 2026, de adjudicación del contrato titulado “Suministro de bandajes para el mantenimiento de las ruedas elásticas de los vehículos de la serie 9000 del material móvil de Metro de Madrid” (Expediente 6012600010)",
@@ -10931,20 +10982,6 @@
       "pdfUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/04/13/BOCM-20260413-22.PDF",
       "xmlUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/04/13/BOCM-20260413-22.xml?language=es",
       "firstSeenAt": "2026-08-05T10:14:22.549Z"
-    },
-    {
-      "id": "contratos:obras-renovacion-integral-superestructura-via-linea-6-actuaciones-incluidas",
-      "source": "contratos",
-      "title": "Obras de renovación integral de la superestructura de vía en Línea 6. las actuaciones incluidas en este contrato podrán ser cofinanciadas al 40% con cargo al programa FEDER 2021-2027 de la Comunidad de Madrid dentro del objetivo político 2. una Europa más verde, hipocarbónica y en transición hacia una economía con cero emisiones netas de carbono, y resiliente, promoviendo una transición energética limpia y equitativa, la inversión verde y azul, la economía circular, la mitigación del cambio climático y la adaptación a él, la prevención y gestión de riesgos y la movilidad urbana sostenible y el objetivo específico RSO2.1. fomentar la eficiencia energética y la reducción de las emisiones de gases de efecto invernadero",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Convocatoria anunciada a licitación",
-      "status": "Resuelta / Finalizada",
-      "expediente": "6012400271",
-      "publishedAt": "2026-04-10",
-      "updatedAt": "2026-04-10T12:19:00+02:00",
-      "deadline": "2024-08-08",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/obras-renovacion-integral-superestructura-via-linea-6-actuaciones-incluidas",
-      "firstSeenAt": "2026-08-05T08:03:18.389Z"
     },
     {
       "id": "contratos:suministro-repuestos-exclusivos-fabricante-tk-elevadores-espana-slu-mantenimiento",
@@ -40384,20 +40421,6 @@
       "updatedAt": "2023-11-28T09:28:00+02:00",
       "deadline": "2021-06-17",
       "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-soporte-nivel-2-apoyo-administracion-plataforma-windows",
-      "firstSeenAt": "2026-08-05T08:03:18.389Z"
-    },
-    {
-      "id": "contratos:servicio-transporte-distribucion-correspondencia-materiales-diversa-indole-0",
-      "source": "contratos",
-      "title": "Servicio de transporte y distribución de correspondencia y materiales de diversa índole entre las estaciones, depósitos y dependencias",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Convocatoria anunciada a licitación",
-      "status": "Resuelta / Finalizada",
-      "expediente": "6012300143",
-      "publishedAt": "2023-11-28",
-      "updatedAt": "2023-11-28T08:43:00+02:00",
-      "deadline": "2023-06-23",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-transporte-distribucion-correspondencia-materiales-diversa-indole-0",
       "firstSeenAt": "2026-08-05T08:03:18.389Z"
     },
     {
