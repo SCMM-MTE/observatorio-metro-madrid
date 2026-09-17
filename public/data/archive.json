@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-16T22:05:51.846Z",
+  "generatedAt": "2026-09-17T00:27:32.567Z",
   "coverage": {
     "bocm": "2009-12-01 a 2026-09-16",
     "contratos": "2017-02-02 a 2026-09-16",
@@ -8,19 +8,19 @@
   },
   "sources": {
     "bocm": {
-      "checkedAt": "2026-09-16T22:05:51.846Z",
-      "ok": true,
-      "message": "9 registros relevantes comprobados; 12 documento(s) omitido(s) temporalmente",
-      "recordsSeen": 9
+      "checkedAt": "2026-09-17T00:27:32.567Z",
+      "ok": false,
+      "message": "Error de consulta: fallaron RSS y buscador reciente: BOCM-20260915220.xml: No se pudo consultar https://www.bocm.es/boletin/CM_Boletin_BOCM/2026/09/15/BOCM-20260915220.xml?language=es: fetch failed | BOCM-20260912218.xml",
+      "recordsSeen": 0
     },
     "contratos": {
-      "checkedAt": "2026-09-16T22:05:51.846Z",
+      "checkedAt": "2026-09-17T00:27:32.567Z",
       "ok": true,
       "message": "50 registros relevantes comprobados",
       "recordsSeen": 50
     },
     "empleo": {
-      "checkedAt": "2026-09-16T22:05:51.846Z",
+      "checkedAt": "2026-09-17T00:27:32.567Z",
       "ok": true,
       "message": "Consulta correcta, sin novedades relevantes",
       "recordsSeen": 0
