@@ -1,32 +1,63 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-17T19:13:53.239Z",
+  "generatedAt": "2026-09-17T22:24:38.178Z",
   "coverage": {
     "bocm": "2009-12-01 a 2026-09-16",
-    "contratos": "2017-02-02 a 2026-09-17",
+    "contratos": "2017-02-02 a 2026-09-18",
     "empleo": "2016-10-31 a 2026-05-07"
   },
   "sources": {
     "bocm": {
-      "checkedAt": "2026-09-17T19:13:53.239Z",
+      "checkedAt": "2026-09-17T22:24:38.178Z",
       "ok": true,
       "message": "17 registros relevantes comprobados",
       "recordsSeen": 17
     },
     "contratos": {
-      "checkedAt": "2026-09-17T19:13:53.239Z",
+      "checkedAt": "2026-09-17T22:24:38.178Z",
       "ok": true,
-      "message": "56 registros relevantes comprobados",
-      "recordsSeen": 56
+      "message": "54 registros relevantes comprobados",
+      "recordsSeen": 54
     },
     "empleo": {
-      "checkedAt": "2026-09-17T19:13:53.239Z",
+      "checkedAt": "2026-09-17T22:24:38.178Z",
       "ok": true,
       "message": "Consulta correcta, sin novedades relevantes",
       "recordsSeen": 0
     }
   },
   "items": [
+    {
+      "id": "contratos:servicio-soporte-tecnico-desarrollo-recopilacion-tratamiento-datos-plantilla-metro",
+      "source": "contratos",
+      "title": "Servicio de soporte técnico para el desarrollo de recopilación y tratamiento de datos en la plantilla de Metro de Madrid",
+      "summary": "Id licitación: 6012600234;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 140000.00 EUR;",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Convocatoria anunciada a licitación",
+      "status": "Pendiente de adjudicación",
+      "expediente": "6012600234",
+      "amount": 140000,
+      "deadline": "2026-09-17",
+      "publishedAt": "2026-09-18",
+      "updatedAt": "2026-09-18T00:06:00+02:00",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-soporte-tecnico-desarrollo-recopilacion-tratamiento-datos-plantilla-metro",
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-08/6012600234_ppt_signed.pdf",
+      "firstSeenAt": "2026-08-26T07:05:09.161Z"
+    },
+    {
+      "id": "contratos:servicio-mantenimiento-integral-sistemas-seguridad-sacos-recintos-1",
+      "source": "contratos",
+      "title": "Servicio de mantenimiento integral de sistemas de seguridad en sacos y recintos",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Convocatoria anunciada a licitación",
+      "status": "Pendiente de adjudicación",
+      "expediente": "6012600216",
+      "publishedAt": "2026-09-18",
+      "updatedAt": "2026-09-18T00:06:00+02:00",
+      "deadline": "2026-09-17",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-mantenimiento-integral-sistemas-seguridad-sacos-recintos-1",
+      "firstSeenAt": "2026-08-10T07:59:51.887Z"
+    },
     {
       "id": "contratos:obras-renovacion-integral-superestructura-via-linea-6-actuaciones-incluidas",
       "source": "contratos",
@@ -582,23 +613,6 @@
       "summary": "Id licitación: 6012600147;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 45000.03 EUR;",
       "amount": 45000.03,
       "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-05/6012600147_pliego_de_prescripciones_tecnicas_signed.pdf"
-    },
-    {
-      "id": "contratos:servicio-soporte-tecnico-desarrollo-recopilacion-tratamiento-datos-plantilla-metro",
-      "source": "contratos",
-      "title": "Servicio de soporte técnico para el desarrollo de recopilación y tratamiento de datos en la plantilla de Metro de Madrid",
-      "summary": "Id licitación: 6012600234;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 140000.00 EUR;",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Convocatoria anunciada a licitación",
-      "status": "En plazo",
-      "expediente": "6012600234",
-      "amount": 140000,
-      "deadline": "2026-09-17",
-      "publishedAt": "2026-09-10",
-      "updatedAt": "2026-09-10T12:15:00+02:00",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-soporte-tecnico-desarrollo-recopilacion-tratamiento-datos-plantilla-metro",
-      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-08/6012600234_ppt_signed.pdf",
-      "firstSeenAt": "2026-08-26T07:05:09.161Z"
     },
     {
       "id": "contratos:suministro-cajas-billeteros-instalaciones-venta-peaje-metro-madrid",
@@ -1164,20 +1178,6 @@
       "tags": [
         "I. COMUNIDAD DE MADRID · D) Anuncios"
       ]
-    },
-    {
-      "id": "contratos:servicio-mantenimiento-integral-sistemas-seguridad-sacos-recintos-1",
-      "source": "contratos",
-      "title": "Servicio de mantenimiento integral de sistemas de seguridad en sacos y recintos",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Convocatoria anunciada a licitación",
-      "status": "En plazo",
-      "expediente": "6012600216",
-      "publishedAt": "2026-09-03",
-      "updatedAt": "2026-09-03T12:17:00+02:00",
-      "deadline": "2026-09-17",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-mantenimiento-integral-sistemas-seguridad-sacos-recintos-1",
-      "firstSeenAt": "2026-08-10T07:59:51.887Z"
     },
     {
       "id": "contratos:suministro-nueve-mil-cincuenta-9050-barras-18-metros-carril-54e1-r260-x-b",
