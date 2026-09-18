@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-18T11:06:38.633Z",
+  "generatedAt": "2026-09-18T14:58:00.318Z",
   "coverage": {
     "bocm": "2009-12-01 a 2026-09-16",
     "contratos": "2017-02-02 a 2026-09-18",
@@ -8,25 +8,39 @@
   },
   "sources": {
     "bocm": {
-      "checkedAt": "2026-09-18T11:06:38.633Z",
+      "checkedAt": "2026-09-18T14:58:00.318Z",
       "ok": true,
-      "message": "14 registros relevantes comprobados",
-      "recordsSeen": 14
+      "message": "Consulta parcial sin registros; 20 documento(s) omitido(s) temporalmente",
+      "recordsSeen": 0
     },
     "contratos": {
-      "checkedAt": "2026-09-18T11:06:38.633Z",
+      "checkedAt": "2026-09-18T14:58:00.318Z",
       "ok": true,
       "message": "55 registros relevantes comprobados",
       "recordsSeen": 55
     },
     "empleo": {
-      "checkedAt": "2026-09-18T11:06:38.633Z",
+      "checkedAt": "2026-09-18T14:58:00.318Z",
       "ok": true,
       "message": "Consulta correcta, sin novedades relevantes",
       "recordsSeen": 0
     }
   },
   "items": [
+    {
+      "id": "contratos:plataforma-formacion-desarrollo-habilidades-transversales-metro-madrid",
+      "source": "contratos",
+      "title": "Una plataforma de formación y desarrollo en habilidades transversales, para Metro de Madrid",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Convocatoria anunciada a licitación",
+      "status": "En plazo",
+      "expediente": "6012600242",
+      "publishedAt": "2026-09-18",
+      "updatedAt": "2026-09-18T13:53:00+02:00",
+      "deadline": "2026-09-25",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/plataforma-formacion-desarrollo-habilidades-transversales-metro-madrid",
+      "firstSeenAt": "2026-09-04T16:16:55.097Z"
+    },
     {
       "id": "contratos:servicio-polizas-seguros-responsabilidad-civil-profesional-metro-madrid-rcp-rcp",
       "source": "contratos",
@@ -1258,20 +1272,6 @@
       "summary": "Id licitación: 6012500358;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 1681499.87 EUR;",
       "amount": 1681499.87,
       "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2025-12/6012500358_ppt_signed.pdf"
-    },
-    {
-      "id": "contratos:plataforma-formacion-desarrollo-habilidades-transversales-metro-madrid",
-      "source": "contratos",
-      "title": "Una plataforma de formación y desarrollo en habilidades transversales, para Metro de Madrid",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Convocatoria anunciada a licitación",
-      "status": "En plazo",
-      "expediente": "6012600242",
-      "publishedAt": "2026-09-04",
-      "updatedAt": "2026-09-04T08:37:00+02:00",
-      "deadline": "2026-09-22",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/plataforma-formacion-desarrollo-habilidades-transversales-metro-madrid",
-      "firstSeenAt": "2026-09-04T16:16:55.097Z"
     },
     {
       "id": "bocm:bocm-20260904-35",
