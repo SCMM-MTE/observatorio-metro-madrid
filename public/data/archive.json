@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-19T22:28:27.885Z",
+  "generatedAt": "2026-09-20T00:21:25.745Z",
   "coverage": {
     "bocm": "2009-12-01 a 2026-09-16",
     "contratos": "2017-02-02 a 2026-09-19",
@@ -8,19 +8,19 @@
   },
   "sources": {
     "bocm": {
-      "checkedAt": "2026-09-19T22:28:27.885Z",
+      "checkedAt": "2026-09-20T00:21:25.745Z",
       "ok": true,
-      "message": "14 registros relevantes comprobados; 12 documento(s) omitido(s) temporalmente",
-      "recordsSeen": 14
+      "message": "1 registros relevantes comprobados; 17 documento(s) omitido(s) temporalmente",
+      "recordsSeen": 1
     },
     "contratos": {
-      "checkedAt": "2026-09-19T22:28:27.885Z",
+      "checkedAt": "2026-09-20T00:21:25.745Z",
       "ok": true,
       "message": "53 registros relevantes comprobados",
       "recordsSeen": 53
     },
     "empleo": {
-      "checkedAt": "2026-09-19T22:28:27.885Z",
+      "checkedAt": "2026-09-20T00:21:25.745Z",
       "ok": true,
       "message": "Consulta correcta, sin novedades relevantes",
       "recordsSeen": 0
@@ -1257,12 +1257,12 @@
     {
       "id": "bocm:bocm-20260907-19",
       "source": "bocm",
-      "title": "Adjudicación contrato– Anuncio de 2 de septiembre de 2026, de adjudicación del contrato titulado “Suministro para la renovación de equipamiento de seguridad para Energía y Línea Aérea, para Metro de Madrid” (Expediente 6012600079)",
-      "summary": "Adjudicación contrato– Anuncio de 2 de septiembre de 2026, de adjudicación del contrato titulado “Suministro para la renovación de equipamiento de seguridad para Energía y Línea Aérea, para Metro de Madrid” (Expediente 6012600079)",
-      "issuer": "CONSEJERÍA DE VIVIENDA, TRANSPORTES E INFRAESTRUCTURAS · METRO DE MADRID, S. A.",
-      "publicationType": "Adjudicación contrato",
+      "title": "Adjudicación contrato – Anuncio de 2 de septiembre de 2026, de adjudicación del contrato titulado “Suministro para la renovación de equipamiento de seguridad para Energía y Línea Aérea, para Metro de Madrid” (Expediente 6012600079)",
+      "summary": "Adjudicación contrato – Anuncio de 2 de septiembre de 2026, de adjudicación del contrato titulado “Suministro para la renovación de equipamiento de seguridad para Energía y Línea Aérea, para Metro de Madrid” (Expediente 6012600079)",
+      "issuer": "CONSEJERÍA DE VIVIENDA, TRANSPORTES E INFRAESTRUCTURAS",
+      "publicationType": "ANUNCIO",
       "publishedAt": "2026-09-07",
-      "url": "https://www.bocm.es/bocm-20260907-19",
+      "url": "https://www.bocm.es/bocm-20260907-19?language=es",
       "pdfUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/09/07/BOCM-20260907-19.PDF",
       "xmlUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/09/07/BOCM-20260907-19.xml?language=es",
       "tags": [
