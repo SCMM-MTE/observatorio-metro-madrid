@@ -1,32 +1,114 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-21T01:36:02.923Z",
+  "generatedAt": "2026-09-21T07:09:33.051Z",
   "coverage": {
-    "bocm": "2009-12-01 a 2026-09-16",
-    "contratos": "2017-02-02 a 2026-09-19",
+    "bocm": "2009-12-01 a 2026-09-21",
+    "contratos": "2017-02-02 a 2026-09-21",
     "empleo": "2016-10-31 a 2026-05-07"
   },
   "sources": {
     "bocm": {
-      "checkedAt": "2026-09-21T01:36:02.923Z",
+      "checkedAt": "2026-09-21T07:09:33.051Z",
       "ok": true,
-      "message": "14 registros relevantes comprobados; 13 documento(s) omitido(s) temporalmente",
-      "recordsSeen": 14
+      "message": "10 registros relevantes comprobados; 10 documento(s) omitido(s) temporalmente",
+      "recordsSeen": 10
     },
     "contratos": {
-      "checkedAt": "2026-09-21T01:36:02.923Z",
+      "checkedAt": "2026-09-21T07:09:33.051Z",
       "ok": true,
-      "message": "53 registros relevantes comprobados",
-      "recordsSeen": 53
+      "message": "54 registros relevantes comprobados",
+      "recordsSeen": 54
     },
     "empleo": {
-      "checkedAt": "2026-09-21T01:36:02.923Z",
+      "checkedAt": "2026-09-21T07:09:33.051Z",
       "ok": true,
       "message": "Consulta correcta, sin novedades relevantes",
       "recordsSeen": 0
     }
   },
   "items": [
+    {
+      "id": "contratos:servicio-calibracion-equipos-medida-estaciones-meteorologicas",
+      "source": "contratos",
+      "title": "Servicio de calibración de equipos de medida y estaciones meteorológicas",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Pendiente de adjudicación",
+      "status": "Pendiente de adjudicación",
+      "expediente": "6012600184",
+      "publishedAt": "2026-09-21",
+      "updatedAt": "2026-09-21T08:50:37+02:00",
+      "deadline": "2026-07-14",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-calibracion-equipos-medida-estaciones-meteorologicas",
+      "firstSeenAt": "2026-08-05T08:03:18.389Z",
+      "summary": "Id licitación: 6012600184;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 275218.35 EUR;",
+      "amount": 275218.35,
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-06/6012600184_referencia_al_pliego_de_prescripciones_tecnicas_signed.pdf"
+    },
+    {
+      "id": "contratos:servicio-asistencia-tecnica-mantenimiento-operacion-sistemas-auscultacion-linea",
+      "source": "contratos",
+      "title": "Servicio y asistencia técnica para el mantenimiento y la operación de los sistemas de auscultación de línea aérea y vía instalados en el vagón auscultador",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Contratos adjudicados por procedimientos sin publicidad",
+      "status": "Resuelta / Finalizada",
+      "expediente": "6012600191",
+      "publishedAt": "2026-09-21",
+      "updatedAt": "2026-09-21T08:48:00+02:00",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-asistencia-tecnica-mantenimiento-operacion-sistemas-auscultacion-linea",
+      "firstSeenAt": "2026-09-21T07:09:33.051Z"
+    },
+    {
+      "id": "bocm:bocm-20260921-21",
+      "source": "bocm",
+      "title": "Convocatoria contrato– Anuncio de 16 de septiembre de 2026, por el que se convoca la licitación para la contratación de un servicio de Centro de Reprografía (CDR) de Metro de Madrid. (Expediente 6012600245)",
+      "summary": "Convocatoria contrato– Anuncio de 16 de septiembre de 2026, por el que se convoca la licitación para la contratación de un servicio de Centro de Reprografía (CDR) de Metro de Madrid. (Expediente 6012600245)",
+      "issuer": "CONSEJERÍA DE VIVIENDA, TRANSPORTES E INFRAESTRUCTURAS · METRO DE MADRID, S. A.",
+      "publicationType": "Convocatoria contrato",
+      "publishedAt": "2026-09-21",
+      "url": "https://www.bocm.es/bocm-20260921-21",
+      "pdfUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/09/21/BOCM-20260921-21.PDF",
+      "xmlUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/09/21/BOCM-20260921-21.xml?language=es",
+      "firstSeenAt": "2026-09-21T07:09:33.051Z"
+    },
+    {
+      "id": "bocm:bocm-20260921-22",
+      "source": "bocm",
+      "title": "Adjudicación contrato– Anuncio de 16 de septiembre de 2026, de adjudicación del contrato titulado “Suministro de ruedas monoblock para el mantenimiento de los vehículos de material móvil de Metro de Madrid”. (Expediente 6012500363)",
+      "summary": "Adjudicación contrato– Anuncio de 16 de septiembre de 2026, de adjudicación del contrato titulado “Suministro de ruedas monoblock para el mantenimiento de los vehículos de material móvil de Metro de Madrid”. (Expediente 6012500363)",
+      "issuer": "CONSEJERÍA DE VIVIENDA, TRANSPORTES E INFRAESTRUCTURAS · METRO DE MADRID, S. A.",
+      "publicationType": "Adjudicación contrato",
+      "publishedAt": "2026-09-21",
+      "url": "https://www.bocm.es/bocm-20260921-22",
+      "pdfUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/09/21/BOCM-20260921-22.PDF",
+      "xmlUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/09/21/BOCM-20260921-22.xml?language=es",
+      "firstSeenAt": "2026-09-21T07:09:33.051Z"
+    },
+    {
+      "id": "bocm:bocm-20260921-24",
+      "source": "bocm",
+      "title": "Convocatoria contrato– Anuncio de 17 de septiembre de 2026, de por el que se convoca la licitación para la contratación de los servicios de apoyo a las actividades de mantenimiento del material móvil y equipos de trabajo con presencia de materiales con amianto (MCA) (Expediente 6012600246)",
+      "summary": "Convocatoria contrato– Anuncio de 17 de septiembre de 2026, de por el que se convoca la licitación para la contratación de los servicios de apoyo a las actividades de mantenimiento del material móvil y equipos de trabajo con presencia de materiales con amianto (MCA) (Expediente 6012600246)",
+      "issuer": "CONSEJERÍA DE VIVIENDA, TRANSPORTES E INFRAESTRUCTURAS · METRO DE MADRID, S. A.",
+      "publicationType": "Convocatoria contrato",
+      "publishedAt": "2026-09-21",
+      "url": "https://www.bocm.es/bocm-20260921-24",
+      "pdfUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/09/21/BOCM-20260921-24.PDF",
+      "xmlUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/09/21/BOCM-20260921-24.xml?language=es",
+      "firstSeenAt": "2026-09-21T07:09:33.051Z"
+    },
+    {
+      "id": "bocm:bocm-20260921-23",
+      "source": "bocm",
+      "title": "Formalización contrato– Anuncio de 17 de septiembre de 2026, de declaración de desierto de la licitación para la contratación del “Servicio y asistencia técnica para el mantenimiento y la operación de los sistemas de auscultación de línea aérea y vía instalados en el vagón auscultador” (Expediente 6012600191)",
+      "summary": "Formalización contrato– Anuncio de 17 de septiembre de 2026, de declaración de desierto de la licitación para la contratación del “Servicio y asistencia técnica para el mantenimiento y la operación de los sistemas de auscultación de línea aérea y vía instalados en el vagón auscultador” (Expediente 6012600191)",
+      "issuer": "CONSEJERÍA DE VIVIENDA, TRANSPORTES E INFRAESTRUCTURAS · METRO DE MADRID, S. A.",
+      "publicationType": "Formalización contrato",
+      "publishedAt": "2026-09-21",
+      "url": "https://www.bocm.es/bocm-20260921-23",
+      "pdfUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/09/21/BOCM-20260921-23.PDF",
+      "xmlUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/09/21/BOCM-20260921-23.xml?language=es",
+      "firstSeenAt": "2026-09-21T07:09:33.051Z"
+    },
     {
       "id": "contratos:suministro-varios-repuestos-conexion-electrica-mantenimiento-material-movil-metro",
       "source": "contratos",
@@ -2148,20 +2230,6 @@
       "pdfUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/08/26/BOCM-20260826-11.PDF",
       "xmlUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/08/26/BOCM-20260826-11.xml?language=es",
       "firstSeenAt": "2026-08-26T07:56:28.946Z"
-    },
-    {
-      "id": "contratos:servicio-calibracion-equipos-medida-estaciones-meteorologicas",
-      "source": "contratos",
-      "title": "Servicio de calibración de equipos de medida y estaciones meteorológicas",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Convocatoria anunciada a licitación",
-      "status": "Pendiente de adjudicación",
-      "expediente": "6012600184",
-      "publishedAt": "2026-08-25",
-      "updatedAt": "2026-08-25T13:34:00+02:00",
-      "deadline": "2026-07-14",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-calibracion-equipos-medida-estaciones-meteorologicas",
-      "firstSeenAt": "2026-08-05T08:03:18.389Z"
     },
     {
       "id": "contratos:suministro-sustitucion-plantas-energia-centros-administrativos-1",
