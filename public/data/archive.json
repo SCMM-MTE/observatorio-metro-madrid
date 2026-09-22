@@ -1,26 +1,26 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-22T13:21:50.867Z",
+  "generatedAt": "2026-09-22T17:44:52.086Z",
   "coverage": {
-    "bocm": "2009-12-01 a 2026-09-21",
+    "bocm": "2009-12-01 a 2026-09-22",
     "contratos": "2017-02-02 a 2026-09-22",
     "empleo": "2016-10-31 a 2026-05-07"
   },
   "sources": {
     "bocm": {
-      "checkedAt": "2026-09-22T13:21:50.867Z",
+      "checkedAt": "2026-09-22T17:44:52.086Z",
       "ok": true,
-      "message": "4 registros relevantes comprobados; 14 documento(s) omitido(s) temporalmente",
-      "recordsSeen": 4
+      "message": "13 registros relevantes comprobados",
+      "recordsSeen": 13
     },
     "contratos": {
-      "checkedAt": "2026-09-22T13:21:50.867Z",
+      "checkedAt": "2026-09-22T17:44:52.086Z",
       "ok": true,
       "message": "54 registros relevantes comprobados",
       "recordsSeen": 54
     },
     "empleo": {
-      "checkedAt": "2026-09-22T13:21:50.867Z",
+      "checkedAt": "2026-09-22T17:44:52.086Z",
       "ok": true,
       "message": "Consulta correcta, sin novedades relevantes",
       "recordsSeen": 0
@@ -218,6 +218,19 @@
       "deadline": "2026-09-21",
       "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-proyecto-despliegue-asistente-operativo-lar-fase-1",
       "firstSeenAt": "2026-08-11T10:29:06.918Z"
+    },
+    {
+      "id": "bocm:bocm-20260922-19",
+      "source": "bocm",
+      "title": "Convocatoria contrato– Anuncio de 18 de septiembre de 2026, por el que se convoca la licitación para la contratación del servicio de reparación de reductores modelo Flender AKEF 234.5 y Watteeuw ABH2-567 de la Serie 3000 para Metro de Madrid (Expediente 6012600247)",
+      "summary": "Convocatoria contrato– Anuncio de 18 de septiembre de 2026, por el que se convoca la licitación para la contratación del servicio de reparación de reductores modelo Flender AKEF 234.5 y Watteeuw ABH2-567 de la Serie 3000 para Metro de Madrid (Expediente 6012600247)",
+      "issuer": "CONSEJERÍA DE VIVIENDA, TRANSPORTES E INFRAESTRUCTURAS · METRO DE MADRID, S. A.",
+      "publicationType": "Convocatoria contrato",
+      "publishedAt": "2026-09-22",
+      "url": "https://www.bocm.es/bocm-20260922-19",
+      "pdfUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/09/22/BOCM-20260922-19.PDF",
+      "xmlUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/09/22/BOCM-20260922-19.xml?language=es",
+      "firstSeenAt": "2026-09-22T17:44:52.086Z"
     },
     {
       "id": "contratos:obras-reforma-instalacion-climatizacion-ventilacion-oficina-ttp-estacion-sol",
