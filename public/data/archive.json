@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-21T23:13:53.463Z",
+  "generatedAt": "2026-09-22T01:49:14.257Z",
   "coverage": {
     "bocm": "2009-12-01 a 2026-09-21",
     "contratos": "2017-02-02 a 2026-09-22",
@@ -8,19 +8,19 @@
   },
   "sources": {
     "bocm": {
-      "checkedAt": "2026-09-21T23:13:53.463Z",
+      "checkedAt": "2026-09-22T01:49:14.257Z",
       "ok": true,
-      "message": "3 registros relevantes comprobados; 16 documento(s) omitido(s) temporalmente",
-      "recordsSeen": 3
+      "message": "12 registros relevantes comprobados",
+      "recordsSeen": 12
     },
     "contratos": {
-      "checkedAt": "2026-09-21T23:13:53.463Z",
+      "checkedAt": "2026-09-22T01:49:14.257Z",
       "ok": true,
       "message": "56 registros relevantes comprobados",
       "recordsSeen": 56
     },
     "empleo": {
-      "checkedAt": "2026-09-21T23:13:53.463Z",
+      "checkedAt": "2026-09-22T01:49:14.257Z",
       "ok": true,
       "message": "Consulta correcta, sin novedades relevantes",
       "recordsSeen": 0
