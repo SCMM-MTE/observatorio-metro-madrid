@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-22T07:39:36.151Z",
+  "generatedAt": "2026-09-22T13:21:50.867Z",
   "coverage": {
     "bocm": "2009-12-01 a 2026-09-21",
     "contratos": "2017-02-02 a 2026-09-22",
@@ -8,25 +8,172 @@
   },
   "sources": {
     "bocm": {
-      "checkedAt": "2026-09-22T07:39:36.151Z",
+      "checkedAt": "2026-09-22T13:21:50.867Z",
       "ok": true,
-      "message": "1 registros relevantes comprobados; 18 documento(s) omitido(s) temporalmente",
-      "recordsSeen": 1
+      "message": "4 registros relevantes comprobados; 14 documento(s) omitido(s) temporalmente",
+      "recordsSeen": 4
     },
     "contratos": {
-      "checkedAt": "2026-09-22T07:39:36.151Z",
+      "checkedAt": "2026-09-22T13:21:50.867Z",
       "ok": true,
-      "message": "55 registros relevantes comprobados",
-      "recordsSeen": 55
+      "message": "54 registros relevantes comprobados",
+      "recordsSeen": 54
     },
     "empleo": {
-      "checkedAt": "2026-09-22T07:39:36.151Z",
+      "checkedAt": "2026-09-22T13:21:50.867Z",
       "ok": true,
       "message": "Consulta correcta, sin novedades relevantes",
       "recordsSeen": 0
     }
   },
   "items": [
+    {
+      "id": "contratos:plataforma-formacion-desarrollo-habilidades-transversales-metro-madrid",
+      "source": "contratos",
+      "title": "Una plataforma de formación y desarrollo en habilidades transversales, para Metro de Madrid",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Convocatoria anunciada a licitación",
+      "status": "En plazo",
+      "expediente": "6012600242",
+      "publishedAt": "2026-09-22",
+      "updatedAt": "2026-09-22T14:02:00+02:00",
+      "deadline": "2026-09-25",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/plataforma-formacion-desarrollo-habilidades-transversales-metro-madrid",
+      "firstSeenAt": "2026-09-04T16:16:55.097Z"
+    },
+    {
+      "id": "contratos:servicio-mantenimiento-preventivo-ciclo-largo-puertas-acceso-viajeros-material",
+      "source": "contratos",
+      "title": "Servicio de mantenimiento preventivo de ciclo largo de las puertas de acceso de viajeros en el material móvil de la serie 3000-1ª",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Pendiente de adjudicación",
+      "status": "Pendiente de adjudicación",
+      "expediente": "6012600009",
+      "publishedAt": "2026-09-22",
+      "updatedAt": "2026-09-22T13:31:26+02:00",
+      "deadline": "2026-02-20",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-mantenimiento-preventivo-ciclo-largo-puertas-acceso-viajeros-material",
+      "firstSeenAt": "2026-08-05T08:03:18.389Z",
+      "summary": "Id licitación: 6012600009;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 1274400.00 EUR;",
+      "amount": 1274400,
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-01/6012600009_documento_ref._confidencialidad_signed.pdf"
+    },
+    {
+      "id": "contratos:contrato-direccion-obra-coordinacion-seguridad-salud-asistencia-tecnica-obras",
+      "source": "contratos",
+      "title": "Contrato de dirección de obra, coordinación de seguridad y salud y asistencia técnica de las obras de construcción de la ampliación de la red de metro de madrid al barrio de Valdebebas. Tramos 1 y 2 (cuatro lotes)",
+      "summary": "Id licitación: A/SER-014572/2026;Órgano de Contratación: Consejería de Vivienda, Transportes e Infraestructuras;Importe: 52158125.73 EUR;",
+      "issuer": "Consejería de Vivienda, Transportes e Infraestructuras",
+      "publicationType": "En plazo",
+      "status": "En plazo",
+      "expediente": "A/SER-014572/2026",
+      "amount": 52158125.73,
+      "deadline": "2026-09-30",
+      "publishedAt": "2026-09-22",
+      "updatedAt": "2026-09-22T12:40:36+02:00",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/contrato-direccion-obra-coordinacion-seguridad-salud-asistencia-tecnica-obras",
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-07/ser.14572.2026_ppt_an.pdf",
+      "firstSeenAt": "2026-08-14T13:59:16.760Z"
+    },
+    {
+      "id": "contratos:servicio-mantenimiento-integral-sistemas-seguridad-sacos-recintos-1",
+      "source": "contratos",
+      "title": "Servicio de mantenimiento integral de sistemas de seguridad en sacos y recintos",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Convocatoria anunciada a licitación",
+      "status": "Pendiente de adjudicación",
+      "expediente": "6012600216",
+      "publishedAt": "2026-09-22",
+      "updatedAt": "2026-09-22T12:16:00+02:00",
+      "deadline": "2026-09-17",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-mantenimiento-integral-sistemas-seguridad-sacos-recintos-1",
+      "firstSeenAt": "2026-08-10T07:59:51.887Z"
+    },
+    {
+      "id": "contratos:suministro-suspension-primaria-7000-9000-mantenimiento-vehiculos-material-movil",
+      "source": "contratos",
+      "title": "Suministro de “Suspensión primaria 7000 9000” para el mantenimiento de los vehículos de material móvil de Metro de Madrid, S.A.",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Convocatoria anunciada a licitación",
+      "status": "Pendiente de adjudicación",
+      "expediente": "6012600224",
+      "publishedAt": "2026-09-22",
+      "updatedAt": "2026-09-22T11:37:00+02:00",
+      "deadline": "2026-09-15",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/suministro-suspension-primaria-7000-9000-mantenimiento-vehiculos-material-movil",
+      "firstSeenAt": "2026-08-13T08:40:11.488Z"
+    },
+    {
+      "id": "contratos:servicio-asistencia-tecnica-mantenimiento-operacion-sistemas-auscultacion-linea",
+      "source": "contratos",
+      "title": "Servicio y asistencia técnica para el mantenimiento y la operación de los sistemas de auscultación de línea aérea y vía instalados en el vagón auscultador",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Contratos adjudicados por procedimientos sin publicidad",
+      "status": "Resuelta / Finalizada",
+      "expediente": "6012600191",
+      "publishedAt": "2026-09-22",
+      "updatedAt": "2026-09-22T10:36:00+02:00",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-asistencia-tecnica-mantenimiento-operacion-sistemas-auscultacion-linea",
+      "firstSeenAt": "2026-09-21T07:09:33.051Z"
+    },
+    {
+      "id": "contratos:servicio-mantenimiento-preventivo-calibracion-maquina-universal-ensayos-zwick-0",
+      "source": "contratos",
+      "title": "Servicio de mantenimiento preventivo y calibración de la máquina universal de ensayos ZWICK INSTRON 4204 del laboratorio de inspección de materiales del Área de Aprovisionamiento para los años 2027, 2028 Y 2029",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Contratos adjudicados por procedimientos sin publicidad",
+      "status": "Pendiente de adjudicación",
+      "expediente": "6012600249",
+      "publishedAt": "2026-09-22",
+      "updatedAt": "2026-09-22T09:56:00+02:00",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-mantenimiento-preventivo-calibracion-maquina-universal-ensayos-zwick-0",
+      "firstSeenAt": "2026-09-22T13:21:50.867Z"
+    },
+    {
+      "id": "contratos:suministro-varios-repuestos-conexion-electrica-mantenimiento-material-movil-metro",
+      "source": "contratos",
+      "title": "Suministro de varios repuestos de conexión eléctrica para el mantenimiento del material móvil de Metro de Madrid",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Convocatoria anunciada a licitación",
+      "status": "Pendiente de adjudicación",
+      "expediente": "6012600236",
+      "publishedAt": "2026-09-22",
+      "updatedAt": "2026-09-22T09:50:00+02:00",
+      "deadline": "2026-09-18",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/suministro-varios-repuestos-conexion-electrica-mantenimiento-material-movil-metro",
+      "firstSeenAt": "2026-09-01T10:00:16.000Z"
+    },
+    {
+      "id": "contratos:servicio-reparacion-reductores-modelo-flender-akef-2345-watteeuw-abh2-567-serie",
+      "source": "contratos",
+      "title": "Servicio de reparación de reductores modelo FLENDER AKEF 234.5 y WATTEEUW ABH2-567 de la serie 3000 para Metro de Madrid",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Convocatoria anunciada a licitación",
+      "status": "En plazo",
+      "expediente": "6012600247",
+      "publishedAt": "2026-09-22",
+      "updatedAt": "2026-09-22T09:49:00+02:00",
+      "deadline": "2026-10-21",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-reparacion-reductores-modelo-flender-akef-2345-watteeuw-abh2-567-serie",
+      "firstSeenAt": "2026-09-22T07:39:36.151Z"
+    },
+    {
+      "id": "contratos:servicio-mantenimiento-integral-679-equipos-instalaciones-climatizacion-ubicados",
+      "source": "contratos",
+      "title": "Servicio de mantenimiento integral de 679 equipos de instalaciones de climatización ubicados en estaciones, recintos y depósitos de Metro de Madrid",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Resuelta / Finalizada",
+      "status": "Resuelta / Finalizada",
+      "expediente": "6012200012",
+      "publishedAt": "2026-09-22",
+      "updatedAt": "2026-09-22T09:47:48+02:00",
+      "deadline": "2022-02-24",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-mantenimiento-integral-679-equipos-instalaciones-climatizacion-ubicados",
+      "firstSeenAt": "2026-08-05T08:03:18.389Z",
+      "summary": "Id licitación: 6012200012;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 1309097.52 EUR;Estado: 3Cerrada",
+      "amount": 1309097.52,
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2022-01/1354912852228.pdf"
+    },
     {
       "id": "contratos:servicio-asistencia-tecnica-analisis-adecuacion-puesta-conformidad-equipamiento",
       "source": "contratos",
@@ -59,20 +206,6 @@
       "firstSeenAt": "2026-08-07T09:36:46.485Z"
     },
     {
-      "id": "contratos:servicio-reparacion-reductores-modelo-flender-akef-2345-watteeuw-abh2-567-serie",
-      "source": "contratos",
-      "title": "Servicio de reparación de reductores modelo FLENDER AKEF 234.5 y WATTEEUW ABH2-567 de la serie 3000 para Metro de Madrid",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Convocatoria anunciada a licitación",
-      "status": "En plazo",
-      "expediente": "6012600247",
-      "publishedAt": "2026-09-22",
-      "updatedAt": "2026-09-22T07:43:00+02:00",
-      "deadline": "2026-10-21",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-reparacion-reductores-modelo-flender-akef-2345-watteeuw-abh2-567-serie",
-      "firstSeenAt": "2026-09-22T07:39:36.151Z"
-    },
-    {
       "id": "contratos:servicio-proyecto-despliegue-asistente-operativo-lar-fase-1",
       "source": "contratos",
       "title": "Servicio de proyecto para el despliegue del asistente operativo Lar – fase 1",
@@ -85,23 +218,6 @@
       "deadline": "2026-09-21",
       "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-proyecto-despliegue-asistente-operativo-lar-fase-1",
       "firstSeenAt": "2026-08-11T10:29:06.918Z"
-    },
-    {
-      "id": "contratos:servicio-mantenimiento-integral-679-equipos-instalaciones-climatizacion-ubicados",
-      "source": "contratos",
-      "title": "Servicio de mantenimiento integral de 679 equipos de instalaciones de climatización ubicados en estaciones, recintos y depósitos de Metro de Madrid",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Resuelta / Finalizada",
-      "status": "Resuelta / Finalizada",
-      "expediente": "6012200012",
-      "publishedAt": "2026-09-21",
-      "updatedAt": "2026-09-21T13:51:49+02:00",
-      "deadline": "2022-02-24",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-mantenimiento-integral-679-equipos-instalaciones-climatizacion-ubicados",
-      "firstSeenAt": "2026-08-05T08:03:18.389Z",
-      "summary": "Id licitación: 6012200012;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 1309097.52 EUR;Estado: 3Cerrada",
-      "amount": 1309097.52,
-      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2022-01/1354912852228.pdf"
     },
     {
       "id": "contratos:obras-reforma-instalacion-climatizacion-ventilacion-oficina-ttp-estacion-sol",
@@ -276,19 +392,6 @@
       "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-06/6012600184_referencia_al_pliego_de_prescripciones_tecnicas_signed.pdf"
     },
     {
-      "id": "contratos:servicio-asistencia-tecnica-mantenimiento-operacion-sistemas-auscultacion-linea",
-      "source": "contratos",
-      "title": "Servicio y asistencia técnica para el mantenimiento y la operación de los sistemas de auscultación de línea aérea y vía instalados en el vagón auscultador",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Contratos adjudicados por procedimientos sin publicidad",
-      "status": "Resuelta / Finalizada",
-      "expediente": "6012600191",
-      "publishedAt": "2026-09-21",
-      "updatedAt": "2026-09-21T08:48:00+02:00",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-asistencia-tecnica-mantenimiento-operacion-sistemas-auscultacion-linea",
-      "firstSeenAt": "2026-09-21T07:09:33.051Z"
-    },
-    {
       "id": "bocm:bocm-20260921-21",
       "source": "bocm",
       "title": "Convocatoria contrato– Anuncio de 16 de septiembre de 2026, por el que se convoca la licitación para la contratación de un servicio de Centro de Reprografía (CDR) de Metro de Madrid. (Expediente 6012600245)",
@@ -339,34 +442,6 @@
       "pdfUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/09/21/BOCM-20260921-23.PDF",
       "xmlUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/09/21/BOCM-20260921-23.xml?language=es",
       "firstSeenAt": "2026-09-21T07:09:33.051Z"
-    },
-    {
-      "id": "contratos:suministro-varios-repuestos-conexion-electrica-mantenimiento-material-movil-metro",
-      "source": "contratos",
-      "title": "Suministro de varios repuestos de conexión eléctrica para el mantenimiento del material móvil de Metro de Madrid",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Convocatoria anunciada a licitación",
-      "status": "Pendiente de adjudicación",
-      "expediente": "6012600236",
-      "publishedAt": "2026-09-19",
-      "updatedAt": "2026-09-19T00:08:00+02:00",
-      "deadline": "2026-09-18",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/suministro-varios-repuestos-conexion-electrica-mantenimiento-material-movil-metro",
-      "firstSeenAt": "2026-09-01T10:00:16.000Z"
-    },
-    {
-      "id": "contratos:plataforma-formacion-desarrollo-habilidades-transversales-metro-madrid",
-      "source": "contratos",
-      "title": "Una plataforma de formación y desarrollo en habilidades transversales, para Metro de Madrid",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Convocatoria anunciada a licitación",
-      "status": "En plazo",
-      "expediente": "6012600242",
-      "publishedAt": "2026-09-18",
-      "updatedAt": "2026-09-18T13:53:00+02:00",
-      "deadline": "2026-09-25",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/plataforma-formacion-desarrollo-habilidades-transversales-metro-madrid",
-      "firstSeenAt": "2026-09-04T16:16:55.097Z"
     },
     {
       "id": "contratos:servicio-polizas-seguros-responsabilidad-civil-profesional-metro-madrid-rcp-rcp",
@@ -496,20 +571,6 @@
       "summary": "Id licitación: 6012600114;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 168000.00 EUR;",
       "amount": 168000,
       "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-04/6012600114_pliego_de_prescripciones_tecnicas_signed.pdf"
-    },
-    {
-      "id": "contratos:servicio-mantenimiento-integral-sistemas-seguridad-sacos-recintos-1",
-      "source": "contratos",
-      "title": "Servicio de mantenimiento integral de sistemas de seguridad en sacos y recintos",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Convocatoria anunciada a licitación",
-      "status": "Pendiente de adjudicación",
-      "expediente": "6012600216",
-      "publishedAt": "2026-09-18",
-      "updatedAt": "2026-09-18T00:06:00+02:00",
-      "deadline": "2026-09-17",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-mantenimiento-integral-sistemas-seguridad-sacos-recintos-1",
-      "firstSeenAt": "2026-08-10T07:59:51.887Z"
     },
     {
       "id": "contratos:obras-renovacion-integral-superestructura-via-linea-6-actuaciones-incluidas",
@@ -688,20 +749,6 @@
       "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/direccion-obras-coordinacion-seguridad-salud-asistencia-tecnica-obras-ejecucion",
       "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2025-12/ser.31843.2025_ppt.an.pdf",
       "firstSeenAt": "2026-08-12T11:55:17.677Z"
-    },
-    {
-      "id": "contratos:suministro-suspension-primaria-7000-9000-mantenimiento-vehiculos-material-movil",
-      "source": "contratos",
-      "title": "Suministro de “Suspensión primaria 7000 9000” para el mantenimiento de los vehículos de material móvil de Metro de Madrid, S.A.",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Convocatoria anunciada a licitación",
-      "status": "Pendiente de adjudicación",
-      "expediente": "6012600224",
-      "publishedAt": "2026-09-16",
-      "updatedAt": "2026-09-16T00:01:00+02:00",
-      "deadline": "2026-09-15",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/suministro-suspension-primaria-7000-9000-mantenimiento-vehiculos-material-movil",
-      "firstSeenAt": "2026-08-13T08:40:11.488Z"
     },
     {
       "id": "contratos:servicio-reparacion-equipos-megafonia-fabricante-optimus",
@@ -928,23 +975,6 @@
       "tags": [
         "I. COMUNIDAD DE MADRID · D) Anuncios"
       ]
-    },
-    {
-      "id": "contratos:contrato-direccion-obra-coordinacion-seguridad-salud-asistencia-tecnica-obras",
-      "source": "contratos",
-      "title": "Contrato de dirección de obra, coordinación de seguridad y salud y asistencia técnica de las obras de construcción de la ampliación de la red de metro de madrid al barrio de Valdebebas. Tramos 1 y 2 (cuatro lotes)",
-      "summary": "Id licitación: A/SER-014572/2026;Órgano de Contratación: Consejería de Vivienda, Transportes e Infraestructuras;Importe: 52158125.73 EUR;",
-      "issuer": "Consejería de Vivienda, Transportes e Infraestructuras",
-      "publicationType": "En plazo",
-      "status": "En plazo",
-      "expediente": "A/SER-014572/2026",
-      "amount": 52158125.73,
-      "deadline": "2026-09-30",
-      "publishedAt": "2026-09-10",
-      "updatedAt": "2026-09-10T15:29:41+02:00",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/contrato-direccion-obra-coordinacion-seguridad-salud-asistencia-tecnica-obras",
-      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-07/ser.14572.2026_ppt_an.pdf",
-      "firstSeenAt": "2026-08-14T13:59:16.760Z"
     },
     {
       "id": "contratos:suministro-aceites-grasas-utilizados-mantenimiento-diversos-equipos-instalados-3",
@@ -6507,20 +6537,6 @@
       "publishedAt": "2026-06-06",
       "updatedAt": "2026-06-06T00:11:00+02:00",
       "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/anuncio-periodico-indicativo-relativo-contrato-servicio-mantenimiento-limpieza",
-      "firstSeenAt": "2026-08-05T08:03:18.389Z"
-    },
-    {
-      "id": "contratos:servicio-mantenimiento-preventivo-ciclo-largo-puertas-acceso-viajeros-material",
-      "source": "contratos",
-      "title": "Servicio de mantenimiento preventivo de ciclo largo de las puertas de acceso de viajeros en el material móvil de la serie 3000-1ª",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Convocatoria anunciada a licitación",
-      "status": "Pendiente de adjudicación",
-      "expediente": "6012600009",
-      "publishedAt": "2026-06-05",
-      "updatedAt": "2026-06-05T13:05:00+02:00",
-      "deadline": "2026-02-20",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-mantenimiento-preventivo-ciclo-largo-puertas-acceso-viajeros-material",
       "firstSeenAt": "2026-08-05T08:03:18.389Z"
     },
     {
