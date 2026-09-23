@@ -1,32 +1,111 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-23T04:38:31.330Z",
+  "generatedAt": "2026-09-23T09:54:23.476Z",
   "coverage": {
-    "bocm": "2009-12-01 a 2026-09-22",
+    "bocm": "2009-12-01 a 2026-09-23",
     "contratos": "2017-02-02 a 2026-09-23",
     "empleo": "2016-10-31 a 2026-05-07"
   },
   "sources": {
     "bocm": {
-      "checkedAt": "2026-09-23T04:38:31.330Z",
+      "checkedAt": "2026-09-23T09:54:23.476Z",
       "ok": true,
-      "message": "12 registros relevantes comprobados; 11 documento(s) omitido(s) temporalmente",
-      "recordsSeen": 12
+      "message": "14 registros relevantes comprobados; 10 documento(s) omitido(s) temporalmente",
+      "recordsSeen": 14
     },
     "contratos": {
-      "checkedAt": "2026-09-23T04:38:31.330Z",
+      "checkedAt": "2026-09-23T09:54:23.476Z",
       "ok": true,
-      "message": "53 registros relevantes comprobados",
-      "recordsSeen": 53
+      "message": "54 registros relevantes comprobados",
+      "recordsSeen": 54
     },
     "empleo": {
-      "checkedAt": "2026-09-23T04:38:31.330Z",
+      "checkedAt": "2026-09-23T09:54:23.476Z",
       "ok": true,
       "message": "Consulta correcta, sin novedades relevantes",
       "recordsSeen": 0
     }
   },
   "items": [
+    {
+      "id": "contratos:servicio-retirada-amianto-material-movil-equipos-taller-trabajo-0",
+      "source": "contratos",
+      "title": "Servicio de retirada de amianto del material móvil y equipos de taller y trabajo",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Pendiente de adjudicación",
+      "status": "Pendiente de adjudicación",
+      "expediente": "6012500358",
+      "publishedAt": "2026-09-23",
+      "updatedAt": "2026-09-23T11:52:58+02:00",
+      "deadline": "2026-01-22",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-retirada-amianto-material-movil-equipos-taller-trabajo-0",
+      "firstSeenAt": "2026-08-05T08:03:18.389Z",
+      "summary": "Id licitación: 6012500358;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 1681499.87 EUR;",
+      "amount": 1681499.87,
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2025-12/6012500358_ppt_signed.pdf"
+    },
+    {
+      "id": "contratos:suministro-mantenimiento-plataforma-tecnologica-ciac-centro-interactivo-atencion-0",
+      "source": "contratos",
+      "title": "Suministro y mantenimiento de la plataforma tecnológica del CIAC (Centro Interactivo de Atención al Cliente)",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Convocatoria anunciada a licitación",
+      "status": "Pendiente de adjudicación",
+      "expediente": "6012600214",
+      "publishedAt": "2026-09-23",
+      "updatedAt": "2026-09-23T11:19:00+02:00",
+      "deadline": "2026-09-11",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/suministro-mantenimiento-plataforma-tecnologica-ciac-centro-interactivo-atencion-0",
+      "firstSeenAt": "2026-08-07T09:36:46.485Z"
+    },
+    {
+      "id": "contratos:suministro-gasoleo-clase-b-c-recintos-metro-madrid-1",
+      "source": "contratos",
+      "title": "Suministro de gasóleo clase A, B y C en recintos de Metro de Madrid",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Resuelta / Finalizada",
+      "status": "Resuelta / Finalizada",
+      "expediente": "6012600112",
+      "publishedAt": "2026-09-23",
+      "updatedAt": "2026-09-23T09:44:56+02:00",
+      "deadline": "2026-06-02",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/suministro-gasoleo-clase-b-c-recintos-metro-madrid-1",
+      "firstSeenAt": "2026-08-05T08:03:18.389Z",
+      "summary": "Id licitación: 6012600112;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 720105.94 EUR;",
+      "amount": 720105.94,
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-04/6012600112_ppt_signed.pdf"
+    },
+    {
+      "id": "contratos:suministro-mantenimiento-licencias-base-datos-oracle-productos-sap",
+      "source": "contratos",
+      "title": "Suministro para el mantenimiento de licencias de base de datos Oracle para productos SAP",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Convocatoria anunciada a licitación",
+      "status": "Pendiente de adjudicación",
+      "expediente": "6012600215",
+      "publishedAt": "2026-09-23",
+      "updatedAt": "2026-09-23T09:15:00+02:00",
+      "deadline": "2026-09-02",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/suministro-mantenimiento-licencias-base-datos-oracle-productos-sap",
+      "firstSeenAt": "2026-08-17T11:00:02.754Z"
+    },
+    {
+      "id": "contratos:acuerdo-marco-servicios-asistencia-tecnica-control-gestion-medioambiental-servicio",
+      "source": "contratos",
+      "title": "Acuerdo marco para servicios de asistencia técnica y control de la gestión medioambiental del servicio de superestructura de vía de Metro de Madrid S.A.",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Pendiente de adjudicación",
+      "status": "Pendiente de adjudicación",
+      "expediente": "6012600181",
+      "publishedAt": "2026-09-23",
+      "updatedAt": "2026-09-23T09:13:39+02:00",
+      "deadline": "2026-07-21",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/acuerdo-marco-servicios-asistencia-tecnica-control-gestion-medioambiental-servicio",
+      "firstSeenAt": "2026-08-05T08:03:18.389Z",
+      "summary": "Id licitación: 6012600181;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 2800000.00 EUR;",
+      "amount": 2800000,
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-06/6012600181_ppt_signed.pdf"
+    },
     {
       "id": "contratos:servicio-mantenimiento-plataforma-efficient-ip-gestion-direccionamiento-ip-1",
       "source": "contratos",
@@ -40,6 +119,19 @@
       "deadline": "2026-09-22",
       "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-mantenimiento-plataforma-efficient-ip-gestion-direccionamiento-ip-1",
       "firstSeenAt": "2026-08-05T08:03:18.389Z"
+    },
+    {
+      "id": "bocm:bocm-20260923-47",
+      "source": "bocm",
+      "title": "Formalización contrato– Anuncio de 14 de septiembre de 2026, de corrección de errores del anuncio de formalización para la contratación del suministro de gasóleo clase A, B y C en recintos de Metro de Madrid (Expediente 6012600112)",
+      "summary": "Formalización contrato– Anuncio de 14 de septiembre de 2026, de corrección de errores del anuncio de formalización para la contratación del suministro de gasóleo clase A, B y C en recintos de Metro de Madrid (Expediente 6012600112)",
+      "issuer": "CONSEJERÍA DE VIVIENDA, TRANSPORTES E INFRAESTRUCTURAS · METRO DE MADRID, S. A.",
+      "publicationType": "Formalización contrato",
+      "publishedAt": "2026-09-23",
+      "url": "https://www.bocm.es/bocm-20260923-47",
+      "pdfUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/09/23/BOCM-20260923-47.PDF",
+      "xmlUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/09/23/BOCM-20260923-47.xml?language=es",
+      "firstSeenAt": "2026-09-23T09:54:23.476Z"
     },
     {
       "id": "contratos:plataforma-formacion-desarrollo-habilidades-transversales-metro-madrid",
@@ -206,20 +298,6 @@
       "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-05/6012600149_ppt_signed.pdf"
     },
     {
-      "id": "contratos:suministro-mantenimiento-plataforma-tecnologica-ciac-centro-interactivo-atencion-0",
-      "source": "contratos",
-      "title": "Suministro y mantenimiento de la plataforma tecnológica del CIAC (Centro Interactivo de Atención al Cliente)",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Convocatoria anunciada a licitación",
-      "status": "Pendiente de adjudicación",
-      "expediente": "6012600214",
-      "publishedAt": "2026-09-22",
-      "updatedAt": "2026-09-22T08:31:00+02:00",
-      "deadline": "2026-09-11",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/suministro-mantenimiento-plataforma-tecnologica-ciac-centro-interactivo-atencion-0",
-      "firstSeenAt": "2026-08-07T09:36:46.485Z"
-    },
-    {
       "id": "contratos:servicio-proyecto-despliegue-asistente-operativo-lar-fase-1",
       "source": "contratos",
       "title": "Servicio de proyecto para el despliegue del asistente operativo Lar – fase 1",
@@ -262,20 +340,6 @@
       "summary": "Id licitación: 6012500265;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 53118.21 EUR;",
       "amount": 53118.21,
       "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2025-09/6012500265_ppt_signed.pdf"
-    },
-    {
-      "id": "contratos:suministro-mantenimiento-licencias-base-datos-oracle-productos-sap",
-      "source": "contratos",
-      "title": "Suministro para el mantenimiento de licencias de base de datos Oracle para productos SAP",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Convocatoria anunciada a licitación",
-      "status": "Pendiente de adjudicación",
-      "expediente": "6012600215",
-      "publishedAt": "2026-09-21",
-      "updatedAt": "2026-09-21T12:58:00+02:00",
-      "deadline": "2026-09-02",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/suministro-mantenimiento-licencias-base-datos-oracle-productos-sap",
-      "firstSeenAt": "2026-08-17T11:00:02.754Z"
     },
     {
       "id": "contratos:servicio-redaccion-proyecto-construccion-nueva-estacion-linea-9-metro-desarrollos",
@@ -893,23 +957,6 @@
       "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-06/6012600165_ppt_signed.pdf"
     },
     {
-      "id": "contratos:suministro-gasoleo-clase-b-c-recintos-metro-madrid-1",
-      "source": "contratos",
-      "title": "Suministro de gasóleo clase A, B y C en recintos de Metro de Madrid",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Resuelta / Finalizada",
-      "status": "Resuelta / Finalizada",
-      "expediente": "6012600112",
-      "publishedAt": "2026-09-15",
-      "updatedAt": "2026-09-15T08:04:06+02:00",
-      "deadline": "2026-06-02",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/suministro-gasoleo-clase-b-c-recintos-metro-madrid-1",
-      "firstSeenAt": "2026-08-05T08:03:18.389Z",
-      "summary": "Id licitación: 6012600112;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 720105.94 EUR;",
-      "amount": 720105.94,
-      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-04/6012600112_ppt_signed.pdf"
-    },
-    {
       "id": "bocm:bocm-20260915-57",
       "source": "bocm",
       "title": "Adjudicación contrato– Anuncio de 10 de septiembre de 2026, de adjudicación del contrato titulado “Acuerdo Marco para el suministro de medios de producción (Plan Renove)” (Expediente 6012600021)",
@@ -1298,23 +1345,6 @@
       "firstSeenAt": "2026-09-09T10:04:46.739Z"
     },
     {
-      "id": "contratos:acuerdo-marco-servicios-asistencia-tecnica-control-gestion-medioambiental-servicio",
-      "source": "contratos",
-      "title": "Acuerdo marco para servicios de asistencia técnica y control de la gestión medioambiental del servicio de superestructura de vía de Metro de Madrid S.A.",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Pendiente de adjudicación",
-      "status": "Pendiente de adjudicación",
-      "expediente": "6012600181",
-      "publishedAt": "2026-09-08",
-      "updatedAt": "2026-09-08T10:13:59+02:00",
-      "deadline": "2026-07-21",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/acuerdo-marco-servicios-asistencia-tecnica-control-gestion-medioambiental-servicio",
-      "firstSeenAt": "2026-08-05T08:03:18.389Z",
-      "summary": "Id licitación: 6012600181;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 2800000.00 EUR;",
-      "amount": 2800000,
-      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-06/6012600181_ppt_signed.pdf"
-    },
-    {
       "id": "contratos:acuerdo-marco-suministro-equipos-proteccion-individual-epis-proteccion-colectiva",
       "source": "contratos",
       "title": "Acuerdo marco para el suministro de Equipos de Protección Individual (EPIS), protección colectiva y señalización de personal, empleados durante las operaciones de mantenimiento de las instalaciones y del material móvil y tareas diarias del personal de Metro Madrid",
@@ -1504,23 +1534,6 @@
         "I. COMUNIDAD DE MADRID · D) Anuncios"
       ],
       "firstSeenAt": "2026-09-07T15:47:20.516Z"
-    },
-    {
-      "id": "contratos:servicio-retirada-amianto-material-movil-equipos-taller-trabajo-0",
-      "source": "contratos",
-      "title": "Servicio de retirada de amianto del material móvil y equipos de taller y trabajo",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Pendiente de adjudicación",
-      "status": "Pendiente de adjudicación",
-      "expediente": "6012500358",
-      "publishedAt": "2026-09-04",
-      "updatedAt": "2026-09-04T11:06:26+02:00",
-      "deadline": "2026-01-22",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-retirada-amianto-material-movil-equipos-taller-trabajo-0",
-      "firstSeenAt": "2026-08-05T08:03:18.389Z",
-      "summary": "Id licitación: 6012500358;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 1681499.87 EUR;",
-      "amount": 1681499.87,
-      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2025-12/6012500358_ppt_signed.pdf"
     },
     {
       "id": "bocm:bocm-20260904-35",
