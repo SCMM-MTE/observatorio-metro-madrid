@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-23T09:54:23.476Z",
+  "generatedAt": "2026-09-23T14:56:54.460Z",
   "coverage": {
     "bocm": "2009-12-01 a 2026-09-23",
     "contratos": "2017-02-02 a 2026-09-23",
@@ -8,25 +8,160 @@
   },
   "sources": {
     "bocm": {
-      "checkedAt": "2026-09-23T09:54:23.476Z",
+      "checkedAt": "2026-09-23T14:56:54.460Z",
       "ok": true,
-      "message": "14 registros relevantes comprobados; 10 documento(s) omitido(s) temporalmente",
+      "message": "14 registros relevantes comprobados; 12 documento(s) omitido(s) temporalmente",
       "recordsSeen": 14
     },
     "contratos": {
-      "checkedAt": "2026-09-23T09:54:23.476Z",
+      "checkedAt": "2026-09-23T14:56:54.460Z",
       "ok": true,
-      "message": "54 registros relevantes comprobados",
-      "recordsSeen": 54
+      "message": "55 registros relevantes comprobados",
+      "recordsSeen": 55
     },
     "empleo": {
-      "checkedAt": "2026-09-23T09:54:23.476Z",
+      "checkedAt": "2026-09-23T14:56:54.460Z",
       "ok": true,
       "message": "Consulta correcta, sin novedades relevantes",
       "recordsSeen": 0
     }
   },
   "items": [
+    {
+      "id": "contratos:suministro-bus-bar-modulos-inverter-te2402cmp01a00-coches-7000",
+      "source": "contratos",
+      "title": "Suministro de Bus-Bar módulos Inverter TE2402CMP01A00 coches 7000",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Pendiente de adjudicación",
+      "status": "Pendiente de adjudicación",
+      "expediente": "6012600173",
+      "publishedAt": "2026-09-23",
+      "updatedAt": "2026-09-23T13:43:05+02:00",
+      "deadline": "2026-07-10",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/suministro-bus-bar-modulos-inverter-te2402cmp01a00-coches-7000",
+      "firstSeenAt": "2026-08-05T08:03:18.389Z",
+      "summary": "Id licitación: 6012600173;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 48750.00 EUR;",
+      "amount": 48750,
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-06/6012600173_ppt_signed.pdf"
+    },
+    {
+      "id": "contratos:suministro-aceites-grasas-utilizados-mantenimiento-diversos-equipos-instalados-3",
+      "source": "contratos",
+      "title": "Suministro de aceites y grasas utilizados en el mantenimiento de diversos equipos instalados en el material móvil de Metro de Madrid",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Convocatoria anunciada a licitación",
+      "status": "Pendiente de adjudicación",
+      "expediente": "6012600204",
+      "publishedAt": "2026-09-23",
+      "updatedAt": "2026-09-23T13:39:00+02:00",
+      "deadline": "2026-09-10",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/suministro-aceites-grasas-utilizados-mantenimiento-diversos-equipos-instalados-3",
+      "firstSeenAt": "2026-08-05T08:03:18.389Z"
+    },
+    {
+      "id": "contratos:plataforma-formacion-desarrollo-habilidades-transversales-metro-madrid",
+      "source": "contratos",
+      "title": "Una plataforma de formación y desarrollo en habilidades transversales, para Metro de Madrid",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Convocatoria anunciada a licitación",
+      "status": "En plazo",
+      "expediente": "6012600242",
+      "publishedAt": "2026-09-23",
+      "updatedAt": "2026-09-23T13:22:00+02:00",
+      "deadline": "2026-09-25",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/plataforma-formacion-desarrollo-habilidades-transversales-metro-madrid",
+      "firstSeenAt": "2026-09-04T16:16:55.097Z"
+    },
+    {
+      "id": "contratos:acuerdo-marco-servicios-asistencia-tecnica-control-gestion-medioambiental-servicio",
+      "source": "contratos",
+      "title": "Acuerdo marco para servicios de asistencia técnica y control de la gestión medioambiental del servicio de superestructura de vía de Metro de Madrid S.A.",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Pendiente de adjudicación",
+      "status": "Pendiente de adjudicación",
+      "expediente": "6012600181",
+      "publishedAt": "2026-09-23",
+      "updatedAt": "2026-09-23T12:23:51+02:00",
+      "deadline": "2026-07-21",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/acuerdo-marco-servicios-asistencia-tecnica-control-gestion-medioambiental-servicio",
+      "firstSeenAt": "2026-08-05T08:03:18.389Z",
+      "summary": "Id licitación: 6012600181;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 2800000.00 EUR;",
+      "amount": 2800000,
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-06/6012600181_ppt_signed.pdf"
+    },
+    {
+      "id": "contratos:servicio-revision-reparacion-pci-inter-estacion-metro-madrid-0",
+      "source": "contratos",
+      "title": "Servicio de revisión y reparación de PCI Inter estación de Metro de Madrid",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Pendiente de adjudicación",
+      "status": "Pendiente de adjudicación",
+      "expediente": "6012500274",
+      "publishedAt": "2026-09-23",
+      "updatedAt": "2026-09-23T12:21:52+02:00",
+      "deadline": "2025-10-22",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-revision-reparacion-pci-inter-estacion-metro-madrid-0",
+      "firstSeenAt": "2026-08-05T08:03:18.389Z",
+      "summary": "Id licitación: 6012500274;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 2070000.00 EUR;",
+      "amount": 2070000,
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2025-09/6012500274_referencia_al_ppt_signed.pdf"
+    },
+    {
+      "id": "contratos:servicio-mantenimiento-integral-sistemas-seguridad-sacos-recintos-1",
+      "source": "contratos",
+      "title": "Servicio de mantenimiento integral de sistemas de seguridad en sacos y recintos",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Convocatoria anunciada a licitación",
+      "status": "Pendiente de adjudicación",
+      "expediente": "6012600216",
+      "publishedAt": "2026-09-23",
+      "updatedAt": "2026-09-23T12:20:00+02:00",
+      "deadline": "2026-09-17",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-mantenimiento-integral-sistemas-seguridad-sacos-recintos-1",
+      "firstSeenAt": "2026-08-10T07:59:51.887Z"
+    },
+    {
+      "id": "contratos:servicio-proyecto-despliegue-asistente-operativo-lar-fase-1",
+      "source": "contratos",
+      "title": "Servicio de proyecto para el despliegue del asistente operativo Lar – fase 1",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Convocatoria anunciada a licitación",
+      "status": "Pendiente de adjudicación",
+      "expediente": "6012600217",
+      "publishedAt": "2026-09-23",
+      "updatedAt": "2026-09-23T11:58:00+02:00",
+      "deadline": "2026-09-21",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-proyecto-despliegue-asistente-operativo-lar-fase-1",
+      "firstSeenAt": "2026-08-11T10:29:06.918Z"
+    },
+    {
+      "id": "contratos:soporte-mantenimiento-licencias-auraquantic",
+      "source": "contratos",
+      "title": "Soporte y mantenimiento de licencias AuraQuantic",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Convocatoria anunciada a licitación",
+      "status": "Pendiente de adjudicación",
+      "expediente": "6012600209",
+      "publishedAt": "2026-09-23",
+      "updatedAt": "2026-09-23T11:56:00+02:00",
+      "deadline": "2026-09-04",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/soporte-mantenimiento-licencias-auraquantic",
+      "firstSeenAt": "2026-08-05T08:03:18.389Z"
+    },
+    {
+      "id": "contratos:servicio-soporte-mantenimiento-servidores-oracle-t5",
+      "source": "contratos",
+      "title": "Servicio de soporte y mantenimiento de servidores Oracle T5",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Convocatoria anunciada a licitación",
+      "status": "Pendiente de adjudicación",
+      "expediente": "6012600198",
+      "publishedAt": "2026-09-23",
+      "updatedAt": "2026-09-23T11:55:00+02:00",
+      "deadline": "2026-09-08",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-soporte-mantenimiento-servidores-oracle-t5",
+      "firstSeenAt": "2026-08-05T08:03:18.389Z"
+    },
     {
       "id": "contratos:servicio-retirada-amianto-material-movil-equipos-taller-trabajo-0",
       "source": "contratos",
@@ -43,6 +178,20 @@
       "summary": "Id licitación: 6012500358;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 1681499.87 EUR;",
       "amount": 1681499.87,
       "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2025-12/6012500358_ppt_signed.pdf"
+    },
+    {
+      "id": "contratos:servicios-apoyo-actividades-mantenimiento-material-movil-equipos-trabajo-presencia",
+      "source": "contratos",
+      "title": "Servicios de apoyo a las actividades de mantenimiento del material móvil y equipos de trabajo con presencia de materiales con amianto (MCA)",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Convocatoria anunciada a licitación",
+      "status": "En plazo",
+      "expediente": "6012600246",
+      "publishedAt": "2026-09-23",
+      "updatedAt": "2026-09-23T11:50:00+02:00",
+      "deadline": "2026-10-20",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicios-apoyo-actividades-mantenimiento-material-movil-equipos-trabajo-presencia",
+      "firstSeenAt": "2026-09-21T14:31:16.484Z"
     },
     {
       "id": "contratos:suministro-mantenimiento-plataforma-tecnologica-ciac-centro-interactivo-atencion-0",
@@ -90,23 +239,6 @@
       "firstSeenAt": "2026-08-17T11:00:02.754Z"
     },
     {
-      "id": "contratos:acuerdo-marco-servicios-asistencia-tecnica-control-gestion-medioambiental-servicio",
-      "source": "contratos",
-      "title": "Acuerdo marco para servicios de asistencia técnica y control de la gestión medioambiental del servicio de superestructura de vía de Metro de Madrid S.A.",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Pendiente de adjudicación",
-      "status": "Pendiente de adjudicación",
-      "expediente": "6012600181",
-      "publishedAt": "2026-09-23",
-      "updatedAt": "2026-09-23T09:13:39+02:00",
-      "deadline": "2026-07-21",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/acuerdo-marco-servicios-asistencia-tecnica-control-gestion-medioambiental-servicio",
-      "firstSeenAt": "2026-08-05T08:03:18.389Z",
-      "summary": "Id licitación: 6012600181;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 2800000.00 EUR;",
-      "amount": 2800000,
-      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-06/6012600181_ppt_signed.pdf"
-    },
-    {
       "id": "contratos:servicio-mantenimiento-plataforma-efficient-ip-gestion-direccionamiento-ip-1",
       "source": "contratos",
       "title": "Servicio de mantenimiento de la plataforma Efficient-IP para gestión del direccionamiento IP y servicios de red en Metro de Madrid",
@@ -132,20 +264,6 @@
       "pdfUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/09/23/BOCM-20260923-47.PDF",
       "xmlUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/09/23/BOCM-20260923-47.xml?language=es",
       "firstSeenAt": "2026-09-23T09:54:23.476Z"
-    },
-    {
-      "id": "contratos:plataforma-formacion-desarrollo-habilidades-transversales-metro-madrid",
-      "source": "contratos",
-      "title": "Una plataforma de formación y desarrollo en habilidades transversales, para Metro de Madrid",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Convocatoria anunciada a licitación",
-      "status": "En plazo",
-      "expediente": "6012600242",
-      "publishedAt": "2026-09-22",
-      "updatedAt": "2026-09-22T14:02:00+02:00",
-      "deadline": "2026-09-25",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/plataforma-formacion-desarrollo-habilidades-transversales-metro-madrid",
-      "firstSeenAt": "2026-09-04T16:16:55.097Z"
     },
     {
       "id": "contratos:servicio-mantenimiento-preventivo-ciclo-largo-puertas-acceso-viajeros-material",
@@ -180,20 +298,6 @@
       "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/contrato-direccion-obra-coordinacion-seguridad-salud-asistencia-tecnica-obras",
       "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-07/ser.14572.2026_ppt_an.pdf",
       "firstSeenAt": "2026-08-14T13:59:16.760Z"
-    },
-    {
-      "id": "contratos:servicio-mantenimiento-integral-sistemas-seguridad-sacos-recintos-1",
-      "source": "contratos",
-      "title": "Servicio de mantenimiento integral de sistemas de seguridad en sacos y recintos",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Convocatoria anunciada a licitación",
-      "status": "Pendiente de adjudicación",
-      "expediente": "6012600216",
-      "publishedAt": "2026-09-22",
-      "updatedAt": "2026-09-22T12:16:00+02:00",
-      "deadline": "2026-09-17",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-mantenimiento-integral-sistemas-seguridad-sacos-recintos-1",
-      "firstSeenAt": "2026-08-10T07:59:51.887Z"
     },
     {
       "id": "contratos:suministro-suspension-primaria-7000-9000-mantenimiento-vehiculos-material-movil",
@@ -298,20 +402,6 @@
       "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-05/6012600149_ppt_signed.pdf"
     },
     {
-      "id": "contratos:servicio-proyecto-despliegue-asistente-operativo-lar-fase-1",
-      "source": "contratos",
-      "title": "Servicio de proyecto para el despliegue del asistente operativo Lar – fase 1",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Convocatoria anunciada a licitación",
-      "status": "Pendiente de adjudicación",
-      "expediente": "6012600217",
-      "publishedAt": "2026-09-22",
-      "updatedAt": "2026-09-22T00:09:00+02:00",
-      "deadline": "2026-09-21",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-proyecto-despliegue-asistente-operativo-lar-fase-1",
-      "firstSeenAt": "2026-08-11T10:29:06.918Z"
-    },
-    {
       "id": "bocm:bocm-20260922-19",
       "source": "bocm",
       "title": "Convocatoria contrato– Anuncio de 18 de septiembre de 2026, por el que se convoca la licitación para la contratación del servicio de reparación de reductores modelo Flender AKEF 234.5 y Watteeuw ABH2-567 de la Serie 3000 para Metro de Madrid (Expediente 6012600247)",
@@ -393,20 +483,6 @@
       "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2025-11/6012500340_pliego_de_prescripciones_tecnicas_signed.pdf"
     },
     {
-      "id": "contratos:soporte-mantenimiento-licencias-auraquantic",
-      "source": "contratos",
-      "title": "Soporte y mantenimiento de licencias AuraQuantic",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Convocatoria anunciada a licitación",
-      "status": "Pendiente de adjudicación",
-      "expediente": "6012600209",
-      "publishedAt": "2026-09-21",
-      "updatedAt": "2026-09-21T10:08:00+02:00",
-      "deadline": "2026-09-04",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/soporte-mantenimiento-licencias-auraquantic",
-      "firstSeenAt": "2026-08-05T08:03:18.389Z"
-    },
-    {
       "id": "contratos:servicio-centro-reprografia-cdr-metro-madrid",
       "source": "contratos",
       "title": "Servicio de Centro de Reprografía (CDR) de Metro de Madrid",
@@ -436,20 +512,6 @@
       "summary": "Id licitación: 6012500363;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 2867568.00 EUR;",
       "amount": 2867568,
       "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2025-12/6012500363_documento_ref._confidencialidad_signed.pdf"
-    },
-    {
-      "id": "contratos:servicios-apoyo-actividades-mantenimiento-material-movil-equipos-trabajo-presencia",
-      "source": "contratos",
-      "title": "Servicios de apoyo a las actividades de mantenimiento del material móvil y equipos de trabajo con presencia de materiales con amianto (MCA)",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Convocatoria anunciada a licitación",
-      "status": "En plazo",
-      "expediente": "6012600246",
-      "publishedAt": "2026-09-21",
-      "updatedAt": "2026-09-21T10:03:00+02:00",
-      "deadline": "2026-10-20",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicios-apoyo-actividades-mantenimiento-material-movil-equipos-trabajo-presencia",
-      "firstSeenAt": "2026-09-21T14:31:16.484Z"
     },
     {
       "id": "contratos:servicio-revision-general-reparacion-equipos-produccion-aire-series-3000-9000",
@@ -1051,20 +1113,6 @@
       ]
     },
     {
-      "id": "contratos:suministro-aceites-grasas-utilizados-mantenimiento-diversos-equipos-instalados-3",
-      "source": "contratos",
-      "title": "Suministro de aceites y grasas utilizados en el mantenimiento de diversos equipos instalados en el material móvil de Metro de Madrid",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Convocatoria anunciada a licitación",
-      "status": "Pendiente de adjudicación",
-      "expediente": "6012600204",
-      "publishedAt": "2026-09-10",
-      "updatedAt": "2026-09-10T13:55:00+02:00",
-      "deadline": "2026-09-10",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/suministro-aceites-grasas-utilizados-mantenimiento-diversos-equipos-instalados-3",
-      "firstSeenAt": "2026-08-05T08:03:18.389Z"
-    },
-    {
       "id": "contratos:servicio-traduccion-metro-madrid",
       "source": "contratos",
       "title": "Servicio de traducción de Metro de Madrid",
@@ -1285,20 +1333,6 @@
       "summary": "Id licitación: 6012600096;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 1914995.92 EUR;",
       "amount": 1914995.92,
       "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-03/6012600096_ppt_signed.pdf"
-    },
-    {
-      "id": "contratos:servicio-soporte-mantenimiento-servidores-oracle-t5",
-      "source": "contratos",
-      "title": "Servicio de soporte y mantenimiento de servidores Oracle T5",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Convocatoria anunciada a licitación",
-      "status": "Pendiente de adjudicación",
-      "expediente": "6012600198",
-      "publishedAt": "2026-09-09",
-      "updatedAt": "2026-09-09T11:01:00+02:00",
-      "deadline": "2026-09-08",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-soporte-mantenimiento-servidores-oracle-t5",
-      "firstSeenAt": "2026-08-05T08:03:18.389Z"
     },
     {
       "id": "contratos:servicio-sustitucion-tapas-conductos-coches-2000a-cbtc-linea-1-metro-madrid",
@@ -4126,20 +4160,6 @@
       "firstSeenAt": "2026-08-05T10:14:22.549Z"
     },
     {
-      "id": "contratos:suministro-bus-bar-modulos-inverter-te2402cmp01a00-coches-7000",
-      "source": "contratos",
-      "title": "Suministro de Bus-Bar módulos Inverter TE2402CMP01A00 coches 7000",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Convocatoria anunciada a licitación",
-      "status": "Pendiente de adjudicación",
-      "expediente": "6012600173",
-      "publishedAt": "2026-07-11",
-      "updatedAt": "2026-07-11T00:10:00+02:00",
-      "deadline": "2026-07-10",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/suministro-bus-bar-modulos-inverter-te2402cmp01a00-coches-7000",
-      "firstSeenAt": "2026-08-05T08:03:18.389Z"
-    },
-    {
       "id": "contratos:anuncio-periodico-indicativo-relativo-acuerdo-marco-suministro-repuestos-4",
       "source": "contratos",
       "title": "Anuncio Periódico Indicativo relativo al Acuerdo Marco para el suministro de repuestos exclusivos CAF (Rail Line) para el mantenimiento de los trenes del material móvil",
@@ -5167,20 +5187,6 @@
       "updatedAt": "2026-07-03T12:11:00+02:00",
       "deadline": "2020-03-12",
       "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/acuerdo-marco-obras-renovacion-subestaciones-obsolescencia-tecnologica-presencia",
-      "firstSeenAt": "2026-08-05T08:03:18.389Z"
-    },
-    {
-      "id": "contratos:servicio-revision-reparacion-pci-inter-estacion-metro-madrid-0",
-      "source": "contratos",
-      "title": "Servicio de revisión y reparación de PCI Inter estación de Metro de Madrid",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Convocatoria anunciada a licitación",
-      "status": "Pendiente de adjudicación",
-      "expediente": "6012500274",
-      "publishedAt": "2026-07-03",
-      "updatedAt": "2026-07-03T11:03:00+02:00",
-      "deadline": "2025-10-22",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-revision-reparacion-pci-inter-estacion-metro-madrid-0",
       "firstSeenAt": "2026-08-05T08:03:18.389Z"
     },
     {
