@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-24T06:06:48.840Z",
+  "generatedAt": "2026-09-24T11:41:24.258Z",
   "coverage": {
     "bocm": "2009-12-01 a 2026-09-23",
     "contratos": "2017-02-02 a 2026-09-24",
@@ -8,19 +8,19 @@
   },
   "sources": {
     "bocm": {
-      "checkedAt": "2026-09-24T06:06:48.840Z",
+      "checkedAt": "2026-09-24T11:41:24.258Z",
       "ok": true,
-      "message": "9 registros relevantes comprobados; 1 documento(s) omitido(s) temporalmente",
-      "recordsSeen": 9
+      "message": "1 registros relevantes comprobados; 15 documento(s) omitido(s) temporalmente",
+      "recordsSeen": 1
     },
     "contratos": {
-      "checkedAt": "2026-09-24T06:06:48.840Z",
+      "checkedAt": "2026-09-24T11:41:24.258Z",
       "ok": true,
-      "message": "56 registros relevantes comprobados",
-      "recordsSeen": 56
+      "message": "54 registros relevantes comprobados",
+      "recordsSeen": 54
     },
     "empleo": {
-      "checkedAt": "2026-09-24T06:06:48.840Z",
+      "checkedAt": "2026-09-24T11:41:24.258Z",
       "ok": true,
       "message": "Consulta correcta, sin novedades relevantes",
       "recordsSeen": 0
@@ -28,18 +28,156 @@
   },
   "items": [
     {
+      "id": "contratos:suministro-bus-bar-modulos-inverter-te2402cmp01a00-coches-7000",
+      "source": "contratos",
+      "title": "Suministro de Bus-Bar módulos Inverter TE2402CMP01A00 coches 7000",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Pendiente de adjudicación",
+      "status": "Pendiente de adjudicación",
+      "expediente": "6012600173",
+      "publishedAt": "2026-09-24",
+      "updatedAt": "2026-09-24T13:12:54+02:00",
+      "deadline": "2026-07-10",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/suministro-bus-bar-modulos-inverter-te2402cmp01a00-coches-7000",
+      "firstSeenAt": "2026-08-05T08:03:18.389Z",
+      "summary": "Id licitación: 6012600173;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 48750.00 EUR;",
+      "amount": 48750,
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-06/6012600173_ppt_signed.pdf"
+    },
+    {
+      "id": "contratos:acuerdo-marco-suministro-repuestos-valvuleria-otros-elementos-medicion-control",
+      "source": "contratos",
+      "title": "Acuerdo marco para el suministro de repuestos de valvulería y otros elementos de medición y control en la distribución de fluidos para el mantenimiento de las instalaciones y los trenes del material móvil de Metro de Madrid",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Pendiente de adjudicación",
+      "status": "Pendiente de adjudicación",
+      "expediente": "6012600117",
+      "publishedAt": "2026-09-24",
+      "updatedAt": "2026-09-24T12:44:56+02:00",
+      "deadline": "2026-05-22",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/acuerdo-marco-suministro-repuestos-valvuleria-otros-elementos-medicion-control",
+      "firstSeenAt": "2026-08-05T08:03:18.389Z",
+      "summary": "Id licitación: 6012600117;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 225000.00 EUR;",
+      "amount": 225000,
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-04/6012600117_ppt_signed.pdf"
+    },
+    {
+      "id": "contratos:servicio-reparacion-tarjetas-electronicas-venta-peaje-0",
+      "source": "contratos",
+      "title": "Servicio de reparación de tarjetas electrónicas de venta y peaje",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Resuelta / Finalizada",
+      "status": "Resuelta / Finalizada",
+      "expediente": "6012500056",
+      "publishedAt": "2026-09-24",
+      "updatedAt": "2026-09-24T12:35:49+02:00",
+      "deadline": "2025-03-25",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-reparacion-tarjetas-electronicas-venta-peaje-0",
+      "firstSeenAt": "2026-08-05T08:03:18.389Z",
+      "summary": "Id licitación: 6012500056;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 59903.61 EUR;",
+      "amount": 59903.61,
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2025-02/6012500056_ppt_signed.pdf"
+    },
+    {
+      "id": "contratos:servicio-mantenimiento-plataforma-efficient-ip-gestion-direccionamiento-ip-1",
+      "source": "contratos",
+      "title": "Servicio de mantenimiento de la plataforma Efficient-IP para gestión del direccionamiento IP y servicios de red en Metro de Madrid",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Convocatoria anunciada a licitación",
+      "status": "Pendiente de adjudicación",
+      "expediente": "6012600199",
+      "publishedAt": "2026-09-24",
+      "updatedAt": "2026-09-24T11:21:00+02:00",
+      "deadline": "2026-09-22",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-mantenimiento-plataforma-efficient-ip-gestion-direccionamiento-ip-1",
+      "firstSeenAt": "2026-08-05T08:03:18.389Z"
+    },
+    {
+      "id": "contratos:servicio-revision-generalreparacion-conjuntos-amortiguadores-impactos-enganches",
+      "source": "contratos",
+      "title": "Servicio de revisión general/reparación de conjuntos amortiguadores de impactos de enganches de la serie 9000",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Pendiente de adjudicación",
+      "status": "Pendiente de adjudicación",
+      "expediente": "6012600192",
+      "publishedAt": "2026-09-24",
+      "updatedAt": "2026-09-24T11:20:41+02:00",
+      "deadline": "2026-08-17",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-revision-generalreparacion-conjuntos-amortiguadores-impactos-enganches",
+      "firstSeenAt": "2026-08-05T08:03:18.389Z",
+      "summary": "Id licitación: 6012600192;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 440350.00 EUR;",
+      "amount": 440350,
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-07/6012600192_pliego_de_prescripciones_tecnicas_signed.pdf"
+    },
+    {
+      "id": "contratos:suministro-suspension-primaria-7000-9000-mantenimiento-vehiculos-material-movil",
+      "source": "contratos",
+      "title": "Suministro de “Suspensión primaria 7000 9000” para el mantenimiento de los vehículos de material móvil de Metro de Madrid, S.A.",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Convocatoria anunciada a licitación",
+      "status": "Pendiente de adjudicación",
+      "expediente": "6012600224",
+      "publishedAt": "2026-09-24",
+      "updatedAt": "2026-09-24T11:07:00+02:00",
+      "deadline": "2026-09-15",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/suministro-suspension-primaria-7000-9000-mantenimiento-vehiculos-material-movil",
+      "firstSeenAt": "2026-08-13T08:40:11.488Z"
+    },
+    {
+      "id": "contratos:servicio-soporte-mantenimiento-servidores-oracle-t5",
+      "source": "contratos",
+      "title": "Servicio de soporte y mantenimiento de servidores Oracle T5",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Convocatoria anunciada a licitación",
+      "status": "Pendiente de adjudicación",
+      "expediente": "6012600198",
+      "publishedAt": "2026-09-24",
+      "updatedAt": "2026-09-24T10:58:00+02:00",
+      "deadline": "2026-09-08",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-soporte-mantenimiento-servidores-oracle-t5",
+      "firstSeenAt": "2026-08-05T08:03:18.389Z"
+    },
+    {
+      "id": "contratos:suministro-suscripcion-licencias-solucion-gestion-dispositivos-moviles-mobile",
+      "source": "contratos",
+      "title": "Suministro mediante suscripción de las licencias de la solución de gestión de dispositivos móviles (Mobile Device Management)",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Convocatoria anunciada a licitación",
+      "status": "Pendiente de adjudicación",
+      "expediente": "6012600213",
+      "publishedAt": "2026-09-24",
+      "updatedAt": "2026-09-24T10:27:00+02:00",
+      "deadline": "2026-09-08",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/suministro-suscripcion-licencias-solucion-gestion-dispositivos-moviles-mobile",
+      "firstSeenAt": "2026-08-05T08:03:18.389Z"
+    },
+    {
+      "id": "contratos:suministro-cajas-billeteros-instalaciones-venta-peaje-metro-madrid",
+      "source": "contratos",
+      "title": "Suministro de cajas de los billeteros para las instalaciones de venta y peaje de Metro de Madrid",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Convocatoria anunciada a licitación",
+      "status": "Pendiente de adjudicación",
+      "expediente": "6012600212",
+      "publishedAt": "2026-09-24",
+      "updatedAt": "2026-09-24T10:21:00+02:00",
+      "deadline": "2026-09-08",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/suministro-cajas-billeteros-instalaciones-venta-peaje-metro-madrid",
+      "firstSeenAt": "2026-08-05T08:03:18.389Z"
+    },
+    {
       "id": "contratos:suministro-suscripcion-licencias-asignacion-control-permisos-usuarios",
       "source": "contratos",
       "title": "Suministro de suscripción de las licencias para asignación y control de permisos de los usuarios",
       "summary": "Id licitación: 6012600251;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 24725.25 EUR;",
       "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "En plazo",
+      "publicationType": "Convocatoria anunciada a licitación",
       "status": "En plazo",
       "expediente": "6012600251",
       "amount": 24725.25,
       "deadline": "2026-10-13",
       "publishedAt": "2026-09-24",
-      "updatedAt": "2026-09-24T08:00:37+02:00",
+      "updatedAt": "2026-09-24T08:00:00+02:00",
       "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/suministro-suscripcion-licencias-asignacion-control-permisos-usuarios",
       "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-09/6012600251_ppt_confidencial_signed.pdf",
       "firstSeenAt": "2026-09-24T06:06:48.840Z"
@@ -57,23 +195,6 @@
       "deadline": "2026-09-23",
       "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/suministro-medidores-perfil-rueda-ferroviaria-medidores-diametros-rueda",
       "firstSeenAt": "2026-09-02T06:23:34.954Z"
-    },
-    {
-      "id": "contratos:suministro-bus-bar-modulos-inverter-te2402cmp01a00-coches-7000",
-      "source": "contratos",
-      "title": "Suministro de Bus-Bar módulos Inverter TE2402CMP01A00 coches 7000",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Pendiente de adjudicación",
-      "status": "Pendiente de adjudicación",
-      "expediente": "6012600173",
-      "publishedAt": "2026-09-23",
-      "updatedAt": "2026-09-23T13:43:05+02:00",
-      "deadline": "2026-07-10",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/suministro-bus-bar-modulos-inverter-te2402cmp01a00-coches-7000",
-      "firstSeenAt": "2026-08-05T08:03:18.389Z",
-      "summary": "Id licitación: 6012600173;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 48750.00 EUR;",
-      "amount": 48750,
-      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-06/6012600173_ppt_signed.pdf"
     },
     {
       "id": "contratos:suministro-aceites-grasas-utilizados-mantenimiento-diversos-equipos-instalados-3",
@@ -180,20 +301,6 @@
       "firstSeenAt": "2026-08-05T08:03:18.389Z"
     },
     {
-      "id": "contratos:servicio-soporte-mantenimiento-servidores-oracle-t5",
-      "source": "contratos",
-      "title": "Servicio de soporte y mantenimiento de servidores Oracle T5",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Convocatoria anunciada a licitación",
-      "status": "Pendiente de adjudicación",
-      "expediente": "6012600198",
-      "publishedAt": "2026-09-23",
-      "updatedAt": "2026-09-23T11:55:00+02:00",
-      "deadline": "2026-09-08",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-soporte-mantenimiento-servidores-oracle-t5",
-      "firstSeenAt": "2026-08-05T08:03:18.389Z"
-    },
-    {
       "id": "contratos:servicio-retirada-amianto-material-movil-equipos-taller-trabajo-0",
       "source": "contratos",
       "title": "Servicio de retirada de amianto del material móvil y equipos de taller y trabajo",
@@ -270,20 +377,6 @@
       "firstSeenAt": "2026-08-17T11:00:02.754Z"
     },
     {
-      "id": "contratos:servicio-mantenimiento-plataforma-efficient-ip-gestion-direccionamiento-ip-1",
-      "source": "contratos",
-      "title": "Servicio de mantenimiento de la plataforma Efficient-IP para gestión del direccionamiento IP y servicios de red en Metro de Madrid",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Convocatoria anunciada a licitación",
-      "status": "Pendiente de adjudicación",
-      "expediente": "6012600199",
-      "publishedAt": "2026-09-23",
-      "updatedAt": "2026-09-23T00:12:00+02:00",
-      "deadline": "2026-09-22",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-mantenimiento-plataforma-efficient-ip-gestion-direccionamiento-ip-1",
-      "firstSeenAt": "2026-08-05T08:03:18.389Z"
-    },
-    {
       "id": "bocm:bocm-20260923-47",
       "source": "bocm",
       "title": "Formalización contrato– Anuncio de 14 de septiembre de 2026, de corrección de errores del anuncio de formalización para la contratación del suministro de gasóleo clase A, B y C en recintos de Metro de Madrid (Expediente 6012600112)",
@@ -332,20 +425,6 @@
       "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/contrato-direccion-obra-coordinacion-seguridad-salud-asistencia-tecnica-obras",
       "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-07/ser.14572.2026_ppt_an.pdf",
       "firstSeenAt": "2026-08-14T13:59:16.760Z"
-    },
-    {
-      "id": "contratos:suministro-suspension-primaria-7000-9000-mantenimiento-vehiculos-material-movil",
-      "source": "contratos",
-      "title": "Suministro de “Suspensión primaria 7000 9000” para el mantenimiento de los vehículos de material móvil de Metro de Madrid, S.A.",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Convocatoria anunciada a licitación",
-      "status": "Pendiente de adjudicación",
-      "expediente": "6012600224",
-      "publishedAt": "2026-09-22",
-      "updatedAt": "2026-09-22T11:37:00+02:00",
-      "deadline": "2026-09-15",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/suministro-suspension-primaria-7000-9000-mantenimiento-vehiculos-material-movil",
-      "firstSeenAt": "2026-08-13T08:40:11.488Z"
     },
     {
       "id": "contratos:servicio-asistencia-tecnica-mantenimiento-operacion-sistemas-auscultacion-linea",
@@ -1142,12 +1221,12 @@
     {
       "id": "bocm:bocm-20260911-19",
       "source": "bocm",
-      "title": "Formalización contrato– Anuncio de 2 de septiembre de 2026, de formalización del contrato titulado “Acuerdo marco para trabajos de inspección, revisión de control y desamiantado de equipos/instalaciones de MCA en equipamiento de Metro de Madrid” (expediente 6012600024) (contrato G00110-001)",
-      "summary": "Formalización contrato– Anuncio de 2 de septiembre de 2026, de formalización del contrato titulado “Acuerdo marco para trabajos de inspección, revisión de control y desamiantado de equipos/instalaciones de MCA en equipamiento de Metro de Madrid” (expediente 6012600024) (contrato G00110-001)",
-      "issuer": "CONSEJERÍA DE VIVIENDA, TRANSPORTES E INFRAESTRUCTURAS · METRO DE MADRID, S. A.",
-      "publicationType": "Formalización contrato",
+      "title": "Formalización contrato – Anuncio de 2 de septiembre de 2026, de formalización del contrato titulado “Acuerdo marco para trabajos de inspección, revisión de control y desamiantado de equipos/instalaciones de MCA en equipamiento de Metro de Madrid” (expediente 6012600024) (contrato G00110-001)",
+      "summary": "Formalización contrato – Anuncio de 2 de septiembre de 2026, de formalización del contrato titulado “Acuerdo marco para trabajos de inspección, revisión de control y desamiantado de equipos/instalaciones de MCA en equipamiento de Metro de Madrid” (expediente 6012600024) (contrato G00110-001)",
+      "issuer": "CONSEJERÍA DE VIVIENDA, TRANSPORTES E INFRAESTRUCTURAS",
+      "publicationType": "ANUNCIO",
       "publishedAt": "2026-09-11",
-      "url": "https://www.bocm.es/bocm-20260911-19",
+      "url": "https://www.bocm.es/bocm-20260911-19?language=es",
       "pdfUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/09/11/BOCM-20260911-19.PDF",
       "xmlUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/09/11/BOCM-20260911-19.xml?language=es",
       "firstSeenAt": "2026-09-11T09:06:06.038Z",
@@ -1171,20 +1250,6 @@
       "summary": "Id licitación: 6012600147;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 45000.03 EUR;",
       "amount": 45000.03,
       "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-05/6012600147_pliego_de_prescripciones_tecnicas_signed.pdf"
-    },
-    {
-      "id": "contratos:suministro-cajas-billeteros-instalaciones-venta-peaje-metro-madrid",
-      "source": "contratos",
-      "title": "Suministro de cajas de los billeteros para las instalaciones de venta y peaje de Metro de Madrid",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Convocatoria anunciada a licitación",
-      "status": "Pendiente de adjudicación",
-      "expediente": "6012600212",
-      "publishedAt": "2026-09-10",
-      "updatedAt": "2026-09-10T11:32:00+02:00",
-      "deadline": "2026-09-08",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/suministro-cajas-billeteros-instalaciones-venta-peaje-metro-madrid",
-      "firstSeenAt": "2026-08-05T08:03:18.389Z"
     },
     {
       "id": "contratos:suministro-equipos-tren-digital-std-7000-sistema-transmision-datos",
@@ -1311,20 +1376,6 @@
       "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/obras-construccion-ampliacion-red-metro-madrid-barrio-valdebebas-tramos-1-2",
       "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-07/obr.13816.2026_pcap_18.06.2026.pdf",
       "firstSeenAt": "2026-08-14T13:59:16.760Z"
-    },
-    {
-      "id": "contratos:suministro-suscripcion-licencias-solucion-gestion-dispositivos-moviles-mobile",
-      "source": "contratos",
-      "title": "Suministro mediante suscripción de las licencias de la solución de gestión de dispositivos móviles (Mobile Device Management)",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Convocatoria anunciada a licitación",
-      "status": "Pendiente de adjudicación",
-      "expediente": "6012600213",
-      "publishedAt": "2026-09-09",
-      "updatedAt": "2026-09-09T12:45:00+02:00",
-      "deadline": "2026-09-08",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/suministro-suscripcion-licencias-solucion-gestion-dispositivos-moviles-mobile",
-      "firstSeenAt": "2026-08-05T08:03:18.389Z"
     },
     {
       "id": "contratos:servicio-mantenimiento-integral-maquinas-automaticas-venta-titulos-transporte-0",
@@ -2425,20 +2476,6 @@
       "summary": "Id licitación: 6012400361;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 2805911.92 EUR;",
       "amount": 2805911.92,
       "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2024-10/6012400361_pliego_de_prescripciones_tecnicas_signed.pdf"
-    },
-    {
-      "id": "contratos:servicio-revision-generalreparacion-conjuntos-amortiguadores-impactos-enganches",
-      "source": "contratos",
-      "title": "Servicio de revisión general/reparación de conjuntos amortiguadores de impactos de enganches de la serie 9000",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Convocatoria anunciada a licitación",
-      "status": "Pendiente de adjudicación",
-      "expediente": "6012600192",
-      "publishedAt": "2026-08-21",
-      "updatedAt": "2026-08-21T10:15:00+02:00",
-      "deadline": "2026-08-17",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-revision-generalreparacion-conjuntos-amortiguadores-impactos-enganches",
-      "firstSeenAt": "2026-08-05T08:03:18.389Z"
     },
     {
       "id": "contratos:suministro-frotadores-cola-milano-mantenimiento-pantografos-montados-serie-2000-0",
@@ -4199,20 +4236,6 @@
       "publishedAt": "2026-07-09",
       "updatedAt": "2026-07-09T13:00:00+02:00",
       "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/anuncio-periodico-indicativo-relativo-acuerdo-marco-suministro-repuestos-4",
-      "firstSeenAt": "2026-08-05T08:03:18.389Z"
-    },
-    {
-      "id": "contratos:acuerdo-marco-suministro-repuestos-valvuleria-otros-elementos-medicion-control",
-      "source": "contratos",
-      "title": "Acuerdo marco para el suministro de repuestos de valvulería y otros elementos de medición y control en la distribución de fluidos para el mantenimiento de las instalaciones y los trenes del material móvil de Metro de Madrid",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Convocatoria anunciada a licitación",
-      "status": "Pendiente de adjudicación",
-      "expediente": "6012600117",
-      "publishedAt": "2026-07-09",
-      "updatedAt": "2026-07-09T12:45:00+02:00",
-      "deadline": "2026-05-22",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/acuerdo-marco-suministro-repuestos-valvuleria-otros-elementos-medicion-control",
       "firstSeenAt": "2026-08-05T08:03:18.389Z"
     },
     {
@@ -13202,20 +13225,6 @@
       "pdfUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/02/11/BOCM-20260211-25.PDF",
       "xmlUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/02/11/BOCM-20260211-25.xml?language=es",
       "firstSeenAt": "2026-08-05T10:14:22.549Z"
-    },
-    {
-      "id": "contratos:servicio-reparacion-tarjetas-electronicas-venta-peaje-0",
-      "source": "contratos",
-      "title": "Servicio de reparación de tarjetas electrónicas de venta y peaje",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Convocatoria anunciada a licitación",
-      "status": "Resuelta / Finalizada",
-      "expediente": "6012500056",
-      "publishedAt": "2026-02-10",
-      "updatedAt": "2026-02-10T13:01:00+02:00",
-      "deadline": "2025-03-25",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-reparacion-tarjetas-electronicas-venta-peaje-0",
-      "firstSeenAt": "2026-08-05T08:03:18.389Z"
     },
     {
       "id": "contratos:obras-acondicionamiento-exterior-entorno-nave-motores-proyecto-urbanizacion",
