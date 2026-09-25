@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-24T23:24:40.368Z",
+  "generatedAt": "2026-09-25T01:52:04.435Z",
   "coverage": {
     "bocm": "2009-12-01 a 2026-09-24",
     "contratos": "2017-02-02 a 2026-09-25",
@@ -8,19 +8,19 @@
   },
   "sources": {
     "bocm": {
-      "checkedAt": "2026-09-24T23:24:40.368Z",
+      "checkedAt": "2026-09-25T01:52:04.435Z",
       "ok": true,
-      "message": "11 registros relevantes comprobados; 13 documento(s) omitido(s) temporalmente",
+      "message": "11 registros relevantes comprobados",
       "recordsSeen": 11
     },
     "contratos": {
-      "checkedAt": "2026-09-24T23:24:40.368Z",
+      "checkedAt": "2026-09-25T01:52:04.435Z",
       "ok": true,
-      "message": "54 registros relevantes comprobados",
-      "recordsSeen": 54
+      "message": "9 registros relevantes comprobados",
+      "recordsSeen": 9
     },
     "empleo": {
-      "checkedAt": "2026-09-24T23:24:40.368Z",
+      "checkedAt": "2026-09-25T01:52:04.435Z",
       "ok": true,
       "message": "Consulta correcta, sin novedades relevantes",
       "recordsSeen": 0
@@ -33,13 +33,13 @@
       "title": "Suministro de frotadores cola de milano para el mantenimiento de los pantógrafos montados en la serie 2000 del parque de material móvil de Metro de Madrid, S.A.",
       "summary": "Id licitación: 6012600230;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 244110.00 EUR;",
       "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Convocatoria anunciada a licitación",
+      "publicationType": "Pendiente de adjudicación",
       "status": "Pendiente de adjudicación",
       "expediente": "6012600230",
       "amount": 244110,
       "deadline": "2026-09-24",
       "publishedAt": "2026-09-25",
-      "updatedAt": "2026-09-25T00:09:00+02:00",
+      "updatedAt": "2026-09-25T00:09:46+02:00",
       "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/suministro-frotadores-cola-milano-mantenimiento-pantografos-montados-serie-2000-0",
       "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-08/6012600230_ppt_signed.pdf",
       "firstSeenAt": "2026-08-21T05:08:16.465Z"
@@ -50,13 +50,13 @@
       "title": "Suministro de válvulas de aspiración e impulsión para los compresores de aire comprimido del material móvil de Metro de Madrid",
       "summary": "Id licitación: 6012600229;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 140000.00 EUR;",
       "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Convocatoria anunciada a licitación",
+      "publicationType": "Pendiente de adjudicación",
       "status": "Pendiente de adjudicación",
       "expediente": "6012600229",
       "amount": 140000,
       "deadline": "2026-09-24",
       "publishedAt": "2026-09-25",
-      "updatedAt": "2026-09-25T00:09:00+02:00",
+      "updatedAt": "2026-09-25T00:09:46+02:00",
       "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/suministro-valvulas-aspiracion-e-impulsion-compresores-aire-comprimido-material",
       "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-08/6012600229_ppt_signed.pdf",
       "firstSeenAt": "2026-08-21T05:08:16.465Z"
@@ -117,14 +117,17 @@
       "source": "contratos",
       "title": "Servicio de mantenimiento de la plataforma Efficient-IP para gestión del direccionamiento IP y servicios de red en Metro de Madrid",
       "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Convocatoria anunciada a licitación",
+      "publicationType": "Pendiente de adjudicación",
       "status": "Pendiente de adjudicación",
       "expediente": "6012600199",
       "publishedAt": "2026-09-24",
-      "updatedAt": "2026-09-24T11:21:00+02:00",
+      "updatedAt": "2026-09-24T11:21:25+02:00",
       "deadline": "2026-09-22",
       "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-mantenimiento-plataforma-efficient-ip-gestion-direccionamiento-ip-1",
-      "firstSeenAt": "2026-08-05T08:03:18.389Z"
+      "firstSeenAt": "2026-08-05T08:03:18.389Z",
+      "summary": "Id licitación: 6012600199;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 437500.00 EUR;",
+      "amount": 437500,
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-07/6012600199_ppt_y_anexo_confidencial_signed.pdf"
     },
     {
       "id": "contratos:servicio-revision-generalreparacion-conjuntos-amortiguadores-impactos-enganches",
@@ -148,28 +151,34 @@
       "source": "contratos",
       "title": "Suministro de “Suspensión primaria 7000 9000” para el mantenimiento de los vehículos de material móvil de Metro de Madrid, S.A.",
       "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Convocatoria anunciada a licitación",
+      "publicationType": "Pendiente de adjudicación",
       "status": "Pendiente de adjudicación",
       "expediente": "6012600224",
       "publishedAt": "2026-09-24",
-      "updatedAt": "2026-09-24T11:07:00+02:00",
+      "updatedAt": "2026-09-24T11:07:06+02:00",
       "deadline": "2026-09-15",
       "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/suministro-suspension-primaria-7000-9000-mantenimiento-vehiculos-material-movil",
-      "firstSeenAt": "2026-08-13T08:40:11.488Z"
+      "firstSeenAt": "2026-08-13T08:40:11.488Z",
+      "summary": "Id licitación: 6012600224;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 2425500.00 EUR;",
+      "amount": 2425500,
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-08/6012600224_pliego_de_prescripciones_tecnicas_signed.pdf"
     },
     {
       "id": "contratos:servicio-soporte-mantenimiento-servidores-oracle-t5",
       "source": "contratos",
       "title": "Servicio de soporte y mantenimiento de servidores Oracle T5",
       "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Convocatoria anunciada a licitación",
+      "publicationType": "Pendiente de adjudicación",
       "status": "Pendiente de adjudicación",
       "expediente": "6012600198",
       "publishedAt": "2026-09-24",
-      "updatedAt": "2026-09-24T10:58:00+02:00",
+      "updatedAt": "2026-09-24T10:58:44+02:00",
       "deadline": "2026-09-08",
       "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-soporte-mantenimiento-servidores-oracle-t5",
-      "firstSeenAt": "2026-08-05T08:03:18.389Z"
+      "firstSeenAt": "2026-08-05T08:03:18.389Z",
+      "summary": "Id licitación: 6012600198;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 68880.00 EUR;",
+      "amount": 68880,
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-07/6012600198_ppt_y_anexo_confidencial_signed.pdf"
     },
     {
       "id": "contratos:suministro-suscripcion-licencias-solucion-gestion-dispositivos-moviles-mobile",
