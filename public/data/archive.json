@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-25T07:41:35.014Z",
+  "generatedAt": "2026-09-25T13:40:22.964Z",
   "coverage": {
     "bocm": "2009-12-01 a 2026-09-24",
     "contratos": "2017-02-02 a 2026-09-25",
@@ -8,25 +8,42 @@
   },
   "sources": {
     "bocm": {
-      "checkedAt": "2026-09-25T07:41:35.014Z",
+      "checkedAt": "2026-09-25T13:40:22.964Z",
       "ok": true,
       "message": "11 registros relevantes comprobados",
       "recordsSeen": 11
     },
     "contratos": {
-      "checkedAt": "2026-09-25T07:41:35.014Z",
+      "checkedAt": "2026-09-25T13:40:22.964Z",
       "ok": true,
-      "message": "5 registros relevantes comprobados",
-      "recordsSeen": 5
+      "message": "7 registros relevantes comprobados",
+      "recordsSeen": 7
     },
     "empleo": {
-      "checkedAt": "2026-09-25T07:41:35.014Z",
+      "checkedAt": "2026-09-25T13:40:22.964Z",
       "ok": true,
       "message": "Consulta correcta, sin novedades relevantes",
       "recordsSeen": 0
     }
   },
   "items": [
+    {
+      "id": "contratos:servicio-vigilancia-seguridad-red-metro",
+      "source": "contratos",
+      "title": "Servicio de vigilancia para la seguridad en la red de Metro",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Resuelta / Finalizada",
+      "status": "Resuelta / Finalizada",
+      "expediente": "6012200109",
+      "publishedAt": "2026-09-25",
+      "updatedAt": "2026-09-25T14:16:49+02:00",
+      "deadline": "2022-06-29",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-vigilancia-seguridad-red-metro",
+      "firstSeenAt": "2026-08-05T08:03:18.389Z",
+      "summary": "Id licitación: 6012200109;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 337765060.80 EUR;Estado: 2Entransicion",
+      "amount": 337765060.8,
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2022-05/6012200109_referencia_al_pliego_de_prescripciones_tecnicas_signed_0.pdf"
+    },
     {
       "id": "contratos:obras-implantacion-ascensores-estaciones-tetuan-puente-vallecas-carabanchel",
       "source": "contratos",
@@ -36,13 +53,63 @@
       "status": "Resuelta / Finalizada",
       "expediente": "6012400331",
       "publishedAt": "2026-09-25",
-      "updatedAt": "2026-09-25T08:24:11+02:00",
+      "updatedAt": "2026-09-25T13:49:56+02:00",
       "deadline": "2024-10-24",
       "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/obras-implantacion-ascensores-estaciones-tetuan-puente-vallecas-carabanchel",
       "firstSeenAt": "2026-08-05T08:03:18.389Z",
       "summary": "Id licitación: 6012400331;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 17203274.39 EUR;",
       "amount": 17203274.39,
       "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2024-09/6012400331_pcp_signed.pdf"
+    },
+    {
+      "id": "contratos:servicio-retirada-amianto-material-movil-equipos-taller-trabajo-0",
+      "source": "contratos",
+      "title": "Servicio de retirada de amianto del material móvil y equipos de taller y trabajo",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Pendiente de adjudicación",
+      "status": "Pendiente de adjudicación",
+      "expediente": "6012500358",
+      "publishedAt": "2026-09-25",
+      "updatedAt": "2026-09-25T13:34:43+02:00",
+      "deadline": "2026-01-22",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-retirada-amianto-material-movil-equipos-taller-trabajo-0",
+      "firstSeenAt": "2026-08-05T08:03:18.389Z",
+      "summary": "Id licitación: 6012500358;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 1681499.87 EUR;",
+      "amount": 1681499.87,
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2025-12/6012500358_ppt_signed.pdf"
+    },
+    {
+      "id": "contratos:obras-implantacion-escaleras-mecanicas-estaciones-prosperidad-linea-4-estrella",
+      "source": "contratos",
+      "title": "Obras de implantación de escaleras mecánicas en las estaciones de Prosperidad (línea 4), Estrella (línea 9) y San Blas (línea 7) de Metro de Madrid",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Resuelta / Finalizada",
+      "status": "Resuelta / Finalizada",
+      "expediente": "6012400363",
+      "publishedAt": "2026-09-25",
+      "updatedAt": "2026-09-25T13:22:01+02:00",
+      "deadline": "2024-11-05",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/obras-implantacion-escaleras-mecanicas-estaciones-prosperidad-linea-4-estrella",
+      "firstSeenAt": "2026-08-05T08:03:18.389Z",
+      "summary": "Id licitación: 6012400363;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 2979547.85 EUR;",
+      "amount": 2979547.85,
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2024-10/6012400363_documento_ref._confidencialidad.pdf"
+    },
+    {
+      "id": "contratos:servicio-instalacion-equipos-atp-do-coche-8000-mrssrm",
+      "source": "contratos",
+      "title": "Servicio de instalación de equipos ATP D.O. en coche 8000 MRSSRM",
+      "summary": "Id licitación: 6012600090;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 14985683.61 EUR;",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Adjudicada",
+      "status": "Adjudicada",
+      "expediente": "6012600090",
+      "amount": 14985683.61,
+      "publishedAt": "2026-09-25",
+      "updatedAt": "2026-09-25T11:52:45+02:00",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-instalacion-equipos-atp-do-coche-8000-mrssrm",
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-09/6012600090_referencia_al_ppt.pdf",
+      "firstSeenAt": "2026-09-25T13:40:22.964Z"
     },
     {
       "id": "contratos:suministro-frotadores-cola-milano-mantenimiento-pantografos-montados-serie-2000-0",
@@ -56,10 +123,27 @@
       "amount": 244110,
       "deadline": "2026-09-24",
       "publishedAt": "2026-09-25",
-      "updatedAt": "2026-09-25T00:09:46+02:00",
+      "updatedAt": "2026-09-25T11:34:07+02:00",
       "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/suministro-frotadores-cola-milano-mantenimiento-pantografos-montados-serie-2000-0",
       "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-08/6012600230_ppt_signed.pdf",
       "firstSeenAt": "2026-08-21T05:08:16.465Z"
+    },
+    {
+      "id": "contratos:acuerdo-marco-suministro-productos-iluminacion-cables-electricos-mantenimiento",
+      "source": "contratos",
+      "title": "Acuerdo Marco para el suministro de productos de iluminación y cables eléctricos para el mantenimiento de las instalaciones fijas y del material móvil de Metro Madrid",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Pendiente de adjudicación",
+      "status": "Pendiente de adjudicación",
+      "expediente": "6012600170",
+      "publishedAt": "2026-09-25",
+      "updatedAt": "2026-09-25T11:24:57+02:00",
+      "deadline": "2026-07-14",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/acuerdo-marco-suministro-productos-iluminacion-cables-electricos-mantenimiento",
+      "firstSeenAt": "2026-08-05T08:03:18.389Z",
+      "summary": "Id licitación: 6012600170;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 2000000.00 EUR;",
+      "amount": 2000000,
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-06/6012600170_pliego_de_prescripciones_tecnicas_signed.pdf"
     },
     {
       "id": "contratos:suministro-valvulas-aspiracion-e-impulsion-compresores-aire-comprimido-material",
@@ -372,23 +456,6 @@
       "deadline": "2026-09-04",
       "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/soporte-mantenimiento-licencias-auraquantic",
       "firstSeenAt": "2026-08-05T08:03:18.389Z"
-    },
-    {
-      "id": "contratos:servicio-retirada-amianto-material-movil-equipos-taller-trabajo-0",
-      "source": "contratos",
-      "title": "Servicio de retirada de amianto del material móvil y equipos de taller y trabajo",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Pendiente de adjudicación",
-      "status": "Pendiente de adjudicación",
-      "expediente": "6012500358",
-      "publishedAt": "2026-09-23",
-      "updatedAt": "2026-09-23T11:52:58+02:00",
-      "deadline": "2026-01-22",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-retirada-amianto-material-movil-equipos-taller-trabajo-0",
-      "firstSeenAt": "2026-08-05T08:03:18.389Z",
-      "summary": "Id licitación: 6012500358;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 1681499.87 EUR;",
-      "amount": 1681499.87,
-      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2025-12/6012500358_ppt_signed.pdf"
     },
     {
       "id": "contratos:servicios-apoyo-actividades-mantenimiento-material-movil-equipos-trabajo-presencia",
@@ -1591,23 +1658,6 @@
       "firstSeenAt": "2026-08-24T07:18:57.908Z"
     },
     {
-      "id": "contratos:acuerdo-marco-suministro-productos-iluminacion-cables-electricos-mantenimiento",
-      "source": "contratos",
-      "title": "Acuerdo Marco para el suministro de productos de iluminación y cables eléctricos para el mantenimiento de las instalaciones fijas y del material móvil de Metro Madrid",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Pendiente de adjudicación",
-      "status": "Pendiente de adjudicación",
-      "expediente": "6012600170",
-      "publishedAt": "2026-09-07",
-      "updatedAt": "2026-09-07T11:04:38+02:00",
-      "deadline": "2026-07-14",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/acuerdo-marco-suministro-productos-iluminacion-cables-electricos-mantenimiento",
-      "firstSeenAt": "2026-08-05T08:03:18.389Z",
-      "summary": "Id licitación: 6012600170;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 2000000.00 EUR;",
-      "amount": 2000000,
-      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-06/6012600170_pliego_de_prescripciones_tecnicas_signed.pdf"
-    },
-    {
       "id": "contratos:servicios-direccion-obras-coordinacion-seguridad-salud-asistencia-tecnica-obras-0",
       "source": "contratos",
       "title": "Servicios de dirección de las obras, coordinación de seguridad y salud y asistencia técnica de las obras de construcción de ampliación de la línea 11 de Metro de Madrid. Tramo: Plaza Elíptica - Conde de Casal.",
@@ -2288,23 +2338,6 @@
       "tags": [
         "I. COMUNIDAD DE MADRID · D) Anuncios"
       ]
-    },
-    {
-      "id": "contratos:servicio-vigilancia-seguridad-red-metro",
-      "source": "contratos",
-      "title": "Servicio de vigilancia para la seguridad en la red de Metro",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Resuelta / Finalizada",
-      "status": "Resuelta / Finalizada",
-      "expediente": "6012200109",
-      "publishedAt": "2026-08-27",
-      "updatedAt": "2026-08-27T13:21:39+02:00",
-      "deadline": "2022-06-29",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-vigilancia-seguridad-red-metro",
-      "firstSeenAt": "2026-08-05T08:03:18.389Z",
-      "summary": "Id licitación: 6012200109;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 337765060.80 EUR;Estado: 2Entransicion",
-      "amount": 337765060.8,
-      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2022-05/6012200109_referencia_al_pliego_de_prescripciones_tecnicas_signed_0.pdf"
     },
     {
       "id": "contratos:servicio-evaluacion-personas-candidatas-proceso-seleccion-maquinista-traccion",
@@ -4079,20 +4112,6 @@
       "updatedAt": "2026-07-14T09:36:00+02:00",
       "deadline": "2026-04-17",
       "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-reparacion-equipos-sistema-control-estaciones-fabricante-schneider-1",
-      "firstSeenAt": "2026-08-05T08:03:18.389Z"
-    },
-    {
-      "id": "contratos:obras-implantacion-escaleras-mecanicas-estaciones-prosperidad-linea-4-estrella",
-      "source": "contratos",
-      "title": "Obras de implantación de escaleras mecánicas en las estaciones de Prosperidad (línea 4), Estrella (línea 9) y San Blas (línea 7) de Metro de Madrid",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Convocatoria anunciada a licitación",
-      "status": "Resuelta / Finalizada",
-      "expediente": "6012400363",
-      "publishedAt": "2026-07-14",
-      "updatedAt": "2026-07-14T08:03:00+02:00",
-      "deadline": "2024-11-05",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/obras-implantacion-escaleras-mecanicas-estaciones-prosperidad-linea-4-estrella",
       "firstSeenAt": "2026-08-05T08:03:18.389Z"
     },
     {
