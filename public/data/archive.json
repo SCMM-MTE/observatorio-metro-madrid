@@ -1,32 +1,100 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-25T21:48:09.374Z",
+  "generatedAt": "2026-09-26T00:34:43.715Z",
   "coverage": {
     "bocm": "2009-12-01 a 2026-09-24",
-    "contratos": "2017-02-02 a 2026-09-25",
+    "contratos": "2017-02-02 a 2026-09-26",
     "empleo": "2016-10-31 a 2026-05-07"
   },
   "sources": {
     "bocm": {
-      "checkedAt": "2026-09-25T21:48:09.374Z",
+      "checkedAt": "2026-09-26T00:34:43.715Z",
       "ok": true,
       "message": "11 registros relevantes comprobados",
       "recordsSeen": 11
     },
     "contratos": {
-      "checkedAt": "2026-09-25T21:48:09.374Z",
+      "checkedAt": "2026-09-26T00:34:43.715Z",
       "ok": true,
-      "message": "7 registros relevantes comprobados",
-      "recordsSeen": 7
+      "message": "11 registros relevantes comprobados",
+      "recordsSeen": 11
     },
     "empleo": {
-      "checkedAt": "2026-09-25T21:48:09.374Z",
+      "checkedAt": "2026-09-26T00:34:43.715Z",
       "ok": true,
       "message": "Consulta correcta, sin novedades relevantes",
       "recordsSeen": 0
     }
   },
   "items": [
+    {
+      "id": "contratos:plataforma-formacion-desarrollo-habilidades-transversales-metro-madrid",
+      "source": "contratos",
+      "title": "Una plataforma de formación y desarrollo en habilidades transversales, para Metro de Madrid",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Pendiente de adjudicación",
+      "status": "Pendiente de adjudicación",
+      "expediente": "6012600242",
+      "publishedAt": "2026-09-26",
+      "updatedAt": "2026-09-26T00:09:13+02:00",
+      "deadline": "2026-09-25",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/plataforma-formacion-desarrollo-habilidades-transversales-metro-madrid",
+      "firstSeenAt": "2026-09-04T16:16:55.097Z",
+      "summary": "Id licitación: 6012600242;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 150000.00 EUR;",
+      "amount": 150000,
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-09/6012600242_ppt_signed.pdf"
+    },
+    {
+      "id": "contratos:servicio-sustitucion-tapas-conductos-coches-2000a-cbtc-linea-1-metro-madrid",
+      "source": "contratos",
+      "title": "Servicio de sustitución de tapas de conductos en coches 2000A CBTC de línea 1 para Metro de Madrid",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Pendiente de adjudicación",
+      "status": "Pendiente de adjudicación",
+      "expediente": "6012600237",
+      "publishedAt": "2026-09-26",
+      "updatedAt": "2026-09-26T00:09:13+02:00",
+      "deadline": "2026-09-25",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-sustitucion-tapas-conductos-coches-2000a-cbtc-linea-1-metro-madrid",
+      "firstSeenAt": "2026-09-09T10:04:46.739Z",
+      "summary": "Id licitación: 6012600237;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 62500.00 EUR;",
+      "amount": 62500,
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-09/6012600237_pliego_de_prescripciones_tecnicas_signed.pdf"
+    },
+    {
+      "id": "contratos:servicio-verificacion-compresores-auxiliares-lp-1555-metro-madrid",
+      "source": "contratos",
+      "title": "Servicio de verificación de compresores auxiliares LP-1555 para Metro de Madrid",
+      "summary": "Id licitación: 6012600235;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 19200.00 EUR;",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Pendiente de adjudicación",
+      "status": "Pendiente de adjudicación",
+      "expediente": "6012600235",
+      "amount": 19200,
+      "deadline": "2026-09-25",
+      "publishedAt": "2026-09-26",
+      "updatedAt": "2026-09-26T00:09:13+02:00",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-verificacion-compresores-auxiliares-lp-1555-metro-madrid",
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-08/6012600235_ppt_signed.pdf",
+      "firstSeenAt": "2026-08-26T07:05:09.161Z"
+    },
+    {
+      "id": "contratos:servicio-polizas-seguros-responsabilidad-civil-profesional-metro-madrid-2027-2028",
+      "source": "contratos",
+      "title": "Servicio de pólizas de seguros de Responsabilidad Civil Profesional de Metro de Madrid 2027-2028",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Pendiente de adjudicación",
+      "status": "Pendiente de adjudicación",
+      "expediente": "6012600185",
+      "publishedAt": "2026-09-26",
+      "updatedAt": "2026-09-26T00:09:13+02:00",
+      "deadline": "2026-09-25",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-polizas-seguros-responsabilidad-civil-profesional-metro-madrid-2027-2028",
+      "firstSeenAt": "2026-08-05T08:03:18.389Z",
+      "summary": "Id licitación: 6012600185;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 396177.09 EUR;",
+      "amount": 396177.09,
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-06/6012600185_pliego_de_prescripciones_tecnicas_signed.pdf"
+    },
     {
       "id": "contratos:servicio-vigilancia-seguridad-red-metro",
       "source": "contratos",
@@ -366,20 +434,6 @@
       "deadline": "2026-09-10",
       "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/suministro-aceites-grasas-utilizados-mantenimiento-diversos-equipos-instalados-3",
       "firstSeenAt": "2026-08-05T08:03:18.389Z"
-    },
-    {
-      "id": "contratos:plataforma-formacion-desarrollo-habilidades-transversales-metro-madrid",
-      "source": "contratos",
-      "title": "Una plataforma de formación y desarrollo en habilidades transversales, para Metro de Madrid",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Convocatoria anunciada a licitación",
-      "status": "En plazo",
-      "expediente": "6012600242",
-      "publishedAt": "2026-09-23",
-      "updatedAt": "2026-09-23T13:22:00+02:00",
-      "deadline": "2026-09-25",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/plataforma-formacion-desarrollo-habilidades-transversales-metro-madrid",
-      "firstSeenAt": "2026-09-04T16:16:55.097Z"
     },
     {
       "id": "contratos:acuerdo-marco-servicios-asistencia-tecnica-control-gestion-medioambiental-servicio",
@@ -1361,12 +1415,12 @@
     {
       "id": "bocm:bocm-20260911-19",
       "source": "bocm",
-      "title": "Formalización contrato– Anuncio de 2 de septiembre de 2026, de formalización del contrato titulado “Acuerdo marco para trabajos de inspección, revisión de control y desamiantado de equipos/instalaciones de MCA en equipamiento de Metro de Madrid” (expediente 6012600024) (contrato G00110-001)",
-      "summary": "Formalización contrato– Anuncio de 2 de septiembre de 2026, de formalización del contrato titulado “Acuerdo marco para trabajos de inspección, revisión de control y desamiantado de equipos/instalaciones de MCA en equipamiento de Metro de Madrid” (expediente 6012600024) (contrato G00110-001)",
-      "issuer": "CONSEJERÍA DE VIVIENDA, TRANSPORTES E INFRAESTRUCTURAS · METRO DE MADRID, S. A.",
-      "publicationType": "Formalización contrato",
+      "title": "Formalización contrato – Anuncio de 2 de septiembre de 2026, de formalización del contrato titulado “Acuerdo marco para trabajos de inspección, revisión de control y desamiantado de equipos/instalaciones de MCA en equipamiento de Metro de Madrid” (expediente 6012600024) (contrato G00110-001)",
+      "summary": "Formalización contrato – Anuncio de 2 de septiembre de 2026, de formalización del contrato titulado “Acuerdo marco para trabajos de inspección, revisión de control y desamiantado de equipos/instalaciones de MCA en equipamiento de Metro de Madrid” (expediente 6012600024) (contrato G00110-001)",
+      "issuer": "CONSEJERÍA DE VIVIENDA, TRANSPORTES E INFRAESTRUCTURAS",
+      "publicationType": "ANUNCIO",
       "publishedAt": "2026-09-11",
-      "url": "https://www.bocm.es/bocm-20260911-19",
+      "url": "https://www.bocm.es/bocm-20260911-19?language=es",
       "pdfUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/09/11/BOCM-20260911-19.PDF",
       "xmlUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/09/11/BOCM-20260911-19.xml?language=es",
       "firstSeenAt": "2026-09-11T09:06:06.038Z",
@@ -1567,20 +1621,6 @@
       "summary": "Id licitación: 6012600096;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 1914995.92 EUR;",
       "amount": 1914995.92,
       "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-03/6012600096_ppt_signed.pdf"
-    },
-    {
-      "id": "contratos:servicio-sustitucion-tapas-conductos-coches-2000a-cbtc-linea-1-metro-madrid",
-      "source": "contratos",
-      "title": "Servicio de sustitución de tapas de conductos en coches 2000A CBTC de línea 1 para Metro de Madrid",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Convocatoria anunciada a licitación",
-      "status": "En plazo",
-      "expediente": "6012600237",
-      "publishedAt": "2026-09-09",
-      "updatedAt": "2026-09-09T10:57:00+02:00",
-      "deadline": "2026-09-25",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-sustitucion-tapas-conductos-coches-2000a-cbtc-linea-1-metro-madrid",
-      "firstSeenAt": "2026-09-09T10:04:46.739Z"
     },
     {
       "id": "contratos:servicio-mejora-electrica-alimentacion-respaldo-centros-centro-procesamiento-datos",
@@ -2455,23 +2495,6 @@
       "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-04/6012600113_ppt_signed.pdf"
     },
     {
-      "id": "contratos:servicio-verificacion-compresores-auxiliares-lp-1555-metro-madrid",
-      "source": "contratos",
-      "title": "Servicio de verificación de compresores auxiliares LP-1555 para Metro de Madrid",
-      "summary": "Id licitación: 6012600235;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 19200.00 EUR;",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Convocatoria anunciada a licitación",
-      "status": "En plazo",
-      "expediente": "6012600235",
-      "amount": 19200,
-      "deadline": "2026-09-25",
-      "publishedAt": "2026-08-26",
-      "updatedAt": "2026-08-26T13:33:00+02:00",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-verificacion-compresores-auxiliares-lp-1555-metro-madrid",
-      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-08/6012600235_ppt_signed.pdf",
-      "firstSeenAt": "2026-08-26T07:05:09.161Z"
-    },
-    {
       "id": "contratos:servicio-mantenimiento-preventivo-anual-correctivo-equipos-aire-acondicionado",
       "source": "contratos",
       "title": "Servicio de mantenimiento preventivo anual y correctivo de equipos de aire acondicionado instalados en 35 vehículos auxiliares",
@@ -2998,20 +3021,6 @@
       "tags": [
         "I. COMUNIDAD DE MADRID · D) Anuncios"
       ]
-    },
-    {
-      "id": "contratos:servicio-polizas-seguros-responsabilidad-civil-profesional-metro-madrid-2027-2028",
-      "source": "contratos",
-      "title": "Servicio de pólizas de seguros de Responsabilidad Civil Profesional de Metro de Madrid 2027-2028",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Convocatoria anunciada a licitación",
-      "status": "En plazo",
-      "expediente": "6012600185",
-      "publishedAt": "2026-08-07",
-      "updatedAt": "2026-08-07T11:00:00+02:00",
-      "deadline": "2026-09-25",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-polizas-seguros-responsabilidad-civil-profesional-metro-madrid-2027-2028",
-      "firstSeenAt": "2026-08-05T08:03:18.389Z"
     },
     {
       "id": "contratos:servicio-mantenimiento-integral-1468-pasos-canceladoras",
