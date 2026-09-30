@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-30T11:20:18.593Z",
+  "generatedAt": "2026-09-30T16:59:08.237Z",
   "coverage": {
     "bocm": "2009-12-01 a 2026-09-24",
     "contratos": "2017-02-02 a 2026-09-30",
@@ -8,25 +8,76 @@
   },
   "sources": {
     "bocm": {
-      "checkedAt": "2026-09-30T11:20:18.593Z",
+      "checkedAt": "2026-09-30T16:59:08.237Z",
       "ok": true,
-      "message": "7 registros relevantes comprobados; 10 documento(s) omitido(s) temporalmente",
+      "message": "7 registros relevantes comprobados; 14 documento(s) omitido(s) temporalmente",
       "recordsSeen": 7
     },
     "contratos": {
-      "checkedAt": "2026-09-30T11:20:18.593Z",
+      "checkedAt": "2026-09-30T16:59:08.237Z",
       "ok": true,
       "message": "12 registros relevantes comprobados",
       "recordsSeen": 12
     },
     "empleo": {
-      "checkedAt": "2026-09-30T11:20:18.593Z",
+      "checkedAt": "2026-09-30T16:59:08.237Z",
       "ok": true,
       "message": "Consulta correcta, sin novedades relevantes",
       "recordsSeen": 0
     }
   },
   "items": [
+    {
+      "id": "contratos:redaccion-plan-especial-proyecto-construccion-nueva-estacion-linea-10-metro-barrio",
+      "source": "contratos",
+      "title": "Redacción del plan especial y proyecto de construcción de nueva estación en la línea 10 de metro, barrio de Campamento (Madrid)",
+      "summary": "Id licitación: A/SER-004469/2025;Órgano de Contratación: Consejería de Vivienda, Transportes e Infraestructuras;Importe: 446996.60 EUR;",
+      "issuer": "Consejería de Vivienda, Transportes e Infraestructuras",
+      "publicationType": "Pendiente de adjudicación",
+      "status": "Pendiente de adjudicación",
+      "expediente": "A/SER-004469/2025",
+      "amount": 446996.6,
+      "deadline": "2026-01-21",
+      "publishedAt": "2026-09-30",
+      "updatedAt": "2026-09-30T13:56:06+02:00",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/redaccion-plan-especial-proyecto-construccion-nueva-estacion-linea-10-metro-barrio",
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2025-12/ser.4469.2025_ppt_03.09.2025_anonimizada.pdf",
+      "firstSeenAt": "2026-09-30T16:59:08.237Z"
+    },
+    {
+      "id": "contratos:suministro-aceites-grasas-utilizados-mantenimiento-diversos-equipos-instalados-3",
+      "source": "contratos",
+      "title": "Suministro de aceites y grasas utilizados en el mantenimiento de diversos equipos instalados en el material móvil de Metro de Madrid",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Pendiente de adjudicación",
+      "status": "Pendiente de adjudicación",
+      "expediente": "6012600204",
+      "publishedAt": "2026-09-30",
+      "updatedAt": "2026-09-30T13:52:02+02:00",
+      "deadline": "2026-09-10",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/suministro-aceites-grasas-utilizados-mantenimiento-diversos-equipos-instalados-3",
+      "firstSeenAt": "2026-08-05T08:03:18.389Z",
+      "summary": "Id licitación: 6012600204;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 296535.00 EUR;",
+      "amount": 296535,
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-07/6012600204_ppt_signed.pdf"
+    },
+    {
+      "id": "contratos:suministro-conversion-sistema-sap-s4hana-migracion-governance-risk-and-compliance",
+      "source": "contratos",
+      "title": "Suministro para la conversión del sistema SAP a S/4HANA, migración de Governance Risk and Compliance (GRC), migración de Business Warehouse (BW) y suministro de infraestructura y licencias en Metro de Madrid S.A. Las actuaciones incluidas en este contrato podrán ser cofinanciadas al 40 % con cargo al programa operativo 2021-2027 FEDER de la Comunidad de Madrid",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Resuelta / Finalizada",
+      "status": "Resuelta / Finalizada",
+      "expediente": "6012400445",
+      "publishedAt": "2026-09-30",
+      "updatedAt": "2026-09-30T13:49:57+02:00",
+      "deadline": "2025-02-28",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/suministro-conversion-sistema-sap-s4hana-migracion-governance-risk-and-compliance",
+      "firstSeenAt": "2026-08-05T08:03:18.389Z",
+      "summary": "Id licitación: 6012400445;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 23322248.57 EUR;",
+      "amount": 23322248.57,
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2024-12/6012400445_ppt_signed.pdf"
+    },
     {
       "id": "contratos:servicio-redaccion-proyecto-construccion-nueva-estacion-linea-9-metro-desarrollos",
       "source": "contratos",
@@ -709,20 +760,6 @@
       "pdfUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/09/24/BOCM-20260924-9.PDF",
       "xmlUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/09/24/BOCM-20260924-9.xml?language=es",
       "firstSeenAt": "2026-09-24T17:04:35.041Z"
-    },
-    {
-      "id": "contratos:suministro-aceites-grasas-utilizados-mantenimiento-diversos-equipos-instalados-3",
-      "source": "contratos",
-      "title": "Suministro de aceites y grasas utilizados en el mantenimiento de diversos equipos instalados en el material móvil de Metro de Madrid",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Convocatoria anunciada a licitación",
-      "status": "Pendiente de adjudicación",
-      "expediente": "6012600204",
-      "publishedAt": "2026-09-23",
-      "updatedAt": "2026-09-23T13:39:00+02:00",
-      "deadline": "2026-09-10",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/suministro-aceites-grasas-utilizados-mantenimiento-diversos-equipos-instalados-3",
-      "firstSeenAt": "2026-08-05T08:03:18.389Z"
     },
     {
       "id": "contratos:acuerdo-marco-servicios-asistencia-tecnica-control-gestion-medioambiental-servicio",
@@ -16481,20 +16518,6 @@
       "updatedAt": "2025-11-11T10:02:00+02:00",
       "deadline": "2025-06-20",
       "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-reparacion-equipos-megafonia-circuito-cerrado-television-andenes",
-      "firstSeenAt": "2026-08-05T08:03:18.389Z"
-    },
-    {
-      "id": "contratos:suministro-conversion-sistema-sap-s4hana-migracion-governance-risk-and-compliance",
-      "source": "contratos",
-      "title": "Suministro para la conversión del sistema SAP a S/4HANA, migración de Governance Risk and Compliance (GRC), migración de Business Warehouse (BW) y suministro de infraestructura y licencias en Metro de Madrid S.A. Las actuaciones incluidas en este contrato podrán ser cofinanciadas al 40 % con cargo al programa operativo 2021-2027 FEDER de la Comunidad de Madrid",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Convocatoria anunciada a licitación",
-      "status": "Resuelta / Finalizada",
-      "expediente": "6012400445",
-      "publishedAt": "2025-11-11",
-      "updatedAt": "2025-11-11T10:00:00+02:00",
-      "deadline": "2025-02-28",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/suministro-conversion-sistema-sap-s4hana-migracion-governance-risk-and-compliance",
       "firstSeenAt": "2026-08-05T08:03:18.389Z"
     },
     {
