@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-01T00:48:26.546Z",
+  "generatedAt": "2026-10-01T07:09:58.163Z",
   "coverage": {
     "bocm": "2009-12-01 a 2026-09-24",
     "contratos": "2017-02-02 a 2026-10-01",
@@ -8,25 +8,59 @@
   },
   "sources": {
     "bocm": {
-      "checkedAt": "2026-10-01T00:48:26.546Z",
+      "checkedAt": "2026-10-01T07:09:58.163Z",
       "ok": true,
-      "message": "7 registros relevantes comprobados",
+      "message": "7 registros relevantes comprobados; 10 documento(s) omitido(s) temporalmente",
       "recordsSeen": 7
     },
     "contratos": {
-      "checkedAt": "2026-10-01T00:48:26.546Z",
+      "checkedAt": "2026-10-01T07:09:58.163Z",
       "ok": true,
-      "message": "9 registros relevantes comprobados",
-      "recordsSeen": 9
+      "message": "10 registros relevantes comprobados",
+      "recordsSeen": 10
     },
     "empleo": {
-      "checkedAt": "2026-10-01T00:48:26.546Z",
+      "checkedAt": "2026-10-01T07:09:58.163Z",
       "ok": true,
       "message": "Consulta correcta, sin novedades relevantes",
       "recordsSeen": 0
     }
   },
   "items": [
+    {
+      "id": "contratos:cesion-temporal-uso-espacios-instalacion-explotacion-sistemas-led-publicidad",
+      "source": "contratos",
+      "title": "Cesión temporal de uso de espacios para la instalación y explotación de sistemas led de publicidad dinámica en túneles en la red de Metro de Madrid, S.A.",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Resuelta / Finalizada",
+      "status": "Resuelta / Finalizada",
+      "expediente": "6012600186",
+      "publishedAt": "2026-10-01",
+      "updatedAt": "2026-10-01T08:46:14+02:00",
+      "deadline": "2026-07-10",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/cesion-temporal-uso-espacios-instalacion-explotacion-sistemas-led-publicidad",
+      "firstSeenAt": "2026-08-05T08:03:18.389Z",
+      "summary": "Id licitación: 6012600186;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 2992000.00 EUR;",
+      "amount": 2992000,
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-06/6012600186_ppt_signed.pdf"
+    },
+    {
+      "id": "contratos:servicio-poliza-seguro-responsabilidad-civil-administradores-directivos-rc-do-2027",
+      "source": "contratos",
+      "title": "Servicio de póliza del seguro de responsabilidad civil de administradores y directivos (RC D&O) 2027-2028",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "En plazo",
+      "status": "En plazo",
+      "expediente": "6012600200",
+      "publishedAt": "2026-10-01",
+      "updatedAt": "2026-10-01T07:32:33+02:00",
+      "deadline": "2026-10-06",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-poliza-seguro-responsabilidad-civil-administradores-directivos-rc-do-2027",
+      "firstSeenAt": "2026-08-05T08:03:18.389Z",
+      "summary": "Id licitación: 6012600200;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 1236057.18 EUR;",
+      "amount": 1236057.18,
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-07/6012600200_ppt_signed.pdf"
+    },
     {
       "id": "contratos:contrato-direccion-obra-coordinacion-seguridad-salud-asistencia-tecnica-obras",
       "source": "contratos",
@@ -1680,23 +1714,6 @@
       "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-01/6012600024_referencia_al_ppt_signed.pdf"
     },
     {
-      "id": "contratos:cesion-temporal-uso-espacios-instalacion-explotacion-sistemas-led-publicidad",
-      "source": "contratos",
-      "title": "Cesión temporal de uso de espacios para la instalación y explotación de sistemas led de publicidad dinámica en túneles en la red de Metro de Madrid, S.A.",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Adjudicada",
-      "status": "Adjudicada",
-      "expediente": "6012600186",
-      "publishedAt": "2026-09-11",
-      "updatedAt": "2026-09-11T11:20:28+02:00",
-      "deadline": "2026-07-10",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/cesion-temporal-uso-espacios-instalacion-explotacion-sistemas-led-publicidad",
-      "firstSeenAt": "2026-08-05T08:03:18.389Z",
-      "summary": "Id licitación: 6012600186;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 2992000.00 EUR;",
-      "amount": 2992000,
-      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-06/6012600186_ppt_signed.pdf"
-    },
-    {
       "id": "contratos:servicio-provision-apoyo-desarrollo-programa-entrenamiento-personalizado-uso-3",
       "source": "contratos",
       "title": "Servicio de provisión de apoyo para el desarrollo del programa de entrenamiento personalizado para el uso autónomo de la red de Metro de Madrid",
@@ -3254,20 +3271,6 @@
       "summary": "Id licitación: 6012600082;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 88621.88 EUR;",
       "amount": 88621.88,
       "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-03/6012600082_ppt_signed.pdf"
-    },
-    {
-      "id": "contratos:servicio-poliza-seguro-responsabilidad-civil-administradores-directivos-rc-do-2027",
-      "source": "contratos",
-      "title": "Servicio de póliza del seguro de responsabilidad civil de administradores y directivos (RC D&O) 2027-2028",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Convocatoria anunciada a licitación",
-      "status": "En plazo",
-      "expediente": "6012600200",
-      "publishedAt": "2026-08-07",
-      "updatedAt": "2026-08-07T10:20:00+02:00",
-      "deadline": "2026-10-06",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-poliza-seguro-responsabilidad-civil-administradores-directivos-rc-do-2027",
-      "firstSeenAt": "2026-08-05T08:03:18.389Z"
     },
     {
       "id": "contratos:servicio-trabajos-auxiliares-reparacion-mantenimiento-instalaciones-proteccion-0",
