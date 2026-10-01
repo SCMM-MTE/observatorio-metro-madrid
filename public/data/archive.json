@@ -1,32 +1,83 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-30T21:24:06.008Z",
+  "generatedAt": "2026-10-01T00:48:26.546Z",
   "coverage": {
     "bocm": "2009-12-01 a 2026-09-24",
-    "contratos": "2017-02-02 a 2026-09-30",
+    "contratos": "2017-02-02 a 2026-10-01",
     "empleo": "2016-10-31 a 2026-05-07"
   },
   "sources": {
     "bocm": {
-      "checkedAt": "2026-09-30T21:24:06.008Z",
+      "checkedAt": "2026-10-01T00:48:26.546Z",
       "ok": true,
       "message": "7 registros relevantes comprobados",
       "recordsSeen": 7
     },
     "contratos": {
-      "checkedAt": "2026-09-30T21:24:06.008Z",
+      "checkedAt": "2026-10-01T00:48:26.546Z",
       "ok": true,
-      "message": "12 registros relevantes comprobados",
-      "recordsSeen": 12
+      "message": "9 registros relevantes comprobados",
+      "recordsSeen": 9
     },
     "empleo": {
-      "checkedAt": "2026-09-30T21:24:06.008Z",
+      "checkedAt": "2026-10-01T00:48:26.546Z",
       "ok": true,
       "message": "Consulta correcta, sin novedades relevantes",
       "recordsSeen": 0
     }
   },
   "items": [
+    {
+      "id": "contratos:contrato-direccion-obra-coordinacion-seguridad-salud-asistencia-tecnica-obras",
+      "source": "contratos",
+      "title": "Contrato de dirección de obra, coordinación de seguridad y salud y asistencia técnica de las obras de construcción de la ampliación de la red de metro de madrid al barrio de Valdebebas. Tramos 1 y 2 (cuatro lotes)",
+      "summary": "Id licitación: A/SER-014572/2026;Órgano de Contratación: Consejería de Vivienda, Transportes e Infraestructuras;Importe: 52158125.73 EUR;",
+      "issuer": "Consejería de Vivienda, Transportes e Infraestructuras",
+      "publicationType": "Pendiente de adjudicación",
+      "status": "Pendiente de adjudicación",
+      "expediente": "A/SER-014572/2026",
+      "amount": 52158125.73,
+      "deadline": "2026-09-30",
+      "publishedAt": "2026-10-01",
+      "updatedAt": "2026-10-01T00:05:06+02:00",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/contrato-direccion-obra-coordinacion-seguridad-salud-asistencia-tecnica-obras",
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-07/ser.14572.2026_ppt_an.pdf",
+      "firstSeenAt": "2026-08-14T13:59:16.760Z"
+    },
+    {
+      "id": "contratos:servicio-inspecciones-periodicas-reglamentarias-ascensores-metro-madrid",
+      "source": "contratos",
+      "title": "Servicio de inspecciones periódicas reglamentarias para ascensores de Metro de Madrid",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Pendiente de adjudicación",
+      "status": "Pendiente de adjudicación",
+      "expediente": "6012600231",
+      "publishedAt": "2026-10-01",
+      "updatedAt": "2026-10-01T00:05:06+02:00",
+      "deadline": "2026-09-30",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-inspecciones-periodicas-reglamentarias-ascensores-metro-madrid",
+      "firstSeenAt": "2026-08-24T07:18:57.908Z",
+      "summary": "Id licitación: 6012600231;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 408204.00 EUR;",
+      "amount": 408204,
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-08/6012600231_ppt_signed.pdf"
+    },
+    {
+      "id": "contratos:servicio-transporte-autobus-viajeros-afectados-suspensiones-servicio-no-6",
+      "source": "contratos",
+      "title": "Servicio de transporte en autobús para los viajeros afectados por las suspensiones de servicio no programadas en las líneas 7B, 9B y 12 de Metro de Madrid",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Pendiente de adjudicación",
+      "status": "Pendiente de adjudicación",
+      "expediente": "6012600197",
+      "publishedAt": "2026-10-01",
+      "updatedAt": "2026-10-01T00:05:06+02:00",
+      "deadline": "2026-09-30",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-transporte-autobus-viajeros-afectados-suspensiones-servicio-no-6",
+      "firstSeenAt": "2026-08-05T08:03:18.389Z",
+      "summary": "Id licitación: 6012600197;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 177600.00 EUR;",
+      "amount": 177600,
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-07/6012600197_pliego_de_prescripciones_tecnicas_signed.pdf"
+    },
     {
       "id": "contratos:redaccion-plan-especial-proyecto-construccion-nueva-estacion-linea-10-metro-barrio",
       "source": "contratos",
@@ -916,23 +967,6 @@
       "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-01/6012600009_documento_ref._confidencialidad_signed.pdf"
     },
     {
-      "id": "contratos:contrato-direccion-obra-coordinacion-seguridad-salud-asistencia-tecnica-obras",
-      "source": "contratos",
-      "title": "Contrato de dirección de obra, coordinación de seguridad y salud y asistencia técnica de las obras de construcción de la ampliación de la red de metro de madrid al barrio de Valdebebas. Tramos 1 y 2 (cuatro lotes)",
-      "summary": "Id licitación: A/SER-014572/2026;Órgano de Contratación: Consejería de Vivienda, Transportes e Infraestructuras;Importe: 52158125.73 EUR;",
-      "issuer": "Consejería de Vivienda, Transportes e Infraestructuras",
-      "publicationType": "En plazo",
-      "status": "En plazo",
-      "expediente": "A/SER-014572/2026",
-      "amount": 52158125.73,
-      "deadline": "2026-09-30",
-      "publishedAt": "2026-09-22",
-      "updatedAt": "2026-09-22T12:40:36+02:00",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/contrato-direccion-obra-coordinacion-seguridad-salud-asistencia-tecnica-obras",
-      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-07/ser.14572.2026_ppt_an.pdf",
-      "firstSeenAt": "2026-08-14T13:59:16.760Z"
-    },
-    {
       "id": "contratos:servicio-asistencia-tecnica-mantenimiento-operacion-sistemas-auscultacion-linea",
       "source": "contratos",
       "title": "Servicio y asistencia técnica para el mantenimiento y la operación de los sistemas de auscultación de línea aérea y vía instalados en el vagón auscultador",
@@ -1500,12 +1534,12 @@
     {
       "id": "bocm:bocm-20260916-57",
       "source": "bocm",
-      "title": "Bien de interés cultural– Resolución de 2 de septiembre de 2026, por la que se incoa expediente para la declaración como Bien de Interés Cultural de la Comunidad de Madrid, en la categoría de Colección de bienes muebles, de la Colección de Trenes Históricos de Metro de Madrid",
-      "summary": "Bien de interés cultural– Resolución de 2 de septiembre de 2026, por la que se incoa expediente para la declaración como Bien de Interés Cultural de la Comunidad de Madrid, en la categoría de Colección de bienes muebles, de la Colección de Trenes Históricos de Metro de Madrid",
+      "title": "Bien de interés cultural – Resolución de 2 de septiembre de 2026, por la que se incoa expediente para la declaración como Bien de Interés Cultural de la Comunidad de Madrid, en la categoría de Colección de bienes muebles, de la Colección de Trenes Históricos de Metro de Madrid",
+      "summary": "Bien de interés cultural – Resolución de 2 de septiembre de 2026, por la que se incoa expediente para la declaración como Bien de Interés Cultural de la Comunidad de Madrid, en la categoría de Colección de bienes muebles, de la Colección de Trenes Históricos de Metro de Madrid",
       "issuer": "CONSEJERÍA DE CULTURA, TURISMO Y DEPORTE",
-      "publicationType": "Bien de interés cultural",
+      "publicationType": "RESOLUCIÓN",
       "publishedAt": "2026-09-16",
-      "url": "https://www.bocm.es/bocm-20260916-57",
+      "url": "https://www.bocm.es/bocm-20260916-57?language=es",
       "pdfUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/09/16/BOCM-20260916-57.PDF",
       "xmlUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/09/16/BOCM-20260916-57.xml?language=es",
       "firstSeenAt": "2026-09-16T15:31:13.043Z",
@@ -1929,20 +1963,6 @@
       "deadline": "2026-11-03",
       "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/acuerdo-marco-suministro-suscripcion-mantenimiento-licencias-aplicaciones-1",
       "firstSeenAt": "2026-09-03T09:40:54.691Z"
-    },
-    {
-      "id": "contratos:servicio-inspecciones-periodicas-reglamentarias-ascensores-metro-madrid",
-      "source": "contratos",
-      "title": "Servicio de inspecciones periódicas reglamentarias para ascensores de Metro de Madrid",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Convocatoria anunciada a licitación",
-      "status": "En plazo",
-      "expediente": "6012600231",
-      "publishedAt": "2026-09-07",
-      "updatedAt": "2026-09-07T13:41:00+02:00",
-      "deadline": "2026-09-30",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-inspecciones-periodicas-reglamentarias-ascensores-metro-madrid",
-      "firstSeenAt": "2026-08-24T07:18:57.908Z"
     },
     {
       "id": "contratos:servicios-direccion-obras-coordinacion-seguridad-salud-asistencia-tecnica-obras-0",
@@ -3420,20 +3440,6 @@
       "pdfUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/08/06/BOCM-20260806-21.PDF",
       "xmlUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/08/06/BOCM-20260806-21.xml?language=es",
       "firstSeenAt": "2026-08-07T00:27:36.633Z"
-    },
-    {
-      "id": "contratos:servicio-transporte-autobus-viajeros-afectados-suspensiones-servicio-no-6",
-      "source": "contratos",
-      "title": "Servicio de transporte en autobús para los viajeros afectados por las suspensiones de servicio no programadas en las líneas 7B, 9B y 12 de Metro de Madrid",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Convocatoria anunciada a licitación",
-      "status": "En plazo",
-      "expediente": "6012600197",
-      "publishedAt": "2026-08-05",
-      "updatedAt": "2026-08-05T12:21:00+02:00",
-      "deadline": "2026-09-30",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-transporte-autobus-viajeros-afectados-suspensiones-servicio-no-6",
-      "firstSeenAt": "2026-08-05T08:03:18.389Z"
     },
     {
       "id": "contratos:servicio-seis-puntos-servicio-biblioteca-metro-madrid-bibliometro-direccion",
