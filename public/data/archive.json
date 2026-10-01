@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-01T07:09:58.163Z",
+  "generatedAt": "2026-10-01T14:44:59.812Z",
   "coverage": {
     "bocm": "2009-12-01 a 2026-09-24",
     "contratos": "2017-02-02 a 2026-10-01",
@@ -8,25 +8,110 @@
   },
   "sources": {
     "bocm": {
-      "checkedAt": "2026-10-01T07:09:58.163Z",
+      "checkedAt": "2026-10-01T14:44:59.812Z",
       "ok": true,
-      "message": "7 registros relevantes comprobados; 10 documento(s) omitido(s) temporalmente",
+      "message": "7 registros relevantes comprobados",
       "recordsSeen": 7
     },
     "contratos": {
-      "checkedAt": "2026-10-01T07:09:58.163Z",
+      "checkedAt": "2026-10-01T14:44:59.812Z",
       "ok": true,
       "message": "10 registros relevantes comprobados",
       "recordsSeen": 10
     },
     "empleo": {
-      "checkedAt": "2026-10-01T07:09:58.163Z",
+      "checkedAt": "2026-10-01T14:44:59.812Z",
       "ok": true,
       "message": "Consulta correcta, sin novedades relevantes",
       "recordsSeen": 0
     }
   },
   "items": [
+    {
+      "id": "contratos:suministro-valvulas-aspiracion-e-impulsion-compresores-aire-comprimido-material",
+      "source": "contratos",
+      "title": "Suministro de válvulas de aspiración e impulsión para los compresores de aire comprimido del material móvil de Metro de Madrid",
+      "summary": "Id licitación: 6012600229;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 140000.00 EUR;",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Pendiente de adjudicación",
+      "status": "Pendiente de adjudicación",
+      "expediente": "6012600229",
+      "amount": 140000,
+      "deadline": "2026-09-24",
+      "publishedAt": "2026-10-01",
+      "updatedAt": "2026-10-01T12:23:23+02:00",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/suministro-valvulas-aspiracion-e-impulsion-compresores-aire-comprimido-material",
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-08/6012600229_ppt_signed.pdf",
+      "firstSeenAt": "2026-08-21T05:08:16.465Z"
+    },
+    {
+      "id": "contratos:servicio-reparacion-reductores-modelo-flender-akef-2345-watteeuw-abh2-567-serie",
+      "source": "contratos",
+      "title": "Servicio de reparación de reductores modelo FLENDER AKEF 234.5 y WATTEEUW ABH2-567 de la serie 3000 para Metro de Madrid",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "En plazo",
+      "status": "En plazo",
+      "expediente": "6012600247",
+      "publishedAt": "2026-10-01",
+      "updatedAt": "2026-10-01T12:00:10+02:00",
+      "deadline": "2026-10-21",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-reparacion-reductores-modelo-flender-akef-2345-watteeuw-abh2-567-serie",
+      "firstSeenAt": "2026-09-22T07:39:36.151Z",
+      "summary": "Id licitación: 6012600247;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 1619687.50 EUR;",
+      "amount": 1619687.5,
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-09/6012600247_ppt_signed.pdf"
+    },
+    {
+      "id": "contratos:suministro-e-instalacion-soluciones-comunicacion-satelital",
+      "source": "contratos",
+      "title": "Suministro e instalación de soluciones de comunicación satelital",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Pendiente de adjudicación",
+      "status": "Pendiente de adjudicación",
+      "expediente": "6012600132",
+      "publishedAt": "2026-10-01",
+      "updatedAt": "2026-10-01T11:11:25+02:00",
+      "deadline": "2026-06-16",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/suministro-e-instalacion-soluciones-comunicacion-satelital",
+      "firstSeenAt": "2026-08-05T08:03:18.389Z",
+      "summary": "Id licitación: 6012600132;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 1214041.24 EUR;",
+      "amount": 1214041.24,
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-05/6012600132_ppt_y_anexo_confidencial_signed.pdf"
+    },
+    {
+      "id": "contratos:servicio-vigilancia-seguridad-red-metro",
+      "source": "contratos",
+      "title": "Servicio de vigilancia para la seguridad en la red de Metro",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Resuelta / Finalizada",
+      "status": "Resuelta / Finalizada",
+      "expediente": "6012200109",
+      "publishedAt": "2026-10-01",
+      "updatedAt": "2026-10-01T09:50:01+02:00",
+      "deadline": "2022-06-29",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-vigilancia-seguridad-red-metro",
+      "firstSeenAt": "2026-08-05T08:03:18.389Z",
+      "summary": "Id licitación: 6012200109;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 337765060.80 EUR;Estado: 2Entransicion",
+      "amount": 337765060.8,
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2022-05/6012200109_referencia_al_pliego_de_prescripciones_tecnicas_signed_0.pdf"
+    },
+    {
+      "id": "contratos:obras-renovacion-carril-red-metro-madrid",
+      "source": "contratos",
+      "title": "Obras de renovación de carril en la red de Metro de Madrid",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Resuelta / Finalizada",
+      "status": "Resuelta / Finalizada",
+      "expediente": "6012400105",
+      "publishedAt": "2026-10-01",
+      "updatedAt": "2026-10-01T09:45:18+02:00",
+      "deadline": "2024-04-18",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/obras-renovacion-carril-red-metro-madrid",
+      "firstSeenAt": "2026-08-05T08:03:18.389Z",
+      "summary": "Id licitación: 6012400105;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 14993476.72 EUR;",
+      "amount": 14993476.72,
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2024-03/6012400105_pliego_de_condiciones_particulares_signed_2.pdf"
+    },
     {
       "id": "contratos:cesion-temporal-uso-espacios-instalacion-explotacion-sistemas-led-publicidad",
       "source": "contratos",
@@ -452,23 +537,6 @@
       "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-08/6012600216_referencia_al_ppt_y_anexos_signed.pdf"
     },
     {
-      "id": "contratos:suministro-valvulas-aspiracion-e-impulsion-compresores-aire-comprimido-material",
-      "source": "contratos",
-      "title": "Suministro de válvulas de aspiración e impulsión para los compresores de aire comprimido del material móvil de Metro de Madrid",
-      "summary": "Id licitación: 6012600229;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 140000.00 EUR;",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Pendiente de adjudicación",
-      "status": "Pendiente de adjudicación",
-      "expediente": "6012600229",
-      "amount": 140000,
-      "deadline": "2026-09-24",
-      "publishedAt": "2026-09-28",
-      "updatedAt": "2026-09-28T11:47:13+02:00",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/suministro-valvulas-aspiracion-e-impulsion-compresores-aire-comprimido-material",
-      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-08/6012600229_ppt_signed.pdf",
-      "firstSeenAt": "2026-08-21T05:08:16.465Z"
-    },
-    {
       "id": "contratos:servicio-mantenimiento-integral-sistema-proteccion-incendios-series-material-movil",
       "source": "contratos",
       "title": "Servicio de mantenimiento integral del sistema de protección contra incendios de las series de material móvil de Metro de Madrid 3000, 7000, 8000 y 9000",
@@ -518,23 +586,6 @@
       "summary": "Id licitación: 6012600237;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 62500.00 EUR;",
       "amount": 62500,
       "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-09/6012600237_pliego_de_prescripciones_tecnicas_signed.pdf"
-    },
-    {
-      "id": "contratos:servicio-vigilancia-seguridad-red-metro",
-      "source": "contratos",
-      "title": "Servicio de vigilancia para la seguridad en la red de Metro",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Resuelta / Finalizada",
-      "status": "Resuelta / Finalizada",
-      "expediente": "6012200109",
-      "publishedAt": "2026-09-28",
-      "updatedAt": "2026-09-28T11:26:44+02:00",
-      "deadline": "2022-06-29",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-vigilancia-seguridad-red-metro",
-      "firstSeenAt": "2026-08-05T08:03:18.389Z",
-      "summary": "Id licitación: 6012200109;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 337765060.80 EUR;Estado: 2Entransicion",
-      "amount": 337765060.8,
-      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2022-05/6012200109_referencia_al_pliego_de_prescripciones_tecnicas_signed_0.pdf"
     },
     {
       "id": "contratos:servicio-centro-reprografia-cdr-metro-madrid",
@@ -1039,20 +1090,6 @@
       "deadline": "2026-09-18",
       "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/suministro-varios-repuestos-conexion-electrica-mantenimiento-material-movil-metro",
       "firstSeenAt": "2026-09-01T10:00:16.000Z"
-    },
-    {
-      "id": "contratos:servicio-reparacion-reductores-modelo-flender-akef-2345-watteeuw-abh2-567-serie",
-      "source": "contratos",
-      "title": "Servicio de reparación de reductores modelo FLENDER AKEF 234.5 y WATTEEUW ABH2-567 de la serie 3000 para Metro de Madrid",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Convocatoria anunciada a licitación",
-      "status": "En plazo",
-      "expediente": "6012600247",
-      "publishedAt": "2026-09-22",
-      "updatedAt": "2026-09-22T09:49:00+02:00",
-      "deadline": "2026-10-21",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-reparacion-reductores-modelo-flender-akef-2345-watteeuw-abh2-567-serie",
-      "firstSeenAt": "2026-09-22T07:39:36.151Z"
     },
     {
       "id": "contratos:servicio-mantenimiento-integral-679-equipos-instalaciones-climatizacion-ubicados",
@@ -4052,20 +4089,6 @@
         "I. COMUNIDAD DE MADRID · D) Anuncios"
       ],
       "firstSeenAt": "2026-08-05T07:48:11.952Z"
-    },
-    {
-      "id": "contratos:suministro-e-instalacion-soluciones-comunicacion-satelital",
-      "source": "contratos",
-      "title": "Suministro e instalación de soluciones de comunicación satelital",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Convocatoria anunciada a licitación",
-      "status": "Pendiente de adjudicación",
-      "expediente": "6012600132",
-      "publishedAt": "2026-07-20",
-      "updatedAt": "2026-07-20T12:31:00+02:00",
-      "deadline": "2026-06-16",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/suministro-e-instalacion-soluciones-comunicacion-satelital",
-      "firstSeenAt": "2026-08-05T08:03:18.389Z"
     },
     {
       "id": "contratos:servicio-revision-reacondicionamiento-rodamientos-compactos-tbu-ctbu-0",
@@ -18843,20 +18866,6 @@
       "updatedAt": "2025-08-12T10:29:00+02:00",
       "deadline": "2023-06-07",
       "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicios-mantenimiento-material-movil-series-9000-3000-1a-circulan-metro-madrid",
-      "firstSeenAt": "2026-08-05T08:03:18.389Z"
-    },
-    {
-      "id": "contratos:obras-renovacion-carril-red-metro-madrid",
-      "source": "contratos",
-      "title": "Obras de renovación de carril en la red de Metro de Madrid",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Convocatoria anunciada a licitación",
-      "status": "Resuelta / Finalizada",
-      "expediente": "6012400105",
-      "publishedAt": "2025-08-12",
-      "updatedAt": "2025-08-12T09:38:00+02:00",
-      "deadline": "2024-04-18",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/obras-renovacion-carril-red-metro-madrid",
       "firstSeenAt": "2026-08-05T08:03:18.389Z"
     },
     {
