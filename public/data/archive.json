@@ -1,32 +1,49 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-02T18:23:42.008Z",
+  "generatedAt": "2026-10-02T22:31:28.508Z",
   "coverage": {
     "bocm": "2009-12-01 a 2026-10-02",
-    "contratos": "2017-02-02 a 2026-10-02",
+    "contratos": "2017-02-02 a 2026-10-03",
     "empleo": "2016-10-31 a 2026-05-07"
   },
   "sources": {
     "bocm": {
-      "checkedAt": "2026-10-02T18:23:42.008Z",
+      "checkedAt": "2026-10-02T22:31:28.508Z",
       "ok": true,
       "message": "9 registros relevantes comprobados",
       "recordsSeen": 9
     },
     "contratos": {
-      "checkedAt": "2026-10-02T18:23:42.008Z",
+      "checkedAt": "2026-10-02T22:31:28.508Z",
       "ok": true,
-      "message": "44 registros relevantes comprobados",
-      "recordsSeen": 44
+      "message": "39 registros relevantes comprobados",
+      "recordsSeen": 39
     },
     "empleo": {
-      "checkedAt": "2026-10-02T18:23:42.008Z",
+      "checkedAt": "2026-10-02T22:31:28.508Z",
       "ok": true,
       "message": "Consulta correcta, sin novedades relevantes",
       "recordsSeen": 0
     }
   },
   "items": [
+    {
+      "id": "contratos:servicio-revisiones-normativa-equipos-accesorios-elevacion-cargas-metro-madrid",
+      "source": "contratos",
+      "title": "Servicio de revisiones normativa de equipos y accesorios de elevación de cargas para Metro de Madrid",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Pendiente de adjudicación",
+      "status": "Pendiente de adjudicación",
+      "expediente": "6012600240",
+      "publishedAt": "2026-10-03",
+      "updatedAt": "2026-10-03T00:05:39+02:00",
+      "deadline": "2026-10-02",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-revisiones-normativa-equipos-accesorios-elevacion-cargas-metro-madrid",
+      "firstSeenAt": "2026-09-03T09:40:54.691Z",
+      "summary": "Id licitación: 6012600240;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 456766.60 EUR;",
+      "amount": 456766.6,
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-09/6012600240_ppt_signed.pdf"
+    },
     {
       "id": "contratos:acuerdo-marco-suministro-repuestos-mecanicos-mantenimiento-equipos-instalaciones",
       "source": "contratos",
@@ -2881,20 +2898,6 @@
       "summary": "Id licitación: 6012600111;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 9502500.00 EUR;",
       "amount": 9502500,
       "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-04/6012600111_ppt_signed.pdf"
-    },
-    {
-      "id": "contratos:servicio-revisiones-normativa-equipos-accesorios-elevacion-cargas-metro-madrid",
-      "source": "contratos",
-      "title": "Servicio de revisiones normativa de equipos y accesorios de elevación de cargas para Metro de Madrid",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Convocatoria anunciada a licitación",
-      "status": "En plazo",
-      "expediente": "6012600240",
-      "publishedAt": "2026-09-03",
-      "updatedAt": "2026-09-03T09:22:00+02:00",
-      "deadline": "2026-10-02",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-revisiones-normativa-equipos-accesorios-elevacion-cargas-metro-madrid",
-      "firstSeenAt": "2026-09-03T09:40:54.691Z"
     },
     {
       "id": "bocm:bocm-20260903-21",
