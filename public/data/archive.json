@@ -1,32 +1,49 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-05T15:55:41.600Z",
+  "generatedAt": "2026-10-05T22:34:33.515Z",
   "coverage": {
     "bocm": "2009-12-01 a 2026-10-02",
-    "contratos": "2017-02-02 a 2026-10-05",
+    "contratos": "2017-02-02 a 2026-10-06",
     "empleo": "2016-10-31 a 2026-05-07"
   },
   "sources": {
     "bocm": {
-      "checkedAt": "2026-10-05T15:55:41.600Z",
+      "checkedAt": "2026-10-05T22:34:33.515Z",
       "ok": true,
       "message": "8 registros relevantes comprobados",
       "recordsSeen": 8
     },
     "contratos": {
-      "checkedAt": "2026-10-05T15:55:41.600Z",
+      "checkedAt": "2026-10-05T22:34:33.515Z",
       "ok": true,
-      "message": "17 registros relevantes comprobados",
-      "recordsSeen": 17
+      "message": "10 registros relevantes comprobados",
+      "recordsSeen": 10
     },
     "empleo": {
-      "checkedAt": "2026-10-05T15:55:41.600Z",
+      "checkedAt": "2026-10-05T22:34:33.515Z",
       "ok": true,
       "message": "Consulta correcta, sin novedades relevantes",
       "recordsSeen": 0
     }
   },
   "items": [
+    {
+      "id": "contratos:obras-construccion-ampliacion-red-metro-madrid-barrio-valdebebas-tramos-1-2",
+      "source": "contratos",
+      "title": "Obras de construcción de la ampliación de la red de Metro de Madrid al barrio de Valdebebas. Tramos 1 y 2.",
+      "summary": "Id licitación: A/OBR-013816/2026;Órgano de Contratación: Consejería de Vivienda, Transportes e Infraestructuras;Importe: 873292499.72 EUR;",
+      "issuer": "Consejería de Vivienda, Transportes e Infraestructuras",
+      "publicationType": "Pendiente de adjudicación",
+      "status": "Pendiente de adjudicación",
+      "expediente": "A/OBR-013816/2026",
+      "amount": 873292499.72,
+      "deadline": "2026-10-05",
+      "publishedAt": "2026-10-06",
+      "updatedAt": "2026-10-06T00:19:17+02:00",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/obras-construccion-ampliacion-red-metro-madrid-barrio-valdebebas-tramos-1-2",
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-07/obr.13816.2026_pcap_18.06.2026.pdf",
+      "firstSeenAt": "2026-08-14T13:59:16.760Z"
+    },
     {
       "id": "contratos:servicio-vigilancia-seguridad-red-metro",
       "source": "contratos",
@@ -902,23 +919,6 @@
       "summary": "Id licitación: 6012300220;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 255000.00 EUR;",
       "amount": 255000,
       "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2023-07/6012300220_ppt_signed.pdf"
-    },
-    {
-      "id": "contratos:obras-construccion-ampliacion-red-metro-madrid-barrio-valdebebas-tramos-1-2",
-      "source": "contratos",
-      "title": "Obras de construcción de la ampliación de la red de Metro de Madrid al barrio de Valdebebas. Tramos 1 y 2.",
-      "summary": "Id licitación: A/OBR-013816/2026;Órgano de Contratación: Consejería de Vivienda, Transportes e Infraestructuras;Importe: 873292499.72 EUR;",
-      "issuer": "Consejería de Vivienda, Transportes e Infraestructuras",
-      "publicationType": "En plazo",
-      "status": "En plazo",
-      "expediente": "A/OBR-013816/2026",
-      "amount": 873292499.72,
-      "deadline": "2026-10-05",
-      "publishedAt": "2026-10-02",
-      "updatedAt": "2026-10-02T11:56:00+02:00",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/obras-construccion-ampliacion-red-metro-madrid-barrio-valdebebas-tramos-1-2",
-      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-07/obr.13816.2026_pcap_18.06.2026.pdf",
-      "firstSeenAt": "2026-08-14T13:59:16.760Z"
     },
     {
       "id": "contratos:acuerdo-marco-suministro-suscripcion-mantenimiento-licencias-aplicaciones-0",
