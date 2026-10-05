@@ -1,32 +1,66 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-05T00:50:14.726Z",
+  "generatedAt": "2026-10-05T06:56:10.585Z",
   "coverage": {
     "bocm": "2009-12-01 a 2026-10-02",
-    "contratos": "2017-02-02 a 2026-10-03",
+    "contratos": "2017-02-02 a 2026-10-05",
     "empleo": "2016-10-31 a 2026-05-07"
   },
   "sources": {
     "bocm": {
-      "checkedAt": "2026-10-05T00:50:14.726Z",
+      "checkedAt": "2026-10-05T06:56:10.585Z",
       "ok": true,
-      "message": "9 registros relevantes comprobados; 15 documento(s) omitido(s) temporalmente",
-      "recordsSeen": 9
+      "message": "8 registros relevantes comprobados; 4 documento(s) omitido(s) temporalmente",
+      "recordsSeen": 8
     },
     "contratos": {
-      "checkedAt": "2026-10-05T00:50:14.726Z",
+      "checkedAt": "2026-10-05T06:56:10.585Z",
       "ok": true,
-      "message": "38 registros relevantes comprobados",
-      "recordsSeen": 38
+      "message": "35 registros relevantes comprobados",
+      "recordsSeen": 35
     },
     "empleo": {
-      "checkedAt": "2026-10-05T00:50:14.726Z",
+      "checkedAt": "2026-10-05T06:56:10.585Z",
       "ok": true,
       "message": "Consulta correcta, sin novedades relevantes",
       "recordsSeen": 0
     }
   },
   "items": [
+    {
+      "id": "contratos:acuerdo-marco-servicios-topograficos-servicio-superestructura-via-metro-madrid-0",
+      "source": "contratos",
+      "title": "Acuerdo Marco para servicios topográficos en el Servicio de Superestructura de Vía de Metro de Madrid",
+      "summary": "Id licitación: 6012600020;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 2800000.00 EUR;",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Pendiente de adjudicación",
+      "status": "Pendiente de adjudicación",
+      "expediente": "6012600020",
+      "amount": 2800000,
+      "deadline": "2026-02-25",
+      "publishedAt": "2026-10-05",
+      "updatedAt": "2026-10-05T08:32:34+02:00",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/acuerdo-marco-servicios-topograficos-servicio-superestructura-via-metro-madrid-0",
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-01/6012600020_pliego_de_prescripciones_tecnicas_signed.pdf",
+      "firstSeenAt": "2026-08-05T07:48:11.952Z"
+    },
+    {
+      "id": "contratos:acuerdo-marco-suministro-herramientas-mano-herramientas-electricas-material-0",
+      "source": "contratos",
+      "title": "Acuerdo marco para el suministro de herramientas de mano, herramientas eléctricas, material de ferretería y tornillería para Metro de Madrid, S.A",
+      "summary": "Id licitación: 6012600256;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 450000.00 EUR;",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "En plazo",
+      "status": "En plazo",
+      "expediente": "6012600256",
+      "amount": 450000,
+      "deadline": "2026-11-03",
+      "publishedAt": "2026-10-05",
+      "updatedAt": "2026-10-05T08:02:32+02:00",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/acuerdo-marco-suministro-herramientas-mano-herramientas-electricas-material-0",
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-10/6012600256_ppt_signed.pdf",
+      "firstSeenAt": "2026-10-05T06:56:10.585Z"
+    },
     {
       "id": "contratos:servicio-revisiones-normativa-equipos-accesorios-elevacion-cargas-metro-madrid",
       "source": "contratos",
@@ -3045,23 +3079,6 @@
       "summary": "Id licitación: 6012100352;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 361324.80 EUR;Estado: 3Cerrada",
       "amount": 361324.8,
       "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2021-12/6012100352_ppt_signed_1.pdf"
-    },
-    {
-      "id": "contratos:acuerdo-marco-servicios-topograficos-servicio-superestructura-via-metro-madrid-0",
-      "source": "contratos",
-      "title": "Acuerdo Marco para servicios topográficos en el Servicio de Superestructura de Vía de Metro de Madrid",
-      "summary": "Id licitación: 6012600020;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 2800000.00 EUR;",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Pendiente de adjudicación",
-      "status": "Pendiente de adjudicación",
-      "expediente": "6012600020",
-      "amount": 2800000,
-      "deadline": "2026-02-25",
-      "publishedAt": "2026-09-01",
-      "updatedAt": "2026-09-01T09:00:09+02:00",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/acuerdo-marco-servicios-topograficos-servicio-superestructura-via-metro-madrid-0",
-      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-01/6012600020_pliego_de_prescripciones_tecnicas_signed.pdf",
-      "firstSeenAt": "2026-08-05T07:48:11.952Z"
     },
     {
       "id": "contratos:servicio-soporte-especializado-apoyo-gestion-autorizaciones-control-acceso-logico",
