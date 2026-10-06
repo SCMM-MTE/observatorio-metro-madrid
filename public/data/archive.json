@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-06T16:15:52.647Z",
+  "generatedAt": "2026-10-06T21:12:15.791Z",
   "coverage": {
     "bocm": "2009-12-01 a 2026-10-06",
     "contratos": "2017-02-02 a 2026-10-06",
@@ -8,19 +8,19 @@
   },
   "sources": {
     "bocm": {
-      "checkedAt": "2026-10-06T16:15:52.647Z",
+      "checkedAt": "2026-10-06T21:12:15.791Z",
       "ok": true,
       "message": "11 registros relevantes comprobados",
       "recordsSeen": 11
     },
     "contratos": {
-      "checkedAt": "2026-10-06T16:15:52.647Z",
+      "checkedAt": "2026-10-06T21:12:15.791Z",
       "ok": true,
-      "message": "9 registros relevantes comprobados; 1 documento(s) omitido(s) temporalmente",
-      "recordsSeen": 9
+      "message": "10 registros relevantes comprobados",
+      "recordsSeen": 10
     },
     "empleo": {
-      "checkedAt": "2026-10-06T16:15:52.647Z",
+      "checkedAt": "2026-10-06T21:12:15.791Z",
       "ok": true,
       "message": "Consulta correcta, sin novedades relevantes",
       "recordsSeen": 0
@@ -94,6 +94,23 @@
       "summary": "Id licitación: 6012600247;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 1619687.50 EUR;",
       "amount": 1619687.5,
       "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-09/6012600247_ppt_signed.pdf"
+    },
+    {
+      "id": "contratos:servicio-mantenimiento-preventivo-ciclo-largo-puertas-acceso-viajeros-material",
+      "source": "contratos",
+      "title": "Servicio de mantenimiento preventivo de ciclo largo de las puertas de acceso de viajeros en el material móvil de la serie 3000-1ª",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Pendiente de adjudicación",
+      "status": "Pendiente de adjudicación",
+      "expediente": "6012600009",
+      "publishedAt": "2026-10-06",
+      "updatedAt": "2026-10-06T11:44:48+02:00",
+      "deadline": "2026-02-20",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-mantenimiento-preventivo-ciclo-largo-puertas-acceso-viajeros-material",
+      "firstSeenAt": "2026-08-05T08:03:18.389Z",
+      "summary": "Id licitación: 6012600009;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 1274400.00 EUR;",
+      "amount": 1274400,
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-01/6012600009_documento_ref._confidencialidad_signed.pdf"
     },
     {
       "id": "contratos:suministro-frotadores-cola-milano-mantenimiento-pantografos-montados-serie-2000-0",
@@ -2157,23 +2174,6 @@
       "tags": [
         "I. COMUNIDAD DE MADRID · D) Anuncios"
       ]
-    },
-    {
-      "id": "contratos:servicio-mantenimiento-preventivo-ciclo-largo-puertas-acceso-viajeros-material",
-      "source": "contratos",
-      "title": "Servicio de mantenimiento preventivo de ciclo largo de las puertas de acceso de viajeros en el material móvil de la serie 3000-1ª",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Pendiente de adjudicación",
-      "status": "Pendiente de adjudicación",
-      "expediente": "6012600009",
-      "publishedAt": "2026-09-22",
-      "updatedAt": "2026-09-22T13:31:26+02:00",
-      "deadline": "2026-02-20",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-mantenimiento-preventivo-ciclo-largo-puertas-acceso-viajeros-material",
-      "firstSeenAt": "2026-08-05T08:03:18.389Z",
-      "summary": "Id licitación: 6012600009;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 1274400.00 EUR;",
-      "amount": 1274400,
-      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-01/6012600009_documento_ref._confidencialidad_signed.pdf"
     },
     {
       "id": "contratos:servicio-asistencia-tecnica-mantenimiento-operacion-sistemas-auscultacion-linea",
