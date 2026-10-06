@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-05T22:34:33.515Z",
+  "generatedAt": "2026-10-06T02:29:54.129Z",
   "coverage": {
     "bocm": "2009-12-01 a 2026-10-02",
     "contratos": "2017-02-02 a 2026-10-06",
@@ -8,19 +8,19 @@
   },
   "sources": {
     "bocm": {
-      "checkedAt": "2026-10-05T22:34:33.515Z",
+      "checkedAt": "2026-10-06T02:29:54.129Z",
       "ok": true,
       "message": "8 registros relevantes comprobados",
       "recordsSeen": 8
     },
     "contratos": {
-      "checkedAt": "2026-10-05T22:34:33.515Z",
+      "checkedAt": "2026-10-06T02:29:54.129Z",
       "ok": true,
       "message": "10 registros relevantes comprobados",
       "recordsSeen": 10
     },
     "empleo": {
-      "checkedAt": "2026-10-05T22:34:33.515Z",
+      "checkedAt": "2026-10-06T02:29:54.129Z",
       "ok": true,
       "message": "Consulta correcta, sin novedades relevantes",
       "recordsSeen": 0
@@ -2213,12 +2213,12 @@
     {
       "id": "bocm:bocm-20260921-21",
       "source": "bocm",
-      "title": "Convocatoria contrato— Anuncio de 16 de septiembre de 2026, por el que se convoca la licitación para la contratación de un servicio de Centro de Reprografía (CDR) de Metro de Madrid. (Expediente 6012600245)",
-      "summary": "Convocatoria contrato— Anuncio de 16 de septiembre de 2026, por el que se convoca la licitación para la contratación de un servicio de Centro de Reprografía (CDR) de Metro de Madrid. (Expediente 6012600245)",
-      "issuer": "CONSEJERÍA DE VIVIENDA, TRANSPORTES E INFRAESTRUCTURAS · METRO DE MADRID, S. A.",
-      "publicationType": "Convocatoria contrato— Anuncio de 16 de septiembre de 2026, por el que se convoca la licitación para la contratación de un servicio de Centro de Reprografía (CDR) de Metro de Madrid. (Expediente 6012600245)",
+      "title": "Convocatoria contrato. Anuncio de 16 de septiembre de 2026, por el que se convoca la licitación para la contratación de un servicio de Centro de Reprografía (CDR) de Metro de Madrid. (Expediente 6012600245)",
+      "summary": "Convocatoria contrato. Anuncio de 16 de septiembre de 2026, por el que se convoca la licitación para la contratación de un servicio de Centro de Reprografía (CDR) de Metro de Madrid. (Expediente 6012600245)",
+      "issuer": "CONSEJERÍA DE VIVIENDA, TRANSPORTES E INFRAESTRUCTURAS",
+      "publicationType": "ANUNCIO",
       "publishedAt": "2026-09-21",
-      "url": "https://www.bocm.es/bocm-20260921-21",
+      "url": "https://www.bocm.es/bocm-20260921-21?language=es",
       "pdfUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/09/21/BOCM-20260921-21.PDF",
       "xmlUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/09/21/BOCM-20260921-21.xml?language=es",
       "firstSeenAt": "2026-09-21T07:09:33.051Z",
@@ -2229,12 +2229,12 @@
     {
       "id": "bocm:bocm-20260921-22",
       "source": "bocm",
-      "title": "Adjudicación contrato— Anuncio de 16 de septiembre de 2026, de adjudicación del contrato titulado “Suministro de ruedas monoblock para el mantenimiento de los vehículos de material móvil de Metro de Madrid”. (Expediente 6012500363)",
-      "summary": "Adjudicación contrato— Anuncio de 16 de septiembre de 2026, de adjudicación del contrato titulado “Suministro de ruedas monoblock para el mantenimiento de los vehículos de material móvil de Metro de Madrid”. (Expediente 6012500363)",
-      "issuer": "CONSEJERÍA DE VIVIENDA, TRANSPORTES E INFRAESTRUCTURAS · METRO DE MADRID, S. A.",
-      "publicationType": "Adjudicación contrato— Anuncio de 16 de septiembre de 2026, de adjudicación del contrato titulado “Suministro de ruedas monoblock para el mantenimiento de los vehículos de material móvil de Metro de Madrid”. (Expediente 6012500363)",
+      "title": "Adjudicación contrato. Anuncio de 16 de septiembre de 2026, de adjudicación del contrato titulado “Suministro de ruedas monoblock para el mantenimiento de los vehículos de material móvil de Metro de Madrid”. (Expediente 6012500363)",
+      "summary": "Adjudicación contrato. Anuncio de 16 de septiembre de 2026, de adjudicación del contrato titulado “Suministro de ruedas monoblock para el mantenimiento de los vehículos de material móvil de Metro de Madrid”. (Expediente 6012500363)",
+      "issuer": "CONSEJERÍA DE VIVIENDA, TRANSPORTES E INFRAESTRUCTURAS",
+      "publicationType": "ANUNCIO",
       "publishedAt": "2026-09-21",
-      "url": "https://www.bocm.es/bocm-20260921-22",
+      "url": "https://www.bocm.es/bocm-20260921-22?language=es",
       "pdfUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/09/21/BOCM-20260921-22.PDF",
       "xmlUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/09/21/BOCM-20260921-22.xml?language=es",
       "firstSeenAt": "2026-09-21T07:09:33.051Z",
