@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-06T09:23:04.400Z",
+  "generatedAt": "2026-10-06T16:15:52.647Z",
   "coverage": {
     "bocm": "2009-12-01 a 2026-10-06",
     "contratos": "2017-02-02 a 2026-10-06",
@@ -8,25 +8,93 @@
   },
   "sources": {
     "bocm": {
-      "checkedAt": "2026-10-06T09:23:04.400Z",
+      "checkedAt": "2026-10-06T16:15:52.647Z",
       "ok": true,
       "message": "11 registros relevantes comprobados",
       "recordsSeen": 11
     },
     "contratos": {
-      "checkedAt": "2026-10-06T09:23:04.400Z",
+      "checkedAt": "2026-10-06T16:15:52.647Z",
       "ok": true,
-      "message": "12 registros relevantes comprobados",
-      "recordsSeen": 12
+      "message": "9 registros relevantes comprobados; 1 documento(s) omitido(s) temporalmente",
+      "recordsSeen": 9
     },
     "empleo": {
-      "checkedAt": "2026-10-06T09:23:04.400Z",
+      "checkedAt": "2026-10-06T16:15:52.647Z",
       "ok": true,
       "message": "Consulta correcta, sin novedades relevantes",
       "recordsSeen": 0
     }
   },
   "items": [
+    {
+      "id": "contratos:suministro-renovacion-tecnologia-transporte-3-enlaces-e1-pseudowire-tdma-ip",
+      "source": "contratos",
+      "title": "Suministro de renovación de la tecnología de transporte de 3 enlaces E1 a Pseudowire TDMA sobre IP",
+      "summary": "Id licitación: 6012600193;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 24495.00 EUR;",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Adjudicada",
+      "status": "Adjudicada",
+      "expediente": "6012600193",
+      "amount": 24495,
+      "deadline": "2026-08-18",
+      "publishedAt": "2026-10-06",
+      "updatedAt": "2026-10-06T14:32:03+02:00",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/suministro-renovacion-tecnologia-transporte-3-enlaces-e1-pseudowire-tdma-ip",
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-06/6012600193_referencia_al_ppt_y_anexo_signed.pdf",
+      "firstSeenAt": "2026-08-05T07:48:11.952Z"
+    },
+    {
+      "id": "contratos:servicio-centro-reprografia-cdr-metro-madrid",
+      "source": "contratos",
+      "title": "Servicio de Centro de Reprografía (CDR) de Metro de Madrid",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "En plazo",
+      "status": "En plazo",
+      "expediente": "6012600245",
+      "publishedAt": "2026-10-06",
+      "updatedAt": "2026-10-06T13:49:26+02:00",
+      "deadline": "2026-10-27",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-centro-reprografia-cdr-metro-madrid",
+      "firstSeenAt": "2026-09-18T11:06:38.633Z",
+      "summary": "Id licitación: 6012600245;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 883826.36 EUR;",
+      "amount": 883826.36,
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-09/6012600245_pliego_de_prescripciones_tecnicas_signed.pdf"
+    },
+    {
+      "id": "contratos:suministro-asientos-conductor-trenes-material-movil-metro-madrid-1",
+      "source": "contratos",
+      "title": "Suministro de asientos de conductor para los trenes del material móvil de Metro de Madrid",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Pendiente de adjudicación",
+      "status": "Pendiente de adjudicación",
+      "expediente": "6012600073",
+      "publishedAt": "2026-10-06",
+      "updatedAt": "2026-10-06T13:44:25+02:00",
+      "deadline": "2026-05-08",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/suministro-asientos-conductor-trenes-material-movil-metro-madrid-1",
+      "firstSeenAt": "2026-08-05T08:03:18.389Z",
+      "summary": "Id licitación: 6012600073;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 379008.00 EUR;",
+      "amount": 379008,
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-03/6012600073_ppt_signed.pdf"
+    },
+    {
+      "id": "contratos:servicio-reparacion-reductores-modelo-flender-akef-2345-watteeuw-abh2-567-serie",
+      "source": "contratos",
+      "title": "Servicio de reparación de reductores modelo FLENDER AKEF 234.5 y WATTEEUW ABH2-567 de la serie 3000 para Metro de Madrid",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "En plazo",
+      "status": "En plazo",
+      "expediente": "6012600247",
+      "publishedAt": "2026-10-06",
+      "updatedAt": "2026-10-06T13:36:31+02:00",
+      "deadline": "2026-10-21",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-reparacion-reductores-modelo-flender-akef-2345-watteeuw-abh2-567-serie",
+      "firstSeenAt": "2026-09-22T07:39:36.151Z",
+      "summary": "Id licitación: 6012600247;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 1619687.50 EUR;",
+      "amount": 1619687.5,
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-09/6012600247_ppt_signed.pdf"
+    },
     {
       "id": "contratos:suministro-frotadores-cola-milano-mantenimiento-pantografos-montados-serie-2000-0",
       "source": "contratos",
@@ -1005,23 +1073,6 @@
       "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-09/6012600243_ppt_signed.pdf"
     },
     {
-      "id": "contratos:servicio-centro-reprografia-cdr-metro-madrid",
-      "source": "contratos",
-      "title": "Servicio de Centro de Reprografía (CDR) de Metro de Madrid",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "En plazo",
-      "status": "En plazo",
-      "expediente": "6012600245",
-      "publishedAt": "2026-10-02",
-      "updatedAt": "2026-10-02T12:12:50+02:00",
-      "deadline": "2026-10-27",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-centro-reprografia-cdr-metro-madrid",
-      "firstSeenAt": "2026-09-18T11:06:38.633Z",
-      "summary": "Id licitación: 6012600245;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 883826.36 EUR;",
-      "amount": 883826.36,
-      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-09/6012600245_pliego_de_prescripciones_tecnicas_signed.pdf"
-    },
-    {
       "id": "contratos:acuerdo-marco-suministro-rodamientos-mantenimiento-instalaciones-material-movil",
       "source": "contratos",
       "title": "Acuerdo marco para el suministro de rodamientos para el mantenimiento de las instalaciones y el material móvil de Metro Madrid",
@@ -1283,23 +1334,6 @@
       "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/suministro-valvulas-aspiracion-e-impulsion-compresores-aire-comprimido-material",
       "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-08/6012600229_ppt_signed.pdf",
       "firstSeenAt": "2026-08-21T05:08:16.465Z"
-    },
-    {
-      "id": "contratos:servicio-reparacion-reductores-modelo-flender-akef-2345-watteeuw-abh2-567-serie",
-      "source": "contratos",
-      "title": "Servicio de reparación de reductores modelo FLENDER AKEF 234.5 y WATTEEUW ABH2-567 de la serie 3000 para Metro de Madrid",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "En plazo",
-      "status": "En plazo",
-      "expediente": "6012600247",
-      "publishedAt": "2026-10-01",
-      "updatedAt": "2026-10-01T12:00:10+02:00",
-      "deadline": "2026-10-21",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-reparacion-reductores-modelo-flender-akef-2345-watteeuw-abh2-567-serie",
-      "firstSeenAt": "2026-09-22T07:39:36.151Z",
-      "summary": "Id licitación: 6012600247;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 1619687.50 EUR;",
-      "amount": 1619687.5,
-      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-09/6012600247_ppt_signed.pdf"
     },
     {
       "id": "contratos:suministro-e-instalacion-soluciones-comunicacion-satelital",
@@ -1639,23 +1673,6 @@
       "summary": "Id licitación: 6012600242;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 150000.00 EUR;",
       "amount": 150000,
       "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-09/6012600242_ppt_signed.pdf"
-    },
-    {
-      "id": "contratos:suministro-asientos-conductor-trenes-material-movil-metro-madrid-1",
-      "source": "contratos",
-      "title": "Suministro de asientos de conductor para los trenes del material móvil de Metro de Madrid",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Pendiente de adjudicación",
-      "status": "Pendiente de adjudicación",
-      "expediente": "6012600073",
-      "publishedAt": "2026-09-28",
-      "updatedAt": "2026-09-28T13:12:40+02:00",
-      "deadline": "2026-05-08",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/suministro-asientos-conductor-trenes-material-movil-metro-madrid-1",
-      "firstSeenAt": "2026-08-05T08:03:18.389Z",
-      "summary": "Id licitación: 6012600073;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 379008.00 EUR;",
-      "amount": 379008,
-      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-03/6012600073_ppt_signed.pdf"
     },
     {
       "id": "contratos:servicio-polizas-seguros-responsabilidad-civil-profesional-metro-madrid-2027-2028",
@@ -2626,23 +2643,6 @@
       "summary": "Id licitación: 6012600139;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 32250.00 EUR;",
       "amount": 32250,
       "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-05/6012600139_pliego_de_prescripciones_tecnicas_signed.pdf"
-    },
-    {
-      "id": "contratos:suministro-renovacion-tecnologia-transporte-3-enlaces-e1-pseudowire-tdma-ip",
-      "source": "contratos",
-      "title": "Suministro de renovación de la tecnología de transporte de 3 enlaces E1 a Pseudowire TDMA sobre IP",
-      "summary": "Id licitación: 6012600193;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 24495.00 EUR;",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Convocatoria anunciada a licitación",
-      "status": "Pendiente de adjudicación",
-      "expediente": "6012600193",
-      "amount": 24495,
-      "deadline": "2026-08-18",
-      "publishedAt": "2026-09-16",
-      "updatedAt": "2026-09-16T13:16:00+02:00",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/suministro-renovacion-tecnologia-transporte-3-enlaces-e1-pseudowire-tdma-ip",
-      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-06/6012600193_referencia_al_ppt_y_anexo_signed.pdf",
-      "firstSeenAt": "2026-08-05T07:48:11.952Z"
     },
     {
       "id": "contratos:servicio-reparacion-tarjetas-control-equipos-climatizacion-series-3000-9000",
