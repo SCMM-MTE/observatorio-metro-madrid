@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-07T01:00:12.131Z",
+  "generatedAt": "2026-10-07T07:10:27.942Z",
   "coverage": {
     "bocm": "2009-12-01 a 2026-10-06",
     "contratos": "2017-02-02 a 2026-10-07",
@@ -8,25 +8,93 @@
   },
   "sources": {
     "bocm": {
-      "checkedAt": "2026-10-07T01:00:12.131Z",
+      "checkedAt": "2026-10-07T07:10:27.942Z",
       "ok": true,
       "message": "11 registros relevantes comprobados",
       "recordsSeen": 11
     },
     "contratos": {
-      "checkedAt": "2026-10-07T01:00:12.131Z",
+      "checkedAt": "2026-10-07T07:10:27.942Z",
       "ok": true,
-      "message": "7 registros relevantes comprobados",
-      "recordsSeen": 7
+      "message": "9 registros relevantes comprobados",
+      "recordsSeen": 9
     },
     "empleo": {
-      "checkedAt": "2026-10-07T01:00:12.131Z",
+      "checkedAt": "2026-10-07T07:10:27.942Z",
       "ok": true,
       "message": "Consulta correcta, sin novedades relevantes",
       "recordsSeen": 0
     }
   },
   "items": [
+    {
+      "id": "contratos:suministro-equipos-tren-digital-std-7000-sistema-transmision-datos",
+      "source": "contratos",
+      "title": "Suministro de equipos para tren digital STD 7000 (Sistema de Transmisión de Datos)",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Adjudicada",
+      "status": "Adjudicada",
+      "expediente": "6012600136",
+      "publishedAt": "2026-10-07",
+      "updatedAt": "2026-10-07T08:31:10+02:00",
+      "deadline": "2026-06-11",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/suministro-equipos-tren-digital-std-7000-sistema-transmision-datos",
+      "firstSeenAt": "2026-08-05T08:03:18.389Z",
+      "summary": "Id licitación: 6012600136;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 130000.00 EUR;",
+      "amount": 130000,
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-05/6012600136_pliego_de_prescripciones_tecnicas_signed.pdf"
+    },
+    {
+      "id": "contratos:servicio-inspecciones-ensayos-no-destructivos-end-mt-bogies-ejes-traviesas",
+      "source": "contratos",
+      "title": "Servicio de inspecciones ensayos no destructivos (END-MT) de bogies, ejes y traviesas",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Adjudicada",
+      "status": "Adjudicada",
+      "expediente": "6012600118",
+      "publishedAt": "2026-10-07",
+      "updatedAt": "2026-10-07T08:25:27+02:00",
+      "deadline": "2026-05-28",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-inspecciones-ensayos-no-destructivos-end-mt-bogies-ejes-traviesas",
+      "firstSeenAt": "2026-08-05T08:03:18.389Z",
+      "summary": "Id licitación: 6012600118;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 539857.50 EUR;",
+      "amount": 539857.5,
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-04/6012600118_ppt_y_anexos_ppt_confidencialidad_signed.pdf"
+    },
+    {
+      "id": "contratos:servicio-mejora-fiabilidad-elementos-neumaticos-pupitre-conduccion-trenes-0",
+      "source": "contratos",
+      "title": "Servicio para la mejora de fiabilidad en elementos neumáticos de pupitre de conducción en trenes de subseries 8000 1ª MRM",
+      "summary": "Id licitación: 6012600258;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 33422.40 EUR;",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "En plazo",
+      "status": "En plazo",
+      "expediente": "6012600258",
+      "amount": 33422.4,
+      "deadline": "2026-10-23",
+      "publishedAt": "2026-10-07",
+      "updatedAt": "2026-10-07T08:23:39+02:00",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-mejora-fiabilidad-elementos-neumaticos-pupitre-conduccion-trenes-0",
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-10/6012600258_ppt_signed.pdf",
+      "firstSeenAt": "2026-10-07T07:10:27.942Z"
+    },
+    {
+      "id": "contratos:acuerdo-marco-suministro-herramientas-mano-herramientas-electricas-material-0",
+      "source": "contratos",
+      "title": "Acuerdo marco para el suministro de herramientas de mano, herramientas eléctricas, material de ferretería y tornillería para Metro de Madrid, S.A",
+      "summary": "Id licitación: 6012600256;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 450000.00 EUR;",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "En plazo",
+      "status": "En plazo",
+      "expediente": "6012600256",
+      "amount": 450000,
+      "deadline": "2026-11-03",
+      "publishedAt": "2026-10-07",
+      "updatedAt": "2026-10-07T08:21:31+02:00",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/acuerdo-marco-suministro-herramientas-mano-herramientas-electricas-material-0",
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-10/6012600256_ppt_signed.pdf",
+      "firstSeenAt": "2026-10-05T06:56:10.585Z"
+    },
     {
       "id": "contratos:servicio-poliza-seguro-responsabilidad-civil-administradores-directivos-rc-do-2027",
       "source": "contratos",
@@ -213,23 +281,6 @@
       "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-soporte-tecnico-mantenimiento-infraestructura-tecnologica-centro-2",
       "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-10/6012600255_referencia_al_ppt_y_anexo_requisitos_ciberseguridad_signed.pdf",
       "firstSeenAt": "2026-10-06T09:23:04.400Z"
-    },
-    {
-      "id": "contratos:acuerdo-marco-suministro-herramientas-mano-herramientas-electricas-material-0",
-      "source": "contratos",
-      "title": "Acuerdo marco para el suministro de herramientas de mano, herramientas eléctricas, material de ferretería y tornillería para Metro de Madrid, S.A",
-      "summary": "Id licitación: 6012600256;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 450000.00 EUR;",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "En plazo",
-      "status": "En plazo",
-      "expediente": "6012600256",
-      "amount": 450000,
-      "deadline": "2026-11-03",
-      "publishedAt": "2026-10-06",
-      "updatedAt": "2026-10-06T09:10:57+02:00",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/acuerdo-marco-suministro-herramientas-mano-herramientas-electricas-material-0",
-      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-10/6012600256_ppt_signed.pdf",
-      "firstSeenAt": "2026-10-05T06:56:10.585Z"
     },
     {
       "id": "contratos:obras-renovacion-carril-red-metro-madrid",
@@ -2888,23 +2939,6 @@
       "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-05/6012600147_pliego_de_prescripciones_tecnicas_signed.pdf"
     },
     {
-      "id": "contratos:suministro-equipos-tren-digital-std-7000-sistema-transmision-datos",
-      "source": "contratos",
-      "title": "Suministro de equipos para tren digital STD 7000 (Sistema de Transmisión de Datos)",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Pendiente de adjudicación",
-      "status": "Pendiente de adjudicación",
-      "expediente": "6012600136",
-      "publishedAt": "2026-09-10",
-      "updatedAt": "2026-09-10T11:18:12+02:00",
-      "deadline": "2026-06-11",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/suministro-equipos-tren-digital-std-7000-sistema-transmision-datos",
-      "firstSeenAt": "2026-08-05T08:03:18.389Z",
-      "summary": "Id licitación: 6012600136;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 130000.00 EUR;",
-      "amount": 130000,
-      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-05/6012600136_pliego_de_prescripciones_tecnicas_signed.pdf"
-    },
-    {
       "id": "contratos:suministro-acoplamientos-elasticos-necesarios-mantenimiento-material-movil-metro",
       "source": "contratos",
       "title": "Suministro de acoplamientos elásticos necesarios para el mantenimiento del material móvil de Metro de Madrid",
@@ -4607,20 +4641,6 @@
       "updatedAt": "2026-07-30T09:29:00+02:00",
       "deadline": "2025-01-31",
       "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-formacion-manipulador-gases-fluorados-trabajadores-metro-madrid",
-      "firstSeenAt": "2026-08-05T08:03:18.389Z"
-    },
-    {
-      "id": "contratos:servicio-inspecciones-ensayos-no-destructivos-end-mt-bogies-ejes-traviesas",
-      "source": "contratos",
-      "title": "Servicio de inspecciones ensayos no destructivos (END-MT) de bogies, ejes y traviesas",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Convocatoria anunciada a licitación",
-      "status": "Pendiente de adjudicación",
-      "expediente": "6012600118",
-      "publishedAt": "2026-07-29",
-      "updatedAt": "2026-07-29T14:11:00+02:00",
-      "deadline": "2026-05-28",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-inspecciones-ensayos-no-destructivos-end-mt-bogies-ejes-traviesas",
       "firstSeenAt": "2026-08-05T08:03:18.389Z"
     },
     {
