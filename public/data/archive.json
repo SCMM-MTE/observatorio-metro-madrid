@@ -1,32 +1,49 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-08T00:23:39.240Z",
+  "generatedAt": "2026-10-08T06:36:46.154Z",
   "coverage": {
     "bocm": "2009-12-01 a 2026-10-06",
-    "contratos": "2017-02-02 a 2026-10-07",
+    "contratos": "2017-02-02 a 2026-10-08",
     "empleo": "2016-10-31 a 2026-10-06"
   },
   "sources": {
     "bocm": {
-      "checkedAt": "2026-10-08T00:23:39.240Z",
+      "checkedAt": "2026-10-08T06:36:46.154Z",
       "ok": true,
       "message": "11 registros relevantes comprobados",
       "recordsSeen": 11
     },
     "contratos": {
-      "checkedAt": "2026-10-08T00:23:39.240Z",
+      "checkedAt": "2026-10-08T06:36:46.154Z",
       "ok": true,
-      "message": "7 registros relevantes comprobados",
-      "recordsSeen": 7
+      "message": "6 registros relevantes comprobados",
+      "recordsSeen": 6
     },
     "empleo": {
-      "checkedAt": "2026-10-08T00:23:39.240Z",
+      "checkedAt": "2026-10-08T06:36:46.154Z",
       "ok": true,
       "message": "Consulta correcta, sin novedades relevantes",
       "recordsSeen": 0
     }
   },
   "items": [
+    {
+      "id": "contratos:obras-intervencion-grafica-artistica-digital-estacion-duque-pastrana-metro-madrid",
+      "source": "contratos",
+      "title": "Obras de de intervención gráfica, artística y digital en la estación Duque de Pastrana de Metro de Madrid",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Resuelta / Finalizada",
+      "status": "Resuelta / Finalizada",
+      "expediente": "6012600196",
+      "publishedAt": "2026-10-08",
+      "updatedAt": "2026-10-08T08:13:45+02:00",
+      "deadline": "2026-08-10",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/obras-intervencion-grafica-artistica-digital-estacion-duque-pastrana-metro-madrid",
+      "firstSeenAt": "2026-08-05T08:03:18.389Z",
+      "summary": "Id licitación: 6012600196;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 1059663.18 EUR;",
+      "amount": 1059663.18,
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-07/6012600196_proyecto_tecnico_confidencial_signed.pdf"
+    },
     {
       "id": "contratos:servicio-transporte-distribucion-correspondencia-materiales-diversa-indole-0",
       "source": "contratos",
@@ -2686,20 +2703,6 @@
       "summary": "Id licitación: 6012600174;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 89686.67 EUR;",
       "amount": 89686.67,
       "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-06/6012600174_pliego_de_prescripciones_tecnicas_signed.pdf"
-    },
-    {
-      "id": "contratos:obras-intervencion-grafica-artistica-digital-estacion-duque-pastrana-metro-madrid",
-      "source": "contratos",
-      "title": "Obras de de intervención gráfica, artística y digital en la estación Duque de Pastrana de Metro de Madrid",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Convocatoria anunciada a licitación",
-      "status": "Adjudicada",
-      "expediente": "6012600196",
-      "publishedAt": "2026-09-17",
-      "updatedAt": "2026-09-17T10:09:00+02:00",
-      "deadline": "2026-08-10",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/obras-intervencion-grafica-artistica-digital-estacion-duque-pastrana-metro-madrid",
-      "firstSeenAt": "2026-08-05T08:03:18.389Z"
     },
     {
       "id": "contratos:servicio-imparticion-sesiones-divulgativas-basicas-reanimacion-cardiopulmonar-uso",
