@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-08T19:52:20.154Z",
+  "generatedAt": "2026-10-09T00:17:19.182Z",
   "coverage": {
     "bocm": "2009-12-01 a 2026-10-06",
     "contratos": "2017-02-02 a 2026-10-08",
@@ -8,19 +8,19 @@
   },
   "sources": {
     "bocm": {
-      "checkedAt": "2026-10-08T19:52:20.154Z",
+      "checkedAt": "2026-10-09T00:17:19.182Z",
       "ok": true,
       "message": "11 registros relevantes comprobados",
       "recordsSeen": 11
     },
     "contratos": {
-      "checkedAt": "2026-10-08T19:52:20.154Z",
+      "checkedAt": "2026-10-09T00:17:19.182Z",
       "ok": true,
       "message": "8 registros relevantes comprobados",
       "recordsSeen": 8
     },
     "empleo": {
-      "checkedAt": "2026-10-08T19:52:20.154Z",
+      "checkedAt": "2026-10-09T00:17:19.182Z",
       "ok": true,
       "message": "Consulta correcta, sin novedades relevantes",
       "recordsSeen": 0
@@ -2245,15 +2245,18 @@
     {
       "id": "bocm:bocm-20260924-9",
       "source": "bocm",
-      "title": "Nombramiento— Anuncio de 22 de septiembre de 2026, de nombramiento de cargo de Metro de Madrid, S. A.",
-      "summary": "Nombramiento— Anuncio de 22 de septiembre de 2026, de nombramiento de cargo de Metro de Madrid, S. A.",
-      "issuer": "CONSEJERÍA DE VIVIENDA, TRANSPORTES E INFRAESTRUCTURAS · METRO DE MADRID, S. A.",
-      "publicationType": "Nombramiento— Anuncio de 22 de septiembre de 2026, de nombramiento de cargo de Metro de Madrid, S. A.",
+      "title": "Nombramiento. Anuncio de 22 de septiembre de 2026, de nombramiento de cargo de Metro de Madrid, S. A.",
+      "summary": "Nombramiento. Anuncio de 22 de septiembre de 2026, de nombramiento de cargo de Metro de Madrid, S. A.",
+      "issuer": "CONSEJERÍA DE VIVIENDA, TRANSPORTES E INFRAESTRUCTURAS",
+      "publicationType": "ANUNCIO",
       "publishedAt": "2026-09-24",
-      "url": "https://www.bocm.es/bocm-20260924-9",
+      "url": "https://www.bocm.es/bocm-20260924-9?language=es",
       "pdfUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/09/24/BOCM-20260924-9.PDF",
       "xmlUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/09/24/BOCM-20260924-9.xml?language=es",
-      "firstSeenAt": "2026-09-24T17:04:35.041Z"
+      "firstSeenAt": "2026-09-24T17:04:35.041Z",
+      "tags": [
+        "I. COMUNIDAD DE MADRID · B) Autoridades y Personal"
+      ]
     },
     {
       "id": "contratos:acuerdo-marco-servicios-asistencia-tecnica-control-gestion-medioambiental-servicio",
