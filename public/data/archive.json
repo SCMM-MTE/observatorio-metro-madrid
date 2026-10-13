@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-13T08:23:28.393Z",
+  "generatedAt": "2026-10-13T16:23:47.303Z",
   "coverage": {
     "bocm": "2009-12-01 a 2026-10-13",
     "contratos": "2017-02-02 a 2026-10-13",
@@ -8,25 +8,126 @@
   },
   "sources": {
     "bocm": {
-      "checkedAt": "2026-10-13T08:23:28.393Z",
+      "checkedAt": "2026-10-13T16:23:47.303Z",
       "ok": true,
       "message": "13 registros relevantes comprobados",
       "recordsSeen": 13
     },
     "contratos": {
-      "checkedAt": "2026-10-13T08:23:28.393Z",
+      "checkedAt": "2026-10-13T16:23:47.303Z",
       "ok": true,
-      "message": "12 registros relevantes comprobados",
-      "recordsSeen": 12
+      "message": "10 registros relevantes comprobados",
+      "recordsSeen": 10
     },
     "empleo": {
-      "checkedAt": "2026-10-13T08:23:28.393Z",
+      "checkedAt": "2026-10-13T16:23:47.303Z",
       "ok": true,
       "message": "Consulta correcta, sin novedades relevantes",
       "recordsSeen": 0
     }
   },
   "items": [
+    {
+      "id": "contratos:servicio-asistencia-tecnica-obras-implantacion-ascensores-estaciones-tetuan-puente",
+      "source": "contratos",
+      "title": "Servicio de asistencia técnica para las obras de implantación de ascensores en las estaciones de Tetuán, Puente de Vallecas, Carabanchel, Campamento, Ciudad Lineal y Canillejas de las líneas 1 y 5 de Metro de Madrid e implantación de escaleras mecánicas en las estaciones de Prosperidad (línea 4), Estrella (línea 9) y San Blas (línea 7) de Metro de Madrid",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Resuelta / Finalizada",
+      "status": "Resuelta / Finalizada",
+      "expediente": "6012500040",
+      "publishedAt": "2026-10-13",
+      "updatedAt": "2026-10-13T15:30:13+02:00",
+      "deadline": "2025-03-11",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-asistencia-tecnica-obras-implantacion-ascensores-estaciones-tetuan-puente",
+      "firstSeenAt": "2026-08-05T08:03:18.389Z",
+      "summary": "Id licitación: 6012500040;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 1154782.07 EUR;",
+      "amount": 1154782.07,
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2025-02/6012500040_referencia_al_pliego_de_prescripciones_tecnicas_signed.pdf"
+    },
+    {
+      "id": "contratos:acuerdo-marco-suministro-repuestos-valvuleria-otros-elementos-medicion-control",
+      "source": "contratos",
+      "title": "Acuerdo marco para el suministro de repuestos de valvulería y otros elementos de medición y control en la distribución de fluidos para el mantenimiento de las instalaciones y los trenes del material móvil de Metro de Madrid",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Pendiente de adjudicación",
+      "status": "Pendiente de adjudicación",
+      "expediente": "6012600117",
+      "publishedAt": "2026-10-13",
+      "updatedAt": "2026-10-13T13:51:10+02:00",
+      "deadline": "2026-05-22",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/acuerdo-marco-suministro-repuestos-valvuleria-otros-elementos-medicion-control",
+      "firstSeenAt": "2026-08-05T08:03:18.389Z",
+      "summary": "Id licitación: 6012600117;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 225000.00 EUR;",
+      "amount": 225000,
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-04/6012600117_ppt_signed.pdf"
+    },
+    {
+      "id": "contratos:obras-ejecucion-senalizacion-ampliacion-linea-11-metro-madrid-tramo-plaza-eliptica",
+      "source": "contratos",
+      "title": "Obras de ejecución de la señalización para la ampliación de la línea 11 de metro de Madrid. Tramo Plaza Elíptica - Conde de Casal",
+      "summary": "Id licitación: A/OBR-031774/2025;Órgano de Contratación: Consejería de Vivienda, Transportes e Infraestructuras;Importe: 22238312.12 EUR;",
+      "issuer": "Consejería de Vivienda, Transportes e Infraestructuras",
+      "publicationType": "Resuelta / Finalizada",
+      "status": "Resuelta / Finalizada",
+      "expediente": "A/OBR-031774/2025",
+      "amount": 22238312.12,
+      "publishedAt": "2026-10-13",
+      "updatedAt": "2026-10-13T12:40:40+02:00",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/obras-ejecucion-senalizacion-ampliacion-linea-11-metro-madrid-tramo-plaza-eliptica",
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2025-12/obr.31774.2025_pcap.an.pdf",
+      "firstSeenAt": "2026-10-13T16:23:47.303Z"
+    },
+    {
+      "id": "contratos:servicio-mantenimiento-preventivo-correctivo-vehiculos-industriales-propiedad-0",
+      "source": "contratos",
+      "title": "Servicio de mantenimiento preventivo y correctivo de los vehículos industriales propiedad de Metro de Madrid S.A",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Pendiente de adjudicación",
+      "status": "Pendiente de adjudicación",
+      "expediente": "6012600244",
+      "publishedAt": "2026-10-13",
+      "updatedAt": "2026-10-13T11:32:23+02:00",
+      "deadline": "2026-10-09",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-mantenimiento-preventivo-correctivo-vehiculos-industriales-propiedad-0",
+      "firstSeenAt": "2026-09-17T10:23:38.092Z",
+      "summary": "Id licitación: 6012600244;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 133078.00 EUR;",
+      "amount": 133078,
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-09/6012600244_ppt_signed.pdf"
+    },
+    {
+      "id": "contratos:suministro-valvulas-aspiracion-e-impulsion-compresores-aire-comprimido-material",
+      "source": "contratos",
+      "title": "Suministro de válvulas de aspiración e impulsión para los compresores de aire comprimido del material móvil de Metro de Madrid",
+      "summary": "Id licitación: 6012600229;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 140000.00 EUR;",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Pendiente de adjudicación",
+      "status": "Pendiente de adjudicación",
+      "expediente": "6012600229",
+      "amount": 140000,
+      "deadline": "2026-09-24",
+      "publishedAt": "2026-10-13",
+      "updatedAt": "2026-10-13T11:02:16+02:00",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/suministro-valvulas-aspiracion-e-impulsion-compresores-aire-comprimido-material",
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-08/6012600229_ppt_signed.pdf",
+      "firstSeenAt": "2026-08-21T05:08:16.465Z"
+    },
+    {
+      "id": "contratos:soporte-mantenimiento-suscripciones-productos-knime",
+      "source": "contratos",
+      "title": "Soporte y mantenimiento de suscripciones de los productos Knime",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Adjudicada",
+      "status": "Adjudicada",
+      "expediente": "6012600143",
+      "publishedAt": "2026-10-13",
+      "updatedAt": "2026-10-13T10:24:45+02:00",
+      "deadline": "2026-06-03",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/soporte-mantenimiento-suscripciones-productos-knime",
+      "firstSeenAt": "2026-08-05T08:03:18.389Z",
+      "summary": "Id licitación: 6012600143;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 148000.00 EUR;",
+      "amount": 148000,
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-05/6012600143_pliego_de_prescripciones_tecnicas_signed.pdf"
+    },
     {
       "id": "contratos:servicio-desmantelamiento-cuatro-pasarelas-mantenimiento-talleres-centrales-metro",
       "source": "contratos",
@@ -171,23 +272,6 @@
       "pdfUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/10/13/BOCM-20261013-34.PDF",
       "xmlUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/10/13/BOCM-20261013-34.xml?language=es",
       "firstSeenAt": "2026-10-13T08:23:28.393Z"
-    },
-    {
-      "id": "contratos:servicio-mantenimiento-preventivo-correctivo-vehiculos-industriales-propiedad-0",
-      "source": "contratos",
-      "title": "Servicio de mantenimiento preventivo y correctivo de los vehículos industriales propiedad de Metro de Madrid S.A",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Pendiente de adjudicación",
-      "status": "Pendiente de adjudicación",
-      "expediente": "6012600244",
-      "publishedAt": "2026-10-10",
-      "updatedAt": "2026-10-10T00:02:07+02:00",
-      "deadline": "2026-10-09",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-mantenimiento-preventivo-correctivo-vehiculos-industriales-propiedad-0",
-      "firstSeenAt": "2026-09-17T10:23:38.092Z",
-      "summary": "Id licitación: 6012600244;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 133078.00 EUR;",
-      "amount": 133078,
-      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-09/6012600244_ppt_signed.pdf"
     },
     {
       "id": "contratos:contrato-direccion-obra-coordinacion-seguridad-salud-asistencia-tecnica-obras",
@@ -1967,23 +2051,6 @@
       "firstSeenAt": "2026-10-02T13:07:11.794Z"
     },
     {
-      "id": "contratos:suministro-valvulas-aspiracion-e-impulsion-compresores-aire-comprimido-material",
-      "source": "contratos",
-      "title": "Suministro de válvulas de aspiración e impulsión para los compresores de aire comprimido del material móvil de Metro de Madrid",
-      "summary": "Id licitación: 6012600229;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 140000.00 EUR;",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Pendiente de adjudicación",
-      "status": "Pendiente de adjudicación",
-      "expediente": "6012600229",
-      "amount": 140000,
-      "deadline": "2026-09-24",
-      "publishedAt": "2026-10-01",
-      "updatedAt": "2026-10-01T12:23:23+02:00",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/suministro-valvulas-aspiracion-e-impulsion-compresores-aire-comprimido-material",
-      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-08/6012600229_ppt_signed.pdf",
-      "firstSeenAt": "2026-08-21T05:08:16.465Z"
-    },
-    {
       "id": "contratos:cesion-temporal-uso-espacios-instalacion-explotacion-sistemas-led-publicidad",
       "source": "contratos",
       "title": "Cesión temporal de uso de espacios para la instalación y explotación de sistemas led de publicidad dinámica en túneles en la red de Metro de Madrid, S.A.",
@@ -2440,23 +2507,6 @@
       "summary": "Id licitación: 6012600173;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 48750.00 EUR;",
       "amount": 48750,
       "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-06/6012600173_ppt_signed.pdf"
-    },
-    {
-      "id": "contratos:acuerdo-marco-suministro-repuestos-valvuleria-otros-elementos-medicion-control",
-      "source": "contratos",
-      "title": "Acuerdo marco para el suministro de repuestos de valvulería y otros elementos de medición y control en la distribución de fluidos para el mantenimiento de las instalaciones y los trenes del material móvil de Metro de Madrid",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Pendiente de adjudicación",
-      "status": "Pendiente de adjudicación",
-      "expediente": "6012600117",
-      "publishedAt": "2026-09-24",
-      "updatedAt": "2026-09-24T12:44:56+02:00",
-      "deadline": "2026-05-22",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/acuerdo-marco-suministro-repuestos-valvuleria-otros-elementos-medicion-control",
-      "firstSeenAt": "2026-08-05T08:03:18.389Z",
-      "summary": "Id licitación: 6012600117;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 225000.00 EUR;",
-      "amount": 225000,
-      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-04/6012600117_ppt_signed.pdf"
     },
     {
       "id": "contratos:servicio-revision-generalreparacion-conjuntos-amortiguadores-impactos-enganches",
@@ -3666,23 +3716,6 @@
       "summary": "Id licitación: 6012600115;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 103556.24 EUR;",
       "amount": 103556.24,
       "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-04/6012600115_pliego_de_prescripciones_tecnicas_signed.pdf"
-    },
-    {
-      "id": "contratos:soporte-mantenimiento-suscripciones-productos-knime",
-      "source": "contratos",
-      "title": "Soporte y mantenimiento de suscripciones de los productos Knime",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Pendiente de adjudicación",
-      "status": "Pendiente de adjudicación",
-      "expediente": "6012600143",
-      "publishedAt": "2026-09-01",
-      "updatedAt": "2026-09-01T13:19:14+02:00",
-      "deadline": "2026-06-03",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/soporte-mantenimiento-suscripciones-productos-knime",
-      "firstSeenAt": "2026-08-05T08:03:18.389Z",
-      "summary": "Id licitación: 6012600143;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 148000.00 EUR;",
-      "amount": 148000,
-      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-05/6012600143_pliego_de_prescripciones_tecnicas_signed.pdf"
     },
     {
       "id": "contratos:suministro-e-instalacion-canceladoras-apertura-portones-e-incremento-flujo",
@@ -19071,20 +19104,6 @@
       "updatedAt": "2025-09-02T09:42:00+02:00",
       "deadline": "2025-04-22",
       "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/obras-linea-alta-regularidad-linea-6-acondicionamiento-cuartos-tecnicos-metro",
-      "firstSeenAt": "2026-08-05T08:03:18.389Z"
-    },
-    {
-      "id": "contratos:servicio-asistencia-tecnica-obras-implantacion-ascensores-estaciones-tetuan-puente",
-      "source": "contratos",
-      "title": "Servicio de asistencia técnica para las obras de implantación de ascensores en las estaciones de Tetuán, Puente de Vallecas, Carabanchel, Campamento, Ciudad Lineal y Canillejas de las líneas 1 y 5 de Metro de Madrid e implantación de escaleras mecánicas en las estaciones de Prosperidad (línea 4), Estrella (línea 9) y San Blas (línea 7) de Metro de Madrid",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Convocatoria anunciada a licitación",
-      "status": "Resuelta / Finalizada",
-      "expediente": "6012500040",
-      "publishedAt": "2025-09-02",
-      "updatedAt": "2025-09-02T09:41:00+02:00",
-      "deadline": "2025-03-11",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-asistencia-tecnica-obras-implantacion-ascensores-estaciones-tetuan-puente",
       "firstSeenAt": "2026-08-05T08:03:18.389Z"
     },
     {
