@@ -1,32 +1,177 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-13T01:17:13.922Z",
+  "generatedAt": "2026-10-13T08:23:28.393Z",
   "coverage": {
-    "bocm": "2009-12-01 a 2026-10-09",
-    "contratos": "2017-02-02 a 2026-10-10",
+    "bocm": "2009-12-01 a 2026-10-13",
+    "contratos": "2017-02-02 a 2026-10-13",
     "empleo": "2016-10-31 a 2026-10-06"
   },
   "sources": {
     "bocm": {
-      "checkedAt": "2026-10-13T01:17:13.922Z",
+      "checkedAt": "2026-10-13T08:23:28.393Z",
       "ok": true,
-      "message": "11 registros relevantes comprobados",
-      "recordsSeen": 11
+      "message": "13 registros relevantes comprobados",
+      "recordsSeen": 13
     },
     "contratos": {
-      "checkedAt": "2026-10-13T01:17:13.922Z",
+      "checkedAt": "2026-10-13T08:23:28.393Z",
       "ok": true,
-      "message": "14 registros relevantes comprobados",
-      "recordsSeen": 14
+      "message": "12 registros relevantes comprobados",
+      "recordsSeen": 12
     },
     "empleo": {
-      "checkedAt": "2026-10-13T01:17:13.922Z",
+      "checkedAt": "2026-10-13T08:23:28.393Z",
       "ok": true,
       "message": "Consulta correcta, sin novedades relevantes",
       "recordsSeen": 0
     }
   },
   "items": [
+    {
+      "id": "contratos:servicio-desmantelamiento-cuatro-pasarelas-mantenimiento-talleres-centrales-metro",
+      "source": "contratos",
+      "title": "Servicio de desmantelamiento de las cuatro pasarelas de mantenimiento en los Talleres Centrales de Metro de Madrid",
+      "summary": "Id licitación: 6012600263;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 65150.00 EUR;",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "En plazo",
+      "status": "En plazo",
+      "expediente": "6012600263",
+      "amount": 65150,
+      "deadline": "2026-11-12",
+      "publishedAt": "2026-10-13",
+      "updatedAt": "2026-10-13T10:23:10+02:00",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-desmantelamiento-cuatro-pasarelas-mantenimiento-talleres-centrales-metro",
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-10/6012600263_pliego_de_prescripciones_tecnicas_signed.pdf",
+      "firstSeenAt": "2026-10-13T08:23:28.393Z"
+    },
+    {
+      "id": "contratos:instalacion-puesta-servicio-puestos-controladores-lineas-alta-regularidad-pclar-0",
+      "source": "contratos",
+      "title": "Instalación y puesta en servicio de los Puestos Controladores para Líneas de Alta Regularidad (PCLAR) en el Puesto de Control Central de Metro de Madrid",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Resuelta / Finalizada",
+      "status": "Resuelta / Finalizada",
+      "expediente": "6012500336",
+      "publishedAt": "2026-10-13",
+      "updatedAt": "2026-10-13T10:14:56+02:00",
+      "deadline": "2025-11-28",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/instalacion-puesta-servicio-puestos-controladores-lineas-alta-regularidad-pclar-0",
+      "firstSeenAt": "2026-08-05T08:03:18.389Z",
+      "summary": "Id licitación: 6012500336;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 371574.54 EUR;",
+      "amount": 371574.54,
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2025-11/6012500336_documento_ref._confidencialidad_signed.pdf"
+    },
+    {
+      "id": "contratos:suministro-renovacion-equipamiento-seguridad-energia-linea-aerea-metro-madrid",
+      "source": "contratos",
+      "title": "Suministro para la renovación de equipamiento de seguridad para energía y línea aérea, para Metro de Madrid",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Resuelta / Finalizada",
+      "status": "Resuelta / Finalizada",
+      "expediente": "6012600079",
+      "publishedAt": "2026-10-13",
+      "updatedAt": "2026-10-13T10:11:33+02:00",
+      "deadline": "2026-04-14",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/suministro-renovacion-equipamiento-seguridad-energia-linea-aerea-metro-madrid",
+      "firstSeenAt": "2026-08-05T08:03:18.389Z",
+      "summary": "Id licitación: 6012600079;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 432380.00 EUR;",
+      "amount": 432380,
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-03/6012600079_ppt_signed.pdf"
+    },
+    {
+      "id": "contratos:obras-construccion-ampliacion-red-metro-madrid-barrio-valdebebas-tramos-1-2",
+      "source": "contratos",
+      "title": "Obras de construcción de la ampliación de la red de Metro de Madrid al barrio de Valdebebas. Tramos 1 y 2.",
+      "summary": "Id licitación: A/OBR-013816/2026;Órgano de Contratación: Consejería de Vivienda, Transportes e Infraestructuras;Importe: 873292499.72 EUR;",
+      "issuer": "Consejería de Vivienda, Transportes e Infraestructuras",
+      "publicationType": "Pendiente de adjudicación",
+      "status": "Pendiente de adjudicación",
+      "expediente": "A/OBR-013816/2026",
+      "amount": 873292499.72,
+      "deadline": "2026-10-05",
+      "publishedAt": "2026-10-13",
+      "updatedAt": "2026-10-13T09:54:56+02:00",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/obras-construccion-ampliacion-red-metro-madrid-barrio-valdebebas-tramos-1-2",
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-07/obr.13816.2026_pcap_18.06.2026.pdf",
+      "firstSeenAt": "2026-08-14T13:59:16.760Z"
+    },
+    {
+      "id": "contratos:servicios-transporte",
+      "source": "contratos",
+      "title": "Servicios de transporte",
+      "summary": "Id licitación: 6012600264;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 1987137.50 EUR;",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "En plazo",
+      "status": "En plazo",
+      "expediente": "6012600264",
+      "amount": 1987137.5,
+      "deadline": "2026-11-10",
+      "publishedAt": "2026-10-13",
+      "updatedAt": "2026-10-13T09:14:07+02:00",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicios-transporte",
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-10/6012600264_ppt_signed.pdf",
+      "firstSeenAt": "2026-10-13T08:23:28.393Z"
+    },
+    {
+      "id": "contratos:servicio-revision-reacondicionamiento-rodamientos-compactos-tbu-ctbu-0",
+      "source": "contratos",
+      "title": "Servicio de revisión y reacondicionamiento de rodamientos compactos TBU y CTBU.",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Resuelta / Finalizada",
+      "status": "Resuelta / Finalizada",
+      "expediente": "6012500242",
+      "publishedAt": "2026-10-13",
+      "updatedAt": "2026-10-13T09:12:44+02:00",
+      "deadline": "2025-10-01",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-revision-reacondicionamiento-rodamientos-compactos-tbu-ctbu-0",
+      "firstSeenAt": "2026-08-05T08:03:18.389Z",
+      "summary": "Id licitación: 6012500242;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 1361259.60 EUR;",
+      "amount": 1361259.6,
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2025-08/6012500242_ppt_signed.pdf"
+    },
+    {
+      "id": "contratos:suministro-e-instalacion-soluciones-comunicacion-satelital",
+      "source": "contratos",
+      "title": "Suministro e instalación de soluciones de comunicación satelital",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Pendiente de adjudicación",
+      "status": "Pendiente de adjudicación",
+      "expediente": "6012600132",
+      "publishedAt": "2026-10-13",
+      "updatedAt": "2026-10-13T08:16:30+02:00",
+      "deadline": "2026-06-16",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/suministro-e-instalacion-soluciones-comunicacion-satelital",
+      "firstSeenAt": "2026-08-05T08:03:18.389Z",
+      "summary": "Id licitación: 6012600132;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 1214041.24 EUR;",
+      "amount": 1214041.24,
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-05/6012600132_ppt_y_anexo_confidencial_signed.pdf"
+    },
+    {
+      "id": "bocm:bocm-20261013-33",
+      "source": "bocm",
+      "title": "Formalización contrato– Anuncio de 1 de octubre de 2026, de formalización del contrato titulado “Suministro de plataformas elevadoras móviles de tijera y articuladas para Metro de Madrid” (expediente 6012500119) (contratos: lote 1 - 7726000156 y lote 2 - 7726000157)",
+      "summary": "Formalización contrato– Anuncio de 1 de octubre de 2026, de formalización del contrato titulado “Suministro de plataformas elevadoras móviles de tijera y articuladas para Metro de Madrid” (expediente 6012500119) (contratos: lote 1 - 7726000156 y lote 2 - 7726000157)",
+      "issuer": "CONSEJERÍA DE VIVIENDA, TRANSPORTES E INFRAESTRUCTURAS · METRO DE MADRID, S. A.",
+      "publicationType": "Formalización contrato",
+      "publishedAt": "2026-10-13",
+      "url": "https://www.bocm.es/bocm-20261013-33",
+      "pdfUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/10/13/BOCM-20261013-33.PDF",
+      "xmlUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/10/13/BOCM-20261013-33.xml?language=es",
+      "firstSeenAt": "2026-10-13T08:23:28.393Z"
+    },
+    {
+      "id": "bocm:bocm-20261013-34",
+      "source": "bocm",
+      "title": "Formalización contrato– Anuncio de 1 de octubre de 2026, de formalización del contrato titulado “Suministro para la renovación de equipamiento de seguridad para energía y línea aérea, para Metro de Madrid”. (Expediente 6012600079) - [Contratos 7726000153 (lote 1), 7726000154 (lote 3) y 7726000155 (lote 4)]",
+      "summary": "Formalización contrato– Anuncio de 1 de octubre de 2026, de formalización del contrato titulado “Suministro para la renovación de equipamiento de seguridad para energía y línea aérea, para Metro de Madrid”. (Expediente 6012600079) - [Contratos 7726000153 (lote 1), 7726000154 (lote 3) y 7726000155 (lote 4)]",
+      "issuer": "CONSEJERÍA DE VIVIENDA, TRANSPORTES E INFRAESTRUCTURAS · METRO DE MADRID, S. A.",
+      "publicationType": "Formalización contrato",
+      "publishedAt": "2026-10-13",
+      "url": "https://www.bocm.es/bocm-20261013-34",
+      "pdfUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/10/13/BOCM-20261013-34.PDF",
+      "xmlUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/10/13/BOCM-20261013-34.xml?language=es",
+      "firstSeenAt": "2026-10-13T08:23:28.393Z"
+    },
     {
       "id": "contratos:servicio-mantenimiento-preventivo-correctivo-vehiculos-industriales-propiedad-0",
       "source": "contratos",
@@ -817,23 +962,6 @@
       "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-reacondicionamiento-instalacion-puerta-deslizante-cancela-5-estacion",
       "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-10/6012600260_ppt_signed.pdf",
       "firstSeenAt": "2026-10-06T09:23:04.400Z"
-    },
-    {
-      "id": "contratos:obras-construccion-ampliacion-red-metro-madrid-barrio-valdebebas-tramos-1-2",
-      "source": "contratos",
-      "title": "Obras de construcción de la ampliación de la red de Metro de Madrid al barrio de Valdebebas. Tramos 1 y 2.",
-      "summary": "Id licitación: A/OBR-013816/2026;Órgano de Contratación: Consejería de Vivienda, Transportes e Infraestructuras;Importe: 873292499.72 EUR;",
-      "issuer": "Consejería de Vivienda, Transportes e Infraestructuras",
-      "publicationType": "Pendiente de adjudicación",
-      "status": "Pendiente de adjudicación",
-      "expediente": "A/OBR-013816/2026",
-      "amount": 873292499.72,
-      "deadline": "2026-10-05",
-      "publishedAt": "2026-10-06",
-      "updatedAt": "2026-10-06T00:19:17+02:00",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/obras-construccion-ampliacion-red-metro-madrid-barrio-valdebebas-tramos-1-2",
-      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-07/obr.13816.2026_pcap_18.06.2026.pdf",
-      "firstSeenAt": "2026-08-14T13:59:16.760Z"
     },
     {
       "id": "bocm:bocm-20261006-4",
@@ -1854,23 +1982,6 @@
       "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/suministro-valvulas-aspiracion-e-impulsion-compresores-aire-comprimido-material",
       "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-08/6012600229_ppt_signed.pdf",
       "firstSeenAt": "2026-08-21T05:08:16.465Z"
-    },
-    {
-      "id": "contratos:suministro-e-instalacion-soluciones-comunicacion-satelital",
-      "source": "contratos",
-      "title": "Suministro e instalación de soluciones de comunicación satelital",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Pendiente de adjudicación",
-      "status": "Pendiente de adjudicación",
-      "expediente": "6012600132",
-      "publishedAt": "2026-10-01",
-      "updatedAt": "2026-10-01T11:11:25+02:00",
-      "deadline": "2026-06-16",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/suministro-e-instalacion-soluciones-comunicacion-satelital",
-      "firstSeenAt": "2026-08-05T08:03:18.389Z",
-      "summary": "Id licitación: 6012600132;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 1214041.24 EUR;",
-      "amount": 1214041.24,
-      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-05/6012600132_ppt_y_anexo_confidencial_signed.pdf"
     },
     {
       "id": "contratos:cesion-temporal-uso-espacios-instalacion-explotacion-sistemas-led-publicidad",
@@ -3345,23 +3456,6 @@
       "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicios-direccion-obras-coordinacion-seguridad-salud-asistencia-tecnica-obras-0",
       "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2022-05/ser.1735.2022_ppt_21.04.2022_an_4.pdf",
       "firstSeenAt": "2026-09-07T09:40:08.024Z"
-    },
-    {
-      "id": "contratos:suministro-renovacion-equipamiento-seguridad-energia-linea-aerea-metro-madrid",
-      "source": "contratos",
-      "title": "Suministro para la renovación de equipamiento de seguridad para energía y línea aérea, para Metro de Madrid",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Adjudicada",
-      "status": "Adjudicada",
-      "expediente": "6012600079",
-      "publishedAt": "2026-09-07",
-      "updatedAt": "2026-09-07T09:46:04+02:00",
-      "deadline": "2026-04-14",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/suministro-renovacion-equipamiento-seguridad-energia-linea-aerea-metro-madrid",
-      "firstSeenAt": "2026-08-05T08:03:18.389Z",
-      "summary": "Id licitación: 6012600079;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 432380.00 EUR;",
-      "amount": 432380,
-      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-03/6012600079_ppt_signed.pdf"
     },
     {
       "id": "contratos:servicio-revision-lineas-vida-horizontales-verticales-escaleras-verticales-linea-1",
@@ -5261,20 +5355,6 @@
         "I. COMUNIDAD DE MADRID · D) Anuncios"
       ],
       "firstSeenAt": "2026-08-05T07:48:11.952Z"
-    },
-    {
-      "id": "contratos:servicio-revision-reacondicionamiento-rodamientos-compactos-tbu-ctbu-0",
-      "source": "contratos",
-      "title": "Servicio de revisión y reacondicionamiento de rodamientos compactos TBU y CTBU.",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Convocatoria anunciada a licitación",
-      "status": "Adjudicada",
-      "expediente": "6012500242",
-      "publishedAt": "2026-07-20",
-      "updatedAt": "2026-07-20T09:16:00+02:00",
-      "deadline": "2025-10-01",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-revision-reacondicionamiento-rodamientos-compactos-tbu-ctbu-0",
-      "firstSeenAt": "2026-08-05T08:03:18.389Z"
     },
     {
       "id": "contratos:suministro-consumibles-informaticos-oficinas-ttp-metro-madrid",
@@ -13821,20 +13901,6 @@
       "url": "https://www.bocm.es/bocm-20260213-27",
       "pdfUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/02/13/BOCM-20260213-27.PDF",
       "xmlUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/02/13/BOCM-20260213-27.xml?language=es",
-      "firstSeenAt": "2026-08-05T08:03:18.389Z"
-    },
-    {
-      "id": "contratos:instalacion-puesta-servicio-puestos-controladores-lineas-alta-regularidad-pclar-0",
-      "source": "contratos",
-      "title": "Instalación y puesta en servicio de los Puestos Controladores para Líneas de Alta Regularidad (PCLAR) en el Puesto de Control Central de Metro de Madrid",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Convocatoria anunciada a licitación",
-      "status": "Resuelta / Finalizada",
-      "expediente": "6012500336",
-      "publishedAt": "2026-02-12",
-      "updatedAt": "2026-02-12T10:07:00+02:00",
-      "deadline": "2025-11-28",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/instalacion-puesta-servicio-puestos-controladores-lineas-alta-regularidad-pclar-0",
       "firstSeenAt": "2026-08-05T08:03:18.389Z"
     },
     {
