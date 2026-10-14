@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-14T10:33:57.662Z",
+  "generatedAt": "2026-10-14T15:27:07.877Z",
   "coverage": {
     "bocm": "2009-12-01 a 2026-10-13",
     "contratos": "2017-02-02 a 2026-10-14",
@@ -8,25 +8,42 @@
   },
   "sources": {
     "bocm": {
-      "checkedAt": "2026-10-14T10:33:57.662Z",
-      "ok": true,
-      "message": "11 registros relevantes comprobados; 11 documento(s) omitido(s) temporalmente",
-      "recordsSeen": 11
-    },
-    "contratos": {
-      "checkedAt": "2026-10-14T10:33:57.662Z",
+      "checkedAt": "2026-10-14T15:27:07.877Z",
       "ok": true,
       "message": "11 registros relevantes comprobados",
       "recordsSeen": 11
     },
+    "contratos": {
+      "checkedAt": "2026-10-14T15:27:07.877Z",
+      "ok": true,
+      "message": "9 registros relevantes comprobados",
+      "recordsSeen": 9
+    },
     "empleo": {
-      "checkedAt": "2026-10-14T10:33:57.662Z",
+      "checkedAt": "2026-10-14T15:27:07.877Z",
       "ok": true,
       "message": "Consulta correcta, sin novedades relevantes",
       "recordsSeen": 0
     }
   },
   "items": [
+    {
+      "id": "contratos:servicio-polizas-seguros-responsabilidad-civil-profesional-metro-madrid-2027-2028",
+      "source": "contratos",
+      "title": "Servicio de pólizas de seguros de Responsabilidad Civil Profesional de Metro de Madrid 2027-2028",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Pendiente de adjudicación",
+      "status": "Pendiente de adjudicación",
+      "expediente": "6012600185",
+      "publishedAt": "2026-10-14",
+      "updatedAt": "2026-10-14T12:38:15+02:00",
+      "deadline": "2026-09-25",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-polizas-seguros-responsabilidad-civil-profesional-metro-madrid-2027-2028",
+      "firstSeenAt": "2026-08-05T08:03:18.389Z",
+      "summary": "Id licitación: 6012600185;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 396177.09 EUR;",
+      "amount": 396177.09,
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-06/6012600185_pliego_de_prescripciones_tecnicas_signed.pdf"
+    },
     {
       "id": "contratos:servicio-transporte-autobus-viajeros-afectados-suspensiones-servicio-no-6",
       "source": "contratos",
@@ -128,23 +145,6 @@
       "summary": "Id licitación: 6012500119;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 550000.00 EUR;",
       "amount": 550000,
       "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2025-04/6012500119_ppt_signed.pdf"
-    },
-    {
-      "id": "contratos:servicio-polizas-seguros-responsabilidad-civil-profesional-metro-madrid-2027-2028",
-      "source": "contratos",
-      "title": "Servicio de pólizas de seguros de Responsabilidad Civil Profesional de Metro de Madrid 2027-2028",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Pendiente de adjudicación",
-      "status": "Pendiente de adjudicación",
-      "expediente": "6012600185",
-      "publishedAt": "2026-10-14",
-      "updatedAt": "2026-10-14T09:17:33+02:00",
-      "deadline": "2026-09-25",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-polizas-seguros-responsabilidad-civil-profesional-metro-madrid-2027-2028",
-      "firstSeenAt": "2026-08-05T08:03:18.389Z",
-      "summary": "Id licitación: 6012600185;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 396177.09 EUR;",
-      "amount": 396177.09,
-      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-06/6012600185_pliego_de_prescripciones_tecnicas_signed.pdf"
     },
     {
       "id": "contratos:servicio-redaccion-proyecto-construccion-nueva-estacion-linea-9-metro-desarrollos",
