@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-14T00:35:03.160Z",
+  "generatedAt": "2026-10-14T05:21:49.664Z",
   "coverage": {
     "bocm": "2009-12-01 a 2026-10-13",
     "contratos": "2017-02-02 a 2026-10-14",
@@ -8,25 +8,42 @@
   },
   "sources": {
     "bocm": {
-      "checkedAt": "2026-10-14T00:35:03.160Z",
+      "checkedAt": "2026-10-14T05:21:49.664Z",
       "ok": true,
       "message": "13 registros relevantes comprobados",
       "recordsSeen": 13
     },
     "contratos": {
-      "checkedAt": "2026-10-14T00:35:03.160Z",
+      "checkedAt": "2026-10-14T05:21:49.664Z",
       "ok": true,
       "message": "8 registros relevantes comprobados",
       "recordsSeen": 8
     },
     "empleo": {
-      "checkedAt": "2026-10-14T00:35:03.160Z",
+      "checkedAt": "2026-10-14T05:21:49.664Z",
       "ok": true,
       "message": "Consulta correcta, sin novedades relevantes",
       "recordsSeen": 0
     }
   },
   "items": [
+    {
+      "id": "contratos:servicio-asistencia-tecnica-obras-implantacion-ascensores-estaciones-tetuan-puente",
+      "source": "contratos",
+      "title": "Servicio de asistencia técnica para las obras de implantación de ascensores en las estaciones de Tetuán, Puente de Vallecas, Carabanchel, Campamento, Ciudad Lineal y Canillejas de las líneas 1 y 5 de Metro de Madrid e implantación de escaleras mecánicas en las estaciones de Prosperidad (línea 4), Estrella (línea 9) y San Blas (línea 7) de Metro de Madrid",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Resuelta / Finalizada",
+      "status": "Resuelta / Finalizada",
+      "expediente": "6012500040",
+      "publishedAt": "2026-10-14",
+      "updatedAt": "2026-10-14T07:17:58+02:00",
+      "deadline": "2025-03-11",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-asistencia-tecnica-obras-implantacion-ascensores-estaciones-tetuan-puente",
+      "firstSeenAt": "2026-08-05T08:03:18.389Z",
+      "summary": "Id licitación: 6012500040;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 1154782.07 EUR;",
+      "amount": 1154782.07,
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2025-02/6012500040_referencia_al_pliego_de_prescripciones_tecnicas_signed.pdf"
+    },
     {
       "id": "contratos:acuerdo-marco-obras-instalaciones-electricas-baja-tension-proyectos-operativos",
       "source": "contratos",
@@ -60,23 +77,6 @@
       "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/suministro-suscripcion-licencias-asignacion-control-permisos-usuarios",
       "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-09/6012600251_ppt_confidencial_signed.pdf",
       "firstSeenAt": "2026-09-24T06:06:48.840Z"
-    },
-    {
-      "id": "contratos:servicio-asistencia-tecnica-obras-implantacion-ascensores-estaciones-tetuan-puente",
-      "source": "contratos",
-      "title": "Servicio de asistencia técnica para las obras de implantación de ascensores en las estaciones de Tetuán, Puente de Vallecas, Carabanchel, Campamento, Ciudad Lineal y Canillejas de las líneas 1 y 5 de Metro de Madrid e implantación de escaleras mecánicas en las estaciones de Prosperidad (línea 4), Estrella (línea 9) y San Blas (línea 7) de Metro de Madrid",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Resuelta / Finalizada",
-      "status": "Resuelta / Finalizada",
-      "expediente": "6012500040",
-      "publishedAt": "2026-10-13",
-      "updatedAt": "2026-10-13T15:30:13+02:00",
-      "deadline": "2025-03-11",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-asistencia-tecnica-obras-implantacion-ascensores-estaciones-tetuan-puente",
-      "firstSeenAt": "2026-08-05T08:03:18.389Z",
-      "summary": "Id licitación: 6012500040;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 1154782.07 EUR;",
-      "amount": 1154782.07,
-      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2025-02/6012500040_referencia_al_pliego_de_prescripciones_tecnicas_signed.pdf"
     },
     {
       "id": "contratos:acuerdo-marco-suministro-repuestos-valvuleria-otros-elementos-medicion-control",
