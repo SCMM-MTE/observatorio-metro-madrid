@@ -1,32 +1,66 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-13T21:30:45.723Z",
+  "generatedAt": "2026-10-14T00:35:03.160Z",
   "coverage": {
     "bocm": "2009-12-01 a 2026-10-13",
-    "contratos": "2017-02-02 a 2026-10-13",
+    "contratos": "2017-02-02 a 2026-10-14",
     "empleo": "2016-10-31 a 2026-10-06"
   },
   "sources": {
     "bocm": {
-      "checkedAt": "2026-10-13T21:30:45.723Z",
+      "checkedAt": "2026-10-14T00:35:03.160Z",
       "ok": true,
       "message": "13 registros relevantes comprobados",
       "recordsSeen": 13
     },
     "contratos": {
-      "checkedAt": "2026-10-13T21:30:45.723Z",
+      "checkedAt": "2026-10-14T00:35:03.160Z",
       "ok": true,
-      "message": "10 registros relevantes comprobados",
-      "recordsSeen": 10
+      "message": "8 registros relevantes comprobados",
+      "recordsSeen": 8
     },
     "empleo": {
-      "checkedAt": "2026-10-13T21:30:45.723Z",
+      "checkedAt": "2026-10-14T00:35:03.160Z",
       "ok": true,
       "message": "Consulta correcta, sin novedades relevantes",
       "recordsSeen": 0
     }
   },
   "items": [
+    {
+      "id": "contratos:acuerdo-marco-obras-instalaciones-electricas-baja-tension-proyectos-operativos",
+      "source": "contratos",
+      "title": "Acuerdo marco para obras de instalaciones eléctricas de baja tensión para proyectos operativos y logísticos de Metro de Madrid.",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Pendiente de adjudicación",
+      "status": "Pendiente de adjudicación",
+      "expediente": "6012600243",
+      "publishedAt": "2026-10-14",
+      "updatedAt": "2026-10-14T00:20:17+02:00",
+      "deadline": "2026-10-13",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/acuerdo-marco-obras-instalaciones-electricas-baja-tension-proyectos-operativos",
+      "firstSeenAt": "2026-09-07T09:40:08.024Z",
+      "summary": "Id licitación: 6012600243;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 460000.00 EUR;",
+      "amount": 460000,
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-09/6012600243_ppt_signed.pdf"
+    },
+    {
+      "id": "contratos:suministro-suscripcion-licencias-asignacion-control-permisos-usuarios",
+      "source": "contratos",
+      "title": "Suministro de suscripción de las licencias para asignación y control de permisos de los usuarios",
+      "summary": "Id licitación: 6012600251;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 24725.25 EUR;",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Pendiente de adjudicación",
+      "status": "Pendiente de adjudicación",
+      "expediente": "6012600251",
+      "amount": 24725.25,
+      "deadline": "2026-10-13",
+      "publishedAt": "2026-10-14",
+      "updatedAt": "2026-10-14T00:20:17+02:00",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/suministro-suscripcion-licencias-asignacion-control-permisos-usuarios",
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-09/6012600251_ppt_confidencial_signed.pdf",
+      "firstSeenAt": "2026-09-24T06:06:48.840Z"
+    },
     {
       "id": "contratos:servicio-asistencia-tecnica-obras-implantacion-ascensores-estaciones-tetuan-puente",
       "source": "contratos",
@@ -1788,23 +1822,6 @@
       "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2023-11/6012300344_ppt_signed.pdf"
     },
     {
-      "id": "contratos:acuerdo-marco-obras-instalaciones-electricas-baja-tension-proyectos-operativos",
-      "source": "contratos",
-      "title": "Acuerdo marco para obras de instalaciones eléctricas de baja tensión para proyectos operativos y logísticos de Metro de Madrid.",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "En plazo",
-      "status": "En plazo",
-      "expediente": "6012600243",
-      "publishedAt": "2026-10-02",
-      "updatedAt": "2026-10-02T12:15:14+02:00",
-      "deadline": "2026-10-13",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/acuerdo-marco-obras-instalaciones-electricas-baja-tension-proyectos-operativos",
-      "firstSeenAt": "2026-09-07T09:40:08.024Z",
-      "summary": "Id licitación: 6012600243;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 460000.00 EUR;",
-      "amount": 460000,
-      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-09/6012600243_ppt_signed.pdf"
-    },
-    {
       "id": "contratos:acuerdo-marco-suministro-rodamientos-mantenimiento-instalaciones-material-movil",
       "source": "contratos",
       "title": "Acuerdo marco para el suministro de rodamientos para el mantenimiento de las instalaciones y el material móvil de Metro Madrid",
@@ -2572,23 +2589,6 @@
       "deadline": "2026-09-08",
       "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/suministro-cajas-billeteros-instalaciones-venta-peaje-metro-madrid",
       "firstSeenAt": "2026-08-05T08:03:18.389Z"
-    },
-    {
-      "id": "contratos:suministro-suscripcion-licencias-asignacion-control-permisos-usuarios",
-      "source": "contratos",
-      "title": "Suministro de suscripción de las licencias para asignación y control de permisos de los usuarios",
-      "summary": "Id licitación: 6012600251;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 24725.25 EUR;",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Convocatoria anunciada a licitación",
-      "status": "En plazo",
-      "expediente": "6012600251",
-      "amount": 24725.25,
-      "deadline": "2026-10-13",
-      "publishedAt": "2026-09-24",
-      "updatedAt": "2026-09-24T08:00:00+02:00",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/suministro-suscripcion-licencias-asignacion-control-permisos-usuarios",
-      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-09/6012600251_ppt_confidencial_signed.pdf",
-      "firstSeenAt": "2026-09-24T06:06:48.840Z"
     },
     {
       "id": "contratos:suministro-medidores-perfil-rueda-ferroviaria-medidores-diametros-rueda",
