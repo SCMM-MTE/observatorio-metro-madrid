@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-15T07:20:55.302Z",
+  "generatedAt": "2026-10-15T12:50:09.726Z",
   "coverage": {
     "bocm": "2009-12-01 a 2026-10-13",
     "contratos": "2017-02-02 a 2026-10-15",
@@ -8,25 +8,126 @@
   },
   "sources": {
     "bocm": {
-      "checkedAt": "2026-10-15T07:20:55.302Z",
+      "checkedAt": "2026-10-15T12:50:09.726Z",
       "ok": true,
-      "message": "10 registros relevantes comprobados",
+      "message": "10 registros relevantes comprobados; 10 documento(s) omitido(s) temporalmente",
       "recordsSeen": 10
     },
     "contratos": {
-      "checkedAt": "2026-10-15T07:20:55.302Z",
+      "checkedAt": "2026-10-15T12:50:09.726Z",
       "ok": true,
-      "message": "10 registros relevantes comprobados",
-      "recordsSeen": 10
+      "message": "6 registros relevantes comprobados",
+      "recordsSeen": 6
     },
     "empleo": {
-      "checkedAt": "2026-10-15T07:20:55.302Z",
+      "checkedAt": "2026-10-15T12:50:09.726Z",
       "ok": true,
       "message": "Consulta correcta, sin novedades relevantes",
       "recordsSeen": 0
     }
   },
   "items": [
+    {
+      "id": "contratos:servicio-mantenimiento-plataforma-efficient-ip-gestion-direccionamiento-ip-1",
+      "source": "contratos",
+      "title": "Servicio de mantenimiento de la plataforma Efficient-IP para gestión del direccionamiento IP y servicios de red en Metro de Madrid",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Pendiente de adjudicación",
+      "status": "Pendiente de adjudicación",
+      "expediente": "6012600199",
+      "publishedAt": "2026-10-15",
+      "updatedAt": "2026-10-15T12:51:29+02:00",
+      "deadline": "2026-09-22",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-mantenimiento-plataforma-efficient-ip-gestion-direccionamiento-ip-1",
+      "firstSeenAt": "2026-08-05T08:03:18.389Z",
+      "summary": "Id licitación: 6012600199;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 437500.00 EUR;",
+      "amount": 437500,
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-07/6012600199_ppt_y_anexo_confidencial_signed.pdf"
+    },
+    {
+      "id": "contratos:suministro-lunas-frontales-cabina-mantenimiento-trenes-material-movil-metro-madrid",
+      "source": "contratos",
+      "title": "Suministro de lunas frontales de cabina para el mantenimiento de los trenes del material móvil de Metro de Madrid",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Resuelta / Finalizada",
+      "status": "Resuelta / Finalizada",
+      "expediente": "6012400137",
+      "publishedAt": "2026-10-15",
+      "updatedAt": "2026-10-15T12:45:31+02:00",
+      "deadline": "2024-05-17",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/suministro-lunas-frontales-cabina-mantenimiento-trenes-material-movil-metro-madrid",
+      "firstSeenAt": "2026-08-05T08:03:18.389Z",
+      "summary": "Id licitación: 6012400137;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 300000.00 EUR;",
+      "amount": 300000,
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2024-04/6012400137_ppt_signed.pdf"
+    },
+    {
+      "id": "contratos:servicio-soporte-mantenimiento-entorno-almacenamiento-backup-dell-emc",
+      "source": "contratos",
+      "title": "Servicio de soporte y mantenimiento del entorno de almacenamiento y backup DELL EMC",
+      "summary": "Id licitación: 6012600187;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 5888853.00 EUR;",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Pendiente de adjudicación",
+      "status": "Pendiente de adjudicación",
+      "expediente": "6012600187",
+      "amount": 5888853,
+      "deadline": "2026-08-18",
+      "publishedAt": "2026-10-15",
+      "updatedAt": "2026-10-15T12:39:13+02:00",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-soporte-mantenimiento-entorno-almacenamiento-backup-dell-emc",
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-06/6012600187_referencia_al_pliego_de_prescripciones_tecnicas_signed.pdf",
+      "firstSeenAt": "2026-08-05T07:48:11.952Z"
+    },
+    {
+      "id": "contratos:obras-ejecucion-instalaciones-ampliacion-linea-11-metro-madrid-tramo-plaza",
+      "source": "contratos",
+      "title": "Obras de ejecución de instalaciones para la ampliación de la línea 11 de Metro de Madrid. Tramo: Plaza Elíptica-Conde de Casal",
+      "summary": "Id licitación: A/OBR-031770/2025;Órgano de Contratación: Consejería de Vivienda, Transportes e Infraestructuras;Importe: 122095189.14 EUR;",
+      "issuer": "Consejería de Vivienda, Transportes e Infraestructuras",
+      "publicationType": "Resuelta / Finalizada",
+      "status": "Resuelta / Finalizada",
+      "expediente": "A/OBR-031770/2025",
+      "amount": 122095189.14,
+      "deadline": "2026-02-18",
+      "publishedAt": "2026-10-15",
+      "updatedAt": "2026-10-15T12:30:52+02:00",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/obras-ejecucion-instalaciones-ampliacion-linea-11-metro-madrid-tramo-plaza",
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2025-12/obr.31770.2025._pcap.17.11.2025.an.pdf",
+      "firstSeenAt": "2026-10-15T12:50:09.726Z"
+    },
+    {
+      "id": "contratos:suministro-mantenimiento-licencias-base-datos-oracle-productos-sap",
+      "source": "contratos",
+      "title": "Suministro para el mantenimiento de licencias de base de datos Oracle para productos SAP",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Adjudicada",
+      "status": "Adjudicada",
+      "expediente": "6012600215",
+      "publishedAt": "2026-10-15",
+      "updatedAt": "2026-10-15T10:21:39+02:00",
+      "deadline": "2026-09-02",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/suministro-mantenimiento-licencias-base-datos-oracle-productos-sap",
+      "firstSeenAt": "2026-08-17T11:00:02.754Z",
+      "summary": "Id licitación: 6012600215;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 336000.00 EUR;",
+      "amount": 336000,
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-08/6012600215_pliego_de_prescripciones_tecnicas_signed.pdf"
+    },
+    {
+      "id": "contratos:acuerdo-marco-suministro-repuestos-exclusivos-fabricante-sepsamedha-slu-0",
+      "source": "contratos",
+      "title": "Acuerdo marco para el suministro de repuestos exclusivos del fabricante Sepsamedha S.L.U. para el mantenimiento de los trenes del material móvil de Metro de Madrid, S.A.",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Resuelta / Finalizada",
+      "status": "Resuelta / Finalizada",
+      "expediente": "6012600205",
+      "publishedAt": "2026-10-15",
+      "updatedAt": "2026-10-15T10:20:26+02:00",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/acuerdo-marco-suministro-repuestos-exclusivos-fabricante-sepsamedha-slu-0",
+      "firstSeenAt": "2026-09-18T11:06:38.633Z",
+      "summary": "Id licitación: 6012600205;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 120000.00 EUR;",
+      "amount": 120000,
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-09/6012600205_ppt.pdf"
+    },
     {
       "id": "contratos:servicio-revisiones-normativa-equipos-accesorios-elevacion-cargas-metro-madrid",
       "source": "contratos",
@@ -527,23 +628,6 @@
       "summary": "Id licitación: 6012600013;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 587235.18 EUR;",
       "amount": 587235.18,
       "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-01/6012600013_ppt_signed.pdf"
-    },
-    {
-      "id": "contratos:suministro-lunas-frontales-cabina-mantenimiento-trenes-material-movil-metro-madrid",
-      "source": "contratos",
-      "title": "Suministro de lunas frontales de cabina para el mantenimiento de los trenes del material móvil de Metro de Madrid",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Resuelta / Finalizada",
-      "status": "Resuelta / Finalizada",
-      "expediente": "6012400137",
-      "publishedAt": "2026-10-09",
-      "updatedAt": "2026-10-09T13:08:32+02:00",
-      "deadline": "2024-05-17",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/suministro-lunas-frontales-cabina-mantenimiento-trenes-material-movil-metro-madrid",
-      "firstSeenAt": "2026-08-05T08:03:18.389Z",
-      "summary": "Id licitación: 6012400137;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 300000.00 EUR;",
-      "amount": 300000,
-      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2024-04/6012400137_ppt_signed.pdf"
     },
     {
       "id": "contratos:servicio-poliza-seguro-responsabilidad-civil-administradores-directivos-rc-do-2027",
@@ -2543,23 +2627,6 @@
       "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-09/6012600237_pliego_de_prescripciones_tecnicas_signed.pdf"
     },
     {
-      "id": "contratos:servicio-mantenimiento-plataforma-efficient-ip-gestion-direccionamiento-ip-1",
-      "source": "contratos",
-      "title": "Servicio de mantenimiento de la plataforma Efficient-IP para gestión del direccionamiento IP y servicios de red en Metro de Madrid",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Pendiente de adjudicación",
-      "status": "Pendiente de adjudicación",
-      "expediente": "6012600199",
-      "publishedAt": "2026-09-28",
-      "updatedAt": "2026-09-28T09:30:46+02:00",
-      "deadline": "2026-09-22",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-mantenimiento-plataforma-efficient-ip-gestion-direccionamiento-ip-1",
-      "firstSeenAt": "2026-08-05T08:03:18.389Z",
-      "summary": "Id licitación: 6012600199;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 437500.00 EUR;",
-      "amount": 437500,
-      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-07/6012600199_ppt_y_anexo_confidencial_signed.pdf"
-    },
-    {
       "id": "contratos:suministro-sistemas-fijacion-via-placa-fijacion-directa-tecnologia-adherizada-alta",
       "source": "contratos",
       "title": "Suministro de sistemas de fijación de vía en placa con fijación directa de tecnología adherizada de alta atenuación para Metro de Madrid",
@@ -2814,20 +2881,6 @@
       "summary": "Id licitación: 6012600112;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 720105.94 EUR;",
       "amount": 720105.94,
       "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-04/6012600112_ppt_signed.pdf"
-    },
-    {
-      "id": "contratos:suministro-mantenimiento-licencias-base-datos-oracle-productos-sap",
-      "source": "contratos",
-      "title": "Suministro para el mantenimiento de licencias de base de datos Oracle para productos SAP",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Convocatoria anunciada a licitación",
-      "status": "Pendiente de adjudicación",
-      "expediente": "6012600215",
-      "publishedAt": "2026-09-23",
-      "updatedAt": "2026-09-23T09:15:00+02:00",
-      "deadline": "2026-09-02",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/suministro-mantenimiento-licencias-base-datos-oracle-productos-sap",
-      "firstSeenAt": "2026-08-17T11:00:02.754Z"
     },
     {
       "id": "bocm:bocm-20260923-47",
@@ -3096,19 +3149,6 @@
       "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2025-06/6012500158_pliego_de_prescripciones_tecnicas_signed.pdf"
     },
     {
-      "id": "contratos:acuerdo-marco-suministro-repuestos-exclusivos-fabricante-sepsamedha-slu-0",
-      "source": "contratos",
-      "title": "Acuerdo marco para el suministro de repuestos exclusivos del fabricante Sepsamedha S.L.U. para el mantenimiento de los trenes del material móvil de Metro de Madrid, S.A.",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Contratos adjudicados por procedimientos sin publicidad",
-      "status": "Adjudicada",
-      "expediente": "6012600205",
-      "publishedAt": "2026-09-18",
-      "updatedAt": "2026-09-18T08:17:00+02:00",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/acuerdo-marco-suministro-repuestos-exclusivos-fabricante-sepsamedha-slu-0",
-      "firstSeenAt": "2026-09-18T11:06:38.633Z"
-    },
-    {
       "id": "contratos:servicio-telematica-vehiculos-automoviles-metro-madrid-0",
       "source": "contratos",
       "title": "Servicio de telemática de vehículos automóviles de Metro de Madrid",
@@ -3253,23 +3293,6 @@
       "summary": "Id licitación: 6012600021;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 600000.00 EUR;",
       "amount": 600000,
       "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-01/6012600021_pliego_de_prescripciones_tecnicas_signed.pdf"
-    },
-    {
-      "id": "contratos:servicio-soporte-mantenimiento-entorno-almacenamiento-backup-dell-emc",
-      "source": "contratos",
-      "title": "Servicio de soporte y mantenimiento del entorno de almacenamiento y backup DELL EMC",
-      "summary": "Id licitación: 6012600187;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 5888853.00 EUR;",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Convocatoria anunciada a licitación",
-      "status": "Pendiente de adjudicación",
-      "expediente": "6012600187",
-      "amount": 5888853,
-      "deadline": "2026-08-18",
-      "publishedAt": "2026-09-15",
-      "updatedAt": "2026-09-15T10:06:00+02:00",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-soporte-mantenimiento-entorno-almacenamiento-backup-dell-emc",
-      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-06/6012600187_referencia_al_pliego_de_prescripciones_tecnicas_signed.pdf",
-      "firstSeenAt": "2026-08-05T07:48:11.952Z"
     },
     {
       "id": "contratos:suministro-instalacion-sistemas-seguridad-acceso-vehicular-accesos-peatonales-0",
