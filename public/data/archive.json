@@ -1,32 +1,117 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-15T01:47:17.479Z",
+  "generatedAt": "2026-10-15T07:20:55.302Z",
   "coverage": {
     "bocm": "2009-12-01 a 2026-10-13",
-    "contratos": "2017-02-02 a 2026-10-14",
+    "contratos": "2017-02-02 a 2026-10-15",
     "empleo": "2016-10-31 a 2026-10-06"
   },
   "sources": {
     "bocm": {
-      "checkedAt": "2026-10-15T01:47:17.479Z",
+      "checkedAt": "2026-10-15T07:20:55.302Z",
       "ok": true,
-      "message": "11 registros relevantes comprobados; 10 documento(s) omitido(s) temporalmente",
-      "recordsSeen": 11
+      "message": "10 registros relevantes comprobados",
+      "recordsSeen": 10
     },
     "contratos": {
-      "checkedAt": "2026-10-15T01:47:17.479Z",
+      "checkedAt": "2026-10-15T07:20:55.302Z",
       "ok": true,
-      "message": "7 registros relevantes comprobados",
-      "recordsSeen": 7
+      "message": "10 registros relevantes comprobados",
+      "recordsSeen": 10
     },
     "empleo": {
-      "checkedAt": "2026-10-15T01:47:17.479Z",
+      "checkedAt": "2026-10-15T07:20:55.302Z",
       "ok": true,
       "message": "Consulta correcta, sin novedades relevantes",
       "recordsSeen": 0
     }
   },
   "items": [
+    {
+      "id": "contratos:servicio-revisiones-normativa-equipos-accesorios-elevacion-cargas-metro-madrid",
+      "source": "contratos",
+      "title": "Servicio de revisiones normativa de equipos y accesorios de elevación de cargas para Metro de Madrid",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Pendiente de adjudicación",
+      "status": "Pendiente de adjudicación",
+      "expediente": "6012600240",
+      "publishedAt": "2026-10-15",
+      "updatedAt": "2026-10-15T08:37:01+02:00",
+      "deadline": "2026-10-02",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-revisiones-normativa-equipos-accesorios-elevacion-cargas-metro-madrid",
+      "firstSeenAt": "2026-09-03T09:40:54.691Z",
+      "summary": "Id licitación: 6012600240;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 456766.60 EUR;",
+      "amount": 456766.6,
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-09/6012600240_ppt_signed.pdf"
+    },
+    {
+      "id": "contratos:obras-renovacion-integral-superestructura-via-linea-6-actuaciones-incluidas",
+      "source": "contratos",
+      "title": "Obras de renovación integral de la superestructura de vía en Línea 6. las actuaciones incluidas en este contrato podrán ser cofinanciadas al 40% con cargo al programa FEDER 2021-2027 de la Comunidad de Madrid dentro del objetivo político 2. una Europa más verde, hipocarbónica y en transición hacia una economía con cero emisiones netas de carbono, y resiliente, promoviendo una transición energética limpia y equitativa, la inversión verde y azul, la economía circular, la mitigación del cambio climático y la adaptación a él, la prevención y gestión de riesgos y la movilidad urbana sostenible y el objetivo específico RSO2.1. fomentar la eficiencia energética y la reducción de las emisiones de gases de efecto invernadero",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Resuelta / Finalizada",
+      "status": "Resuelta / Finalizada",
+      "expediente": "6012400271",
+      "publishedAt": "2026-10-15",
+      "updatedAt": "2026-10-15T08:35:34+02:00",
+      "deadline": "2024-08-08",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/obras-renovacion-integral-superestructura-via-linea-6-actuaciones-incluidas",
+      "firstSeenAt": "2026-08-05T08:03:18.389Z",
+      "summary": "Id licitación: 6012400271;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 128233025.11 EUR;",
+      "amount": 128233025.11,
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2024-07/6012400271_pcp_signed_0.pdf"
+    },
+    {
+      "id": "contratos:servicio-asistencia-tecnica-analisis-adecuacion-puesta-conformidad-equipamiento",
+      "source": "contratos",
+      "title": "Servicio de asistencia técnica para el análisis de la adecuación y puesta en conformidad del equipamiento de taller, equipos de mano y utillaje del Área de Mantenimiento de Material Móvil de Metro de Madrid",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Adjudicada",
+      "status": "Adjudicada",
+      "expediente": "6012600149",
+      "publishedAt": "2026-10-15",
+      "updatedAt": "2026-10-15T08:28:19+02:00",
+      "deadline": "2026-06-23",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-asistencia-tecnica-analisis-adecuacion-puesta-conformidad-equipamiento",
+      "firstSeenAt": "2026-08-05T08:03:18.389Z",
+      "summary": "Id licitación: 6012600149;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 2760061.33 EUR;",
+      "amount": 2760061.33,
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-05/6012600149_ppt_signed.pdf"
+    },
+    {
+      "id": "contratos:suministro-lamparas-multiuso-linternas-casco-led",
+      "source": "contratos",
+      "title": "Suministro de lámparas multiuso y linternas para casco led",
+      "summary": "Id licitación: 6012600172;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 101400.00 EUR;",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Adjudicada",
+      "status": "Adjudicada",
+      "expediente": "6012600172",
+      "amount": 101400,
+      "deadline": "2026-06-30",
+      "publishedAt": "2026-10-15",
+      "updatedAt": "2026-10-15T07:57:43+02:00",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/suministro-lamparas-multiuso-linternas-casco-led",
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-06/6012600172_ppt_signed.pdf",
+      "firstSeenAt": "2026-08-05T07:48:11.952Z"
+    },
+    {
+      "id": "contratos:suministro-suspension-primaria-7000-9000-mantenimiento-vehiculos-material-movil",
+      "source": "contratos",
+      "title": "Suministro de “Suspensión primaria 7000 9000” para el mantenimiento de los vehículos de material móvil de Metro de Madrid, S.A.",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Adjudicada",
+      "status": "Adjudicada",
+      "expediente": "6012600224",
+      "publishedAt": "2026-10-15",
+      "updatedAt": "2026-10-15T07:57:14+02:00",
+      "deadline": "2026-09-15",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/suministro-suspension-primaria-7000-9000-mantenimiento-vehiculos-material-movil",
+      "firstSeenAt": "2026-08-13T08:40:11.488Z",
+      "summary": "Id licitación: 6012600224;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 2425500.00 EUR;",
+      "amount": 2425500,
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-08/6012600224_pliego_de_prescripciones_tecnicas_signed.pdf"
+    },
     {
       "id": "contratos:servicio-polizas-seguros-responsabilidad-civil-profesional-metro-madrid-2027-2028",
       "source": "contratos",
@@ -792,23 +877,6 @@
       "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-reglamentario-revision-anual-equipos-sdpi-instalados-c2000-b-material",
       "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-10/6012600137_pliego_de_prescripciones_tecnicas.pdf",
       "firstSeenAt": "2026-10-08T14:01:21.475Z"
-    },
-    {
-      "id": "contratos:servicio-revisiones-normativa-equipos-accesorios-elevacion-cargas-metro-madrid",
-      "source": "contratos",
-      "title": "Servicio de revisiones normativa de equipos y accesorios de elevación de cargas para Metro de Madrid",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Pendiente de adjudicación",
-      "status": "Pendiente de adjudicación",
-      "expediente": "6012600240",
-      "publishedAt": "2026-10-08",
-      "updatedAt": "2026-10-08T10:04:19+02:00",
-      "deadline": "2026-10-02",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-revisiones-normativa-equipos-accesorios-elevacion-cargas-metro-madrid",
-      "firstSeenAt": "2026-09-03T09:40:54.691Z",
-      "summary": "Id licitación: 6012600240;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 456766.60 EUR;",
-      "amount": 456766.6,
-      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-09/6012600240_ppt_signed.pdf"
     },
     {
       "id": "contratos:acuerdo-marco-suministro-e-instalacion-equipamiento-sistema-megafonia-recintos-0",
@@ -2594,23 +2662,6 @@
       "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-07/6012600192_pliego_de_prescripciones_tecnicas_signed.pdf"
     },
     {
-      "id": "contratos:suministro-suspension-primaria-7000-9000-mantenimiento-vehiculos-material-movil",
-      "source": "contratos",
-      "title": "Suministro de “Suspensión primaria 7000 9000” para el mantenimiento de los vehículos de material móvil de Metro de Madrid, S.A.",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Pendiente de adjudicación",
-      "status": "Pendiente de adjudicación",
-      "expediente": "6012600224",
-      "publishedAt": "2026-09-24",
-      "updatedAt": "2026-09-24T11:07:06+02:00",
-      "deadline": "2026-09-15",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/suministro-suspension-primaria-7000-9000-mantenimiento-vehiculos-material-movil",
-      "firstSeenAt": "2026-08-13T08:40:11.488Z",
-      "summary": "Id licitación: 6012600224;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 2425500.00 EUR;",
-      "amount": 2425500,
-      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-08/6012600224_pliego_de_prescripciones_tecnicas_signed.pdf"
-    },
-    {
       "id": "contratos:servicio-soporte-mantenimiento-servidores-oracle-t5",
       "source": "contratos",
       "title": "Servicio de soporte y mantenimiento de servidores Oracle T5",
@@ -2838,23 +2889,6 @@
       "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2022-01/1354912852228.pdf"
     },
     {
-      "id": "contratos:servicio-asistencia-tecnica-analisis-adecuacion-puesta-conformidad-equipamiento",
-      "source": "contratos",
-      "title": "Servicio de asistencia técnica para el análisis de la adecuación y puesta en conformidad del equipamiento de taller, equipos de mano y utillaje del Área de Mantenimiento de Material Móvil de Metro de Madrid",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Pendiente de adjudicación",
-      "status": "Pendiente de adjudicación",
-      "expediente": "6012600149",
-      "publishedAt": "2026-09-22",
-      "updatedAt": "2026-09-22T08:51:50+02:00",
-      "deadline": "2026-06-23",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-asistencia-tecnica-analisis-adecuacion-puesta-conformidad-equipamiento",
-      "firstSeenAt": "2026-08-05T08:03:18.389Z",
-      "summary": "Id licitación: 6012600149;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 2760061.33 EUR;",
-      "amount": 2760061.33,
-      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-05/6012600149_ppt_signed.pdf"
-    },
-    {
       "id": "bocm:bocm-20260922-19",
       "source": "bocm",
       "title": "Convocatoria contrato. Anuncio de 18 de septiembre de 2026, por el que se convoca la licitación para la contratación del servicio de reparación de reductores modelo Flender AKEF 234.5 y Watteeuw ABH2-567 de la Serie 3000 para Metro de Madrid (Expediente 6012600247)",
@@ -2886,23 +2920,6 @@
       "summary": "Id licitación: 6012500265;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 53118.21 EUR;",
       "amount": 53118.21,
       "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2025-09/6012500265_ppt_signed.pdf"
-    },
-    {
-      "id": "contratos:suministro-lamparas-multiuso-linternas-casco-led",
-      "source": "contratos",
-      "title": "Suministro de lámparas multiuso y linternas para casco led",
-      "summary": "Id licitación: 6012600172;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 101400.00 EUR;",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Pendiente de adjudicación",
-      "status": "Pendiente de adjudicación",
-      "expediente": "6012600172",
-      "amount": 101400,
-      "deadline": "2026-06-30",
-      "publishedAt": "2026-09-21",
-      "updatedAt": "2026-09-21T12:04:10+02:00",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/suministro-lamparas-multiuso-linternas-casco-led",
-      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-06/6012600172_ppt_signed.pdf",
-      "firstSeenAt": "2026-08-05T07:48:11.952Z"
     },
     {
       "id": "contratos:suministro-ruedas-monoblock-mantenimiento-vehiculos-material-movil-metro-madrid-2",
@@ -3121,23 +3138,6 @@
       "summary": "Id licitación: 6012600114;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 168000.00 EUR;",
       "amount": 168000,
       "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-04/6012600114_pliego_de_prescripciones_tecnicas_signed.pdf"
-    },
-    {
-      "id": "contratos:obras-renovacion-integral-superestructura-via-linea-6-actuaciones-incluidas",
-      "source": "contratos",
-      "title": "Obras de renovación integral de la superestructura de vía en Línea 6. las actuaciones incluidas en este contrato podrán ser cofinanciadas al 40% con cargo al programa FEDER 2021-2027 de la Comunidad de Madrid dentro del objetivo político 2. una Europa más verde, hipocarbónica y en transición hacia una economía con cero emisiones netas de carbono, y resiliente, promoviendo una transición energética limpia y equitativa, la inversión verde y azul, la economía circular, la mitigación del cambio climático y la adaptación a él, la prevención y gestión de riesgos y la movilidad urbana sostenible y el objetivo específico RSO2.1. fomentar la eficiencia energética y la reducción de las emisiones de gases de efecto invernadero",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Resuelta / Finalizada",
-      "status": "Resuelta / Finalizada",
-      "expediente": "6012400271",
-      "publishedAt": "2026-09-17",
-      "updatedAt": "2026-09-17T14:22:54+02:00",
-      "deadline": "2024-08-08",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/obras-renovacion-integral-superestructura-via-linea-6-actuaciones-incluidas",
-      "firstSeenAt": "2026-08-05T08:03:18.389Z",
-      "summary": "Id licitación: 6012400271;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 128233025.11 EUR;",
-      "amount": 128233025.11,
-      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2024-07/6012400271_pcp_signed_0.pdf"
     },
     {
       "id": "contratos:servicio-realizacion-pruebas-hidraulicas-presion-equipos-encarrilamiento-metro-0",
