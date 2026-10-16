@@ -1,32 +1,49 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-16T04:23:07.692Z",
+  "generatedAt": "2026-10-16T09:15:26.852Z",
   "coverage": {
     "bocm": "2009-12-01 a 2026-10-13",
-    "contratos": "2017-02-02 a 2026-10-15",
+    "contratos": "2017-02-02 a 2026-10-16",
     "empleo": "2016-10-31 a 2026-10-06"
   },
   "sources": {
     "bocm": {
-      "checkedAt": "2026-10-16T04:23:07.692Z",
+      "checkedAt": "2026-10-16T09:15:26.852Z",
       "ok": true,
-      "message": "10 registros relevantes comprobados",
-      "recordsSeen": 10
+      "message": "9 registros relevantes comprobados; 10 documento(s) omitido(s) temporalmente",
+      "recordsSeen": 9
     },
     "contratos": {
-      "checkedAt": "2026-10-16T04:23:07.692Z",
+      "checkedAt": "2026-10-16T09:15:26.852Z",
       "ok": true,
-      "message": "4 registros relevantes comprobados",
-      "recordsSeen": 4
+      "message": "7 registros relevantes comprobados",
+      "recordsSeen": 7
     },
     "empleo": {
-      "checkedAt": "2026-10-16T04:23:07.692Z",
+      "checkedAt": "2026-10-16T09:15:26.852Z",
       "ok": true,
       "message": "Consulta correcta, sin novedades relevantes",
       "recordsSeen": 0
     }
   },
   "items": [
+    {
+      "id": "contratos:suministro-varios-repuestos-conexion-electrica-mantenimiento-material-movil-metro",
+      "source": "contratos",
+      "title": "Suministro de varios repuestos de conexión eléctrica para el mantenimiento del material móvil de Metro de Madrid",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Pendiente de adjudicación",
+      "status": "Pendiente de adjudicación",
+      "expediente": "6012600236",
+      "publishedAt": "2026-10-16",
+      "updatedAt": "2026-10-16T10:48:00+02:00",
+      "deadline": "2026-09-18",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/suministro-varios-repuestos-conexion-electrica-mantenimiento-material-movil-metro",
+      "firstSeenAt": "2026-09-01T10:00:16.000Z",
+      "summary": "Id licitación: 6012600236;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 71200.00 EUR;",
+      "amount": 71200,
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-08/6012600236_ppt_signed.pdf"
+    },
     {
       "id": "contratos:servicio-mantenimiento-plataforma-efficient-ip-gestion-direccionamiento-ip-1",
       "source": "contratos",
@@ -35,14 +52,48 @@
       "publicationType": "Pendiente de adjudicación",
       "status": "Pendiente de adjudicación",
       "expediente": "6012600199",
-      "publishedAt": "2026-10-15",
-      "updatedAt": "2026-10-15T12:51:29+02:00",
+      "publishedAt": "2026-10-16",
+      "updatedAt": "2026-10-16T10:23:12+02:00",
       "deadline": "2026-09-22",
       "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-mantenimiento-plataforma-efficient-ip-gestion-direccionamiento-ip-1",
       "firstSeenAt": "2026-08-05T08:03:18.389Z",
       "summary": "Id licitación: 6012600199;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 437500.00 EUR;",
       "amount": 437500,
       "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-07/6012600199_ppt_y_anexo_confidencial_signed.pdf"
+    },
+    {
+      "id": "contratos:servicio-gestion-fin-vida-vestuario-oficio-ropa-azul-metro-madrid-sa",
+      "source": "contratos",
+      "title": "Servicio de gestión del fin de vida del vestuario de oficio (ropa azul) de Metro de Madrid S.A.",
+      "summary": "Id licitación: 6012600274;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 76550.00 EUR;",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "En plazo",
+      "status": "En plazo",
+      "expediente": "6012600274",
+      "amount": 76550,
+      "deadline": "2026-11-11",
+      "publishedAt": "2026-10-16",
+      "updatedAt": "2026-10-16T09:55:39+02:00",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-gestion-fin-vida-vestuario-oficio-ropa-azul-metro-madrid-sa",
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-10/6012600274_pliego_de_prescripciones_tecnicas_signed.pdf",
+      "firstSeenAt": "2026-10-16T09:15:26.852Z"
+    },
+    {
+      "id": "contratos:servicio-revision-reparacion-pararrayos-2027-2031",
+      "source": "contratos",
+      "title": "Servicio de revisión y reparación de pararrayos 2027 - 2031",
+      "summary": "Id licitación: 6012600271;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 48490.33 EUR;",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "En plazo",
+      "status": "En plazo",
+      "expediente": "6012600271",
+      "amount": 48490.33,
+      "deadline": "2026-11-10",
+      "publishedAt": "2026-10-16",
+      "updatedAt": "2026-10-16T08:12:01+02:00",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-revision-reparacion-pararrayos-2027-2031",
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-10/6012600271_ppt_signed.pdf",
+      "firstSeenAt": "2026-10-16T09:15:26.852Z"
     },
     {
       "id": "contratos:suministro-lunas-frontales-cabina-mantenimiento-trenes-material-movil-metro-madrid",
@@ -730,23 +781,6 @@
       "summary": "Id licitación: 6012600213;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 275764.00 EUR;",
       "amount": 275764,
       "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-07/6012600213_referencia_al_pliego_de_prescripciones_tecnicas_signed.pdf"
-    },
-    {
-      "id": "contratos:suministro-varios-repuestos-conexion-electrica-mantenimiento-material-movil-metro",
-      "source": "contratos",
-      "title": "Suministro de varios repuestos de conexión eléctrica para el mantenimiento del material móvil de Metro de Madrid",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Pendiente de adjudicación",
-      "status": "Pendiente de adjudicación",
-      "expediente": "6012600236",
-      "publishedAt": "2026-10-09",
-      "updatedAt": "2026-10-09T10:28:49+02:00",
-      "deadline": "2026-09-18",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/suministro-varios-repuestos-conexion-electrica-mantenimiento-material-movil-metro",
-      "firstSeenAt": "2026-09-01T10:00:16.000Z",
-      "summary": "Id licitación: 6012600236;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 71200.00 EUR;",
-      "amount": 71200,
-      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-08/6012600236_ppt_signed.pdf"
     },
     {
       "id": "contratos:servicio-revision-reparacion-reductores-flender-akoa-565-coches-8000-1o-serie",
