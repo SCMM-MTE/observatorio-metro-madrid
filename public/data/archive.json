@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-16T21:39:25.134Z",
+  "generatedAt": "2026-10-17T00:23:07.522Z",
   "coverage": {
     "bocm": "2009-12-01 a 2026-10-13",
     "contratos": "2017-02-02 a 2026-10-16",
@@ -8,19 +8,19 @@
   },
   "sources": {
     "bocm": {
-      "checkedAt": "2026-10-16T21:39:25.134Z",
+      "checkedAt": "2026-10-17T00:23:07.522Z",
       "ok": true,
       "message": "9 registros relevantes comprobados",
       "recordsSeen": 9
     },
     "contratos": {
-      "checkedAt": "2026-10-16T21:39:25.134Z",
+      "checkedAt": "2026-10-17T00:23:07.522Z",
       "ok": true,
       "message": "6 registros relevantes comprobados",
       "recordsSeen": 6
     },
     "empleo": {
-      "checkedAt": "2026-10-16T21:39:25.134Z",
+      "checkedAt": "2026-10-17T00:23:07.522Z",
       "ok": true,
       "message": "Consulta correcta, sin novedades relevantes",
       "recordsSeen": 0
@@ -2332,28 +2332,34 @@
     {
       "id": "bocm:bocm-20261002-35",
       "source": "bocm",
-      "title": "Convocatoria contrato– Resolución de 18 de septiembre de 2026, de la Secretaría General Técnica de la Consejería de Vivienda, Transportes e Infraestructuras, por la que se modifica el anuncio de licitación por el que se hace pública convocatoria de concurso por procedimiento abierto para la adjudicación del contrato de “Obras de construcción de la ampliación de la red de Metro de Madrid al barrio de Valdebebas. Tramos 1 y 2”",
-      "summary": "Convocatoria contrato– Resolución de 18 de septiembre de 2026, de la Secretaría General Técnica de la Consejería de Vivienda, Transportes e Infraestructuras, por la que se modifica el anuncio de licitación por el que se hace pública convocatoria de concurso por procedimiento abierto para la adjudicación del contrato de “Obras de construcción de la ampliación de la red de Metro de Madrid al barrio de Valdebebas. Tramos 1 y 2”",
+      "title": "Convocatoria contrato – Resolución de 18 de septiembre de 2026, de la Secretaría General Técnica de la Consejería de Vivienda, Transportes e Infraestructuras, por la que se modifica el anuncio de licitación por el que se hace pública convocatoria de concurso por procedimiento abierto para la adjudicación del contrato de “Obras de construcción de la ampliación de la red de Metro de Madrid al barrio de Valdebebas. Tramos 1 y 2”",
+      "summary": "Convocatoria contrato – Resolución de 18 de septiembre de 2026, de la Secretaría General Técnica de la Consejería de Vivienda, Transportes e Infraestructuras, por la que se modifica el anuncio de licitación por el que se hace pública convocatoria de concurso por procedimiento abierto para la adjudicación del contrato de “Obras de construcción de la ampliación de la red de Metro de Madrid al barrio de Valdebebas. Tramos 1 y 2”",
       "issuer": "CONSEJERÍA DE VIVIENDA, TRANSPORTES E INFRAESTRUCTURAS",
-      "publicationType": "Convocatoria contrato",
+      "publicationType": "RESOLUCIÓN",
       "publishedAt": "2026-10-02",
-      "url": "https://www.bocm.es/bocm-20261002-35",
+      "url": "https://www.bocm.es/bocm-20261002-35?language=es",
       "pdfUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/10/02/BOCM-20261002-35.PDF",
       "xmlUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/10/02/BOCM-20261002-35.xml?language=es",
-      "firstSeenAt": "2026-10-02T13:07:11.794Z"
+      "firstSeenAt": "2026-10-02T13:07:11.794Z",
+      "tags": [
+        "I. COMUNIDAD DE MADRID · D) Anuncios"
+      ]
     },
     {
       "id": "bocm:bocm-20261002-36",
       "source": "bocm",
-      "title": "Adjudicación contrato– Anuncio de 28 de septiembre de 2026, de adjudicación del contrato titulado “Servicio de mantenimiento integral de 824 equipos de instalaciones de climatización ubicados en estaciones, recintos y depósitos de Metro de Madrid”. (Expediente 6012600054)",
-      "summary": "Adjudicación contrato– Anuncio de 28 de septiembre de 2026, de adjudicación del contrato titulado “Servicio de mantenimiento integral de 824 equipos de instalaciones de climatización ubicados en estaciones, recintos y depósitos de Metro de Madrid”. (Expediente 6012600054)",
-      "issuer": "CONSEJERÍA DE VIVIENDA, TRANSPORTES E INFRAESTRUCTURAS · METRO DE MADRID, S. A.",
-      "publicationType": "Adjudicación contrato",
+      "title": "Adjudicación contrato – Anuncio de 28 de septiembre de 2026, de adjudicación del contrato titulado “Servicio de mantenimiento integral de 824 equipos de instalaciones de climatización ubicados en estaciones, recintos y depósitos de Metro de Madrid”. (Expediente 6012600054)",
+      "summary": "Adjudicación contrato – Anuncio de 28 de septiembre de 2026, de adjudicación del contrato titulado “Servicio de mantenimiento integral de 824 equipos de instalaciones de climatización ubicados en estaciones, recintos y depósitos de Metro de Madrid”. (Expediente 6012600054)",
+      "issuer": "CONSEJERÍA DE VIVIENDA, TRANSPORTES E INFRAESTRUCTURAS",
+      "publicationType": "ANUNCIO",
       "publishedAt": "2026-10-02",
-      "url": "https://www.bocm.es/bocm-20261002-36",
+      "url": "https://www.bocm.es/bocm-20261002-36?language=es",
       "pdfUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/10/02/BOCM-20261002-36.PDF",
       "xmlUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/10/02/BOCM-20261002-36.xml?language=es",
-      "firstSeenAt": "2026-10-02T13:07:11.794Z"
+      "firstSeenAt": "2026-10-02T13:07:11.794Z",
+      "tags": [
+        "I. COMUNIDAD DE MADRID · D) Anuncios"
+      ]
     },
     {
       "id": "contratos:cesion-temporal-uso-espacios-instalacion-explotacion-sistemas-led-publicidad",
