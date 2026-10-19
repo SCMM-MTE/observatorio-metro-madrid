@@ -208,3 +208,6 @@ footer > span { text-align: right; }
   *, *::before, *::after { transition: none !important; }
   .spinning { animation: none; }
 }
+
+/* Original SVG SCMM, sin recorte ni fondo añadido. */
+img.brand-mark { object-fit: contain; background: transparent; border: 0; border-radius: 0; box-shadow: none; }

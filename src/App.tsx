@@ -14,7 +14,6 @@ import {
   Filter,
   RefreshCw,
   Search,
-  TrainFront,
   UsersRound,
   X,
 } from 'lucide-react'
@@ -225,7 +224,7 @@ export function App() {
     <div className="app-shell">
       <header className="topbar">
         <a className="brand" href="#inicio" aria-label="Observatorio Metro, inicio">
-          <span className="brand-mark"><TrainFront size={21} /></span>
+          <img className="brand-mark" src="/scmm-logo.svg" alt="SCMM" />
           <span>OBSERVATORIO <strong>METRO</strong></span>
         </a>
         <nav aria-label="Navegación principal">
@@ -336,7 +335,7 @@ export function App() {
       </main>
 
       <footer>
-        <div className="brand"><span className="brand-mark"><TrainFront size={19} /></span><span>OBSERVATORIO <strong>METRO</strong></span></div>
+        <div className="brand"><img className="brand-mark" src="/scmm-logo.svg" alt="SCMM" /><span>OBSERVATORIO <strong>METRO</strong></span></div>
         <p>Proyecto independiente de reutilización de información pública. No representa a Metro de Madrid ni a la Comunidad de Madrid.</p>
         <span>Datos actualizados: {formatDate(archive.generatedAt || undefined, true)}</span>
       </footer>
