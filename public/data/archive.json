@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-19T11:12:10.003Z",
+  "generatedAt": "2026-10-19T17:44:27.352Z",
   "coverage": {
     "bocm": "2009-12-01 a 2026-10-19",
     "contratos": "2017-02-02 a 2026-10-19",
@@ -8,25 +8,59 @@
   },
   "sources": {
     "bocm": {
-      "checkedAt": "2026-10-19T11:12:10.003Z",
+      "checkedAt": "2026-10-19T17:44:27.352Z",
       "ok": true,
       "message": "10 registros relevantes comprobados",
       "recordsSeen": 10
     },
     "contratos": {
-      "checkedAt": "2026-10-19T11:12:10.003Z",
+      "checkedAt": "2026-10-19T17:44:27.352Z",
       "ok": true,
-      "message": "8 registros relevantes comprobados",
-      "recordsSeen": 8
+      "message": "6 registros relevantes comprobados",
+      "recordsSeen": 6
     },
     "empleo": {
-      "checkedAt": "2026-10-19T11:12:10.003Z",
+      "checkedAt": "2026-10-19T17:44:27.352Z",
       "ok": true,
       "message": "Consulta correcta, sin novedades relevantes",
       "recordsSeen": 0
     }
   },
   "items": [
+    {
+      "id": "contratos:obras-construccion-ampliacion-red-metro-madrid-barrio-valdebebas-tramos-1-2",
+      "source": "contratos",
+      "title": "Obras de construcción de la ampliación de la red de Metro de Madrid al barrio de Valdebebas. Tramos 1 y 2.",
+      "summary": "Id licitación: A/OBR-013816/2026;Órgano de Contratación: Consejería de Vivienda, Transportes e Infraestructuras;Importe: 873292499.72 EUR;",
+      "issuer": "Consejería de Vivienda, Transportes e Infraestructuras",
+      "publicationType": "Pendiente de adjudicación",
+      "status": "Pendiente de adjudicación",
+      "expediente": "A/OBR-013816/2026",
+      "amount": 873292499.72,
+      "deadline": "2026-10-05",
+      "publishedAt": "2026-10-19",
+      "updatedAt": "2026-10-19T14:29:15+02:00",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/obras-construccion-ampliacion-red-metro-madrid-barrio-valdebebas-tramos-1-2",
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-07/obr.13816.2026_pcap_18.06.2026.pdf",
+      "firstSeenAt": "2026-08-14T13:59:16.760Z"
+    },
+    {
+      "id": "contratos:servicio-campana-mejora-puertas-recinto-viajeros-trenes-series-galibo-ancho-7000-0",
+      "source": "contratos",
+      "title": "Servicio para la campaña de mejora de las puertas del recinto de viajeros en los trenes de las series de gálibo ancho 7000 y 8000 1ª",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Pendiente de adjudicación",
+      "status": "Pendiente de adjudicación",
+      "expediente": "6012600141",
+      "publishedAt": "2026-10-19",
+      "updatedAt": "2026-10-19T13:42:44+02:00",
+      "deadline": "2026-06-19",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-campana-mejora-puertas-recinto-viajeros-trenes-series-galibo-ancho-7000-0",
+      "firstSeenAt": "2026-08-05T08:03:18.389Z",
+      "summary": "Id licitación: 6012600141;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 1625603.00 EUR;",
+      "amount": 1625603,
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-05/6012600141_pliego_de_prescripciones_tecnicas_signed.pdf"
+    },
     {
       "id": "contratos:suministro-suspension-primaria-7000-9000-mantenimiento-vehiculos-material-movil",
       "source": "contratos",
@@ -696,23 +730,6 @@
       "summary": "Id licitación: 6012600079;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 432380.00 EUR;",
       "amount": 432380,
       "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-03/6012600079_ppt_signed.pdf"
-    },
-    {
-      "id": "contratos:obras-construccion-ampliacion-red-metro-madrid-barrio-valdebebas-tramos-1-2",
-      "source": "contratos",
-      "title": "Obras de construcción de la ampliación de la red de Metro de Madrid al barrio de Valdebebas. Tramos 1 y 2.",
-      "summary": "Id licitación: A/OBR-013816/2026;Órgano de Contratación: Consejería de Vivienda, Transportes e Infraestructuras;Importe: 873292499.72 EUR;",
-      "issuer": "Consejería de Vivienda, Transportes e Infraestructuras",
-      "publicationType": "Pendiente de adjudicación",
-      "status": "Pendiente de adjudicación",
-      "expediente": "A/OBR-013816/2026",
-      "amount": 873292499.72,
-      "deadline": "2026-10-05",
-      "publishedAt": "2026-10-13",
-      "updatedAt": "2026-10-13T09:54:56+02:00",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/obras-construccion-ampliacion-red-metro-madrid-barrio-valdebebas-tramos-1-2",
-      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-07/obr.13816.2026_pcap_18.06.2026.pdf",
-      "firstSeenAt": "2026-08-14T13:59:16.760Z"
     },
     {
       "id": "contratos:servicios-transporte",
@@ -6836,20 +6853,6 @@
       "publishedAt": "2026-06-21",
       "updatedAt": "2026-06-21T00:10:00+02:00",
       "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/anuncio-periodico-indicativo-relativo-contrato-modernizacion-sistema",
-      "firstSeenAt": "2026-08-05T08:03:18.389Z"
-    },
-    {
-      "id": "contratos:servicio-campana-mejora-puertas-recinto-viajeros-trenes-series-galibo-ancho-7000-0",
-      "source": "contratos",
-      "title": "Servicio para la campaña de mejora de las puertas del recinto de viajeros en los trenes de las series de gálibo ancho 7000 y 8000 1ª",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Convocatoria anunciada a licitación",
-      "status": "Pendiente de adjudicación",
-      "expediente": "6012600141",
-      "publishedAt": "2026-06-20",
-      "updatedAt": "2026-06-20T00:06:00+02:00",
-      "deadline": "2026-06-19",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-campana-mejora-puertas-recinto-viajeros-trenes-series-galibo-ancho-7000-0",
       "firstSeenAt": "2026-08-05T08:03:18.389Z"
     },
     {
