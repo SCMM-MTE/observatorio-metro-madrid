@@ -1,4 +1,4 @@
-import { mkdir, readFile, writeFile } from 'node:fs/promises'
+import { mkdir, readFile, rename, writeFile } from 'node:fs/promises'
 import { dirname, resolve } from 'node:path'
 import {
   BOCM_RSS,
@@ -35,7 +35,8 @@ const bocmTo = process.env.BOCM_TO || bocmFrom
 async function readArchive() {
   try {
     return JSON.parse(await readFile(dataPath, 'utf8'))
-  } catch {
+  } catch (error) {
+    if (error.code !== 'ENOENT') throw error
     return {
       version: 1,
       generatedAt: null,
@@ -172,6 +173,7 @@ async function collectEmployment(bocmRecords) {
       status: {
         checkedAt: now,
         ok: true,
+        partial: true,
         message: `Cobertura mediante BOCM: ${officialJobs.length} convocatoria(s) reciente(s) revisada(s); el portal directo protege el acceso automatizado`,
         recordsSeen: officialJobs.length,
       },
@@ -203,6 +205,7 @@ for (const [source, collect] of bocmBackfillOnly ? collectors.slice(0, 1) : coll
     archive.sources[source] = collected.status || {
       checkedAt: now,
       ok: true,
+      partial: warnings.length > 0,
       message: uniqueRecords.length
         ? `${uniqueRecords.length.toLocaleString('es-ES')} registros relevantes comprobados${warnings.length ? `; ${warnings.length} documento(s) omitido(s) temporalmente` : ''}`
         : warnings.length
@@ -253,7 +256,9 @@ const healthEvents = Object.entries(archive.sources).flatMap(([source, status]) 
 })
 
 await mkdir(dirname(dataPath), { recursive: true })
-await writeFile(dataPath, `${JSON.stringify(archive, null, 2)}\n`, 'utf8')
+const pendingPath = `${dataPath}.${process.pid}.tmp`
+await writeFile(pendingPath, `${JSON.stringify(archive, null, 2)}\n`, 'utf8')
+await rename(pendingPath, dataPath)
 console.log(`Archivo actualizado: ${archive.items.length} publicaciones en total`)
 console.log(`Novedades detectadas: ${newItems.length} nuevas y ${updatedItems.length} actualizadas`)
 

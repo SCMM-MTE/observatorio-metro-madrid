@@ -17,6 +17,7 @@ import {
   UsersRound,
   X,
 } from 'lucide-react'
+import { fetchArchive } from './archive'
 import type { ArchiveData, ArchiveItem, SourceName } from './types'
 
 const PAGE_SIZE = 24
@@ -74,12 +75,6 @@ function escapeCsv(value: string | number | undefined) {
   return `"${text.replaceAll('"', '""')}"`
 }
 
-async function fetchArchive(): Promise<ArchiveData> {
-  const response = await fetch(`/data/archive.json?t=${Date.now()}`, { cache: 'no-store' })
-  if (!response.ok) throw new Error(`HTTP ${response.status}`)
-  return response.json()
-}
-
 const wait = (milliseconds: number) => new Promise((resolve) => window.setTimeout(resolve, milliseconds))
 
 export function App() {
@@ -95,8 +90,13 @@ export function App() {
   const [refreshing, setRefreshing] = useState(false)
   const [refreshMessage, setRefreshMessage] = useState('')
   const [manualRefreshUrl, setManualRefreshUrl] = useState('')
+  const [canCollect, setCanCollect] = useState(false)
 
   useEffect(() => {
+    fetch('/api/refresh', { signal: AbortSignal.timeout(8_000) })
+      .then((response) => response.ok ? response.json() : null)
+      .then((result) => setCanCollect(result?.configured === true))
+      .catch(() => {})
     fetchArchive()
       .then((data: ArchiveData) => setArchive(data))
       .catch(() => setLoadError('No se ha podido cargar el archivo. Inténtalo de nuevo en unos minutos.'))
@@ -154,6 +154,9 @@ export function App() {
       : [item])
     .sort((a, b) => dateValue(b) - dateValue(a)), [archive.items])
 
+  const archiveAge = archive.generatedAt ? Date.now() - Date.parse(archive.generatedAt) : Infinity
+  const stale = !loading && archiveAge > 18 * 60 * 60 * 1000
+
   const hasFilters = query || source !== 'all' || year !== 'all' || status !== 'all'
 
   function clearFilters() {
@@ -187,8 +190,13 @@ export function App() {
     try {
       const latest = await fetchArchive()
       setArchive(latest)
+      setLoadError('')
+      if (!canCollect) {
+        setRefreshMessage('Datos publicados recargados. Las fuentes se comprueban automáticamente tres veces al día.')
+        return
+      }
       const baseline = latest.generatedAt
-      const response = await fetch('/api/refresh', { method: 'POST' })
+      const response = await fetch('/api/refresh', { method: 'POST', signal: AbortSignal.timeout(28_000) })
       const result = await response.json()
       if (!response.ok || !result.ok) throw new Error(result.message || `HTTP ${response.status}`)
 
@@ -216,6 +224,7 @@ export function App() {
     } catch {
       setRefreshMessage('No se ha podido solicitar la actualización. Inténtalo de nuevo dentro de unos minutos.')
     } finally {
+      setLoading(false)
       setRefreshing(false)
     }
   }
@@ -230,7 +239,7 @@ export function App() {
         <nav aria-label="Navegación principal">
           <a href="#archivo">Archivo</a>
           <a href="#metodologia">Metodología</a>
-          <span className="update-pill"><span /> Cada 30 min</span>
+          <span className="update-pill"><span /> 3 veces al día</span>
         </nav>
       </header>
 
@@ -274,15 +283,15 @@ export function App() {
               <a href="https://www.metromadrid.es/es/empleo-metro" target="_blank" rel="noreferrer">Portal de empleo <ArrowUpRight /></a>
             </div>
             {jobs.length ? <div className="jobs-table">
-              <div className="jobs-row jobs-header"><span>Puesto</span><span>Plazas</span><span>Publicación</span><span>Fuente</span><span /></div>
+              <div className="jobs-row jobs-header"><span>Puesto</span><span>Plazas</span><span>Fecha de referencia</span><span>Fuente</span><span /></div>
               {jobs.slice(0, 20).map((job) => <div className="jobs-row" key={`job-${job.id}`}>
                 <span><BriefcaseBusiness /> <strong>{job.position || job.title}</strong></span>
                 <span className="vacancy-count">{job.vacancies ?? '—'}</span>
-                <span>{formatDate(job.publishedAt)}</span>
+                <span>{formatDate(job.publishedAt)}{job.dateBasis === 'updated' && <small> · Actualización</small>}</span>
                 <span>{sourceLabels[job.source]}</span>
                 <a href={job.url} target="_blank" rel="noreferrer" aria-label={`Abrir ${job.position || job.title}`}><ArrowUpRight /></a>
               </div>)}
-            </div> : <div className="jobs-empty"><BriefcaseBusiness /><div><strong>Esperando la primera oferta</strong><p>El portal se comprueba automáticamente cada 30 minutos.</p></div></div>}
+            </div> : <div className="jobs-empty"><BriefcaseBusiness /><div><strong>Esperando la primera oferta</strong><p>El portal se comprueba automáticamente tres veces al día.</p></div></div>}
           </section>
 
           <div className="archive-heading">
@@ -292,7 +301,7 @@ export function App() {
               <p>{loading ? 'Cargando el repositorio…' : `${filtered.length.toLocaleString('es-ES')} resultados con los filtros actuales`}</p>
             </div>
             <div className="archive-actions">
-              <button className="refresh-button" onClick={forceRefresh} disabled={refreshing}><RefreshCw className={refreshing ? 'spinning' : ''} size={17} /> {refreshing ? 'Actualizando…' : 'Actualizar ahora'}</button>
+              <button className="refresh-button" onClick={forceRefresh} disabled={refreshing}><RefreshCw className={refreshing ? 'spinning' : ''} size={17} /> {refreshing ? 'Actualizando…' : canCollect ? 'Actualizar ahora' : 'Recargar datos'}</button>
               <button className="export-button" onClick={downloadCsv} disabled={!filtered.length}><Download size={17} /> Exportar CSV</button>
             </div>
           </div>
@@ -307,6 +316,7 @@ export function App() {
             <label><span>Ordenar</span><div className="select-wrap"><select value={sort} onChange={(event) => setSort(event.target.value as typeof sort)}><option value="recent">Más recientes</option><option value="oldest">Más antiguos</option><option value="amount">Mayor importe</option></select><ChevronDown /></div></label>
           </div>
 
+          {stale && archive.items.length > 0 && <div className="notice error"><Clock3 />La última recogida tiene más de 18 horas. Puedes consultar el histórico, pero puede haber novedades pendientes.</div>}
           {loadError && <div className="notice error"><CircleAlert />{loadError}</div>}
           {!loading && !loadError && !filtered.length && <div className="empty-state"><Filter /><h3>No hay coincidencias</h3><p>Prueba a quitar algún filtro o usa una búsqueda más general.</p>{hasFilters && <button onClick={clearFilters}>Limpiar filtros</button>}</div>}
 
@@ -320,13 +330,13 @@ export function App() {
           <div>
             <span className="section-label">CÓMO FUNCIONA</span>
             <h2>Fuentes oficiales.<br />Archivo verificable.</h2>
-            <p>El recolector consulta cada 30 minutos las fuentes públicas, identifica las publicaciones relacionadas con Metro de Madrid y conserva sus metadatos en GitHub. Cada resultado enlaza al documento original.</p>
+            <p>El recolector consulta tres veces al día las fuentes públicas, identifica las publicaciones relacionadas con Metro de Madrid y conserva sus metadatos en GitHub. Cada resultado enlaza al documento original.</p>
           </div>
           <div className="source-statuses">
             {(['bocm', 'contratos', 'empleo'] as SourceName[]).map((name) => {
               const sourceStatus = archive.sources[name]
               return <article key={name}>
-                <div className={`status-icon ${sourceStatus.ok ? 'ok' : 'warn'}`}>{sourceStatus.ok ? <CheckCircle2 /> : <CircleAlert />}</div>
+                <div className={`status-icon ${sourceStatus.ok && !sourceStatus.partial ? 'ok' : 'warn'}`}>{sourceStatus.ok && !sourceStatus.partial ? <CheckCircle2 /> : <CircleAlert />}</div>
                 <div><strong>{sourceLabels[name]}</strong><p>{sourceStatus.message}</p><small><Clock3 size={13} /> Última consulta: {formatDate(sourceStatus.checkedAt || undefined, true)}</small></div>
               </article>
             })}
@@ -348,7 +358,7 @@ function ResultCard({ item }: { item: ArchiveItem }) {
   return <article className="result-card">
     <div className="result-meta">
       <span className={`source-badge ${item.source}`}>{item.source === 'bocm' ? <FileSearch /> : item.source === 'empleo' ? <BriefcaseBusiness /> : <Building2 />}{sourceLabels[item.source]}</span>
-      <span><CalendarDays /> {formatDate(item.publishedAt)}</span>
+      <span><CalendarDays /> {item.dateBasis === 'updated' ? 'Actualización: ' : ''}{formatDate(item.publishedAt)}</span>
       {item.status && <span className="status-badge">{item.status}</span>}
     </div>
     <div className="result-body">

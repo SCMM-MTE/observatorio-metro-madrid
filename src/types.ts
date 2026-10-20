@@ -14,6 +14,7 @@ export interface ArchiveItem {
   position?: string
   jobPositions?: Array<{ position: string; vacancies: number }>
   deadline?: string
+  dateBasis?: 'updated'
   publishedAt: string
   updatedAt?: string
   firstSeenAt: string
@@ -26,6 +27,7 @@ export interface ArchiveItem {
 export interface SourceStatus {
   checkedAt: string | null
   ok: boolean
+  partial?: boolean
   message: string
   recordsSeen: number
 }

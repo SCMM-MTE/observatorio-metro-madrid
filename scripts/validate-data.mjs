@@ -1,7 +1,7 @@
 import { readFile } from 'node:fs/promises'
 import { resolve } from 'node:path'
 
-const path = resolve(import.meta.dirname, '../public/data/archive.json')
+const path = resolve(process.env.ARCHIVE_PATH || resolve(import.meta.dirname, '../public/data/archive.json'))
 const data = JSON.parse(await readFile(path, 'utf8'))
 const ids = new Set()
 

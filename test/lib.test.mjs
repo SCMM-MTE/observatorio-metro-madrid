@@ -303,3 +303,31 @@ test('el webhook rechaza peticiones sin firma y responde consultas autorizadas',
     else process.env.TELEGRAM_WEBHOOK_SECRET = previousSecret
   }
 })
+
+test('lee las once ofertas del formato actual sin inventar fechas ni duplicar enlaces', async () => {
+  const { readFile } = await import('node:fs/promises')
+  const html = await readFile(new URL('./fixtures/employment-cards.html', import.meta.url), 'utf8')
+  const jobs = parseEmploymentPage(html)
+  assert.equal(jobs.length, 11)
+  assert.equal(new Set(jobs.map((job) => job.id)).size, 11)
+  const open = jobs.find((job) => job.status === 'Abierta')
+  assert.equal(open.vacancies, 2)
+  assert.equal(open.updatedAt, '2026-10-08')
+  assert.equal(open.deadline, '2026-10-30T12:00:00Z')
+  assert.equal(open.dateBasis, 'updated')
+  assert.equal(jobs.reduce((sum, job) => sum + job.vacancies, 0), 142)
+  const merged = mergeItems([], jobs, '2026-10-20T07:00:00Z')
+  assert.deepEqual(findNotificationItems(merged, mergeItems(merged, parseEmploymentPage(html), 'later'), jobs), [])
+  assert.throws(() => parseEmploymentPage(html.replace('>2</div>', '>?</div>')), /incompleta/)
+})
+
+test('rechaza errores HTML con HTTP 200 sin declararlos fuentes sanas', async () => {
+  const { parseBocmRss } = await import('../scripts/lib.mjs')
+  const errorPage = '<html><head><title>Service unavailable</title></head><body>Try later</body></html>'
+  for (const parse of [parseBocmSummaryXml, parseBocmRss, parseContractsFeed, parseBocmSearchPage, parseContractsSearchPage, parseEmploymentPage]) {
+    assert.throws(() => parse(errorPage))
+  }
+  assert.deepEqual(parseEmploymentPage('<main><div class="view-empty">Sin ofertas</div></main>'), [])
+  assert.equal(parseSpanishDate('8 octubre 2026'), '2026-10-08')
+  assert.equal(parseSpanishDate('5 de enero del 2026 08:25'), '2026-01-05T08:25:00+01:00')
+})

@@ -2,8 +2,9 @@ name: Recolectar publicaciones
 
 on:
   schedule:
-    # Evita los minutos 00 y 30, cuando GitHub Actions concentra más carga.
-    - cron: '7,37 * * * *'
+    # Tres comprobaciones diarias: 07:07, 13:07 y 19:07 UTC.
+    # En Madrid: 09:07/15:07/21:07 en verano; 08:07/14:07/20:07 en invierno.
+    - cron: '7 7,13,19 * * *'
   workflow_dispatch:
     inputs:
       backfill:

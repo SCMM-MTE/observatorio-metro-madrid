@@ -1,32 +1,86 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-20T06:32:57.419Z",
+  "generatedAt": "2026-10-20T11:02:46.513Z",
   "coverage": {
     "bocm": "2009-12-01 a 2026-10-19",
     "contratos": "2017-02-02 a 2026-10-20",
-    "empleo": "2016-10-31 a 2026-10-06"
+    "empleo": "2016-10-31 a 2026-10-16"
   },
   "sources": {
     "bocm": {
-      "checkedAt": "2026-10-20T06:32:57.419Z",
+      "checkedAt": "2026-10-20T11:00:47.114Z",
       "ok": true,
+      "partial": false,
       "message": "10 registros relevantes comprobados",
       "recordsSeen": 10
     },
     "contratos": {
-      "checkedAt": "2026-10-20T06:32:57.419Z",
+      "checkedAt": "2026-10-20T11:00:47.114Z",
       "ok": true,
+      "partial": false,
       "message": "5 registros relevantes comprobados",
       "recordsSeen": 5
     },
     "empleo": {
-      "checkedAt": "2026-10-20T06:32:57.419Z",
+      "checkedAt": "2026-10-20T11:00:47.114Z",
       "ok": true,
-      "message": "Consulta correcta, sin novedades relevantes",
-      "recordsSeen": 0
+      "partial": true,
+      "message": "Cobertura mediante BOCM: 1 convocatoria(s) reciente(s) revisada(s); el portal directo protege el acceso automatizado; 11 ofertas del portal contrastadas y conservadas el 20/10/2026",
+      "recordsSeen": 1
     }
   },
   "items": [
+    {
+      "id": "contratos:suministro-trabajos-cerrajeria-rediseno-materiales-coordinacion-linea-aerea",
+      "source": "contratos",
+      "title": "Suministro para trabajos de cerrajería y rediseño de materiales para la coordinación de Línea Aérea",
+      "summary": "Id licitación: 6012600276;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 160691.30 EUR;",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "En plazo",
+      "status": "En plazo",
+      "expediente": "6012600276",
+      "amount": 160691.3,
+      "deadline": "2026-11-06",
+      "publishedAt": "2026-10-20",
+      "updatedAt": "2026-10-20T10:17:49+02:00",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/suministro-trabajos-cerrajeria-rediseno-materiales-coordinacion-linea-aerea",
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-10/6012600276_referencia_al_ppt_signed.pdf",
+      "firstSeenAt": "2026-10-20T11:00:47.114Z"
+    },
+    {
+      "id": "contratos:servicio-poliza-seguro-responsabilidad-civil-administradores-directivos-rc-do-2027",
+      "source": "contratos",
+      "title": "Servicio de póliza del seguro de responsabilidad civil de administradores y directivos (RC D&O) 2027-2028",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Pendiente de adjudicación",
+      "status": "Pendiente de adjudicación",
+      "expediente": "6012600200",
+      "publishedAt": "2026-10-20",
+      "updatedAt": "2026-10-20T09:58:13+02:00",
+      "deadline": "2026-10-06",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-poliza-seguro-responsabilidad-civil-administradores-directivos-rc-do-2027",
+      "firstSeenAt": "2026-08-05T08:03:18.389Z",
+      "summary": "Id licitación: 6012600200;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 1236057.18 EUR;",
+      "amount": 1236057.18,
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-07/6012600200_ppt_signed.pdf"
+    },
+    {
+      "id": "contratos:acuerdo-marco-servicios-asistencia-tecnica-control-gestion-medioambiental-servicio",
+      "source": "contratos",
+      "title": "Acuerdo marco para servicios de asistencia técnica y control de la gestión medioambiental del servicio de superestructura de vía de Metro de Madrid S.A.",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Pendiente de adjudicación",
+      "status": "Pendiente de adjudicación",
+      "expediente": "6012600181",
+      "publishedAt": "2026-10-20",
+      "updatedAt": "2026-10-20T08:36:22+02:00",
+      "deadline": "2026-07-21",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/acuerdo-marco-servicios-asistencia-tecnica-control-gestion-medioambiental-servicio",
+      "firstSeenAt": "2026-08-05T08:03:18.389Z",
+      "summary": "Id licitación: 6012600181;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 2800000.00 EUR;",
+      "amount": 2800000,
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-06/6012600181_ppt_signed.pdf"
+    },
     {
       "id": "contratos:suministro-suscripcion-licencias-asignacion-control-permisos-usuarios",
       "source": "contratos",
@@ -341,6 +395,58 @@
       "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-revision-reparacion-pararrayos-2027-2031",
       "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-10/6012600271_ppt_signed.pdf",
       "firstSeenAt": "2026-10-16T09:15:26.852Z"
+    },
+    {
+      "id": "empleo:tecnicoa-en-el-servicio-de-integracion-de-sistemas-del-area-de-comunicaciones-y-tecnologias-de-la-informacion-2026-1tamsispla",
+      "source": "empleo",
+      "title": "Técnico/a en el Servicio de Integración de Sistemas del Área de Comunicaciones y Tecnologías de la Información (2026-1TAMSISPLA)",
+      "summary": "Finalizado el plazo de admisión Técnico/a en el Servicio de Integración de Sistemas del Área de Comunicaciones y Tecnologías de la Información (2026-1TAMSISPLA) Plazas: 1 Cierre del plazo de inscripción 13 septiembre 2026 Última actualización: 16 octubre 2026",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Oferta de empleo",
+      "status": "Finalizado el plazo de admisión",
+      "vacancies": 1,
+      "position": "Técnico/a en el Servicio de Integración de Sistemas del Área de Comunicaciones y Tecnologías de la Información (2026-1TAMSISPLA)",
+      "jobPositions": [
+        {
+          "position": "Técnico/a en el Servicio de Integración de Sistemas del Área de Comunicaciones y Tecnologías de la Información (2026-1TAMSISPLA)",
+          "vacancies": 1
+        }
+      ],
+      "publishedAt": "2026-10-16",
+      "dateBasis": "updated",
+      "updatedAt": "2026-10-16",
+      "deadline": "2026-09-13T12:00:00Z",
+      "url": "https://www.metromadrid.es/es/oferta-empleo/tecnicoa-en-el-servicio-de-integracion-de-sistemas-del-area-de-comunicaciones-y-tecnologias-de-la-informacion-2026-1tamsispla",
+      "tags": [
+        "empleo"
+      ],
+      "firstSeenAt": "2026-10-20T10:58:07.406Z"
+    },
+    {
+      "id": "empleo:tecnicoa-en-el-servicio-de-integracion-de-sistemas-del-area-de-comunicaciones-y-tecnologias-de-la-informacion-2026-1tamsisbkp",
+      "source": "empleo",
+      "title": "Técnico/a en el Servicio de Integración de Sistemas del Área de Comunicaciones y Tecnologías de la Información (2026-1TAMSISBKP)",
+      "summary": "Finalizado el plazo de admisión Técnico/a en el Servicio de Integración de Sistemas del Área de Comunicaciones y Tecnologías de la Información (2026-1TAMSISBKP) Plazas: 1 Cierre del plazo de inscripción 13 septiembre 2026 Última actualización: 16 octubre 2026",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Oferta de empleo",
+      "status": "Finalizado el plazo de admisión",
+      "vacancies": 1,
+      "position": "Técnico/a en el Servicio de Integración de Sistemas del Área de Comunicaciones y Tecnologías de la Información (2026-1TAMSISBKP)",
+      "jobPositions": [
+        {
+          "position": "Técnico/a en el Servicio de Integración de Sistemas del Área de Comunicaciones y Tecnologías de la Información (2026-1TAMSISBKP)",
+          "vacancies": 1
+        }
+      ],
+      "publishedAt": "2026-10-16",
+      "dateBasis": "updated",
+      "updatedAt": "2026-10-16",
+      "deadline": "2026-09-13T12:00:00Z",
+      "url": "https://www.metromadrid.es/es/oferta-empleo/tecnicoa-en-el-servicio-de-integracion-de-sistemas-del-area-de-comunicaciones-y-tecnologias-de-la-informacion-2026-1tamsisbkp",
+      "tags": [
+        "empleo"
+      ],
+      "firstSeenAt": "2026-10-20T10:58:07.406Z"
     },
     {
       "id": "contratos:suministro-lunas-frontales-cabina-mantenimiento-trenes-material-movil-metro-madrid",
@@ -826,23 +932,6 @@
       "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-01/6012600013_ppt_signed.pdf"
     },
     {
-      "id": "contratos:servicio-poliza-seguro-responsabilidad-civil-administradores-directivos-rc-do-2027",
-      "source": "contratos",
-      "title": "Servicio de póliza del seguro de responsabilidad civil de administradores y directivos (RC D&O) 2027-2028",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Pendiente de adjudicación",
-      "status": "Pendiente de adjudicación",
-      "expediente": "6012600200",
-      "publishedAt": "2026-10-09",
-      "updatedAt": "2026-10-09T12:54:04+02:00",
-      "deadline": "2026-10-06",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-poliza-seguro-responsabilidad-civil-administradores-directivos-rc-do-2027",
-      "firstSeenAt": "2026-08-05T08:03:18.389Z",
-      "summary": "Id licitación: 6012600200;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 1236057.18 EUR;",
-      "amount": 1236057.18,
-      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-07/6012600200_ppt_signed.pdf"
-    },
-    {
       "id": "contratos:servicio-retirada-amianto-material-movil-equipos-taller-trabajo-0",
       "source": "contratos",
       "title": "Servicio de retirada de amianto del material móvil y equipos de taller y trabajo",
@@ -1157,6 +1246,32 @@
       "summary": "Id licitación: 6012600196;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 1059663.18 EUR;",
       "amount": 1059663.18,
       "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-07/6012600196_proyecto_tecnico_confidencial_signed.pdf"
+    },
+    {
+      "id": "empleo:tecnicoa-en-la-division-de-material-movil",
+      "source": "empleo",
+      "title": "Técnico/a en la División de Material Móvil",
+      "summary": "Abierta Técnico/a en la División de Material Móvil Plazas: 2 Cierre del plazo de inscripción 30 octubre 2026 Última actualización: 08 octubre 2026",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Oferta de empleo",
+      "status": "Abierta",
+      "vacancies": 2,
+      "position": "Técnico/a en la División de Material Móvil",
+      "jobPositions": [
+        {
+          "position": "Técnico/a en la División de Material Móvil",
+          "vacancies": 2
+        }
+      ],
+      "publishedAt": "2026-10-08",
+      "dateBasis": "updated",
+      "updatedAt": "2026-10-08",
+      "deadline": "2026-10-30T12:00:00Z",
+      "url": "https://www.metromadrid.es/es/oferta-empleo/tecnicoa-en-la-division-de-material-movil",
+      "tags": [
+        "empleo"
+      ],
+      "firstSeenAt": "2026-10-20T10:58:07.406Z"
     },
     {
       "id": "contratos:servicio-transporte-distribucion-correspondencia-materiales-diversa-indole-0",
@@ -1512,6 +1627,32 @@
       "pdfUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/10/06/BOCM-20261006-17.PDF",
       "xmlUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/10/06/BOCM-20261006-17.xml?language=es",
       "firstSeenAt": "2026-10-06T09:23:04.400Z"
+    },
+    {
+      "id": "empleo:maquinista-de-traccion-electrica-y-jefea-de-sector-0",
+      "source": "empleo",
+      "title": "Maquinista de Tracción Eléctrica y Jefe/a de Sector",
+      "summary": "Finalizado el plazo de admisión Maquinista de Tracción Eléctrica y Jefe/a de Sector Plazas: 30 Cierre del plazo de inscripción 05 octubre 2026 Última actualización: 06 octubre 2026",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Oferta de empleo",
+      "status": "Finalizado el plazo de admisión",
+      "vacancies": 30,
+      "position": "Maquinista de Tracción Eléctrica y Jefe/a de Sector",
+      "jobPositions": [
+        {
+          "position": "Maquinista de Tracción Eléctrica y Jefe/a de Sector",
+          "vacancies": 30
+        }
+      ],
+      "publishedAt": "2026-10-06",
+      "dateBasis": "updated",
+      "updatedAt": "2026-10-06",
+      "deadline": "2026-10-05T12:00:00Z",
+      "url": "https://www.metromadrid.es/es/oferta-empleo/maquinista-de-traccion-electrica-y-jefea-de-sector-0",
+      "tags": [
+        "empleo"
+      ],
+      "firstSeenAt": "2026-10-20T10:58:07.406Z"
     },
     {
       "id": "contratos:servicio-inspecciones-periodicas-reglamentarias-ascensores-metro-madrid",
@@ -2941,23 +3082,6 @@
       ]
     },
     {
-      "id": "contratos:acuerdo-marco-servicios-asistencia-tecnica-control-gestion-medioambiental-servicio",
-      "source": "contratos",
-      "title": "Acuerdo marco para servicios de asistencia técnica y control de la gestión medioambiental del servicio de superestructura de vía de Metro de Madrid S.A.",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Pendiente de adjudicación",
-      "status": "Pendiente de adjudicación",
-      "expediente": "6012600181",
-      "publishedAt": "2026-09-23",
-      "updatedAt": "2026-09-23T12:23:51+02:00",
-      "deadline": "2026-07-21",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/acuerdo-marco-servicios-asistencia-tecnica-control-gestion-medioambiental-servicio",
-      "firstSeenAt": "2026-08-05T08:03:18.389Z",
-      "summary": "Id licitación: 6012600181;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 2800000.00 EUR;",
-      "amount": 2800000,
-      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-06/6012600181_ppt_signed.pdf"
-    },
-    {
       "id": "contratos:servicio-revision-reparacion-pci-inter-estacion-metro-madrid-0",
       "source": "contratos",
       "title": "Servicio de revisión y reparación de PCI Inter estación de Metro de Madrid",
@@ -3363,6 +3487,58 @@
       "summary": "Id licitación: 6012600139;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 32250.00 EUR;",
       "amount": 32250,
       "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-05/6012600139_pliego_de_prescripciones_tecnicas_signed.pdf"
+    },
+    {
+      "id": "empleo:tecnicoa-en-el-area-de-seguridad-ferroviaria-operacional",
+      "source": "empleo",
+      "title": "Técnico/a en el Área de Seguridad Ferroviaria Operacional",
+      "summary": "Cerrada Técnico/a en el Área de Seguridad Ferroviaria Operacional Plazas: 2 Cierre del plazo de inscripción 07 junio 2026 Última actualización: 17 septiembre 2026",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Oferta de empleo",
+      "status": "Cerrada",
+      "vacancies": 2,
+      "position": "Técnico/a en el Área de Seguridad Ferroviaria Operacional",
+      "jobPositions": [
+        {
+          "position": "Técnico/a en el Área de Seguridad Ferroviaria Operacional",
+          "vacancies": 2
+        }
+      ],
+      "publishedAt": "2026-09-17",
+      "dateBasis": "updated",
+      "updatedAt": "2026-09-17",
+      "deadline": "2026-06-07T12:00:00Z",
+      "url": "https://www.metromadrid.es/es/oferta-empleo/tecnicoa-en-el-area-de-seguridad-ferroviaria-operacional",
+      "tags": [
+        "empleo"
+      ],
+      "firstSeenAt": "2026-10-20T10:58:07.406Z"
+    },
+    {
+      "id": "empleo:tecnicoa-de-mantenimiento-de-instalaciones-en-el-servicio-de-mantenimiento-de-electrificacion-y-senalizacion-ferroviaria-del-area-de-mantenimiento-de",
+      "source": "empleo",
+      "title": "Técnico/a de Mantenimiento de Instalaciones en el Servicio de Mantenimiento de Electrificación y Señalización Ferroviaria del Área de Mantenimiento de Instalaciones",
+      "summary": "Cerrada Técnico/a de Mantenimiento de Instalaciones en el Servicio de Mantenimiento de Electrificación y Señalización Ferroviaria del Área de Mantenimiento de Instalaciones Plazas: 1 Cierre del plazo de inscripción 01 junio 2026 Última actualización: 17 septiembre 2026",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Oferta de empleo",
+      "status": "Cerrada",
+      "vacancies": 1,
+      "position": "Técnico/a de Mantenimiento de Instalaciones en el Servicio de Mantenimiento de Electrificación y Señalización Ferroviaria del Área de Mantenimiento de Instalaciones",
+      "jobPositions": [
+        {
+          "position": "Técnico/a de Mantenimiento de Instalaciones en el Servicio de Mantenimiento de Electrificación y Señalización Ferroviaria del Área de Mantenimiento de Instalaciones",
+          "vacancies": 1
+        }
+      ],
+      "publishedAt": "2026-09-17",
+      "dateBasis": "updated",
+      "updatedAt": "2026-09-17",
+      "deadline": "2026-06-01T12:00:00Z",
+      "url": "https://www.metromadrid.es/es/oferta-empleo/tecnicoa-de-mantenimiento-de-instalaciones-en-el-servicio-de-mantenimiento-de-electrificacion-y-senalizacion-ferroviaria-del-area-de-mantenimiento-de",
+      "tags": [
+        "empleo"
+      ],
+      "firstSeenAt": "2026-10-20T10:58:07.406Z"
     },
     {
       "id": "contratos:servicio-reparacion-tarjetas-control-equipos-climatizacion-series-3000-9000",
@@ -8207,6 +8383,58 @@
       "firstSeenAt": "2026-08-05T08:03:18.389Z"
     },
     {
+      "id": "empleo:oficiala-con-especializacion-en-obra-civil",
+      "source": "empleo",
+      "title": "Oficial/a, con especialización en Obra Civil",
+      "summary": "Cerrada Oficial/a, con especialización en Obra Civil Plazas: 4 Cierre del plazo de inscripción 01 julio 2025 Última actualización: 27 mayo 2026",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Oferta de empleo",
+      "status": "Cerrada",
+      "vacancies": 4,
+      "position": "Oficial/a, con especialización en Obra Civil",
+      "jobPositions": [
+        {
+          "position": "Oficial/a, con especialización en Obra Civil",
+          "vacancies": 4
+        }
+      ],
+      "publishedAt": "2026-05-27",
+      "dateBasis": "updated",
+      "updatedAt": "2026-05-27",
+      "deadline": "2025-07-01T12:00:00Z",
+      "url": "https://www.metromadrid.es/es/oferta-empleo/oficiala-con-especializacion-en-obra-civil",
+      "tags": [
+        "empleo"
+      ],
+      "firstSeenAt": "2026-10-20T10:58:07.406Z"
+    },
+    {
+      "id": "empleo:oficiala-con-especialidad-en-material-rodante-y-mecatronica",
+      "source": "empleo",
+      "title": "Oficial/a, con especialidad en Material Rodante y Mecatrónica",
+      "summary": "Cerrada Oficial/a, con especialidad en Material Rodante y Mecatrónica Plazas: 21 Cierre del plazo de inscripción 01 julio 2025 Última actualización: 27 mayo 2026",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Oferta de empleo",
+      "status": "Cerrada",
+      "vacancies": 21,
+      "position": "Oficial/a, con especialidad en Material Rodante y Mecatrónica",
+      "jobPositions": [
+        {
+          "position": "Oficial/a, con especialidad en Material Rodante y Mecatrónica",
+          "vacancies": 21
+        }
+      ],
+      "publishedAt": "2026-05-27",
+      "dateBasis": "updated",
+      "updatedAt": "2026-05-27",
+      "deadline": "2025-07-01T12:00:00Z",
+      "url": "https://www.metromadrid.es/es/oferta-empleo/oficiala-con-especialidad-en-material-rodante-y-mecatronica",
+      "tags": [
+        "empleo"
+      ],
+      "firstSeenAt": "2026-10-20T10:58:07.406Z"
+    },
+    {
       "id": "contratos:servicio-relativo-poliza-seguro-flota-vehiculos-automoviles-e-industriales",
       "source": "contratos",
       "title": "Servicio relativo a la póliza de seguro de la flota de vehículos automóviles e industriales propiedad de Metro 2026-2027",
@@ -8260,6 +8488,58 @@
       "deadline": "2026-02-13",
       "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/suministro-muelle-helicoidal-serie-2000-material-movil-metro-madrid",
       "firstSeenAt": "2026-08-05T08:03:18.389Z"
+    },
+    {
+      "id": "empleo:oficiala-con-especializacion-en-materia-de-electricidad",
+      "source": "empleo",
+      "title": "Oficial/a, con especialización en materia de electricidad",
+      "summary": "Cerrada Oficial/a, con especialización en materia de electricidad Plazas: 16 Cierre del plazo de inscripción 01 julio 2025 Última actualización: 26 mayo 2026",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Oferta de empleo",
+      "status": "Cerrada",
+      "vacancies": 16,
+      "position": "Oficial/a, con especialización en materia de electricidad",
+      "jobPositions": [
+        {
+          "position": "Oficial/a, con especialización en materia de electricidad",
+          "vacancies": 16
+        }
+      ],
+      "publishedAt": "2026-05-26",
+      "dateBasis": "updated",
+      "updatedAt": "2026-05-26",
+      "deadline": "2025-07-01T12:00:00Z",
+      "url": "https://www.metromadrid.es/es/oferta-empleo/oficiala-con-especializacion-en-materia-de-electricidad",
+      "tags": [
+        "empleo"
+      ],
+      "firstSeenAt": "2026-10-20T10:58:07.406Z"
+    },
+    {
+      "id": "empleo:oficiala-con-especializacion-en-materia-de-electronica-y-comunicaciones",
+      "source": "empleo",
+      "title": "Oficial/a, con especialización en materia de electrónica y comunicaciones",
+      "summary": "Cerrada Oficial/a, con especialización en materia de electrónica y comunicaciones Plazas: 4 Cierre del plazo de inscripción 01 julio 2025 Última actualización: 26 mayo 2026",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Oferta de empleo",
+      "status": "Cerrada",
+      "vacancies": 4,
+      "position": "Oficial/a, con especialización en materia de electrónica y comunicaciones",
+      "jobPositions": [
+        {
+          "position": "Oficial/a, con especialización en materia de electrónica y comunicaciones",
+          "vacancies": 4
+        }
+      ],
+      "publishedAt": "2026-05-26",
+      "dateBasis": "updated",
+      "updatedAt": "2026-05-26",
+      "deadline": "2025-07-01T12:00:00Z",
+      "url": "https://www.metromadrid.es/es/oferta-empleo/oficiala-con-especializacion-en-materia-de-electronica-y-comunicaciones",
+      "tags": [
+        "empleo"
+      ],
+      "firstSeenAt": "2026-10-20T10:58:07.406Z"
     },
     {
       "id": "contratos:servicio-limpieza-estaciones-metro-madrid-0",
@@ -13949,6 +14229,32 @@
       "updatedAt": "2026-02-19T09:46:00+02:00",
       "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/soporte-mantenimiento-licencias-modulos-simpack",
       "firstSeenAt": "2026-08-05T08:03:18.389Z"
+    },
+    {
+      "id": "empleo:maquinista-de-traccion-electrica-y-jefea-de-sector",
+      "source": "empleo",
+      "title": "Maquinista de Tracción Eléctrica y Jefe/a de Sector",
+      "summary": "Cerrada Maquinista de Tracción Eléctrica y Jefe/a de Sector Plazas: 60 Cierre del plazo de inscripción 01 febrero 2023 Última actualización: 19 febrero 2026",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Oferta de empleo",
+      "status": "Cerrada",
+      "vacancies": 60,
+      "position": "Maquinista de Tracción Eléctrica y Jefe/a de Sector",
+      "jobPositions": [
+        {
+          "position": "Maquinista de Tracción Eléctrica y Jefe/a de Sector",
+          "vacancies": 60
+        }
+      ],
+      "publishedAt": "2026-02-19",
+      "dateBasis": "updated",
+      "updatedAt": "2026-02-19",
+      "deadline": "2023-02-01T12:00:00Z",
+      "url": "https://www.metromadrid.es/es/oferta-empleo/maquinista-de-traccion-electrica-y-jefea-de-sector",
+      "tags": [
+        "empleo"
+      ],
+      "firstSeenAt": "2026-10-20T10:58:07.406Z"
     },
     {
       "id": "contratos:obras-acondicionamiento-locales-opera-implantacion-oficina-atencion-cliente-tienda",

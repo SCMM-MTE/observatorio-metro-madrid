@@ -1,6 +1,6 @@
 import { createHash } from 'node:crypto'
 import * as cheerio from 'cheerio'
-import { XMLParser } from 'fast-xml-parser'
+import { XMLParser, XMLValidator } from 'fast-xml-parser'
 
 export const BOCM_RSS = 'https://www.bocm.es/sumarios.rss'
 export const BOCM_SEARCH = 'https://www.bocm.es/advanced-search/p/language/es'
@@ -126,7 +126,7 @@ export async function fetchText(url, { attempts = 3, timeoutMs = 45_000 } = {}) 
       clearTimeout(timer)
     }
   }
-  throw new Error(`No se pudo consultar ${url}: ${lastError?.message || lastError}`)
+  throw new Error(`No se pudo consultar ${url}: ${lastError?.cause?.code || lastError?.message || lastError}`)
 }
 
 export async function mapConcurrent(values, concurrency, mapper) {
@@ -195,15 +195,23 @@ function walkBocm(node, context, records) {
   }
 }
 
-export function parseBocmSummaryXml(xml) {
+function parseOfficialXml(xml, root) {
+  if (XMLValidator.validate(xml) !== true) throw new Error('XML oficial no válido')
   const parsed = xmlParser.parse(xml)
+  if (!parsed[root]) throw new Error(`Respuesta inesperada: falta ${root}`)
+  return parsed
+}
+
+export function parseBocmSummaryXml(xml) {
+  const parsed = parseOfficialXml(xml, 'sumario')
   const records = []
   walkBocm(parsed, {}, records)
   return records
 }
 
 export function parseBocmRss(xml) {
-  const parsed = xmlParser.parse(xml)
+  const parsed = parseOfficialXml(xml, 'rss')
+  if (!parsed.rss?.channel) throw new Error('RSS BOCM sin canal')
   return asArray(parsed?.rss?.channel?.item).map((item) => {
     const link = cleanText(item.link)
     const match = link.match(/BOCM-(\d{4})(\d{2})(\d{2})\/(\d+)/i)
@@ -215,6 +223,7 @@ export function parseBocmRss(xml) {
 
 export function parseBocmSearchPage(html) {
   const $ = cheerio.load(html)
+  if (!$('.view-footer, .view-empty, article.node-orden').length) throw new Error('Buscador BOCM: estructura no reconocida')
   const records = []
   $('.views-row article.node-orden').each((_, element) => {
     const article = $(element)
@@ -302,7 +311,7 @@ function linkHref(link) {
 }
 
 export function parseContractsFeed(xml) {
-  const parsed = xmlParser.parse(xml)
+  const parsed = parseOfficialXml(xml, 'feed')
   const entries = asArray(parsed?.feed?.entry)
   return entries.flatMap((entry) => {
     const folder = findFirst(entry, 'ContractFolderStatus') || entry
@@ -345,9 +354,14 @@ export function parseSpanishDate(value) {
   const text = normalize(value)
   const numeric = text.match(/(\d{1,2})\/(\d{1,2})\/(\d{4})/)
   if (numeric) return `${numeric[3]}-${numeric[2].padStart(2, '0')}-${numeric[1].padStart(2, '0')}`
-  const words = text.match(/(\d{1,2})\s+de\s+([a-z]+)(?:\s+del?)?\s+(\d{4})(?:\s+(\d{1,2}):(\d{2}))?/)
+  const words = text.match(/(\d{1,2})\s+(?:de\s+)?([a-z]+)(?:\s+del?)?\s+(\d{4})(?:\s+(\d{1,2}):(\d{2}))?/)
   if (!words || !spanishMonths[words[2]]) return ''
-  return `${words[3]}-${spanishMonths[words[2]]}-${words[1].padStart(2, '0')}${words[4] ? `T${words[4].padStart(2, '0')}:${words[5]}:00+02:00` : ''}`
+  const day = `${words[3]}-${spanishMonths[words[2]]}-${words[1].padStart(2, '0')}`
+  if (!words[4]) return day
+  const local = `${day}T${words[4].padStart(2, '0')}:${words[5]}:00`
+  const madridOffset = new Intl.DateTimeFormat('en', { timeZone: 'Europe/Madrid', timeZoneName: 'longOffset' })
+    .formatToParts(new Date(`${local}Z`)).find((part) => part.type === 'timeZoneName').value.replace('GMT', '')
+  return `${local}${madridOffset}`
 }
 
 function contractField(item, className) {
@@ -356,6 +370,7 @@ function contractField(item, className) {
 
 export function parseContractsSearchPage(html) {
   const $ = cheerio.load(html)
+  if (!$('.summary, .view-empty, .views-field-nothing').length) throw new Error('Buscador de contratos: estructura no reconocida')
   const records = []
   $('.view-content li').each((_, element) => {
     const item = $(element)
@@ -398,10 +413,35 @@ export function contractsFeedUrl(page = 0) {
 }
 
 export function parseEmploymentPage(html, pageUrl = METRO_EMPLOYMENT_URL) {
-  if (/requested url was rejected|support id is/i.test(html)) {
+  if (/requested url was rejected|support id is|acceso no disponible|solicitud ha sido bloqueada/i.test(html)) {
     throw new Error('El portal de Empleo Metro ha rechazado temporalmente la consulta automatizada')
   }
   const $ = cheerio.load(html)
+  const cards = $('article.node--type-job-offer')
+  if (cards.length) {
+    return cards.map((_, element) => {
+      const card = $(element)
+      const anchor = card.find('h2 a[href], h3 a[href]').first()
+      const title = cleanText(anchor.text())
+      const vacancies = Number(cleanText(card.find('.field-name-field-job-vacancies .field-item').text()))
+      const updatedAt = parseSpanishDate(card.find('.date_modf').text())
+      const deadline = card.find('.field-name-field-job-deadline time').attr('datetime')
+      const status = cleanText(card.find('.field-name-field-job-offer-status .field-item').text())
+      if (!title || !anchor.attr('href') || !Number.isInteger(vacancies) || vacancies < 1 || !updatedAt) {
+        throw new Error('Oferta de Empleo Metro incompleta; se conserva el archivo anterior')
+      }
+      const url = new URL(anchor.attr('href'), pageUrl).href
+      return {
+        id: canonicalId('empleo', url), source: 'empleo', title,
+        summary: cleanText(card.text()), issuer: 'Metro de Madrid, S.A.',
+        publicationType: 'Oferta de empleo', status, vacancies, position: title,
+        jobPositions: [{ position: title, vacancies }],
+        // The listing exposes an update date, not a publication date.
+        publishedAt: updatedAt.slice(0, 10), dateBasis: 'updated', updatedAt,
+        deadline, url, tags: ['empleo'],
+      }
+    }).get()
+  }
   const records = new Map()
   $('a[href]').each((_, element) => {
     const anchor = $(element)
@@ -434,13 +474,13 @@ export function parseEmploymentPage(html, pageUrl = METRO_EMPLOYMENT_URL) {
       position,
       jobPositions: jobPositions.length ? jobPositions : [{ position, vacancies }],
       publishedAt,
-      updatedAt: new Date().toISOString(),
       url,
       pdfUrl: /\.pdf(?:$|\?)/i.test(url) ? url : undefined,
       tags: ['empleo'],
     }
     records.set(record.id, record)
   })
+  if (!records.size && !$('.view-empty').length) throw new Error('Empleo Metro: estructura no reconocida; no se puede confirmar que no haya ofertas')
   return [...records.values()]
 }
 
