@@ -1,28 +1,28 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-20T17:54:01.391Z",
+  "generatedAt": "2026-10-20T22:13:15.337Z",
   "coverage": {
     "bocm": "2009-12-01 a 2026-10-19",
-    "contratos": "2017-02-02 a 2026-10-20",
+    "contratos": "2017-02-02 a 2026-10-21",
     "empleo": "2016-10-31 a 2026-10-16"
   },
   "sources": {
     "bocm": {
-      "checkedAt": "2026-10-20T17:54:01.391Z",
+      "checkedAt": "2026-10-20T22:13:15.337Z",
       "ok": true,
       "partial": false,
       "message": "10 registros relevantes comprobados",
       "recordsSeen": 10
     },
     "contratos": {
-      "checkedAt": "2026-10-20T17:54:01.391Z",
+      "checkedAt": "2026-10-20T22:13:15.337Z",
       "ok": true,
       "partial": false,
       "message": "4 registros relevantes comprobados",
       "recordsSeen": 4
     },
     "empleo": {
-      "checkedAt": "2026-10-20T17:54:01.391Z",
+      "checkedAt": "2026-10-20T22:13:15.337Z",
       "ok": true,
       "partial": true,
       "message": "Cobertura mediante BOCM: 1 convocatoria(s) reciente(s) revisada(s); el portal directo protege el acceso automatizado",
@@ -30,6 +30,23 @@
     }
   },
   "items": [
+    {
+      "id": "contratos:servicios-apoyo-actividades-mantenimiento-material-movil-equipos-trabajo-presencia",
+      "source": "contratos",
+      "title": "Servicios de apoyo a las actividades de mantenimiento del material móvil y equipos de trabajo con presencia de materiales con amianto (MCA)",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Pendiente de adjudicación",
+      "status": "Pendiente de adjudicación",
+      "expediente": "6012600246",
+      "publishedAt": "2026-10-21",
+      "updatedAt": "2026-10-21T00:06:14+02:00",
+      "deadline": "2026-10-20",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicios-apoyo-actividades-mantenimiento-material-movil-equipos-trabajo-presencia",
+      "firstSeenAt": "2026-09-21T14:31:16.484Z",
+      "summary": "Id licitación: 6012600246;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 1300800.00 EUR;",
+      "amount": 1300800,
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-09/6012600246_pliego_de_prescripciones_tecnicas_signed.pdf"
+    },
     {
       "id": "contratos:suministro-trabajos-cerrajeria-rediseno-materiales-coordinacion-linea-aerea",
       "source": "contratos",
@@ -3111,20 +3128,6 @@
       "deadline": "2026-09-21",
       "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-proyecto-despliegue-asistente-operativo-lar-fase-1",
       "firstSeenAt": "2026-08-11T10:29:06.918Z"
-    },
-    {
-      "id": "contratos:servicios-apoyo-actividades-mantenimiento-material-movil-equipos-trabajo-presencia",
-      "source": "contratos",
-      "title": "Servicios de apoyo a las actividades de mantenimiento del material móvil y equipos de trabajo con presencia de materiales con amianto (MCA)",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Convocatoria anunciada a licitación",
-      "status": "En plazo",
-      "expediente": "6012600246",
-      "publishedAt": "2026-09-23",
-      "updatedAt": "2026-09-23T11:50:00+02:00",
-      "deadline": "2026-10-20",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicios-apoyo-actividades-mantenimiento-material-movil-equipos-trabajo-presencia",
-      "firstSeenAt": "2026-09-21T14:31:16.484Z"
     },
     {
       "id": "contratos:suministro-mantenimiento-plataforma-tecnologica-ciac-centro-interactivo-atencion-0",
