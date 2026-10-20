@@ -1,4 +1,5 @@
 import { mkdir, readFile, rename, writeFile } from 'node:fs/promises'
+import { healthSummary } from './health-summary.mjs'
 import { dirname, resolve } from 'node:path'
 import {
   BOCM_RSS,
@@ -259,6 +260,9 @@ await mkdir(dirname(dataPath), { recursive: true })
 const pendingPath = `${dataPath}.${process.pid}.tmp`
 await writeFile(pendingPath, `${JSON.stringify(archive, null, 2)}\n`, 'utf8')
 await rename(pendingPath, dataPath)
+const healthPath = resolve(dirname(dataPath), 'health.json')
+await writeFile(`${healthPath}.${process.pid}.tmp`, `${JSON.stringify(healthSummary(archive), null, 2)}\n`, 'utf8')
+await rename(`${healthPath}.${process.pid}.tmp`, healthPath)
 console.log(`Archivo actualizado: ${archive.items.length} publicaciones en total`)
 console.log(`Novedades detectadas: ${newItems.length} nuevas y ${updatedItems.length} actualizadas`)
 
