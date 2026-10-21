@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-21T12:52:08.561Z",
+  "generatedAt": "2026-10-21T17:58:32.992Z",
   "coverage": {
     "bocm": "2009-12-01 a 2026-10-19",
     "contratos": "2017-02-02 a 2026-10-21",
@@ -8,21 +8,21 @@
   },
   "sources": {
     "bocm": {
-      "checkedAt": "2026-10-21T12:52:08.561Z",
+      "checkedAt": "2026-10-21T17:58:32.992Z",
       "ok": true,
-      "partial": false,
-      "message": "10 registros relevantes comprobados",
+      "partial": true,
+      "message": "10 registros relevantes comprobados; 13 documento(s) omitido(s) temporalmente",
       "recordsSeen": 10
     },
     "contratos": {
-      "checkedAt": "2026-10-21T12:52:08.561Z",
+      "checkedAt": "2026-10-21T17:58:32.992Z",
       "ok": true,
       "partial": false,
       "message": "4 registros relevantes comprobados",
       "recordsSeen": 4
     },
     "empleo": {
-      "checkedAt": "2026-10-21T12:52:08.561Z",
+      "checkedAt": "2026-10-21T17:58:32.992Z",
       "ok": true,
       "partial": true,
       "message": "Cobertura mediante BOCM: 1 convocatoria(s) reciente(s) revisada(s); el portal directo protege el acceso automatizado",
@@ -1671,9 +1671,9 @@
       "issuer": "CONSEJERÍA DE VIVIENDA, TRANSPORTES E INFRAESTRUCTURAS",
       "publicationType": "ANUNCIO",
       "publishedAt": "2026-10-06",
-      "url": "https://www.bocm.es/bocm-20261006-4?language=es",
+      "url": "https://www.bocm.es/bocm-20261006-4",
       "pdfUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/10/06/BOCM-20261006-4.PDF",
-      "xmlUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/10/06/BOCM-20261006-4.xml?language=es",
+      "xmlUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/10/06/BOCM-20261006-4.xml",
       "vacancies": 2,
       "position": "Técnico/a",
       "jobPositions": [
@@ -1696,9 +1696,9 @@
       "issuer": "CONSEJERÍA DE VIVIENDA, TRANSPORTES E INFRAESTRUCTURAS",
       "publicationType": "ANUNCIO",
       "publishedAt": "2026-10-06",
-      "url": "https://www.bocm.es/bocm-20261006-16?language=es",
+      "url": "https://www.bocm.es/bocm-20261006-16",
       "pdfUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/10/06/BOCM-20261006-16.PDF",
-      "xmlUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/10/06/BOCM-20261006-16.xml?language=es",
+      "xmlUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/10/06/BOCM-20261006-16.xml",
       "firstSeenAt": "2026-10-06T09:23:04.400Z",
       "tags": [
         "I. COMUNIDAD DE MADRID · D) Anuncios"
@@ -1712,9 +1712,9 @@
       "issuer": "CONSEJERÍA DE VIVIENDA, TRANSPORTES E INFRAESTRUCTURAS",
       "publicationType": "ANUNCIO",
       "publishedAt": "2026-10-06",
-      "url": "https://www.bocm.es/bocm-20261006-17?language=es",
+      "url": "https://www.bocm.es/bocm-20261006-17",
       "pdfUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/10/06/BOCM-20261006-17.PDF",
-      "xmlUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/10/06/BOCM-20261006-17.xml?language=es",
+      "xmlUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/10/06/BOCM-20261006-17.xml",
       "firstSeenAt": "2026-10-06T09:23:04.400Z",
       "tags": [
         "I. COMUNIDAD DE MADRID · D) Anuncios"
@@ -2647,9 +2647,9 @@
       "issuer": "CONSEJERÍA DE VIVIENDA, TRANSPORTES E INFRAESTRUCTURAS",
       "publicationType": "RESOLUCIÓN",
       "publishedAt": "2026-10-02",
-      "url": "https://www.bocm.es/bocm-20261002-35?language=es",
+      "url": "https://www.bocm.es/bocm-20261002-35",
       "pdfUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/10/02/BOCM-20261002-35.PDF",
-      "xmlUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/10/02/BOCM-20261002-35.xml?language=es",
+      "xmlUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/10/02/BOCM-20261002-35.xml",
       "firstSeenAt": "2026-10-02T13:07:11.794Z",
       "tags": [
         "I. COMUNIDAD DE MADRID · D) Anuncios"
@@ -2663,9 +2663,9 @@
       "issuer": "CONSEJERÍA DE VIVIENDA, TRANSPORTES E INFRAESTRUCTURAS",
       "publicationType": "ANUNCIO",
       "publishedAt": "2026-10-02",
-      "url": "https://www.bocm.es/bocm-20261002-36?language=es",
+      "url": "https://www.bocm.es/bocm-20261002-36",
       "pdfUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/10/02/BOCM-20261002-36.PDF",
-      "xmlUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/10/02/BOCM-20261002-36.xml?language=es",
+      "xmlUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/10/02/BOCM-20261002-36.xml",
       "firstSeenAt": "2026-10-02T13:07:11.794Z",
       "tags": [
         "I. COMUNIDAD DE MADRID · D) Anuncios"
