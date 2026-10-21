@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-20T22:13:15.337Z",
+  "generatedAt": "2026-10-21T12:52:08.561Z",
   "coverage": {
     "bocm": "2009-12-01 a 2026-10-19",
     "contratos": "2017-02-02 a 2026-10-21",
@@ -8,21 +8,21 @@
   },
   "sources": {
     "bocm": {
-      "checkedAt": "2026-10-20T22:13:15.337Z",
+      "checkedAt": "2026-10-21T12:52:08.561Z",
       "ok": true,
       "partial": false,
       "message": "10 registros relevantes comprobados",
       "recordsSeen": 10
     },
     "contratos": {
-      "checkedAt": "2026-10-20T22:13:15.337Z",
+      "checkedAt": "2026-10-21T12:52:08.561Z",
       "ok": true,
       "partial": false,
       "message": "4 registros relevantes comprobados",
       "recordsSeen": 4
     },
     "empleo": {
-      "checkedAt": "2026-10-20T22:13:15.337Z",
+      "checkedAt": "2026-10-21T12:52:08.561Z",
       "ok": true,
       "partial": true,
       "message": "Cobertura mediante BOCM: 1 convocatoria(s) reciente(s) revisada(s); el portal directo protege el acceso automatizado",
@@ -30,6 +30,74 @@
     }
   },
   "items": [
+    {
+      "id": "contratos:servicio-vigilancia-seguridad-instalaciones-constituyen-patrimonio-metro-madrid",
+      "source": "contratos",
+      "title": "Servicio de vigilancia para la seguridad de las instalaciones que constituyen el patrimonio de Metro de Madrid: los recintos, la sede social, dependencias y edificios singulares (museos)",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Resuelta / Finalizada",
+      "status": "Resuelta / Finalizada",
+      "expediente": "6012400070",
+      "publishedAt": "2026-10-21",
+      "updatedAt": "2026-10-21T13:55:52+02:00",
+      "deadline": "2024-04-16",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-vigilancia-seguridad-instalaciones-constituyen-patrimonio-metro-madrid",
+      "firstSeenAt": "2026-08-05T08:03:18.389Z",
+      "summary": "Id licitación: 6012400070;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 82584279.72 EUR;",
+      "amount": 82584279.72,
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2024-02/6012400070_referencia_ppt_signed.pdf"
+    },
+    {
+      "id": "contratos:servicio-mantenimiento-integral-maquinas-automaticas-venta-titulos-transporte-0",
+      "source": "contratos",
+      "title": "Servicio de mantenimiento integral de máquinas automáticas de venta de títulos de transporte",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Adjudicada",
+      "status": "Adjudicada",
+      "expediente": "6012600120",
+      "publishedAt": "2026-10-21",
+      "updatedAt": "2026-10-21T10:58:02+02:00",
+      "deadline": "2026-06-03",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-mantenimiento-integral-maquinas-automaticas-venta-titulos-transporte-0",
+      "firstSeenAt": "2026-08-05T08:03:18.389Z",
+      "summary": "Id licitación: 6012600120;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 8783586.54 EUR;",
+      "amount": 8783586.54,
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-04/6012600120_ppt_signed.pdf"
+    },
+    {
+      "id": "contratos:servicio-estudios-opinion-metro-madrid-1",
+      "source": "contratos",
+      "title": "Servicio de estudios de opinión de Metro de Madrid",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Resuelta / Finalizada",
+      "status": "Resuelta / Finalizada",
+      "expediente": "6012400239",
+      "publishedAt": "2026-10-21",
+      "updatedAt": "2026-10-21T10:16:50+02:00",
+      "deadline": "2024-07-12",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-estudios-opinion-metro-madrid-1",
+      "firstSeenAt": "2026-08-05T08:03:18.389Z",
+      "summary": "Id licitación: 6012400239;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 435000.00 EUR;",
+      "amount": 435000,
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2024-06/6012400239_pliego_de_prescripciones_tecnicas_signed.pdf"
+    },
+    {
+      "id": "contratos:servicio-inspecciones-periodicas-reglamentarias-ascensores-metro-madrid",
+      "source": "contratos",
+      "title": "Servicio de inspecciones periódicas reglamentarias para ascensores de Metro de Madrid",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Pendiente de adjudicación",
+      "status": "Pendiente de adjudicación",
+      "expediente": "6012600231",
+      "publishedAt": "2026-10-21",
+      "updatedAt": "2026-10-21T10:00:07+02:00",
+      "deadline": "2026-09-30",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-inspecciones-periodicas-reglamentarias-ascensores-metro-madrid",
+      "firstSeenAt": "2026-08-24T07:18:57.908Z",
+      "summary": "Id licitación: 6012600231;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 408204.00 EUR;",
+      "amount": 408204,
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-08/6012600231_ppt_signed.pdf"
+    },
     {
       "id": "contratos:servicios-apoyo-actividades-mantenimiento-material-movil-equipos-trabajo-presencia",
       "source": "contratos",
@@ -1598,12 +1666,12 @@
     {
       "id": "bocm:bocm-20261006-4",
       "source": "bocm",
-      "title": "Convocatoria proceso selectivo– Anuncio de 1 de octubre de 2026, por el que se hace pública la convocatoria de un proceso selectivo para cubrir dos puestos de trabajo de Técnico/a en la División de Material Móvil de la Dirección de Explotación Ferroviaria de Metro de Madrid, S. A., mediante un contrato laboral indefinido y a jornada completa",
-      "summary": "Convocatoria proceso selectivo– Anuncio de 1 de octubre de 2026, por el que se hace pública la convocatoria de un proceso selectivo para cubrir dos puestos de trabajo de Técnico/a en la División de Material Móvil de la Dirección de Explotación Ferroviaria de Metro de Madrid, S. A., mediante un contrato laboral indefinido y a jornada completa",
-      "issuer": "CONSEJERÍA DE VIVIENDA, TRANSPORTES E INFRAESTRUCTURAS · METRO DE MADRID, S. A.",
-      "publicationType": "Convocatoria proceso selectivo",
+      "title": "Convocatoria proceso selectivo – Anuncio de 1 de octubre de 2026, por el que se hace pública la convocatoria de un proceso selectivo para cubrir dos puestos de trabajo de Técnico/a en la División de Material Móvil de la Dirección de Explotación Ferroviaria de Metro de Madrid, S. A., mediante un contrato laboral indefinido y a jornada completa",
+      "summary": "Convocatoria proceso selectivo – Anuncio de 1 de octubre de 2026, por el que se hace pública la convocatoria de un proceso selectivo para cubrir dos puestos de trabajo de Técnico/a en la División de Material Móvil de la Dirección de Explotación Ferroviaria de Metro de Madrid, S. A., mediante un contrato laboral indefinido y a jornada completa",
+      "issuer": "CONSEJERÍA DE VIVIENDA, TRANSPORTES E INFRAESTRUCTURAS",
+      "publicationType": "ANUNCIO",
       "publishedAt": "2026-10-06",
-      "url": "https://www.bocm.es/bocm-20261006-4",
+      "url": "https://www.bocm.es/bocm-20261006-4?language=es",
       "pdfUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/10/06/BOCM-20261006-4.PDF",
       "xmlUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/10/06/BOCM-20261006-4.xml?language=es",
       "vacancies": 2,
@@ -1615,6 +1683,7 @@
         }
       ],
       "tags": [
+        "I. COMUNIDAD DE MADRID · B) Autoridades y Personal",
         "empleo"
       ],
       "firstSeenAt": "2026-10-06T09:23:04.400Z"
@@ -1622,28 +1691,34 @@
     {
       "id": "bocm:bocm-20261006-16",
       "source": "bocm",
-      "title": "Formalización contrato– Anuncio de 24 de septiembre de 2026, de formalización del contrato titulado “Suministro para la renovación integral de los sistemas de seguridad del recinto de Cuatro Vientos de Metro de Madrid”. (Expediente 6012500378)-(Contrato 7726000147)",
-      "summary": "Formalización contrato– Anuncio de 24 de septiembre de 2026, de formalización del contrato titulado “Suministro para la renovación integral de los sistemas de seguridad del recinto de Cuatro Vientos de Metro de Madrid”. (Expediente 6012500378)-(Contrato 7726000147)",
-      "issuer": "CONSEJERÍA DE VIVIENDA, TRANSPORTES E INFRAESTRUCTURAS · METRO DE MADRID, S. A.",
-      "publicationType": "Formalización contrato",
+      "title": "Formalización contrato – Anuncio de 24 de septiembre de 2026, de formalización del contrato titulado “Suministro para la renovación integral de los sistemas de seguridad del recinto de Cuatro Vientos de Metro de Madrid”. (Expediente 6012500378)-(Contrato 7726000147)",
+      "summary": "Formalización contrato – Anuncio de 24 de septiembre de 2026, de formalización del contrato titulado “Suministro para la renovación integral de los sistemas de seguridad del recinto de Cuatro Vientos de Metro de Madrid”. (Expediente 6012500378)-(Contrato 7726000147)",
+      "issuer": "CONSEJERÍA DE VIVIENDA, TRANSPORTES E INFRAESTRUCTURAS",
+      "publicationType": "ANUNCIO",
       "publishedAt": "2026-10-06",
-      "url": "https://www.bocm.es/bocm-20261006-16",
+      "url": "https://www.bocm.es/bocm-20261006-16?language=es",
       "pdfUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/10/06/BOCM-20261006-16.PDF",
       "xmlUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/10/06/BOCM-20261006-16.xml?language=es",
-      "firstSeenAt": "2026-10-06T09:23:04.400Z"
+      "firstSeenAt": "2026-10-06T09:23:04.400Z",
+      "tags": [
+        "I. COMUNIDAD DE MADRID · D) Anuncios"
+      ]
     },
     {
       "id": "bocm:bocm-20261006-17",
       "source": "bocm",
-      "title": "Convocatoria contrato– Anuncio de 1 de octubre de 2026, por el que se convoca la licitación para la contratación del acuerdo marco para el suministro de herramientas de mano, herramientas eléctricas, material de ferretería y tornillería para Metro de Madrid, S. A. (expediente 6012600256)",
-      "summary": "Convocatoria contrato– Anuncio de 1 de octubre de 2026, por el que se convoca la licitación para la contratación del acuerdo marco para el suministro de herramientas de mano, herramientas eléctricas, material de ferretería y tornillería para Metro de Madrid, S. A. (expediente 6012600256)",
-      "issuer": "CONSEJERÍA DE VIVIENDA, TRANSPORTES E INFRAESTRUCTURAS · METRO DE MADRID, S. A.",
-      "publicationType": "Convocatoria contrato",
+      "title": "Convocatoria contrato – Anuncio de 1 de octubre de 2026, por el que se convoca la licitación para la contratación del acuerdo marco para el suministro de herramientas de mano, herramientas eléctricas, material de ferretería y tornillería para Metro de Madrid, S. A. (expediente 6012600256)",
+      "summary": "Convocatoria contrato – Anuncio de 1 de octubre de 2026, por el que se convoca la licitación para la contratación del acuerdo marco para el suministro de herramientas de mano, herramientas eléctricas, material de ferretería y tornillería para Metro de Madrid, S. A. (expediente 6012600256)",
+      "issuer": "CONSEJERÍA DE VIVIENDA, TRANSPORTES E INFRAESTRUCTURAS",
+      "publicationType": "ANUNCIO",
       "publishedAt": "2026-10-06",
-      "url": "https://www.bocm.es/bocm-20261006-17",
+      "url": "https://www.bocm.es/bocm-20261006-17?language=es",
       "pdfUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/10/06/BOCM-20261006-17.PDF",
       "xmlUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/10/06/BOCM-20261006-17.xml?language=es",
-      "firstSeenAt": "2026-10-06T09:23:04.400Z"
+      "firstSeenAt": "2026-10-06T09:23:04.400Z",
+      "tags": [
+        "I. COMUNIDAD DE MADRID · D) Anuncios"
+      ]
     },
     {
       "id": "empleo:maquinista-de-traccion-electrica-y-jefea-de-sector-0",
@@ -1670,23 +1745,6 @@
         "empleo"
       ],
       "firstSeenAt": "2026-10-20T10:58:07.406Z"
-    },
-    {
-      "id": "contratos:servicio-inspecciones-periodicas-reglamentarias-ascensores-metro-madrid",
-      "source": "contratos",
-      "title": "Servicio de inspecciones periódicas reglamentarias para ascensores de Metro de Madrid",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Pendiente de adjudicación",
-      "status": "Pendiente de adjudicación",
-      "expediente": "6012600231",
-      "publishedAt": "2026-10-05",
-      "updatedAt": "2026-10-05T13:10:24+02:00",
-      "deadline": "2026-09-30",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-inspecciones-periodicas-reglamentarias-ascensores-metro-madrid",
-      "firstSeenAt": "2026-08-24T07:18:57.908Z",
-      "summary": "Id licitación: 6012600231;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 408204.00 EUR;",
-      "amount": 408204,
-      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-08/6012600231_ppt_signed.pdf"
     },
     {
       "id": "contratos:suministro-andamios-regimen-alquiler",
@@ -2970,23 +3028,6 @@
       "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-04/6012600106_ppt_signed.pdf"
     },
     {
-      "id": "contratos:servicio-vigilancia-seguridad-instalaciones-constituyen-patrimonio-metro-madrid",
-      "source": "contratos",
-      "title": "Servicio de vigilancia para la seguridad de las instalaciones que constituyen el patrimonio de Metro de Madrid: los recintos, la sede social, dependencias y edificios singulares (museos)",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Resuelta / Finalizada",
-      "status": "Resuelta / Finalizada",
-      "expediente": "6012400070",
-      "publishedAt": "2026-09-28",
-      "updatedAt": "2026-09-28T08:28:15+02:00",
-      "deadline": "2024-04-16",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-vigilancia-seguridad-instalaciones-constituyen-patrimonio-metro-madrid",
-      "firstSeenAt": "2026-08-05T08:03:18.389Z",
-      "summary": "Id licitación: 6012400070;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 82584279.72 EUR;",
-      "amount": 82584279.72,
-      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2024-02/6012400070_referencia_ppt_signed.pdf"
-    },
-    {
       "id": "contratos:servicio-reparacion-tarjetas-electronicas-venta-peaje-0",
       "source": "contratos",
       "title": "Servicio de reparación de tarjetas electrónicas de venta y peaje",
@@ -3750,23 +3791,6 @@
       "summary": "Id licitación: 6012300285;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 112750.00 EUR;",
       "amount": 112750,
       "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2023-11/6012300285_pliego_de_prescripciones_tecnicas.pdf"
-    },
-    {
-      "id": "contratos:servicio-mantenimiento-integral-maquinas-automaticas-venta-titulos-transporte-0",
-      "source": "contratos",
-      "title": "Servicio de mantenimiento integral de máquinas automáticas de venta de títulos de transporte",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Pendiente de adjudicación",
-      "status": "Pendiente de adjudicación",
-      "expediente": "6012600120",
-      "publishedAt": "2026-09-09",
-      "updatedAt": "2026-09-09T12:25:41+02:00",
-      "deadline": "2026-06-03",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-mantenimiento-integral-maquinas-automaticas-venta-titulos-transporte-0",
-      "firstSeenAt": "2026-08-05T08:03:18.389Z",
-      "summary": "Id licitación: 6012600120;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 8783586.54 EUR;",
-      "amount": 8783586.54,
-      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-04/6012600120_ppt_signed.pdf"
     },
     {
       "id": "contratos:obras-equipos-senalizacion-derivados-actuaciones-plataforma-via-metro-madrid",
@@ -27939,20 +27963,6 @@
       "updatedAt": "2024-12-27T13:33:00+02:00",
       "deadline": "2024-10-04",
       "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-consultoria-configuracion-implantacion-mantenimiento-plataforma-e",
-      "firstSeenAt": "2026-08-05T08:03:18.389Z"
-    },
-    {
-      "id": "contratos:servicio-estudios-opinion-metro-madrid-1",
-      "source": "contratos",
-      "title": "Servicio de estudios de opinión de Metro de Madrid",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Convocatoria anunciada a licitación",
-      "status": "Resuelta / Finalizada",
-      "expediente": "6012400239",
-      "publishedAt": "2024-12-27",
-      "updatedAt": "2024-12-27T13:28:00+02:00",
-      "deadline": "2024-07-12",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-estudios-opinion-metro-madrid-1",
       "firstSeenAt": "2026-08-05T08:03:18.389Z"
     },
     {
