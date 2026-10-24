@@ -1,35 +1,86 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-23T21:58:34.106Z",
+  "generatedAt": "2026-10-24T11:57:07.259Z",
   "coverage": {
     "bocm": "2009-12-01 a 2026-10-23",
-    "contratos": "2017-02-02 a 2026-10-23",
+    "contratos": "2017-02-02 a 2026-10-24",
     "empleo": "2016-10-31 a 2026-10-16"
   },
   "sources": {
     "bocm": {
-      "checkedAt": "2026-10-23T21:58:34.106Z",
+      "checkedAt": "2026-10-24T11:57:07.259Z",
       "ok": true,
       "partial": true,
-      "message": "6 registros relevantes comprobados; 13 documento(s) omitido(s) temporalmente",
-      "recordsSeen": 6
+      "message": "2 registros relevantes comprobados; 16 documento(s) omitido(s) temporalmente",
+      "recordsSeen": 2
     },
     "contratos": {
-      "checkedAt": "2026-10-23T21:58:34.106Z",
+      "checkedAt": "2026-10-24T11:57:07.259Z",
       "ok": true,
       "partial": false,
-      "message": "8 registros relevantes comprobados",
-      "recordsSeen": 8
+      "message": "9 registros relevantes comprobados",
+      "recordsSeen": 9
     },
     "empleo": {
-      "checkedAt": "2026-10-23T21:58:34.106Z",
+      "checkedAt": "2026-10-24T11:57:07.259Z",
       "ok": true,
       "partial": true,
-      "message": "Cobertura mediante BOCM: 1 convocatoria(s) reciente(s) revisada(s); el portal directo protege el acceso automatizado",
-      "recordsSeen": 1
+      "message": "Cobertura mediante BOCM: 0 convocatoria(s) reciente(s) revisada(s); el portal directo protege el acceso automatizado",
+      "recordsSeen": 0
     }
   },
   "items": [
+    {
+      "id": "contratos:servicio-mejora-fiabilidad-elementos-neumaticos-pupitre-conduccion-trenes-0",
+      "source": "contratos",
+      "title": "Servicio para la mejora de fiabilidad en elementos neumáticos de pupitre de conducción en trenes de subseries 8000 1ª MRM",
+      "summary": "Id licitación: 6012600258;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 33422.40 EUR;",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Pendiente de adjudicación",
+      "status": "Pendiente de adjudicación",
+      "expediente": "6012600258",
+      "amount": 33422.4,
+      "deadline": "2026-10-23",
+      "publishedAt": "2026-10-24",
+      "updatedAt": "2026-10-24T00:08:17+02:00",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-mejora-fiabilidad-elementos-neumaticos-pupitre-conduccion-trenes-0",
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-10/6012600258_ppt_signed.pdf",
+      "firstSeenAt": "2026-10-07T07:10:27.942Z"
+    },
+    {
+      "id": "contratos:servicio-reacondicionamiento-instalacion-puerta-deslizante-cancela-5-estacion",
+      "source": "contratos",
+      "title": "Servicio de reacondicionamiento de la instalación puerta deslizante (cancela 5) de la estación de Estadio Metropolitano",
+      "summary": "Id licitación: 6012600260;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 45000.00 EUR;",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Pendiente de adjudicación",
+      "status": "Pendiente de adjudicación",
+      "expediente": "6012600260",
+      "amount": 45000,
+      "deadline": "2026-10-23",
+      "publishedAt": "2026-10-24",
+      "updatedAt": "2026-10-24T00:08:17+02:00",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-reacondicionamiento-instalacion-puerta-deslizante-cancela-5-estacion",
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-10/6012600260_ppt_signed.pdf",
+      "firstSeenAt": "2026-10-06T09:23:04.400Z"
+    },
+    {
+      "id": "contratos:servicio-reparacion-tarjetas-sdpi-distintas-series-metro-madrid",
+      "source": "contratos",
+      "title": "Servicio de reparación de las tarjetas SDPI de las distintas series de Metro de Madrid",
+      "summary": "Id licitación: 6012600252;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 139200.00 EUR;",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Pendiente de adjudicación",
+      "status": "Pendiente de adjudicación",
+      "expediente": "6012600252",
+      "amount": 139200,
+      "deadline": "2026-10-23",
+      "publishedAt": "2026-10-24",
+      "updatedAt": "2026-10-24T00:08:17+02:00",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-reparacion-tarjetas-sdpi-distintas-series-metro-madrid",
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-09/6012600252_referencia_al_ppt_signed.pdf",
+      "firstSeenAt": "2026-09-30T11:20:18.593Z"
+    },
     {
       "id": "contratos:servicio-reparacion-reductores-modelo-flender-akef-2345-watteeuw-abh2-567-serie",
       "source": "contratos",
@@ -369,15 +420,18 @@
     {
       "id": "bocm:bocm-20261022-23",
       "source": "bocm",
-      "title": "Formalización contrato– Resolución de 9 de octubre de 2026, de la Secretaría General Técnica de la Consejería de Vivienda, Transportes e Infraestructuras, por la que se dispone la publicación en los boletines oficiales y en el “perfil del contratante” de la formalización del contrato de obras de ejecución de la señalización para la ampliación de la línea 11 de metro de Madrid. Tramo Plaza Elíptica-Conde de Casal",
-      "summary": "Formalización contrato– Resolución de 9 de octubre de 2026, de la Secretaría General Técnica de la Consejería de Vivienda, Transportes e Infraestructuras, por la que se dispone la publicación en los boletines oficiales y en el “perfil del contratante” de la formalización del contrato de obras de ejecución de la señalización para la ampliación de la línea 11 de metro de Madrid. Tramo Plaza Elíptica-Conde de Casal",
+      "title": "Formalización contrato – Resolución de 9 de octubre de 2026, de la Secretaría General Técnica de la Consejería de Vivienda, Transportes e Infraestructuras, por la que se dispone la publicación en los boletines oficiales y en el “perfil del contratante” de la formalización del contrato de obras de ejecución de la señalización para la ampliación de la línea 11 de metro de Madrid. Tramo Plaza Elíptica-Conde de Casal",
+      "summary": "Formalización contrato – Resolución de 9 de octubre de 2026, de la Secretaría General Técnica de la Consejería de Vivienda, Transportes e Infraestructuras, por la que se dispone la publicación en los boletines oficiales y en el “perfil del contratante” de la formalización del contrato de obras de ejecución de la señalización para la ampliación de la línea 11 de metro de Madrid. Tramo Plaza Elíptica-Conde de Casal",
       "issuer": "CONSEJERÍA DE VIVIENDA, TRANSPORTES E INFRAESTRUCTURAS",
-      "publicationType": "Formalización contrato",
+      "publicationType": "RESOLUCIÓN",
       "publishedAt": "2026-10-22",
       "url": "https://www.bocm.es/bocm-20261022-23",
       "pdfUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/10/22/BOCM-20261022-23.PDF",
-      "xmlUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/10/22/BOCM-20261022-23.xml?language=es",
-      "firstSeenAt": "2026-10-22T12:55:01.944Z"
+      "xmlUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/10/22/BOCM-20261022-23.xml",
+      "firstSeenAt": "2026-10-22T12:55:01.944Z",
+      "tags": [
+        "I. COMUNIDAD DE MADRID · D) Anuncios"
+      ]
     },
     {
       "id": "contratos:servicio-vigilancia-seguridad-instalaciones-constituyen-patrimonio-metro-madrid",
@@ -1439,9 +1493,9 @@
       "issuer": "CONSEJERÍA DE VIVIENDA, TRANSPORTES E INFRAESTRUCTURAS",
       "publicationType": "ANUNCIO",
       "publishedAt": "2026-10-09",
-      "url": "https://www.bocm.es/bocm-20261009-39?language=es",
+      "url": "https://www.bocm.es/bocm-20261009-39",
       "pdfUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/10/09/BOCM-20261009-39.PDF",
-      "xmlUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/10/09/BOCM-20261009-39.xml?language=es",
+      "xmlUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/10/09/BOCM-20261009-39.xml",
       "firstSeenAt": "2026-10-09T14:19:30.680Z",
       "tags": [
         "I. COMUNIDAD DE MADRID · D) Anuncios"
@@ -1643,23 +1697,6 @@
       "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-05/6012600136_pliego_de_prescripciones_tecnicas_signed.pdf"
     },
     {
-      "id": "contratos:servicio-mejora-fiabilidad-elementos-neumaticos-pupitre-conduccion-trenes-0",
-      "source": "contratos",
-      "title": "Servicio para la mejora de fiabilidad en elementos neumáticos de pupitre de conducción en trenes de subseries 8000 1ª MRM",
-      "summary": "Id licitación: 6012600258;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 33422.40 EUR;",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "En plazo",
-      "status": "En plazo",
-      "expediente": "6012600258",
-      "amount": 33422.4,
-      "deadline": "2026-10-23",
-      "publishedAt": "2026-10-07",
-      "updatedAt": "2026-10-07T08:23:39+02:00",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-mejora-fiabilidad-elementos-neumaticos-pupitre-conduccion-trenes-0",
-      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-10/6012600258_ppt_signed.pdf",
-      "firstSeenAt": "2026-10-07T07:10:27.942Z"
-    },
-    {
       "id": "contratos:acuerdo-marco-suministro-herramientas-mano-herramientas-electricas-material-0",
       "source": "contratos",
       "title": "Acuerdo marco para el suministro de herramientas de mano, herramientas eléctricas, material de ferretería y tornillería para Metro de Madrid, S.A",
@@ -1810,23 +1847,6 @@
       "summary": "Id licitación: 6012400164;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 2700000.00 EUR;",
       "amount": 2700000,
       "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2024-10/6012400164_ppt.pdf"
-    },
-    {
-      "id": "contratos:servicio-reacondicionamiento-instalacion-puerta-deslizante-cancela-5-estacion",
-      "source": "contratos",
-      "title": "Servicio de reacondicionamiento de la instalación puerta deslizante (cancela 5) de la estación de Estadio Metropolitano",
-      "summary": "Id licitación: 6012600260;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 45000.00 EUR;",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "En plazo",
-      "status": "En plazo",
-      "expediente": "6012600260",
-      "amount": 45000,
-      "deadline": "2026-10-23",
-      "publishedAt": "2026-10-06",
-      "updatedAt": "2026-10-06T08:15:51+02:00",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-reacondicionamiento-instalacion-puerta-deslizante-cancela-5-estacion",
-      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-10/6012600260_ppt_signed.pdf",
-      "firstSeenAt": "2026-10-06T09:23:04.400Z"
     },
     {
       "id": "bocm:bocm-20261006-4",
@@ -3055,23 +3075,6 @@
       "summary": "Id licitación: 6012600178;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 126922.34 EUR;",
       "amount": 126922.34,
       "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-06/6012600178_ppt_signed.pdf"
-    },
-    {
-      "id": "contratos:servicio-reparacion-tarjetas-sdpi-distintas-series-metro-madrid",
-      "source": "contratos",
-      "title": "Servicio de reparación de las tarjetas SDPI de las distintas series de Metro de Madrid",
-      "summary": "Id licitación: 6012600252;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 139200.00 EUR;",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "En plazo",
-      "status": "En plazo",
-      "expediente": "6012600252",
-      "amount": 139200,
-      "deadline": "2026-10-23",
-      "publishedAt": "2026-09-30",
-      "updatedAt": "2026-09-30T08:53:04+02:00",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-reparacion-tarjetas-sdpi-distintas-series-metro-madrid",
-      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-09/6012600252_referencia_al_ppt_signed.pdf",
-      "firstSeenAt": "2026-09-30T11:20:18.593Z"
     },
     {
       "id": "contratos:servicio-mantenimiento-integral-sistemas-seguridad-sacos-recintos-1",
