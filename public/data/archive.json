@@ -1,28 +1,28 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-28T23:05:22.865Z",
+  "generatedAt": "2026-10-29T14:06:35.948Z",
   "coverage": {
     "bocm": "2009-12-01 a 2026-10-27",
-    "contratos": "2017-02-02 a 2026-10-28",
+    "contratos": "2017-02-02 a 2026-10-29",
     "empleo": "2016-10-31 a 2026-10-16"
   },
   "sources": {
     "bocm": {
-      "checkedAt": "2026-10-28T23:05:22.865Z",
+      "checkedAt": "2026-10-29T14:06:35.948Z",
       "ok": true,
       "partial": true,
-      "message": "12 registros relevantes comprobados; 15 documento(s) omitido(s) temporalmente",
+      "message": "12 registros relevantes comprobados; 13 documento(s) omitido(s) temporalmente",
       "recordsSeen": 12
     },
     "contratos": {
-      "checkedAt": "2026-10-28T23:05:22.865Z",
+      "checkedAt": "2026-10-29T14:06:35.948Z",
       "ok": true,
       "partial": false,
-      "message": "10 registros relevantes comprobados",
-      "recordsSeen": 10
+      "message": "6 registros relevantes comprobados",
+      "recordsSeen": 6
     },
     "empleo": {
-      "checkedAt": "2026-10-28T23:05:22.865Z",
+      "checkedAt": "2026-10-29T14:06:35.948Z",
       "ok": true,
       "partial": true,
       "message": "Cobertura mediante BOCM: 0 convocatoria(s) reciente(s) revisada(s); el portal directo protege el acceso automatizado",
@@ -30,6 +30,107 @@
     }
   },
   "items": [
+    {
+      "id": "contratos:servicio-estudios-opinion-metro-madrid-1",
+      "source": "contratos",
+      "title": "Servicio de estudios de opinión de Metro de Madrid",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Resuelta / Finalizada",
+      "status": "Resuelta / Finalizada",
+      "expediente": "6012400239",
+      "publishedAt": "2026-10-29",
+      "updatedAt": "2026-10-29T11:38:29+02:00",
+      "deadline": "2024-07-12",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-estudios-opinion-metro-madrid-1",
+      "firstSeenAt": "2026-08-05T08:03:18.389Z",
+      "summary": "Id licitación: 6012400239;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 435000.00 EUR;",
+      "amount": 435000,
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2024-06/6012400239_pliego_de_prescripciones_tecnicas_signed.pdf"
+    },
+    {
+      "id": "contratos:obras-renovacion-carril-red-metro-madrid",
+      "source": "contratos",
+      "title": "Obras de renovación de carril en la red de Metro de Madrid",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Resuelta / Finalizada",
+      "status": "Resuelta / Finalizada",
+      "expediente": "6012400105",
+      "publishedAt": "2026-10-29",
+      "updatedAt": "2026-10-29T11:21:13+02:00",
+      "deadline": "2024-04-18",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/obras-renovacion-carril-red-metro-madrid",
+      "firstSeenAt": "2026-08-05T08:03:18.389Z",
+      "summary": "Id licitación: 6012400105;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 14993476.72 EUR;",
+      "amount": 14993476.72,
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2024-03/6012400105_pliego_de_condiciones_particulares_signed_2.pdf"
+    },
+    {
+      "id": "contratos:gestion-servicio-seis-puntos-servicio-biblioteca-metro-madrid-bibliometro-0",
+      "source": "contratos",
+      "title": "Gestión del servicio de seis puntos de servicio de biblioteca en el Metro de Madrid (Bibliometro)",
+      "summary": "Id licitación: C-332B/007-26 (A/SER-015143/2026);Órgano de Contratación: Consejería de Cultura, Turismo y Deporte;Importe: 1960254.69 EUR;",
+      "issuer": "Consejería de Cultura, Turismo y Deporte",
+      "publicationType": "En plazo",
+      "status": "En plazo",
+      "expediente": "C-332B/007-26 (A/SER-015143/2026)",
+      "amount": 1960254.69,
+      "deadline": "2026-11-20",
+      "publishedAt": "2026-10-29",
+      "updatedAt": "2026-10-29T10:57:40+02:00",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/gestion-servicio-seis-puntos-servicio-biblioteca-metro-madrid-bibliometro-0",
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-10/008_ppt_bibliometro_6_modulos.pdf",
+      "firstSeenAt": "2026-10-29T14:06:35.948Z"
+    },
+    {
+      "id": "contratos:obras-proyecto-implantacion-circuito-higienico-personal-linea-aerea",
+      "source": "contratos",
+      "title": "Obras del proyecto de implantación de circuito higiénico para personal de Línea Aérea",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Resuelta / Finalizada",
+      "status": "Resuelta / Finalizada",
+      "expediente": "6012400346",
+      "publishedAt": "2026-10-29",
+      "updatedAt": "2026-10-29T10:49:42+02:00",
+      "deadline": "2024-10-22",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/obras-proyecto-implantacion-circuito-higienico-personal-linea-aerea",
+      "firstSeenAt": "2026-08-05T08:03:18.389Z",
+      "summary": "Id licitación: 6012400346;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 2010683.11 EUR;",
+      "amount": 2010683.11,
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2024-09/6012400346_documento_ref._confidencialidad_signed.pdf"
+    },
+    {
+      "id": "contratos:servicio-mantenimiento-escaneres-rx-arco-detector-metales-cpd-global",
+      "source": "contratos",
+      "title": "Servicio de mantenimiento de los escáneres rx y arco detector de metales del CPD Global",
+      "summary": "Id licitación: 6012600201;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 35961.90 EUR;",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Resuelta / Finalizada",
+      "status": "Resuelta / Finalizada",
+      "expediente": "6012600201",
+      "amount": 35961.9,
+      "publishedAt": "2026-10-29",
+      "updatedAt": "2026-10-29T10:45:14+02:00",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-mantenimiento-escaneres-rx-arco-detector-metales-cpd-global",
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-10/6012600201_ppt.pdf",
+      "firstSeenAt": "2026-10-09T06:38:52.473Z"
+    },
+    {
+      "id": "contratos:suministro-diseno-fabricacion-suministro-supervision-premontaje-montaje-adv-obras",
+      "source": "contratos",
+      "title": "Suministro para el diseño, fabricación, suministro, supervisión premontaje y montaje de ADV para las obras de instalación de una nueva Bretelle en el saco de Hospital de Henares en Línea 7",
+      "summary": "Id licitación: 6012600287;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 810776.85 EUR;",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "En plazo",
+      "status": "En plazo",
+      "expediente": "6012600287",
+      "amount": 810776.85,
+      "deadline": "2026-11-27",
+      "publishedAt": "2026-10-29",
+      "updatedAt": "2026-10-29T07:39:29+02:00",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/suministro-diseno-fabricacion-suministro-supervision-premontaje-montaje-adv-obras",
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-10/6012600287_ppt_signed.pdf",
+      "firstSeenAt": "2026-10-29T14:06:35.948Z"
+    },
     {
       "id": "contratos:servicio-mantenimiento-integral-sistemas-seguridad-sacos-recintos-1",
       "source": "contratos",
@@ -654,23 +755,6 @@
       "summary": "Id licitación: 6012600248;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 271108.99 EUR;",
       "amount": 271108.99,
       "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-09/6012600248_ppt_signed.pdf"
-    },
-    {
-      "id": "contratos:servicio-estudios-opinion-metro-madrid-1",
-      "source": "contratos",
-      "title": "Servicio de estudios de opinión de Metro de Madrid",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Resuelta / Finalizada",
-      "status": "Resuelta / Finalizada",
-      "expediente": "6012400239",
-      "publishedAt": "2026-10-23",
-      "updatedAt": "2026-10-23T11:32:04+02:00",
-      "deadline": "2024-07-12",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-estudios-opinion-metro-madrid-1",
-      "firstSeenAt": "2026-08-05T08:03:18.389Z",
-      "summary": "Id licitación: 6012400239;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 435000.00 EUR;",
-      "amount": 435000,
-      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2024-06/6012400239_pliego_de_prescripciones_tecnicas_signed.pdf"
     },
     {
       "id": "contratos:servicio-revision-lineas-vida-horizontales-verticales-escaleras-verticales-linea-1",
@@ -1737,9 +1821,9 @@
       "issuer": "CONSEJERÍA DE VIVIENDA, TRANSPORTES E INFRAESTRUCTURAS",
       "publicationType": "ANUNCIO",
       "publishedAt": "2026-10-13",
-      "url": "https://www.bocm.es/bocm-20261013-33",
+      "url": "https://www.bocm.es/bocm-20261013-33?language=es",
       "pdfUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/10/13/BOCM-20261013-33.PDF",
-      "xmlUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/10/13/BOCM-20261013-33.xml",
+      "xmlUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/10/13/BOCM-20261013-33.xml?language=es",
       "firstSeenAt": "2026-10-13T08:23:28.393Z",
       "tags": [
         "I. COMUNIDAD DE MADRID · D) Anuncios"
@@ -1753,9 +1837,9 @@
       "issuer": "CONSEJERÍA DE VIVIENDA, TRANSPORTES E INFRAESTRUCTURAS",
       "publicationType": "ANUNCIO",
       "publishedAt": "2026-10-13",
-      "url": "https://www.bocm.es/bocm-20261013-34",
+      "url": "https://www.bocm.es/bocm-20261013-34?language=es",
       "pdfUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/10/13/BOCM-20261013-34.PDF",
-      "xmlUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/10/13/BOCM-20261013-34.xml",
+      "xmlUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/10/13/BOCM-20261013-34.xml?language=es",
       "firstSeenAt": "2026-10-13T08:23:28.393Z",
       "tags": [
         "I. COMUNIDAD DE MADRID · D) Anuncios"
@@ -1914,22 +1998,6 @@
       "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2023-12/6012300356_pliego_de_prescripciones_tecnicas.pdf"
     },
     {
-      "id": "contratos:servicio-mantenimiento-escaneres-rx-arco-detector-metales-cpd-global",
-      "source": "contratos",
-      "title": "Servicio de mantenimiento de los escáneres rx y arco detector de metales del CPD Global",
-      "summary": "Id licitación: 6012600201;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 35961.90 EUR;",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Adjudicada",
-      "status": "Adjudicada",
-      "expediente": "6012600201",
-      "amount": 35961.9,
-      "publishedAt": "2026-10-09",
-      "updatedAt": "2026-10-09T08:01:35+02:00",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-mantenimiento-escaneres-rx-arco-detector-metales-cpd-global",
-      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-10/6012600201_ppt.pdf",
-      "firstSeenAt": "2026-10-09T06:38:52.473Z"
-    },
-    {
       "id": "contratos:servicio-inspecciones-tecnicas-reglamentarias-cables-alta-tension-0",
       "source": "contratos",
       "title": "Servicio de inspecciones técnicas reglamentarias de cables de alta tensión",
@@ -1954,9 +2022,9 @@
       "issuer": "CONSEJERÍA DE VIVIENDA, TRANSPORTES E INFRAESTRUCTURAS",
       "publicationType": "ANUNCIO",
       "publishedAt": "2026-10-09",
-      "url": "https://www.bocm.es/bocm-20261009-39",
+      "url": "https://www.bocm.es/bocm-20261009-39?language=es",
       "pdfUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/10/09/BOCM-20261009-39.PDF",
-      "xmlUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/10/09/BOCM-20261009-39.xml",
+      "xmlUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/10/09/BOCM-20261009-39.xml?language=es",
       "firstSeenAt": "2026-10-09T14:19:30.680Z",
       "tags": [
         "I. COMUNIDAD DE MADRID · D) Anuncios"
@@ -2207,23 +2275,6 @@
       "summary": "Id licitación: 6012600169;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 21262.50 EUR;",
       "amount": 21262.5,
       "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-06/6012600169_referencia_al_ppt_y_anexos_signed.pdf"
-    },
-    {
-      "id": "contratos:obras-renovacion-carril-red-metro-madrid",
-      "source": "contratos",
-      "title": "Obras de renovación de carril en la red de Metro de Madrid",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Resuelta / Finalizada",
-      "status": "Resuelta / Finalizada",
-      "expediente": "6012400105",
-      "publishedAt": "2026-10-06",
-      "updatedAt": "2026-10-06T08:40:22+02:00",
-      "deadline": "2024-04-18",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/obras-renovacion-carril-red-metro-madrid",
-      "firstSeenAt": "2026-08-05T08:03:18.389Z",
-      "summary": "Id licitación: 6012400105;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 14993476.72 EUR;",
-      "amount": 14993476.72,
-      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2024-03/6012400105_pliego_de_condiciones_particulares_signed_2.pdf"
     },
     {
       "id": "contratos:servicio-soporte-mantenimiento-instalaciones-fijas-senalizacion-ferroviaria-0",
@@ -25734,20 +25785,6 @@
       "publishedAt": "2025-03-06",
       "updatedAt": "2025-03-06T08:20:00+02:00",
       "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/suministro-repuestos-inmovilizado-fabricante-knorr-bremse-mantenimiento-trenes-1",
-      "firstSeenAt": "2026-08-05T08:03:18.389Z"
-    },
-    {
-      "id": "contratos:obras-proyecto-implantacion-circuito-higienico-personal-linea-aerea",
-      "source": "contratos",
-      "title": "Obras del proyecto de implantación de circuito higiénico para personal de Línea Aérea",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Convocatoria anunciada a licitación",
-      "status": "Resuelta / Finalizada",
-      "expediente": "6012400346",
-      "publishedAt": "2025-03-06",
-      "updatedAt": "2025-03-06T08:18:00+02:00",
-      "deadline": "2024-10-22",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/obras-proyecto-implantacion-circuito-higienico-personal-linea-aerea",
       "firstSeenAt": "2026-08-05T08:03:18.389Z"
     },
     {
