@@ -1,28 +1,28 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-29T23:13:08.150Z",
+  "generatedAt": "2026-10-30T13:58:26.871Z",
   "coverage": {
-    "bocm": "2009-12-01 a 2026-10-27",
-    "contratos": "2017-02-02 a 2026-10-29",
+    "bocm": "2009-12-01 a 2026-10-30",
+    "contratos": "2017-02-02 a 2026-10-30",
     "empleo": "2016-10-31 a 2026-10-16"
   },
   "sources": {
     "bocm": {
-      "checkedAt": "2026-10-29T23:13:08.150Z",
+      "checkedAt": "2026-10-30T13:58:26.871Z",
       "ok": true,
       "partial": true,
-      "message": "9 registros relevantes comprobados; 10 documento(s) omitido(s) temporalmente",
-      "recordsSeen": 9
+      "message": "12 registros relevantes comprobados; 13 documento(s) omitido(s) temporalmente",
+      "recordsSeen": 12
     },
     "contratos": {
-      "checkedAt": "2026-10-29T23:13:08.150Z",
+      "checkedAt": "2026-10-30T13:58:26.871Z",
       "ok": true,
       "partial": false,
       "message": "5 registros relevantes comprobados",
       "recordsSeen": 5
     },
     "empleo": {
-      "checkedAt": "2026-10-29T23:13:08.150Z",
+      "checkedAt": "2026-10-30T13:58:26.871Z",
       "ok": true,
       "partial": true,
       "message": "Cobertura mediante BOCM: 0 convocatoria(s) reciente(s) revisada(s); el portal directo protege el acceso automatizado",
@@ -30,6 +30,103 @@
     }
   },
   "items": [
+    {
+      "id": "contratos:servicios-transporte",
+      "source": "contratos",
+      "title": "Servicios de transporte",
+      "summary": "Id licitación: 6012600264;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 1987137.50 EUR;",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "En plazo",
+      "status": "En plazo",
+      "expediente": "6012600264",
+      "amount": 1987137.5,
+      "deadline": "2026-11-10",
+      "publishedAt": "2026-10-30",
+      "updatedAt": "2026-10-30T14:00:48+02:00",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicios-transporte",
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-10/6012600264_ppt_signed.pdf",
+      "firstSeenAt": "2026-10-13T08:23:28.393Z"
+    },
+    {
+      "id": "contratos:suministro-bus-bar-modulos-inverter-te2402cmp01a00-coches-7000",
+      "source": "contratos",
+      "title": "Suministro de Bus-Bar módulos Inverter TE2402CMP01A00 coches 7000",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Pendiente de adjudicación",
+      "status": "Pendiente de adjudicación",
+      "expediente": "6012600173",
+      "publishedAt": "2026-10-30",
+      "updatedAt": "2026-10-30T12:34:16+02:00",
+      "deadline": "2026-07-10",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/suministro-bus-bar-modulos-inverter-te2402cmp01a00-coches-7000",
+      "firstSeenAt": "2026-08-05T08:03:18.389Z",
+      "summary": "Id licitación: 6012600173;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 48750.00 EUR;",
+      "amount": 48750,
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-06/6012600173_ppt_signed.pdf"
+    },
+    {
+      "id": "contratos:servicio-instalacion-equipos-atp-do-coche-8000-mrssrm",
+      "source": "contratos",
+      "title": "Servicio de instalación de equipos ATP D.O. en coche 8000 MRSSRM",
+      "summary": "Id licitación: 6012600090;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 14985683.61 EUR;",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Resuelta / Finalizada",
+      "status": "Resuelta / Finalizada",
+      "expediente": "6012600090",
+      "amount": 14985683.61,
+      "publishedAt": "2026-10-30",
+      "updatedAt": "2026-10-30T10:29:00+02:00",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-instalacion-equipos-atp-do-coche-8000-mrssrm",
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-09/6012600090_referencia_al_ppt.pdf",
+      "firstSeenAt": "2026-09-25T13:40:22.964Z"
+    },
+    {
+      "id": "contratos:suministro-licencia-uso-cartografia-comunidad-madrid-1",
+      "source": "contratos",
+      "title": "Suministro de licencia de uso de la cartografía de la Comunidad de Madrid",
+      "summary": "Id licitación: 6012600290;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 60000.00 EUR;",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "En plazo",
+      "status": "En plazo",
+      "expediente": "6012600290",
+      "amount": 60000,
+      "deadline": "2026-11-19",
+      "publishedAt": "2026-10-30",
+      "updatedAt": "2026-10-30T10:08:02+02:00",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/suministro-licencia-uso-cartografia-comunidad-madrid-1",
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-10/6012600290_pliego_de_prescripciones_tecnicas_signed.pdf",
+      "firstSeenAt": "2026-10-30T13:58:26.871Z"
+    },
+    {
+      "id": "contratos:suministro-diseno-fabricacion-suministro-supervision-premontaje-montaje-adv-obras",
+      "source": "contratos",
+      "title": "Suministro para el diseño, fabricación, suministro, supervisión premontaje y montaje de ADV para las obras de instalación de una nueva Bretelle en el saco de Hospital de Henares en Línea 7",
+      "summary": "Id licitación: 6012600287;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 810776.85 EUR;",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "En plazo",
+      "status": "En plazo",
+      "expediente": "6012600287",
+      "amount": 810776.85,
+      "deadline": "2026-11-27",
+      "publishedAt": "2026-10-30",
+      "updatedAt": "2026-10-30T09:24:50+02:00",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/suministro-diseno-fabricacion-suministro-supervision-premontaje-montaje-adv-obras",
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-10/6012600287_ppt_signed.pdf",
+      "firstSeenAt": "2026-10-29T14:06:35.948Z"
+    },
+    {
+      "id": "bocm:bocm-20261030-32",
+      "source": "bocm",
+      "title": "Desistimiento contrato– Anuncio de 28 de octubre de 2026, de decisión de no celebrar el contrato de la licitación para la contratación de un “Servicio de mantenimiento de armarios de seguridad Traka para la custodia de llaves a espacios sensibles y protegidos en Metro de Madrid” (expediente 6012600233)",
+      "summary": "Desistimiento contrato– Anuncio de 28 de octubre de 2026, de decisión de no celebrar el contrato de la licitación para la contratación de un “Servicio de mantenimiento de armarios de seguridad Traka para la custodia de llaves a espacios sensibles y protegidos en Metro de Madrid” (expediente 6012600233)",
+      "issuer": "CONSEJERÍA DE VIVIENDA, TRANSPORTES E INFRAESTRUCTURAS · METRO DE MADRID, S. A.",
+      "publicationType": "Desistimiento contrato",
+      "publishedAt": "2026-10-30",
+      "url": "https://www.bocm.es/bocm-20261030-32",
+      "pdfUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/10/30/BOCM-20261030-32.PDF",
+      "xmlUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/10/30/BOCM-20261030-32.xml?language=es",
+      "firstSeenAt": "2026-10-30T13:58:26.871Z"
+    },
     {
       "id": "contratos:servicio-estudios-opinion-metro-madrid-1",
       "source": "contratos",
@@ -113,23 +210,6 @@
       "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-mantenimiento-escaneres-rx-arco-detector-metales-cpd-global",
       "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-10/6012600201_ppt.pdf",
       "firstSeenAt": "2026-10-09T06:38:52.473Z"
-    },
-    {
-      "id": "contratos:suministro-diseno-fabricacion-suministro-supervision-premontaje-montaje-adv-obras",
-      "source": "contratos",
-      "title": "Suministro para el diseño, fabricación, suministro, supervisión premontaje y montaje de ADV para las obras de instalación de una nueva Bretelle en el saco de Hospital de Henares en Línea 7",
-      "summary": "Id licitación: 6012600287;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 810776.85 EUR;",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "En plazo",
-      "status": "En plazo",
-      "expediente": "6012600287",
-      "amount": 810776.85,
-      "deadline": "2026-11-27",
-      "publishedAt": "2026-10-29",
-      "updatedAt": "2026-10-29T07:39:29+02:00",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/suministro-diseno-fabricacion-suministro-supervision-premontaje-montaje-adv-obras",
-      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-10/6012600287_ppt_signed.pdf",
-      "firstSeenAt": "2026-10-29T14:06:35.948Z"
     },
     {
       "id": "contratos:servicio-mantenimiento-integral-sistemas-seguridad-sacos-recintos-1",
@@ -1780,23 +1860,6 @@
       "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-03/6012600079_ppt_signed.pdf"
     },
     {
-      "id": "contratos:servicios-transporte",
-      "source": "contratos",
-      "title": "Servicios de transporte",
-      "summary": "Id licitación: 6012600264;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 1987137.50 EUR;",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "En plazo",
-      "status": "En plazo",
-      "expediente": "6012600264",
-      "amount": 1987137.5,
-      "deadline": "2026-11-10",
-      "publishedAt": "2026-10-13",
-      "updatedAt": "2026-10-13T09:14:07+02:00",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicios-transporte",
-      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-10/6012600264_ppt_signed.pdf",
-      "firstSeenAt": "2026-10-13T08:23:28.393Z"
-    },
-    {
       "id": "contratos:servicio-revision-reacondicionamiento-rodamientos-compactos-tbu-ctbu-0",
       "source": "contratos",
       "title": "Servicio de revisión y reacondicionamiento de rodamientos compactos TBU y CTBU.",
@@ -1821,9 +1884,9 @@
       "issuer": "CONSEJERÍA DE VIVIENDA, TRANSPORTES E INFRAESTRUCTURAS",
       "publicationType": "ANUNCIO",
       "publishedAt": "2026-10-13",
-      "url": "https://www.bocm.es/bocm-20261013-33?language=es",
+      "url": "https://www.bocm.es/bocm-20261013-33",
       "pdfUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/10/13/BOCM-20261013-33.PDF",
-      "xmlUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/10/13/BOCM-20261013-33.xml?language=es",
+      "xmlUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/10/13/BOCM-20261013-33.xml",
       "firstSeenAt": "2026-10-13T08:23:28.393Z",
       "tags": [
         "I. COMUNIDAD DE MADRID · D) Anuncios"
@@ -1837,9 +1900,9 @@
       "issuer": "CONSEJERÍA DE VIVIENDA, TRANSPORTES E INFRAESTRUCTURAS",
       "publicationType": "ANUNCIO",
       "publishedAt": "2026-10-13",
-      "url": "https://www.bocm.es/bocm-20261013-34?language=es",
+      "url": "https://www.bocm.es/bocm-20261013-34",
       "pdfUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/10/13/BOCM-20261013-34.PDF",
-      "xmlUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/10/13/BOCM-20261013-34.xml?language=es",
+      "xmlUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/10/13/BOCM-20261013-34.xml",
       "firstSeenAt": "2026-10-13T08:23:28.393Z",
       "tags": [
         "I. COMUNIDAD DE MADRID · D) Anuncios"
@@ -3369,22 +3432,6 @@
       "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-02/6012600054_documento_ref._confidencialidad_signed.pdf"
     },
     {
-      "id": "contratos:servicio-instalacion-equipos-atp-do-coche-8000-mrssrm",
-      "source": "contratos",
-      "title": "Servicio de instalación de equipos ATP D.O. en coche 8000 MRSSRM",
-      "summary": "Id licitación: 6012600090;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 14985683.61 EUR;",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Adjudicada",
-      "status": "Adjudicada",
-      "expediente": "6012600090",
-      "amount": 14985683.61,
-      "publishedAt": "2026-09-30",
-      "updatedAt": "2026-09-30T10:10:13+02:00",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-instalacion-equipos-atp-do-coche-8000-mrssrm",
-      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-09/6012600090_referencia_al_ppt.pdf",
-      "firstSeenAt": "2026-09-25T13:40:22.964Z"
-    },
-    {
       "id": "contratos:obras-implantacion-ascensores-estaciones-tetuan-puente-vallecas-carabanchel",
       "source": "contratos",
       "title": "Obras de implantación de ascensores en las estaciones de Tetuán, Puente de Vallecas, Carabanchel, Campamento, Ciudad Lineal y Canillejas de las Líneas 1 y 5 de Metro de Madrid",
@@ -3502,23 +3549,6 @@
       "summary": "Id licitación: 6012500056;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 59903.61 EUR;",
       "amount": 59903.61,
       "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2025-02/6012500056_ppt_signed.pdf"
-    },
-    {
-      "id": "contratos:suministro-bus-bar-modulos-inverter-te2402cmp01a00-coches-7000",
-      "source": "contratos",
-      "title": "Suministro de Bus-Bar módulos Inverter TE2402CMP01A00 coches 7000",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Pendiente de adjudicación",
-      "status": "Pendiente de adjudicación",
-      "expediente": "6012600173",
-      "publishedAt": "2026-09-24",
-      "updatedAt": "2026-09-24T13:12:54+02:00",
-      "deadline": "2026-07-10",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/suministro-bus-bar-modulos-inverter-te2402cmp01a00-coches-7000",
-      "firstSeenAt": "2026-08-05T08:03:18.389Z",
-      "summary": "Id licitación: 6012600173;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 48750.00 EUR;",
-      "amount": 48750,
-      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-06/6012600173_ppt_signed.pdf"
     },
     {
       "id": "contratos:servicio-revision-generalreparacion-conjuntos-amortiguadores-impactos-enganches",
