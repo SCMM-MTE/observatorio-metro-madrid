@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-01T14:13:39.845Z",
+  "generatedAt": "2026-11-01T22:42:19.210Z",
   "coverage": {
     "bocm": "2009-12-01 a 2026-10-30",
     "contratos": "2017-02-02 a 2026-10-30",
@@ -8,21 +8,21 @@
   },
   "sources": {
     "bocm": {
-      "checkedAt": "2026-11-01T14:13:39.845Z",
+      "checkedAt": "2026-11-01T22:42:19.210Z",
       "ok": true,
-      "partial": false,
-      "message": "12 registros relevantes comprobados",
+      "partial": true,
+      "message": "12 registros relevantes comprobados; 1 documento(s) omitido(s) temporalmente",
       "recordsSeen": 12
     },
     "contratos": {
-      "checkedAt": "2026-11-01T14:13:39.845Z",
+      "checkedAt": "2026-11-01T22:42:19.210Z",
       "ok": true,
       "partial": false,
       "message": "4 registros relevantes comprobados",
       "recordsSeen": 4
     },
     "empleo": {
-      "checkedAt": "2026-11-01T14:13:39.845Z",
+      "checkedAt": "2026-11-01T22:42:19.210Z",
       "ok": true,
       "partial": true,
       "message": "Cobertura mediante BOCM: 0 convocatoria(s) reciente(s) revisada(s); el portal directo protege el acceso automatizado",
@@ -117,15 +117,18 @@
     {
       "id": "bocm:bocm-20261030-32",
       "source": "bocm",
-      "title": "Desistimiento contrato– Anuncio de 28 de octubre de 2026, de decisión de no celebrar el contrato de la licitación para la contratación de un “Servicio de mantenimiento de armarios de seguridad Traka para la custodia de llaves a espacios sensibles y protegidos en Metro de Madrid” (expediente 6012600233)",
-      "summary": "Desistimiento contrato– Anuncio de 28 de octubre de 2026, de decisión de no celebrar el contrato de la licitación para la contratación de un “Servicio de mantenimiento de armarios de seguridad Traka para la custodia de llaves a espacios sensibles y protegidos en Metro de Madrid” (expediente 6012600233)",
-      "issuer": "CONSEJERÍA DE VIVIENDA, TRANSPORTES E INFRAESTRUCTURAS · METRO DE MADRID, S. A.",
-      "publicationType": "Desistimiento contrato",
+      "title": "Desistimiento contrato – Anuncio de 28 de octubre de 2026, de decisión de no celebrar el contrato de la licitación para la contratación de un “Servicio de mantenimiento de armarios de seguridad Traka para la custodia de llaves a espacios sensibles y protegidos en Metro de Madrid” (expediente 6012600233)",
+      "summary": "Desistimiento contrato – Anuncio de 28 de octubre de 2026, de decisión de no celebrar el contrato de la licitación para la contratación de un “Servicio de mantenimiento de armarios de seguridad Traka para la custodia de llaves a espacios sensibles y protegidos en Metro de Madrid” (expediente 6012600233)",
+      "issuer": "CONSEJERÍA DE VIVIENDA, TRANSPORTES E INFRAESTRUCTURAS",
+      "publicationType": "ANUNCIO",
       "publishedAt": "2026-10-30",
       "url": "https://www.bocm.es/bocm-20261030-32",
       "pdfUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/10/30/BOCM-20261030-32.PDF",
-      "xmlUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/10/30/BOCM-20261030-32.xml?language=es",
-      "firstSeenAt": "2026-10-30T13:58:26.871Z"
+      "xmlUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/10/30/BOCM-20261030-32.xml",
+      "firstSeenAt": "2026-10-30T13:58:26.871Z",
+      "tags": [
+        "I. COMUNIDAD DE MADRID · D) Anuncios"
+      ]
     },
     {
       "id": "contratos:servicio-estudios-opinion-metro-madrid-1",
@@ -587,15 +590,18 @@
     {
       "id": "bocm:bocm-20261027-43",
       "source": "bocm",
-      "title": "Convocatoria contrato– Anuncio de 22 de octubre de 2026, por el que se convoca la licitación para la contratación de un servicio de transporte en autobús del personal de Metro de Madrid. (Expediente 6012600279)",
-      "summary": "Convocatoria contrato– Anuncio de 22 de octubre de 2026, por el que se convoca la licitación para la contratación de un servicio de transporte en autobús del personal de Metro de Madrid. (Expediente 6012600279)",
-      "issuer": "CONSEJERÍA DE VIVIENDA, TRANSPORTES E INFRAESTRUCTURAS · METRO DE MADRID, S. A.",
-      "publicationType": "Convocatoria contrato",
+      "title": "Convocatoria contrato – Anuncio de 22 de octubre de 2026, por el que se convoca la licitación para la contratación de un servicio de transporte en autobús del personal de Metro de Madrid. (Expediente 6012600279)",
+      "summary": "Convocatoria contrato – Anuncio de 22 de octubre de 2026, por el que se convoca la licitación para la contratación de un servicio de transporte en autobús del personal de Metro de Madrid. (Expediente 6012600279)",
+      "issuer": "CONSEJERÍA DE VIVIENDA, TRANSPORTES E INFRAESTRUCTURAS",
+      "publicationType": "ANUNCIO",
       "publishedAt": "2026-10-27",
-      "url": "https://www.bocm.es/bocm-20261027-43",
+      "url": "https://www.bocm.es/bocm-20261027-43?language=es",
       "pdfUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/10/27/BOCM-20261027-43.PDF",
       "xmlUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/10/27/BOCM-20261027-43.xml?language=es",
-      "firstSeenAt": "2026-10-27T13:07:48.928Z"
+      "firstSeenAt": "2026-10-27T13:07:48.928Z",
+      "tags": [
+        "I. COMUNIDAD DE MADRID · D) Anuncios"
+      ]
     },
     {
       "id": "contratos:servicio-provision-apoyo-desarrollo-programa-entrenamiento-personalizado-uso-3",
@@ -736,54 +742,66 @@
     {
       "id": "bocm:bocm-20261026-39",
       "source": "bocm",
-      "title": "Adjudicación contrato– Anuncio de 21 de octubre de 2026, de adjudicación del contrato titulado “Servicio de revisión y reparación de PCI inter estación de Metro de Madrid” (expediente 6012500274)",
-      "summary": "Adjudicación contrato– Anuncio de 21 de octubre de 2026, de adjudicación del contrato titulado “Servicio de revisión y reparación de PCI inter estación de Metro de Madrid” (expediente 6012500274)",
-      "issuer": "CONSEJERÍA DE VIVIENDA, TRANSPORTES E INFRAESTRUCTURAS · METRO DE MADRID, S. A.",
-      "publicationType": "Adjudicación contrato",
+      "title": "Adjudicación contrato – Anuncio de 21 de octubre de 2026, de adjudicación del contrato titulado “Servicio de revisión y reparación de PCI inter estación de Metro de Madrid” (expediente 6012500274)",
+      "summary": "Adjudicación contrato – Anuncio de 21 de octubre de 2026, de adjudicación del contrato titulado “Servicio de revisión y reparación de PCI inter estación de Metro de Madrid” (expediente 6012500274)",
+      "issuer": "CONSEJERÍA DE VIVIENDA, TRANSPORTES E INFRAESTRUCTURAS",
+      "publicationType": "ANUNCIO",
       "publishedAt": "2026-10-26",
       "url": "https://www.bocm.es/bocm-20261026-39",
       "pdfUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/10/26/BOCM-20261026-39.PDF",
-      "xmlUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/10/26/BOCM-20261026-39.xml?language=es",
-      "firstSeenAt": "2026-10-26T14:06:46.719Z"
+      "xmlUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/10/26/BOCM-20261026-39.xml",
+      "firstSeenAt": "2026-10-26T14:06:46.719Z",
+      "tags": [
+        "I. COMUNIDAD DE MADRID · D) Anuncios"
+      ]
     },
     {
       "id": "bocm:bocm-20261026-40",
       "source": "bocm",
-      "title": "Adjudicación contrato– Anuncio de 21 de octubre de 2026, de adjudicación del contrato titulado “Acuerdo marco para el suministro e instalación de equipamiento del sistema de megafonía en recintos de Metro de Madrid” (expediente 6012500340)",
-      "summary": "Adjudicación contrato– Anuncio de 21 de octubre de 2026, de adjudicación del contrato titulado “Acuerdo marco para el suministro e instalación de equipamiento del sistema de megafonía en recintos de Metro de Madrid” (expediente 6012500340)",
-      "issuer": "CONSEJERÍA DE VIVIENDA, TRANSPORTES E INFRAESTRUCTURAS · METRO DE MADRID, S. A.",
-      "publicationType": "Adjudicación contrato",
+      "title": "Adjudicación contrato – Anuncio de 21 de octubre de 2026, de adjudicación del contrato titulado “Acuerdo marco para el suministro e instalación de equipamiento del sistema de megafonía en recintos de Metro de Madrid” (expediente 6012500340)",
+      "summary": "Adjudicación contrato – Anuncio de 21 de octubre de 2026, de adjudicación del contrato titulado “Acuerdo marco para el suministro e instalación de equipamiento del sistema de megafonía en recintos de Metro de Madrid” (expediente 6012500340)",
+      "issuer": "CONSEJERÍA DE VIVIENDA, TRANSPORTES E INFRAESTRUCTURAS",
+      "publicationType": "ANUNCIO",
       "publishedAt": "2026-10-26",
       "url": "https://www.bocm.es/bocm-20261026-40",
       "pdfUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/10/26/BOCM-20261026-40.PDF",
-      "xmlUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/10/26/BOCM-20261026-40.xml?language=es",
-      "firstSeenAt": "2026-10-26T14:06:46.719Z"
+      "xmlUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/10/26/BOCM-20261026-40.xml",
+      "firstSeenAt": "2026-10-26T14:06:46.719Z",
+      "tags": [
+        "I. COMUNIDAD DE MADRID · D) Anuncios"
+      ]
     },
     {
       "id": "bocm:bocm-20261026-41",
       "source": "bocm",
-      "title": "Adjudicación contrato– Anuncio de 21 de octubre de 2026, de adjudicación del contrato titulado “Servicio de reparación defectos tras inspección/revisión reglamentaria en instalaciones de baja tensión para Metro de Madrid” (Expediente 6012600096)",
-      "summary": "Adjudicación contrato– Anuncio de 21 de octubre de 2026, de adjudicación del contrato titulado “Servicio de reparación defectos tras inspección/revisión reglamentaria en instalaciones de baja tensión para Metro de Madrid” (Expediente 6012600096)",
-      "issuer": "CONSEJERÍA DE VIVIENDA, TRANSPORTES E INFRAESTRUCTURAS · METRO DE MADRID, S. A.",
-      "publicationType": "Adjudicación contrato",
+      "title": "Adjudicación contrato – Anuncio de 21 de octubre de 2026, de adjudicación del contrato titulado “Servicio de reparación defectos tras inspección/revisión reglamentaria en instalaciones de baja tensión para Metro de Madrid” (Expediente 6012600096)",
+      "summary": "Adjudicación contrato – Anuncio de 21 de octubre de 2026, de adjudicación del contrato titulado “Servicio de reparación defectos tras inspección/revisión reglamentaria en instalaciones de baja tensión para Metro de Madrid” (Expediente 6012600096)",
+      "issuer": "CONSEJERÍA DE VIVIENDA, TRANSPORTES E INFRAESTRUCTURAS",
+      "publicationType": "ANUNCIO",
       "publishedAt": "2026-10-26",
       "url": "https://www.bocm.es/bocm-20261026-41",
       "pdfUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/10/26/BOCM-20261026-41.PDF",
-      "xmlUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/10/26/BOCM-20261026-41.xml?language=es",
-      "firstSeenAt": "2026-10-26T14:06:46.719Z"
+      "xmlUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/10/26/BOCM-20261026-41.xml",
+      "firstSeenAt": "2026-10-26T14:06:46.719Z",
+      "tags": [
+        "I. COMUNIDAD DE MADRID · D) Anuncios"
+      ]
     },
     {
       "id": "bocm:bocm-20261026-42",
       "source": "bocm",
-      "title": "Adjudicación contrato– Anuncio de 21 de octubre de 2026, de adjudicación del contrato titulado “Obras de nuevos cuartos para tecnologías de la información y las comunicaciones (TICS) y operativos, con espacios para personal de la Línea de Alta Regularidad (LAR 6) de Metro de Madrid” (Expediente 6012600068)",
-      "summary": "Adjudicación contrato– Anuncio de 21 de octubre de 2026, de adjudicación del contrato titulado “Obras de nuevos cuartos para tecnologías de la información y las comunicaciones (TICS) y operativos, con espacios para personal de la Línea de Alta Regularidad (LAR 6) de Metro de Madrid” (Expediente 6012600068)",
-      "issuer": "CONSEJERÍA DE VIVIENDA, TRANSPORTES E INFRAESTRUCTURAS · METRO DE MADRID, S. A.",
-      "publicationType": "Adjudicación contrato",
+      "title": "Adjudicación contrato – Anuncio de 21 de octubre de 2026, de adjudicación del contrato titulado “Obras de nuevos cuartos para tecnologías de la información y las comunicaciones (TICS) y operativos, con espacios para personal de la Línea de Alta Regularidad (LAR 6) de Metro de Madrid” (Expediente 6012600068)",
+      "summary": "Adjudicación contrato – Anuncio de 21 de octubre de 2026, de adjudicación del contrato titulado “Obras de nuevos cuartos para tecnologías de la información y las comunicaciones (TICS) y operativos, con espacios para personal de la Línea de Alta Regularidad (LAR 6) de Metro de Madrid” (Expediente 6012600068)",
+      "issuer": "CONSEJERÍA DE VIVIENDA, TRANSPORTES E INFRAESTRUCTURAS",
+      "publicationType": "ANUNCIO",
       "publishedAt": "2026-10-26",
       "url": "https://www.bocm.es/bocm-20261026-42",
       "pdfUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/10/26/BOCM-20261026-42.PDF",
-      "xmlUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/10/26/BOCM-20261026-42.xml?language=es",
-      "firstSeenAt": "2026-10-26T14:06:46.719Z"
+      "xmlUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/10/26/BOCM-20261026-42.xml",
+      "firstSeenAt": "2026-10-26T14:06:46.719Z",
+      "tags": [
+        "I. COMUNIDAD DE MADRID · D) Anuncios"
+      ]
     },
     {
       "id": "contratos:servicio-reacondicionamiento-instalacion-puerta-deslizante-cancela-5-estacion",
@@ -907,15 +925,18 @@
     {
       "id": "bocm:bocm-20261023-29",
       "source": "bocm",
-      "title": "Formalización contrato– Resolución de 13 de octubre de 2026, de la Secretaría General Técnica de la Consejería de Vivienda, Transportes e Infraestructuras, por la que se dispone la publicación en los boletines oficiales y en el “perfil del contratante” de la formalización del contrato de “Obras de ejecución de instalaciones para la ampliación de la línea 11 de Metro de Madrid. Tramo: Plaza Elíptica-Conde de Casal”",
-      "summary": "Formalización contrato– Resolución de 13 de octubre de 2026, de la Secretaría General Técnica de la Consejería de Vivienda, Transportes e Infraestructuras, por la que se dispone la publicación en los boletines oficiales y en el “perfil del contratante” de la formalización del contrato de “Obras de ejecución de instalaciones para la ampliación de la línea 11 de Metro de Madrid. Tramo: Plaza Elíptica-Conde de Casal”",
+      "title": "Formalización contrato – Resolución de 13 de octubre de 2026, de la Secretaría General Técnica de la Consejería de Vivienda, Transportes e Infraestructuras, por la que se dispone la publicación en los boletines oficiales y en el “perfil del contratante” de la formalización del contrato de “Obras de ejecución de instalaciones para la ampliación de la línea 11 de Metro de Madrid. Tramo: Plaza Elíptica-Conde de Casal”",
+      "summary": "Formalización contrato – Resolución de 13 de octubre de 2026, de la Secretaría General Técnica de la Consejería de Vivienda, Transportes e Infraestructuras, por la que se dispone la publicación en los boletines oficiales y en el “perfil del contratante” de la formalización del contrato de “Obras de ejecución de instalaciones para la ampliación de la línea 11 de Metro de Madrid. Tramo: Plaza Elíptica-Conde de Casal”",
       "issuer": "CONSEJERÍA DE VIVIENDA, TRANSPORTES E INFRAESTRUCTURAS",
-      "publicationType": "Formalización contrato",
+      "publicationType": "RESOLUCIÓN",
       "publishedAt": "2026-10-23",
       "url": "https://www.bocm.es/bocm-20261023-29",
       "pdfUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/10/23/BOCM-20261023-29.PDF",
-      "xmlUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/10/23/BOCM-20261023-29.xml?language=es",
-      "firstSeenAt": "2026-10-23T12:33:35.973Z"
+      "xmlUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/10/23/BOCM-20261023-29.xml",
+      "firstSeenAt": "2026-10-23T12:33:35.973Z",
+      "tags": [
+        "I. COMUNIDAD DE MADRID · D) Anuncios"
+      ]
     },
     {
       "id": "contratos:servicio-soporte-actividades-auxiliares-tecnicas-area-mantenimiento-instalaciones",
@@ -1056,14 +1077,14 @@
     {
       "id": "bocm:bocm-20261022-23",
       "source": "bocm",
-      "title": "Formalización contrato– Resolución de 9 de octubre de 2026, de la Secretaría General Técnica de la Consejería de Vivienda, Transportes e Infraestructuras, por la que se dispone la publicación en los boletines oficiales y en el “perfil del contratante” de la formalización del contrato de obras de ejecución de la señalización para la ampliación de la línea 11 de metro de Madrid. Tramo Plaza Elíptica-Conde de Casal",
-      "summary": "Formalización contrato– Resolución de 9 de octubre de 2026, de la Secretaría General Técnica de la Consejería de Vivienda, Transportes e Infraestructuras, por la que se dispone la publicación en los boletines oficiales y en el “perfil del contratante” de la formalización del contrato de obras de ejecución de la señalización para la ampliación de la línea 11 de metro de Madrid. Tramo Plaza Elíptica-Conde de Casal",
+      "title": "Formalización contrato – Resolución de 9 de octubre de 2026, de la Secretaría General Técnica de la Consejería de Vivienda, Transportes e Infraestructuras, por la que se dispone la publicación en los boletines oficiales y en el “perfil del contratante” de la formalización del contrato de obras de ejecución de la señalización para la ampliación de la línea 11 de metro de Madrid. Tramo Plaza Elíptica-Conde de Casal",
+      "summary": "Formalización contrato – Resolución de 9 de octubre de 2026, de la Secretaría General Técnica de la Consejería de Vivienda, Transportes e Infraestructuras, por la que se dispone la publicación en los boletines oficiales y en el “perfil del contratante” de la formalización del contrato de obras de ejecución de la señalización para la ampliación de la línea 11 de metro de Madrid. Tramo Plaza Elíptica-Conde de Casal",
       "issuer": "CONSEJERÍA DE VIVIENDA, TRANSPORTES E INFRAESTRUCTURAS",
-      "publicationType": "Formalización contrato",
+      "publicationType": "RESOLUCIÓN",
       "publishedAt": "2026-10-22",
       "url": "https://www.bocm.es/bocm-20261022-23",
       "pdfUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/10/22/BOCM-20261022-23.PDF",
-      "xmlUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/10/22/BOCM-20261022-23.xml?language=es",
+      "xmlUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/10/22/BOCM-20261022-23.xml",
       "firstSeenAt": "2026-10-22T12:55:01.944Z",
       "tags": [
         "I. COMUNIDAD DE MADRID · D) Anuncios"
@@ -1344,28 +1365,34 @@
     {
       "id": "bocm:bocm-20261019-41",
       "source": "bocm",
-      "title": "Formalización contrato– Anuncio de 14 de octubre de 2026, de adjudicación del contrato titulado “Suministro de suspensión primaria 7000 9000” para el mantenimiento de los vehículos de material móvil de Metro de Madrid, S. A. (Expediente 6012600224)",
-      "summary": "Formalización contrato– Anuncio de 14 de octubre de 2026, de adjudicación del contrato titulado “Suministro de suspensión primaria 7000 9000” para el mantenimiento de los vehículos de material móvil de Metro de Madrid, S. A. (Expediente 6012600224)",
-      "issuer": "CONSEJERÍA DE VIVIENDA, TRANSPORTES E INFRAESTRUCTURAS · METRO DE MADRID, S. A.",
-      "publicationType": "Formalización contrato",
+      "title": "Formalización contrato – Anuncio de 14 de octubre de 2026, de adjudicación del contrato titulado “Suministro de suspensión primaria 7000 9000” para el mantenimiento de los vehículos de material móvil de Metro de Madrid, S. A. (Expediente 6012600224)",
+      "summary": "Formalización contrato – Anuncio de 14 de octubre de 2026, de adjudicación del contrato titulado “Suministro de suspensión primaria 7000 9000” para el mantenimiento de los vehículos de material móvil de Metro de Madrid, S. A. (Expediente 6012600224)",
+      "issuer": "CONSEJERÍA DE VIVIENDA, TRANSPORTES E INFRAESTRUCTURAS",
+      "publicationType": "ANUNCIO",
       "publishedAt": "2026-10-19",
       "url": "https://www.bocm.es/bocm-20261019-41",
       "pdfUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/10/19/BOCM-20261019-41.PDF",
-      "xmlUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/10/19/BOCM-20261019-41.xml?language=es",
-      "firstSeenAt": "2026-10-19T11:12:10.003Z"
+      "xmlUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/10/19/BOCM-20261019-41.xml",
+      "firstSeenAt": "2026-10-19T11:12:10.003Z",
+      "tags": [
+        "I. COMUNIDAD DE MADRID · D) Anuncios"
+      ]
     },
     {
       "id": "bocm:bocm-20261019-42",
       "source": "bocm",
-      "title": "Formalización contrato– Anuncio de 14 de octubre de 2026, de adjudicación del contrato titulado “Servicio de asistencia técnica para el análisis de la adecuación y puesta en conformidad del equipamiento de taller, equipos de mano y utillaje del Área de Mantenimiento de Material Móvil de Metro de Madrid”. (Expediente 6012600149)",
-      "summary": "Formalización contrato– Anuncio de 14 de octubre de 2026, de adjudicación del contrato titulado “Servicio de asistencia técnica para el análisis de la adecuación y puesta en conformidad del equipamiento de taller, equipos de mano y utillaje del Área de Mantenimiento de Material Móvil de Metro de Madrid”. (Expediente 6012600149)",
-      "issuer": "CONSEJERÍA DE VIVIENDA, TRANSPORTES E INFRAESTRUCTURAS · METRO DE MADRID, S. A.",
-      "publicationType": "Formalización contrato",
+      "title": "Formalización contrato – Anuncio de 14 de octubre de 2026, de adjudicación del contrato titulado “Servicio de asistencia técnica para el análisis de la adecuación y puesta en conformidad del equipamiento de taller, equipos de mano y utillaje del Área de Mantenimiento de Material Móvil de Metro de Madrid”. (Expediente 6012600149)",
+      "summary": "Formalización contrato – Anuncio de 14 de octubre de 2026, de adjudicación del contrato titulado “Servicio de asistencia técnica para el análisis de la adecuación y puesta en conformidad del equipamiento de taller, equipos de mano y utillaje del Área de Mantenimiento de Material Móvil de Metro de Madrid”. (Expediente 6012600149)",
+      "issuer": "CONSEJERÍA DE VIVIENDA, TRANSPORTES E INFRAESTRUCTURAS",
+      "publicationType": "ANUNCIO",
       "publishedAt": "2026-10-19",
       "url": "https://www.bocm.es/bocm-20261019-42",
       "pdfUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/10/19/BOCM-20261019-42.PDF",
-      "xmlUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/10/19/BOCM-20261019-42.xml?language=es",
-      "firstSeenAt": "2026-10-19T11:12:10.003Z"
+      "xmlUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/10/19/BOCM-20261019-42.xml",
+      "firstSeenAt": "2026-10-19T11:12:10.003Z",
+      "tags": [
+        "I. COMUNIDAD DE MADRID · D) Anuncios"
+      ]
     },
     {
       "id": "contratos:servicio-asistencia-tecnica-obras-implantacion-ascensores-estaciones-tetuan-puente",
