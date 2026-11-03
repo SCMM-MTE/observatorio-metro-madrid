@@ -1,28 +1,28 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-03T14:58:54.871Z",
+  "generatedAt": "2026-11-03T23:56:42.925Z",
   "coverage": {
     "bocm": "2009-12-01 a 2026-11-03",
-    "contratos": "2017-02-02 a 2026-11-03",
+    "contratos": "2017-02-02 a 2026-11-04",
     "empleo": "2016-10-31 a 2026-10-16"
   },
   "sources": {
     "bocm": {
-      "checkedAt": "2026-11-03T14:58:54.871Z",
+      "checkedAt": "2026-11-03T23:56:42.925Z",
       "ok": true,
-      "partial": false,
-      "message": "11 registros relevantes comprobados",
-      "recordsSeen": 11
+      "partial": true,
+      "message": "3 registros relevantes comprobados; 18 documento(s) omitido(s) temporalmente",
+      "recordsSeen": 3
     },
     "contratos": {
-      "checkedAt": "2026-11-03T14:58:54.871Z",
+      "checkedAt": "2026-11-03T23:56:42.925Z",
       "ok": true,
       "partial": false,
-      "message": "9 registros relevantes comprobados",
-      "recordsSeen": 9
+      "message": "10 registros relevantes comprobados",
+      "recordsSeen": 10
     },
     "empleo": {
-      "checkedAt": "2026-11-03T14:58:54.871Z",
+      "checkedAt": "2026-11-03T23:56:42.925Z",
       "ok": true,
       "partial": true,
       "message": "Cobertura mediante BOCM: 0 convocatoria(s) reciente(s) revisada(s); el portal directo protege el acceso automatizado",
@@ -30,6 +30,57 @@
     }
   },
   "items": [
+    {
+      "id": "contratos:acuerdo-marco-suministro-herramientas-mano-herramientas-electricas-material-0",
+      "source": "contratos",
+      "title": "Acuerdo marco para el suministro de herramientas de mano, herramientas eléctricas, material de ferretería y tornillería para Metro de Madrid, S.A",
+      "summary": "Id licitación: 6012600256;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 450000.00 EUR;",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Pendiente de adjudicación",
+      "status": "Pendiente de adjudicación",
+      "expediente": "6012600256",
+      "amount": 450000,
+      "deadline": "2026-11-03",
+      "publishedAt": "2026-11-04",
+      "updatedAt": "2026-11-04T00:10:15+02:00",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/acuerdo-marco-suministro-herramientas-mano-herramientas-electricas-material-0",
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-10/6012600256_ppt_signed.pdf",
+      "firstSeenAt": "2026-10-05T06:56:10.585Z"
+    },
+    {
+      "id": "contratos:servicio-asistencia-tecnica-consultoria-analisis-medicion-control-ruido-vibracion",
+      "source": "contratos",
+      "title": "Servicio de asistencia técnica para la consultoría de análisis y medición para el control de ruido y vibración en Metro de Madrid",
+      "summary": "Id licitación: 6012600261;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 309997.68 EUR;",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Pendiente de adjudicación",
+      "status": "Pendiente de adjudicación",
+      "expediente": "6012600261",
+      "amount": 309997.68,
+      "deadline": "2026-11-03",
+      "publishedAt": "2026-11-04",
+      "updatedAt": "2026-11-04T00:10:15+02:00",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-asistencia-tecnica-consultoria-analisis-medicion-control-ruido-vibracion",
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-10/6012600261_ppt_signed.pdf",
+      "firstSeenAt": "2026-10-09T06:38:52.473Z"
+    },
+    {
+      "id": "contratos:acuerdo-marco-suministro-suscripcion-mantenimiento-licencias-aplicaciones-1",
+      "source": "contratos",
+      "title": "Acuerdo marco para el suministro para la suscripción y mantenimiento de licencias de aplicaciones informáticas comerciales de puesto cliente para Metro de Madrid.",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Pendiente de adjudicación",
+      "status": "Pendiente de adjudicación",
+      "expediente": "6012600241",
+      "publishedAt": "2026-11-04",
+      "updatedAt": "2026-11-04T00:10:15+02:00",
+      "deadline": "2026-11-03",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/acuerdo-marco-suministro-suscripcion-mantenimiento-licencias-aplicaciones-1",
+      "firstSeenAt": "2026-09-03T09:40:54.691Z",
+      "summary": "Id licitación: 6012600241;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 1500000.00 EUR;",
+      "amount": 1500000,
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-09/6012600241_ppt_signed.pdf"
+    },
     {
       "id": "contratos:suministro-herramientas-mano-herramientas-electricas-neumaticas-material",
       "source": "contratos",
@@ -652,23 +703,6 @@
       "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-07/6012600209_pliego_de_prescripciones_tecnicas_signed.pdf"
     },
     {
-      "id": "contratos:acuerdo-marco-suministro-herramientas-mano-herramientas-electricas-material-0",
-      "source": "contratos",
-      "title": "Acuerdo marco para el suministro de herramientas de mano, herramientas eléctricas, material de ferretería y tornillería para Metro de Madrid, S.A",
-      "summary": "Id licitación: 6012600256;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 450000.00 EUR;",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "En plazo",
-      "status": "En plazo",
-      "expediente": "6012600256",
-      "amount": 450000,
-      "deadline": "2026-11-03",
-      "publishedAt": "2026-10-27",
-      "updatedAt": "2026-10-27T09:05:48+02:00",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/acuerdo-marco-suministro-herramientas-mano-herramientas-electricas-material-0",
-      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-10/6012600256_ppt_signed.pdf",
-      "firstSeenAt": "2026-10-05T06:56:10.585Z"
-    },
-    {
       "id": "contratos:servicio-revision-reparacion-pci-inter-estacion-metro-madrid-0",
       "source": "contratos",
       "title": "Servicio de revisión y reparación de PCI Inter estación de Metro de Madrid",
@@ -1122,23 +1156,6 @@
       "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-05/6012600126_pliego_de_prescripciones_tecnicas_signed.pdf"
     },
     {
-      "id": "contratos:servicio-asistencia-tecnica-consultoria-analisis-medicion-control-ruido-vibracion",
-      "source": "contratos",
-      "title": "Servicio de asistencia técnica para la consultoría de análisis y medición para el control de ruido y vibración en Metro de Madrid",
-      "summary": "Id licitación: 6012600261;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 309997.68 EUR;",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "En plazo",
-      "status": "En plazo",
-      "expediente": "6012600261",
-      "amount": 309997.68,
-      "deadline": "2026-11-03",
-      "publishedAt": "2026-10-22",
-      "updatedAt": "2026-10-22T10:54:35+02:00",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-asistencia-tecnica-consultoria-analisis-medicion-control-ruido-vibracion",
-      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-10/6012600261_ppt_signed.pdf",
-      "firstSeenAt": "2026-10-09T06:38:52.473Z"
-    },
-    {
       "id": "contratos:servicio-ayuda-asistencia-soporte-nivel-2-plataforma-servidores-windows",
       "source": "contratos",
       "title": "Servicio de ayuda y asistencia al soporte de nivel 2 de la plataforma de servidores Windows",
@@ -1192,14 +1209,14 @@
     {
       "id": "bocm:bocm-20261022-23",
       "source": "bocm",
-      "title": "Formalización contrato– Resolución de 9 de octubre de 2026, de la Secretaría General Técnica de la Consejería de Vivienda, Transportes e Infraestructuras, por la que se dispone la publicación en los boletines oficiales y en el “perfil del contratante” de la formalización del contrato de obras de ejecución de la señalización para la ampliación de la línea 11 de metro de Madrid. Tramo Plaza Elíptica-Conde de Casal",
-      "summary": "Formalización contrato– Resolución de 9 de octubre de 2026, de la Secretaría General Técnica de la Consejería de Vivienda, Transportes e Infraestructuras, por la que se dispone la publicación en los boletines oficiales y en el “perfil del contratante” de la formalización del contrato de obras de ejecución de la señalización para la ampliación de la línea 11 de metro de Madrid. Tramo Plaza Elíptica-Conde de Casal",
+      "title": "Formalización contrato – Resolución de 9 de octubre de 2026, de la Secretaría General Técnica de la Consejería de Vivienda, Transportes e Infraestructuras, por la que se dispone la publicación en los boletines oficiales y en el “perfil del contratante” de la formalización del contrato de obras de ejecución de la señalización para la ampliación de la línea 11 de metro de Madrid. Tramo Plaza Elíptica-Conde de Casal",
+      "summary": "Formalización contrato – Resolución de 9 de octubre de 2026, de la Secretaría General Técnica de la Consejería de Vivienda, Transportes e Infraestructuras, por la que se dispone la publicación en los boletines oficiales y en el “perfil del contratante” de la formalización del contrato de obras de ejecución de la señalización para la ampliación de la línea 11 de metro de Madrid. Tramo Plaza Elíptica-Conde de Casal",
       "issuer": "CONSEJERÍA DE VIVIENDA, TRANSPORTES E INFRAESTRUCTURAS",
-      "publicationType": "Formalización contrato",
+      "publicationType": "RESOLUCIÓN",
       "publishedAt": "2026-10-22",
       "url": "https://www.bocm.es/bocm-20261022-23",
       "pdfUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/10/22/BOCM-20261022-23.PDF",
-      "xmlUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/10/22/BOCM-20261022-23.xml?language=es",
+      "xmlUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/10/22/BOCM-20261022-23.xml",
       "firstSeenAt": "2026-10-22T12:55:01.944Z",
       "tags": [
         "I. COMUNIDAD DE MADRID · D) Anuncios"
@@ -4314,20 +4331,6 @@
       "summary": "Id licitación: 6012600179;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 1000000.00 EUR;",
       "amount": 1000000,
       "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-06/6012600179_ppt_signed.pdf"
-    },
-    {
-      "id": "contratos:acuerdo-marco-suministro-suscripcion-mantenimiento-licencias-aplicaciones-1",
-      "source": "contratos",
-      "title": "Acuerdo marco para el suministro para la suscripción y mantenimiento de licencias de aplicaciones informáticas comerciales de puesto cliente para Metro de Madrid.",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Convocatoria anunciada a licitación",
-      "status": "En plazo",
-      "expediente": "6012600241",
-      "publishedAt": "2026-09-07",
-      "updatedAt": "2026-09-07T14:47:00+02:00",
-      "deadline": "2026-11-03",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/acuerdo-marco-suministro-suscripcion-mantenimiento-licencias-aplicaciones-1",
-      "firstSeenAt": "2026-09-03T09:40:54.691Z"
     },
     {
       "id": "contratos:servicios-direccion-obras-coordinacion-seguridad-salud-asistencia-tecnica-obras-0",
