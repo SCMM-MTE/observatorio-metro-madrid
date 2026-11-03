@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-02T16:58:25.551Z",
+  "generatedAt": "2026-11-03T01:30:40.072Z",
   "coverage": {
     "bocm": "2009-12-01 a 2026-10-30",
     "contratos": "2017-02-02 a 2026-10-30",
@@ -8,21 +8,21 @@
   },
   "sources": {
     "bocm": {
-      "checkedAt": "2026-11-02T16:58:25.551Z",
+      "checkedAt": "2026-11-03T01:30:40.072Z",
       "ok": true,
       "partial": false,
       "message": "12 registros relevantes comprobados",
       "recordsSeen": 12
     },
     "contratos": {
-      "checkedAt": "2026-11-02T16:58:25.551Z",
+      "checkedAt": "2026-11-03T01:30:40.072Z",
       "ok": true,
       "partial": false,
-      "message": "4 registros relevantes comprobados",
-      "recordsSeen": 4
+      "message": "3 registros relevantes comprobados",
+      "recordsSeen": 3
     },
     "empleo": {
-      "checkedAt": "2026-11-02T16:58:25.551Z",
+      "checkedAt": "2026-11-03T01:30:40.072Z",
       "ok": true,
       "partial": true,
       "message": "Cobertura mediante BOCM: 0 convocatoria(s) reciente(s) revisada(s); el portal directo protege el acceso automatizado",
@@ -1365,14 +1365,14 @@
     {
       "id": "bocm:bocm-20261019-41",
       "source": "bocm",
-      "title": "Formalización contrato– Anuncio de 14 de octubre de 2026, de adjudicación del contrato titulado “Suministro de suspensión primaria 7000 9000” para el mantenimiento de los vehículos de material móvil de Metro de Madrid, S. A. (Expediente 6012600224)",
-      "summary": "Formalización contrato– Anuncio de 14 de octubre de 2026, de adjudicación del contrato titulado “Suministro de suspensión primaria 7000 9000” para el mantenimiento de los vehículos de material móvil de Metro de Madrid, S. A. (Expediente 6012600224)",
-      "issuer": "CONSEJERÍA DE VIVIENDA, TRANSPORTES E INFRAESTRUCTURAS · METRO DE MADRID, S. A.",
-      "publicationType": "Formalización contrato",
+      "title": "Formalización contrato – Anuncio de 14 de octubre de 2026, de adjudicación del contrato titulado “Suministro de suspensión primaria 7000 9000” para el mantenimiento de los vehículos de material móvil de Metro de Madrid, S. A. (Expediente 6012600224)",
+      "summary": "Formalización contrato – Anuncio de 14 de octubre de 2026, de adjudicación del contrato titulado “Suministro de suspensión primaria 7000 9000” para el mantenimiento de los vehículos de material móvil de Metro de Madrid, S. A. (Expediente 6012600224)",
+      "issuer": "CONSEJERÍA DE VIVIENDA, TRANSPORTES E INFRAESTRUCTURAS",
+      "publicationType": "ANUNCIO",
       "publishedAt": "2026-10-19",
       "url": "https://www.bocm.es/bocm-20261019-41",
       "pdfUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/10/19/BOCM-20261019-41.PDF",
-      "xmlUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/10/19/BOCM-20261019-41.xml?language=es",
+      "xmlUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/10/19/BOCM-20261019-41.xml",
       "firstSeenAt": "2026-10-19T11:12:10.003Z",
       "tags": [
         "I. COMUNIDAD DE MADRID · D) Anuncios"
@@ -1381,14 +1381,14 @@
     {
       "id": "bocm:bocm-20261019-42",
       "source": "bocm",
-      "title": "Formalización contrato– Anuncio de 14 de octubre de 2026, de adjudicación del contrato titulado “Servicio de asistencia técnica para el análisis de la adecuación y puesta en conformidad del equipamiento de taller, equipos de mano y utillaje del Área de Mantenimiento de Material Móvil de Metro de Madrid”. (Expediente 6012600149)",
-      "summary": "Formalización contrato– Anuncio de 14 de octubre de 2026, de adjudicación del contrato titulado “Servicio de asistencia técnica para el análisis de la adecuación y puesta en conformidad del equipamiento de taller, equipos de mano y utillaje del Área de Mantenimiento de Material Móvil de Metro de Madrid”. (Expediente 6012600149)",
-      "issuer": "CONSEJERÍA DE VIVIENDA, TRANSPORTES E INFRAESTRUCTURAS · METRO DE MADRID, S. A.",
-      "publicationType": "Formalización contrato",
+      "title": "Formalización contrato – Anuncio de 14 de octubre de 2026, de adjudicación del contrato titulado “Servicio de asistencia técnica para el análisis de la adecuación y puesta en conformidad del equipamiento de taller, equipos de mano y utillaje del Área de Mantenimiento de Material Móvil de Metro de Madrid”. (Expediente 6012600149)",
+      "summary": "Formalización contrato – Anuncio de 14 de octubre de 2026, de adjudicación del contrato titulado “Servicio de asistencia técnica para el análisis de la adecuación y puesta en conformidad del equipamiento de taller, equipos de mano y utillaje del Área de Mantenimiento de Material Móvil de Metro de Madrid”. (Expediente 6012600149)",
+      "issuer": "CONSEJERÍA DE VIVIENDA, TRANSPORTES E INFRAESTRUCTURAS",
+      "publicationType": "ANUNCIO",
       "publishedAt": "2026-10-19",
       "url": "https://www.bocm.es/bocm-20261019-42",
       "pdfUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/10/19/BOCM-20261019-42.PDF",
-      "xmlUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/10/19/BOCM-20261019-42.xml?language=es",
+      "xmlUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/10/19/BOCM-20261019-42.xml",
       "firstSeenAt": "2026-10-19T11:12:10.003Z",
       "tags": [
         "I. COMUNIDAD DE MADRID · D) Anuncios"
