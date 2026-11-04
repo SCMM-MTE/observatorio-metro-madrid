@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-03T23:56:42.925Z",
+  "generatedAt": "2026-11-04T15:20:13.623Z",
   "coverage": {
     "bocm": "2009-12-01 a 2026-11-03",
     "contratos": "2017-02-02 a 2026-11-04",
@@ -8,21 +8,21 @@
   },
   "sources": {
     "bocm": {
-      "checkedAt": "2026-11-03T23:56:42.925Z",
+      "checkedAt": "2026-11-04T15:20:13.623Z",
       "ok": true,
       "partial": true,
-      "message": "3 registros relevantes comprobados; 18 documento(s) omitido(s) temporalmente",
+      "message": "3 registros relevantes comprobados; 12 documento(s) omitido(s) temporalmente",
       "recordsSeen": 3
     },
     "contratos": {
-      "checkedAt": "2026-11-03T23:56:42.925Z",
+      "checkedAt": "2026-11-04T15:20:13.623Z",
       "ok": true,
       "partial": false,
-      "message": "10 registros relevantes comprobados",
-      "recordsSeen": 10
+      "message": "5 registros relevantes comprobados",
+      "recordsSeen": 5
     },
     "empleo": {
-      "checkedAt": "2026-11-03T23:56:42.925Z",
+      "checkedAt": "2026-11-04T15:20:13.623Z",
       "ok": true,
       "partial": true,
       "message": "Cobertura mediante BOCM: 0 convocatoria(s) reciente(s) revisada(s); el portal directo protege el acceso automatizado",
@@ -30,6 +30,91 @@
     }
   },
   "items": [
+    {
+      "id": "contratos:servicio-ayuda-asistencia-soporte-nivel-2-plataforma-servidores-windows",
+      "source": "contratos",
+      "title": "Servicio de ayuda y asistencia al soporte de nivel 2 de la plataforma de servidores Windows",
+      "summary": "Id licitación: 6012600262;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 840000.00 EUR;",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "En plazo",
+      "status": "En plazo",
+      "expediente": "6012600262",
+      "amount": 840000,
+      "deadline": "2026-11-10",
+      "publishedAt": "2026-11-04",
+      "updatedAt": "2026-11-04T11:50:07+02:00",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-ayuda-asistencia-soporte-nivel-2-plataforma-servidores-windows",
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-10/6012600262_ppt_signed.pdf",
+      "firstSeenAt": "2026-10-09T06:38:52.473Z"
+    },
+    {
+      "id": "contratos:servicio-mantenimiento-preventivo-correctivo-vehiculos-industriales-propiedad-0",
+      "source": "contratos",
+      "title": "Servicio de mantenimiento preventivo y correctivo de los vehículos industriales propiedad de Metro de Madrid S.A",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Pendiente de adjudicación",
+      "status": "Pendiente de adjudicación",
+      "expediente": "6012600244",
+      "publishedAt": "2026-11-04",
+      "updatedAt": "2026-11-04T11:31:10+02:00",
+      "deadline": "2026-10-09",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-mantenimiento-preventivo-correctivo-vehiculos-industriales-propiedad-0",
+      "firstSeenAt": "2026-09-17T10:23:38.092Z",
+      "summary": "Id licitación: 6012600244;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 133078.00 EUR;",
+      "amount": 133078,
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-09/6012600244_ppt_signed.pdf"
+    },
+    {
+      "id": "contratos:servicio-inspecciones-ensayos-no-destructivos-end-mt-bogies-ejes-traviesas",
+      "source": "contratos",
+      "title": "Servicio de inspecciones ensayos no destructivos (END-MT) de bogies, ejes y traviesas",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Resuelta / Finalizada",
+      "status": "Resuelta / Finalizada",
+      "expediente": "6012600118",
+      "publishedAt": "2026-11-04",
+      "updatedAt": "2026-11-04T10:20:43+02:00",
+      "deadline": "2026-05-28",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-inspecciones-ensayos-no-destructivos-end-mt-bogies-ejes-traviesas",
+      "firstSeenAt": "2026-08-05T08:03:18.389Z",
+      "summary": "Id licitación: 6012600118;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 539857.50 EUR;",
+      "amount": 539857.5,
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-04/6012600118_ppt_y_anexos_ppt_confidencialidad_signed.pdf"
+    },
+    {
+      "id": "contratos:servicio-mantenimiento-preventivo-ciclo-largo-puertas-acceso-viajeros-material",
+      "source": "contratos",
+      "title": "Servicio de mantenimiento preventivo de ciclo largo de las puertas de acceso de viajeros en el material móvil de la serie 3000-1ª",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Resuelta / Finalizada",
+      "status": "Resuelta / Finalizada",
+      "expediente": "6012600009",
+      "publishedAt": "2026-11-04",
+      "updatedAt": "2026-11-04T10:18:42+02:00",
+      "deadline": "2026-02-20",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-mantenimiento-preventivo-ciclo-largo-puertas-acceso-viajeros-material",
+      "firstSeenAt": "2026-08-05T08:03:18.389Z",
+      "summary": "Id licitación: 6012600009;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 1274400.00 EUR;",
+      "amount": 1274400,
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-01/6012600009_documento_ref._confidencialidad_signed.pdf"
+    },
+    {
+      "id": "contratos:servicio-soporte-especializado-apoyo-gestion-administracion-plataforma-gestion-6",
+      "source": "contratos",
+      "title": "Servicio de soporte especializado de apoyo a la gestión y administración de la plataforma gestión de cuentas privilegiadas",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Resuelta / Finalizada",
+      "status": "Resuelta / Finalizada",
+      "expediente": "6012600145",
+      "publishedAt": "2026-11-04",
+      "updatedAt": "2026-11-04T10:16:42+02:00",
+      "deadline": "2026-06-18",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-soporte-especializado-apoyo-gestion-administracion-plataforma-gestion-6",
+      "firstSeenAt": "2026-08-05T08:03:18.389Z",
+      "summary": "Id licitación: 6012600145;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 535200.00 EUR;",
+      "amount": 535200,
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-05/6012600145_referencia_al_pliego_de_prescripciones_tecnicas_signed.pdf"
+    },
     {
       "id": "contratos:acuerdo-marco-suministro-herramientas-mano-herramientas-electricas-material-0",
       "source": "contratos",
@@ -218,34 +303,20 @@
       "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-06/6012600181_ppt_signed.pdf"
     },
     {
-      "id": "contratos:servicio-mantenimiento-preventivo-correctivo-vehiculos-industriales-propiedad-0",
-      "source": "contratos",
-      "title": "Servicio de mantenimiento preventivo y correctivo de los vehículos industriales propiedad de Metro de Madrid S.A",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Pendiente de adjudicación",
-      "status": "Pendiente de adjudicación",
-      "expediente": "6012600244",
-      "publishedAt": "2026-11-03",
-      "updatedAt": "2026-11-03T08:09:33+02:00",
-      "deadline": "2026-10-09",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-mantenimiento-preventivo-correctivo-vehiculos-industriales-propiedad-0",
-      "firstSeenAt": "2026-09-17T10:23:38.092Z",
-      "summary": "Id licitación: 6012600244;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 133078.00 EUR;",
-      "amount": 133078,
-      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-09/6012600244_ppt_signed.pdf"
-    },
-    {
       "id": "bocm:bocm-20261103-46",
       "source": "bocm",
-      "title": "Convocatoria contrato– Anuncio de 28 de octubre de 2026, por el que se convoca la licitación para la contratación de un suministro de herramientas de mano, herramientas eléctricas y neumáticas y material de ferretería para Metro de Madrid, S. A. (Expediente 6012600283)",
-      "summary": "Convocatoria contrato– Anuncio de 28 de octubre de 2026, por el que se convoca la licitación para la contratación de un suministro de herramientas de mano, herramientas eléctricas y neumáticas y material de ferretería para Metro de Madrid, S. A. (Expediente 6012600283)",
-      "issuer": "CONSEJERÍA DE VIVIENDA, TRANSPORTES E INFRAESTRUCTURAS · METRO DE MADRID, S. A.",
-      "publicationType": "Convocatoria contrato",
+      "title": "Convocatoria contrato – Anuncio de 28 de octubre de 2026, por el que se convoca la licitación para la contratación de un suministro de herramientas de mano, herramientas eléctricas y neumáticas y material de ferretería para Metro de Madrid, S. A. (Expediente 6012600283)",
+      "summary": "Convocatoria contrato – Anuncio de 28 de octubre de 2026, por el que se convoca la licitación para la contratación de un suministro de herramientas de mano, herramientas eléctricas y neumáticas y material de ferretería para Metro de Madrid, S. A. (Expediente 6012600283)",
+      "issuer": "CONSEJERÍA DE VIVIENDA, TRANSPORTES E INFRAESTRUCTURAS",
+      "publicationType": "ANUNCIO",
       "publishedAt": "2026-11-03",
       "url": "https://www.bocm.es/bocm-20261103-46",
       "pdfUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/11/03/BOCM-20261103-46.PDF",
-      "xmlUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/11/03/BOCM-20261103-46.xml?language=es",
-      "firstSeenAt": "2026-11-03T14:58:54.871Z"
+      "xmlUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/11/03/BOCM-20261103-46.xml",
+      "firstSeenAt": "2026-11-03T14:58:54.871Z",
+      "tags": [
+        "I. COMUNIDAD DE MADRID · D) Anuncios"
+      ]
     },
     {
       "id": "contratos:servicios-transporte",
@@ -855,23 +926,6 @@
       "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-05/6012600135_pliego_de_prescripciones_tecnicas_signed.pdf"
     },
     {
-      "id": "contratos:servicio-soporte-especializado-apoyo-gestion-administracion-plataforma-gestion-6",
-      "source": "contratos",
-      "title": "Servicio de soporte especializado de apoyo a la gestión y administración de la plataforma gestión de cuentas privilegiadas",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Resuelta / Finalizada",
-      "status": "Resuelta / Finalizada",
-      "expediente": "6012600145",
-      "publishedAt": "2026-10-26",
-      "updatedAt": "2026-10-26T10:03:46+02:00",
-      "deadline": "2026-06-18",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-soporte-especializado-apoyo-gestion-administracion-plataforma-gestion-6",
-      "firstSeenAt": "2026-08-05T08:03:18.389Z",
-      "summary": "Id licitación: 6012600145;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 535200.00 EUR;",
-      "amount": 535200,
-      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-05/6012600145_referencia_al_pliego_de_prescripciones_tecnicas_signed.pdf"
-    },
-    {
       "id": "contratos:suministro-bobinas-celulosa-empleadas-distintas-dependencias-metro-madrid-1",
       "source": "contratos",
       "title": "Suministro de bobinas de celulosa empleadas en distintas dependencias de Metro de Madrid",
@@ -1154,23 +1208,6 @@
       "summary": "Id licitación: 6012600126;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 7122300.00 EUR;",
       "amount": 7122300,
       "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-05/6012600126_pliego_de_prescripciones_tecnicas_signed.pdf"
-    },
-    {
-      "id": "contratos:servicio-ayuda-asistencia-soporte-nivel-2-plataforma-servidores-windows",
-      "source": "contratos",
-      "title": "Servicio de ayuda y asistencia al soporte de nivel 2 de la plataforma de servidores Windows",
-      "summary": "Id licitación: 6012600262;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 840000.00 EUR;",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "En plazo",
-      "status": "En plazo",
-      "expediente": "6012600262",
-      "amount": 840000,
-      "deadline": "2026-11-10",
-      "publishedAt": "2026-10-22",
-      "updatedAt": "2026-10-22T10:44:18+02:00",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-ayuda-asistencia-soporte-nivel-2-plataforma-servidores-windows",
-      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-10/6012600262_ppt_signed.pdf",
-      "firstSeenAt": "2026-10-09T06:38:52.473Z"
     },
     {
       "id": "contratos:servicio-polizas-seguros-responsabilidad-civil-profesional-metro-madrid-2027-2028",
@@ -1468,9 +1505,9 @@
       "issuer": "CONSEJERÍA DE VIVIENDA, TRANSPORTES E INFRAESTRUCTURAS",
       "publicationType": "ANUNCIO",
       "publishedAt": "2026-10-19",
-      "url": "https://www.bocm.es/bocm-20261019-41",
+      "url": "https://www.bocm.es/bocm-20261019-41?language=es",
       "pdfUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/10/19/BOCM-20261019-41.PDF",
-      "xmlUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/10/19/BOCM-20261019-41.xml",
+      "xmlUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/10/19/BOCM-20261019-41.xml?language=es",
       "firstSeenAt": "2026-10-19T11:12:10.003Z",
       "tags": [
         "I. COMUNIDAD DE MADRID · D) Anuncios"
@@ -1484,9 +1521,9 @@
       "issuer": "CONSEJERÍA DE VIVIENDA, TRANSPORTES E INFRAESTRUCTURAS",
       "publicationType": "ANUNCIO",
       "publishedAt": "2026-10-19",
-      "url": "https://www.bocm.es/bocm-20261019-42",
+      "url": "https://www.bocm.es/bocm-20261019-42?language=es",
       "pdfUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/10/19/BOCM-20261019-42.PDF",
-      "xmlUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/10/19/BOCM-20261019-42.xml",
+      "xmlUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/10/19/BOCM-20261019-42.xml?language=es",
       "firstSeenAt": "2026-10-19T11:12:10.003Z",
       "tags": [
         "I. COMUNIDAD DE MADRID · D) Anuncios"
@@ -2102,23 +2139,6 @@
       "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-04/6012600119_ppt_y_anexos_ppt_confidencialidad_signed.pdf"
     },
     {
-      "id": "contratos:servicio-inspecciones-ensayos-no-destructivos-end-mt-bogies-ejes-traviesas",
-      "source": "contratos",
-      "title": "Servicio de inspecciones ensayos no destructivos (END-MT) de bogies, ejes y traviesas",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Adjudicada",
-      "status": "Adjudicada",
-      "expediente": "6012600118",
-      "publishedAt": "2026-10-09",
-      "updatedAt": "2026-10-09T10:06:18+02:00",
-      "deadline": "2026-05-28",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-inspecciones-ensayos-no-destructivos-end-mt-bogies-ejes-traviesas",
-      "firstSeenAt": "2026-08-05T08:03:18.389Z",
-      "summary": "Id licitación: 6012600118;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 539857.50 EUR;",
-      "amount": 539857.5,
-      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-04/6012600118_ppt_y_anexos_ppt_confidencialidad_signed.pdf"
-    },
-    {
       "id": "contratos:soporte-tecnico-avanzado-gestion-administracion-plataforma-big-data-servicios-0",
       "source": "contratos",
       "title": "Soporte técnico avanzado para la gestión y administración de la plataforma Big Data y servicios integrados",
@@ -2395,23 +2415,6 @@
       "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/suministro-renovacion-tecnologia-transporte-3-enlaces-e1-pseudowire-tdma-ip",
       "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-06/6012600193_referencia_al_ppt_y_anexo_signed.pdf",
       "firstSeenAt": "2026-08-05T07:48:11.952Z"
-    },
-    {
-      "id": "contratos:servicio-mantenimiento-preventivo-ciclo-largo-puertas-acceso-viajeros-material",
-      "source": "contratos",
-      "title": "Servicio de mantenimiento preventivo de ciclo largo de las puertas de acceso de viajeros en el material móvil de la serie 3000-1ª",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Pendiente de adjudicación",
-      "status": "Pendiente de adjudicación",
-      "expediente": "6012600009",
-      "publishedAt": "2026-10-06",
-      "updatedAt": "2026-10-06T11:44:48+02:00",
-      "deadline": "2026-02-20",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-mantenimiento-preventivo-ciclo-largo-puertas-acceso-viajeros-material",
-      "firstSeenAt": "2026-08-05T08:03:18.389Z",
-      "summary": "Id licitación: 6012600009;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 1274400.00 EUR;",
-      "amount": 1274400,
-      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-01/6012600009_documento_ref._confidencialidad_signed.pdf"
     },
     {
       "id": "contratos:suministro-licencia-uso-cartografia-comunidad-madrid-0",
