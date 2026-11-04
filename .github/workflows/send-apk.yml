@@ -1,0 +1,38 @@
+name: Entregar APK SCMM por Telegram
+on:
+  workflow_dispatch:
+    inputs:
+      apk_url:
+        description: Enlace estable de la APK firmada y verificada
+        required: true
+        type: string
+      sha256:
+        description: SHA256 de la APK publicada
+        required: true
+        type: string
+      dry_run:
+        description: Comprobar destino sin enviar mensajes
+        type: boolean
+        default: true
+  push:
+    branches: [codex/apk-delivery]
+permissions:
+  contents: read
+jobs:
+  deliver:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: node --test tests/send-apk-telegram.test.mjs
+      - name: Comprobar destino o entregar enlace solicitado
+        run: node scripts/send-apk-telegram.mjs
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          APK_URL: ${{ inputs.apk_url || 'https://github.com/SCMM-MTE/consulta-convenio/releases/download/v0.5.28/Consulta-Convenio-0.5.28-SCMM.apk' }}
+          APK_SHA256: ${{ inputs.sha256 || 'aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa' }}
+          DRY_RUN: ${{ github.event_name != 'workflow_dispatch' && 'true' || inputs.dry_run && 'true' || 'false' }}
