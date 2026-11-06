@@ -1,28 +1,28 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-06T14:56:01.067Z",
+  "generatedAt": "2026-11-06T23:42:47.007Z",
   "coverage": {
     "bocm": "2009-12-01 a 2026-11-05",
-    "contratos": "2017-02-02 a 2026-11-06",
+    "contratos": "2017-02-02 a 2026-11-07",
     "empleo": "2016-10-31 a 2026-10-16"
   },
   "sources": {
     "bocm": {
-      "checkedAt": "2026-11-06T14:56:01.067Z",
+      "checkedAt": "2026-11-06T23:42:47.007Z",
       "ok": true,
       "partial": true,
-      "message": "11 registros relevantes comprobados; 11 documento(s) omitido(s) temporalmente",
-      "recordsSeen": 11
+      "message": "12 registros relevantes comprobados; 10 documento(s) omitido(s) temporalmente",
+      "recordsSeen": 12
     },
     "contratos": {
-      "checkedAt": "2026-11-06T14:56:01.067Z",
+      "checkedAt": "2026-11-06T23:42:47.007Z",
       "ok": true,
       "partial": false,
       "message": "4 registros relevantes comprobados",
       "recordsSeen": 4
     },
     "empleo": {
-      "checkedAt": "2026-11-06T14:56:01.067Z",
+      "checkedAt": "2026-11-06T23:42:47.007Z",
       "ok": true,
       "partial": true,
       "message": "Cobertura mediante BOCM: 0 convocatoria(s) reciente(s) revisada(s); el portal directo protege el acceso automatizado",
@@ -30,6 +30,40 @@
     }
   },
   "items": [
+    {
+      "id": "contratos:suministro-trabajos-cerrajeria-rediseno-materiales-coordinacion-linea-aerea",
+      "source": "contratos",
+      "title": "Suministro para trabajos de cerrajería y rediseño de materiales para la coordinación de Línea Aérea",
+      "summary": "Id licitación: 6012600276;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 160691.30 EUR;",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Pendiente de adjudicación",
+      "status": "Pendiente de adjudicación",
+      "expediente": "6012600276",
+      "amount": 160691.3,
+      "deadline": "2026-11-06",
+      "publishedAt": "2026-11-07",
+      "updatedAt": "2026-11-07T00:18:17+02:00",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/suministro-trabajos-cerrajeria-rediseno-materiales-coordinacion-linea-aerea",
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-10/6012600276_referencia_al_ppt_signed.pdf",
+      "firstSeenAt": "2026-10-20T11:00:47.114Z"
+    },
+    {
+      "id": "contratos:servicio-inspecciones-tecnicas-reglamentarias-cables-alta-tension-0",
+      "source": "contratos",
+      "title": "Servicio de inspecciones técnicas reglamentarias de cables de alta tensión",
+      "summary": "Id licitación: 6012600257;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 395997.33 EUR;",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Pendiente de adjudicación",
+      "status": "Pendiente de adjudicación",
+      "expediente": "6012600257",
+      "amount": 395997.33,
+      "deadline": "2026-11-06",
+      "publishedAt": "2026-11-07",
+      "updatedAt": "2026-11-07T00:18:17+02:00",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-inspecciones-tecnicas-reglamentarias-cables-alta-tension-0",
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-10/6012600257_ppt_signed.pdf",
+      "firstSeenAt": "2026-10-09T06:38:52.473Z"
+    },
     {
       "id": "contratos:redaccion-plan-especial-proyecto-construccion-nueva-estacion-linea-10-metro-barrio",
       "source": "contratos",
@@ -432,23 +466,6 @@
       "summary": "Id licitación: 6012600204;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 296535.00 EUR;",
       "amount": 296535,
       "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-07/6012600204_ppt_signed.pdf"
-    },
-    {
-      "id": "contratos:suministro-trabajos-cerrajeria-rediseno-materiales-coordinacion-linea-aerea",
-      "source": "contratos",
-      "title": "Suministro para trabajos de cerrajería y rediseño de materiales para la coordinación de Línea Aérea",
-      "summary": "Id licitación: 6012600276;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 160691.30 EUR;",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "En plazo",
-      "status": "En plazo",
-      "expediente": "6012600276",
-      "amount": 160691.3,
-      "deadline": "2026-11-06",
-      "publishedAt": "2026-11-03",
-      "updatedAt": "2026-11-03T11:49:44+02:00",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/suministro-trabajos-cerrajeria-rediseno-materiales-coordinacion-linea-aerea",
-      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-10/6012600276_referencia_al_ppt_signed.pdf",
-      "firstSeenAt": "2026-10-20T11:00:47.114Z"
     },
     {
       "id": "contratos:suministro-diseno-fabricacion-suministro-supervision-premontaje-montaje-adv-obras",
@@ -1445,14 +1462,14 @@
     {
       "id": "bocm:bocm-20261022-23",
       "source": "bocm",
-      "title": "Formalización contrato– Resolución de 9 de octubre de 2026, de la Secretaría General Técnica de la Consejería de Vivienda, Transportes e Infraestructuras, por la que se dispone la publicación en los boletines oficiales y en el “perfil del contratante” de la formalización del contrato de obras de ejecución de la señalización para la ampliación de la línea 11 de metro de Madrid. Tramo Plaza Elíptica-Conde de Casal",
-      "summary": "Formalización contrato– Resolución de 9 de octubre de 2026, de la Secretaría General Técnica de la Consejería de Vivienda, Transportes e Infraestructuras, por la que se dispone la publicación en los boletines oficiales y en el “perfil del contratante” de la formalización del contrato de obras de ejecución de la señalización para la ampliación de la línea 11 de metro de Madrid. Tramo Plaza Elíptica-Conde de Casal",
+      "title": "Formalización contrato – Resolución de 9 de octubre de 2026, de la Secretaría General Técnica de la Consejería de Vivienda, Transportes e Infraestructuras, por la que se dispone la publicación en los boletines oficiales y en el “perfil del contratante” de la formalización del contrato de obras de ejecución de la señalización para la ampliación de la línea 11 de metro de Madrid. Tramo Plaza Elíptica-Conde de Casal",
+      "summary": "Formalización contrato – Resolución de 9 de octubre de 2026, de la Secretaría General Técnica de la Consejería de Vivienda, Transportes e Infraestructuras, por la que se dispone la publicación en los boletines oficiales y en el “perfil del contratante” de la formalización del contrato de obras de ejecución de la señalización para la ampliación de la línea 11 de metro de Madrid. Tramo Plaza Elíptica-Conde de Casal",
       "issuer": "CONSEJERÍA DE VIVIENDA, TRANSPORTES E INFRAESTRUCTURAS",
-      "publicationType": "Formalización contrato",
+      "publicationType": "RESOLUCIÓN",
       "publishedAt": "2026-10-22",
       "url": "https://www.bocm.es/bocm-20261022-23",
       "pdfUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/10/22/BOCM-20261022-23.PDF",
-      "xmlUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/10/22/BOCM-20261022-23.xml?language=es",
+      "xmlUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/10/22/BOCM-20261022-23.xml",
       "firstSeenAt": "2026-10-22T12:55:01.944Z",
       "tags": [
         "I. COMUNIDAD DE MADRID · D) Anuncios"
@@ -2268,23 +2285,6 @@
       "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/suministro-frotadores-cola-milano-mantenimiento-pantografos-montados-serie-2000-0",
       "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-08/6012600230_ppt_signed.pdf",
       "firstSeenAt": "2026-08-21T05:08:16.465Z"
-    },
-    {
-      "id": "contratos:servicio-inspecciones-tecnicas-reglamentarias-cables-alta-tension-0",
-      "source": "contratos",
-      "title": "Servicio de inspecciones técnicas reglamentarias de cables de alta tensión",
-      "summary": "Id licitación: 6012600257;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 395997.33 EUR;",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "En plazo",
-      "status": "En plazo",
-      "expediente": "6012600257",
-      "amount": 395997.33,
-      "deadline": "2026-11-06",
-      "publishedAt": "2026-10-09",
-      "updatedAt": "2026-10-09T07:20:36+02:00",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-inspecciones-tecnicas-reglamentarias-cables-alta-tension-0",
-      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-10/6012600257_ppt_signed.pdf",
-      "firstSeenAt": "2026-10-09T06:38:52.473Z"
     },
     {
       "id": "bocm:bocm-20261009-39",
