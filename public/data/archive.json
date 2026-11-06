@@ -1,28 +1,28 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-05T15:21:37.895Z",
+  "generatedAt": "2026-11-06T00:02:29.949Z",
   "coverage": {
     "bocm": "2009-12-01 a 2026-11-05",
-    "contratos": "2017-02-02 a 2026-11-05",
+    "contratos": "2017-02-02 a 2026-11-06",
     "empleo": "2016-10-31 a 2026-10-16"
   },
   "sources": {
     "bocm": {
-      "checkedAt": "2026-11-05T15:21:37.895Z",
+      "checkedAt": "2026-11-06T00:02:29.949Z",
       "ok": true,
       "partial": true,
-      "message": "10 registros relevantes comprobados; 7 documento(s) omitido(s) temporalmente",
-      "recordsSeen": 10
+      "message": "9 registros relevantes comprobados; 10 documento(s) omitido(s) temporalmente",
+      "recordsSeen": 9
     },
     "contratos": {
-      "checkedAt": "2026-11-05T15:21:37.895Z",
+      "checkedAt": "2026-11-06T00:02:29.949Z",
       "ok": true,
       "partial": false,
-      "message": "11 registros relevantes comprobados",
-      "recordsSeen": 11
+      "message": "12 registros relevantes comprobados",
+      "recordsSeen": 12
     },
     "empleo": {
-      "checkedAt": "2026-11-05T15:21:37.895Z",
+      "checkedAt": "2026-11-06T00:02:29.949Z",
       "ok": true,
       "partial": true,
       "message": "Cobertura mediante BOCM: 0 convocatoria(s) reciente(s) revisada(s); el portal directo protege el acceso automatizado",
@@ -30,6 +30,23 @@
     }
   },
   "items": [
+    {
+      "id": "contratos:suministro-e-instalacion-mobiliario-industrial-metro-madrid",
+      "source": "contratos",
+      "title": "Suministro e instalación de mobiliario industrial para Metro de Madrid",
+      "summary": "Id licitación: 6012600270;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 94450.00 EUR;",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Pendiente de adjudicación",
+      "status": "Pendiente de adjudicación",
+      "expediente": "6012600270",
+      "amount": 94450,
+      "deadline": "2026-11-05",
+      "publishedAt": "2026-11-06",
+      "updatedAt": "2026-11-06T00:10:13+02:00",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/suministro-e-instalacion-mobiliario-industrial-metro-madrid",
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-10/6012600270_pliego_de_prescripciones_tecnicas_signed.pdf",
+      "firstSeenAt": "2026-10-14T10:33:57.662Z"
+    },
     {
       "id": "contratos:suministro-valvulas-aspiracion-e-impulsion-compresores-aire-comprimido-material",
       "source": "contratos",
@@ -1948,23 +1965,6 @@
       "summary": "Id licitación: 6012600197;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 177600.00 EUR;",
       "amount": 177600,
       "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-07/6012600197_pliego_de_prescripciones_tecnicas_signed.pdf"
-    },
-    {
-      "id": "contratos:suministro-e-instalacion-mobiliario-industrial-metro-madrid",
-      "source": "contratos",
-      "title": "Suministro e instalación de mobiliario industrial para Metro de Madrid",
-      "summary": "Id licitación: 6012600270;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 94450.00 EUR;",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "En plazo",
-      "status": "En plazo",
-      "expediente": "6012600270",
-      "amount": 94450,
-      "deadline": "2026-11-05",
-      "publishedAt": "2026-10-14",
-      "updatedAt": "2026-10-14T10:09:34+02:00",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/suministro-e-instalacion-mobiliario-industrial-metro-madrid",
-      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-10/6012600270_pliego_de_prescripciones_tecnicas_signed.pdf",
-      "firstSeenAt": "2026-10-14T10:33:57.662Z"
     },
     {
       "id": "contratos:suministro-plataformas-elevadoras-moviles-tijera-articuladas-metro-madrid",
