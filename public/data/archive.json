@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-06T00:02:29.949Z",
+  "generatedAt": "2026-11-06T14:56:01.067Z",
   "coverage": {
     "bocm": "2009-12-01 a 2026-11-05",
     "contratos": "2017-02-02 a 2026-11-06",
@@ -8,21 +8,21 @@
   },
   "sources": {
     "bocm": {
-      "checkedAt": "2026-11-06T00:02:29.949Z",
+      "checkedAt": "2026-11-06T14:56:01.067Z",
       "ok": true,
       "partial": true,
-      "message": "9 registros relevantes comprobados; 10 documento(s) omitido(s) temporalmente",
-      "recordsSeen": 9
+      "message": "11 registros relevantes comprobados; 11 documento(s) omitido(s) temporalmente",
+      "recordsSeen": 11
     },
     "contratos": {
-      "checkedAt": "2026-11-06T00:02:29.949Z",
+      "checkedAt": "2026-11-06T14:56:01.067Z",
       "ok": true,
       "partial": false,
-      "message": "12 registros relevantes comprobados",
-      "recordsSeen": 12
+      "message": "4 registros relevantes comprobados",
+      "recordsSeen": 4
     },
     "empleo": {
-      "checkedAt": "2026-11-06T00:02:29.949Z",
+      "checkedAt": "2026-11-06T14:56:01.067Z",
       "ok": true,
       "partial": true,
       "message": "Cobertura mediante BOCM: 0 convocatoria(s) reciente(s) revisada(s); el portal directo protege el acceso automatizado",
@@ -30,6 +30,74 @@
     }
   },
   "items": [
+    {
+      "id": "contratos:redaccion-plan-especial-proyecto-construccion-nueva-estacion-linea-10-metro-barrio",
+      "source": "contratos",
+      "title": "Redacción del plan especial y proyecto de construcción de nueva estación en la línea 10 de metro, barrio de Campamento (Madrid)",
+      "summary": "Id licitación: A/SER-004469/2025;Órgano de Contratación: Consejería de Vivienda, Transportes e Infraestructuras;Importe: 446996.60 EUR;",
+      "issuer": "Consejería de Vivienda, Transportes e Infraestructuras",
+      "publicationType": "Pendiente de adjudicación",
+      "status": "Pendiente de adjudicación",
+      "expediente": "A/SER-004469/2025",
+      "amount": 446996.6,
+      "deadline": "2026-01-21",
+      "publishedAt": "2026-11-06",
+      "updatedAt": "2026-11-06T13:17:02+02:00",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/redaccion-plan-especial-proyecto-construccion-nueva-estacion-linea-10-metro-barrio",
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2025-12/ser.4469.2025_ppt_03.09.2025_anonimizada.pdf",
+      "firstSeenAt": "2026-09-30T16:59:08.237Z"
+    },
+    {
+      "id": "contratos:servicio-inspecciones-periodicas-reglamentarias-ascensores-metro-madrid",
+      "source": "contratos",
+      "title": "Servicio de inspecciones periódicas reglamentarias para ascensores de Metro de Madrid",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Pendiente de adjudicación",
+      "status": "Pendiente de adjudicación",
+      "expediente": "6012600231",
+      "publishedAt": "2026-11-06",
+      "updatedAt": "2026-11-06T10:53:18+02:00",
+      "deadline": "2026-09-30",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-inspecciones-periodicas-reglamentarias-ascensores-metro-madrid",
+      "firstSeenAt": "2026-08-24T07:18:57.908Z",
+      "summary": "Id licitación: 6012600231;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 408204.00 EUR;",
+      "amount": 408204,
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-08/6012600231_ppt_signed.pdf"
+    },
+    {
+      "id": "contratos:servicio-mantenimiento-integral-824-equipos-instalaciones-climatizacion-ubicados",
+      "source": "contratos",
+      "title": "Servicio de mantenimiento integral de 824 equipos de instalaciones de climatización ubicados en estaciones, recintos y depósitos de Metro de Madrid",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Adjudicada",
+      "status": "Adjudicada",
+      "expediente": "6012600054",
+      "publishedAt": "2026-11-06",
+      "updatedAt": "2026-11-06T09:48:42+02:00",
+      "deadline": "2026-03-25",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-mantenimiento-integral-824-equipos-instalaciones-climatizacion-ubicados",
+      "firstSeenAt": "2026-08-05T08:03:18.389Z",
+      "summary": "Id licitación: 6012600054;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 3106264.89 EUR;",
+      "amount": 3106264.89,
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-02/6012600054_documento_ref._confidencialidad_signed.pdf"
+    },
+    {
+      "id": "contratos:servicio-retirada-amianto-material-movil-equipos-taller-trabajo-0",
+      "source": "contratos",
+      "title": "Servicio de retirada de amianto del material móvil y equipos de taller y trabajo",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Adjudicada",
+      "status": "Adjudicada",
+      "expediente": "6012500358",
+      "publishedAt": "2026-11-06",
+      "updatedAt": "2026-11-06T09:45:55+02:00",
+      "deadline": "2026-01-22",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-retirada-amianto-material-movil-equipos-taller-trabajo-0",
+      "firstSeenAt": "2026-08-05T08:03:18.389Z",
+      "summary": "Id licitación: 6012500358;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 1681499.87 EUR;",
+      "amount": 1681499.87,
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2025-12/6012500358_ppt_signed.pdf"
+    },
     {
       "id": "contratos:suministro-e-instalacion-mobiliario-industrial-metro-madrid",
       "source": "contratos",
@@ -80,23 +148,6 @@
       "summary": "Id licitación: 6012600170;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 2000000.00 EUR;",
       "amount": 2000000,
       "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-06/6012600170_pliego_de_prescripciones_tecnicas_signed.pdf"
-    },
-    {
-      "id": "contratos:servicio-inspecciones-periodicas-reglamentarias-ascensores-metro-madrid",
-      "source": "contratos",
-      "title": "Servicio de inspecciones periódicas reglamentarias para ascensores de Metro de Madrid",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Pendiente de adjudicación",
-      "status": "Pendiente de adjudicación",
-      "expediente": "6012600231",
-      "publishedAt": "2026-11-05",
-      "updatedAt": "2026-11-05T12:47:06+02:00",
-      "deadline": "2026-09-30",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-inspecciones-periodicas-reglamentarias-ascensores-metro-madrid",
-      "firstSeenAt": "2026-08-24T07:18:57.908Z",
-      "summary": "Id licitación: 6012600231;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 408204.00 EUR;",
-      "amount": 408204,
-      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-08/6012600231_ppt_signed.pdf"
     },
     {
       "id": "contratos:servicio-mantenimiento-preventivo-ciclo-largo-puertas-acceso-viajeros-material",
@@ -1341,23 +1392,6 @@
       "firstSeenAt": "2026-10-22T12:55:01.944Z"
     },
     {
-      "id": "contratos:redaccion-plan-especial-proyecto-construccion-nueva-estacion-linea-10-metro-barrio",
-      "source": "contratos",
-      "title": "Redacción del plan especial y proyecto de construcción de nueva estación en la línea 10 de metro, barrio de Campamento (Madrid)",
-      "summary": "Id licitación: A/SER-004469/2025;Órgano de Contratación: Consejería de Vivienda, Transportes e Infraestructuras;Importe: 446996.60 EUR;",
-      "issuer": "Consejería de Vivienda, Transportes e Infraestructuras",
-      "publicationType": "Pendiente de adjudicación",
-      "status": "Pendiente de adjudicación",
-      "expediente": "A/SER-004469/2025",
-      "amount": 446996.6,
-      "deadline": "2026-01-21",
-      "publishedAt": "2026-10-22",
-      "updatedAt": "2026-10-22T12:40:18+02:00",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/redaccion-plan-especial-proyecto-construccion-nueva-estacion-linea-10-metro-barrio",
-      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2025-12/ser.4469.2025_ppt_03.09.2025_anonimizada.pdf",
-      "firstSeenAt": "2026-09-30T16:59:08.237Z"
-    },
-    {
       "id": "contratos:servicio-mantenimiento-integral-sistema-proteccion-incendios-series-material-movil",
       "source": "contratos",
       "title": "Servicio de mantenimiento integral del sistema de protección contra incendios de las series de material móvil de Metro de Madrid 3000, 7000, 8000 y 9000",
@@ -2166,23 +2200,6 @@
       "tags": [
         "I. COMUNIDAD DE MADRID · D) Anuncios"
       ]
-    },
-    {
-      "id": "contratos:servicio-retirada-amianto-material-movil-equipos-taller-trabajo-0",
-      "source": "contratos",
-      "title": "Servicio de retirada de amianto del material móvil y equipos de taller y trabajo",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Pendiente de adjudicación",
-      "status": "Pendiente de adjudicación",
-      "expediente": "6012500358",
-      "publishedAt": "2026-10-09",
-      "updatedAt": "2026-10-09T12:40:08+02:00",
-      "deadline": "2026-01-22",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-retirada-amianto-material-movil-equipos-taller-trabajo-0",
-      "firstSeenAt": "2026-08-05T08:03:18.389Z",
-      "summary": "Id licitación: 6012500358;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 1681499.87 EUR;",
-      "amount": 1681499.87,
-      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2025-12/6012500358_ppt_signed.pdf"
     },
     {
       "id": "contratos:acuerdo-marco-servicios-mantenimiento-correctivo-segundo-nivel-equipos-1",
@@ -3571,23 +3588,6 @@
       "summary": "Id licitación: 6012600163;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 357082.58 EUR;",
       "amount": 357082.58,
       "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-05/6012600163_pliego_de_prescripciones_tecnicas_signed.pdf"
-    },
-    {
-      "id": "contratos:servicio-mantenimiento-integral-824-equipos-instalaciones-climatizacion-ubicados",
-      "source": "contratos",
-      "title": "Servicio de mantenimiento integral de 824 equipos de instalaciones de climatización ubicados en estaciones, recintos y depósitos de Metro de Madrid",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Adjudicada",
-      "status": "Adjudicada",
-      "expediente": "6012600054",
-      "publishedAt": "2026-09-30",
-      "updatedAt": "2026-09-30T10:16:52+02:00",
-      "deadline": "2026-03-25",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-mantenimiento-integral-824-equipos-instalaciones-climatizacion-ubicados",
-      "firstSeenAt": "2026-08-05T08:03:18.389Z",
-      "summary": "Id licitación: 6012600054;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 3106264.89 EUR;",
-      "amount": 3106264.89,
-      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-02/6012600054_documento_ref._confidencialidad_signed.pdf"
     },
     {
       "id": "contratos:obras-implantacion-ascensores-estaciones-tetuan-puente-vallecas-carabanchel",
