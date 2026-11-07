@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-06T23:42:47.007Z",
+  "generatedAt": "2026-11-07T13:52:42.607Z",
   "coverage": {
     "bocm": "2009-12-01 a 2026-11-05",
     "contratos": "2017-02-02 a 2026-11-07",
@@ -8,21 +8,21 @@
   },
   "sources": {
     "bocm": {
-      "checkedAt": "2026-11-06T23:42:47.007Z",
+      "checkedAt": "2026-11-07T13:52:42.607Z",
       "ok": true,
-      "partial": true,
-      "message": "12 registros relevantes comprobados; 10 documento(s) omitido(s) temporalmente",
+      "partial": false,
+      "message": "12 registros relevantes comprobados",
       "recordsSeen": 12
     },
     "contratos": {
-      "checkedAt": "2026-11-06T23:42:47.007Z",
+      "checkedAt": "2026-11-07T13:52:42.607Z",
       "ok": true,
       "partial": false,
       "message": "4 registros relevantes comprobados",
       "recordsSeen": 4
     },
     "empleo": {
-      "checkedAt": "2026-11-06T23:42:47.007Z",
+      "checkedAt": "2026-11-07T13:52:42.607Z",
       "ok": true,
       "partial": true,
       "message": "Cobertura mediante BOCM: 0 convocatoria(s) reciente(s) revisada(s); el portal directo protege el acceso automatizado",
@@ -1378,14 +1378,14 @@
     {
       "id": "bocm:bocm-20261023-29",
       "source": "bocm",
-      "title": "Formalización contrato– Resolución de 13 de octubre de 2026, de la Secretaría General Técnica de la Consejería de Vivienda, Transportes e Infraestructuras, por la que se dispone la publicación en los boletines oficiales y en el “perfil del contratante” de la formalización del contrato de “Obras de ejecución de instalaciones para la ampliación de la línea 11 de Metro de Madrid. Tramo: Plaza Elíptica-Conde de Casal”",
-      "summary": "Formalización contrato– Resolución de 13 de octubre de 2026, de la Secretaría General Técnica de la Consejería de Vivienda, Transportes e Infraestructuras, por la que se dispone la publicación en los boletines oficiales y en el “perfil del contratante” de la formalización del contrato de “Obras de ejecución de instalaciones para la ampliación de la línea 11 de Metro de Madrid. Tramo: Plaza Elíptica-Conde de Casal”",
+      "title": "Formalización contrato – Resolución de 13 de octubre de 2026, de la Secretaría General Técnica de la Consejería de Vivienda, Transportes e Infraestructuras, por la que se dispone la publicación en los boletines oficiales y en el “perfil del contratante” de la formalización del contrato de “Obras de ejecución de instalaciones para la ampliación de la línea 11 de Metro de Madrid. Tramo: Plaza Elíptica-Conde de Casal”",
+      "summary": "Formalización contrato – Resolución de 13 de octubre de 2026, de la Secretaría General Técnica de la Consejería de Vivienda, Transportes e Infraestructuras, por la que se dispone la publicación en los boletines oficiales y en el “perfil del contratante” de la formalización del contrato de “Obras de ejecución de instalaciones para la ampliación de la línea 11 de Metro de Madrid. Tramo: Plaza Elíptica-Conde de Casal”",
       "issuer": "CONSEJERÍA DE VIVIENDA, TRANSPORTES E INFRAESTRUCTURAS",
-      "publicationType": "Formalización contrato",
+      "publicationType": "RESOLUCIÓN",
       "publishedAt": "2026-10-23",
       "url": "https://www.bocm.es/bocm-20261023-29",
       "pdfUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/10/23/BOCM-20261023-29.PDF",
-      "xmlUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/10/23/BOCM-20261023-29.xml?language=es",
+      "xmlUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/10/23/BOCM-20261023-29.xml",
       "firstSeenAt": "2026-10-23T12:33:35.973Z",
       "tags": [
         "I. COMUNIDAD DE MADRID · D) Anuncios"
