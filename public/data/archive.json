@@ -1,28 +1,28 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-08T22:45:24.118Z",
+  "generatedAt": "2026-11-09T17:23:14.045Z",
   "coverage": {
-    "bocm": "2009-12-01 a 2026-11-05",
+    "bocm": "2009-12-01 a 2026-11-09",
     "contratos": "2017-02-02 a 2026-11-07",
     "empleo": "2016-10-31 a 2026-10-16"
   },
   "sources": {
     "bocm": {
-      "checkedAt": "2026-11-08T22:45:24.118Z",
+      "checkedAt": "2026-11-09T17:23:14.045Z",
       "ok": true,
       "partial": true,
-      "message": "7 registros relevantes comprobados; 14 documento(s) omitido(s) temporalmente",
-      "recordsSeen": 7
+      "message": "10 registros relevantes comprobados; 10 documento(s) omitido(s) temporalmente",
+      "recordsSeen": 10
     },
     "contratos": {
-      "checkedAt": "2026-11-08T22:45:24.118Z",
+      "checkedAt": "2026-11-09T17:23:14.045Z",
       "ok": true,
       "partial": false,
-      "message": "4 registros relevantes comprobados",
-      "recordsSeen": 4
+      "message": "3 registros relevantes comprobados",
+      "recordsSeen": 3
     },
     "empleo": {
-      "checkedAt": "2026-11-08T22:45:24.118Z",
+      "checkedAt": "2026-11-09T17:23:14.045Z",
       "ok": true,
       "partial": true,
       "message": "Cobertura mediante BOCM: 0 convocatoria(s) reciente(s) revisada(s); el portal directo protege el acceso automatizado",
@@ -30,6 +30,19 @@
     }
   },
   "items": [
+    {
+      "id": "bocm:bocm-20261109-13",
+      "source": "bocm",
+      "title": "Convocatoria contrato– Resolución de 27 de octubre de 2026, de la Secretaría General Técnica de la Consejería de Cultura, Turismo y Deporte, por la que se dispone la publicación de la licitación en los boletines oficiales y en el “perfil del contratante”, en Internet, de la adjudicación del contrato titulado “Gestión del servicio de seis puntos de servicio de biblioteca en el Metro de Madrid (Bibliometro)”",
+      "summary": "Convocatoria contrato– Resolución de 27 de octubre de 2026, de la Secretaría General Técnica de la Consejería de Cultura, Turismo y Deporte, por la que se dispone la publicación de la licitación en los boletines oficiales y en el “perfil del contratante”, en Internet, de la adjudicación del contrato titulado “Gestión del servicio de seis puntos de servicio de biblioteca en el Metro de Madrid (Bibliometro)”",
+      "issuer": "CONSEJERÍA DE CULTURA, TURISMO Y DEPORTE",
+      "publicationType": "Convocatoria contrato",
+      "publishedAt": "2026-11-09",
+      "url": "https://www.bocm.es/bocm-20261109-13",
+      "pdfUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/11/09/BOCM-20261109-13.PDF",
+      "xmlUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/11/09/BOCM-20261109-13.xml?language=es",
+      "firstSeenAt": "2026-11-09T17:23:14.045Z"
+    },
     {
       "id": "contratos:suministro-trabajos-cerrajeria-rediseno-materiales-coordinacion-linea-aerea",
       "source": "contratos",
@@ -1195,12 +1208,12 @@
     {
       "id": "bocm:bocm-20261026-39",
       "source": "bocm",
-      "title": "Adjudicación contrato – Anuncio de 21 de octubre de 2026, de adjudicación del contrato titulado “Servicio de revisión y reparación de PCI inter estación de Metro de Madrid” (expediente 6012500274)",
-      "summary": "Adjudicación contrato – Anuncio de 21 de octubre de 2026, de adjudicación del contrato titulado “Servicio de revisión y reparación de PCI inter estación de Metro de Madrid” (expediente 6012500274)",
-      "issuer": "CONSEJERÍA DE VIVIENDA, TRANSPORTES E INFRAESTRUCTURAS",
-      "publicationType": "ANUNCIO",
+      "title": "Adjudicación contrato– Anuncio de 21 de octubre de 2026, de adjudicación del contrato titulado “Servicio de revisión y reparación de PCI inter estación de Metro de Madrid” (expediente 6012500274)",
+      "summary": "Adjudicación contrato– Anuncio de 21 de octubre de 2026, de adjudicación del contrato titulado “Servicio de revisión y reparación de PCI inter estación de Metro de Madrid” (expediente 6012500274)",
+      "issuer": "CONSEJERÍA DE VIVIENDA, TRANSPORTES E INFRAESTRUCTURAS · METRO DE MADRID, S. A.",
+      "publicationType": "Adjudicación contrato",
       "publishedAt": "2026-10-26",
-      "url": "https://www.bocm.es/bocm-20261026-39?language=es",
+      "url": "https://www.bocm.es/bocm-20261026-39",
       "pdfUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/10/26/BOCM-20261026-39.PDF",
       "xmlUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/10/26/BOCM-20261026-39.xml?language=es",
       "firstSeenAt": "2026-10-26T14:06:46.719Z",
@@ -1211,12 +1224,12 @@
     {
       "id": "bocm:bocm-20261026-40",
       "source": "bocm",
-      "title": "Adjudicación contrato – Anuncio de 21 de octubre de 2026, de adjudicación del contrato titulado “Acuerdo marco para el suministro e instalación de equipamiento del sistema de megafonía en recintos de Metro de Madrid” (expediente 6012500340)",
-      "summary": "Adjudicación contrato – Anuncio de 21 de octubre de 2026, de adjudicación del contrato titulado “Acuerdo marco para el suministro e instalación de equipamiento del sistema de megafonía en recintos de Metro de Madrid” (expediente 6012500340)",
-      "issuer": "CONSEJERÍA DE VIVIENDA, TRANSPORTES E INFRAESTRUCTURAS",
-      "publicationType": "ANUNCIO",
+      "title": "Adjudicación contrato– Anuncio de 21 de octubre de 2026, de adjudicación del contrato titulado “Acuerdo marco para el suministro e instalación de equipamiento del sistema de megafonía en recintos de Metro de Madrid” (expediente 6012500340)",
+      "summary": "Adjudicación contrato– Anuncio de 21 de octubre de 2026, de adjudicación del contrato titulado “Acuerdo marco para el suministro e instalación de equipamiento del sistema de megafonía en recintos de Metro de Madrid” (expediente 6012500340)",
+      "issuer": "CONSEJERÍA DE VIVIENDA, TRANSPORTES E INFRAESTRUCTURAS · METRO DE MADRID, S. A.",
+      "publicationType": "Adjudicación contrato",
       "publishedAt": "2026-10-26",
-      "url": "https://www.bocm.es/bocm-20261026-40?language=es",
+      "url": "https://www.bocm.es/bocm-20261026-40",
       "pdfUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/10/26/BOCM-20261026-40.PDF",
       "xmlUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/10/26/BOCM-20261026-40.xml?language=es",
       "firstSeenAt": "2026-10-26T14:06:46.719Z",
@@ -1227,12 +1240,12 @@
     {
       "id": "bocm:bocm-20261026-41",
       "source": "bocm",
-      "title": "Adjudicación contrato – Anuncio de 21 de octubre de 2026, de adjudicación del contrato titulado “Servicio de reparación defectos tras inspección/revisión reglamentaria en instalaciones de baja tensión para Metro de Madrid” (Expediente 6012600096)",
-      "summary": "Adjudicación contrato – Anuncio de 21 de octubre de 2026, de adjudicación del contrato titulado “Servicio de reparación defectos tras inspección/revisión reglamentaria en instalaciones de baja tensión para Metro de Madrid” (Expediente 6012600096)",
-      "issuer": "CONSEJERÍA DE VIVIENDA, TRANSPORTES E INFRAESTRUCTURAS",
-      "publicationType": "ANUNCIO",
+      "title": "Adjudicación contrato– Anuncio de 21 de octubre de 2026, de adjudicación del contrato titulado “Servicio de reparación defectos tras inspección/revisión reglamentaria en instalaciones de baja tensión para Metro de Madrid” (Expediente 6012600096)",
+      "summary": "Adjudicación contrato– Anuncio de 21 de octubre de 2026, de adjudicación del contrato titulado “Servicio de reparación defectos tras inspección/revisión reglamentaria en instalaciones de baja tensión para Metro de Madrid” (Expediente 6012600096)",
+      "issuer": "CONSEJERÍA DE VIVIENDA, TRANSPORTES E INFRAESTRUCTURAS · METRO DE MADRID, S. A.",
+      "publicationType": "Adjudicación contrato",
       "publishedAt": "2026-10-26",
-      "url": "https://www.bocm.es/bocm-20261026-41?language=es",
+      "url": "https://www.bocm.es/bocm-20261026-41",
       "pdfUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/10/26/BOCM-20261026-41.PDF",
       "xmlUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/10/26/BOCM-20261026-41.xml?language=es",
       "firstSeenAt": "2026-10-26T14:06:46.719Z",
@@ -1243,12 +1256,12 @@
     {
       "id": "bocm:bocm-20261026-42",
       "source": "bocm",
-      "title": "Adjudicación contrato – Anuncio de 21 de octubre de 2026, de adjudicación del contrato titulado “Obras de nuevos cuartos para tecnologías de la información y las comunicaciones (TICS) y operativos, con espacios para personal de la Línea de Alta Regularidad (LAR 6) de Metro de Madrid” (Expediente 6012600068)",
-      "summary": "Adjudicación contrato – Anuncio de 21 de octubre de 2026, de adjudicación del contrato titulado “Obras de nuevos cuartos para tecnologías de la información y las comunicaciones (TICS) y operativos, con espacios para personal de la Línea de Alta Regularidad (LAR 6) de Metro de Madrid” (Expediente 6012600068)",
-      "issuer": "CONSEJERÍA DE VIVIENDA, TRANSPORTES E INFRAESTRUCTURAS",
-      "publicationType": "ANUNCIO",
+      "title": "Adjudicación contrato– Anuncio de 21 de octubre de 2026, de adjudicación del contrato titulado “Obras de nuevos cuartos para tecnologías de la información y las comunicaciones (TICS) y operativos, con espacios para personal de la Línea de Alta Regularidad (LAR 6) de Metro de Madrid” (Expediente 6012600068)",
+      "summary": "Adjudicación contrato– Anuncio de 21 de octubre de 2026, de adjudicación del contrato titulado “Obras de nuevos cuartos para tecnologías de la información y las comunicaciones (TICS) y operativos, con espacios para personal de la Línea de Alta Regularidad (LAR 6) de Metro de Madrid” (Expediente 6012600068)",
+      "issuer": "CONSEJERÍA DE VIVIENDA, TRANSPORTES E INFRAESTRUCTURAS · METRO DE MADRID, S. A.",
+      "publicationType": "Adjudicación contrato",
       "publishedAt": "2026-10-26",
-      "url": "https://www.bocm.es/bocm-20261026-42?language=es",
+      "url": "https://www.bocm.es/bocm-20261026-42",
       "pdfUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/10/26/BOCM-20261026-42.PDF",
       "xmlUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/10/26/BOCM-20261026-42.xml?language=es",
       "firstSeenAt": "2026-10-26T14:06:46.719Z",
