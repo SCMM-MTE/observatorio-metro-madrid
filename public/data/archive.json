@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-09T17:23:14.045Z",
+  "generatedAt": "2026-11-10T01:57:58.587Z",
   "coverage": {
     "bocm": "2009-12-01 a 2026-11-09",
     "contratos": "2017-02-02 a 2026-11-07",
@@ -8,21 +8,21 @@
   },
   "sources": {
     "bocm": {
-      "checkedAt": "2026-11-09T17:23:14.045Z",
+      "checkedAt": "2026-11-10T01:57:58.587Z",
       "ok": true,
-      "partial": true,
-      "message": "10 registros relevantes comprobados; 10 documento(s) omitido(s) temporalmente",
-      "recordsSeen": 10
+      "partial": false,
+      "message": "11 registros relevantes comprobados",
+      "recordsSeen": 11
     },
     "contratos": {
-      "checkedAt": "2026-11-09T17:23:14.045Z",
+      "checkedAt": "2026-11-10T01:57:58.587Z",
       "ok": true,
       "partial": false,
       "message": "3 registros relevantes comprobados",
       "recordsSeen": 3
     },
     "empleo": {
-      "checkedAt": "2026-11-09T17:23:14.045Z",
+      "checkedAt": "2026-11-10T01:57:58.587Z",
       "ok": true,
       "partial": true,
       "message": "Cobertura mediante BOCM: 0 convocatoria(s) reciente(s) revisada(s); el portal directo protege el acceso automatizado",
@@ -1208,14 +1208,14 @@
     {
       "id": "bocm:bocm-20261026-39",
       "source": "bocm",
-      "title": "Adjudicación contrato– Anuncio de 21 de octubre de 2026, de adjudicación del contrato titulado “Servicio de revisión y reparación de PCI inter estación de Metro de Madrid” (expediente 6012500274)",
-      "summary": "Adjudicación contrato– Anuncio de 21 de octubre de 2026, de adjudicación del contrato titulado “Servicio de revisión y reparación de PCI inter estación de Metro de Madrid” (expediente 6012500274)",
-      "issuer": "CONSEJERÍA DE VIVIENDA, TRANSPORTES E INFRAESTRUCTURAS · METRO DE MADRID, S. A.",
-      "publicationType": "Adjudicación contrato",
+      "title": "Adjudicación contrato – Anuncio de 21 de octubre de 2026, de adjudicación del contrato titulado “Servicio de revisión y reparación de PCI inter estación de Metro de Madrid” (expediente 6012500274)",
+      "summary": "Adjudicación contrato – Anuncio de 21 de octubre de 2026, de adjudicación del contrato titulado “Servicio de revisión y reparación de PCI inter estación de Metro de Madrid” (expediente 6012500274)",
+      "issuer": "CONSEJERÍA DE VIVIENDA, TRANSPORTES E INFRAESTRUCTURAS",
+      "publicationType": "ANUNCIO",
       "publishedAt": "2026-10-26",
       "url": "https://www.bocm.es/bocm-20261026-39",
       "pdfUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/10/26/BOCM-20261026-39.PDF",
-      "xmlUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/10/26/BOCM-20261026-39.xml?language=es",
+      "xmlUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/10/26/BOCM-20261026-39.xml",
       "firstSeenAt": "2026-10-26T14:06:46.719Z",
       "tags": [
         "I. COMUNIDAD DE MADRID · D) Anuncios"
@@ -1224,14 +1224,14 @@
     {
       "id": "bocm:bocm-20261026-40",
       "source": "bocm",
-      "title": "Adjudicación contrato– Anuncio de 21 de octubre de 2026, de adjudicación del contrato titulado “Acuerdo marco para el suministro e instalación de equipamiento del sistema de megafonía en recintos de Metro de Madrid” (expediente 6012500340)",
-      "summary": "Adjudicación contrato– Anuncio de 21 de octubre de 2026, de adjudicación del contrato titulado “Acuerdo marco para el suministro e instalación de equipamiento del sistema de megafonía en recintos de Metro de Madrid” (expediente 6012500340)",
-      "issuer": "CONSEJERÍA DE VIVIENDA, TRANSPORTES E INFRAESTRUCTURAS · METRO DE MADRID, S. A.",
-      "publicationType": "Adjudicación contrato",
+      "title": "Adjudicación contrato – Anuncio de 21 de octubre de 2026, de adjudicación del contrato titulado “Acuerdo marco para el suministro e instalación de equipamiento del sistema de megafonía en recintos de Metro de Madrid” (expediente 6012500340)",
+      "summary": "Adjudicación contrato – Anuncio de 21 de octubre de 2026, de adjudicación del contrato titulado “Acuerdo marco para el suministro e instalación de equipamiento del sistema de megafonía en recintos de Metro de Madrid” (expediente 6012500340)",
+      "issuer": "CONSEJERÍA DE VIVIENDA, TRANSPORTES E INFRAESTRUCTURAS",
+      "publicationType": "ANUNCIO",
       "publishedAt": "2026-10-26",
       "url": "https://www.bocm.es/bocm-20261026-40",
       "pdfUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/10/26/BOCM-20261026-40.PDF",
-      "xmlUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/10/26/BOCM-20261026-40.xml?language=es",
+      "xmlUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/10/26/BOCM-20261026-40.xml",
       "firstSeenAt": "2026-10-26T14:06:46.719Z",
       "tags": [
         "I. COMUNIDAD DE MADRID · D) Anuncios"
@@ -1240,14 +1240,14 @@
     {
       "id": "bocm:bocm-20261026-41",
       "source": "bocm",
-      "title": "Adjudicación contrato– Anuncio de 21 de octubre de 2026, de adjudicación del contrato titulado “Servicio de reparación defectos tras inspección/revisión reglamentaria en instalaciones de baja tensión para Metro de Madrid” (Expediente 6012600096)",
-      "summary": "Adjudicación contrato– Anuncio de 21 de octubre de 2026, de adjudicación del contrato titulado “Servicio de reparación defectos tras inspección/revisión reglamentaria en instalaciones de baja tensión para Metro de Madrid” (Expediente 6012600096)",
-      "issuer": "CONSEJERÍA DE VIVIENDA, TRANSPORTES E INFRAESTRUCTURAS · METRO DE MADRID, S. A.",
-      "publicationType": "Adjudicación contrato",
+      "title": "Adjudicación contrato – Anuncio de 21 de octubre de 2026, de adjudicación del contrato titulado “Servicio de reparación defectos tras inspección/revisión reglamentaria en instalaciones de baja tensión para Metro de Madrid” (Expediente 6012600096)",
+      "summary": "Adjudicación contrato – Anuncio de 21 de octubre de 2026, de adjudicación del contrato titulado “Servicio de reparación defectos tras inspección/revisión reglamentaria en instalaciones de baja tensión para Metro de Madrid” (Expediente 6012600096)",
+      "issuer": "CONSEJERÍA DE VIVIENDA, TRANSPORTES E INFRAESTRUCTURAS",
+      "publicationType": "ANUNCIO",
       "publishedAt": "2026-10-26",
       "url": "https://www.bocm.es/bocm-20261026-41",
       "pdfUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/10/26/BOCM-20261026-41.PDF",
-      "xmlUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/10/26/BOCM-20261026-41.xml?language=es",
+      "xmlUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/10/26/BOCM-20261026-41.xml",
       "firstSeenAt": "2026-10-26T14:06:46.719Z",
       "tags": [
         "I. COMUNIDAD DE MADRID · D) Anuncios"
@@ -1256,14 +1256,14 @@
     {
       "id": "bocm:bocm-20261026-42",
       "source": "bocm",
-      "title": "Adjudicación contrato– Anuncio de 21 de octubre de 2026, de adjudicación del contrato titulado “Obras de nuevos cuartos para tecnologías de la información y las comunicaciones (TICS) y operativos, con espacios para personal de la Línea de Alta Regularidad (LAR 6) de Metro de Madrid” (Expediente 6012600068)",
-      "summary": "Adjudicación contrato– Anuncio de 21 de octubre de 2026, de adjudicación del contrato titulado “Obras de nuevos cuartos para tecnologías de la información y las comunicaciones (TICS) y operativos, con espacios para personal de la Línea de Alta Regularidad (LAR 6) de Metro de Madrid” (Expediente 6012600068)",
-      "issuer": "CONSEJERÍA DE VIVIENDA, TRANSPORTES E INFRAESTRUCTURAS · METRO DE MADRID, S. A.",
-      "publicationType": "Adjudicación contrato",
+      "title": "Adjudicación contrato – Anuncio de 21 de octubre de 2026, de adjudicación del contrato titulado “Obras de nuevos cuartos para tecnologías de la información y las comunicaciones (TICS) y operativos, con espacios para personal de la Línea de Alta Regularidad (LAR 6) de Metro de Madrid” (Expediente 6012600068)",
+      "summary": "Adjudicación contrato – Anuncio de 21 de octubre de 2026, de adjudicación del contrato titulado “Obras de nuevos cuartos para tecnologías de la información y las comunicaciones (TICS) y operativos, con espacios para personal de la Línea de Alta Regularidad (LAR 6) de Metro de Madrid” (Expediente 6012600068)",
+      "issuer": "CONSEJERÍA DE VIVIENDA, TRANSPORTES E INFRAESTRUCTURAS",
+      "publicationType": "ANUNCIO",
       "publishedAt": "2026-10-26",
       "url": "https://www.bocm.es/bocm-20261026-42",
       "pdfUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/10/26/BOCM-20261026-42.PDF",
-      "xmlUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/10/26/BOCM-20261026-42.xml?language=es",
+      "xmlUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/10/26/BOCM-20261026-42.xml",
       "firstSeenAt": "2026-10-26T14:06:46.719Z",
       "tags": [
         "I. COMUNIDAD DE MADRID · D) Anuncios"
