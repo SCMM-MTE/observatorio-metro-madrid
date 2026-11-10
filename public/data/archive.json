@@ -1,28 +1,28 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-10T15:31:33.930Z",
+  "generatedAt": "2026-11-10T23:59:00.459Z",
   "coverage": {
     "bocm": "2009-12-01 a 2026-11-09",
-    "contratos": "2017-02-02 a 2026-11-10",
+    "contratos": "2017-02-02 a 2026-11-11",
     "empleo": "2016-10-31 a 2026-10-16"
   },
   "sources": {
     "bocm": {
-      "checkedAt": "2026-11-10T15:31:33.930Z",
-      "ok": true,
-      "partial": true,
-      "message": "5 registros relevantes comprobados; 11 documento(s) omitido(s) temporalmente",
-      "recordsSeen": 5
-    },
-    "contratos": {
-      "checkedAt": "2026-11-10T15:31:33.930Z",
+      "checkedAt": "2026-11-10T23:59:00.459Z",
       "ok": true,
       "partial": false,
-      "message": "6 registros relevantes comprobados",
-      "recordsSeen": 6
+      "message": "11 registros relevantes comprobados",
+      "recordsSeen": 11
+    },
+    "contratos": {
+      "checkedAt": "2026-11-10T23:59:00.459Z",
+      "ok": true,
+      "partial": false,
+      "message": "7 registros relevantes comprobados",
+      "recordsSeen": 7
     },
     "empleo": {
-      "checkedAt": "2026-11-10T15:31:33.930Z",
+      "checkedAt": "2026-11-10T23:59:00.459Z",
       "ok": true,
       "partial": true,
       "message": "Cobertura mediante BOCM: 0 convocatoria(s) reciente(s) revisada(s); el portal directo protege el acceso automatizado",
@@ -30,6 +30,57 @@
     }
   },
   "items": [
+    {
+      "id": "contratos:servicio-ayuda-asistencia-soporte-nivel-2-plataforma-servidores-windows",
+      "source": "contratos",
+      "title": "Servicio de ayuda y asistencia al soporte de nivel 2 de la plataforma de servidores Windows",
+      "summary": "Id licitación: 6012600262;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 840000.00 EUR;",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Pendiente de adjudicación",
+      "status": "Pendiente de adjudicación",
+      "expediente": "6012600262",
+      "amount": 840000,
+      "deadline": "2026-11-10",
+      "publishedAt": "2026-11-11",
+      "updatedAt": "2026-11-11T00:11:18+02:00",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-ayuda-asistencia-soporte-nivel-2-plataforma-servidores-windows",
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-10/6012600262_ppt_signed.pdf",
+      "firstSeenAt": "2026-10-09T06:38:52.473Z"
+    },
+    {
+      "id": "contratos:servicios-transporte",
+      "source": "contratos",
+      "title": "Servicios de transporte",
+      "summary": "Id licitación: 6012600264;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 1987137.50 EUR;",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Pendiente de adjudicación",
+      "status": "Pendiente de adjudicación",
+      "expediente": "6012600264",
+      "amount": 1987137.5,
+      "deadline": "2026-11-10",
+      "publishedAt": "2026-11-11",
+      "updatedAt": "2026-11-11T00:11:18+02:00",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicios-transporte",
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-10/6012600264_ppt_signed.pdf",
+      "firstSeenAt": "2026-10-13T08:23:28.393Z"
+    },
+    {
+      "id": "contratos:servicio-revision-reparacion-pararrayos-2027-2031",
+      "source": "contratos",
+      "title": "Servicio de revisión y reparación de pararrayos 2027 - 2031",
+      "summary": "Id licitación: 6012600271;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 48490.33 EUR;",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Pendiente de adjudicación",
+      "status": "Pendiente de adjudicación",
+      "expediente": "6012600271",
+      "amount": 48490.33,
+      "deadline": "2026-11-10",
+      "publishedAt": "2026-11-11",
+      "updatedAt": "2026-11-11T00:11:18+02:00",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-revision-reparacion-pararrayos-2027-2031",
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-10/6012600271_ppt_signed.pdf",
+      "firstSeenAt": "2026-10-16T09:15:26.852Z"
+    },
     {
       "id": "contratos:servicio-provision-apoyo-desarrollo-programa-entrenamiento-personalizado-uso-3",
       "source": "contratos",
@@ -413,23 +464,6 @@
       "firstSeenAt": "2026-11-05T15:21:37.895Z"
     },
     {
-      "id": "contratos:servicio-ayuda-asistencia-soporte-nivel-2-plataforma-servidores-windows",
-      "source": "contratos",
-      "title": "Servicio de ayuda y asistencia al soporte de nivel 2 de la plataforma de servidores Windows",
-      "summary": "Id licitación: 6012600262;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 840000.00 EUR;",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "En plazo",
-      "status": "En plazo",
-      "expediente": "6012600262",
-      "amount": 840000,
-      "deadline": "2026-11-10",
-      "publishedAt": "2026-11-04",
-      "updatedAt": "2026-11-04T11:50:07+02:00",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-ayuda-asistencia-soporte-nivel-2-plataforma-servidores-windows",
-      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-10/6012600262_ppt_signed.pdf",
-      "firstSeenAt": "2026-10-09T06:38:52.473Z"
-    },
-    {
       "id": "contratos:servicio-mantenimiento-preventivo-correctivo-vehiculos-industriales-propiedad-0",
       "source": "contratos",
       "title": "Servicio de mantenimiento preventivo y correctivo de los vehículos industriales propiedad de Metro de Madrid S.A",
@@ -648,23 +682,6 @@
       "tags": [
         "I. COMUNIDAD DE MADRID · D) Anuncios"
       ]
-    },
-    {
-      "id": "contratos:servicios-transporte",
-      "source": "contratos",
-      "title": "Servicios de transporte",
-      "summary": "Id licitación: 6012600264;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 1987137.50 EUR;",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "En plazo",
-      "status": "En plazo",
-      "expediente": "6012600264",
-      "amount": 1987137.5,
-      "deadline": "2026-11-10",
-      "publishedAt": "2026-10-30",
-      "updatedAt": "2026-10-30T14:00:48+02:00",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicios-transporte",
-      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-10/6012600264_ppt_signed.pdf",
-      "firstSeenAt": "2026-10-13T08:23:28.393Z"
     },
     {
       "id": "contratos:suministro-bus-bar-modulos-inverter-te2402cmp01a00-coches-7000",
@@ -1841,23 +1858,6 @@
       "updatedAt": "2026-10-16T09:55:39+02:00",
       "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-gestion-fin-vida-vestuario-oficio-ropa-azul-metro-madrid-sa",
       "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-10/6012600274_pliego_de_prescripciones_tecnicas_signed.pdf",
-      "firstSeenAt": "2026-10-16T09:15:26.852Z"
-    },
-    {
-      "id": "contratos:servicio-revision-reparacion-pararrayos-2027-2031",
-      "source": "contratos",
-      "title": "Servicio de revisión y reparación de pararrayos 2027 - 2031",
-      "summary": "Id licitación: 6012600271;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 48490.33 EUR;",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "En plazo",
-      "status": "En plazo",
-      "expediente": "6012600271",
-      "amount": 48490.33,
-      "deadline": "2026-11-10",
-      "publishedAt": "2026-10-16",
-      "updatedAt": "2026-10-16T08:12:01+02:00",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-revision-reparacion-pararrayos-2027-2031",
-      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-10/6012600271_ppt_signed.pdf",
       "firstSeenAt": "2026-10-16T09:15:26.852Z"
     },
     {
