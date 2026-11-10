@@ -1,28 +1,28 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-10T01:57:58.587Z",
+  "generatedAt": "2026-11-10T15:31:33.930Z",
   "coverage": {
     "bocm": "2009-12-01 a 2026-11-09",
-    "contratos": "2017-02-02 a 2026-11-07",
+    "contratos": "2017-02-02 a 2026-11-10",
     "empleo": "2016-10-31 a 2026-10-16"
   },
   "sources": {
     "bocm": {
-      "checkedAt": "2026-11-10T01:57:58.587Z",
+      "checkedAt": "2026-11-10T15:31:33.930Z",
       "ok": true,
-      "partial": false,
-      "message": "11 registros relevantes comprobados",
-      "recordsSeen": 11
+      "partial": true,
+      "message": "5 registros relevantes comprobados; 11 documento(s) omitido(s) temporalmente",
+      "recordsSeen": 5
     },
     "contratos": {
-      "checkedAt": "2026-11-10T01:57:58.587Z",
+      "checkedAt": "2026-11-10T15:31:33.930Z",
       "ok": true,
       "partial": false,
-      "message": "3 registros relevantes comprobados",
-      "recordsSeen": 3
+      "message": "6 registros relevantes comprobados",
+      "recordsSeen": 6
     },
     "empleo": {
-      "checkedAt": "2026-11-10T01:57:58.587Z",
+      "checkedAt": "2026-11-10T15:31:33.930Z",
       "ok": true,
       "partial": true,
       "message": "Cobertura mediante BOCM: 0 convocatoria(s) reciente(s) revisada(s); el portal directo protege el acceso automatizado",
@@ -30,6 +30,108 @@
     }
   },
   "items": [
+    {
+      "id": "contratos:servicio-provision-apoyo-desarrollo-programa-entrenamiento-personalizado-uso-3",
+      "source": "contratos",
+      "title": "Servicio de provisión de apoyo para el desarrollo del programa de entrenamiento personalizado para el uso autónomo de la red de Metro de Madrid",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Pendiente de adjudicación",
+      "status": "Pendiente de adjudicación",
+      "expediente": "6012600208",
+      "publishedAt": "2026-11-10",
+      "updatedAt": "2026-11-10T11:28:51+02:00",
+      "deadline": "2026-09-04",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-provision-apoyo-desarrollo-programa-entrenamiento-personalizado-uso-3",
+      "firstSeenAt": "2026-08-05T08:03:18.389Z",
+      "summary": "Id licitación: 6012600208;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 200000.00 EUR;",
+      "amount": 200000,
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-07/6012600208_pliego_de_prescripciones_tecnicas_signed.pdf"
+    },
+    {
+      "id": "contratos:servicio-medico-especialidad-cirugia-ortopedica-traumatologia-cot-3",
+      "source": "contratos",
+      "title": "Servicio médico en la especialidad de Cirugía Ortopédica y Traumatología (COT)",
+      "summary": "Id licitación: 6012600259;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 140000.00 EUR;",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Pendiente de adjudicación",
+      "status": "Pendiente de adjudicación",
+      "expediente": "6012600259",
+      "amount": 140000,
+      "deadline": "2026-10-27",
+      "publishedAt": "2026-11-10",
+      "updatedAt": "2026-11-10T11:23:45+02:00",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-medico-especialidad-cirugia-ortopedica-traumatologia-cot-3",
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-10/6012600259_ppt_signed.pdf",
+      "firstSeenAt": "2026-10-09T06:38:52.473Z"
+    },
+    {
+      "id": "contratos:suministro-lunas-frontales-cabina-mantenimiento-trenes-material-movil-metro-madrid",
+      "source": "contratos",
+      "title": "Suministro de lunas frontales de cabina para el mantenimiento de los trenes del material móvil de Metro de Madrid",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Resuelta / Finalizada",
+      "status": "Resuelta / Finalizada",
+      "expediente": "6012400137",
+      "publishedAt": "2026-11-10",
+      "updatedAt": "2026-11-10T11:15:09+02:00",
+      "deadline": "2024-05-17",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/suministro-lunas-frontales-cabina-mantenimiento-trenes-material-movil-metro-madrid",
+      "firstSeenAt": "2026-08-05T08:03:18.389Z",
+      "summary": "Id licitación: 6012400137;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 300000.00 EUR;",
+      "amount": 300000,
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2024-04/6012400137_ppt_signed.pdf"
+    },
+    {
+      "id": "contratos:acuerdo-marco-suministro-equipos-proteccion-individual-epis-proteccion-colectiva",
+      "source": "contratos",
+      "title": "Acuerdo marco para el suministro de Equipos de Protección Individual (EPIS), protección colectiva y señalización de personal, empleados durante las operaciones de mantenimiento de las instalaciones y del material móvil y tareas diarias del personal de Metro Madrid",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Pendiente de adjudicación",
+      "status": "Pendiente de adjudicación",
+      "expediente": "6012600179",
+      "publishedAt": "2026-11-10",
+      "updatedAt": "2026-11-10T10:48:46+02:00",
+      "deadline": "2026-07-17",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/acuerdo-marco-suministro-equipos-proteccion-individual-epis-proteccion-colectiva",
+      "firstSeenAt": "2026-08-05T08:03:18.389Z",
+      "summary": "Id licitación: 6012600179;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 1000000.00 EUR;",
+      "amount": 1000000,
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-06/6012600179_ppt_signed.pdf"
+    },
+    {
+      "id": "contratos:obras-dotacion-cobertura-radio-tetra-salidas-emergencia-metro-madrid",
+      "source": "contratos",
+      "title": "Obras de dotación de cobertura radio Tetra en salidas de emergencia de Metro de Madrid",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Resuelta / Finalizada",
+      "status": "Resuelta / Finalizada",
+      "expediente": "6012400385",
+      "publishedAt": "2026-11-10",
+      "updatedAt": "2026-11-10T09:45:03+02:00",
+      "deadline": "2024-12-20",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/obras-dotacion-cobertura-radio-tetra-salidas-emergencia-metro-madrid",
+      "firstSeenAt": "2026-08-05T08:03:18.389Z",
+      "summary": "Id licitación: 6012400385;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 830174.43 EUR;",
+      "amount": 830174.43,
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2024-11/6012400385_ppt_signed.pdf"
+    },
+    {
+      "id": "contratos:acuerdo-marco-suministro-herramientas-mano-herramientas-electricas-material-0",
+      "source": "contratos",
+      "title": "Acuerdo marco para el suministro de herramientas de mano, herramientas eléctricas, material de ferretería y tornillería para Metro de Madrid, S.A",
+      "summary": "Id licitación: 6012600256;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 450000.00 EUR;",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Pendiente de adjudicación",
+      "status": "Pendiente de adjudicación",
+      "expediente": "6012600256",
+      "amount": 450000,
+      "deadline": "2026-11-03",
+      "publishedAt": "2026-11-10",
+      "updatedAt": "2026-11-10T09:42:49+02:00",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/acuerdo-marco-suministro-herramientas-mano-herramientas-electricas-material-0",
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-10/6012600256_ppt_signed.pdf",
+      "firstSeenAt": "2026-10-05T06:56:10.585Z"
+    },
     {
       "id": "bocm:bocm-20261109-13",
       "source": "bocm",
@@ -245,40 +347,6 @@
       "summary": "Id licitación: 6012300356;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 316006.20 EUR;",
       "amount": 316006.2,
       "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2023-12/6012300356_pliego_de_prescripciones_tecnicas.pdf"
-    },
-    {
-      "id": "contratos:acuerdo-marco-suministro-equipos-proteccion-individual-epis-proteccion-colectiva",
-      "source": "contratos",
-      "title": "Acuerdo marco para el suministro de Equipos de Protección Individual (EPIS), protección colectiva y señalización de personal, empleados durante las operaciones de mantenimiento de las instalaciones y del material móvil y tareas diarias del personal de Metro Madrid",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Pendiente de adjudicación",
-      "status": "Pendiente de adjudicación",
-      "expediente": "6012600179",
-      "publishedAt": "2026-11-05",
-      "updatedAt": "2026-11-05T10:33:15+02:00",
-      "deadline": "2026-07-17",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/acuerdo-marco-suministro-equipos-proteccion-individual-epis-proteccion-colectiva",
-      "firstSeenAt": "2026-08-05T08:03:18.389Z",
-      "summary": "Id licitación: 6012600179;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 1000000.00 EUR;",
-      "amount": 1000000,
-      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-06/6012600179_ppt_signed.pdf"
-    },
-    {
-      "id": "contratos:acuerdo-marco-suministro-herramientas-mano-herramientas-electricas-material-0",
-      "source": "contratos",
-      "title": "Acuerdo marco para el suministro de herramientas de mano, herramientas eléctricas, material de ferretería y tornillería para Metro de Madrid, S.A",
-      "summary": "Id licitación: 6012600256;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 450000.00 EUR;",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Pendiente de adjudicación",
-      "status": "Pendiente de adjudicación",
-      "expediente": "6012600256",
-      "amount": 450000,
-      "deadline": "2026-11-03",
-      "publishedAt": "2026-11-05",
-      "updatedAt": "2026-11-05T09:54:40+02:00",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/acuerdo-marco-suministro-herramientas-mano-herramientas-electricas-material-0",
-      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-10/6012600256_ppt_signed.pdf",
-      "firstSeenAt": "2026-10-05T06:56:10.585Z"
     },
     {
       "id": "contratos:suministro-suscripcion-licencias-solucion-gestion-dispositivos-moviles-mobile",
@@ -885,23 +953,6 @@
       "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2025-03/6012500085_documento_ref._confidencialidad_signed.pdf"
     },
     {
-      "id": "contratos:servicio-medico-especialidad-cirugia-ortopedica-traumatologia-cot-3",
-      "source": "contratos",
-      "title": "Servicio médico en la especialidad de Cirugía Ortopédica y Traumatología (COT)",
-      "summary": "Id licitación: 6012600259;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 140000.00 EUR;",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Pendiente de adjudicación",
-      "status": "Pendiente de adjudicación",
-      "expediente": "6012600259",
-      "amount": 140000,
-      "deadline": "2026-10-27",
-      "publishedAt": "2026-10-28",
-      "updatedAt": "2026-10-28T00:10:25+02:00",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-medico-especialidad-cirugia-ortopedica-traumatologia-cot-3",
-      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-10/6012600259_ppt_signed.pdf",
-      "firstSeenAt": "2026-10-09T06:38:52.473Z"
-    },
-    {
       "id": "contratos:suministro-conversion-sistema-sap-s4hana-migracion-governance-risk-and-compliance",
       "source": "contratos",
       "title": "Suministro para la conversión del sistema SAP a S/4HANA, migración de Governance Risk and Compliance (GRC), migración de Business Warehouse (BW) y suministro de infraestructura y licencias en Metro de Madrid S.A. Las actuaciones incluidas en este contrato podrán ser cofinanciadas al 40 % con cargo al programa operativo 2021-2027 FEDER de la Comunidad de Madrid",
@@ -1085,23 +1136,6 @@
       "tags": [
         "I. COMUNIDAD DE MADRID · D) Anuncios"
       ]
-    },
-    {
-      "id": "contratos:servicio-provision-apoyo-desarrollo-programa-entrenamiento-personalizado-uso-3",
-      "source": "contratos",
-      "title": "Servicio de provisión de apoyo para el desarrollo del programa de entrenamiento personalizado para el uso autónomo de la red de Metro de Madrid",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Pendiente de adjudicación",
-      "status": "Pendiente de adjudicación",
-      "expediente": "6012600208",
-      "publishedAt": "2026-10-26",
-      "updatedAt": "2026-10-26T10:33:57+02:00",
-      "deadline": "2026-09-04",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-provision-apoyo-desarrollo-programa-entrenamiento-personalizado-uso-3",
-      "firstSeenAt": "2026-08-05T08:03:18.389Z",
-      "summary": "Id licitación: 6012600208;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 200000.00 EUR;",
-      "amount": 200000,
-      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-07/6012600208_pliego_de_prescripciones_tecnicas_signed.pdf"
     },
     {
       "id": "contratos:construccion-ampliacion-linea-11-metro-madrid-tramo-plaza-eliptica-conde-casal",
@@ -1877,23 +1911,6 @@
         "empleo"
       ],
       "firstSeenAt": "2026-10-20T10:58:07.406Z"
-    },
-    {
-      "id": "contratos:suministro-lunas-frontales-cabina-mantenimiento-trenes-material-movil-metro-madrid",
-      "source": "contratos",
-      "title": "Suministro de lunas frontales de cabina para el mantenimiento de los trenes del material móvil de Metro de Madrid",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Resuelta / Finalizada",
-      "status": "Resuelta / Finalizada",
-      "expediente": "6012400137",
-      "publishedAt": "2026-10-15",
-      "updatedAt": "2026-10-15T12:45:31+02:00",
-      "deadline": "2024-05-17",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/suministro-lunas-frontales-cabina-mantenimiento-trenes-material-movil-metro-madrid",
-      "firstSeenAt": "2026-08-05T08:03:18.389Z",
-      "summary": "Id licitación: 6012400137;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 300000.00 EUR;",
-      "amount": 300000,
-      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2024-04/6012400137_ppt_signed.pdf"
     },
     {
       "id": "contratos:servicio-soporte-mantenimiento-entorno-almacenamiento-backup-dell-emc",
@@ -24679,20 +24696,6 @@
       "updatedAt": "2025-04-16T08:58:00+02:00",
       "deadline": "2025-02-07",
       "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/suministro-frotadores-cola-milano-mantenimiento-pantografos-montados-serie-2000",
-      "firstSeenAt": "2026-08-05T08:03:18.389Z"
-    },
-    {
-      "id": "contratos:obras-dotacion-cobertura-radio-tetra-salidas-emergencia-metro-madrid",
-      "source": "contratos",
-      "title": "Obras de dotación de cobertura radio Tetra en salidas de emergencia de Metro de Madrid",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Convocatoria anunciada a licitación",
-      "status": "Resuelta / Finalizada",
-      "expediente": "6012400385",
-      "publishedAt": "2025-04-16",
-      "updatedAt": "2025-04-16T07:23:00+02:00",
-      "deadline": "2024-12-20",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/obras-dotacion-cobertura-radio-tetra-salidas-emergencia-metro-madrid",
       "firstSeenAt": "2026-08-05T08:03:18.389Z"
     },
     {
