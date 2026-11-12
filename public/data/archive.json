@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-12T01:27:13.501Z",
+  "generatedAt": "2026-11-12T15:54:42.924Z",
   "coverage": {
     "bocm": "2009-12-01 a 2026-11-09",
     "contratos": "2017-02-02 a 2026-11-12",
@@ -8,21 +8,21 @@
   },
   "sources": {
     "bocm": {
-      "checkedAt": "2026-11-12T01:27:13.501Z",
+      "checkedAt": "2026-11-12T15:54:42.924Z",
       "ok": true,
       "partial": false,
-      "message": "11 registros relevantes comprobados",
-      "recordsSeen": 11
+      "message": "10 registros relevantes comprobados",
+      "recordsSeen": 10
     },
     "contratos": {
-      "checkedAt": "2026-11-12T01:27:13.501Z",
+      "checkedAt": "2026-11-12T15:54:42.924Z",
       "ok": true,
       "partial": false,
-      "message": "15 registros relevantes comprobados",
-      "recordsSeen": 15
+      "message": "4 registros relevantes comprobados",
+      "recordsSeen": 4
     },
     "empleo": {
-      "checkedAt": "2026-11-12T01:27:13.501Z",
+      "checkedAt": "2026-11-12T15:54:42.924Z",
       "ok": true,
       "partial": true,
       "message": "Cobertura mediante BOCM: 0 convocatoria(s) reciente(s) revisada(s); el portal directo protege el acceso automatizado",
@@ -30,6 +30,74 @@
     }
   },
   "items": [
+    {
+      "id": "contratos:suministro-licencia-uso-cartografia-comunidad-madrid-1",
+      "source": "contratos",
+      "title": "Suministro de licencia de uso de la cartografía de la Comunidad de Madrid",
+      "summary": "Id licitación: 6012600290;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 60000.00 EUR;",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "En plazo",
+      "status": "En plazo",
+      "expediente": "6012600290",
+      "amount": 60000,
+      "deadline": "2026-11-19",
+      "publishedAt": "2026-11-12",
+      "updatedAt": "2026-11-12T14:13:46+02:00",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/suministro-licencia-uso-cartografia-comunidad-madrid-1",
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-10/6012600290_pliego_de_prescripciones_tecnicas_signed.pdf",
+      "firstSeenAt": "2026-10-30T13:58:26.871Z"
+    },
+    {
+      "id": "contratos:servicios-transporte",
+      "source": "contratos",
+      "title": "Servicios de transporte",
+      "summary": "Id licitación: 6012600264;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 1987137.50 EUR;",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Pendiente de adjudicación",
+      "status": "Pendiente de adjudicación",
+      "expediente": "6012600264",
+      "amount": 1987137.5,
+      "deadline": "2026-11-10",
+      "publishedAt": "2026-11-12",
+      "updatedAt": "2026-11-12T13:11:53+02:00",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicios-transporte",
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-10/6012600264_ppt_signed.pdf",
+      "firstSeenAt": "2026-10-13T08:23:28.393Z"
+    },
+    {
+      "id": "contratos:servicio-ayuda-asistencia-soporte-nivel-2-plataforma-servidores-windows",
+      "source": "contratos",
+      "title": "Servicio de ayuda y asistencia al soporte de nivel 2 de la plataforma de servidores Windows",
+      "summary": "Id licitación: 6012600262;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 840000.00 EUR;",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Pendiente de adjudicación",
+      "status": "Pendiente de adjudicación",
+      "expediente": "6012600262",
+      "amount": 840000,
+      "deadline": "2026-11-10",
+      "publishedAt": "2026-11-12",
+      "updatedAt": "2026-11-12T09:29:38+02:00",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-ayuda-asistencia-soporte-nivel-2-plataforma-servidores-windows",
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-10/6012600262_ppt_signed.pdf",
+      "firstSeenAt": "2026-10-09T06:38:52.473Z"
+    },
+    {
+      "id": "contratos:servicio-revision-reparacion-pararrayos-2027-2031",
+      "source": "contratos",
+      "title": "Servicio de revisión y reparación de pararrayos 2027 - 2031",
+      "summary": "Id licitación: 6012600271;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 48490.33 EUR;",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Pendiente de adjudicación",
+      "status": "Pendiente de adjudicación",
+      "expediente": "6012600271",
+      "amount": 48490.33,
+      "deadline": "2026-11-10",
+      "publishedAt": "2026-11-12",
+      "updatedAt": "2026-11-12T09:29:26+02:00",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-revision-reparacion-pararrayos-2027-2031",
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-10/6012600271_ppt_signed.pdf",
+      "firstSeenAt": "2026-10-16T09:15:26.852Z"
+    },
     {
       "id": "contratos:servicio-gestion-fin-vida-vestuario-oficio-ropa-azul-metro-madrid-sa",
       "source": "contratos",
@@ -283,57 +351,6 @@
       "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/suministro-trabajos-cerrajeria-rediseno-materiales-coordinacion-linea-aerea",
       "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-10/6012600276_referencia_al_ppt_signed.pdf",
       "firstSeenAt": "2026-10-20T11:00:47.114Z"
-    },
-    {
-      "id": "contratos:servicio-ayuda-asistencia-soporte-nivel-2-plataforma-servidores-windows",
-      "source": "contratos",
-      "title": "Servicio de ayuda y asistencia al soporte de nivel 2 de la plataforma de servidores Windows",
-      "summary": "Id licitación: 6012600262;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 840000.00 EUR;",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Pendiente de adjudicación",
-      "status": "Pendiente de adjudicación",
-      "expediente": "6012600262",
-      "amount": 840000,
-      "deadline": "2026-11-10",
-      "publishedAt": "2026-11-11",
-      "updatedAt": "2026-11-11T00:11:18+02:00",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-ayuda-asistencia-soporte-nivel-2-plataforma-servidores-windows",
-      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-10/6012600262_ppt_signed.pdf",
-      "firstSeenAt": "2026-10-09T06:38:52.473Z"
-    },
-    {
-      "id": "contratos:servicios-transporte",
-      "source": "contratos",
-      "title": "Servicios de transporte",
-      "summary": "Id licitación: 6012600264;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 1987137.50 EUR;",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Pendiente de adjudicación",
-      "status": "Pendiente de adjudicación",
-      "expediente": "6012600264",
-      "amount": 1987137.5,
-      "deadline": "2026-11-10",
-      "publishedAt": "2026-11-11",
-      "updatedAt": "2026-11-11T00:11:18+02:00",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicios-transporte",
-      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-10/6012600264_ppt_signed.pdf",
-      "firstSeenAt": "2026-10-13T08:23:28.393Z"
-    },
-    {
-      "id": "contratos:servicio-revision-reparacion-pararrayos-2027-2031",
-      "source": "contratos",
-      "title": "Servicio de revisión y reparación de pararrayos 2027 - 2031",
-      "summary": "Id licitación: 6012600271;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 48490.33 EUR;",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Pendiente de adjudicación",
-      "status": "Pendiente de adjudicación",
-      "expediente": "6012600271",
-      "amount": 48490.33,
-      "deadline": "2026-11-10",
-      "publishedAt": "2026-11-11",
-      "updatedAt": "2026-11-11T00:11:18+02:00",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-revision-reparacion-pararrayos-2027-2031",
-      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-10/6012600271_ppt_signed.pdf",
-      "firstSeenAt": "2026-10-16T09:15:26.852Z"
     },
     {
       "id": "contratos:servicio-provision-apoyo-desarrollo-programa-entrenamiento-personalizado-uso-3",
@@ -869,23 +886,6 @@
       "firstSeenAt": "2026-09-25T13:40:22.964Z"
     },
     {
-      "id": "contratos:suministro-licencia-uso-cartografia-comunidad-madrid-1",
-      "source": "contratos",
-      "title": "Suministro de licencia de uso de la cartografía de la Comunidad de Madrid",
-      "summary": "Id licitación: 6012600290;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 60000.00 EUR;",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "En plazo",
-      "status": "En plazo",
-      "expediente": "6012600290",
-      "amount": 60000,
-      "deadline": "2026-11-19",
-      "publishedAt": "2026-10-30",
-      "updatedAt": "2026-10-30T10:08:02+02:00",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/suministro-licencia-uso-cartografia-comunidad-madrid-1",
-      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-10/6012600290_pliego_de_prescripciones_tecnicas_signed.pdf",
-      "firstSeenAt": "2026-10-30T13:58:26.871Z"
-    },
-    {
       "id": "bocm:bocm-20261030-32",
       "source": "bocm",
       "title": "Desistimiento contrato– Anuncio de 28 de octubre de 2026, de decisión de no celebrar el contrato de la licitación para la contratación de un “Servicio de mantenimiento de armarios de seguridad Traka para la custodia de llaves a espacios sensibles y protegidos en Metro de Madrid” (expediente 6012600233)",
@@ -1399,9 +1399,9 @@
       "issuer": "CONSEJERÍA DE VIVIENDA, TRANSPORTES E INFRAESTRUCTURAS",
       "publicationType": "ANUNCIO",
       "publishedAt": "2026-10-26",
-      "url": "https://www.bocm.es/bocm-20261026-39?language=es",
+      "url": "https://www.bocm.es/bocm-20261026-39",
       "pdfUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/10/26/BOCM-20261026-39.PDF",
-      "xmlUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/10/26/BOCM-20261026-39.xml?language=es",
+      "xmlUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/10/26/BOCM-20261026-39.xml",
       "firstSeenAt": "2026-10-26T14:06:46.719Z",
       "tags": [
         "I. COMUNIDAD DE MADRID · D) Anuncios"
@@ -1415,9 +1415,9 @@
       "issuer": "CONSEJERÍA DE VIVIENDA, TRANSPORTES E INFRAESTRUCTURAS",
       "publicationType": "ANUNCIO",
       "publishedAt": "2026-10-26",
-      "url": "https://www.bocm.es/bocm-20261026-40?language=es",
+      "url": "https://www.bocm.es/bocm-20261026-40",
       "pdfUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/10/26/BOCM-20261026-40.PDF",
-      "xmlUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/10/26/BOCM-20261026-40.xml?language=es",
+      "xmlUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/10/26/BOCM-20261026-40.xml",
       "firstSeenAt": "2026-10-26T14:06:46.719Z",
       "tags": [
         "I. COMUNIDAD DE MADRID · D) Anuncios"
@@ -1431,9 +1431,9 @@
       "issuer": "CONSEJERÍA DE VIVIENDA, TRANSPORTES E INFRAESTRUCTURAS",
       "publicationType": "ANUNCIO",
       "publishedAt": "2026-10-26",
-      "url": "https://www.bocm.es/bocm-20261026-41?language=es",
+      "url": "https://www.bocm.es/bocm-20261026-41",
       "pdfUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/10/26/BOCM-20261026-41.PDF",
-      "xmlUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/10/26/BOCM-20261026-41.xml?language=es",
+      "xmlUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/10/26/BOCM-20261026-41.xml",
       "firstSeenAt": "2026-10-26T14:06:46.719Z",
       "tags": [
         "I. COMUNIDAD DE MADRID · D) Anuncios"
@@ -1447,9 +1447,9 @@
       "issuer": "CONSEJERÍA DE VIVIENDA, TRANSPORTES E INFRAESTRUCTURAS",
       "publicationType": "ANUNCIO",
       "publishedAt": "2026-10-26",
-      "url": "https://www.bocm.es/bocm-20261026-42?language=es",
+      "url": "https://www.bocm.es/bocm-20261026-42",
       "pdfUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/10/26/BOCM-20261026-42.PDF",
-      "xmlUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/10/26/BOCM-20261026-42.xml?language=es",
+      "xmlUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/10/26/BOCM-20261026-42.xml",
       "firstSeenAt": "2026-10-26T14:06:46.719Z",
       "tags": [
         "I. COMUNIDAD DE MADRID · D) Anuncios"
