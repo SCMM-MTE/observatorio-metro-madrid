@@ -1,28 +1,28 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-12T15:54:42.924Z",
+  "generatedAt": "2026-11-13T00:05:55.314Z",
   "coverage": {
     "bocm": "2009-12-01 a 2026-11-09",
-    "contratos": "2017-02-02 a 2026-11-12",
+    "contratos": "2017-02-02 a 2026-11-13",
     "empleo": "2016-10-31 a 2026-10-16"
   },
   "sources": {
     "bocm": {
-      "checkedAt": "2026-11-12T15:54:42.924Z",
+      "checkedAt": "2026-11-13T00:05:55.314Z",
       "ok": true,
-      "partial": false,
-      "message": "10 registros relevantes comprobados",
+      "partial": true,
+      "message": "10 registros relevantes comprobados; 10 documento(s) omitido(s) temporalmente",
       "recordsSeen": 10
     },
     "contratos": {
-      "checkedAt": "2026-11-12T15:54:42.924Z",
+      "checkedAt": "2026-11-13T00:05:55.314Z",
       "ok": true,
       "partial": false,
       "message": "4 registros relevantes comprobados",
       "recordsSeen": 4
     },
     "empleo": {
-      "checkedAt": "2026-11-12T15:54:42.924Z",
+      "checkedAt": "2026-11-13T00:05:55.314Z",
       "ok": true,
       "partial": true,
       "message": "Cobertura mediante BOCM: 0 convocatoria(s) reciente(s) revisada(s); el portal directo protege el acceso automatizado",
@@ -30,6 +30,40 @@
     }
   },
   "items": [
+    {
+      "id": "contratos:suministro-bobinas-celulosa-empleadas-distintas-dependencias-metro-madrid-1",
+      "source": "contratos",
+      "title": "Suministro de bobinas de celulosa empleadas en distintas dependencias de Metro de Madrid",
+      "summary": "Id licitación: 6012600282;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 55920.00 EUR;",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Pendiente de adjudicación",
+      "status": "Pendiente de adjudicación",
+      "expediente": "6012600282",
+      "amount": 55920,
+      "deadline": "2026-11-12",
+      "publishedAt": "2026-11-13",
+      "updatedAt": "2026-11-13T00:21:11+02:00",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/suministro-bobinas-celulosa-empleadas-distintas-dependencias-metro-madrid-1",
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-10/6012600282_pliego_de_prescripciones_tecnicas_signed.pdf",
+      "firstSeenAt": "2026-10-26T14:06:46.719Z"
+    },
+    {
+      "id": "contratos:servicio-desmantelamiento-cuatro-pasarelas-mantenimiento-talleres-centrales-metro",
+      "source": "contratos",
+      "title": "Servicio de desmantelamiento de las cuatro pasarelas de mantenimiento en los Talleres Centrales de Metro de Madrid",
+      "summary": "Id licitación: 6012600263;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 65150.00 EUR;",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Pendiente de adjudicación",
+      "status": "Pendiente de adjudicación",
+      "expediente": "6012600263",
+      "amount": 65150,
+      "deadline": "2026-11-12",
+      "publishedAt": "2026-11-13",
+      "updatedAt": "2026-11-13T00:21:11+02:00",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-desmantelamiento-cuatro-pasarelas-mantenimiento-talleres-centrales-metro",
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-10/6012600263_pliego_de_prescripciones_tecnicas_signed.pdf",
+      "firstSeenAt": "2026-10-13T08:23:28.393Z"
+    },
     {
       "id": "contratos:suministro-licencia-uso-cartografia-comunidad-madrid-1",
       "source": "contratos",
@@ -1375,23 +1409,6 @@
       "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-05/6012600135_pliego_de_prescripciones_tecnicas_signed.pdf"
     },
     {
-      "id": "contratos:suministro-bobinas-celulosa-empleadas-distintas-dependencias-metro-madrid-1",
-      "source": "contratos",
-      "title": "Suministro de bobinas de celulosa empleadas en distintas dependencias de Metro de Madrid",
-      "summary": "Id licitación: 6012600282;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 55920.00 EUR;",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "En plazo",
-      "status": "En plazo",
-      "expediente": "6012600282",
-      "amount": 55920,
-      "deadline": "2026-11-12",
-      "publishedAt": "2026-10-26",
-      "updatedAt": "2026-10-26T10:00:25+02:00",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/suministro-bobinas-celulosa-empleadas-distintas-dependencias-metro-madrid-1",
-      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-10/6012600282_pliego_de_prescripciones_tecnicas_signed.pdf",
-      "firstSeenAt": "2026-10-26T14:06:46.719Z"
-    },
-    {
       "id": "bocm:bocm-20261026-39",
       "source": "bocm",
       "title": "Adjudicación contrato – Anuncio de 21 de octubre de 2026, de adjudicación del contrato titulado “Servicio de revisión y reparación de PCI inter estación de Metro de Madrid” (expediente 6012500274)",
@@ -2197,23 +2214,6 @@
       "summary": "Id licitación: 6012600143;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 148000.00 EUR;",
       "amount": 148000,
       "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-05/6012600143_pliego_de_prescripciones_tecnicas_signed.pdf"
-    },
-    {
-      "id": "contratos:servicio-desmantelamiento-cuatro-pasarelas-mantenimiento-talleres-centrales-metro",
-      "source": "contratos",
-      "title": "Servicio de desmantelamiento de las cuatro pasarelas de mantenimiento en los Talleres Centrales de Metro de Madrid",
-      "summary": "Id licitación: 6012600263;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 65150.00 EUR;",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "En plazo",
-      "status": "En plazo",
-      "expediente": "6012600263",
-      "amount": 65150,
-      "deadline": "2026-11-12",
-      "publishedAt": "2026-10-13",
-      "updatedAt": "2026-10-13T10:23:10+02:00",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-desmantelamiento-cuatro-pasarelas-mantenimiento-talleres-centrales-metro",
-      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-10/6012600263_pliego_de_prescripciones_tecnicas_signed.pdf",
-      "firstSeenAt": "2026-10-13T08:23:28.393Z"
     },
     {
       "id": "contratos:instalacion-puesta-servicio-puestos-controladores-lineas-alta-regularidad-pclar-0",
