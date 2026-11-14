@@ -1,28 +1,28 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-13T15:17:25.449Z",
+  "generatedAt": "2026-11-14T00:17:16.333Z",
   "coverage": {
     "bocm": "2009-12-01 a 2026-11-13",
-    "contratos": "2017-02-02 a 2026-11-13",
+    "contratos": "2017-02-02 a 2026-11-14",
     "empleo": "2016-10-31 a 2026-10-16"
   },
   "sources": {
     "bocm": {
-      "checkedAt": "2026-11-13T15:17:25.449Z",
+      "checkedAt": "2026-11-14T00:17:16.333Z",
       "ok": true,
       "partial": false,
       "message": "12 registros relevantes comprobados",
       "recordsSeen": 12
     },
     "contratos": {
-      "checkedAt": "2026-11-13T15:17:25.449Z",
+      "checkedAt": "2026-11-14T00:17:16.333Z",
       "ok": true,
       "partial": false,
-      "message": "15 registros relevantes comprobados",
-      "recordsSeen": 15
+      "message": "17 registros relevantes comprobados",
+      "recordsSeen": 17
     },
     "empleo": {
-      "checkedAt": "2026-11-13T15:17:25.449Z",
+      "checkedAt": "2026-11-14T00:17:16.333Z",
       "ok": true,
       "partial": true,
       "message": "Cobertura mediante BOCM: 0 convocatoria(s) reciente(s) revisada(s); el portal directo protege el acceso automatizado",
@@ -30,6 +30,40 @@
     }
   },
   "items": [
+    {
+      "id": "contratos:servicio-mantenimiento-compresores",
+      "source": "contratos",
+      "title": "Servicio de mantenimiento de compresores",
+      "summary": "Id licitación: 6012600273;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 294240.00 EUR;",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Pendiente de adjudicación",
+      "status": "Pendiente de adjudicación",
+      "expediente": "6012600273",
+      "amount": 294240,
+      "deadline": "2026-11-13",
+      "publishedAt": "2026-11-14",
+      "updatedAt": "2026-11-14T00:14:02+02:00",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-mantenimiento-compresores",
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-10/6012600273_ppt_signed.pdf",
+      "firstSeenAt": "2026-10-19T11:12:10.003Z"
+    },
+    {
+      "id": "contratos:servicio-soporte-tecnico-mantenimiento-infraestructura-tecnologica-centro-2",
+      "source": "contratos",
+      "title": "Servicio de soporte técnico para el mantenimiento de la infraestructura tecnológica del Centro de Operaciones de Mantenimiento y de Monitorización de Instalaciones y Telecomunicaciones (COMMIT)",
+      "summary": "Id licitación: 6012600255;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 3712500.15 EUR;",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Pendiente de adjudicación",
+      "status": "Pendiente de adjudicación",
+      "expediente": "6012600255",
+      "amount": 3712500.15,
+      "deadline": "2026-11-13",
+      "publishedAt": "2026-11-14",
+      "updatedAt": "2026-11-14T00:14:02+02:00",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-soporte-tecnico-mantenimiento-infraestructura-tecnologica-centro-2",
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-10/6012600255_referencia_al_ppt_y_anexo_requisitos_ciberseguridad_signed.pdf",
+      "firstSeenAt": "2026-10-06T09:23:04.400Z"
+    },
     {
       "id": "contratos:suministro-bobinas-celulosa-empleadas-distintas-dependencias-metro-madrid-1",
       "source": "contratos",
@@ -1080,14 +1114,14 @@
     {
       "id": "bocm:bocm-20261030-32",
       "source": "bocm",
-      "title": "Desistimiento contrato– Anuncio de 28 de octubre de 2026, de decisión de no celebrar el contrato de la licitación para la contratación de un “Servicio de mantenimiento de armarios de seguridad Traka para la custodia de llaves a espacios sensibles y protegidos en Metro de Madrid” (expediente 6012600233)",
-      "summary": "Desistimiento contrato– Anuncio de 28 de octubre de 2026, de decisión de no celebrar el contrato de la licitación para la contratación de un “Servicio de mantenimiento de armarios de seguridad Traka para la custodia de llaves a espacios sensibles y protegidos en Metro de Madrid” (expediente 6012600233)",
-      "issuer": "CONSEJERÍA DE VIVIENDA, TRANSPORTES E INFRAESTRUCTURAS · METRO DE MADRID, S. A.",
-      "publicationType": "Desistimiento contrato",
+      "title": "Desistimiento contrato – Anuncio de 28 de octubre de 2026, de decisión de no celebrar el contrato de la licitación para la contratación de un “Servicio de mantenimiento de armarios de seguridad Traka para la custodia de llaves a espacios sensibles y protegidos en Metro de Madrid” (expediente 6012600233)",
+      "summary": "Desistimiento contrato – Anuncio de 28 de octubre de 2026, de decisión de no celebrar el contrato de la licitación para la contratación de un “Servicio de mantenimiento de armarios de seguridad Traka para la custodia de llaves a espacios sensibles y protegidos en Metro de Madrid” (expediente 6012600233)",
+      "issuer": "CONSEJERÍA DE VIVIENDA, TRANSPORTES E INFRAESTRUCTURAS",
+      "publicationType": "ANUNCIO",
       "publishedAt": "2026-10-30",
       "url": "https://www.bocm.es/bocm-20261030-32",
       "pdfUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/10/30/BOCM-20261030-32.PDF",
-      "xmlUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/10/30/BOCM-20261030-32.xml?language=es",
+      "xmlUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/10/30/BOCM-20261030-32.xml",
       "firstSeenAt": "2026-10-30T13:58:26.871Z",
       "tags": [
         "I. COMUNIDAD DE MADRID · D) Anuncios"
@@ -1557,9 +1591,9 @@
       "issuer": "CONSEJERÍA DE VIVIENDA, TRANSPORTES E INFRAESTRUCTURAS",
       "publicationType": "ANUNCIO",
       "publishedAt": "2026-10-26",
-      "url": "https://www.bocm.es/bocm-20261026-39",
+      "url": "https://www.bocm.es/bocm-20261026-39?language=es",
       "pdfUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/10/26/BOCM-20261026-39.PDF",
-      "xmlUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/10/26/BOCM-20261026-39.xml",
+      "xmlUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/10/26/BOCM-20261026-39.xml?language=es",
       "firstSeenAt": "2026-10-26T14:06:46.719Z",
       "tags": [
         "I. COMUNIDAD DE MADRID · D) Anuncios"
@@ -1573,9 +1607,9 @@
       "issuer": "CONSEJERÍA DE VIVIENDA, TRANSPORTES E INFRAESTRUCTURAS",
       "publicationType": "ANUNCIO",
       "publishedAt": "2026-10-26",
-      "url": "https://www.bocm.es/bocm-20261026-40",
+      "url": "https://www.bocm.es/bocm-20261026-40?language=es",
       "pdfUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/10/26/BOCM-20261026-40.PDF",
-      "xmlUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/10/26/BOCM-20261026-40.xml",
+      "xmlUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/10/26/BOCM-20261026-40.xml?language=es",
       "firstSeenAt": "2026-10-26T14:06:46.719Z",
       "tags": [
         "I. COMUNIDAD DE MADRID · D) Anuncios"
@@ -1589,9 +1623,9 @@
       "issuer": "CONSEJERÍA DE VIVIENDA, TRANSPORTES E INFRAESTRUCTURAS",
       "publicationType": "ANUNCIO",
       "publishedAt": "2026-10-26",
-      "url": "https://www.bocm.es/bocm-20261026-41",
+      "url": "https://www.bocm.es/bocm-20261026-41?language=es",
       "pdfUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/10/26/BOCM-20261026-41.PDF",
-      "xmlUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/10/26/BOCM-20261026-41.xml",
+      "xmlUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/10/26/BOCM-20261026-41.xml?language=es",
       "firstSeenAt": "2026-10-26T14:06:46.719Z",
       "tags": [
         "I. COMUNIDAD DE MADRID · D) Anuncios"
@@ -1605,9 +1639,9 @@
       "issuer": "CONSEJERÍA DE VIVIENDA, TRANSPORTES E INFRAESTRUCTURAS",
       "publicationType": "ANUNCIO",
       "publishedAt": "2026-10-26",
-      "url": "https://www.bocm.es/bocm-20261026-42",
+      "url": "https://www.bocm.es/bocm-20261026-42?language=es",
       "pdfUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/10/26/BOCM-20261026-42.PDF",
-      "xmlUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/10/26/BOCM-20261026-42.xml",
+      "xmlUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/10/26/BOCM-20261026-42.xml?language=es",
       "firstSeenAt": "2026-10-26T14:06:46.719Z",
       "tags": [
         "I. COMUNIDAD DE MADRID · D) Anuncios"
@@ -1933,23 +1967,6 @@
       "summary": "Id licitación: 6012600189;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 25000.00 EUR;",
       "amount": 25000,
       "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-06/6012600189_ppt_signed.pdf"
-    },
-    {
-      "id": "contratos:servicio-mantenimiento-compresores",
-      "source": "contratos",
-      "title": "Servicio de mantenimiento de compresores",
-      "summary": "Id licitación: 6012600273;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 294240.00 EUR;",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "En plazo",
-      "status": "En plazo",
-      "expediente": "6012600273",
-      "amount": 294240,
-      "deadline": "2026-11-13",
-      "publishedAt": "2026-10-19",
-      "updatedAt": "2026-10-19T09:37:19+02:00",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-mantenimiento-compresores",
-      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-10/6012600273_ppt_signed.pdf",
-      "firstSeenAt": "2026-10-19T11:12:10.003Z"
     },
     {
       "id": "contratos:servicio-asistencia-tecnica-analisis-adecuacion-puesta-conformidad-equipamiento",
@@ -2530,23 +2547,6 @@
       "summary": "Id licitación: 6012300143;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 1320000.00 EUR;",
       "amount": 1320000,
       "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2023-05/6012300143_ppt_signed_0.pdf"
-    },
-    {
-      "id": "contratos:servicio-soporte-tecnico-mantenimiento-infraestructura-tecnologica-centro-2",
-      "source": "contratos",
-      "title": "Servicio de soporte técnico para el mantenimiento de la infraestructura tecnológica del Centro de Operaciones de Mantenimiento y de Monitorización de Instalaciones y Telecomunicaciones (COMMIT)",
-      "summary": "Id licitación: 6012600255;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 3712500.15 EUR;",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "En plazo",
-      "status": "En plazo",
-      "expediente": "6012600255",
-      "amount": 3712500.15,
-      "deadline": "2026-11-13",
-      "publishedAt": "2026-10-07",
-      "updatedAt": "2026-10-07T13:18:49+02:00",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-soporte-tecnico-mantenimiento-infraestructura-tecnologica-centro-2",
-      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-10/6012600255_referencia_al_ppt_y_anexo_requisitos_ciberseguridad_signed.pdf",
-      "firstSeenAt": "2026-10-06T09:23:04.400Z"
     },
     {
       "id": "contratos:suministro-asientos-conductor-trenes-material-movil-metro-madrid-1",
