@@ -1,28 +1,28 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-17T02:25:13.595Z",
+  "generatedAt": "2026-11-17T16:49:41.835Z",
   "coverage": {
     "bocm": "2009-12-01 a 2026-11-16",
-    "contratos": "2017-02-02 a 2026-11-16",
+    "contratos": "2017-02-02 a 2026-11-17",
     "empleo": "2016-10-31 a 2026-10-16"
   },
   "sources": {
     "bocm": {
-      "checkedAt": "2026-11-17T02:25:13.595Z",
+      "checkedAt": "2026-11-17T16:49:41.835Z",
       "ok": true,
-      "partial": false,
-      "message": "14 registros relevantes comprobados",
-      "recordsSeen": 14
+      "partial": true,
+      "message": "3 registros relevantes comprobados; 16 documento(s) omitido(s) temporalmente",
+      "recordsSeen": 3
     },
     "contratos": {
-      "checkedAt": "2026-11-17T02:25:13.595Z",
+      "checkedAt": "2026-11-17T16:49:41.835Z",
       "ok": true,
       "partial": false,
-      "message": "8 registros relevantes comprobados",
-      "recordsSeen": 8
+      "message": "7 registros relevantes comprobados",
+      "recordsSeen": 7
     },
     "empleo": {
-      "checkedAt": "2026-11-17T02:25:13.595Z",
+      "checkedAt": "2026-11-17T16:49:41.835Z",
       "ok": true,
       "partial": true,
       "message": "Cobertura mediante BOCM: 0 convocatoria(s) reciente(s) revisada(s); el portal directo protege el acceso automatizado",
@@ -30,6 +30,125 @@
     }
   },
   "items": [
+    {
+      "id": "contratos:suministro-lunas-frontales-cabina-mantenimiento-trenes-material-movil-metro-madrid",
+      "source": "contratos",
+      "title": "Suministro de lunas frontales de cabina para el mantenimiento de los trenes del material móvil de Metro de Madrid",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Resuelta / Finalizada",
+      "status": "Resuelta / Finalizada",
+      "expediente": "6012400137",
+      "publishedAt": "2026-11-17",
+      "updatedAt": "2026-11-17T14:05:30+02:00",
+      "deadline": "2024-05-17",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/suministro-lunas-frontales-cabina-mantenimiento-trenes-material-movil-metro-madrid",
+      "firstSeenAt": "2026-08-05T08:03:18.389Z",
+      "summary": "Id licitación: 6012400137;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 300000.00 EUR;",
+      "amount": 300000,
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2024-04/6012400137_ppt_signed.pdf"
+    },
+    {
+      "id": "contratos:asum-0417202026-nuevo-puesto-mando-citram-primera-planta-edificio-metro-madrid",
+      "source": "contratos",
+      "title": "A/SUM-041720/2026 Nuevo puesto de mando de CITRAM en la primera planta del edificio de Metro de Madrid sito en la Avenida de Asturias 4",
+      "summary": "Id licitación: A/SUM-041720/2026;Órgano de Contratación: Organismo Autónomo Consorcio Regional de Transportes Regulares de Madrid.;Importe: 1644840.00 EUR;",
+      "issuer": "Organismo Autónomo Consorcio Regional de Transportes Regulares de Madrid.",
+      "publicationType": "En plazo",
+      "status": "En plazo",
+      "expediente": "A/SUM-041720/2026",
+      "amount": 1644840,
+      "deadline": "2026-12-21",
+      "publishedAt": "2026-11-17",
+      "updatedAt": "2026-11-17T12:45:29+02:00",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/asum-0417202026-nuevo-puesto-mando-citram-primera-planta-edificio-metro-madrid",
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-11/pptp.pdf",
+      "firstSeenAt": "2026-11-17T16:49:41.835Z"
+    },
+    {
+      "id": "contratos:servicio-reparacion-tarjetas-sdpi-distintas-series-metro-madrid",
+      "source": "contratos",
+      "title": "Servicio de reparación de las tarjetas SDPI de las distintas series de Metro de Madrid",
+      "summary": "Id licitación: 6012600252;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 139200.00 EUR;",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Pendiente de adjudicación",
+      "status": "Pendiente de adjudicación",
+      "expediente": "6012600252",
+      "amount": 139200,
+      "deadline": "2026-10-23",
+      "publishedAt": "2026-11-17",
+      "updatedAt": "2026-11-17T12:32:59+02:00",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-reparacion-tarjetas-sdpi-distintas-series-metro-madrid",
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-09/6012600252_referencia_al_ppt_signed.pdf",
+      "firstSeenAt": "2026-09-30T11:20:18.593Z"
+    },
+    {
+      "id": "contratos:servicio-soporte-tecnico-mantenimiento-infraestructura-tecnologica-centro-2",
+      "source": "contratos",
+      "title": "Servicio de soporte técnico para el mantenimiento de la infraestructura tecnológica del Centro de Operaciones de Mantenimiento y de Monitorización de Instalaciones y Telecomunicaciones (COMMIT)",
+      "summary": "Id licitación: 6012600255;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 3712500.15 EUR;",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Pendiente de adjudicación",
+      "status": "Pendiente de adjudicación",
+      "expediente": "6012600255",
+      "amount": 3712500.15,
+      "deadline": "2026-11-13",
+      "publishedAt": "2026-11-17",
+      "updatedAt": "2026-11-17T10:56:26+02:00",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-soporte-tecnico-mantenimiento-infraestructura-tecnologica-centro-2",
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-10/6012600255_referencia_al_ppt_y_anexo_requisitos_ciberseguridad_signed.pdf",
+      "firstSeenAt": "2026-10-06T09:23:04.400Z"
+    },
+    {
+      "id": "contratos:servicio-modernizacion-actualizacion-mesa-baja-bogies-cuatro-vientos",
+      "source": "contratos",
+      "title": "Servicio de modernización y actualización de la mesa baja-bogíes de Cuatro Vientos",
+      "summary": "Id licitación: 6012600275;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 130000.00 EUR;",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "En plazo",
+      "status": "En plazo",
+      "expediente": "6012600275",
+      "amount": 130000,
+      "deadline": "2026-11-24",
+      "publishedAt": "2026-11-17",
+      "updatedAt": "2026-11-17T10:46:37+02:00",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-modernizacion-actualizacion-mesa-baja-bogies-cuatro-vientos",
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-10/6012600275_ppt_signed.pdf",
+      "firstSeenAt": "2026-11-17T16:49:41.835Z"
+    },
+    {
+      "id": "contratos:obras-renovacion-integral-superestructura-via-linea-6-actuaciones-incluidas",
+      "source": "contratos",
+      "title": "Obras de renovación integral de la superestructura de vía en Línea 6. las actuaciones incluidas en este contrato podrán ser cofinanciadas al 40% con cargo al programa FEDER 2021-2027 de la Comunidad de Madrid dentro del objetivo político 2. una Europa más verde, hipocarbónica y en transición hacia una economía con cero emisiones netas de carbono, y resiliente, promoviendo una transición energética limpia y equitativa, la inversión verde y azul, la economía circular, la mitigación del cambio climático y la adaptación a él, la prevención y gestión de riesgos y la movilidad urbana sostenible y el objetivo específico RSO2.1. fomentar la eficiencia energética y la reducción de las emisiones de gases de efecto invernadero",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Resuelta / Finalizada",
+      "status": "Resuelta / Finalizada",
+      "expediente": "6012400271",
+      "publishedAt": "2026-11-17",
+      "updatedAt": "2026-11-17T10:33:34+02:00",
+      "deadline": "2024-08-08",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/obras-renovacion-integral-superestructura-via-linea-6-actuaciones-incluidas",
+      "firstSeenAt": "2026-08-05T08:03:18.389Z",
+      "summary": "Id licitación: 6012400271;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 128233025.11 EUR;",
+      "amount": 128233025.11,
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2024-07/6012400271_pcp_signed_0.pdf"
+    },
+    {
+      "id": "contratos:suministro-varios-repuestos-conexion-electrica-mantenimiento-material-movil-metro",
+      "source": "contratos",
+      "title": "Suministro de varios repuestos de conexión eléctrica para el mantenimiento del material móvil de Metro de Madrid",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Pendiente de adjudicación",
+      "status": "Pendiente de adjudicación",
+      "expediente": "6012600236",
+      "publishedAt": "2026-11-17",
+      "updatedAt": "2026-11-17T10:10:00+02:00",
+      "deadline": "2026-09-18",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/suministro-varios-repuestos-conexion-electrica-mantenimiento-material-movil-metro",
+      "firstSeenAt": "2026-09-01T10:00:16.000Z",
+      "summary": "Id licitación: 6012600236;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 71200.00 EUR;",
+      "amount": 71200,
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-08/6012600236_ppt_signed.pdf"
+    },
     {
       "id": "contratos:servicio-mantenimiento-integral-sistema-proteccion-incendios-series-material-movil",
       "source": "contratos",
@@ -116,23 +235,6 @@
       "firstSeenAt": "2026-10-16T09:15:26.852Z"
     },
     {
-      "id": "contratos:obras-renovacion-integral-superestructura-via-linea-6-actuaciones-incluidas",
-      "source": "contratos",
-      "title": "Obras de renovación integral de la superestructura de vía en Línea 6. las actuaciones incluidas en este contrato podrán ser cofinanciadas al 40% con cargo al programa FEDER 2021-2027 de la Comunidad de Madrid dentro del objetivo político 2. una Europa más verde, hipocarbónica y en transición hacia una economía con cero emisiones netas de carbono, y resiliente, promoviendo una transición energética limpia y equitativa, la inversión verde y azul, la economía circular, la mitigación del cambio climático y la adaptación a él, la prevención y gestión de riesgos y la movilidad urbana sostenible y el objetivo específico RSO2.1. fomentar la eficiencia energética y la reducción de las emisiones de gases de efecto invernadero",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Resuelta / Finalizada",
-      "status": "Resuelta / Finalizada",
-      "expediente": "6012400271",
-      "publishedAt": "2026-11-16",
-      "updatedAt": "2026-11-16T10:13:05+02:00",
-      "deadline": "2024-08-08",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/obras-renovacion-integral-superestructura-via-linea-6-actuaciones-incluidas",
-      "firstSeenAt": "2026-08-05T08:03:18.389Z",
-      "summary": "Id licitación: 6012400271;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 128233025.11 EUR;",
-      "amount": 128233025.11,
-      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2024-07/6012400271_pcp_signed_0.pdf"
-    },
-    {
       "id": "contratos:servicio-mantenimiento-integral-824-equipos-instalaciones-climatizacion-ubicados",
       "source": "contratos",
       "title": "Servicio de mantenimiento integral de 824 equipos de instalaciones de climatización ubicados en estaciones, recintos y depósitos de Metro de Madrid",
@@ -186,28 +288,34 @@
     {
       "id": "bocm:bocm-20261116-36",
       "source": "bocm",
-      "title": "Formalización contrato– Resolución de 30 de octubre de 2026, de la Secretaría General Técnica de la Consejería de Vivienda, Transportes e Infraestructuras, por la que se dispone la publicación en los boletines oficiales y en el “perfil del contratante” de la formalización del contrato de servicios de “Dirección de las obras, coordinación de seguridad y salud y asistencia técnica de las obras de ejecución de instalaciones, y de las obras de ejecución de la señalización, para la ampliación de la Línea 11 de Metro de Madrid, Tramo Plaza Elíptica-Conde de Casal. Lote 2”",
-      "summary": "Formalización contrato– Resolución de 30 de octubre de 2026, de la Secretaría General Técnica de la Consejería de Vivienda, Transportes e Infraestructuras, por la que se dispone la publicación en los boletines oficiales y en el “perfil del contratante” de la formalización del contrato de servicios de “Dirección de las obras, coordinación de seguridad y salud y asistencia técnica de las obras de ejecución de instalaciones, y de las obras de ejecución de la señalización, para la ampliación de la Línea 11 de Metro de Madrid, Tramo Plaza Elíptica-Conde de Casal. Lote 2”",
+      "title": "Formalización contrato – Resolución de 30 de octubre de 2026, de la Secretaría General Técnica de la Consejería de Vivienda, Transportes e Infraestructuras, por la que se dispone la publicación en los boletines oficiales y en el “perfil del contratante” de la formalización del contrato de servicios de “Dirección de las obras, coordinación de seguridad y salud y asistencia técnica de las obras de ejecución de instalaciones, y de las obras de ejecución de la señalización, para la ampliación de la Línea 11 de Metro de Madrid, Tramo Plaza Elíptica-Conde de Casal. Lote 2”",
+      "summary": "Formalización contrato – Resolución de 30 de octubre de 2026, de la Secretaría General Técnica de la Consejería de Vivienda, Transportes e Infraestructuras, por la que se dispone la publicación en los boletines oficiales y en el “perfil del contratante” de la formalización del contrato de servicios de “Dirección de las obras, coordinación de seguridad y salud y asistencia técnica de las obras de ejecución de instalaciones, y de las obras de ejecución de la señalización, para la ampliación de la Línea 11 de Metro de Madrid, Tramo Plaza Elíptica-Conde de Casal. Lote 2”",
       "issuer": "CONSEJERÍA DE VIVIENDA, TRANSPORTES E INFRAESTRUCTURAS",
-      "publicationType": "Formalización contrato",
+      "publicationType": "RESOLUCIÓN",
       "publishedAt": "2026-11-16",
       "url": "https://www.bocm.es/bocm-20261116-36",
       "pdfUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/11/16/BOCM-20261116-36.PDF",
-      "xmlUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/11/16/BOCM-20261116-36.xml?language=es",
-      "firstSeenAt": "2026-11-16T16:55:52.966Z"
+      "xmlUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/11/16/BOCM-20261116-36.xml",
+      "firstSeenAt": "2026-11-16T16:55:52.966Z",
+      "tags": [
+        "I. COMUNIDAD DE MADRID · D) Anuncios"
+      ]
     },
     {
       "id": "bocm:bocm-20261116-37",
       "source": "bocm",
-      "title": "Convocatoria contrato– Anuncio de 10 de noviembre de 2026, de decisión de revocación y retroacción de la adjudicación de la licitación para la contratación del “Servicio de mantenimiento integral de 824 equipos de instalaciones de climatización ubicados en estaciones, recintos y depósitos de Metro de Madrid (lote 2)” (Expediente 6012600054)",
-      "summary": "Convocatoria contrato– Anuncio de 10 de noviembre de 2026, de decisión de revocación y retroacción de la adjudicación de la licitación para la contratación del “Servicio de mantenimiento integral de 824 equipos de instalaciones de climatización ubicados en estaciones, recintos y depósitos de Metro de Madrid (lote 2)” (Expediente 6012600054)",
-      "issuer": "CONSEJERÍA DE VIVIENDA, TRANSPORTES E INFRAESTRUCTURAS · METRO DE MADRID, S. A.",
-      "publicationType": "Convocatoria contrato",
+      "title": "Convocatoria contrato – Anuncio de 10 de noviembre de 2026, de decisión de revocación y retroacción de la adjudicación de la licitación para la contratación del “Servicio de mantenimiento integral de 824 equipos de instalaciones de climatización ubicados en estaciones, recintos y depósitos de Metro de Madrid (lote 2)” (Expediente 6012600054)",
+      "summary": "Convocatoria contrato – Anuncio de 10 de noviembre de 2026, de decisión de revocación y retroacción de la adjudicación de la licitación para la contratación del “Servicio de mantenimiento integral de 824 equipos de instalaciones de climatización ubicados en estaciones, recintos y depósitos de Metro de Madrid (lote 2)” (Expediente 6012600054)",
+      "issuer": "CONSEJERÍA DE VIVIENDA, TRANSPORTES E INFRAESTRUCTURAS",
+      "publicationType": "ANUNCIO",
       "publishedAt": "2026-11-16",
       "url": "https://www.bocm.es/bocm-20261116-37",
       "pdfUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/11/16/BOCM-20261116-37.PDF",
-      "xmlUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/11/16/BOCM-20261116-37.xml?language=es",
-      "firstSeenAt": "2026-11-16T16:55:52.966Z"
+      "xmlUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/11/16/BOCM-20261116-37.xml",
+      "firstSeenAt": "2026-11-16T16:55:52.966Z",
+      "tags": [
+        "I. COMUNIDAD DE MADRID · D) Anuncios"
+      ]
     },
     {
       "id": "contratos:servicio-mantenimiento-compresores",
@@ -225,23 +333,6 @@
       "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-mantenimiento-compresores",
       "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-10/6012600273_ppt_signed.pdf",
       "firstSeenAt": "2026-10-19T11:12:10.003Z"
-    },
-    {
-      "id": "contratos:servicio-soporte-tecnico-mantenimiento-infraestructura-tecnologica-centro-2",
-      "source": "contratos",
-      "title": "Servicio de soporte técnico para el mantenimiento de la infraestructura tecnológica del Centro de Operaciones de Mantenimiento y de Monitorización de Instalaciones y Telecomunicaciones (COMMIT)",
-      "summary": "Id licitación: 6012600255;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 3712500.15 EUR;",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Pendiente de adjudicación",
-      "status": "Pendiente de adjudicación",
-      "expediente": "6012600255",
-      "amount": 3712500.15,
-      "deadline": "2026-11-13",
-      "publishedAt": "2026-11-14",
-      "updatedAt": "2026-11-14T00:14:02+02:00",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-soporte-tecnico-mantenimiento-infraestructura-tecnologica-centro-2",
-      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-10/6012600255_referencia_al_ppt_y_anexo_requisitos_ciberseguridad_signed.pdf",
-      "firstSeenAt": "2026-10-06T09:23:04.400Z"
     },
     {
       "id": "contratos:suministro-bobinas-celulosa-empleadas-distintas-dependencias-metro-madrid-1",
@@ -782,23 +873,6 @@
       "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-medico-especialidad-cirugia-ortopedica-traumatologia-cot-3",
       "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-10/6012600259_ppt_signed.pdf",
       "firstSeenAt": "2026-10-09T06:38:52.473Z"
-    },
-    {
-      "id": "contratos:suministro-lunas-frontales-cabina-mantenimiento-trenes-material-movil-metro-madrid",
-      "source": "contratos",
-      "title": "Suministro de lunas frontales de cabina para el mantenimiento de los trenes del material móvil de Metro de Madrid",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Resuelta / Finalizada",
-      "status": "Resuelta / Finalizada",
-      "expediente": "6012400137",
-      "publishedAt": "2026-11-10",
-      "updatedAt": "2026-11-10T11:15:09+02:00",
-      "deadline": "2024-05-17",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/suministro-lunas-frontales-cabina-mantenimiento-trenes-material-movil-metro-madrid",
-      "firstSeenAt": "2026-08-05T08:03:18.389Z",
-      "summary": "Id licitación: 6012400137;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 300000.00 EUR;",
-      "amount": 300000,
-      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2024-04/6012400137_ppt_signed.pdf"
     },
     {
       "id": "contratos:obras-dotacion-cobertura-radio-tetra-salidas-emergencia-metro-madrid",
@@ -1473,23 +1547,6 @@
       "firstSeenAt": "2026-08-05T07:48:11.952Z"
     },
     {
-      "id": "contratos:servicio-reparacion-tarjetas-sdpi-distintas-series-metro-madrid",
-      "source": "contratos",
-      "title": "Servicio de reparación de las tarjetas SDPI de las distintas series de Metro de Madrid",
-      "summary": "Id licitación: 6012600252;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 139200.00 EUR;",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Pendiente de adjudicación",
-      "status": "Pendiente de adjudicación",
-      "expediente": "6012600252",
-      "amount": 139200,
-      "deadline": "2026-10-23",
-      "publishedAt": "2026-10-27",
-      "updatedAt": "2026-10-27T09:41:20+02:00",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-reparacion-tarjetas-sdpi-distintas-series-metro-madrid",
-      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-09/6012600252_referencia_al_ppt_signed.pdf",
-      "firstSeenAt": "2026-09-30T11:20:18.593Z"
-    },
-    {
       "id": "contratos:soporte-mantenimiento-licencias-auraquantic",
       "source": "contratos",
       "title": "Soporte y mantenimiento de licencias AuraQuantic",
@@ -2091,23 +2148,6 @@
       "summary": "Id licitación: 6012500040;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 1154782.07 EUR;",
       "amount": 1154782.07,
       "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2025-02/6012500040_referencia_al_pliego_de_prescripciones_tecnicas_signed.pdf"
-    },
-    {
-      "id": "contratos:suministro-varios-repuestos-conexion-electrica-mantenimiento-material-movil-metro",
-      "source": "contratos",
-      "title": "Suministro de varios repuestos de conexión eléctrica para el mantenimiento del material móvil de Metro de Madrid",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Pendiente de adjudicación",
-      "status": "Pendiente de adjudicación",
-      "expediente": "6012600236",
-      "publishedAt": "2026-10-16",
-      "updatedAt": "2026-10-16T10:48:00+02:00",
-      "deadline": "2026-09-18",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/suministro-varios-repuestos-conexion-electrica-mantenimiento-material-movil-metro",
-      "firstSeenAt": "2026-09-01T10:00:16.000Z",
-      "summary": "Id licitación: 6012600236;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 71200.00 EUR;",
-      "amount": 71200,
-      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-08/6012600236_ppt_signed.pdf"
     },
     {
       "id": "empleo:tecnicoa-en-el-servicio-de-integracion-de-sistemas-del-area-de-comunicaciones-y-tecnologias-de-la-informacion-2026-1tamsispla",
