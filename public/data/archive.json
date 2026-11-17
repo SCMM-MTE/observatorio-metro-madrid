@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-16T16:55:52.966Z",
+  "generatedAt": "2026-11-17T02:25:13.595Z",
   "coverage": {
     "bocm": "2009-12-01 a 2026-11-16",
     "contratos": "2017-02-02 a 2026-11-16",
@@ -8,21 +8,21 @@
   },
   "sources": {
     "bocm": {
-      "checkedAt": "2026-11-16T16:55:52.966Z",
+      "checkedAt": "2026-11-17T02:25:13.595Z",
       "ok": true,
-      "partial": true,
-      "message": "14 registros relevantes comprobados; 13 documento(s) omitido(s) temporalmente",
+      "partial": false,
+      "message": "14 registros relevantes comprobados",
       "recordsSeen": 14
     },
     "contratos": {
-      "checkedAt": "2026-11-16T16:55:52.966Z",
+      "checkedAt": "2026-11-17T02:25:13.595Z",
       "ok": true,
       "partial": false,
-      "message": "9 registros relevantes comprobados",
-      "recordsSeen": 9
+      "message": "8 registros relevantes comprobados",
+      "recordsSeen": 8
     },
     "empleo": {
-      "checkedAt": "2026-11-16T16:55:52.966Z",
+      "checkedAt": "2026-11-17T02:25:13.595Z",
       "ok": true,
       "partial": true,
       "message": "Cobertura mediante BOCM: 0 convocatoria(s) reciente(s) revisada(s); el portal directo protege el acceso automatizado",
@@ -1548,9 +1548,9 @@
       "issuer": "CONSEJERÍA DE VIVIENDA, TRANSPORTES E INFRAESTRUCTURAS",
       "publicationType": "ANUNCIO",
       "publishedAt": "2026-10-27",
-      "url": "https://www.bocm.es/bocm-20261027-43?language=es",
+      "url": "https://www.bocm.es/bocm-20261027-43",
       "pdfUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/10/27/BOCM-20261027-43.PDF",
-      "xmlUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/10/27/BOCM-20261027-43.xml?language=es",
+      "xmlUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/10/27/BOCM-20261027-43.xml",
       "firstSeenAt": "2026-10-27T13:07:48.928Z",
       "tags": [
         "I. COMUNIDAD DE MADRID · D) Anuncios"
