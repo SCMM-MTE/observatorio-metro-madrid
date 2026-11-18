@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-17T16:49:41.835Z",
+  "generatedAt": "2026-11-18T01:34:00.977Z",
   "coverage": {
     "bocm": "2009-12-01 a 2026-11-16",
     "contratos": "2017-02-02 a 2026-11-17",
@@ -8,21 +8,21 @@
   },
   "sources": {
     "bocm": {
-      "checkedAt": "2026-11-17T16:49:41.835Z",
+      "checkedAt": "2026-11-18T01:34:00.977Z",
       "ok": true,
-      "partial": true,
-      "message": "3 registros relevantes comprobados; 16 documento(s) omitido(s) temporalmente",
-      "recordsSeen": 3
+      "partial": false,
+      "message": "10 registros relevantes comprobados",
+      "recordsSeen": 10
     },
     "contratos": {
-      "checkedAt": "2026-11-17T16:49:41.835Z",
+      "checkedAt": "2026-11-18T01:34:00.977Z",
       "ok": true,
       "partial": false,
       "message": "7 registros relevantes comprobados",
       "recordsSeen": 7
     },
     "empleo": {
-      "checkedAt": "2026-11-17T16:49:41.835Z",
+      "checkedAt": "2026-11-18T01:34:00.977Z",
       "ok": true,
       "partial": true,
       "message": "Cobertura mediante BOCM: 0 convocatoria(s) reciente(s) revisada(s); el portal directo protege el acceso automatizado",
@@ -288,14 +288,14 @@
     {
       "id": "bocm:bocm-20261116-36",
       "source": "bocm",
-      "title": "Formalización contrato – Resolución de 30 de octubre de 2026, de la Secretaría General Técnica de la Consejería de Vivienda, Transportes e Infraestructuras, por la que se dispone la publicación en los boletines oficiales y en el “perfil del contratante” de la formalización del contrato de servicios de “Dirección de las obras, coordinación de seguridad y salud y asistencia técnica de las obras de ejecución de instalaciones, y de las obras de ejecución de la señalización, para la ampliación de la Línea 11 de Metro de Madrid, Tramo Plaza Elíptica-Conde de Casal. Lote 2”",
-      "summary": "Formalización contrato – Resolución de 30 de octubre de 2026, de la Secretaría General Técnica de la Consejería de Vivienda, Transportes e Infraestructuras, por la que se dispone la publicación en los boletines oficiales y en el “perfil del contratante” de la formalización del contrato de servicios de “Dirección de las obras, coordinación de seguridad y salud y asistencia técnica de las obras de ejecución de instalaciones, y de las obras de ejecución de la señalización, para la ampliación de la Línea 11 de Metro de Madrid, Tramo Plaza Elíptica-Conde de Casal. Lote 2”",
+      "title": "Formalización contrato– Resolución de 30 de octubre de 2026, de la Secretaría General Técnica de la Consejería de Vivienda, Transportes e Infraestructuras, por la que se dispone la publicación en los boletines oficiales y en el “perfil del contratante” de la formalización del contrato de servicios de “Dirección de las obras, coordinación de seguridad y salud y asistencia técnica de las obras de ejecución de instalaciones, y de las obras de ejecución de la señalización, para la ampliación de la Línea 11 de Metro de Madrid, Tramo Plaza Elíptica-Conde de Casal. Lote 2”",
+      "summary": "Formalización contrato– Resolución de 30 de octubre de 2026, de la Secretaría General Técnica de la Consejería de Vivienda, Transportes e Infraestructuras, por la que se dispone la publicación en los boletines oficiales y en el “perfil del contratante” de la formalización del contrato de servicios de “Dirección de las obras, coordinación de seguridad y salud y asistencia técnica de las obras de ejecución de instalaciones, y de las obras de ejecución de la señalización, para la ampliación de la Línea 11 de Metro de Madrid, Tramo Plaza Elíptica-Conde de Casal. Lote 2”",
       "issuer": "CONSEJERÍA DE VIVIENDA, TRANSPORTES E INFRAESTRUCTURAS",
-      "publicationType": "RESOLUCIÓN",
+      "publicationType": "Formalización contrato",
       "publishedAt": "2026-11-16",
       "url": "https://www.bocm.es/bocm-20261116-36",
       "pdfUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/11/16/BOCM-20261116-36.PDF",
-      "xmlUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/11/16/BOCM-20261116-36.xml",
+      "xmlUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/11/16/BOCM-20261116-36.xml?language=es",
       "firstSeenAt": "2026-11-16T16:55:52.966Z",
       "tags": [
         "I. COMUNIDAD DE MADRID · D) Anuncios"
@@ -304,14 +304,14 @@
     {
       "id": "bocm:bocm-20261116-37",
       "source": "bocm",
-      "title": "Convocatoria contrato – Anuncio de 10 de noviembre de 2026, de decisión de revocación y retroacción de la adjudicación de la licitación para la contratación del “Servicio de mantenimiento integral de 824 equipos de instalaciones de climatización ubicados en estaciones, recintos y depósitos de Metro de Madrid (lote 2)” (Expediente 6012600054)",
-      "summary": "Convocatoria contrato – Anuncio de 10 de noviembre de 2026, de decisión de revocación y retroacción de la adjudicación de la licitación para la contratación del “Servicio de mantenimiento integral de 824 equipos de instalaciones de climatización ubicados en estaciones, recintos y depósitos de Metro de Madrid (lote 2)” (Expediente 6012600054)",
-      "issuer": "CONSEJERÍA DE VIVIENDA, TRANSPORTES E INFRAESTRUCTURAS",
-      "publicationType": "ANUNCIO",
+      "title": "Convocatoria contrato– Anuncio de 10 de noviembre de 2026, de decisión de revocación y retroacción de la adjudicación de la licitación para la contratación del “Servicio de mantenimiento integral de 824 equipos de instalaciones de climatización ubicados en estaciones, recintos y depósitos de Metro de Madrid (lote 2)” (Expediente 6012600054)",
+      "summary": "Convocatoria contrato– Anuncio de 10 de noviembre de 2026, de decisión de revocación y retroacción de la adjudicación de la licitación para la contratación del “Servicio de mantenimiento integral de 824 equipos de instalaciones de climatización ubicados en estaciones, recintos y depósitos de Metro de Madrid (lote 2)” (Expediente 6012600054)",
+      "issuer": "CONSEJERÍA DE VIVIENDA, TRANSPORTES E INFRAESTRUCTURAS · METRO DE MADRID, S. A.",
+      "publicationType": "Convocatoria contrato",
       "publishedAt": "2026-11-16",
       "url": "https://www.bocm.es/bocm-20261116-37",
       "pdfUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/11/16/BOCM-20261116-37.PDF",
-      "xmlUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/11/16/BOCM-20261116-37.xml",
+      "xmlUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/11/16/BOCM-20261116-37.xml?language=es",
       "firstSeenAt": "2026-11-16T16:55:52.966Z",
       "tags": [
         "I. COMUNIDAD DE MADRID · D) Anuncios"
@@ -1231,14 +1231,14 @@
     {
       "id": "bocm:bocm-20261103-46",
       "source": "bocm",
-      "title": "Convocatoria contrato– Anuncio de 28 de octubre de 2026, por el que se convoca la licitación para la contratación de un suministro de herramientas de mano, herramientas eléctricas y neumáticas y material de ferretería para Metro de Madrid, S. A. (Expediente 6012600283)",
-      "summary": "Convocatoria contrato– Anuncio de 28 de octubre de 2026, por el que se convoca la licitación para la contratación de un suministro de herramientas de mano, herramientas eléctricas y neumáticas y material de ferretería para Metro de Madrid, S. A. (Expediente 6012600283)",
-      "issuer": "CONSEJERÍA DE VIVIENDA, TRANSPORTES E INFRAESTRUCTURAS · METRO DE MADRID, S. A.",
-      "publicationType": "Convocatoria contrato",
+      "title": "Convocatoria contrato – Anuncio de 28 de octubre de 2026, por el que se convoca la licitación para la contratación de un suministro de herramientas de mano, herramientas eléctricas y neumáticas y material de ferretería para Metro de Madrid, S. A. (Expediente 6012600283)",
+      "summary": "Convocatoria contrato – Anuncio de 28 de octubre de 2026, por el que se convoca la licitación para la contratación de un suministro de herramientas de mano, herramientas eléctricas y neumáticas y material de ferretería para Metro de Madrid, S. A. (Expediente 6012600283)",
+      "issuer": "CONSEJERÍA DE VIVIENDA, TRANSPORTES E INFRAESTRUCTURAS",
+      "publicationType": "ANUNCIO",
       "publishedAt": "2026-11-03",
       "url": "https://www.bocm.es/bocm-20261103-46",
       "pdfUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/11/03/BOCM-20261103-46.PDF",
-      "xmlUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/11/03/BOCM-20261103-46.xml?language=es",
+      "xmlUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/11/03/BOCM-20261103-46.xml",
       "firstSeenAt": "2026-11-03T14:58:54.871Z",
       "tags": [
         "I. COMUNIDAD DE MADRID · D) Anuncios"
@@ -1605,9 +1605,9 @@
       "issuer": "CONSEJERÍA DE VIVIENDA, TRANSPORTES E INFRAESTRUCTURAS",
       "publicationType": "ANUNCIO",
       "publishedAt": "2026-10-27",
-      "url": "https://www.bocm.es/bocm-20261027-43",
+      "url": "https://www.bocm.es/bocm-20261027-43?language=es",
       "pdfUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/10/27/BOCM-20261027-43.PDF",
-      "xmlUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/10/27/BOCM-20261027-43.xml",
+      "xmlUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/10/27/BOCM-20261027-43.xml?language=es",
       "firstSeenAt": "2026-10-27T13:07:48.928Z",
       "tags": [
         "I. COMUNIDAD DE MADRID · D) Anuncios"
