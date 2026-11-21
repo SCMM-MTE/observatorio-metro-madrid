@@ -1,28 +1,28 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-20T16:00:39.061Z",
+  "generatedAt": "2026-11-21T00:44:11.814Z",
   "coverage": {
     "bocm": "2009-12-01 a 2026-11-20",
-    "contratos": "2017-02-02 a 2026-11-20",
+    "contratos": "2017-02-02 a 2026-11-21",
     "empleo": "2016-10-31 a 2026-10-16"
   },
   "sources": {
     "bocm": {
-      "checkedAt": "2026-11-20T16:00:39.061Z",
+      "checkedAt": "2026-11-21T00:44:11.814Z",
       "ok": true,
-      "partial": false,
-      "message": "11 registros relevantes comprobados",
-      "recordsSeen": 11
+      "partial": true,
+      "message": "Consulta parcial sin registros; 20 documento(s) omitido(s) temporalmente",
+      "recordsSeen": 0
     },
     "contratos": {
-      "checkedAt": "2026-11-20T16:00:39.061Z",
+      "checkedAt": "2026-11-21T00:44:11.814Z",
       "ok": true,
       "partial": false,
-      "message": "11 registros relevantes comprobados",
-      "recordsSeen": 11
+      "message": "12 registros relevantes comprobados",
+      "recordsSeen": 12
     },
     "empleo": {
-      "checkedAt": "2026-11-20T16:00:39.061Z",
+      "checkedAt": "2026-11-21T00:44:11.814Z",
       "ok": true,
       "partial": true,
       "message": "Cobertura mediante BOCM: 0 convocatoria(s) reciente(s) revisada(s); el portal directo protege el acceso automatizado",
@@ -30,6 +30,23 @@
     }
   },
   "items": [
+    {
+      "id": "contratos:gestion-servicio-seis-puntos-servicio-biblioteca-metro-madrid-bibliometro-0",
+      "source": "contratos",
+      "title": "Gestión del servicio de seis puntos de servicio de biblioteca en el Metro de Madrid (Bibliometro)",
+      "summary": "Id licitación: C-332B/007-26 (A/SER-015143/2026);Órgano de Contratación: Consejería de Cultura, Turismo y Deporte;Importe: 1960254.69 EUR;",
+      "issuer": "Consejería de Cultura, Turismo y Deporte",
+      "publicationType": "Pendiente de adjudicación",
+      "status": "Pendiente de adjudicación",
+      "expediente": "C-332B/007-26 (A/SER-015143/2026)",
+      "amount": 1960254.69,
+      "deadline": "2026-11-20",
+      "publishedAt": "2026-11-21",
+      "updatedAt": "2026-11-21T00:12:40+02:00",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/gestion-servicio-seis-puntos-servicio-biblioteca-metro-madrid-bibliometro-0",
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-10/008_ppt_bibliometro_6_modulos.pdf",
+      "firstSeenAt": "2026-10-29T14:06:35.948Z"
+    },
     {
       "id": "contratos:servicio-asistencia-tecnica-analisis-adecuacion-puesta-conformidad-equipamiento",
       "source": "contratos",
@@ -1655,23 +1672,6 @@
       "tags": [
         "I. COMUNIDAD DE MADRID · D) Anuncios"
       ]
-    },
-    {
-      "id": "contratos:gestion-servicio-seis-puntos-servicio-biblioteca-metro-madrid-bibliometro-0",
-      "source": "contratos",
-      "title": "Gestión del servicio de seis puntos de servicio de biblioteca en el Metro de Madrid (Bibliometro)",
-      "summary": "Id licitación: C-332B/007-26 (A/SER-015143/2026);Órgano de Contratación: Consejería de Cultura, Turismo y Deporte;Importe: 1960254.69 EUR;",
-      "issuer": "Consejería de Cultura, Turismo y Deporte",
-      "publicationType": "En plazo",
-      "status": "En plazo",
-      "expediente": "C-332B/007-26 (A/SER-015143/2026)",
-      "amount": 1960254.69,
-      "deadline": "2026-11-20",
-      "publishedAt": "2026-10-29",
-      "updatedAt": "2026-10-29T10:57:40+02:00",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/gestion-servicio-seis-puntos-servicio-biblioteca-metro-madrid-bibliometro-0",
-      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-10/008_ppt_bibliometro_6_modulos.pdf",
-      "firstSeenAt": "2026-10-29T14:06:35.948Z"
     },
     {
       "id": "contratos:obras-proyecto-implantacion-circuito-higienico-personal-linea-aerea",
