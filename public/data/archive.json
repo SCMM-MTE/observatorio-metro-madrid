@@ -1,28 +1,28 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-23T00:09:18.769Z",
+  "generatedAt": "2026-11-23T19:10:09.110Z",
   "coverage": {
-    "bocm": "2009-12-01 a 2026-11-20",
-    "contratos": "2017-02-02 a 2026-11-21",
+    "bocm": "2009-12-01 a 2026-11-23",
+    "contratos": "2017-02-02 a 2026-11-23",
     "empleo": "2016-10-31 a 2026-10-16"
   },
   "sources": {
     "bocm": {
-      "checkedAt": "2026-11-23T00:09:18.769Z",
-      "ok": true,
-      "partial": true,
-      "message": "9 registros relevantes comprobados; 10 documento(s) omitido(s) temporalmente",
-      "recordsSeen": 9
-    },
-    "contratos": {
-      "checkedAt": "2026-11-23T00:09:18.769Z",
+      "checkedAt": "2026-11-23T19:10:09.110Z",
       "ok": true,
       "partial": false,
-      "message": "12 registros relevantes comprobados",
-      "recordsSeen": 12
+      "message": "11 registros relevantes comprobados",
+      "recordsSeen": 11
+    },
+    "contratos": {
+      "checkedAt": "2026-11-23T19:10:09.110Z",
+      "ok": true,
+      "partial": false,
+      "message": "7 registros relevantes comprobados",
+      "recordsSeen": 7
     },
     "empleo": {
-      "checkedAt": "2026-11-23T00:09:18.769Z",
+      "checkedAt": "2026-11-23T19:10:09.110Z",
       "ok": true,
       "partial": true,
       "message": "Cobertura mediante BOCM: 0 convocatoria(s) reciente(s) revisada(s); el portal directo protege el acceso automatizado",
@@ -30,6 +30,137 @@
     }
   },
   "items": [
+    {
+      "id": "contratos:obras-renovacion-integral-superestructura-via-linea-6-actuaciones-incluidas",
+      "source": "contratos",
+      "title": "Obras de renovación integral de la superestructura de vía en Línea 6. las actuaciones incluidas en este contrato podrán ser cofinanciadas al 40% con cargo al programa FEDER 2021-2027 de la Comunidad de Madrid dentro del objetivo político 2. una Europa más verde, hipocarbónica y en transición hacia una economía con cero emisiones netas de carbono, y resiliente, promoviendo una transición energética limpia y equitativa, la inversión verde y azul, la economía circular, la mitigación del cambio climático y la adaptación a él, la prevención y gestión de riesgos y la movilidad urbana sostenible y el objetivo específico RSO2.1. fomentar la eficiencia energética y la reducción de las emisiones de gases de efecto invernadero",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Resuelta / Finalizada",
+      "status": "Resuelta / Finalizada",
+      "expediente": "6012400271",
+      "publishedAt": "2026-11-23",
+      "updatedAt": "2026-11-23T14:56:07+02:00",
+      "deadline": "2024-08-08",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/obras-renovacion-integral-superestructura-via-linea-6-actuaciones-incluidas",
+      "firstSeenAt": "2026-08-05T08:03:18.389Z",
+      "summary": "Id licitación: 6012400271;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 128233025.11 EUR;",
+      "amount": 128233025.11,
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2024-07/6012400271_pcp_signed_0.pdf"
+    },
+    {
+      "id": "contratos:redaccion-plan-especial-proyecto-construccion-nueva-estacion-linea-10-metro-barrio",
+      "source": "contratos",
+      "title": "Redacción del plan especial y proyecto de construcción de nueva estación en la línea 10 de metro, barrio de Campamento (Madrid)",
+      "summary": "Id licitación: A/SER-004469/2025;Órgano de Contratación: Consejería de Vivienda, Transportes e Infraestructuras;Importe: 446996.60 EUR;",
+      "issuer": "Consejería de Vivienda, Transportes e Infraestructuras",
+      "publicationType": "Adjudicada",
+      "status": "Adjudicada",
+      "expediente": "A/SER-004469/2025",
+      "amount": 446996.6,
+      "deadline": "2026-01-21",
+      "publishedAt": "2026-11-23",
+      "updatedAt": "2026-11-23T14:04:17+02:00",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/redaccion-plan-especial-proyecto-construccion-nueva-estacion-linea-10-metro-barrio",
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2025-12/ser.4469.2025_ppt_03.09.2025_anonimizada.pdf",
+      "firstSeenAt": "2026-09-30T16:59:08.237Z"
+    },
+    {
+      "id": "contratos:suministro-e-instalacion-soluciones-comunicacion-satelital",
+      "source": "contratos",
+      "title": "Suministro e instalación de soluciones de comunicación satelital",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Pendiente de adjudicación",
+      "status": "Pendiente de adjudicación",
+      "expediente": "6012600132",
+      "publishedAt": "2026-11-23",
+      "updatedAt": "2026-11-23T11:56:29+02:00",
+      "deadline": "2026-06-16",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/suministro-e-instalacion-soluciones-comunicacion-satelital",
+      "firstSeenAt": "2026-08-05T08:03:18.389Z",
+      "summary": "Id licitación: 6012600132;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 1214041.24 EUR;",
+      "amount": 1214041.24,
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-05/6012600132_ppt_y_anexo_confidencial_signed.pdf"
+    },
+    {
+      "id": "contratos:suministro-medidores-perfil-rueda-ferroviaria-medidores-diametros-rueda",
+      "source": "contratos",
+      "title": "Suministro de medidores de perfil de rueda ferroviaria y medidores de diámetros de rueda ferroviaria para Metro de Madrid",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Pendiente de adjudicación",
+      "status": "Pendiente de adjudicación",
+      "expediente": "6012600239",
+      "publishedAt": "2026-11-23",
+      "updatedAt": "2026-11-23T11:04:03+02:00",
+      "deadline": "2026-09-23",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/suministro-medidores-perfil-rueda-ferroviaria-medidores-diametros-rueda",
+      "firstSeenAt": "2026-09-02T06:23:34.954Z",
+      "summary": "Id licitación: 6012600239;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 404000.00 EUR;",
+      "amount": 404000,
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-09/6012600239_ppt_signed.pdf"
+    },
+    {
+      "id": "contratos:suministro-valvulas-aspiracion-e-impulsion-compresores-aire-comprimido-material",
+      "source": "contratos",
+      "title": "Suministro de válvulas de aspiración e impulsión para los compresores de aire comprimido del material móvil de Metro de Madrid",
+      "summary": "Id licitación: 6012600229;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 140000.00 EUR;",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Pendiente de adjudicación",
+      "status": "Pendiente de adjudicación",
+      "expediente": "6012600229",
+      "amount": 140000,
+      "deadline": "2026-09-24",
+      "publishedAt": "2026-11-23",
+      "updatedAt": "2026-11-23T10:58:21+02:00",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/suministro-valvulas-aspiracion-e-impulsion-compresores-aire-comprimido-material",
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-08/6012600229_ppt_signed.pdf",
+      "firstSeenAt": "2026-08-21T05:08:16.465Z"
+    },
+    {
+      "id": "contratos:servicio-transporte-vehiculos-turismo-agentes-metro-madrid",
+      "source": "contratos",
+      "title": "Servicio de transporte en vehículos turismo para los agentes de Metro de Madrid",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Resuelta / Finalizada",
+      "status": "Resuelta / Finalizada",
+      "expediente": "6012400111",
+      "publishedAt": "2026-11-23",
+      "updatedAt": "2026-11-23T10:56:51+02:00",
+      "deadline": "2024-04-23",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-transporte-vehiculos-turismo-agentes-metro-madrid",
+      "firstSeenAt": "2026-08-05T08:03:18.389Z",
+      "summary": "Id licitación: 6012400111;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 1650000.00 EUR;",
+      "amount": 1650000,
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2024-03/6012400111_pliego_de_prescripciones_tecnicas_signed.pdf"
+    },
+    {
+      "id": "contratos:servicio-repuestos-equipos-fabricacion-indra",
+      "source": "contratos",
+      "title": "Servicio de repuestos de equipos de fabricación Indra",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Resuelta / Finalizada",
+      "status": "Resuelta / Finalizada",
+      "expediente": "6012300357",
+      "publishedAt": "2026-11-23",
+      "updatedAt": "2026-11-23T10:12:05+02:00",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-repuestos-equipos-fabricacion-indra",
+      "firstSeenAt": "2026-08-05T08:03:18.389Z",
+      "summary": "Id licitación: 6012300357;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 341863.64 EUR;",
+      "amount": 341863.64,
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2024-01/6012300357_pliego_de_prescripciones_tecnicas.pdf"
+    },
+    {
+      "id": "bocm:bocm-20261123-23",
+      "source": "bocm",
+      "title": "Formalización contrato– Resolución de 13 de noviembre de 2026, de la Secretaría General Técnica de la Consejería de Vivienda, Transportes e Infraestructuras, por la que se dispone la publicación en los boletines oficiales y en el “perfil del contratante” de la formalización del “Contrato de dirección de las obras, coordinación de seguridad y salud y asistencia técnica de las obras de ejecución de instalaciones, y de las obras de ejecución de la señalización, para la ampliación de la línea 11 de Metro de Madrid, tramo Plaza Elíptica-Conde de Casal",
+      "summary": "Formalización contrato– Resolución de 13 de noviembre de 2026, de la Secretaría General Técnica de la Consejería de Vivienda, Transportes e Infraestructuras, por la que se dispone la publicación en los boletines oficiales y en el “perfil del contratante” de la formalización del “Contrato de dirección de las obras, coordinación de seguridad y salud y asistencia técnica de las obras de ejecución de instalaciones, y de las obras de ejecución de la señalización, para la ampliación de la línea 11 de Metro de Madrid, tramo Plaza Elíptica-Conde de Casal",
+      "issuer": "CONSEJERÍA DE VIVIENDA, TRANSPORTES E INFRAESTRUCTURAS",
+      "publicationType": "Formalización contrato",
+      "publishedAt": "2026-11-23",
+      "url": "https://www.bocm.es/bocm-20261123-23",
+      "pdfUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/11/23/BOCM-20261123-23.PDF",
+      "xmlUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/11/23/BOCM-20261123-23.xml?language=es",
+      "firstSeenAt": "2026-11-23T19:10:09.110Z"
+    },
     {
       "id": "contratos:gestion-servicio-seis-puntos-servicio-biblioteca-metro-madrid-bibliometro-0",
       "source": "contratos",
@@ -132,23 +263,6 @@
       "firstSeenAt": "2026-10-30T13:58:26.871Z"
     },
     {
-      "id": "contratos:suministro-e-instalacion-soluciones-comunicacion-satelital",
-      "source": "contratos",
-      "title": "Suministro e instalación de soluciones de comunicación satelital",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Pendiente de adjudicación",
-      "status": "Pendiente de adjudicación",
-      "expediente": "6012600132",
-      "publishedAt": "2026-11-20",
-      "updatedAt": "2026-11-20T12:46:33+02:00",
-      "deadline": "2026-06-16",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/suministro-e-instalacion-soluciones-comunicacion-satelital",
-      "firstSeenAt": "2026-08-05T08:03:18.389Z",
-      "summary": "Id licitación: 6012600132;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 1214041.24 EUR;",
-      "amount": 1214041.24,
-      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-05/6012600132_ppt_y_anexo_confidencial_signed.pdf"
-    },
-    {
       "id": "contratos:obras-instalacion-sistema-telecontrol-energia-nuevos-enclavamientos-linea-7a-0",
       "source": "contratos",
       "title": "Obras de instalación del sistema de telecontrol de la energía de los nuevos enclavamientos de línea 7A de Metro de Madrid",
@@ -214,23 +328,6 @@
       "summary": "Id licitación: 6012600119;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 984000.00 EUR;",
       "amount": 984000,
       "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-04/6012600119_ppt_y_anexos_ppt_confidencialidad_signed.pdf"
-    },
-    {
-      "id": "contratos:obras-renovacion-integral-superestructura-via-linea-6-actuaciones-incluidas",
-      "source": "contratos",
-      "title": "Obras de renovación integral de la superestructura de vía en Línea 6. las actuaciones incluidas en este contrato podrán ser cofinanciadas al 40% con cargo al programa FEDER 2021-2027 de la Comunidad de Madrid dentro del objetivo político 2. una Europa más verde, hipocarbónica y en transición hacia una economía con cero emisiones netas de carbono, y resiliente, promoviendo una transición energética limpia y equitativa, la inversión verde y azul, la economía circular, la mitigación del cambio climático y la adaptación a él, la prevención y gestión de riesgos y la movilidad urbana sostenible y el objetivo específico RSO2.1. fomentar la eficiencia energética y la reducción de las emisiones de gases de efecto invernadero",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Resuelta / Finalizada",
-      "status": "Resuelta / Finalizada",
-      "expediente": "6012400271",
-      "publishedAt": "2026-11-20",
-      "updatedAt": "2026-11-20T11:00:45+02:00",
-      "deadline": "2024-08-08",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/obras-renovacion-integral-superestructura-via-linea-6-actuaciones-incluidas",
-      "firstSeenAt": "2026-08-05T08:03:18.389Z",
-      "summary": "Id licitación: 6012400271;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 128233025.11 EUR;",
-      "amount": 128233025.11,
-      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2024-07/6012400271_pcp_signed_0.pdf"
     },
     {
       "id": "bocm:bocm-20261120-21",
@@ -1068,23 +1165,6 @@
       "firstSeenAt": "2026-10-09T06:38:52.473Z"
     },
     {
-      "id": "contratos:suministro-valvulas-aspiracion-e-impulsion-compresores-aire-comprimido-material",
-      "source": "contratos",
-      "title": "Suministro de válvulas de aspiración e impulsión para los compresores de aire comprimido del material móvil de Metro de Madrid",
-      "summary": "Id licitación: 6012600229;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 140000.00 EUR;",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Pendiente de adjudicación",
-      "status": "Pendiente de adjudicación",
-      "expediente": "6012600229",
-      "amount": 140000,
-      "deadline": "2026-09-24",
-      "publishedAt": "2026-11-11",
-      "updatedAt": "2026-11-11T13:26:34+02:00",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/suministro-valvulas-aspiracion-e-impulsion-compresores-aire-comprimido-material",
-      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-08/6012600229_ppt_signed.pdf",
-      "firstSeenAt": "2026-08-21T05:08:16.465Z"
-    },
-    {
       "id": "contratos:servicio-soporte-mantenimiento-entorno-almacenamiento-backup-dell-emc",
       "source": "contratos",
       "title": "Servicio de soporte y mantenimiento del entorno de almacenamiento y backup DELL EMC",
@@ -1320,23 +1400,6 @@
       "tags": [
         "I. COMUNIDAD DE MADRID · D) Anuncios"
       ]
-    },
-    {
-      "id": "contratos:redaccion-plan-especial-proyecto-construccion-nueva-estacion-linea-10-metro-barrio",
-      "source": "contratos",
-      "title": "Redacción del plan especial y proyecto de construcción de nueva estación en la línea 10 de metro, barrio de Campamento (Madrid)",
-      "summary": "Id licitación: A/SER-004469/2025;Órgano de Contratación: Consejería de Vivienda, Transportes e Infraestructuras;Importe: 446996.60 EUR;",
-      "issuer": "Consejería de Vivienda, Transportes e Infraestructuras",
-      "publicationType": "Pendiente de adjudicación",
-      "status": "Pendiente de adjudicación",
-      "expediente": "A/SER-004469/2025",
-      "amount": 446996.6,
-      "deadline": "2026-01-21",
-      "publishedAt": "2026-11-06",
-      "updatedAt": "2026-11-06T13:17:02+02:00",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/redaccion-plan-especial-proyecto-construccion-nueva-estacion-linea-10-metro-barrio",
-      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2025-12/ser.4469.2025_ppt_03.09.2025_anonimizada.pdf",
-      "firstSeenAt": "2026-09-30T16:59:08.237Z"
     },
     {
       "id": "contratos:servicio-inspecciones-periodicas-reglamentarias-ascensores-metro-madrid",
@@ -1841,39 +1904,6 @@
       "summary": "Id licitación: 6012400445;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 23322248.57 EUR;",
       "amount": 23322248.57,
       "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2024-12/6012400445_ppt_signed.pdf"
-    },
-    {
-      "id": "contratos:servicio-repuestos-equipos-fabricacion-indra",
-      "source": "contratos",
-      "title": "Servicio de repuestos de equipos de fabricación Indra",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Resuelta / Finalizada",
-      "status": "Resuelta / Finalizada",
-      "expediente": "6012300357",
-      "publishedAt": "2026-10-27",
-      "updatedAt": "2026-10-27T13:57:52+02:00",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-repuestos-equipos-fabricacion-indra",
-      "firstSeenAt": "2026-08-05T08:03:18.389Z",
-      "summary": "Id licitación: 6012300357;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 341863.64 EUR;",
-      "amount": 341863.64,
-      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2024-01/6012300357_pliego_de_prescripciones_tecnicas.pdf"
-    },
-    {
-      "id": "contratos:servicio-transporte-vehiculos-turismo-agentes-metro-madrid",
-      "source": "contratos",
-      "title": "Servicio de transporte en vehículos turismo para los agentes de Metro de Madrid",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Resuelta / Finalizada",
-      "status": "Resuelta / Finalizada",
-      "expediente": "6012400111",
-      "publishedAt": "2026-10-27",
-      "updatedAt": "2026-10-27T13:10:24+02:00",
-      "deadline": "2024-04-23",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-transporte-vehiculos-turismo-agentes-metro-madrid",
-      "firstSeenAt": "2026-08-05T08:03:18.389Z",
-      "summary": "Id licitación: 6012400111;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 1650000.00 EUR;",
-      "amount": 1650000,
-      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2024-03/6012400111_pliego_de_prescripciones_tecnicas_signed.pdf"
     },
     {
       "id": "contratos:acuerdo-marco-servicios-topograficos-servicio-superestructura-via-metro-madrid-0",
@@ -4117,20 +4147,6 @@
       "summary": "Id licitación: 6012600192;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 440350.00 EUR;",
       "amount": 440350,
       "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-07/6012600192_pliego_de_prescripciones_tecnicas_signed.pdf"
-    },
-    {
-      "id": "contratos:suministro-medidores-perfil-rueda-ferroviaria-medidores-diametros-rueda",
-      "source": "contratos",
-      "title": "Suministro de medidores de perfil de rueda ferroviaria y medidores de diámetros de rueda ferroviaria para Metro de Madrid",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Convocatoria anunciada a licitación",
-      "status": "Pendiente de adjudicación",
-      "expediente": "6012600239",
-      "publishedAt": "2026-09-24",
-      "updatedAt": "2026-09-24T00:20:00+02:00",
-      "deadline": "2026-09-23",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/suministro-medidores-perfil-rueda-ferroviaria-medidores-diametros-rueda",
-      "firstSeenAt": "2026-09-02T06:23:34.954Z"
     },
     {
       "id": "bocm:bocm-20260924-9",
