@@ -1,28 +1,28 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-24T18:48:52.405Z",
+  "generatedAt": "2026-11-25T02:59:25.433Z",
   "coverage": {
     "bocm": "2009-12-01 a 2026-11-24",
-    "contratos": "2017-02-02 a 2026-11-24",
+    "contratos": "2017-02-02 a 2026-11-25",
     "empleo": "2016-10-31 a 2026-10-16"
   },
   "sources": {
     "bocm": {
-      "checkedAt": "2026-11-24T18:48:52.405Z",
+      "checkedAt": "2026-11-25T02:59:25.433Z",
       "ok": true,
       "partial": true,
-      "message": "11 registros relevantes comprobados; 11 documento(s) omitido(s) temporalmente",
-      "recordsSeen": 11
+      "message": "13 registros relevantes comprobados; 14 documento(s) omitido(s) temporalmente",
+      "recordsSeen": 13
     },
     "contratos": {
-      "checkedAt": "2026-11-24T18:48:52.405Z",
+      "checkedAt": "2026-11-25T02:59:25.433Z",
       "ok": true,
       "partial": false,
-      "message": "14 registros relevantes comprobados",
-      "recordsSeen": 14
+      "message": "19 registros relevantes comprobados",
+      "recordsSeen": 19
     },
     "empleo": {
-      "checkedAt": "2026-11-24T18:48:52.405Z",
+      "checkedAt": "2026-11-25T02:59:25.433Z",
       "ok": true,
       "partial": true,
       "message": "Cobertura mediante BOCM: 0 convocatoria(s) reciente(s) revisada(s); el portal directo protege el acceso automatizado",
@@ -30,6 +30,91 @@
     }
   },
   "items": [
+    {
+      "id": "contratos:servicio-mantenimiento-soporte-tienda-shopify-metro-madrid",
+      "source": "contratos",
+      "title": "Servicio de mantenimiento y soporte para la tienda “Shopify” de Metro de Madrid",
+      "summary": "Id licitación: 6012600289;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 192000.00 EUR;",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Pendiente de adjudicación",
+      "status": "Pendiente de adjudicación",
+      "expediente": "6012600289",
+      "amount": 192000,
+      "deadline": "2026-11-24",
+      "publishedAt": "2026-11-25",
+      "updatedAt": "2026-11-25T00:11:56+02:00",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-mantenimiento-soporte-tienda-shopify-metro-madrid",
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-11/6012600289_ppt_signed.pdf",
+      "firstSeenAt": "2026-11-05T15:21:37.895Z"
+    },
+    {
+      "id": "contratos:servicio-modernizacion-actualizacion-mesa-baja-bogies-cuatro-vientos",
+      "source": "contratos",
+      "title": "Servicio de modernización y actualización de la mesa baja-bogíes de Cuatro Vientos",
+      "summary": "Id licitación: 6012600275;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 130000.00 EUR;",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Pendiente de adjudicación",
+      "status": "Pendiente de adjudicación",
+      "expediente": "6012600275",
+      "amount": 130000,
+      "deadline": "2026-11-24",
+      "publishedAt": "2026-11-25",
+      "updatedAt": "2026-11-25T00:11:56+02:00",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-modernizacion-actualizacion-mesa-baja-bogies-cuatro-vientos",
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-10/6012600275_ppt_signed.pdf",
+      "firstSeenAt": "2026-11-17T16:49:41.835Z"
+    },
+    {
+      "id": "contratos:servicio-soporte-actividades-auxiliares-tecnicas-area-mantenimiento-instalaciones",
+      "source": "contratos",
+      "title": "Servicio de soporte a actividades auxiliares técnicas del Área de Mantenimiento de Instalaciones",
+      "summary": "Id licitación: 6012600272;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 1666941.10 EUR;",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Pendiente de adjudicación",
+      "status": "Pendiente de adjudicación",
+      "expediente": "6012600272",
+      "amount": 1666941.1,
+      "deadline": "2026-11-24",
+      "publishedAt": "2026-11-25",
+      "updatedAt": "2026-11-25T00:11:56+02:00",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-soporte-actividades-auxiliares-tecnicas-area-mantenimiento-instalaciones",
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-10/6012600272_ppt_signed.pdf",
+      "firstSeenAt": "2026-10-22T12:55:01.944Z"
+    },
+    {
+      "id": "contratos:servicio-transporte-autobus-personal-metro-madrid-4",
+      "source": "contratos",
+      "title": "Servicio de transporte en autobús del personal de Metro de Madrid",
+      "summary": "Id licitación: 6012600279;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 6318942.57 EUR;",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Pendiente de adjudicación",
+      "status": "Pendiente de adjudicación",
+      "expediente": "6012600279",
+      "amount": 6318942.57,
+      "deadline": "2026-11-24",
+      "publishedAt": "2026-11-25",
+      "updatedAt": "2026-11-25T00:11:56+02:00",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-transporte-autobus-personal-metro-madrid-4",
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-10/6012600279_ppt_signed.pdf",
+      "firstSeenAt": "2026-11-13T15:17:25.449Z"
+    },
+    {
+      "id": "contratos:servicio-soporte-tecnico-mantenimiento-infraestructura-hewlett-packard-0",
+      "source": "contratos",
+      "title": "Servicio de soporte técnico para el mantenimiento de la infraestructura Hewlett Packard Enterprise",
+      "summary": "Id licitación: 6012600278;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 6668000.00 EUR;",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Pendiente de adjudicación",
+      "status": "Pendiente de adjudicación",
+      "expediente": "6012600278",
+      "amount": 6668000,
+      "deadline": "2026-11-24",
+      "publishedAt": "2026-11-25",
+      "updatedAt": "2026-11-25T00:11:56+02:00",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-soporte-tecnico-mantenimiento-infraestructura-hewlett-packard-0",
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-10/6012600278_referencia_al_ppt_y_anexos_signed.pdf",
+      "firstSeenAt": "2026-10-27T13:07:48.928Z"
+    },
     {
       "id": "contratos:asum-0417202026-nuevo-puesto-mando-citram-primera-planta-edificio-metro-madrid",
       "source": "contratos",
@@ -838,23 +923,6 @@
       "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-09/6012600241_ppt_signed.pdf"
     },
     {
-      "id": "contratos:servicio-mantenimiento-soporte-tienda-shopify-metro-madrid",
-      "source": "contratos",
-      "title": "Servicio de mantenimiento y soporte para la tienda “Shopify” de Metro de Madrid",
-      "summary": "Id licitación: 6012600289;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 192000.00 EUR;",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "En plazo",
-      "status": "En plazo",
-      "expediente": "6012600289",
-      "amount": 192000,
-      "deadline": "2026-11-24",
-      "publishedAt": "2026-11-18",
-      "updatedAt": "2026-11-18T12:11:25+02:00",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-mantenimiento-soporte-tienda-shopify-metro-madrid",
-      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-11/6012600289_ppt_signed.pdf",
-      "firstSeenAt": "2026-11-05T15:21:37.895Z"
-    },
-    {
       "id": "contratos:servicio-reparacion-equipos-sistema-control-estaciones-fabricante-schneider-2",
       "source": "contratos",
       "title": "Servicio de reparación de equipos del sistema de control de estaciones del fabricante Schneider",
@@ -934,23 +1002,6 @@
       "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-soporte-tecnico-mantenimiento-infraestructura-tecnologica-centro-2",
       "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-10/6012600255_referencia_al_ppt_y_anexo_requisitos_ciberseguridad_signed.pdf",
       "firstSeenAt": "2026-10-06T09:23:04.400Z"
-    },
-    {
-      "id": "contratos:servicio-modernizacion-actualizacion-mesa-baja-bogies-cuatro-vientos",
-      "source": "contratos",
-      "title": "Servicio de modernización y actualización de la mesa baja-bogíes de Cuatro Vientos",
-      "summary": "Id licitación: 6012600275;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 130000.00 EUR;",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "En plazo",
-      "status": "En plazo",
-      "expediente": "6012600275",
-      "amount": 130000,
-      "deadline": "2026-11-24",
-      "publishedAt": "2026-11-17",
-      "updatedAt": "2026-11-17T10:46:37+02:00",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-modernizacion-actualizacion-mesa-baja-bogies-cuatro-vientos",
-      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-10/6012600275_ppt_signed.pdf",
-      "firstSeenAt": "2026-11-17T16:49:41.835Z"
     },
     {
       "id": "contratos:suministro-varios-repuestos-conexion-electrica-mantenimiento-material-movil-metro",
@@ -1171,23 +1222,6 @@
       "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-05/6012600141_pliego_de_prescripciones_tecnicas_signed.pdf"
     },
     {
-      "id": "contratos:servicio-soporte-actividades-auxiliares-tecnicas-area-mantenimiento-instalaciones",
-      "source": "contratos",
-      "title": "Servicio de soporte a actividades auxiliares técnicas del Área de Mantenimiento de Instalaciones",
-      "summary": "Id licitación: 6012600272;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 1666941.10 EUR;",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "En plazo",
-      "status": "En plazo",
-      "expediente": "6012600272",
-      "amount": 1666941.1,
-      "deadline": "2026-11-24",
-      "publishedAt": "2026-11-13",
-      "updatedAt": "2026-11-13T12:00:45+02:00",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-soporte-actividades-auxiliares-tecnicas-area-mantenimiento-instalaciones",
-      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-10/6012600272_ppt_signed.pdf",
-      "firstSeenAt": "2026-10-22T12:55:01.944Z"
-    },
-    {
       "id": "contratos:servicio-desmantelamiento-cuatro-pasarelas-mantenimiento-talleres-centrales-metro",
       "source": "contratos",
       "title": "Servicio de desmantelamiento de las cuatro pasarelas de mantenimiento en los Talleres Centrales de Metro de Madrid",
@@ -1220,23 +1254,6 @@
       "summary": "Id licitación: 6012600244;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 133078.00 EUR;",
       "amount": 133078,
       "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-09/6012600244_ppt_signed.pdf"
-    },
-    {
-      "id": "contratos:servicio-transporte-autobus-personal-metro-madrid-4",
-      "source": "contratos",
-      "title": "Servicio de transporte en autobús del personal de Metro de Madrid",
-      "summary": "Id licitación: 6012600279;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 6318942.57 EUR;",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "En plazo",
-      "status": "En plazo",
-      "expediente": "6012600279",
-      "amount": 6318942.57,
-      "deadline": "2026-11-24",
-      "publishedAt": "2026-11-13",
-      "updatedAt": "2026-11-13T11:14:26+02:00",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-transporte-autobus-personal-metro-madrid-4",
-      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-10/6012600279_ppt_signed.pdf",
-      "firstSeenAt": "2026-11-13T15:17:25.449Z"
     },
     {
       "id": "contratos:suministro-lamparas-multiuso-linternas-casco-led",
@@ -1924,23 +1941,6 @@
       "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-mantenimiento-escaneres-rx-arco-detector-metales-cpd-global",
       "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-10/6012600201_ppt.pdf",
       "firstSeenAt": "2026-10-09T06:38:52.473Z"
-    },
-    {
-      "id": "contratos:servicio-soporte-tecnico-mantenimiento-infraestructura-hewlett-packard-0",
-      "source": "contratos",
-      "title": "Servicio de soporte técnico para el mantenimiento de la infraestructura Hewlett Packard Enterprise",
-      "summary": "Id licitación: 6012600278;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 6668000.00 EUR;",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "En plazo",
-      "status": "En plazo",
-      "expediente": "6012600278",
-      "amount": 6668000,
-      "deadline": "2026-11-24",
-      "publishedAt": "2026-10-28",
-      "updatedAt": "2026-10-28T10:45:45+02:00",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-soporte-tecnico-mantenimiento-infraestructura-hewlett-packard-0",
-      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-10/6012600278_referencia_al_ppt_y_anexos_signed.pdf",
-      "firstSeenAt": "2026-10-27T13:07:48.928Z"
     },
     {
       "id": "contratos:obras-implantacion-escaleras-mecanicas-estaciones-prosperidad-linea-4-estrella",
