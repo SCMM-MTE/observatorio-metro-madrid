@@ -1,28 +1,28 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-25T02:59:25.433Z",
+  "generatedAt": "2026-11-25T17:54:51.867Z",
   "coverage": {
-    "bocm": "2009-12-01 a 2026-11-24",
+    "bocm": "2009-12-01 a 2026-11-25",
     "contratos": "2017-02-02 a 2026-11-25",
     "empleo": "2016-10-31 a 2026-10-16"
   },
   "sources": {
     "bocm": {
-      "checkedAt": "2026-11-25T02:59:25.433Z",
+      "checkedAt": "2026-11-25T17:54:51.867Z",
       "ok": true,
       "partial": true,
-      "message": "13 registros relevantes comprobados; 14 documento(s) omitido(s) temporalmente",
+      "message": "13 registros relevantes comprobados; 6 documento(s) omitido(s) temporalmente",
       "recordsSeen": 13
     },
     "contratos": {
-      "checkedAt": "2026-11-25T02:59:25.433Z",
+      "checkedAt": "2026-11-25T17:54:51.867Z",
       "ok": true,
       "partial": false,
-      "message": "19 registros relevantes comprobados",
-      "recordsSeen": 19
+      "message": "4 registros relevantes comprobados",
+      "recordsSeen": 4
     },
     "empleo": {
-      "checkedAt": "2026-11-25T02:59:25.433Z",
+      "checkedAt": "2026-11-25T17:54:51.867Z",
       "ok": true,
       "partial": true,
       "message": "Cobertura mediante BOCM: 0 convocatoria(s) reciente(s) revisada(s); el portal directo protege el acceso automatizado",
@@ -30,6 +30,74 @@
     }
   },
   "items": [
+    {
+      "id": "contratos:suministro-medidores-perfil-rueda-ferroviaria-medidores-diametros-rueda",
+      "source": "contratos",
+      "title": "Suministro de medidores de perfil de rueda ferroviaria y medidores de diámetros de rueda ferroviaria para Metro de Madrid",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Pendiente de adjudicación",
+      "status": "Pendiente de adjudicación",
+      "expediente": "6012600239",
+      "publishedAt": "2026-11-25",
+      "updatedAt": "2026-11-25T11:04:47+02:00",
+      "deadline": "2026-09-23",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/suministro-medidores-perfil-rueda-ferroviaria-medidores-diametros-rueda",
+      "firstSeenAt": "2026-09-02T06:23:34.954Z",
+      "summary": "Id licitación: 6012600239;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 404000.00 EUR;",
+      "amount": 404000,
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-09/6012600239_ppt_signed.pdf"
+    },
+    {
+      "id": "contratos:obras-reparacion-trazado-cables-alta-tension-1",
+      "source": "contratos",
+      "title": "Obras de reparación y trazado de cables de alta tensión",
+      "summary": "Id licitación: 6012600301;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 379200.00 EUR;",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "En plazo",
+      "status": "En plazo",
+      "expediente": "6012600301",
+      "amount": 379200,
+      "deadline": "2026-12-16",
+      "publishedAt": "2026-11-25",
+      "updatedAt": "2026-11-25T09:57:24+02:00",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/obras-reparacion-trazado-cables-alta-tension-1",
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-11/6012600301_pliego_de_prescripciones_tecnicas_signed.pdf",
+      "firstSeenAt": "2026-11-25T17:54:51.867Z"
+    },
+    {
+      "id": "contratos:servicio-mantenimiento-integral-maquinas-automaticas-venta-titulos-transporte-0",
+      "source": "contratos",
+      "title": "Servicio de mantenimiento integral de máquinas automáticas de venta de títulos de transporte",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Resuelta / Finalizada",
+      "status": "Resuelta / Finalizada",
+      "expediente": "6012600120",
+      "publishedAt": "2026-11-25",
+      "updatedAt": "2026-11-25T09:53:11+02:00",
+      "deadline": "2026-06-03",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-mantenimiento-integral-maquinas-automaticas-venta-titulos-transporte-0",
+      "firstSeenAt": "2026-08-05T08:03:18.389Z",
+      "summary": "Id licitación: 6012600120;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 8783586.54 EUR;",
+      "amount": 8783586.54,
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-04/6012600120_ppt_signed.pdf"
+    },
+    {
+      "id": "contratos:gestion-servicio-seis-puntos-servicio-biblioteca-metro-madrid-bibliometro-0",
+      "source": "contratos",
+      "title": "Gestión del servicio de seis puntos de servicio de biblioteca en el Metro de Madrid (Bibliometro)",
+      "summary": "Id licitación: C-332B/007-26 (A/SER-015143/2026);Órgano de Contratación: Consejería de Cultura, Turismo y Deporte;Importe: 1960254.69 EUR;",
+      "issuer": "Consejería de Cultura, Turismo y Deporte",
+      "publicationType": "Pendiente de adjudicación",
+      "status": "Pendiente de adjudicación",
+      "expediente": "C-332B/007-26 (A/SER-015143/2026)",
+      "amount": 1960254.69,
+      "deadline": "2026-11-20",
+      "publishedAt": "2026-11-25",
+      "updatedAt": "2026-11-25T09:51:18+02:00",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/gestion-servicio-seis-puntos-servicio-biblioteca-metro-madrid-bibliometro-0",
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-10/008_ppt_bibliometro_6_modulos.pdf",
+      "firstSeenAt": "2026-10-29T14:06:35.948Z"
+    },
     {
       "id": "contratos:servicio-mantenimiento-soporte-tienda-shopify-metro-madrid",
       "source": "contratos",
@@ -114,6 +182,19 @@
       "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-soporte-tecnico-mantenimiento-infraestructura-hewlett-packard-0",
       "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-10/6012600278_referencia_al_ppt_y_anexos_signed.pdf",
       "firstSeenAt": "2026-10-27T13:07:48.928Z"
+    },
+    {
+      "id": "bocm:bocm-20261125-25",
+      "source": "bocm",
+      "title": "Adjudicación contrato– Anuncio de 20 de noviembre de 2026, de adjudicación del contrato titulado “Suministro de repuestos de inmovilizado del fabricante Knorr-Bremse para el mantenimiento de los trenes del material móvil de Metro de Madrid” (Expediente 6012600150)",
+      "summary": "Adjudicación contrato– Anuncio de 20 de noviembre de 2026, de adjudicación del contrato titulado “Suministro de repuestos de inmovilizado del fabricante Knorr-Bremse para el mantenimiento de los trenes del material móvil de Metro de Madrid” (Expediente 6012600150)",
+      "issuer": "CONSEJERÍA DE VIVIENDA, TRANSPORTES E INFRAESTRUCTURAS · METRO DE MADRID, S. A.",
+      "publicationType": "Adjudicación contrato",
+      "publishedAt": "2026-11-25",
+      "url": "https://www.bocm.es/bocm-20261125-25",
+      "pdfUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/11/25/BOCM-20261125-25.PDF",
+      "xmlUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/11/25/BOCM-20261125-25.xml?language=es",
+      "firstSeenAt": "2026-11-25T17:54:51.867Z"
     },
     {
       "id": "contratos:asum-0417202026-nuevo-puesto-mando-citram-primera-planta-edificio-metro-madrid",
@@ -442,23 +523,6 @@
       "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-05/6012600132_ppt_y_anexo_confidencial_signed.pdf"
     },
     {
-      "id": "contratos:suministro-medidores-perfil-rueda-ferroviaria-medidores-diametros-rueda",
-      "source": "contratos",
-      "title": "Suministro de medidores de perfil de rueda ferroviaria y medidores de diámetros de rueda ferroviaria para Metro de Madrid",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Pendiente de adjudicación",
-      "status": "Pendiente de adjudicación",
-      "expediente": "6012600239",
-      "publishedAt": "2026-11-23",
-      "updatedAt": "2026-11-23T11:04:03+02:00",
-      "deadline": "2026-09-23",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/suministro-medidores-perfil-rueda-ferroviaria-medidores-diametros-rueda",
-      "firstSeenAt": "2026-09-02T06:23:34.954Z",
-      "summary": "Id licitación: 6012600239;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 404000.00 EUR;",
-      "amount": 404000,
-      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-09/6012600239_ppt_signed.pdf"
-    },
-    {
       "id": "contratos:suministro-valvulas-aspiracion-e-impulsion-compresores-aire-comprimido-material",
       "source": "contratos",
       "title": "Suministro de válvulas de aspiración e impulsión para los compresores de aire comprimido del material móvil de Metro de Madrid",
@@ -520,23 +584,6 @@
       "pdfUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/11/23/BOCM-20261123-23.PDF",
       "xmlUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/11/23/BOCM-20261123-23.xml?language=es",
       "firstSeenAt": "2026-11-23T19:10:09.110Z"
-    },
-    {
-      "id": "contratos:gestion-servicio-seis-puntos-servicio-biblioteca-metro-madrid-bibliometro-0",
-      "source": "contratos",
-      "title": "Gestión del servicio de seis puntos de servicio de biblioteca en el Metro de Madrid (Bibliometro)",
-      "summary": "Id licitación: C-332B/007-26 (A/SER-015143/2026);Órgano de Contratación: Consejería de Cultura, Turismo y Deporte;Importe: 1960254.69 EUR;",
-      "issuer": "Consejería de Cultura, Turismo y Deporte",
-      "publicationType": "Pendiente de adjudicación",
-      "status": "Pendiente de adjudicación",
-      "expediente": "C-332B/007-26 (A/SER-015143/2026)",
-      "amount": 1960254.69,
-      "deadline": "2026-11-20",
-      "publishedAt": "2026-11-21",
-      "updatedAt": "2026-11-21T00:12:40+02:00",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/gestion-servicio-seis-puntos-servicio-biblioteca-metro-madrid-bibliometro-0",
-      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-10/008_ppt_bibliometro_6_modulos.pdf",
-      "firstSeenAt": "2026-10-29T14:06:35.948Z"
     },
     {
       "id": "contratos:servicio-asistencia-tecnica-analisis-adecuacion-puesta-conformidad-equipamiento",
@@ -887,23 +934,6 @@
       "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/suministro-bobinas-celulosa-empleadas-distintas-dependencias-metro-madrid-1",
       "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-10/6012600282_pliego_de_prescripciones_tecnicas_signed.pdf",
       "firstSeenAt": "2026-10-26T14:06:46.719Z"
-    },
-    {
-      "id": "contratos:servicio-mantenimiento-integral-maquinas-automaticas-venta-titulos-transporte-0",
-      "source": "contratos",
-      "title": "Servicio de mantenimiento integral de máquinas automáticas de venta de títulos de transporte",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "Resuelta / Finalizada",
-      "status": "Resuelta / Finalizada",
-      "expediente": "6012600120",
-      "publishedAt": "2026-11-18",
-      "updatedAt": "2026-11-18T12:14:43+02:00",
-      "deadline": "2026-06-03",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-mantenimiento-integral-maquinas-automaticas-venta-titulos-transporte-0",
-      "firstSeenAt": "2026-08-05T08:03:18.389Z",
-      "summary": "Id licitación: 6012600120;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 8783586.54 EUR;",
-      "amount": 8783586.54,
-      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-04/6012600120_ppt_signed.pdf"
     },
     {
       "id": "contratos:acuerdo-marco-suministro-suscripcion-mantenimiento-licencias-aplicaciones-1",
@@ -1595,14 +1625,14 @@
     {
       "id": "bocm:bocm-20261109-13",
       "source": "bocm",
-      "title": "Convocatoria contrato– Resolución de 27 de octubre de 2026, de la Secretaría General Técnica de la Consejería de Cultura, Turismo y Deporte, por la que se dispone la publicación de la licitación en los boletines oficiales y en el “perfil del contratante”, en Internet, de la adjudicación del contrato titulado “Gestión del servicio de seis puntos de servicio de biblioteca en el Metro de Madrid (Bibliometro)”",
-      "summary": "Convocatoria contrato– Resolución de 27 de octubre de 2026, de la Secretaría General Técnica de la Consejería de Cultura, Turismo y Deporte, por la que se dispone la publicación de la licitación en los boletines oficiales y en el “perfil del contratante”, en Internet, de la adjudicación del contrato titulado “Gestión del servicio de seis puntos de servicio de biblioteca en el Metro de Madrid (Bibliometro)”",
+      "title": "Convocatoria contrato – Resolución de 27 de octubre de 2026, de la Secretaría General Técnica de la Consejería de Cultura, Turismo y Deporte, por la que se dispone la publicación de la licitación en los boletines oficiales y en el “perfil del contratante”, en Internet, de la adjudicación del contrato titulado “Gestión del servicio de seis puntos de servicio de biblioteca en el Metro de Madrid (Bibliometro)”",
+      "summary": "Convocatoria contrato – Resolución de 27 de octubre de 2026, de la Secretaría General Técnica de la Consejería de Cultura, Turismo y Deporte, por la que se dispone la publicación de la licitación en los boletines oficiales y en el “perfil del contratante”, en Internet, de la adjudicación del contrato titulado “Gestión del servicio de seis puntos de servicio de biblioteca en el Metro de Madrid (Bibliometro)”",
       "issuer": "CONSEJERÍA DE CULTURA, TURISMO Y DEPORTE",
-      "publicationType": "Convocatoria contrato",
+      "publicationType": "RESOLUCIÓN",
       "publishedAt": "2026-11-09",
       "url": "https://www.bocm.es/bocm-20261109-13",
       "pdfUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/11/09/BOCM-20261109-13.PDF",
-      "xmlUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/11/09/BOCM-20261109-13.xml?language=es",
+      "xmlUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/11/09/BOCM-20261109-13.xml",
       "firstSeenAt": "2026-11-09T17:23:14.045Z",
       "tags": [
         "I. COMUNIDAD DE MADRID · D) Anuncios"
