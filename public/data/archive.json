@@ -1,28 +1,28 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-25T17:54:51.867Z",
+  "generatedAt": "2026-11-26T02:07:50.143Z",
   "coverage": {
     "bocm": "2009-12-01 a 2026-11-25",
-    "contratos": "2017-02-02 a 2026-11-25",
+    "contratos": "2017-02-02 a 2026-11-26",
     "empleo": "2016-10-31 a 2026-10-16"
   },
   "sources": {
     "bocm": {
-      "checkedAt": "2026-11-25T17:54:51.867Z",
+      "checkedAt": "2026-11-26T02:07:50.143Z",
       "ok": true,
       "partial": true,
-      "message": "13 registros relevantes comprobados; 6 documento(s) omitido(s) temporalmente",
-      "recordsSeen": 13
+      "message": "3 registros relevantes comprobados; 16 documento(s) omitido(s) temporalmente",
+      "recordsSeen": 3
     },
     "contratos": {
-      "checkedAt": "2026-11-25T17:54:51.867Z",
+      "checkedAt": "2026-11-26T02:07:50.143Z",
       "ok": true,
       "partial": false,
-      "message": "4 registros relevantes comprobados",
-      "recordsSeen": 4
+      "message": "2 registros relevantes comprobados",
+      "recordsSeen": 2
     },
     "empleo": {
-      "checkedAt": "2026-11-25T17:54:51.867Z",
+      "checkedAt": "2026-11-26T02:07:50.143Z",
       "ok": true,
       "partial": true,
       "message": "Cobertura mediante BOCM: 0 convocatoria(s) reciente(s) revisada(s); el portal directo protege el acceso automatizado",
@@ -30,6 +30,23 @@
     }
   },
   "items": [
+    {
+      "id": "contratos:suministro-material-electrico-mejora-interruptores-cabeceras-cuadros-generales",
+      "source": "contratos",
+      "title": "Suministro de material eléctrico para mejora de interruptores de cabeceras de cuadros generales de baja tensión en L6",
+      "summary": "Id licitación: 6012600291;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 89070.28 EUR;",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Pendiente de adjudicación",
+      "status": "Pendiente de adjudicación",
+      "expediente": "6012600291",
+      "amount": 89070.28,
+      "deadline": "2026-11-25",
+      "publishedAt": "2026-11-26",
+      "updatedAt": "2026-11-26T00:09:22+02:00",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/suministro-material-electrico-mejora-interruptores-cabeceras-cuadros-generales",
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-10/6012600291_ppt_signed.pdf",
+      "firstSeenAt": "2026-11-26T02:07:50.143Z"
+    },
     {
       "id": "contratos:suministro-medidores-perfil-rueda-ferroviaria-medidores-diametros-rueda",
       "source": "contratos",
