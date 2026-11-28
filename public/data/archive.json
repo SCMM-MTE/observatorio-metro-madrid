@@ -1,28 +1,28 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-27T17:23:51.233Z",
+  "generatedAt": "2026-11-28T01:51:56.565Z",
   "coverage": {
     "bocm": "2009-12-01 a 2026-11-27",
-    "contratos": "2017-02-02 a 2026-11-27",
+    "contratos": "2017-02-02 a 2026-11-28",
     "empleo": "2016-10-31 a 2026-10-16"
   },
   "sources": {
     "bocm": {
-      "checkedAt": "2026-11-27T17:23:51.233Z",
+      "checkedAt": "2026-11-28T01:51:56.565Z",
       "ok": true,
-      "partial": false,
-      "message": "18 registros relevantes comprobados",
-      "recordsSeen": 18
+      "partial": true,
+      "message": "Consulta parcial sin registros; 20 documento(s) omitido(s) temporalmente",
+      "recordsSeen": 0
     },
     "contratos": {
-      "checkedAt": "2026-11-27T17:23:51.233Z",
+      "checkedAt": "2026-11-28T01:51:56.565Z",
       "ok": true,
       "partial": false,
-      "message": "11 registros relevantes comprobados",
-      "recordsSeen": 11
+      "message": "12 registros relevantes comprobados",
+      "recordsSeen": 12
     },
     "empleo": {
-      "checkedAt": "2026-11-27T17:23:51.233Z",
+      "checkedAt": "2026-11-28T01:51:56.565Z",
       "ok": true,
       "partial": true,
       "message": "Cobertura mediante BOCM: 0 convocatoria(s) reciente(s) revisada(s); el portal directo protege el acceso automatizado",
@@ -30,6 +30,23 @@
     }
   },
   "items": [
+    {
+      "id": "contratos:suministro-diseno-fabricacion-suministro-supervision-premontaje-montaje-adv-obras",
+      "source": "contratos",
+      "title": "Suministro para el diseño, fabricación, suministro, supervisión premontaje y montaje de ADV para las obras de instalación de una nueva Bretelle en el saco de Hospital de Henares en Línea 7",
+      "summary": "Id licitación: 6012600287;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 810776.85 EUR;",
+      "issuer": "Metro de Madrid, S.A.",
+      "publicationType": "Pendiente de adjudicación",
+      "status": "Pendiente de adjudicación",
+      "expediente": "6012600287",
+      "amount": 810776.85,
+      "deadline": "2026-11-27",
+      "publishedAt": "2026-11-28",
+      "updatedAt": "2026-11-28T00:14:30+02:00",
+      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/suministro-diseno-fabricacion-suministro-supervision-premontaje-montaje-adv-obras",
+      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-10/6012600287_ppt_signed.pdf",
+      "firstSeenAt": "2026-10-29T14:06:35.948Z"
+    },
     {
       "id": "contratos:obras-renovacion-sistema-senalizacion-linea-7a-metro-madrid-actuaciones-incluidas",
       "source": "contratos",
@@ -1941,23 +1958,6 @@
       "summary": "Id licitación: 6012600204;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 296535.00 EUR;",
       "amount": 296535,
       "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-07/6012600204_ppt_signed.pdf"
-    },
-    {
-      "id": "contratos:suministro-diseno-fabricacion-suministro-supervision-premontaje-montaje-adv-obras",
-      "source": "contratos",
-      "title": "Suministro para el diseño, fabricación, suministro, supervisión premontaje y montaje de ADV para las obras de instalación de una nueva Bretelle en el saco de Hospital de Henares en Línea 7",
-      "summary": "Id licitación: 6012600287;Órgano de Contratación: Metro de Madrid, S.A.;Importe: 810776.85 EUR;",
-      "issuer": "Metro de Madrid, S.A.",
-      "publicationType": "En plazo",
-      "status": "En plazo",
-      "expediente": "6012600287",
-      "amount": 810776.85,
-      "deadline": "2026-11-27",
-      "publishedAt": "2026-11-03",
-      "updatedAt": "2026-11-03T11:32:20+02:00",
-      "url": "https://contratos-publicos.comunidad.madrid/contrato-publico/suministro-diseno-fabricacion-suministro-supervision-premontaje-montaje-adv-obras",
-      "pdfUrl": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-10/6012600287_ppt_signed.pdf",
-      "firstSeenAt": "2026-10-29T14:06:35.948Z"
     },
     {
       "id": "contratos:servicio-centro-reprografia-cdr-metro-madrid",
